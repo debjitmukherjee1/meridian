@@ -5,9 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Meridian — Sentiment-Adjusted Valuation</title>
   <meta name="description" content="A market-research house that valuates companies through both classical finance and the prevailing sentiment of the market." />
+  <link rel="canonical" href="https://debjitmukherjee1.github.io/meridian/" />
+
   <meta property="og:title" content="Meridian — Sentiment-Adjusted Valuation" />
   <meta property="og:description" content="Fair value, read against the mood of the market. India · USA · UK · Japan. Updated daily." />
   <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://debjitmukherjee1.github.io/meridian/" />
+  <meta property="og:image" content="https://debjitmukherjee1.github.io/meridian/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Meridian — Sentiment-Adjusted Valuation" />
+  <meta name="twitter:description" content="Fair value, read against the mood of the market. India · USA · UK · Japan. Updated daily." />
+  <meta name="twitter:image" content="https://debjitmukherjee1.github.io/meridian/og-image.png" />
+
+  <meta name="theme-color" content="#efe8d8" />
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="css/styles.css" />
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
@@ -61,7 +74,14 @@
       <h2>Sector Sentiment</h2>
       <hr class="rule" />
       <p class="muted">The prevailing read across sectors for <strong id="ov-index">—</strong>. Green denotes a bullish crowd, oxblood a bearish one. Recomputed daily.</p>
-      <div id="heatmap" class="heatmap"></div>
+      <div id="heatmap" class="heatmap">
+        <div class="heat-cell skeleton" aria-hidden="true"></div>
+        <div class="heat-cell skeleton" aria-hidden="true"></div>
+        <div class="heat-cell skeleton" aria-hidden="true"></div>
+        <div class="heat-cell skeleton" aria-hidden="true"></div>
+        <div class="heat-cell skeleton" aria-hidden="true"></div>
+        <div class="heat-cell skeleton" aria-hidden="true"></div>
+      </div>
     </section>
 
     <!-- SECTOR SIGNALS (new) -->

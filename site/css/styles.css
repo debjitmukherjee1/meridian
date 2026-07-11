@@ -183,6 +183,17 @@ h2 { font-family: var(--display); font-weight: 600; font-size: 1.7rem; letter-sp
 .heat-cell .sector-score { font-family: var(--display); font-size: 2.1rem; font-weight: 700; font-variant-numeric: tabular-nums; }
 .heat-cell .sector-sub { font-size: .8rem; letter-spacing: 1px; text-transform: uppercase; }
 
+/* ---- loading skeleton (shown until the first fetch resolves) ---- */
+.heat-cell.skeleton {
+  height: 108px; animation: rise .4s var(--ease-out) both, shimmer 1.6s ease-in-out infinite;
+  background: linear-gradient(100deg, var(--surface) 40%, var(--surface-2) 50%, var(--surface) 60%);
+  background-size: 250% 100%;
+}
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -50% 0; }
+}
+
 /* ---- company cards ---- */
 .company-header { display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
 select {
