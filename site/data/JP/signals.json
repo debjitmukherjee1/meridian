@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11 07:48 UTC",
+  "updated_at": "2026-07-11 08:08 UTC",
   "market": "JP",
   "macro_theme": "Mixed macro signals; markets range-bound",
   "signals": [
@@ -11,7 +11,7 @@
       "drivers": [
         {
           "role": "main",
-          "text": "The default event and market volatility driven by concentration risk due to AI stocks surging to 45% of S&P 500 market cap in 2026",
+          "text": "The Consumer Discretionary sector is driven by a significant concentration risk due to AI stocks dominating the S & P 500 market cap.",
           "forecast": {
             "low": 1.5,
             "high": 3.5,
@@ -21,7 +21,7 @@
         },
         {
           "role": "supporting",
-          "text": "Earnings pops proving short-lived in volatile markets",
+          "text": "The surge in AI-linked debt raises concerns about its sustainability.",
           "forecast": {
             "low": 1.5,
             "high": 3.5,
@@ -31,7 +31,7 @@
         },
         {
           "role": "supporting",
-          "text": "Value stocks beating growth by a wide margin, indicating a shift in market sentiment",
+          "text": "The recent late recovery of the Sensex and Nifty indices in India may impact the sector sentiment globally.",
           "forecast": {
             "low": 1.5,
             "high": 3.5,
@@ -41,7 +41,7 @@
         },
         {
           "role": "supporting",
-          "text": "A limited number of S&P 500 stocks, just 5, account for 52% of its gains, exacerbating concentration risk",
+          "text": "Earnings pops being short-lived amid volatile markets contribute to the sector's overall mixed sentiment.",
           "forecast": {
             "low": 1.5,
             "high": 3.5,
@@ -59,7 +59,37 @@
       "drivers": [
         {
           "role": "main",
-          "text": "The Energy sector's mixed sentiment is driven by the default event caused by the volatile global market conditions.",
+          "text": "The default event has a primary impact on the Energy sector, specifically concerns over a potential debt crisis.",
+          "forecast": {
+            "low": 1.5,
+            "high": 3.5,
+            "direction": "+",
+            "text": "+1.5% to +3.5%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Volatility in the markets may also affect investor confidence in the sector.",
+          "forecast": {
+            "low": 1.5,
+            "high": 3.5,
+            "direction": "+",
+            "text": "+1.5% to +3.5%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Weakness in the US dollar could have a negative impact on international energy trade, affecting sector prices.",
+          "forecast": {
+            "low": 1.5,
+            "high": 3.5,
+            "direction": "+",
+            "text": "+1.5% to +3.5%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "The ongoing shift towards value stocks over growth stocks may indicate a sector rotation, which could impact Energy stocks.",
           "forecast": {
             "low": 1.5,
             "high": 3.5,
@@ -77,7 +107,7 @@
       "drivers": [
         {
           "role": "main",
-          "text": "The Financials sector is impacted by heightened concentration risk due to AI stocks dominating the S & P 500.",
+          "text": "The Financials sector is being impacted by increased concentration risk due to AI stocks surging to 45% of the S&P 500 market cap.",
           "forecast": {
             "low": 1.0,
             "high": 2.5,
@@ -87,7 +117,7 @@
         },
         {
           "role": "supporting",
-          "text": "Value stocks are beating growth stocks by a significant margin.",
+          "text": "Rupee weakness negatively affected the Sensex and Nifty indices despite late recovery",
           "forecast": {
             "low": 1.0,
             "high": 2.5,
@@ -97,7 +127,7 @@
         },
         {
           "role": "supporting",
-          "text": "A default event has contributed to the mixed sentiment.",
+          "text": "Earnings pops proved short-lived amid volatile markets",
           "forecast": {
             "low": 1.0,
             "high": 2.5,
@@ -107,7 +137,7 @@
         },
         {
           "role": "supporting",
-          "text": "Earnings reports are proving short-lived amid volatile market conditions.",
+          "text": "Trump's bull market is standing on shaky legs",
           "forecast": {
             "low": 1.0,
             "high": 2.5,
@@ -125,7 +155,7 @@
       "drivers": [
         {
           "role": "main",
-          "text": "The Healthcare sector's mixed sentiment is largely driven by the increasing dominance of AI stocks in the S&P 500.",
+          "text": "The default event is driving uncertainty and mixed sentiment in the Healthcare sector.",
           "forecast": {
             "low": 1.0,
             "high": 2.5,
@@ -135,7 +165,7 @@
         },
         {
           "role": "supporting",
-          "text": "US stock market concentration risk may impact AI-linked debt",
+          "text": "There is currently no specific mention of Healthcare stocks or the sector in the headlines provided.",
           "forecast": {
             "low": 1.0,
             "high": 2.5,
@@ -145,7 +175,7 @@
         },
         {
           "role": "supporting",
-          "text": "The sector's performance is likely influenced by the overall market volatility",
+          "text": "The overall market volatility and risk concerns mentioned in the headlines do not appear to be specifically linked to the Healthcare sector.",
           "forecast": {
             "low": 1.0,
             "high": 2.5,
@@ -155,7 +185,7 @@
         },
         {
           "role": "supporting",
-          "text": "Earnings pops in Healthcare are proving short-lived amid the volatile markets",
+          "text": "The article on value stocks beating growth and earnings pops proving short-lived do not provide specific insights on the Healthcare sector.",
           "forecast": {
             "low": 1.0,
             "high": 2.5,
@@ -173,7 +203,7 @@
       "drivers": [
         {
           "role": "main",
-          "text": "The Industrials sector is being driven down by extreme concentration risk from AI stocks making up 45% of the S&P 500 market cap in 2026.",
+          "text": "The Industrials sector is experiencing a mixed sentiment due to concerns over the sustainability of historic AI dominance and its link to a high $1.4 trillion debt.",
           "forecast": {
             "low": 1.5,
             "high": 3.0,
@@ -183,7 +213,7 @@
         },
         {
           "role": "supporting",
-          "text": "The recent late market recovery, such as in the Sensex gaining 118 points, may not be enough to counteract the broader market trends.",
+          "text": "The high concentration of AI stocks at 45% of S&P 500 market cap in 2026 poses a significant risk.",
           "forecast": {
             "low": 1.5,
             "high": 3.0,
@@ -193,7 +223,7 @@
         },
         {
           "role": "supporting",
-          "text": "Value stocks beating growth stocks by a wide margin could also affect industrials, particularly if AI-linked companies are not performing as well as expected.",
+          "text": "Earnings pops are proving short-lived, adding to market volatility and negative sentiment.",
           "forecast": {
             "low": 1.5,
             "high": 3.0,
@@ -203,7 +233,7 @@
         },
         {
           "role": "supporting",
-          "text": "Trump's comments on the shaky legs of the market may exacerbate investor nervousness and lead to further downward pressure on the sector.",
+          "text": "A narrow market with just 5 stocks accounting for 52% of S&P gains raises concerns about market stability.",
           "forecast": {
             "low": 1.5,
             "high": 3.0,
@@ -221,7 +251,7 @@
       "drivers": [
         {
           "role": "main",
-          "text": "The Technology sector's mixed sentiment is mainly driven by the dominance of AI stocks in the S & P 500, comprising 45% of the market cap in 2026.",
+          "text": "The Technology sector is impacted by the increasing influence of Artificial Intelligence (AI) on the S&P 500.",
           "forecast": {
             "low": 1.5,
             "high": 3.5,
@@ -231,7 +261,7 @@
         },
         {
           "role": "supporting",
-          "text": "The surge in AI-linked debt worth $1.4 trillion raises concerns about sustaining this historic dominance.",
+          "text": "AI stocks now make up 45% of S&P 500 market cap.",
           "forecast": {
             "low": 1.5,
             "high": 3.5,
@@ -241,7 +271,7 @@
         },
         {
           "role": "supporting",
-          "text": "The concentration of 5 stocks accounting for 52% of the S & P gains casts a spotlight on market risk and volatility.",
+          "text": "The sector is also affected by the concentration risk of the US stock market reaching extreme levels.",
           "forecast": {
             "low": 1.5,
             "high": 3.5,
@@ -251,7 +281,7 @@
         },
         {
           "role": "supporting",
-          "text": "Earnings pops, which are short-lived, also contribute to the mixed sentiment, indicating a volatile market environment.",
+          "text": "The dominance of AI-linked debt, valued at $1.4 trillion, raises concerns about its sustainability.",
           "forecast": {
             "low": 1.5,
             "high": 3.5,

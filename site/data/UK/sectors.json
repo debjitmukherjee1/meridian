@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11 07:48 UTC",
+  "updated_at": "2026-07-11 08:08 UTC",
   "market": "UK",
   "index": "FTSE 100",
   "macro_theme": "Geopolitical conflict raises energy-sector risk",
@@ -17,12 +17,12 @@
     },
     {
       "name": "Financials",
-      "score": 63,
+      "score": 60,
       "label": "Bullish"
     },
     {
       "name": "Healthcare",
-      "score": 66,
+      "score": 63,
       "label": "Bullish"
     },
     {
@@ -32,8 +32,8 @@
     },
     {
       "name": "Technology",
-      "score": 60,
-      "label": "Bullish"
+      "score": 50,
+      "label": "Neutral"
     }
   ]
 }
