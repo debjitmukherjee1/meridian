@@ -69,7 +69,17 @@ def _groq_sector_analysis(sector, headlines):
     obj = json.loads(r.json()["choices"][0]["message"]["content"])
     score = max(0, min(100, int(obj.get("score", 50))))
     notes = obj.get("notes") or []
-    return score, [str(n) for n in notes]
+    # Defensive: a small model can return "notes" as something other than a
+    # flat list of strings (a single string -- which Python would otherwise
+    # iterate character-by-character into single-letter "notes" -- or a list
+    # of dicts, whose str() would leak a Python repr into user-facing text).
+    # Anything not cleanly a list of strings is discarded, not coerced, so
+    # the caller's existing "pad missing notes with the tone fallback" path
+    # engages instead of shipping garbage.
+    if not isinstance(notes, list):
+        notes = []
+    notes = [n for n in notes if isinstance(n, str)]
+    return score, notes
 
 
 def news_scores(news_items):
@@ -142,7 +152,16 @@ def build_sentiment(companies, news_items, macro_theme):
 
     enriched = []
     for c in companies:
-        news = news_by_sector.get(c["sector"], 50)
+        # Fall back to the shared "Market" bucket (broad/unsectored
+        # headlines) before defaulting to a flat neutral 50 -- matches the
+        # same fallback sector_signals.py already uses. Without this, any
+        # sector with zero headlines tagged to it specifically (common even
+        # with real sector-tagging, since not every headline names a
+        # watchlist company) got a hardcoded neutral score instead of the
+        # genuinely-scored broad-market read.
+        news = news_by_sector.get(c["sector"])
+        if news is None:
+            news = news_by_sector.get("Market", 50)
         index = round(w["news"] * news + w["macro"] * macro, 1)
         c = dict(c)
         c["sentiment_index"] = index

@@ -16,9 +16,18 @@ import config
 def _sector_median_pe(companies):
     by_sector = {}
     for c in companies:
-        if c.get("pe"):
+        # pe > 0 (not just truthy) -- a negative P/E (loss-making company)
+        # would otherwise poison the sector median for its peers, and a
+        # negative multiple applied to another company's positive EPS
+        # produces a nonsensical negative "fair value" anchor.
+        if c.get("pe") and c["pe"] > 0:
             by_sector.setdefault(c["sector"], []).append(c["pe"])
-    return {s: statistics.median(v) for s, v in by_sector.items() if v}
+    # A "median" from exactly one company, applied back to that same
+    # company, is tautological -- implied_price collapses to ~its own
+    # current price (pe = price/eps by definition), not an independent
+    # confirming signal. Only keep sectors with >=2 constituents so the
+    # multiple genuinely comes from peers, not the company grading itself.
+    return {s: statistics.median(v) for s, v in by_sector.items() if len(v) >= 2}
 
 
 def _company_ev_ebitda(c):
@@ -40,7 +49,8 @@ def _sector_median_ev_ebitda(companies):
         m = _company_ev_ebitda(c)
         if m:
             by_sector.setdefault(c["sector"], []).append(m)
-    return {s: statistics.median(v) for s, v in by_sector.items() if v}
+    # Same single-constituent guard as _sector_median_pe -- see comment there.
+    return {s: statistics.median(v) for s, v in by_sector.items() if len(v) >= 2}
 
 
 def _dcf_lite(fcf_per_share):

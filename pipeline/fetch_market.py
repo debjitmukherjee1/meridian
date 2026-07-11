@@ -96,6 +96,14 @@ def _handshake():
     crumb = r.text.strip()
     if not crumb:
         raise RuntimeError("empty crumb from Yahoo handshake")
+    # Yahoo's crumb endpoint returns HTTP 200 (not an error status) with the
+    # literal body "Edge: Too Many Requests" when rate-limited -- a non-empty
+    # string that would otherwise sail past the check above and get cached
+    # as if it were a real, usable crumb, burning retries against a crumb
+    # that can never succeed until the reset-on-failure path eventually
+    # catches it downstream.
+    if "too many requests" in crumb.lower():
+        raise RuntimeError(f"Yahoo crumb endpoint rate-limited: {crumb!r}")
     return session, crumb
 
 
@@ -169,6 +177,16 @@ def _quote_to_company(ticker, name, sector, yahoo_symbol, quote, session, crumb)
     try:
         extra = _fetch_extra_financials(yahoo_symbol, shares_out, session, crumb)
     except Exception as e:
+        status = getattr(getattr(e, "response", None), "status_code", None)
+        if status in (401, 403):
+            # This specific request failing with an auth error means the
+            # CRUMB itself is bad, not just this one ticker -- reset the
+            # module-level cache so the next ticker (and, since the crumb
+            # is cached for the whole process, every later market too) gets
+            # a fresh handshake instead of quietly repeating the same
+            # failure for the rest of the run.
+            global _session_crumb
+            _session_crumb = None
         print(f"[market] {ticker} extra-financials lookup failed ({e}); "
               f"leaving fcf/ebitda/net_debt per-share as None")
         extra = {"fcf_per_share": None, "ebitda_per_share": None, "net_debt_per_share": None}
