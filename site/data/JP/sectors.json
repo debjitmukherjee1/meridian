@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11 09:44 UTC",
+  "updated_at": "2026-07-11 12:54 UTC",
   "market": "JP",
   "index": "Nikkei 225",
   "macro_theme": "Geopolitical conflict raises energy-sector risk",
@@ -13,12 +13,12 @@
     },
     {
       "name": "Energy",
-      "score": 45,
-      "label": "Neutral"
+      "score": 60,
+      "label": "Bullish"
     },
     {
       "name": "Financials",
-      "score": 67,
+      "score": 63,
       "label": "Bullish"
     },
     {
@@ -33,7 +33,7 @@
     },
     {
       "name": "Technology",
-      "score": 57,
+      "score": 54,
       "label": "Neutral"
     }
   ]

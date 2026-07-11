@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11 09:44 UTC",
+  "updated_at": "2026-07-11 12:54 UTC",
   "market": "IN",
   "currency": "\u20b9",
   "companies": [
@@ -10,32 +10,34 @@
       "price": 1307.8,
       "eps": 60.94,
       "pe": 21.460455,
-      "ebitda_per_share": null,
       "fcf_per_share": 16.130921764847958,
-      "sentiment_index": 53.0,
+      "ebitda_per_share": 126.7063309660043,
+      "net_debt_per_share": 103.3462168530996,
+      "sentiment_index": 52.4,
       "sentiment_breakdown": {
-        "news": 63,
+        "news": 62,
         "macro": 38
       },
-      "base_fair_value": 781.09,
-      "sentiment_adjusted_fair_value": 788.12
+      "base_fair_value": 956.66,
+      "sentiment_adjusted_fair_value": 963.55
     },
     {
       "ticker": "TCS",
       "name": "Tata Consultancy",
       "sector": "Technology",
       "price": 2069.0,
-      "eps": 139.04,
-      "pe": 14.88061,
-      "ebitda_per_share": null,
+      "eps": 137.59,
+      "pe": 15.037431,
       "fcf_per_share": null,
-      "sentiment_index": 60.2,
+      "ebitda_per_share": 199.69459206873725,
+      "net_debt_per_share": -82.35566397705917,
+      "sentiment_index": 58.4,
       "sentiment_breakdown": {
-        "news": 75,
+        "news": 72,
         "macro": 38
       },
-      "base_fair_value": 2002.78,
-      "sentiment_adjusted_fair_value": 2064.07
+      "base_fair_value": 50257.27,
+      "sentiment_adjusted_fair_value": 51523.75
     },
     {
       "ticker": "INFY",
@@ -44,15 +46,16 @@
       "price": 1068.0,
       "eps": 76.68,
       "pe": 13.928013,
-      "ebitda_per_share": null,
       "fcf_per_share": 0.7829850388601102,
-      "sentiment_index": 60.2,
+      "ebitda_per_share": 1.0936228909438386,
+      "net_debt_per_share": -0.676475335396061,
+      "sentiment_index": 58.4,
       "sentiment_breakdown": {
-        "news": 75,
+        "news": 72,
         "macro": 38
       },
-      "base_fair_value": 558.44,
-      "sentiment_adjusted_fair_value": 575.53
+      "base_fair_value": 554.22,
+      "sentiment_adjusted_fair_value": 568.19
     },
     {
       "ticker": "HDFCBANK",
@@ -61,15 +64,16 @@
       "price": 824.95,
       "eps": 45.21,
       "pe": 18.24707,
-      "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 66.2,
+      "ebitda_per_share": null,
+      "net_debt_per_share": 179.56935655258582,
+      "sentiment_index": 64.4,
       "sentiment_breakdown": {
-        "news": 85,
+        "news": 82,
         "macro": 38
       },
       "base_fair_value": 829.51,
-      "sentiment_adjusted_fair_value": 869.82
+      "sentiment_adjusted_fair_value": 865.34
     },
     {
       "ticker": "ICICIBANK",
@@ -78,15 +82,16 @@
       "price": 1401.2,
       "eps": 75.95,
       "pe": 18.44898,
-      "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 66.2,
+      "ebitda_per_share": null,
+      "net_debt_per_share": -62.33967680369084,
+      "sentiment_index": 64.4,
       "sentiment_breakdown": {
-        "news": 85,
+        "news": 82,
         "macro": 38
       },
       "base_fair_value": 1393.53,
-      "sentiment_adjusted_fair_value": 1461.26
+      "sentiment_adjusted_fair_value": 1453.73
     },
     {
       "ticker": "HINDUNILVR",
@@ -95,32 +100,34 @@
       "price": 2150.6,
       "eps": 45.38,
       "pe": 47.390923,
-      "ebitda_per_share": null,
       "fcf_per_share": 27.769722885528846,
-      "sentiment_index": 60.2,
+      "ebitda_per_share": 61.94269115731841,
+      "net_debt_per_share": -23.47216769994951,
+      "sentiment_index": 67.4,
       "sentiment_breakdown": {
-        "news": 75,
+        "news": 87,
         "macro": 38
       },
-      "base_fair_value": 1294.26,
-      "sentiment_adjusted_fair_value": 1333.86
+      "base_fair_value": 1579.7,
+      "sentiment_adjusted_fair_value": 1662.16
     },
     {
       "ticker": "TMPV",
       "name": "Tata Motors Passenger Vehicles",
       "sector": "Consumer Discretionary",
       "price": 337.95,
-      "eps": -4.53,
+      "eps": -4.43,
       "pe": null,
-      "ebitda_per_share": null,
       "fcf_per_share": -53.298530404136436,
-      "sentiment_index": 39.8,
+      "ebitda_per_share": 36.15125741220856,
+      "net_debt_per_share": 102.01265164077493,
+      "sentiment_index": 45.2,
       "sentiment_breakdown": {
-        "news": 41,
+        "news": 50,
         "macro": 38
       },
       "base_fair_value": 337.95,
-      "sentiment_adjusted_fair_value": 327.61
+      "sentiment_adjusted_fair_value": 333.08
     },
     {
       "ticker": "SUNPHARMA",
@@ -129,15 +136,16 @@
       "price": 1935.5,
       "eps": 47.81,
       "pe": 40.483162,
-      "ebitda_per_share": null,
       "fcf_per_share": 24.791791302070674,
-      "sentiment_index": 63.2,
+      "ebitda_per_share": 67.99171446077827,
+      "net_debt_per_share": -120.4052737730072,
+      "sentiment_index": 70.4,
       "sentiment_breakdown": {
-        "news": 80,
+        "news": 92,
         "macro": 38
       },
-      "base_fair_value": 1163.22,
-      "sentiment_adjusted_fair_value": 1209.28
+      "base_fair_value": 1420.65,
+      "sentiment_adjusted_fair_value": 1507.59
     }
   ]
 }

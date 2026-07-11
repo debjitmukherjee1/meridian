@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11 09:44 UTC",
+  "updated_at": "2026-07-11 12:54 UTC",
   "market": "JP",
   "macro_theme": "Geopolitical conflict raises energy-sector risk",
   "signals": [
@@ -23,38 +23,38 @@
     },
     {
       "sector": "Energy",
-      "read": "Neutral",
-      "score": 45,
+      "read": "Bullish",
+      "score": 60,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
           "text": "Supply-route risk from conflict pushes crude higher; refiners and upstream names diverge",
           "forecast": {
-            "low": 4.4,
-            "high": 9.9,
-            "direction": "-",
-            "text": "-4.4% to -9.9%"
+            "low": 4.8,
+            "high": 10.8,
+            "direction": "+",
+            "text": "+4.8% to +10.8%"
           }
         },
         {
           "role": "supporting",
           "text": "Freight and insurance costs rising on shipping-lane threats",
           "forecast": {
-            "low": 4.4,
-            "high": 9.9,
-            "direction": "-",
-            "text": "-4.4% to -9.9%"
+            "low": 4.8,
+            "high": 10.8,
+            "direction": "+",
+            "text": "+4.8% to +10.8%"
           }
         },
         {
           "role": "supporting",
           "text": "Strategic-reserve releases could cap upside, adding two-way risk",
           "forecast": {
-            "low": 4.4,
-            "high": 9.9,
-            "direction": "-",
-            "text": "-4.4% to -9.9%"
+            "low": 4.8,
+            "high": 10.8,
+            "direction": "+",
+            "text": "+4.8% to +10.8%"
           }
         }
       ]
@@ -62,7 +62,7 @@
     {
       "sector": "Financials",
       "read": "Bullish",
-      "score": 67,
+      "score": 63,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
@@ -70,9 +70,9 @@
           "text": "Financials sentiment supported by the prevailing geopolitical supply backdrop",
           "forecast": {
             "low": 1.3,
-            "high": 4.0,
+            "high": 3.8,
             "direction": "+",
-            "text": "+1.3% to +4.0%"
+            "text": "+1.3% to +3.8%"
           }
         }
       ]
@@ -116,7 +116,7 @@
     {
       "sector": "Technology",
       "read": "Neutral",
-      "score": 57,
+      "score": 54,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
@@ -124,9 +124,9 @@
           "text": "Technology sentiment supported by the prevailing geopolitical supply backdrop",
           "forecast": {
             "low": 1.1,
-            "high": 3.4,
+            "high": 3.2,
             "direction": "+",
-            "text": "+1.1% to +3.4%"
+            "text": "+1.1% to +3.2%"
           }
         }
       ]

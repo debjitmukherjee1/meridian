@@ -1,76 +1,90 @@
 {
-  "updated_at": "2026-07-11 09:44 UTC",
+  "updated_at": "2026-07-11 12:54 UTC",
   "market": "UK",
   "items": [
     {
-      "title": "Chipmakers rally as AI demand outpaces supply",
-      "sector": "Technology",
-      "tone": 3.4,
-      "url": "https://www.gdeltproject.org/",
-      "note": "AI demand boosts chipmakers, driving sector optimism."
+      "title": "AI now dominates the S & P 500 like never before : US stock market concentration risk hits extreme levels : AI stocks surge to 45 % of S & P 500 market cap in 2026 can $1 . 4 trillion AI - linked debt sustain this historic dominance ?",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://economictimes.indiatimes.com/news/international/us/us-stock-market-concentration-risk-hits-extreme-levels-ai-stocks-surge-to-45-of-sp-500-market-cap-in-2026-can-1-4-trillion-ai-linked-debt-sustain-this-historic-dominance/articleshow/130493020.cms",
+      "note": "US stock market concentration risk is a concern due to AI dominance."
     },
     {
-      "title": "Regulators open probe into big-tech ad practices",
-      "sector": "Technology",
-      "tone": -2.1,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Regulatory scrutiny into big-tech ad practices adds uncertainty."
+      "title": "Quant Ratings Updated on 120 Stocks",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://investorplace.com/market360/2026/04/quant-ratings-updated-on-120-stocks/",
+      "note": "Quant Ratings update has no significant impact on sentiment."
     },
     {
-      "title": "Consumer spending softens amid rate uncertainty",
-      "sector": "Consumer Discretionary",
-      "tone": -1.8,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Investor concern for higher rates weakens short-term consumer spending."
+      "title": "Sensex Gains 118 Points After Late Recovery , Nifty Ends Above 23 , 650 Despite Rupee Weakness",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://www.freepressjournal.in/business/sensex-gains-118-points-after-late-recovery-nifty-ends-above-23650-despite-rupee-weakness",
+      "note": "Rupee weakness was overshadowed by Sensex and Nifty gains."
     },
     {
-      "title": "EV price war squeezes automaker margins",
-      "sector": "Consumer Discretionary",
-      "tone": -2.6,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Automaker profit margins decline due to EV price competition, affecting sector growth."
+      "title": "Jim Cramer Shared Latest Take On Mega Quantum Computing Investment & Discussed These 13 Stocks",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://www.insidermonkey.com/blog/jim-cramer-shared-latest-take-on-mega-quantum-computing-investment-discussed-these-13-stocks-1768029/",
+      "note": "Jim Cramer's endorsement of quantum computing and 13 stocks may have positively affected sentiment."
     },
     {
-      "title": "Banks post resilient quarterly earnings",
-      "sector": "Financials",
-      "tone": 2.2,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Banks' resilient earnings boost investor optimism for sector growth."
+      "title": "Morgan Stanley issues verdict for nervous stock market investors",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-issues-verdict-nervous-183300077.html",
+      "note": "Morgan Stanley's verdict may have increased investor anxiety."
     },
     {
-      "title": "Payment networks expand into emerging markets",
-      "sector": "Financials",
-      "tone": 1.9,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Emerging market expansion by payment networks supports long-term growth prospects."
+      "title": "This is not a flash in the pan : Why value stocks are beating growth by such a wide margin",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/not-flash-pan-why-value-225000407.html",
+      "note": "Value stocks beating growth stocks may indicate market normalization and positive sentiment for value investors."
     },
     {
-      "title": "Oil steadies as supply concerns ease",
-      "sector": "Energy",
-      "tone": 0.6,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Ease of oil supply concerns lifts Energy sentiment slightly."
+      "title": "Earnings pops prove short - lived amid volatile markets",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://www.livemint.com/market/stock-market-news/india-stock-market-earnings-season-short-lived-gains-investor-focus-future-guidance-11779180072439.html",
+      "note": "Earnings pops prove short-lived amid volatile markets, increasing investor uncertainty and caution."
     },
     {
-      "title": "Staples firms hold pricing power through inflation",
-      "sector": "Consumer Staples",
-      "tone": 1.4,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Staples firms demonstrate price control, potentially limiting inflation impact."
+      "title": "Trump Bull Market Is Standing on Shaky Legs . Just 5 Stocks Account for 52 % of the S & P Gains",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/trump-bull-market-standing-shaky-161730353.html",
+      "note": "Trump Bull Market being 'shaky legs' supported by just 5 stocks could suggest a fragile market and bearish sentiment."
     },
     {
-      "title": "Drugmaker wins approval for key therapy",
-      "sector": "Healthcare",
-      "tone": 3.1,
-      "url": "https://www.gdeltproject.org/",
-      "note": "The approval of a key therapy boosts investor optimism in Healthcare."
+      "title": "Market research company warn of AI stocks selling cheap ; say they point to a  dangerous sign",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/market-research-company-warn-of-ai-stocks-selling-cheap-say-they-point-to-a-dangerous-sign/articleshow/131900405.cms",
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
     },
     {
-      "title": "Geopolitical tension lifts safe-haven demand",
-      "sector": "Energy",
-      "tone": -1.2,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Geopolitical tension positively affects Energy market sentiment due to safe-haven demand."
+      "title": "How will markets open today ? Nifty , Bank Nifty levels . Sectors and stocks to watch .",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://www.indiainfoline.com/blog/how-will-markets-open-today-nifty-bank-nifty-levels-sectors-and-stocks-to-watch",
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+    },
+    {
+      "title": "3 Overvalued Stocks to Take Profits In and 3 Undervalued Stocks to Buy Instead",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://www.morningstar.com/stocks/3-overvalued-stocks-take-profits-3-undervalued-stocks-buy-instead-2",
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+    },
+    {
+      "title": "Mid - and small - cap outperformance cycle may be back after earnings reset : Brokerage",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://www.moneycontrol.com/news/business/markets/mid-and-small-cap-outperformance-cycle-may-be-back-after-earnings-reset-brokerage-13933014.html",
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
     }
   ]
 }
