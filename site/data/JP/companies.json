@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11 08:08 UTC",
+  "updated_at": "2026-07-11 09:44 UTC",
   "market": "JP",
   "currency": "\u00a5",
   "companies": [
@@ -12,13 +12,13 @@
       "pe": 9.560093,
       "ebitda_per_share": null,
       "fcf_per_share": -101.7507614525833,
-      "sentiment_index": 50.0,
+      "sentiment_index": 42.2,
       "sentiment_breakdown": {
-        "news": 50,
-        "macro": 50
+        "news": 45,
+        "macro": 38
       },
       "base_fair_value": 2823.0,
-      "sentiment_adjusted_fair_value": 2823.0
+      "sentiment_adjusted_fair_value": 2756.94
     },
     {
       "ticker": "6758",
@@ -29,13 +29,13 @@
       "pe": 19.607729,
       "ebitda_per_share": null,
       "fcf_per_share": -231.26460811882995,
-      "sentiment_index": 50.0,
+      "sentiment_index": 57.2,
       "sentiment_breakdown": {
-        "news": 50,
-        "macro": 50
+        "news": 70,
+        "macro": 38
       },
       "base_fair_value": 2005.18,
-      "sentiment_adjusted_fair_value": 2005.18
+      "sentiment_adjusted_fair_value": 2048.49
     },
     {
       "ticker": "9984",
@@ -46,13 +46,13 @@
       "pe": 7.29927,
       "ebitda_per_share": null,
       "fcf_per_share": -428.3868418599135,
-      "sentiment_index": 50.0,
+      "sentiment_index": 57.2,
       "sentiment_breakdown": {
-        "news": 50,
-        "macro": 50
+        "news": 70,
+        "macro": 38
       },
       "base_fair_value": 10214.83,
-      "sentiment_adjusted_fair_value": 10214.83
+      "sentiment_adjusted_fair_value": 10435.47
     },
     {
       "ticker": "8306",
@@ -63,13 +63,13 @@
       "pe": 16.286293,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 50.0,
+      "sentiment_index": 67.4,
       "sentiment_breakdown": {
-        "news": 50,
-        "macro": 50
+        "news": 87,
+        "macro": 38
       },
       "base_fair_value": 3461.0,
-      "sentiment_adjusted_fair_value": 3461.0
+      "sentiment_adjusted_fair_value": 3641.66
     },
     {
       "ticker": "9432",
@@ -80,13 +80,13 @@
       "pe": 11.704997,
       "ebitda_per_share": null,
       "fcf_per_share": 126.34131854828514,
-      "sentiment_index": 50.0,
+      "sentiment_index": 57.2,
       "sentiment_breakdown": {
-        "news": 50,
-        "macro": 50
+        "news": 70,
+        "macro": 38
       },
       "base_fair_value": 1069.96,
-      "sentiment_adjusted_fair_value": 1069.96
+      "sentiment_adjusted_fair_value": 1093.07
     },
     {
       "ticker": "4502",
@@ -97,13 +97,13 @@
       "pe": null,
       "ebitda_per_share": null,
       "fcf_per_share": 421.3446934617104,
-      "sentiment_index": 50.0,
+      "sentiment_index": 60.1,
       "sentiment_breakdown": {
-        "news": 50,
-        "macro": 50
+        "news": 74.8,
+        "macro": 38
       },
       "base_fair_value": 6644.28,
-      "sentiment_adjusted_fair_value": 6644.28
+      "sentiment_adjusted_fair_value": 6845.6
     },
     {
       "ticker": "6501",
@@ -114,13 +114,13 @@
       "pe": 26.595745,
       "ebitda_per_share": null,
       "fcf_per_share": 270.44196830565204,
-      "sentiment_index": 50.0,
+      "sentiment_index": 45.2,
       "sentiment_breakdown": {
         "news": 50,
-        "macro": 50
+        "macro": 38
       },
       "base_fair_value": 4482.33,
-      "sentiment_adjusted_fair_value": 4482.33
+      "sentiment_adjusted_fair_value": 4417.78
     },
     {
       "ticker": "8058",
@@ -131,13 +131,13 @@
       "pe": 21.008244,
       "ebitda_per_share": null,
       "fcf_per_share": 10.564322239515024,
-      "sentiment_index": 50.0,
+      "sentiment_index": 45.2,
       "sentiment_breakdown": {
         "news": 50,
-        "macro": 50
+        "macro": 38
       },
       "base_fair_value": 2287.8,
-      "sentiment_adjusted_fair_value": 2287.8
+      "sentiment_adjusted_fair_value": 2254.86
     }
   ]
 }
