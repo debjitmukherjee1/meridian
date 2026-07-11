@@ -375,3 +375,63 @@ footer { padding: 1.75rem; text-align: center; color: var(--ink-dim); font-size:
   position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
   overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
 }
+
+/* ============================================================================
+   RESPONSIVE — this site had zero breakpoints until now. Verified against a
+   real 375px viewport (an iframe forces genuine CSS media-query evaluation,
+   unlike this sandbox's window-resize tool which doesn't affect actual page
+   layout) rather than guessed from source. Two real, ugly bugs found and
+   fixed here: the topbar's timestamp was wrapping character-by-character
+   into a tall vertical stack, and the 6-tab nav had zero visual affordance
+   that 3 of the 6 tabs were scrolled off-screen.
+   ========================================================================== */
+@media (max-width: 640px) {
+  main { padding: 1.25rem 1rem; }
+
+  .topbar { padding: 1rem 1.1rem; gap: .75rem; }
+  .brand h1 { font-size: 1.5rem; letter-spacing: 1.5px; }
+  .tagline { font-size: .82rem; }
+  .monogram { width: 38px; height: 38px; }
+  /* Stack market-switch above the timestamp instead of forcing both onto
+     one row -- that's what was squeezing "2026-07-11 13:45 UTC" down to
+     one word per line. Each now gets the full row width to itself. */
+  .topbar-right { flex-direction: column; align-items: flex-end; gap: .5rem; width: 100%; }
+  .updated { text-align: right; white-space: nowrap; }
+
+  .macro-banner { padding: .65rem 1.1rem; font-size: .85rem; }
+
+  /* The tab row already scrolls (overflow-x: auto) -- it just gave no hint
+     that there was more to scroll to. A soft fade on the trailing edge
+     signals "more tabs this way" the same way a card deck's edge does. */
+  .tabs {
+    padding: 0 0 0 1.1rem;
+    -webkit-mask-image: linear-gradient(to right, #000 90%, transparent 100%);
+            mask-image: linear-gradient(to right, #000 90%, transparent 100%);
+    -webkit-overflow-scrolling: touch;
+  }
+  .tab { padding: .75rem .9rem; font-size: .92rem; }
+
+  h2 { font-size: 1.4rem; }
+
+  .heatmap { grid-template-columns: 1fr; }
+  .heat-cell .sector-score { font-size: 1.8rem; }
+
+  .company-header { align-items: flex-start; }
+  .cards { grid-template-columns: 1fr; gap: .75rem; }
+  .card { padding: .9rem; }
+  .card-value { font-size: 1.7rem; }
+
+  .slider-row { align-items: flex-start; }
+  .slider-row label { width: 100%; }
+  input[type=range] { width: 100%; }
+
+  .signal-card, .accordion-head, .news-item { padding-left: .9rem; padding-right: .9rem; }
+  .accordion-body > * { padding-left: .9rem; padding-right: .9rem; }
+  .signal-sector { font-size: 1.15rem; }
+
+  /* The SAFV formula's two lines (40 & 34 monospace chars) overflowed the
+     375px card at the base 1rem size -- .formula's overflow-x:auto made it
+     scrollable but gave no visual hint, so it just looked clipped. Shrinking
+     the font is enough for both lines to fit without scrolling at all. */
+  .formula { font-size: .76rem; padding: .8rem; }
+}
