@@ -1,100 +1,100 @@
 {
-  "updated_at": "2026-07-11 12:54 UTC",
+  "updated_at": "2026-07-11 13:45 UTC",
   "market": "US",
-  "macro_theme": "Mixed macro signals; markets range-bound",
+  "macro_theme": "Geopolitical conflict raises energy-sector risk",
   "signals": [
     {
       "sector": "Consumer Discretionary",
       "read": "Neutral",
-      "score": 50,
-      "event_type": "default",
+      "score": 48,
+      "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "The Consumer Discretionary sector's mixed sentiment is largely driven by the dominance of AI stocks, now accounting for 45% of S&P 500 market cap, amid concerns over sustaining historic market concentration risks.",
+          "text": "The sector's mixed sentiment is primarily driven by geopolitical and economic factors affecting consumer spending and industry-specific supply disruptions, particularly in the automotive sector.",
           "forecast": {
-            "low": 1.5,
-            "high": 3.5,
-            "direction": "+",
-            "text": "+1.5% to +3.5%"
+            "low": 1.6,
+            "high": 3.6,
+            "direction": "-",
+            "text": "-1.6% to -3.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "The recent AI-linked debt of $1.4 trillion raises concerns over sustaining this dominance",
+          "text": "Falling EV prices, caused by a price war, squeeze automaker margins.",
           "forecast": {
-            "low": 1.5,
-            "high": 3.5,
-            "direction": "+",
-            "text": "+1.5% to +3.5%"
+            "low": 1.6,
+            "high": 3.6,
+            "direction": "-",
+            "text": "-1.6% to -3.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "The volatile market conditions may impact earnings pops and contribute to the sector's mixed sentiment",
+          "text": "Rate uncertainty has led to decreased consumer spending.",
           "forecast": {
-            "low": 1.5,
-            "high": 3.5,
-            "direction": "+",
-            "text": "+1.5% to +3.5%"
+            "low": 1.6,
+            "high": 3.6,
+            "direction": "-",
+            "text": "-1.6% to -3.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "The shifting preference towards value stocks, which are beating growth stocks by a wide margin, may also be weighing on sector sentiment",
+          "text": "Uncertainty surrounding interest rates has impacted consumer spending, specifically leading to soft consumption.",
           "forecast": {
-            "low": 1.5,
-            "high": 3.5,
-            "direction": "+",
-            "text": "+1.5% to +3.5%"
+            "low": 1.6,
+            "high": 3.6,
+            "direction": "-",
+            "text": "-1.6% to -3.6%"
           }
         }
       ]
     },
     {
       "sector": "Consumer Staples",
-      "read": "Neutral",
-      "score": 50,
-      "event_type": "default",
+      "read": "Bullish",
+      "score": 66,
+      "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "The sector's mix sentiment is heavily influenced by a default event in the AI-laden and debt-heavy S&P 500.",
+          "text": "The main impact on the Consumer Staples sector is its ability to maintain pricing power despite inflation due to a geopolitical supply event.",
           "forecast": {
-            "low": 0.5,
-            "high": 2.0,
+            "low": 1.3,
+            "high": 3.3,
             "direction": "+",
-            "text": "+0.5% to +2.0%"
+            "text": "+1.3% to +3.3%"
           }
         },
         {
           "role": "supporting",
-          "text": "The growing dominance of AI stocks (45% of S&P 500 market cap) contributes to market uncertainty.",
+          "text": "Staples firms can hold pricing power through inflation",
           "forecast": {
-            "low": 0.5,
-            "high": 2.0,
+            "low": 1.3,
+            "high": 3.3,
             "direction": "+",
-            "text": "+0.5% to +2.0%"
+            "text": "+1.3% to +3.3%"
           }
         },
         {
           "role": "supporting",
-          "text": "A surge in AI-linked debt ($1.4 trillion) may raise concerns about companies' ability to sustain this historic dominance.",
+          "text": "A geopolitical supply event is driving a bullish sentiment in the sector",
           "forecast": {
-            "low": 0.5,
-            "high": 2.0,
+            "low": 1.3,
+            "high": 3.3,
             "direction": "+",
-            "text": "+0.5% to +2.0%"
+            "text": "+1.3% to +3.3%"
           }
         },
         {
           "role": "supporting",
-          "text": "The volatile market conditions, as evident from late recoveries and rupee weakening, further exacerbate investor anxiety.",
+          "text": "The sector currently has a bullish sentiment of 66/100",
           "forecast": {
-            "low": 0.5,
-            "high": 2.0,
+            "low": 1.3,
+            "high": 3.3,
             "direction": "+",
-            "text": "+0.5% to +2.0%"
+            "text": "+1.3% to +3.3%"
           }
         }
       ]
@@ -102,143 +102,123 @@
     {
       "sector": "Energy",
       "read": "Neutral",
-      "score": 50,
-      "event_type": "default",
+      "score": 42,
+      "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "A default event is primarily driving the mixed sentiment in the Energy sector, causing significant price fluctuations.",
+          "text": "Geopolitical supply event driving bearish sentiment in the Energy sector.",
           "forecast": {
-            "low": 1.5,
-            "high": 3.5,
-            "direction": "+",
-            "text": "+1.5% to +3.5%"
+            "low": 4.6,
+            "high": 10.4,
+            "direction": "-",
+            "text": "-4.6% to -10.4%"
           }
         },
         {
           "role": "supporting",
-          "text": "Volatility in global financial markets due to AI's dominance in the S&P 500 and high debt levels associated with AI-linked assets",
+          "text": "Supply concerns have recently begun to ease, according to reports on oil steadying.",
           "forecast": {
-            "low": 1.5,
-            "high": 3.5,
-            "direction": "+",
-            "text": "+1.5% to +3.5%"
+            "low": 4.6,
+            "high": 10.4,
+            "direction": "-",
+            "text": "-4.6% to -10.4%"
           }
         },
         {
           "role": "supporting",
-          "text": "Rupee weakness and its impact on emerging markets, which could be affecting the Energy sector's sentiment",
+          "text": "However, geopolitical tension is concurrently lifting safe-haven demand.",
           "forecast": {
-            "low": 1.5,
-            "high": 3.5,
-            "direction": "+",
-            "text": "+1.5% to +3.5%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Earnings pops proving short-lived amid volatile markets, indicating a higher level of uncertainty in the sector's future performance",
-          "forecast": {
-            "low": 1.5,
-            "high": 3.5,
-            "direction": "+",
-            "text": "+1.5% to +3.5%"
+            "low": 4.6,
+            "high": 10.4,
+            "direction": "-",
+            "text": "-4.6% to -10.4%"
           }
         }
       ]
     },
     {
       "sector": "Financials",
-      "read": "Neutral",
-      "score": 50,
-      "event_type": "default",
+      "read": "Bullish",
+      "score": 64,
+      "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "The Financials sector is being heavily impacted by a default event and market concentration risk.",
+          "text": "Geopolitical supply disruptions are driving a bullish sentiment in the Financials sector, primarily impacting interest rates and commodity prices.",
           "forecast": {
-            "low": 1.0,
-            "high": 2.5,
+            "low": 1.3,
+            "high": 3.8,
             "direction": "+",
-            "text": "+1.0% to +2.5%"
+            "text": "+1.3% to +3.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "The rise of AI stocks has led to extreme market concentration with AI stocks now accounting for 45% of S&P 500 market cap in 2026, raising concerns about their sustainability.",
+          "text": "Banks' resilient quarterly earnings contribute to sector optimism",
           "forecast": {
-            "low": 1.0,
-            "high": 2.5,
+            "low": 1.3,
+            "high": 3.8,
             "direction": "+",
-            "text": "+1.0% to +2.5%"
+            "text": "+1.3% to +3.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "The recent volatility in markets has led to short-lived earnings pops, indicating that the overall economic picture remains uncertain.",
+          "text": "Payment networks expanding into emerging markets increase exposure to diverse markets and potential revenue growth",
           "forecast": {
-            "low": 1.0,
-            "high": 2.5,
+            "low": 1.3,
+            "high": 3.8,
             "direction": "+",
-            "text": "+1.0% to +2.5%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "A shift is observed towards value stocks beating growth stocks by a wide margin, suggesting changes in investor sentiment and market trends.",
-          "forecast": {
-            "low": 1.0,
-            "high": 2.5,
-            "direction": "+",
-            "text": "+1.0% to +2.5%"
+            "text": "+1.3% to +3.8%"
           }
         }
       ]
     },
     {
       "sector": "Healthcare",
-      "read": "Neutral",
-      "score": 50,
-      "event_type": "default",
+      "read": "Bullish",
+      "score": 64,
+      "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "A heightened risk of concentration in the US stock market due to AI stocks' surge to 45% of the S&P 500 market cap, impacting the Healthcare sector.",
+          "text": "A supply event in the geopolitical arena, specifically regarding access to raw materials, is driving bullish sentiment in the Healthcare sector.",
           "forecast": {
-            "low": 1.0,
-            "high": 2.5,
+            "low": 0.6,
+            "high": 2.6,
             "direction": "+",
-            "text": "+1.0% to +2.5%"
+            "text": "+0.6% to +2.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "The overall market volatility and the recent default event may not be the sole drivers of the sector's mixed sentiment.",
+          "text": "Drugmakers facing supply constraints due to the event are seeking approval for alternative therapies, such as the recently approved key therapy.",
           "forecast": {
-            "low": 1.0,
-            "high": 2.5,
+            "low": 0.6,
+            "high": 2.6,
             "direction": "+",
-            "text": "+1.0% to +2.5%"
+            "text": "+0.6% to +2.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Earnings pops proving short-lived amid volatile markets may have contributed to the sector's overall uncertainty.",
+          "text": "The scarcity of key raw materials has increased demand for substitute treatments, leading to higher sales projections for certain Healthcare companies.",
           "forecast": {
-            "low": 1.0,
-            "high": 2.5,
+            "low": 0.6,
+            "high": 2.6,
             "direction": "+",
-            "text": "+1.0% to +2.5%"
+            "text": "+0.6% to +2.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "A shift towards value stocks beating growth stocks, as highlighted in the recent headlines, may be a broader trend affecting the sector.",
+          "text": "Regulatory bodies' flexibility in approving alternative therapies has helped mitigate the impact of the supply event on the sector",
           "forecast": {
-            "low": 1.0,
-            "high": 2.5,
+            "low": 0.6,
+            "high": 2.6,
             "direction": "+",
-            "text": "+1.0% to +2.5%"
+            "text": "+0.6% to +2.6%"
           }
         }
       ]
@@ -246,47 +226,47 @@
     {
       "sector": "Technology",
       "read": "Neutral",
-      "score": 50,
-      "event_type": "default",
+      "score": 45,
+      "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "The Technology sector is experiencing a mixed sentiment driven primarily by a default event on highly valued and concentrated AI stocks.",
+          "text": "A supply event driven by geopolitical factors is currently impacting the Technology sector's sentiment negatively.",
           "forecast": {
-            "low": 1.5,
-            "high": 3.5,
-            "direction": "+",
-            "text": "+1.5% to +3.5%"
+            "low": 1.1,
+            "high": 3.3,
+            "direction": "-",
+            "text": "-1.1% to -3.3%"
           }
         },
         {
           "role": "supporting",
-          "text": "Earnings pops proved short-lived amid volatile markets, adding to the uncertainty.",
+          "text": "Chipmakers are facing supply constraints due to AI demand outpacing supply.",
           "forecast": {
-            "low": 1.5,
-            "high": 3.5,
-            "direction": "+",
-            "text": "+1.5% to +3.5%"
+            "low": 1.1,
+            "high": 3.3,
+            "direction": "-",
+            "text": "-1.1% to -3.3%"
           }
         },
         {
           "role": "supporting",
-          "text": "The dominance of AI stocks, now at 45% of S&P 500 market cap, is causing concerns about concentration risk.",
+          "text": "Regulators' probe into big-tech ad practices may further weigh on sentiment.",
           "forecast": {
-            "low": 1.5,
-            "high": 3.5,
-            "direction": "+",
-            "text": "+1.5% to +3.5%"
+            "low": 1.1,
+            "high": 3.3,
+            "direction": "-",
+            "text": "-1.1% to -3.3%"
           }
         },
         {
           "role": "supporting",
-          "text": "Only a small set of stocks, just 5, account for 52% of S&P gains, highlighting the sector's volatile performance.",
+          "text": "No specific supporting information available for a third driver.",
           "forecast": {
-            "low": 1.5,
-            "high": 3.5,
-            "direction": "+",
-            "text": "+1.5% to +3.5%"
+            "low": 1.1,
+            "high": 3.3,
+            "direction": "-",
+            "text": "-1.1% to -3.3%"
           }
         }
       ]
