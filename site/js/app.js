@@ -58,6 +58,53 @@ const sentColor = s => s >= 60 ? "var(--bull)" : s <= 40 ? "var(--bear)" : "var(
 const readColor = label => label === "Bullish" ? "var(--bull)" : label === "Bearish" ? "var(--bear)" : "var(--neutral)";
 
 function safv(bfv, si, k) { return bfv * (1 + k * ((si - 50) / 50)); }
+
+// ---- physics: spring-eased number count-up ---------------------------------
+// Critically-damped spring integrator rather than a plain tween, so values
+// settle with a touch of natural momentum instead of a linear/eased slide.
+function animateValue(el, from, to, { decimals = 2, prefix = "", suffix = "", stiffness = 170, damping = 26 } = {}) {
+  cancelAnimationFrame(el._raf || 0);
+  let pos = from, vel = 0, last = performance.now();
+  function step(now) {
+    const dt = Math.min((now - last) / 1000, 1 / 30);
+    last = now;
+    const force = -stiffness * (pos - to) - damping * vel;
+    vel += force * dt;
+    pos += vel * dt;
+    const settled = Math.abs(pos - to) < 0.01 && Math.abs(vel) < 0.01;
+    el.textContent = prefix + (settled ? to : pos).toLocaleString(undefined,
+      { minimumFractionDigits: decimals, maximumFractionDigits: decimals }) + suffix;
+    if (!settled) el._raf = requestAnimationFrame(step);
+  }
+  el._raf = requestAnimationFrame(step);
+}
+
+// ---- physics: pointer-tilt on cards -----------------------------------------
+// Subtle 3D tilt following the cursor, spring-eased back to rest on leave.
+function attachTilt(el, { max = 6 } = {}) {
+  let raf;
+  el.addEventListener("mousemove", e => {
+    const r = el.getBoundingClientRect();
+    const px = (e.clientX - r.left) / r.width - 0.5;
+    const py = (e.clientY - r.top) / r.height - 0.5;
+    cancelAnimationFrame(raf);
+    raf = requestAnimationFrame(() => {
+      el.style.transform = `translateY(-4px) rotateX(${(-py * max).toFixed(2)}deg) rotateY(${(px * max).toFixed(2)}deg)`;
+    });
+  });
+  el.addEventListener("mouseleave", () => {
+    cancelAnimationFrame(raf);
+    el.style.transform = "";
+  });
+}
+function attachTiltAll(selector) {
+  document.querySelectorAll(selector).forEach(el => {
+    if (el._tiltBound) return;
+    el._tiltBound = true;
+    el.style.transformStyle = "preserve-3d";
+    attachTilt(el);
+  });
+}
 function verdictText(bfv, adj) {
   const d = ((adj - bfv) / bfv) * 100;
   if (d > 3) return `Crowd optimism lifts value +${d.toFixed(1)}%`;
@@ -76,15 +123,18 @@ function render() {
   renderTickerSelect();
   renderCompany();
   renderNews();
+  const active = document.querySelector(".tab.active");
+  if (active) moveTabIndicator(active);
 }
 
 function renderHeatmap() {
   const el = document.getElementById("heatmap");
   el.innerHTML = "";
-  state.sectors.sectors.forEach(s => {
+  state.sectors.sectors.forEach((s, i) => {
     const c = sentColor(s.score);
     const cell = document.createElement("div");
     cell.className = "heat-cell";
+    cell.style.setProperty("--i", i);
     cell.style.background = `linear-gradient(180deg, ${c}22, transparent)`;
     cell.style.borderColor = c;
     cell.innerHTML = `
@@ -93,16 +143,18 @@ function renderHeatmap() {
       <div class="sector-sub" style="color:${c}">${s.label}</div>`;
     el.appendChild(cell);
   });
+  attachTiltAll("#heatmap .heat-cell");
 }
 
 // The new Sector Signals tab: reasoning + forecast ranges, shown inline.
 function renderSignals() {
   const el = document.getElementById("signals-list");
   el.innerHTML = "";
-  state.signals.signals.forEach(sig => {
+  state.signals.signals.forEach((sig, i) => {
     const rc = readColor(sig.read);
     const card = document.createElement("div");
     card.className = "signal-card";
+    card.style.setProperty("--i", i);
     card.style.borderLeftColor = rc;
 
     let driversHtml = "";
@@ -150,14 +202,33 @@ function currentCompany() {
 function renderCompany() {
   const c = currentCompany();
   const adjusted = safv(c.base_fair_value, c.sentiment_index, state.k);
-  document.getElementById("bfv").textContent = fmt(c.base_fair_value);
+
+  const bfvEl = document.getElementById("bfv");
+  animateValue(bfvEl, parseFloat(bfvEl.dataset.raw || c.base_fair_value), c.base_fair_value,
+    { decimals: 2, prefix: state.currency });
+  bfvEl.dataset.raw = c.base_fair_value;
+
   const si = document.getElementById("sent-index");
-  si.textContent = c.sentiment_index;
+  animateValue(si, parseFloat(si.dataset.raw || c.sentiment_index), c.sentiment_index, { decimals: 1 });
+  si.dataset.raw = c.sentiment_index;
   si.style.color = sentColor(c.sentiment_index);
-  document.getElementById("safv").textContent = fmt(adjusted);
+
+  const safvEl = document.getElementById("safv");
+  animateValue(safvEl, parseFloat(safvEl.dataset.raw || adjusted), adjusted,
+    { decimals: 2, prefix: state.currency });
+  safvEl.dataset.raw = adjusted;
+
   document.getElementById("verdict").textContent = verdictText(c.base_fair_value, adjusted);
   renderCompanyChart(c, adjusted);
   renderSentimentChart(c);
+  attachTiltAll(".cards .card");
+}
+
+const CHART_ANIM = { duration: 650, easing: "easeOutQuint" };
+
+function resolvedSentColor(score) {
+  return getComputedStyle(document.body).getPropertyValue(
+    score >= 60 ? "--bull" : score <= 40 ? "--bear" : "--neutral").trim();
 }
 
 function renderCompanyChart(c, adjusted) {
@@ -167,16 +238,18 @@ function renderCompanyChart(c, adjusted) {
     datasets: [{
       label: state.currency,
       data: [c.price, c.base_fair_value, adjusted],
-      backgroundColor: ["#6b6250", "#3d6a86", sentColor(c.sentiment_index)],
+      backgroundColor: ["#a89a7c", "#9c6b2e", resolvedSentColor(c.sentiment_index)],
+      borderRadius: 4,
     }]
   };
   if (companyChart) { companyChart.data = data; companyChart.update(); return; }
   companyChart = new Chart(ctx, {
     type: "bar", data,
     options: {
+      animation: CHART_ANIM,
       plugins: { legend: { display: false } },
-      scales: { y: { ticks: { color: "#b9b09b" }, grid: { color: "#2c4055" } },
-                x: { ticks: { color: "#b9b09b" }, grid: { color: "transparent" } } }
+      scales: { y: { ticks: { color: "#6b6153" }, grid: { color: "#ddd0b3" } },
+                x: { ticks: { color: "#6b6153" }, grid: { color: "transparent" } } }
     }
   });
 }
@@ -189,16 +262,18 @@ function renderSentimentChart(c) {
     datasets: [{
       label: "Contribution (0-100)",
       data: [b.news, b.macro],
-      backgroundColor: ["#3d6a86", "#6b6250"],
+      backgroundColor: ["#9c6b2e", "#6b6153"],
+      borderRadius: 4,
     }]
   };
   if (sentimentChart) { sentimentChart.data = data; sentimentChart.update(); return; }
   sentimentChart = new Chart(ctx, {
     type: "bar", data,
     options: {
+      animation: CHART_ANIM,
       plugins: { legend: { display: false } },
-      scales: { y: { min: 0, max: 100, ticks: { color: "#b9b09b" }, grid: { color: "#2c4055" } },
-                x: { ticks: { color: "#b9b09b" }, grid: { color: "transparent" } } }
+      scales: { y: { min: 0, max: 100, ticks: { color: "#6b6153" }, grid: { color: "#ddd0b3" } },
+                x: { ticks: { color: "#6b6153" }, grid: { color: "transparent" } } }
     }
   });
 }
@@ -206,11 +281,12 @@ function renderSentimentChart(c) {
 function renderNews() {
   const el = document.getElementById("news-list");
   el.innerHTML = "";
-  state.news.items.forEach(n => {
+  state.news.items.forEach((n, i) => {
     const cls = n.tone > 1 ? "tone-pos" : n.tone < -1 ? "tone-neg" : "tone-neu";
     const label = n.tone > 1 ? "Positive" : n.tone < -1 ? "Negative" : "Neutral";
     const item = document.createElement("div");
     item.className = "news-item";
+    item.style.setProperty("--i", i);
     item.innerHTML = `
       <a href="${n.url}" target="_blank" rel="noopener">${n.title} <span class="muted">· ${n.sector}</span></a>
       <span class="tone-badge ${cls}">${label}</span>`;
@@ -219,13 +295,31 @@ function renderNews() {
 }
 
 // ---- interactions ---------------------------------------------------------
+function moveTabIndicator(tab) {
+  const indicator = document.getElementById("tab-indicator");
+  const nav = tab.parentElement;
+  const navRect = nav.getBoundingClientRect();
+  const tabRect = tab.getBoundingClientRect();
+  indicator.style.left = (tabRect.left - navRect.left + nav.scrollLeft) + "px";
+  indicator.style.width = tabRect.width + "px";
+}
+
 document.querySelectorAll(".tab").forEach(t => {
   t.addEventListener("click", () => {
     document.querySelectorAll(".tab").forEach(x => x.classList.remove("active"));
     document.querySelectorAll(".panel").forEach(p => p.classList.remove("active"));
     t.classList.add("active");
     document.getElementById(t.dataset.tab).classList.add("active");
+    moveTabIndicator(t);
   });
+});
+window.addEventListener("resize", () => {
+  const active = document.querySelector(".tab.active");
+  if (active) moveTabIndicator(active);
+});
+window.addEventListener("load", () => {
+  const active = document.querySelector(".tab.active");
+  if (active) moveTabIndicator(active);
 });
 
 document.getElementById("market-select").addEventListener("change", e => loadMarket(e.target.value));
