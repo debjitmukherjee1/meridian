@@ -58,19 +58,19 @@
     <span id="macro-text">Reading the market…</span>
   </div>
 
-  <nav class="tabs">
+  <nav class="tabs" role="tablist">
     <span class="tab-indicator" id="tab-indicator"></span>
-    <button class="tab active" data-tab="overview">Overview</button>
-    <button class="tab" data-tab="signals">Sector Signals</button>
-    <button class="tab" data-tab="company">Company</button>
-    <button class="tab" data-tab="news">Financial News</button>
-    <button class="tab" data-tab="sentiment">Sentiment</button>
-    <button class="tab" data-tab="methodology">Methodology</button>
+    <button class="tab active" role="tab" aria-selected="true" aria-controls="overview" id="tab-overview" data-tab="overview">Overview</button>
+    <button class="tab" role="tab" aria-selected="false" aria-controls="signals" id="tab-signals" data-tab="signals">Sector Signals</button>
+    <button class="tab" role="tab" aria-selected="false" aria-controls="company" id="tab-company" data-tab="company">Company</button>
+    <button class="tab" role="tab" aria-selected="false" aria-controls="news" id="tab-news" data-tab="news">Financial News</button>
+    <button class="tab" role="tab" aria-selected="false" aria-controls="sentiment" id="tab-sentiment" data-tab="sentiment">Sentiment</button>
+    <button class="tab" role="tab" aria-selected="false" aria-controls="methodology" id="tab-methodology" data-tab="methodology">Methodology</button>
   </nav>
 
   <main>
     <!-- OVERVIEW -->
-    <section id="overview" class="panel active">
+    <section id="overview" class="panel active" role="tabpanel" aria-labelledby="tab-overview">
       <h2>Sector Sentiment</h2>
       <hr class="rule" />
       <p class="muted">The prevailing read across sectors for <strong id="ov-index">—</strong>. Green denotes a bullish crowd, oxblood a bearish one. Recomputed daily.</p>
@@ -85,7 +85,7 @@
     </section>
 
     <!-- SECTOR SIGNALS (new) -->
-    <section id="signals" class="panel">
+    <section id="signals" class="panel" role="tabpanel" aria-labelledby="tab-signals">
       <h2>Sector Signals</h2>
       <hr class="rule" />
       <p class="muted">Why each sector reads the way it does today. The <em>main impact</em> leads; supporting drivers follow only where the picture is genuinely complex. Each carries a forecast <strong>range</strong> anchored to how the sector has historically moved in events of this kind — not a single invented figure.</p>
@@ -93,13 +93,18 @@
     </section>
 
     <!-- COMPANY -->
-    <section id="company" class="panel">
+    <section id="company" class="panel" role="tabpanel" aria-labelledby="tab-company">
       <div class="company-header">
         <h2>Company Valuation</h2>
         <select id="ticker-select"></select>
       </div>
       <hr class="rule" />
       <div class="cards">
+        <div class="card">
+          <div class="card-label">Current Price</div>
+          <div class="card-value" id="price">—</div>
+          <div class="card-sub">Last close, Yahoo Finance</div>
+        </div>
         <div class="card">
           <div class="card-label">Base Fair Value</div>
           <div class="card-value" id="bfv">—</div>
@@ -121,26 +126,26 @@
         <input type="range" id="k-slider" min="0" max="0.30" step="0.01" value="0.15" />
         <span class="muted">Set to nil for pure fundamentals.</span>
       </div>
-      <div class="chart-wrap"><canvas id="company-chart"></canvas></div>
+      <div class="chart-wrap"><canvas id="company-chart" role="img"></canvas></div>
     </section>
 
     <!-- NEWS -->
-    <section id="news" class="panel">
+    <section id="news" class="panel" role="tabpanel" aria-labelledby="tab-news">
       <h2>Financial News <span class="muted">— tone-scored</span></h2>
       <hr class="rule" />
       <div id="news-list" class="news-list"></div>
     </section>
 
     <!-- SENTIMENT -->
-    <section id="sentiment" class="panel">
+    <section id="sentiment" class="panel" role="tabpanel" aria-labelledby="tab-sentiment">
       <h2>Sentiment Composition</h2>
       <hr class="rule" />
       <p class="muted">How the Sentiment Index is built for the selected company. Click a bar, or a heading below, to see the reasoning behind it.</p>
-      <div class="chart-wrap"><canvas id="sentiment-chart"></canvas></div>
+      <div class="chart-wrap"><canvas id="sentiment-chart" role="img"></canvas></div>
 
       <div id="sentiment-breakdown" class="breakdown">
         <div class="accordion" id="acc-news">
-          <button class="accordion-head" data-target="acc-news-body">
+          <button class="accordion-head" data-target="acc-news-body" aria-expanded="false" aria-controls="acc-news-body">
             <span class="accordion-title">News tone <span class="accordion-score" id="news-score-label"></span></span>
             <span class="accordion-chevron">›</span>
           </button>
@@ -151,7 +156,7 @@
         </div>
 
         <div class="accordion" id="acc-macro">
-          <button class="accordion-head" data-target="acc-macro-body">
+          <button class="accordion-head" data-target="acc-macro-body" aria-expanded="false" aria-controls="acc-macro-body">
             <span class="accordion-title">Macro / Geo <span class="accordion-score" id="macro-score-label"></span></span>
             <span class="accordion-chevron">›</span>
           </button>
@@ -164,7 +169,7 @@
     </section>
 
     <!-- METHODOLOGY -->
-    <section id="methodology" class="panel">
+    <section id="methodology" class="panel" role="tabpanel" aria-labelledby="tab-methodology">
       <h2>How Meridian works</h2>
       <hr class="rule" />
       <p>Meridian fuses two views of a company:</p>

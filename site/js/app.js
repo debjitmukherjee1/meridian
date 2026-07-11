@@ -72,9 +72,15 @@ function safv(bfv, si, k) { return bfv * (1 + k * ((si - 50) / 50)); }
 // ---- physics: spring-eased number count-up ---------------------------------
 // Critically-damped spring integrator rather than a plain tween, so values
 // settle with a touch of natural momentum instead of a linear/eased slide.
-function animateValue(el, from, to, { decimals = 2, prefix = "", suffix = "", stiffness = 170, damping = 26 } = {}) {
+// Tracks its OWN live position on the element (el._pos) rather than trusting
+// a separately-cached "previous target" as the start point -- rapid
+// re-triggering (e.g. clicking through tickers faster than a ~1s settle
+// time) used to snap discontinuously because the old "from" was always the
+// prior call's target, not wherever the animation had actually reached when
+// interrupted.
+function animateValue(el, to, { decimals = 2, prefix = "", suffix = "", stiffness = 170, damping = 26 } = {}) {
   cancelAnimationFrame(el._raf || 0);
-  let pos = from, vel = 0, last = performance.now();
+  let pos = el._pos ?? to, vel = el._vel ?? 0, last = performance.now();
   function step(now) {
     const dt = Math.min((now - last) / 1000, 1 / 30);
     last = now;
@@ -82,6 +88,8 @@ function animateValue(el, from, to, { decimals = 2, prefix = "", suffix = "", st
     vel += force * dt;
     pos += vel * dt;
     const settled = Math.abs(pos - to) < 0.01 && Math.abs(vel) < 0.01;
+    el._pos = settled ? to : pos;
+    el._vel = settled ? 0 : vel;
     el.textContent = prefix + (settled ? to : pos).toLocaleString(undefined,
       { minimumFractionDigits: decimals, maximumFractionDigits: decimals }) + suffix;
     if (!settled) el._raf = requestAnimationFrame(step);
@@ -213,20 +221,14 @@ function renderCompany() {
   const c = currentCompany();
   const adjusted = safv(c.base_fair_value, c.sentiment_index, state.k);
 
-  const bfvEl = document.getElementById("bfv");
-  animateValue(bfvEl, parseFloat(bfvEl.dataset.raw || c.base_fair_value), c.base_fair_value,
-    { decimals: 2, prefix: state.currency });
-  bfvEl.dataset.raw = c.base_fair_value;
+  animateValue(document.getElementById("price"), c.price, { decimals: 2, prefix: state.currency });
+  animateValue(document.getElementById("bfv"), c.base_fair_value, { decimals: 2, prefix: state.currency });
 
   const si = document.getElementById("sent-index");
-  animateValue(si, parseFloat(si.dataset.raw || c.sentiment_index), c.sentiment_index, { decimals: 1 });
-  si.dataset.raw = c.sentiment_index;
+  animateValue(si, c.sentiment_index, { decimals: 1 });
   si.style.color = sentColor(c.sentiment_index);
 
-  const safvEl = document.getElementById("safv");
-  animateValue(safvEl, parseFloat(safvEl.dataset.raw || adjusted), adjusted,
-    { decimals: 2, prefix: state.currency });
-  safvEl.dataset.raw = adjusted;
+  animateValue(document.getElementById("safv"), adjusted, { decimals: 2, prefix: state.currency });
 
   document.getElementById("verdict").textContent = verdictText(c.base_fair_value, adjusted);
   renderCompanyChart(c, adjusted);
@@ -237,19 +239,29 @@ function renderCompany() {
 
 const CHART_ANIM = { duration: 650, easing: "easeOutQuint" };
 
+// Chart.js's canvas fillStyle can't resolve CSS custom properties directly
+// (var(--x) passed straight to a canvas context silently renders as black --
+// this exact bug already shipped once). Every chart color reads through
+// this helper instead of a hardcoded hex, so the charts can never drift out
+// of sync with styles.css's actual palette again.
+function cssVar(name) {
+  return getComputedStyle(document.body).getPropertyValue(name).trim();
+}
 function resolvedSentColor(score) {
-  return getComputedStyle(document.body).getPropertyValue(
-    score >= 60 ? "--bull" : score <= 40 ? "--bear" : "--neutral").trim();
+  return cssVar(score >= 60 ? "--bull" : score <= 40 ? "--bear" : "--neutral");
 }
 
 function renderCompanyChart(c, adjusted) {
   const ctx = document.getElementById("company-chart");
+  ctx.setAttribute("aria-label",
+    `Bar chart comparing current price ${fmt(c.price)}, Base Fair Value ${fmt(c.base_fair_value)}, ` +
+    `and Sentiment-Adjusted Fair Value ${fmt(adjusted)} for ${c.ticker}.`);
   const data = {
     labels: ["Current Price", "Base Fair Value", "Sentiment-Adjusted"],
     datasets: [{
       label: state.currency,
       data: [c.price, c.base_fair_value, adjusted],
-      backgroundColor: ["#a89a7c", "#9c6b2e", resolvedSentColor(c.sentiment_index)],
+      backgroundColor: [cssVar("--price-neutral"), cssVar("--accent"), resolvedSentColor(c.sentiment_index)],
       borderRadius: 4,
     }]
   };
@@ -259,8 +271,8 @@ function renderCompanyChart(c, adjusted) {
     options: {
       animation: CHART_ANIM,
       plugins: { legend: { display: false } },
-      scales: { y: { ticks: { color: "#6b6153" }, grid: { color: "#ddd0b3" } },
-                x: { ticks: { color: "#6b6153" }, grid: { color: "transparent" } } }
+      scales: { y: { ticks: { color: cssVar("--ink-dim") }, grid: { color: cssVar("--line") } },
+                x: { ticks: { color: cssVar("--ink-dim") }, grid: { color: "transparent" } } }
     }
   });
 }
@@ -278,12 +290,14 @@ function sentimentBarHover(evt, elements) {
 function renderSentimentChart(c) {
   const ctx = document.getElementById("sentiment-chart");
   const b = c.sentiment_breakdown;
+  ctx.setAttribute("aria-label",
+    `Bar chart of the Sentiment Index composition for ${c.ticker}: news tone ${b.news}, macro/geo ${b.macro}, out of 100.`);
   const data = {
     labels: ["News tone", "Macro / Geo"],
     datasets: [{
       label: "Contribution (0-100)",
       data: [b.news, b.macro],
-      backgroundColor: ["#9c6b2e", "#6b6153"],
+      backgroundColor: [cssVar("--accent"), cssVar("--ink-dim")],
       borderRadius: 4,
     }]
   };
@@ -299,8 +313,8 @@ function renderSentimentChart(c) {
       onClick: sentimentBarClick,
       onHover: sentimentBarHover,
       plugins: { legend: { display: false } },
-      scales: { y: { min: 0, max: 100, ticks: { color: "#6b6153" }, grid: { color: "#ddd0b3" } },
-                x: { ticks: { color: "#6b6153" }, grid: { color: "transparent" } } }
+      scales: { y: { min: 0, max: 100, ticks: { color: cssVar("--ink-dim") }, grid: { color: cssVar("--line") } },
+                x: { ticks: { color: cssVar("--ink-dim") }, grid: { color: "transparent" } } }
     }
   });
 }
@@ -332,7 +346,7 @@ function renderSentimentBreakdown(c) {
       item.style.setProperty("--i", i);
       item.innerHTML = `
         <div class="news-item-main">
-          <a href="${escapeHtml(safeUrl(n.url))}" target="_blank" rel="noopener">${escapeHtml(n.title)}</a>
+          <a href="${escapeHtml(safeUrl(n.url))}" target="_blank" rel="noopener">${escapeHtml(n.title)}<span class="sr-only"> (opens in new tab)</span></a>
           <div class="news-note">${escapeHtml(n.note || "")}</div>
         </div>
         <span class="tone-badge ${cls}">${label}</span>`;
@@ -345,11 +359,7 @@ function renderSentimentBreakdown(c) {
     "Today's macro/geo theme: " + (state.sectors.macro_theme || "—");
   document.getElementById("macro-explanation-label").textContent = state.sectors.macro_explanation || "";
 
-  // keep any already-open accordion sized correctly against the new content
-  document.querySelectorAll(".accordion.open").forEach(acc => {
-    const body = acc.querySelector(".accordion-body");
-    body.style.maxHeight = body.scrollHeight + "px";
-  });
+  resyncOpenAccordions();
 }
 
 function renderNews() {
@@ -362,7 +372,7 @@ function renderNews() {
     item.className = "news-item";
     item.style.setProperty("--i", i);
     item.innerHTML = `
-      <a href="${escapeHtml(safeUrl(n.url))}" target="_blank" rel="noopener">${escapeHtml(n.title)} <span class="muted">· ${escapeHtml(n.sector)}</span></a>
+      <a href="${escapeHtml(safeUrl(n.url))}" target="_blank" rel="noopener">${escapeHtml(n.title)} <span class="muted">· ${escapeHtml(n.sector)}</span><span class="sr-only"> (opens in new tab)</span></a>
       <span class="tone-badge ${cls}">${label}</span>`;
     el.appendChild(item);
   });
@@ -374,15 +384,32 @@ function moveTabIndicator(tab) {
   const nav = tab.parentElement;
   const navRect = nav.getBoundingClientRect();
   const tabRect = tab.getBoundingClientRect();
-  indicator.style.left = (tabRect.left - navRect.left + nav.scrollLeft) + "px";
-  indicator.style.width = tabRect.width + "px";
+  const x = tabRect.left - navRect.left + nav.scrollLeft;
+  indicator.style.transform = `translateX(${x}px) scaleX(${tabRect.width})`;
+}
+
+// Recompute any OPEN accordion's max-height. Without this, resizing the
+// window (or rotating a phone, or an OS text-size change) while an
+// accordion is expanded leaves it pinned to whatever scrollHeight it had at
+// click-time -- content that now needs more room (e.g. headlines wrapping
+// to more lines at a narrower width) gets silently clipped under
+// overflow:hidden with no scrollbar and no visual cue more exists.
+function resyncOpenAccordions() {
+  document.querySelectorAll(".accordion.open").forEach(acc => {
+    const body = acc.querySelector(".accordion-body");
+    body.style.maxHeight = body.scrollHeight + "px";
+  });
 }
 
 document.querySelectorAll(".tab").forEach(t => {
   t.addEventListener("click", () => {
-    document.querySelectorAll(".tab").forEach(x => x.classList.remove("active"));
+    document.querySelectorAll(".tab").forEach(x => {
+      x.classList.remove("active");
+      x.setAttribute("aria-selected", "false");
+    });
     document.querySelectorAll(".panel").forEach(p => p.classList.remove("active"));
     t.classList.add("active");
+    t.setAttribute("aria-selected", "true");
     document.getElementById(t.dataset.tab).classList.add("active");
     moveTabIndicator(t);
     // Charts created while their panel was display:none never get a real
@@ -396,11 +423,16 @@ document.querySelectorAll(".tab").forEach(t => {
 });
 
 document.querySelectorAll(".accordion-head").forEach(btn => {
-  btn.addEventListener("click", () => openAccordion(btn.parentElement.id));
+  btn.addEventListener("click", () => {
+    openAccordion(btn.parentElement.id);
+    const open = btn.parentElement.classList.contains("open");
+    btn.setAttribute("aria-expanded", String(open));
+  });
 });
 window.addEventListener("resize", () => {
   const active = document.querySelector(".tab.active");
   if (active) moveTabIndicator(active);
+  resyncOpenAccordions();
 });
 window.addEventListener("load", () => {
   const active = document.querySelector(".tab.active");
