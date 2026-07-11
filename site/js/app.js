@@ -8,6 +8,16 @@ const state = {
 };
 let companyChart, sentimentChart;
 
+// ---- safety: every field below that traces back to an external source
+// (GDELT headline titles/URLs, Groq-generated notes/narratives) gets built
+// via innerHTML template strings for convenience, so it must be escaped --
+// GDELT titles are scraped from arbitrary third-party page <title> tags,
+// not text we control, so this isn't a hypothetical.
+const ESCAPE_MAP = { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" };
+const escapeHtml = s => String(s ?? "").replace(/[&<>"']/g, ch => ESCAPE_MAP[ch]);
+// Only ever emit an http(s) URL as an href -- blocks javascript:/data: etc.
+const safeUrl = u => (typeof u === "string" && /^https?:\/\//i.test(u)) ? u : "#";
+
 // ---- boot -----------------------------------------------------------------
 async function boot() {
   try {
@@ -117,7 +127,7 @@ function render() {
   document.getElementById("updated-at").textContent = state.companies.updated_at || "—";
   document.getElementById("ov-index").textContent = state.sectors.index || "";
   document.getElementById("macro-text").innerHTML =
-    "<strong>Macro / Geo theme:</strong> " + (state.sectors.macro_theme || "Markets calm");
+    "<strong>Macro / Geo theme:</strong> " + escapeHtml(state.sectors.macro_theme || "Markets calm");
   renderHeatmap();
   renderSignals();
   renderTickerSelect();
@@ -165,18 +175,18 @@ function renderSignals() {
       driversHtml += `
         <div class="driver ${d.role}">
           <div class="driver-role">${roleLabel}</div>
-          <div class="driver-text">${d.text}</div>
+          <div class="driver-text">${escapeHtml(d.text)}</div>
           <div class="forecast">Historical analogue move:
-            <span class="band" style="color:${fColor}">${f.text}</span></div>
+            <span class="band" style="color:${fColor}">${escapeHtml(f.text)}</span></div>
         </div>`;
     });
 
     card.innerHTML = `
       <div class="signal-head">
-        <span class="signal-sector">${sig.sector}</span>
-        <span class="signal-read" style="color:${rc}; border:1px solid ${rc}">${sig.read} · ${sig.score}</span>
+        <span class="signal-sector">${escapeHtml(sig.sector)}</span>
+        <span class="signal-read" style="color:${rc}; border:1px solid ${rc}">${escapeHtml(sig.read)} · ${escapeHtml(sig.score)}</span>
       </div>
-      <div class="signal-event">Driving event type: ${sig.event_type.replace(/_/g, " ")}</div>
+      <div class="signal-event">Driving event type: ${escapeHtml(sig.event_type.replace(/_/g, " "))}</div>
       ${driversHtml}`;
     el.appendChild(card);
   });
@@ -322,8 +332,8 @@ function renderSentimentBreakdown(c) {
       item.style.setProperty("--i", i);
       item.innerHTML = `
         <div class="news-item-main">
-          <a href="${n.url}" target="_blank" rel="noopener">${n.title}</a>
-          <div class="news-note">${n.note || ""}</div>
+          <a href="${escapeHtml(safeUrl(n.url))}" target="_blank" rel="noopener">${escapeHtml(n.title)}</a>
+          <div class="news-note">${escapeHtml(n.note || "")}</div>
         </div>
         <span class="tone-badge ${cls}">${label}</span>`;
       list.appendChild(item);
@@ -352,7 +362,7 @@ function renderNews() {
     item.className = "news-item";
     item.style.setProperty("--i", i);
     item.innerHTML = `
-      <a href="${n.url}" target="_blank" rel="noopener">${n.title} <span class="muted">· ${n.sector}</span></a>
+      <a href="${escapeHtml(safeUrl(n.url))}" target="_blank" rel="noopener">${escapeHtml(n.title)} <span class="muted">· ${escapeHtml(n.sector)}</span></a>
       <span class="tone-badge ${cls}">${label}</span>`;
     el.appendChild(item);
   });
