@@ -185,22 +185,20 @@ function renderSentimentChart(c) {
   const ctx = document.getElementById("sentiment-chart");
   const b = c.sentiment_breakdown;
   const data = {
-    labels: ["Social mood", "News tone", "Macro / Geo"],
+    labels: ["News tone", "Macro / Geo"],
     datasets: [{
       label: "Contribution (0-100)",
-      data: [b.social, b.news, b.macro],
-      backgroundColor: "rgba(201,162,39,.25)",
-      borderColor: "#c9a227", pointBackgroundColor: "#c9a227",
+      data: [b.news, b.macro],
+      backgroundColor: ["#3d6a86", "#6b6250"],
     }]
   };
   if (sentimentChart) { sentimentChart.data = data; sentimentChart.update(); return; }
   sentimentChart = new Chart(ctx, {
-    type: "radar", data,
+    type: "bar", data,
     options: {
-      scales: { r: { min: 0, max: 100, ticks: { color: "#b9b09b", backdropColor: "transparent" },
-                     grid: { color: "#2c4055" }, angleLines: { color: "#2c4055" },
-                     pointLabels: { color: "#f3ecdd", font: { size: 13 } } } },
-      plugins: { legend: { labels: { color: "#f3ecdd" } } }
+      plugins: { legend: { display: false } },
+      scales: { y: { min: 0, max: 100, ticks: { color: "#b9b09b" }, grid: { color: "#2c4055" } },
+                x: { ticks: { color: "#b9b09b" }, grid: { color: "transparent" } } }
     }
   });
 }

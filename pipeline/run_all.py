@@ -23,7 +23,6 @@ from datetime import datetime, timezone
 import config
 import fetch_market
 import fetch_news
-import fetch_social
 import score_sentiment
 import build_valuation
 import sector_signals
@@ -40,10 +39,9 @@ def _label(score):
 def run_market(market, updated):
     companies = fetch_market.fetch_all(market)
     news_items, macro_theme = fetch_news.fetch_all(market)
-    social = fetch_social.fetch_all([c["ticker"] for c in companies])
 
     companies, macro = score_sentiment.build_sentiment(
-        companies, social, news_items, macro_theme)
+        companies, news_items, macro_theme)
     companies = build_valuation.base_fair_value(companies)
     companies = build_valuation.sentiment_adjust(companies)
 

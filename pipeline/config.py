@@ -64,10 +64,11 @@ def sectors_for(market):
     return sorted({s for _, _, s in WATCHLISTS[market]})
 
 # --- Sentiment Index weights (must sum to 1.0) -----------------------------
+# No retail-social component: StockTwits' public feed is now behind a
+# Cloudflare bot challenge, so this is a news+macro sentiment index.
 SENTIMENT_WEIGHTS = {
-    "social": 0.40,   # StockTwits bull/bear + Reddit tone
-    "news":   0.35,   # GDELT tone + Groq scoring
-    "macro":  0.25,   # GDELT geo-political / macro theme overlay
+    "news":  0.60,   # GDELT tone + Groq scoring
+    "macro": 0.40,   # GDELT geo-political / macro theme overlay
 }
 
 # --- Valuation fusion ------------------------------------------------------
@@ -159,7 +160,5 @@ DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "site", "data")
 # --- API keys (None => mock mode) ------------------------------------------
 FINNHUB_KEY = os.environ.get("FINNHUB_KEY")
 GROQ_KEY    = os.environ.get("GROQ_KEY")
-REDDIT_ID   = os.environ.get("REDDIT_ID")
-REDDIT_SECRET = os.environ.get("REDDIT_SECRET")
 
 MOCK_MODE = FINNHUB_KEY is None

@@ -31,8 +31,6 @@ jobs:
         env:
           FINNHUB_KEY: ${{ secrets.FINNHUB_KEY }}
           GROQ_KEY: ${{ secrets.GROQ_KEY }}
-          REDDIT_ID: ${{ secrets.REDDIT_ID }}
-          REDDIT_SECRET: ${{ secrets.REDDIT_SECRET }}
         run: |
           cd pipeline
           python run_all.py

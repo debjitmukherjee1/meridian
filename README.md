@@ -3,12 +3,12 @@
 *Fair value, read against the mood of the market.*
 
 A market-research tool that valuates companies using **both** traditional finance
-(multiples + DCF-lite) **and** live investor sentiment (social + news + macro/geo
+(multiples + DCF-lite) **and** live investor sentiment (news + macro/geo
 overlay), across **four markets — India · USA · UK · Japan**. Refreshed daily.
 Runs entirely on free tiers.
 
 > **The differentiator:** every other free tool gives you a fair-value number.
-> Meridian shows you what the crowd *feels* per sector, blends it into the
+> Meridian shows you the news-driven mood per sector, blends it into the
 > valuation transparently (with a slider for how much sentiment matters), and —
 > on the **Sector Signals** tab — explains *why* each sector moves, with forecast
 > **ranges anchored to how that sector has historically behaved** in similar
@@ -25,7 +25,7 @@ used to build it.
 ## How it stays free
 - **Hosting:** GitHub Pages (static, free)
 - **Daily job:** GitHub Actions (unlimited minutes for public repos)
-- **Data:** Finnhub (60/min), GDELT (free), StockTwits (free), Groq Llama 3.1 8B (14,400/day)
+- **Data:** Finnhub (60/min), GDELT (free), Groq Llama 3.1 8B (14,400/day)
 - The website only reads pre-computed JSON — **never calls a paid API at runtime**,
   so every extra visitor costs $0.
 
@@ -44,7 +44,7 @@ python -m http.server 8000
 
 ## Go live (real data)
 1. Push this repo to GitHub (public).
-2. Add repo secrets: `FINNHUB_KEY`, `GROQ_KEY` (Reddit optional). See
+2. Add repo secrets: `FINNHUB_KEY`, `GROQ_KEY`. See
    [`pipeline/SOURCES.md`](pipeline/SOURCES.md).
 3. Settings → Pages → deploy from `main` → `/site`.
 4. The `daily-update.yml` workflow refreshes all markets every morning.

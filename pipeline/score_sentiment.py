@@ -77,21 +77,19 @@ def macro_score(macro_theme):
     return 50
 
 
-def build_sentiment(companies, social_scores, news_items, macro_theme):
-    """Combine social + news + macro into the per-company Sentiment Index."""
+def build_sentiment(companies, news_items, macro_theme):
+    """Combine news + macro into the per-company Sentiment Index."""
     w = config.SENTIMENT_WEIGHTS
     news_by_sector = news_scores(news_items)
     macro = macro_score(macro_theme)
 
     enriched = []
     for c in companies:
-        social = social_scores.get(c["ticker"], 50)
         news = news_by_sector.get(c["sector"], 50)
-        index = round(w["social"] * social + w["news"] * news + w["macro"] * macro, 1)
+        index = round(w["news"] * news + w["macro"] * macro, 1)
         c = dict(c)
         c["sentiment_index"] = index
         c["sentiment_breakdown"] = {
-            "social": round(social, 1),
             "news": round(news, 1),
             "macro": round(macro, 1),
         }
