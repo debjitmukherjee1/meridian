@@ -1,78 +1,66 @@
 {
-  "updated_at": "2026-07-11 05:58 UTC",
+  "updated_at": "2026-07-11 06:23 UTC",
   "market": "US",
   "items": [
     {
-      "title": "AI now dominates the S & P 500 like never before : US stock market concentration risk hits extreme levels : AI stocks surge to 45 % of S & P 500 market cap in 2026 can $1 . 4 trillion AI - linked debt sustain this historic dominance ?",
-      "sector": "Market",
-      "tone": 0.0,
-      "url": "https://economictimes.indiatimes.com/news/international/us/us-stock-market-concentration-risk-hits-extreme-levels-ai-stocks-surge-to-45-of-sp-500-market-cap-in-2026-can-1-4-trillion-ai-linked-debt-sustain-this-historic-dominance/articleshow/130493020.cms"
+      "title": "Chipmakers rally as AI demand outpaces supply",
+      "sector": "Technology",
+      "tone": 3.4,
+      "url": "https://www.gdeltproject.org/"
     },
     {
-      "title": "Quant Ratings Updated on 120 Stocks",
-      "sector": "Market",
-      "tone": 0.0,
-      "url": "https://investorplace.com/market360/2026/04/quant-ratings-updated-on-120-stocks/"
+      "title": "Regulators open probe into big-tech ad practices",
+      "sector": "Technology",
+      "tone": -2.1,
+      "url": "https://www.gdeltproject.org/"
     },
     {
-      "title": "Sensex Gains 118 Points After Late Recovery , Nifty Ends Above 23 , 650 Despite Rupee Weakness",
-      "sector": "Market",
-      "tone": 0.0,
-      "url": "https://www.freepressjournal.in/business/sensex-gains-118-points-after-late-recovery-nifty-ends-above-23650-despite-rupee-weakness"
+      "title": "Consumer spending softens amid rate uncertainty",
+      "sector": "Consumer Discretionary",
+      "tone": -1.8,
+      "url": "https://www.gdeltproject.org/"
     },
     {
-      "title": "Jim Cramer Shared Latest Take On Mega Quantum Computing Investment & Discussed These 13 Stocks",
-      "sector": "Market",
-      "tone": 0.0,
-      "url": "https://www.insidermonkey.com/blog/jim-cramer-shared-latest-take-on-mega-quantum-computing-investment-discussed-these-13-stocks-1768029/"
+      "title": "EV price war squeezes automaker margins",
+      "sector": "Consumer Discretionary",
+      "tone": -2.6,
+      "url": "https://www.gdeltproject.org/"
     },
     {
-      "title": "Morgan Stanley issues verdict for nervous stock market investors",
-      "sector": "Market",
-      "tone": 0.0,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-issues-verdict-nervous-183300077.html"
+      "title": "Banks post resilient quarterly earnings",
+      "sector": "Financials",
+      "tone": 2.2,
+      "url": "https://www.gdeltproject.org/"
     },
     {
-      "title": "This is not a flash in the pan : Why value stocks are beating growth by such a wide margin",
-      "sector": "Market",
-      "tone": 0.0,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/not-flash-pan-why-value-225000407.html"
+      "title": "Payment networks expand into emerging markets",
+      "sector": "Financials",
+      "tone": 1.9,
+      "url": "https://www.gdeltproject.org/"
     },
     {
-      "title": "Earnings pops prove short - lived amid volatile markets",
-      "sector": "Market",
-      "tone": 0.0,
-      "url": "https://www.livemint.com/market/stock-market-news/india-stock-market-earnings-season-short-lived-gains-investor-focus-future-guidance-11779180072439.html"
+      "title": "Oil steadies as supply concerns ease",
+      "sector": "Energy",
+      "tone": 0.6,
+      "url": "https://www.gdeltproject.org/"
     },
     {
-      "title": "Trump Bull Market Is Standing on Shaky Legs . Just 5 Stocks Account for 52 % of the S & P Gains",
-      "sector": "Market",
-      "tone": 0.0,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/trump-bull-market-standing-shaky-161730353.html"
+      "title": "Staples firms hold pricing power through inflation",
+      "sector": "Consumer Staples",
+      "tone": 1.4,
+      "url": "https://www.gdeltproject.org/"
     },
     {
-      "title": "Market research company warn of AI stocks selling cheap ; say they point to a  dangerous sign",
-      "sector": "Market",
-      "tone": 0.0,
-      "url": "https://timesofindia.indiatimes.com/technology/tech-news/market-research-company-warn-of-ai-stocks-selling-cheap-say-they-point-to-a-dangerous-sign/articleshow/131900405.cms"
+      "title": "Drugmaker wins approval for key therapy",
+      "sector": "Healthcare",
+      "tone": 3.1,
+      "url": "https://www.gdeltproject.org/"
     },
     {
-      "title": "How will markets open today ? Nifty , Bank Nifty levels . Sectors and stocks to watch .",
-      "sector": "Market",
-      "tone": 0.0,
-      "url": "https://www.indiainfoline.com/blog/how-will-markets-open-today-nifty-bank-nifty-levels-sectors-and-stocks-to-watch"
-    },
-    {
-      "title": "3 Overvalued Stocks to Take Profits In and 3 Undervalued Stocks to Buy Instead",
-      "sector": "Market",
-      "tone": 0.0,
-      "url": "https://www.morningstar.com/stocks/3-overvalued-stocks-take-profits-3-undervalued-stocks-buy-instead-2"
-    },
-    {
-      "title": "Mid - and small - cap outperformance cycle may be back after earnings reset : Brokerage",
-      "sector": "Market",
-      "tone": 0.0,
-      "url": "https://www.moneycontrol.com/news/business/markets/mid-and-small-cap-outperformance-cycle-may-be-back-after-earnings-reset-brokerage-13933014.html"
+      "title": "Geopolitical tension lifts safe-haven demand",
+      "sector": "Energy",
+      "tone": -1.2,
+      "url": "https://www.gdeltproject.org/"
     }
   ]
 }

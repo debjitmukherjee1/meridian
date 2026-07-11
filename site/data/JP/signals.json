@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11 05:58 UTC",
+  "updated_at": "2026-07-11 06:23 UTC",
   "market": "JP",
   "macro_theme": "Mixed macro signals; markets range-bound",
   "signals": [
@@ -11,7 +11,37 @@
       "drivers": [
         {
           "role": "main",
-          "text": "Consumer Discretionary sentiment pressured by the prevailing default backdrop",
+          "text": "The default event is impacting the Consumer Discretionary sector's mixed sentiment driven by concentration risk from AI stocks.",
+          "forecast": {
+            "low": 1.6,
+            "high": 3.6,
+            "direction": "-",
+            "text": "-1.6% to -3.6%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "The surge of AI stocks to 45% of S&P 500 market cap raises concerns for sector dominance.",
+          "forecast": {
+            "low": 1.6,
+            "high": 3.6,
+            "direction": "-",
+            "text": "-1.6% to -3.6%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Volatility in markets has led to short-lived earnings pops for many companies.",
+          "forecast": {
+            "low": 1.6,
+            "high": 3.6,
+            "direction": "-",
+            "text": "-1.6% to -3.6%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Value stocks beating growth stocks by a wide margin may be a contributing factor.",
           "forecast": {
             "low": 1.6,
             "high": 3.6,
@@ -29,7 +59,7 @@
       "drivers": [
         {
           "role": "main",
-          "text": "Energy sentiment pressured by the prevailing default backdrop",
+          "text": "A default event on an energy company is weighing heavily on the sector, causing a mixed sentiment reading.",
           "forecast": {
             "low": 1.6,
             "high": 3.7,
@@ -47,7 +77,37 @@
       "drivers": [
         {
           "role": "main",
-          "text": "Financials sentiment supported by the prevailing default backdrop",
+          "text": "The Financials sector is driven bullish by a default event, specifically a surge in AI-related debt, leading to increased risk in stock market concentration.",
+          "forecast": {
+            "low": 1.1,
+            "high": 2.8,
+            "direction": "+",
+            "text": "+1.1% to +2.8%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "The recent increase in AI-related debt, worth $1.4 trillion, could sustain historic market dominance.",
+          "forecast": {
+            "low": 1.1,
+            "high": 2.8,
+            "direction": "+",
+            "text": "+1.1% to +2.8%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Rupee weakness may be offset by gains in India's Sensex and Nifty indexes.",
+          "forecast": {
+            "low": 1.1,
+            "high": 2.8,
+            "direction": "+",
+            "text": "+1.1% to +2.8%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Nervous stock market investors have a verdict from Morgan Stanley, though specifics are unknown.",
           "forecast": {
             "low": 1.1,
             "high": 2.8,
@@ -65,7 +125,37 @@
       "drivers": [
         {
           "role": "main",
-          "text": "Healthcare sentiment pressured by the prevailing default backdrop",
+          "text": "The main impact on the Healthcare sector is driven by a default event, but no direct information is available, so we can't specify the main impact.",
+          "forecast": {
+            "low": 1.0,
+            "high": 2.6,
+            "direction": "-",
+            "text": "-1.0% to -2.6%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "No specific supporting drivers mentioned",
+          "forecast": {
+            "low": 1.0,
+            "high": 2.6,
+            "direction": "-",
+            "text": "-1.0% to -2.6%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "However, the dominance of AI and growth stocks in the S&P 500, and the underperformance of value stocks may indicate a shift towards growth-oriented healthcare plays.",
+          "forecast": {
+            "low": 1.0,
+            "high": 2.6,
+            "direction": "-",
+            "text": "-1.0% to -2.6%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Additionally, volatile markets and disappointing earnings pops may be weighing on the sector's overall sentiment.",
           "forecast": {
             "low": 1.0,
             "high": 2.6,
@@ -83,7 +173,37 @@
       "drivers": [
         {
           "role": "main",
-          "text": "Industrials sentiment pressured by the prevailing default backdrop",
+          "text": "A default event from a key Industrials sector player has weighed heavily on sector sentiment, dragging the Industrials sector to a bearish reading of 45/100.",
+          "forecast": {
+            "low": 1.7,
+            "high": 3.3,
+            "direction": "-",
+            "text": "-1.7% to -3.3%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "The recent surge of AI stocks in the S&P 500 market has created a concentration risk and potential threat to sector stability",
+          "forecast": {
+            "low": 1.7,
+            "high": 3.3,
+            "direction": "-",
+            "text": "-1.7% to -3.3%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Weakness in the value of the rupee has impacted regional stock market performance, including the Sensex and Nifty",
+          "forecast": {
+            "low": 1.7,
+            "high": 3.3,
+            "direction": "-",
+            "text": "-1.7% to -3.3%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "The lack of lasting momentum from recent earnings pops amid volatile markets has added to investor unease",
           "forecast": {
             "low": 1.7,
             "high": 3.3,
@@ -101,7 +221,37 @@
       "drivers": [
         {
           "role": "main",
-          "text": "Technology sentiment pressured by the prevailing default backdrop",
+          "text": "The Technology sector's mixed sentiment is being driven by the concentration of AI stocks dominating the S & P 500 market cap, posing significant risk.",
+          "forecast": {
+            "low": 1.5,
+            "high": 3.6,
+            "direction": "-",
+            "text": "-1.5% to -3.6%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "The S & P 500 market cap is now 45% AI-related, raising concerns about sector vulnerability to market fluctuations.",
+          "forecast": {
+            "low": 1.5,
+            "high": 3.6,
+            "direction": "-",
+            "text": "-1.5% to -3.6%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Earnings pops have proven short-lived amid volatile markets, contributing to the sector's mixed sentiment.",
+          "forecast": {
+            "low": 1.5,
+            "high": 3.6,
+            "direction": "-",
+            "text": "-1.5% to -3.6%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "The sector's performance is also influenced by the fact that just 5 stocks account for 52% of the S & P gains, amplifying market risk.",
           "forecast": {
             "low": 1.5,
             "high": 3.6,
