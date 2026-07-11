@@ -1,38 +1,38 @@
 {
-  "updated_at": "2026-07-11 05:51 UTC",
+  "updated_at": "2026-07-11 05:58 UTC",
   "market": "JP",
   "index": "Nikkei 225",
-  "macro_theme": "Geopolitical conflict raises energy-sector risk",
-  "macro_score": 38,
+  "macro_theme": "Mixed macro signals; markets range-bound",
+  "macro_score": 50,
   "sectors": [
     {
       "name": "Consumer Discretionary",
-      "score": 39,
-      "label": "Bearish"
+      "score": 48,
+      "label": "Neutral"
     },
     {
       "name": "Energy",
-      "score": 44,
+      "score": 47,
       "label": "Neutral"
     },
     {
       "name": "Financials",
-      "score": 58,
+      "score": 55,
       "label": "Neutral"
     },
     {
       "name": "Healthcare",
-      "score": 53,
+      "score": 48,
       "label": "Neutral"
     },
     {
       "name": "Industrials",
-      "score": 42,
+      "score": 45,
       "label": "Neutral"
     },
     {
       "name": "Technology",
-      "score": 48,
+      "score": 49,
       "label": "Neutral"
     }
   ]

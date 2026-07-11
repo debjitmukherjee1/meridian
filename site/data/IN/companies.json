@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11 05:51 UTC",
+  "updated_at": "2026-07-11 05:58 UTC",
   "market": "IN",
   "currency": "\u20b9",
   "companies": [
@@ -12,11 +12,11 @@
       "pe": null,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 47.1,
+      "sentiment_index": 50.9,
       "sentiment_breakdown": {
         "social": 52.3,
-        "news": 47.6,
-        "macro": 38
+        "news": 50,
+        "macro": 50
       },
       "base_fair_value": 0,
       "sentiment_adjusted_fair_value": 0.0
@@ -26,36 +26,36 @@
       "name": "Tata Consultancy",
       "sector": "Technology",
       "price": 0,
-      "eps": 0,
-      "pe": null,
+      "eps": -29.7978,
+      "pe": -0.0,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 45.4,
+      "sentiment_index": 46.6,
       "sentiment_breakdown": {
         "social": 41.4,
-        "news": 55.2,
-        "macro": 38
+        "news": 50,
+        "macro": 50
       },
-      "base_fair_value": 0,
-      "sentiment_adjusted_fair_value": 0.0
+      "base_fair_value": -4.56,
+      "sentiment_adjusted_fair_value": -4.51
     },
     {
       "ticker": "INFY",
       "name": "Infosys",
       "sector": "Technology",
-      "price": 0,
-      "eps": 0,
-      "pe": null,
+      "price": 10.94,
+      "eps": 71.5364,
+      "pe": 0.152929138173014,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 47.7,
+      "sentiment_index": 48.9,
       "sentiment_breakdown": {
         "social": 47.3,
-        "news": 55.2,
-        "macro": 38
+        "news": 50,
+        "macro": 50
       },
-      "base_fair_value": 0,
-      "sentiment_adjusted_fair_value": 0.0
+      "base_fair_value": 10.94,
+      "sentiment_adjusted_fair_value": 10.9
     },
     {
       "ticker": "HDFCBANK",
@@ -66,11 +66,11 @@
       "pe": null,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 60.6,
+      "sentiment_index": 57.9,
       "sentiment_breakdown": {
         "social": 69.7,
-        "news": 66.4,
-        "macro": 38
+        "news": 50,
+        "macro": 50
       },
       "base_fair_value": 0,
       "sentiment_adjusted_fair_value": 0.0
@@ -84,11 +84,11 @@
       "pe": null,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 61.6,
+      "sentiment_index": 58.8,
       "sentiment_breakdown": {
         "social": 72.1,
-        "news": 66.4,
-        "macro": 38
+        "news": 50,
+        "macro": 50
       },
       "base_fair_value": 0,
       "sentiment_adjusted_fair_value": 0.0
@@ -102,11 +102,11 @@
       "pe": null,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 60.7,
+      "sentiment_index": 59.8,
       "sentiment_breakdown": {
         "social": 74.5,
-        "news": 61.2,
-        "macro": 38
+        "news": 50,
+        "macro": 50
       },
       "base_fair_value": 0,
       "sentiment_adjusted_fair_value": 0.0
@@ -120,11 +120,11 @@
       "pe": null,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 47.9,
+      "sentiment_index": 57.0,
       "sentiment_breakdown": {
         "social": 67.6,
-        "news": 32.4,
-        "macro": 38
+        "news": 50,
+        "macro": 50
       },
       "base_fair_value": 0,
       "sentiment_adjusted_fair_value": 0.0
@@ -138,11 +138,11 @@
       "pe": null,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 48.3,
+      "sentiment_index": 42.6,
       "sentiment_breakdown": {
         "social": 31.6,
-        "news": 74.8,
-        "macro": 38
+        "news": 50,
+        "macro": 50
       },
       "base_fair_value": 0,
       "sentiment_adjusted_fair_value": 0.0

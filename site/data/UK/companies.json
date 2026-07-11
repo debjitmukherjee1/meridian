@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11 05:51 UTC",
+  "updated_at": "2026-07-11 05:58 UTC",
   "market": "UK",
   "currency": "\u00a3",
   "companies": [
@@ -7,9 +7,9 @@
       "ticker": "SHEL",
       "name": "Shell",
       "sector": "Energy",
-      "price": 0,
-      "eps": 0,
-      "pe": null,
+      "price": 82.23,
+      "eps": 3.2117,
+      "pe": 25.603263069402498,
       "ebitda_per_share": null,
       "fcf_per_share": null,
       "sentiment_index": 52.4,
@@ -18,16 +18,16 @@
         "news": 47.6,
         "macro": 38
       },
-      "base_fair_value": 0,
-      "sentiment_adjusted_fair_value": 0.0
+      "base_fair_value": 356.33,
+      "sentiment_adjusted_fair_value": 358.9
     },
     {
       "ticker": "BP",
       "name": "BP",
       "sector": "Energy",
-      "price": 0,
-      "eps": 0,
-      "pe": null,
+      "price": 39.2,
+      "eps": 0.1997,
+      "pe": 196.29444166249377,
       "ebitda_per_share": null,
       "fcf_per_share": null,
       "sentiment_index": 44.5,
@@ -36,8 +36,8 @@
         "news": 47.6,
         "macro": 38
       },
-      "base_fair_value": 0,
-      "sentiment_adjusted_fair_value": 0.0
+      "base_fair_value": 22.16,
+      "sentiment_adjusted_fair_value": 21.79
     },
     {
       "ticker": "HSBA",
@@ -79,9 +79,9 @@
       "ticker": "AZN",
       "name": "AstraZeneca",
       "sector": "Healthcare",
-      "price": 0,
-      "eps": 0,
-      "pe": null,
+      "price": 171.61,
+      "eps": 6.653600000000001,
+      "pe": 25.792052422748586,
       "ebitda_per_share": null,
       "fcf_per_share": null,
       "sentiment_index": 62.8,
@@ -90,8 +90,8 @@
         "news": 74.8,
         "macro": 38
       },
-      "base_fair_value": 0,
-      "sentiment_adjusted_fair_value": 0.0
+      "base_fair_value": 171.61,
+      "sentiment_adjusted_fair_value": 178.2
     },
     {
       "ticker": "ULVR",
@@ -115,9 +115,9 @@
       "ticker": "RIO",
       "name": "Rio Tinto",
       "sector": "Materials",
-      "price": 0,
-      "eps": 0,
-      "pe": null,
+      "price": 90.54,
+      "eps": 6.0841,
+      "pe": 14.88141220558505,
       "ebitda_per_share": null,
       "fcf_per_share": null,
       "sentiment_index": 46.9,
@@ -126,16 +126,16 @@
         "news": 50,
         "macro": 38
       },
-      "base_fair_value": 0,
-      "sentiment_adjusted_fair_value": 0.0
+      "base_fair_value": 90.54,
+      "sentiment_adjusted_fair_value": 89.7
     },
     {
       "ticker": "VOD",
       "name": "Vodafone",
       "sector": "Technology",
-      "price": 0,
-      "eps": 0,
-      "pe": null,
+      "price": 14.72,
+      "eps": -0.0184,
+      "pe": -800.0,
       "ebitda_per_share": null,
       "fcf_per_share": null,
       "sentiment_index": 43.7,
@@ -144,8 +144,8 @@
         "news": 55.2,
         "macro": 38
       },
-      "base_fair_value": 0,
-      "sentiment_adjusted_fair_value": 0.0
+      "base_fair_value": 14.72,
+      "sentiment_adjusted_fair_value": 14.44
     }
   ]
 }
