@@ -62,7 +62,9 @@ def run_market(market, updated):
             "currency": config.MARKETS[market]["currency"], "companies": companies})
     _write(mkt_dir, "sectors.json",
            {"updated_at": updated, "market": market, "index": config.MARKETS[market]["index"],
-            "macro_theme": macro_theme, "macro_score": macro, "sectors": sectors})
+            "macro_theme": macro_theme, "macro_score": macro,
+            "macro_explanation": score_sentiment.macro_explanation(macro_theme),
+            "sectors": sectors})
     _write(mkt_dir, "signals.json",
            {"updated_at": updated, "market": market,
             "macro_theme": macro_theme, "signals": signals})

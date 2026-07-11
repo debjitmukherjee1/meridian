@@ -221,6 +221,7 @@ function renderCompany() {
   document.getElementById("verdict").textContent = verdictText(c.base_fair_value, adjusted);
   renderCompanyChart(c, adjusted);
   renderSentimentChart(c);
+  renderSentimentBreakdown(c);
   attachTiltAll(".cards .card");
 }
 
@@ -254,6 +255,16 @@ function renderCompanyChart(c, adjusted) {
   });
 }
 
+function sentimentBarClick(evt, elements) {
+  if (!elements.length) return;
+  const id = elements[0].index === 0 ? "acc-news" : "acc-macro";
+  openAccordion(id, true);
+  document.getElementById(id).scrollIntoView({ behavior: "smooth", block: "center" });
+}
+function sentimentBarHover(evt, elements) {
+  evt.native.target.style.cursor = elements.length ? "pointer" : "default";
+}
+
 function renderSentimentChart(c) {
   const ctx = document.getElementById("sentiment-chart");
   const b = c.sentiment_breakdown;
@@ -266,15 +277,68 @@ function renderSentimentChart(c) {
       borderRadius: 4,
     }]
   };
-  if (sentimentChart) { sentimentChart.data = data; sentimentChart.update(); return; }
+  if (sentimentChart) {
+    sentimentChart.data = data;
+    sentimentChart.update();
+    return;
+  }
   sentimentChart = new Chart(ctx, {
     type: "bar", data,
     options: {
       animation: CHART_ANIM,
+      onClick: sentimentBarClick,
+      onHover: sentimentBarHover,
       plugins: { legend: { display: false } },
       scales: { y: { min: 0, max: 100, ticks: { color: "#6b6153" }, grid: { color: "#ddd0b3" } },
                 x: { ticks: { color: "#6b6153" }, grid: { color: "transparent" } } }
     }
+  });
+}
+
+// ---- Sentiment tab: the "why" behind each bar ------------------------------
+function openAccordion(id, forceOpen) {
+  const acc = document.getElementById(id);
+  const body = acc.querySelector(".accordion-body");
+  const open = forceOpen === undefined ? !acc.classList.contains("open") : forceOpen;
+  acc.classList.toggle("open", open);
+  body.style.maxHeight = open ? body.scrollHeight + "px" : "0px";
+}
+
+function renderSentimentBreakdown(c) {
+  document.getElementById("news-score-label").textContent = c.sentiment_breakdown.news.toFixed(1);
+  document.getElementById("news-sector-label").textContent = c.sector;
+
+  const relevant = state.news.items.filter(n => n.sector === c.sector || n.sector === "Market");
+  const list = document.getElementById("news-breakdown-list");
+  list.innerHTML = "";
+  if (relevant.length === 0) {
+    list.innerHTML = '<p class="muted small">No sector-specific headlines in today’s pull.</p>';
+  } else {
+    relevant.forEach((n, i) => {
+      const cls = n.tone > 1 ? "tone-pos" : n.tone < -1 ? "tone-neg" : "tone-neu";
+      const label = n.tone > 1 ? "Positive" : n.tone < -1 ? "Negative" : "Neutral";
+      const item = document.createElement("div");
+      item.className = "news-item";
+      item.style.setProperty("--i", i);
+      item.innerHTML = `
+        <div class="news-item-main">
+          <a href="${n.url}" target="_blank" rel="noopener">${n.title}</a>
+          <div class="news-note">${n.note || ""}</div>
+        </div>
+        <span class="tone-badge ${cls}">${label}</span>`;
+      list.appendChild(item);
+    });
+  }
+
+  document.getElementById("macro-score-label").textContent = state.sectors.macro_score;
+  document.getElementById("macro-theme-label").textContent =
+    "Today's macro/geo theme: " + (state.sectors.macro_theme || "—");
+  document.getElementById("macro-explanation-label").textContent = state.sectors.macro_explanation || "";
+
+  // keep any already-open accordion sized correctly against the new content
+  document.querySelectorAll(".accordion.open").forEach(acc => {
+    const body = acc.querySelector(".accordion-body");
+    body.style.maxHeight = body.scrollHeight + "px";
   });
 }
 
@@ -311,7 +375,18 @@ document.querySelectorAll(".tab").forEach(t => {
     t.classList.add("active");
     document.getElementById(t.dataset.tab).classList.add("active");
     moveTabIndicator(t);
+    // Charts created while their panel was display:none never get a real
+    // draw buffer (Chart.js can't size a canvas inside a hidden parent) --
+    // force a resize now that the panel is actually visible.
+    requestAnimationFrame(() => {
+      if (companyChart) companyChart.resize();
+      if (sentimentChart) sentimentChart.resize();
+    });
   });
+});
+
+document.querySelectorAll(".accordion-head").forEach(btn => {
+  btn.addEventListener("click", () => openAccordion(btn.parentElement.id));
 });
 window.addEventListener("resize", () => {
   const active = document.querySelector(".tab.active");

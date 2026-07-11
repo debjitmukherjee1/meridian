@@ -115,8 +115,32 @@
     <section id="sentiment" class="panel">
       <h2>Sentiment Composition</h2>
       <hr class="rule" />
-      <p class="muted">How the Sentiment Index is built for the selected company.</p>
+      <p class="muted">How the Sentiment Index is built for the selected company. Click a bar, or a heading below, to see the reasoning behind it.</p>
       <div class="chart-wrap"><canvas id="sentiment-chart"></canvas></div>
+
+      <div id="sentiment-breakdown" class="breakdown">
+        <div class="accordion" id="acc-news">
+          <button class="accordion-head" data-target="acc-news-body">
+            <span class="accordion-title">News tone <span class="accordion-score" id="news-score-label"></span></span>
+            <span class="accordion-chevron">›</span>
+          </button>
+          <div class="accordion-body" id="acc-news-body">
+            <p class="muted small">Headlines feeding the News-tone sub-score for <strong id="news-sector-label"></strong>, each with a one-line note on how it reads.</p>
+            <div id="news-breakdown-list" class="news-list"></div>
+          </div>
+        </div>
+
+        <div class="accordion" id="acc-macro">
+          <button class="accordion-head" data-target="acc-macro-body">
+            <span class="accordion-title">Macro / Geo <span class="accordion-score" id="macro-score-label"></span></span>
+            <span class="accordion-chevron">›</span>
+          </button>
+          <div class="accordion-body" id="acc-macro-body">
+            <p class="muted small" id="macro-theme-label"></p>
+            <p class="macro-reasoning" id="macro-explanation-label"></p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- METHODOLOGY -->

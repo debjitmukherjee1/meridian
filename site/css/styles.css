@@ -258,6 +258,47 @@ input[type=range]::-moz-range-progress { height: 4px; border-radius: 999px; back
 .tone-pos { background: rgba(38,107,67,.12); color: var(--bull); border: 1px solid rgba(38,107,67,.35); }
 .tone-neg { background: rgba(150,53,39,.12); color: var(--bear); border: 1px solid rgba(150,53,39,.35); }
 .tone-neu { background: rgba(143,114,71,.14); color: var(--neutral); border: 1px solid rgba(143,114,71,.35); }
+.news-item-main { flex: 1; min-width: 0; }
+.news-note { margin-top: .2rem; font-size: .82rem; font-style: italic; color: var(--ink-dim); }
+
+/* ---- sentiment breakdown accordion ---- */
+.breakdown { margin-top: 1.25rem; display: flex; flex-direction: column; gap: .75rem; }
+.accordion {
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+  box-shadow: var(--shadow-1); overflow: hidden;
+  transition: box-shadow .3s var(--ease-out), border-color .3s;
+}
+.accordion.open { border-color: var(--accent-soft); box-shadow: var(--shadow-2); }
+.accordion-head {
+  width: 100%; display: flex; align-items: center; justify-content: space-between;
+  background: none; border: none; cursor: pointer;
+  padding: 1rem 1.25rem; font-family: var(--serif); font-size: 1.05rem; color: var(--ink);
+  transition: background .2s var(--ease-out);
+}
+.accordion-head:hover { background: rgba(43,36,26,.03); }
+.accordion-title { display: flex; align-items: baseline; gap: .6rem; }
+.accordion-score {
+  font-family: var(--display); font-weight: 700; font-size: 1.15rem; color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+.accordion-chevron {
+  font-size: 1.3rem; color: var(--accent); line-height: 1;
+  transition: transform .4s var(--spring);
+}
+.accordion.open .accordion-chevron { transform: rotate(90deg); }
+.accordion-body {
+  max-height: 0; overflow: hidden;
+  transition: max-height .5s var(--spring-soft);
+}
+.accordion-body > * { padding: 0 1.25rem; }
+.accordion-body .news-list { margin-top: 0; padding-bottom: 1.1rem; }
+.accordion-body p.small { padding-top: .2rem; }
+.small { font-size: .84rem; }
+.macro-reasoning {
+  font-style: italic; color: var(--ink);
+  border-left: 2px solid var(--accent-soft);
+  margin: .6rem 0 1.1rem; padding-left: 1rem;
+}
 
 /* ---- SECTOR SIGNALS ---- */
 .signal-card {
