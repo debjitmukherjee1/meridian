@@ -17,7 +17,7 @@ async function boot() {
     document.getElementById("market-select").value = state.market;
     await loadMarket(state.market);
   } catch (e) {
-    document.getElementById("macro-banner").textContent =
+    document.getElementById("macro-text").textContent =
       "Could not load data. If running locally, serve with `python -m http.server`.";
     console.error(e);
   }
@@ -116,8 +116,8 @@ function verdictText(bfv, adj) {
 function render() {
   document.getElementById("updated-at").textContent = state.companies.updated_at || "—";
   document.getElementById("ov-index").textContent = state.sectors.index || "";
-  document.getElementById("macro-banner").innerHTML =
-    "🌍 <strong>Macro / Geo theme:</strong> " + (state.sectors.macro_theme || "Markets calm");
+  document.getElementById("macro-text").innerHTML =
+    "<strong>Macro / Geo theme:</strong> " + (state.sectors.macro_theme || "Markets calm");
   renderHeatmap();
   renderSignals();
   renderTickerSelect();
@@ -326,10 +326,17 @@ document.getElementById("market-select").addEventListener("change", e => loadMar
 document.getElementById("ticker-select").addEventListener("change", e => {
   state.selected = e.target.value; renderCompany();
 });
-document.getElementById("k-slider").addEventListener("input", e => {
+function updateSliderFill(el) {
+  const pct = ((el.value - el.min) / (el.max - el.min)) * 100;
+  el.style.setProperty("--pct", pct + "%");
+}
+const kSlider = document.getElementById("k-slider");
+kSlider.addEventListener("input", e => {
   state.k = parseFloat(e.target.value);
   document.getElementById("k-val").textContent = state.k.toFixed(2);
+  updateSliderFill(e.target);
   renderCompany();
 });
+updateSliderFill(kSlider);
 
 boot();

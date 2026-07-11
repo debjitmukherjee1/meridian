@@ -15,8 +15,14 @@
 <body>
   <header class="topbar">
     <div class="brand">
-      <span class="monogram">M</span>
-      <div>
+      <svg class="monogram" viewBox="0 0 48 48" width="46" height="46" aria-hidden="true">
+        <circle cx="24" cy="24" r="22" fill="var(--surface)" stroke="var(--accent)" stroke-width="1.5" />
+        <circle cx="24" cy="24" r="17.5" fill="none" stroke="var(--accent-soft)" stroke-width=".75" opacity=".6" />
+        <text x="24" y="25.5" text-anchor="middle" dominant-baseline="central"
+              font-family="'Cormorant Garamond', Georgia, serif" font-size="21" font-weight="700"
+              fill="var(--accent)">M</text>
+      </svg>
+      <div class="brand-text">
         <h1>Meridian</h1>
         <p class="tagline">Fair value, read against the mood of the market.</p>
       </div>
@@ -30,7 +36,14 @@
     </div>
   </header>
 
-  <div id="macro-banner" class="macro-banner">Reading the market…</div>
+  <div id="macro-banner" class="macro-banner">
+    <svg class="macro-icon" viewBox="0 0 20 20" width="15" height="15" aria-hidden="true">
+      <circle cx="10" cy="10" r="8" fill="none" stroke="currentColor" stroke-width="1.2" />
+      <ellipse cx="10" cy="10" rx="3.4" ry="8" fill="none" stroke="currentColor" stroke-width="1" opacity=".7" />
+      <line x1="2" y1="10" x2="18" y2="10" stroke="currentColor" stroke-width="1" opacity=".7" />
+    </svg>
+    <span id="macro-text">Reading the market…</span>
+  </div>
 
   <nav class="tabs">
     <span class="tab-indicator" id="tab-indicator"></span>
