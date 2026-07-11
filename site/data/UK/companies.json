@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11 06:23 UTC",
+  "updated_at": "2026-07-11 06:59 UTC",
   "market": "UK",
   "currency": "\u00a3",
   "companies": [
@@ -12,14 +12,13 @@
       "pe": 25.603263069402498,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 59.2,
+      "sentiment_index": 51.2,
       "sentiment_breakdown": {
-        "social": 65.6,
-        "news": 67,
+        "news": 60,
         "macro": 38
       },
       "base_fair_value": 356.33,
-      "sentiment_adjusted_fair_value": 366.16
+      "sentiment_adjusted_fair_value": 357.61
     },
     {
       "ticker": "BP",
@@ -30,14 +29,13 @@
       "pe": 196.29444166249377,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 51.3,
+      "sentiment_index": 51.2,
       "sentiment_breakdown": {
-        "social": 45.9,
-        "news": 67,
+        "news": 60,
         "macro": 38
       },
       "base_fair_value": 22.16,
-      "sentiment_adjusted_fair_value": 22.25
+      "sentiment_adjusted_fair_value": 22.24
     },
     {
       "ticker": "HSBA",
@@ -48,10 +46,9 @@
       "pe": null,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 65.3,
+      "sentiment_index": 63.2,
       "sentiment_breakdown": {
-        "social": 73.9,
-        "news": 75,
+        "news": 80,
         "macro": 38
       },
       "base_fair_value": 0,
@@ -66,10 +63,9 @@
       "pe": null,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 61.7,
+      "sentiment_index": 63.2,
       "sentiment_breakdown": {
-        "social": 64.8,
-        "news": 75,
+        "news": 80,
         "macro": 38
       },
       "base_fair_value": 0,
@@ -84,14 +80,13 @@
       "pe": 25.792052422748586,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 66.3,
+      "sentiment_index": 60.2,
       "sentiment_breakdown": {
-        "social": 67.7,
-        "news": 85,
+        "news": 75,
         "macro": 38
       },
       "base_fair_value": 171.61,
-      "sentiment_adjusted_fair_value": 180.0
+      "sentiment_adjusted_fair_value": 176.86
     },
     {
       "ticker": "ULVR",
@@ -102,10 +97,9 @@
       "pe": null,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 57.3,
+      "sentiment_index": 63.2,
       "sentiment_breakdown": {
-        "social": 45.1,
-        "news": 85,
+        "news": 80,
         "macro": 38
       },
       "base_fair_value": 0,
@@ -120,14 +114,13 @@
       "pe": 14.88141220558505,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 46.9,
+      "sentiment_index": 45.2,
       "sentiment_breakdown": {
-        "social": 49.7,
         "news": 50,
         "macro": 38
       },
       "base_fair_value": 90.54,
-      "sentiment_adjusted_fair_value": 89.7
+      "sentiment_adjusted_fair_value": 89.24
     },
     {
       "ticker": "VOD",
@@ -138,14 +131,13 @@
       "pe": -800.0,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 48.9,
+      "sentiment_index": 54.2,
       "sentiment_breakdown": {
-        "social": 37.3,
-        "news": 70,
+        "news": 65,
         "macro": 38
       },
       "base_fair_value": 14.72,
-      "sentiment_adjusted_fair_value": 14.67
+      "sentiment_adjusted_fair_value": 14.91
     }
   ]
 }

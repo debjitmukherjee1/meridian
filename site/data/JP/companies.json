@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11 06:23 UTC",
+  "updated_at": "2026-07-11 06:59 UTC",
   "market": "JP",
   "currency": "\u00a5",
   "companies": [
@@ -12,9 +12,8 @@
       "pe": null,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 47.7,
+      "sentiment_index": 50.0,
       "sentiment_breakdown": {
-        "social": 44.3,
         "news": 50,
         "macro": 50
       },
@@ -30,9 +29,8 @@
       "pe": null,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 46.0,
+      "sentiment_index": 50.0,
       "sentiment_breakdown": {
-        "social": 39.9,
         "news": 50,
         "macro": 50
       },
@@ -48,9 +46,8 @@
       "pe": null,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 56.5,
+      "sentiment_index": 50.0,
       "sentiment_breakdown": {
-        "social": 66.3,
         "news": 50,
         "macro": 50
       },
@@ -66,9 +63,8 @@
       "pe": null,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 54.9,
+      "sentiment_index": 50.0,
       "sentiment_breakdown": {
-        "social": 62.3,
         "news": 50,
         "macro": 50
       },
@@ -84,9 +80,8 @@
       "pe": null,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 43.8,
+      "sentiment_index": 50.0,
       "sentiment_breakdown": {
-        "social": 34.6,
         "news": 50,
         "macro": 50
       },
@@ -102,9 +97,8 @@
       "pe": null,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 47.5,
+      "sentiment_index": 50.0,
       "sentiment_breakdown": {
-        "social": 43.7,
         "news": 50,
         "macro": 50
       },
@@ -120,9 +114,8 @@
       "pe": null,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 45.0,
+      "sentiment_index": 50.0,
       "sentiment_breakdown": {
-        "social": 37.5,
         "news": 50,
         "macro": 50
       },
@@ -138,9 +131,8 @@
       "pe": null,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 47.3,
+      "sentiment_index": 50.0,
       "sentiment_breakdown": {
-        "social": 43.3,
         "news": 50,
         "macro": 50
       },
