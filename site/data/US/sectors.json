@@ -1,14 +1,15 @@
 {
-  "updated_at": "2026-07-11 08:08 UTC",
+  "updated_at": "2026-07-11 09:44 UTC",
   "market": "US",
   "index": "S&P 500",
   "macro_theme": "Geopolitical conflict raises energy-sector risk",
   "macro_score": 38,
+  "macro_explanation": "Matched keyword \"conflict\" in the macro theme \u2192 bearish overlay (38).",
   "sectors": [
     {
       "name": "Consumer Discretionary",
-      "score": 29,
-      "label": "Bearish"
+      "score": 49,
+      "label": "Neutral"
     },
     {
       "name": "Consumer Staples",
@@ -17,12 +18,12 @@
     },
     {
       "name": "Energy",
-      "score": 48,
+      "score": 51,
       "label": "Neutral"
     },
     {
       "name": "Financials",
-      "score": 63,
+      "score": 64,
       "label": "Bullish"
     },
     {
@@ -32,7 +33,7 @@
     },
     {
       "name": "Technology",
-      "score": 60,
+      "score": 66,
       "label": "Bullish"
     }
   ]
