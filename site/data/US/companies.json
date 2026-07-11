@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11 06:23 UTC",
+  "updated_at": "2026-07-11 07:48 UTC",
   "market": "US",
   "currency": "$",
   "companies": [
@@ -12,14 +12,13 @@
       "pe": 38.143855998838696,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 53.9,
+      "sentiment_index": 50.0,
       "sentiment_breakdown": {
-        "social": 58.4,
-        "news": 60,
+        "news": 58,
         "macro": 38
       },
       "base_fair_value": 252.46,
-      "sentiment_adjusted_fair_value": 255.41
+      "sentiment_adjusted_fair_value": 252.46
     },
     {
       "ticker": "MSFT",
@@ -30,14 +29,13 @@
       "pe": 22.936818030209178,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 53.2,
+      "sentiment_index": 50.0,
       "sentiment_breakdown": {
-        "social": 56.8,
-        "news": 60,
+        "news": 58,
         "macro": 38
       },
       "base_fair_value": 512.76,
-      "sentiment_adjusted_fair_value": 517.68
+      "sentiment_adjusted_fair_value": 512.76
     },
     {
       "ticker": "JPM",
@@ -48,14 +46,13 @@
       "pe": 15.736427582594379,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 53.1,
+      "sentiment_index": 63.2,
       "sentiment_breakdown": {
-        "social": 34.7,
-        "news": 85,
+        "news": 80,
         "macro": 38
       },
       "base_fair_value": 493.25,
-      "sentiment_adjusted_fair_value": 497.84
+      "sentiment_adjusted_fair_value": 512.78
     },
     {
       "ticker": "V",
@@ -66,14 +63,13 @@
       "pe": 30.401791159200602,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 54.8,
+      "sentiment_index": 63.2,
       "sentiment_breakdown": {
-        "social": 39.0,
-        "news": 85,
+        "news": 80,
         "macro": 38
       },
       "base_fair_value": 264.8,
-      "sentiment_adjusted_fair_value": 268.61
+      "sentiment_adjusted_fair_value": 275.29
     },
     {
       "ticker": "XOM",
@@ -84,14 +80,13 @@
       "pe": 23.43214834061651,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 50.9,
+      "sentiment_index": 60.2,
       "sentiment_breakdown": {
-        "social": 46.5,
-        "news": 65,
+        "news": 75,
         "macro": 38
       },
       "base_fair_value": 138.88,
-      "sentiment_adjusted_fair_value": 139.25
+      "sentiment_adjusted_fair_value": 143.13
     },
     {
       "ticker": "AMZN",
@@ -102,14 +97,13 @@
       "pe": 29.32023519288685,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 34.6,
+      "sentiment_index": 39.2,
       "sentiment_breakdown": {
-        "social": 45.2,
-        "news": 20,
+        "news": 40,
         "macro": 38
       },
       "base_fair_value": 245.34,
-      "sentiment_adjusted_fair_value": 234.01
+      "sentiment_adjusted_fair_value": 237.39
     },
     {
       "ticker": "KO",
@@ -120,14 +114,13 @@
       "pe": 26.284472988288627,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 62.0,
+      "sentiment_index": 60.2,
       "sentiment_breakdown": {
-        "social": 65.7,
         "news": 75,
         "macro": 38
       },
       "base_fair_value": 83.49,
-      "sentiment_adjusted_fair_value": 86.5
+      "sentiment_adjusted_fair_value": 86.04
     },
     {
       "ticker": "PFE",
@@ -138,14 +131,13 @@
       "pe": 18.465887386354957,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 55.6,
+      "sentiment_index": 51.2,
       "sentiment_breakdown": {
-        "social": 45.3,
-        "news": 80,
+        "news": 60,
         "macro": 38
       },
       "base_fair_value": 24.17,
-      "sentiment_adjusted_fair_value": 24.58
+      "sentiment_adjusted_fair_value": 24.26
     }
   ]
 }

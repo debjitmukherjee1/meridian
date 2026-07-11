@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11 06:23 UTC",
+  "updated_at": "2026-07-11 07:48 UTC",
   "market": "IN",
   "currency": "\u20b9",
   "companies": [
@@ -12,10 +12,9 @@
       "pe": null,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 37.4,
+      "sentiment_index": 18.2,
       "sentiment_breakdown": {
-        "social": 52.3,
-        "news": 20,
+        "news": 5,
         "macro": 38
       },
       "base_fair_value": 0,
@@ -30,14 +29,13 @@
       "pe": -0.0,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 47.1,
+      "sentiment_index": 60.2,
       "sentiment_breakdown": {
-        "social": 41.4,
-        "news": 60,
+        "news": 75,
         "macro": 38
       },
       "base_fair_value": -4.56,
-      "sentiment_adjusted_fair_value": -4.52
+      "sentiment_adjusted_fair_value": -4.7
     },
     {
       "ticker": "INFY",
@@ -48,14 +46,13 @@
       "pe": 0.152929138173014,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 49.4,
+      "sentiment_index": 60.2,
       "sentiment_breakdown": {
-        "social": 47.3,
-        "news": 60,
+        "news": 75,
         "macro": 38
       },
       "base_fair_value": 10.94,
-      "sentiment_adjusted_fair_value": 10.92
+      "sentiment_adjusted_fair_value": 11.27
     },
     {
       "ticker": "HDFCBANK",
@@ -66,10 +63,9 @@
       "pe": null,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 67.1,
+      "sentiment_index": 63.2,
       "sentiment_breakdown": {
-        "social": 69.7,
-        "news": 85,
+        "news": 80,
         "macro": 38
       },
       "base_fair_value": 0,
@@ -84,10 +80,9 @@
       "pe": null,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 68.1,
+      "sentiment_index": 63.2,
       "sentiment_breakdown": {
-        "social": 72.1,
-        "news": 85,
+        "news": 80,
         "macro": 38
       },
       "base_fair_value": 0,
@@ -102,10 +97,9 @@
       "pe": null,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 69.8,
+      "sentiment_index": 64.4,
       "sentiment_breakdown": {
-        "social": 74.5,
-        "news": 87,
+        "news": 82,
         "macro": 38
       },
       "base_fair_value": 0,
@@ -120,10 +114,9 @@
       "pe": null,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 47.0,
+      "sentiment_index": 29.0,
       "sentiment_breakdown": {
-        "social": 67.6,
-        "news": 30,
+        "news": 23,
         "macro": 38
       },
       "base_fair_value": 0,
@@ -138,10 +131,9 @@
       "pe": null,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 48.4,
+      "sentiment_index": 72.2,
       "sentiment_breakdown": {
-        "social": 31.6,
-        "news": 75,
+        "news": 95,
         "macro": 38
       },
       "base_fair_value": 0,
