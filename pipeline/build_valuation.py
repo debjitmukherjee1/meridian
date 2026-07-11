@@ -2,8 +2,10 @@
 build_valuation.py — Base Fair Value + Sentiment-Adjusted Fair Value.
 
 Base Fair Value = blend of:
-  (1) sector-median-multiple anchor (P/E applied to EPS)
-  (2) DCF-lite on FCF per share (only when FCF is available)
+  (1) sector-median P/E anchor, applied to EPS
+  (2) sector-median EV/EBITDA anchor, applied to EBITDA (then de-levered by
+      the company's own net debt back to an equity value per share)
+  (3) DCF-lite on FCF per share (only when FCF is available)
 Everything here is deliberately simple and transparent so the number is
 reproducible and defensible.
 """
@@ -16,6 +18,28 @@ def _sector_median_pe(companies):
     for c in companies:
         if c.get("pe"):
             by_sector.setdefault(c["sector"], []).append(c["pe"])
+    return {s: statistics.median(v) for s, v in by_sector.items() if v}
+
+
+def _company_ev_ebitda(c):
+    """This company's own EV/EBITDA multiple, computed from parts we already
+    show (price, net debt, EBITDA) rather than trusting a pre-computed ratio
+    -- keeps the anchor auditable back to real fetched numbers."""
+    ebitda_ps = c.get("ebitda_per_share")
+    if not ebitda_ps or ebitda_ps <= 0:
+        return None
+    ev_per_share = c.get("price", 0) + (c.get("net_debt_per_share") or 0)
+    if ev_per_share <= 0:
+        return None
+    return ev_per_share / ebitda_ps
+
+
+def _sector_median_ev_ebitda(companies):
+    by_sector = {}
+    for c in companies:
+        m = _company_ev_ebitda(c)
+        if m:
+            by_sector.setdefault(c["sector"], []).append(m)
     return {s: statistics.median(v) for s, v in by_sector.items() if v}
 
 
@@ -35,14 +59,21 @@ def _dcf_lite(fcf_per_share):
 
 def base_fair_value(companies):
     med_pe = _sector_median_pe(companies)
+    med_ev_ebitda = _sector_median_ev_ebitda(companies)
     out = []
     for c in companies:
         c = dict(c)
         anchors = []
-        # (1) sector-median-multiple anchor
+        # (1) sector-median P/E anchor
         if c.get("eps") and c["sector"] in med_pe:
             anchors.append(med_pe[c["sector"]] * c["eps"])
-        # (2) DCF-lite
+        # (2) sector-median EV/EBITDA anchor, de-levered to equity per share
+        if c.get("ebitda_per_share") and c["sector"] in med_ev_ebitda:
+            implied_ev_per_share = med_ev_ebitda[c["sector"]] * c["ebitda_per_share"]
+            implied_price = implied_ev_per_share - (c.get("net_debt_per_share") or 0)
+            if implied_price > 0:
+                anchors.append(implied_price)
+        # (3) DCF-lite
         dcf = _dcf_lite(c.get("fcf_per_share"))
         if dcf:
             anchors.append(dcf)

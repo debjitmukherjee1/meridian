@@ -79,8 +79,19 @@ def main():
     updated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
     manifest = {"updated_at": updated, "default": config.DEFAULT_MARKET, "markets": []}
+    failed = []
     for code, meta in config.MARKETS.items():
-        nc, ns, nsig = run_market(code, updated)
+        # Per-source failures (a flaky API, a bad Groq response) already have
+        # mock fallbacks inside fetch_market/fetch_news/score_sentiment. This
+        # catches the OTHER kind of failure -- an actual bug (KeyError, bad
+        # data shape) -- so one broken market can't take down the other
+        # three's refresh and silently skip the whole day's commit/deploy.
+        try:
+            nc, ns, nsig = run_market(code, updated)
+        except Exception as e:
+            print(f"  {code} ({meta['name']}): FAILED ({e}); leaving its data untouched")
+            failed.append(code)
+            continue
         manifest["markets"].append({"code": code, "name": meta["name"],
                                     "index": meta["index"], "currency": meta["currency"]})
         print(f"  {code} ({meta['name']}): {nc} companies, {ns} sectors, {nsig} signals")
@@ -90,6 +101,10 @@ def main():
         json.dump(manifest, f, indent=2)
     print(f"Wrote manifest with {len(manifest['markets'])} markets -> "
           f"{os.path.normpath(config.DATA_DIR)}")
+    if failed:
+        # Non-zero exit so the Actions run shows red and gets noticed, but
+        # only after every other market's data was already written above.
+        raise SystemExit(f"{len(failed)} market(s) failed: {', '.join(failed)}")
 
 
 def _write(folder, name, obj):

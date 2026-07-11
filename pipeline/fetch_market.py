@@ -43,6 +43,8 @@ def _mock_company(ticker, name, sector):
         "price": price, "eps": eps, "pe": pe,
         "ebitda_per_share": round(eps * random.uniform(1.3, 2.2), 2),
         "fcf_per_share": round(eps * random.uniform(0.6, 1.1), 2),
+        # net debt can go either way -- some companies are net-cash
+        "net_debt_per_share": round(price * random.uniform(-0.1, 0.3), 2),
     }
 
 
@@ -116,24 +118,43 @@ def _fetch_quotes(symbols, session, crumb):
     return {item["symbol"]: item for item in results if "symbol" in item}
 
 
-def _fetch_fcf_per_share(yahoo_symbol, shares_out, session, crumb):
-    """FCF isn't on the quote endpoint; needs a per-symbol quoteSummary call.
-    Returns a float (can be negative) or None if unavailable — never raises
-    on missing data, only on request-level failure (caller catches)."""
+def _raw(field):
+    """Yahoo's quoteSummary wraps numeric fields as {"raw": ..., "fmt": ...}."""
+    return field.get("raw") if isinstance(field, dict) else None
+
+
+def _fetch_extra_financials(yahoo_symbol, shares_out, session, crumb):
+    """FCF, EBITDA and net debt aren't on the quote endpoint; one per-symbol
+    quoteSummary call (financialData module) covers all three -- no extra
+    request needed beyond what FCF alone already required. Returns a dict
+    with fcf_per_share / ebitda_per_share / net_debt_per_share, each a float
+    or None if unavailable. Never raises on missing data, only on
+    request-level failure (caller catches)."""
+    empty = {"fcf_per_share": None, "ebitda_per_share": None, "net_debt_per_share": None}
     if not shares_out:
-        return None
+        return empty
     params = {"modules": "financialData", "crumb": crumb}
     r = _request_with_host_fallback(f"/v10/finance/quoteSummary/{yahoo_symbol}",
                                      params, session)
     result = ((r.json().get("quoteSummary") or {}).get("result") or [])
     if not result:
-        return None
-    financial_data = result[0].get("financialData") or {}
-    fcf = financial_data.get("freeCashflow")
-    fcf_raw = fcf.get("raw") if isinstance(fcf, dict) else None
-    if fcf_raw is None:
-        return None
-    return fcf_raw / shares_out
+        return empty
+    fd = result[0].get("financialData") or {}
+
+    fcf_raw = _raw(fd.get("freeCashflow"))
+    ebitda_raw = _raw(fd.get("ebitda"))
+    debt_raw = _raw(fd.get("totalDebt"))
+    cash_raw = _raw(fd.get("totalCash"))
+
+    net_debt_per_share = None
+    if debt_raw is not None and cash_raw is not None:
+        net_debt_per_share = (debt_raw - cash_raw) / shares_out
+
+    return {
+        "fcf_per_share": (fcf_raw / shares_out) if fcf_raw is not None else None,
+        "ebitda_per_share": (ebitda_raw / shares_out) if ebitda_raw is not None else None,
+        "net_debt_per_share": net_debt_per_share,
+    }
 
 
 def _quote_to_company(ticker, name, sector, yahoo_symbol, quote, session, crumb):
@@ -146,16 +167,16 @@ def _quote_to_company(ticker, name, sector, yahoo_symbol, quote, session, crumb)
     shares_out = quote.get("sharesOutstanding")
 
     try:
-        fcf_per_share = _fetch_fcf_per_share(yahoo_symbol, shares_out, session, crumb)
+        extra = _fetch_extra_financials(yahoo_symbol, shares_out, session, crumb)
     except Exception as e:
-        print(f"[market] {ticker} FCF lookup failed ({e}); leaving fcf_per_share=None")
-        fcf_per_share = None
+        print(f"[market] {ticker} extra-financials lookup failed ({e}); "
+              f"leaving fcf/ebitda/net_debt per-share as None")
+        extra = {"fcf_per_share": None, "ebitda_per_share": None, "net_debt_per_share": None}
 
     return {
         "ticker": ticker, "name": name, "sector": sector,
         "price": price, "eps": eps, "pe": pe,
-        "ebitda_per_share": None,
-        "fcf_per_share": fcf_per_share,
+        **extra,
     }
 
 

@@ -82,8 +82,10 @@ This is the intellectual core. Keep it **explainable** — a black box impresses
 
 ### 4a. Base (traditional) fair value
 For each company, compute a simple, transparent blend so the number is reproducible:
-- **Multiples anchor:** peer/sector median P/E and EV/EBITDA applied to the company's earnings → an implied price.
+- **P/E anchor:** sector-median P/E applied to the company's EPS → an implied price.
+- **EV/EBITDA anchor:** each company's own EV/EBITDA is computed from parts already shown elsewhere (price + net debt per share, over EBITDA per share) rather than trusting a pre-computed ratio; the *sector median* of those is then applied to the company's own EBITDA, and de-levered back to an equity value per share by subtracting its own net debt. Skipped (not defaulted to zero) for companies where EBITDA isn't a meaningful figure, e.g. banks.
 - **Optional DCF-lite:** a simplified 5-year FCF projection with a conservative terminal growth (only where FCF data is clean; otherwise skip and note it).
+- Whichever anchors are actually computable for a given company are averaged; a company with zero computable anchors falls back to its current price rather than a fabricated number.
 - Output: **Base Fair Value (BFV)** with the assumptions shown.
 
 ### 4b. Sentiment Index (0–100, per sector and per stock)
@@ -136,7 +138,7 @@ Everything above is computed **per market**. A top-right switcher toggles **Indi
 2. **Sector Signals** — the "why" per sector: main impact + supporting drivers, each with a history-anchored forecast range (see §4e). This is the credibility centrepiece.
 3. **Company** — pick a ticker → Base Fair Value, Sentiment Index, Sentiment-Adjusted Fair Value, the `k` slider, and a one-line plain-English verdict.
 4. **Financial News** — top headlines with tone badges (from GDELT + Groq).
-5. **Sentiment** — the composition of the index: news tone, macro/geo.
+5. **Sentiment** — the composition of the index: news tone, macro/geo. Each is a click-to-expand accordion, not just a bar: "News tone" reveals the actual headlines behind that sector's score, each with a one-line Groq-generated note on how that specific headline reads (falls back to a tone-grounded deterministic note if Groq is unavailable); "Macro/Geo" reveals which keyword actually matched today's theme to produce that score, so neither number is asserted without a way to check it.
 6. **Methodology** — a static page explaining the model in plain English (pre-empts "is this legit?").
 
 **Top-right:** a **Market switcher** (India · USA · UK · Japan) and a "last updated" stamp.
@@ -233,7 +235,7 @@ a social one. See §4b for the reweighted formula.
 
 ### Phase 3 — Sentiment pipeline (2–3 days)
 - `fetch_news.py` (GDELT).
-- `score_sentiment.py` (Groq) → `sentiment.json`, `sectors.json`.
+- `score_sentiment.py` (Groq) → sentiment embedded in `companies.json`, plus `sectors.json`.
 - Compute SAFV, wire into frontend.
 
 ### Phase 4 — Automate (½ day)
@@ -268,7 +270,7 @@ meridian/
 │   └── EXECUTABLE_PLAN.md        ← this file
 ├── site/                         ← the static website (GitHub Pages root)
 │   ├── index.html                ← 6 tabs, market switcher, k-slider
-│   ├── css/styles.css            ← old-money theme (ink/parchment/gold, serif)
+│   ├── css/styles.css            ← warm beige/cream theme, spring-physics motion
 │   ├── js/app.js                 ← loads manifest → per-market data → renders
 │   └── data/                     ← sample JSON so the site works NOW
 │       ├── manifest.json         ← markets list + default (India)
