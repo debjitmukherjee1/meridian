@@ -66,7 +66,7 @@ def sectors_for(market):
 # --- Sentiment Index weights (must sum to 1.0) -----------------------------
 SENTIMENT_WEIGHTS = {
     "social": 0.40,   # StockTwits bull/bear + Reddit tone
-    "news":   0.35,   # GDELT tone + Gemini scoring
+    "news":   0.35,   # GDELT tone + Groq scoring
     "macro":  0.25,   # GDELT geo-political / macro theme overlay
 }
 
@@ -158,7 +158,7 @@ DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "site", "data")
 
 # --- API keys (None => mock mode) ------------------------------------------
 FINNHUB_KEY = os.environ.get("FINNHUB_KEY")
-GEMINI_KEY  = os.environ.get("GEMINI_KEY")
+GROQ_KEY    = os.environ.get("GROQ_KEY")
 REDDIT_ID   = os.environ.get("REDDIT_ID")
 REDDIT_SECRET = os.environ.get("REDDIT_SECRET")
 

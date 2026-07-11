@@ -9,7 +9,7 @@ For every sector it produces:
     (config.SECTOR_EVENT_VOL), scaled by event severity — never a made-up
     single number.
 
-Direction + narrative come from the AI (Gemini). Magnitude comes from history.
+Direction + narrative come from the AI (Groq). Magnitude comes from history.
 That split is what keeps the reasoning defensible.
 """
 import json
@@ -20,8 +20,8 @@ try:
 except ImportError:
     requests = None
 
-GEMINI_URL = ("https://generativelanguage.googleapis.com/v1beta/"
-              "models/gemini-2.5-flash:generateContent")
+GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
+GROQ_MODEL = "llama-3.1-8b-instant"
 
 
 def classify_event(macro_theme):
@@ -96,12 +96,14 @@ def _ai_narrative(sector, event_type, score, headlines):
         f'{{"main": "...", "supporting": ["...", "..."]}}\n\nHeadlines:\n'
         + "\n".join(f"- {h}" for h in headlines[:8])
     )
-    body = {"contents": [{"parts": [{"text": prompt}]}]}
-    r = requests.post(GEMINI_URL, params={"key": config.GEMINI_KEY}, json=body, timeout=30)
+    body = {"model": GROQ_MODEL, "messages": [{"role": "user", "content": prompt}],
+            "response_format": {"type": "json_object"}}
+    r = requests.post(GROQ_URL,
+                      headers={"Authorization": f"Bearer {config.GROQ_KEY}"},
+                      json=body, timeout=30)
     r.raise_for_status()
-    txt = r.json()["candidates"][0]["content"]["parts"][0]["text"]
-    start, end = txt.find("{"), txt.rfind("}")
-    obj = json.loads(txt[start:end + 1])
+    txt = r.json()["choices"][0]["message"]["content"]
+    obj = json.loads(txt)
     return obj.get("main", ""), obj.get("supporting", [])[:3]
 
 
@@ -112,7 +114,7 @@ def build_signals(market, sectors, macro_theme, news_items):
     for s in sectors:
         name, score = s["name"], s["score"]
         heads = [n["title"] for n in news_items if n.get("sector") in (name, "Market")]
-        if config.MOCK_MODE or config.GEMINI_KEY is None:
+        if config.MOCK_MODE or config.GROQ_KEY is None:
             main, supporting = _mock_narrative(name, event_type, score)
         else:
             try:

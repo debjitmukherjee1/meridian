@@ -30,7 +30,7 @@ jobs:
       - name: Run pipeline
         env:
           FINNHUB_KEY: ${{ secrets.FINNHUB_KEY }}
-          GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
+          GROQ_KEY: ${{ secrets.GROQ_KEY }}
           REDDIT_ID: ${{ secrets.REDDIT_ID }}
           REDDIT_SECRET: ${{ secrets.REDDIT_SECRET }}
         run: |

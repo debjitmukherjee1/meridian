@@ -18,14 +18,14 @@ Runs entirely on free tiers.
 
 ## Does it cost Claude tokens each day? No.
 The daily job runs on **GitHub's servers** (GitHub Actions cron), and the AI step
-uses **Google Gemini's free tier** — not Claude. After you deploy it, there is
+uses **Groq's free tier** — not Claude. After you deploy it, there is
 **zero Anthropic token cost** and **$0/day** to keep it running. Claude was only
 used to build it.
 
 ## How it stays free
 - **Hosting:** GitHub Pages (static, free)
 - **Daily job:** GitHub Actions (unlimited minutes for public repos)
-- **Data:** Finnhub (60/min), GDELT (free), StockTwits (free), Gemini Flash (1,500/day)
+- **Data:** Finnhub (60/min), GDELT (free), StockTwits (free), Groq Llama 3.1 8B (14,400/day)
 - The website only reads pre-computed JSON — **never calls a paid API at runtime**,
   so every extra visitor costs $0.
 
@@ -44,7 +44,7 @@ python -m http.server 8000
 
 ## Go live (real data)
 1. Push this repo to GitHub (public).
-2. Add repo secrets: `FINNHUB_KEY`, `GEMINI_KEY` (Reddit optional). See
+2. Add repo secrets: `FINNHUB_KEY`, `GROQ_KEY` (Reddit optional). See
    [`pipeline/SOURCES.md`](pipeline/SOURCES.md).
 3. Settings → Pages → deploy from `main` → `/site`.
 4. The `daily-update.yml` workflow refreshes all markets every morning.

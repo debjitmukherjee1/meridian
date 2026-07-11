@@ -12,9 +12,9 @@
 **No.** Once deployed, Meridian runs entirely independently of Claude/Anthropic:
 
 - The daily job runs on **GitHub's servers** via GitHub Actions on a cron schedule — not on anything of Anthropic's, and not by "asking Claude" each day.
-- The AI sentiment/reasoning step uses **Google Gemini's free API** (1,500 calls/day free), *not* Claude. So there is **no Anthropic token cost** in daily operation.
+- The AI sentiment/reasoning step uses **Groq's free API** (14,400 calls/day free on Llama 3.1 8B Instant), *not* Claude. So there is **no Anthropic token cost** in daily operation.
 - Claude (me) was only involved during the **build**. After you push this to GitHub, you could delete the chat and the site keeps updating forever. Daily Claude cost = **0 tokens, $0**.
-- (If you ever *preferred* Claude as the reasoning engine over Gemini, that would use Anthropic API credits — but the design deliberately uses free Gemini so you never pay.)
+- (If you ever *preferred* Claude as the reasoning engine over Groq, that would use Anthropic API credits — but the design deliberately uses free Groq so you never pay.)
 
 ---
 
@@ -35,7 +35,7 @@ The entire cost constraint ("keep daily maintenance under 5% of total, ideally $
 | Stock prices & fundamentals | **Finnhub** | 60 calls/min | ~30 tickers × ~3 calls = ~90 calls, spread over minutes | Large |
 | News + macro/geo-political tone | **GDELT** | Fully free (file downloads / BigQuery) | 1–2 pulls/day | Unlimited |
 | Social sentiment | **StockTwits** public sentiment endpoint + **Reddit** API | StockTwits public; Reddit ~100 q/min (approved free tier) | ~30–60 calls/day | Large |
-| AI sentiment scoring | **Google Gemini 2.5 Flash** free tier | **1,500 requests/day** | ~30–60 calls/day (batched) | ~25× headroom |
+| AI sentiment scoring | **Groq (Llama 3.1 8B Instant)** free tier | **14,400 requests/day** | ~30–60 calls/day (batched) | ~240× headroom |
 
 **Sources for these limits are listed in §11.** The key architectural insight: because GitHub Actions is *unlimited for public repos*, the "server" that does the daily work is free forever, and because we cache results as static JSON, the website itself never calls a paid API at runtime — visitors just read pre-computed files. **Marginal cost per extra visitor ≈ $0.**
 
@@ -55,7 +55,7 @@ The magic word in your brief was **"self-sufficient by linking it to news and br
    GDELT    ───────▶│  fetch_news.py     → headlines + tone + geo  │
    StockTwits ─────▶│  fetch_social.py   → bull/bear ratios        │
    Reddit   ───────▶│                                              │
-                    │  score_sentiment.py (Gemini) → sector scores │
+                    │  score_sentiment.py (Groq) → sector scores   │
                     │  build_valuation.py → fair value + adjustment│
                     │                                              │
                     │           writes  ▼                          │
@@ -95,7 +95,7 @@ Three ingredients, each normalized to 0–100, then weighted:
 | Signal | Source | What it captures | Default weight |
 |---|---|---|---|
 | **Social mood** | StockTwits bull/bear ratio, Reddit post tone | Retail investor emotion | 40% |
-| **News tone** | GDELT tone score + Gemini scoring of top headlines | Media narrative | 35% |
+| **News tone** | GDELT tone score + Groq scoring of top headlines | Media narrative | 35% |
 | **Macro/Geo overlay** | GDELT event themes (conflict, trade, policy) → sector risk multiplier | Systemic mood | 25% |
 
 `SentimentIndex = 0.40·Social + 0.35·News + 0.25·Macro`
@@ -121,7 +121,7 @@ The heatmap tells you *that* Energy is bearish; the **Sector Signals** tab tells
 - and for each, a **forecast range** rather than a fake single number.
 
 The honest part is the split of labour:
-- **The AI (Gemini) decides *direction* and writes the *narrative*** from that day's headlines.
+- **The AI (Groq) decides *direction* and writes the *narrative*** from that day's headlines.
 - **The *magnitude* is NOT invented by the AI.** It comes from a historical volatility table (`pipeline/config.py → SECTOR_EVENT_VOL`): how each sector has *actually* moved during a major event of that type. A Gulf/war supply shock maps Energy to an ~8–18% historical band; the same shock barely moves Consumer Staples (~2–5%). That band is then scaled by how one-sided today's mood is (event severity), and shown as a range — e.g. *"Historical analogue move: −8% to −15%"*.
 
 This directly answers your requirement: reasoning that isn't nonsense, is backed by past sector volatility in response to major events, and expresses uncertainty as a **range** rather than false precision. Every forecast on the site is therefore auditable back to a documented historical band.
@@ -136,7 +136,7 @@ Everything above is computed **per market**. A top-right switcher toggles **Indi
 1. **Overview** — sector sentiment heatmap + market macro/geo banner (today's dominant theme from GDELT), scoped to the selected market.
 2. **Sector Signals** — the "why" per sector: main impact + supporting drivers, each with a history-anchored forecast range (see §4e). This is the credibility centrepiece.
 3. **Company** — pick a ticker → Base Fair Value, Sentiment Index, Sentiment-Adjusted Fair Value, the `k` slider, and a one-line plain-English verdict.
-4. **Financial News** — top headlines with tone badges (from GDELT + Gemini).
+4. **Financial News** — top headlines with tone badges (from GDELT + Groq).
 5. **Sentiment** — the composition of the index: social mood, news tone, macro/geo.
 6. **Methodology** — a static page explaining the model in plain English (pre-empts "is this legit?").
 
@@ -151,7 +151,7 @@ Matches your `portfolio` folder style (static `index.html` + `css/` + `js/`, `fa
 - **Frontend:** plain HTML + vanilla JS + Chart.js (CDN). No build step, no framework — deploys to Pages instantly and stays maintainable. (Upgrade path to React later if you want.)
 - **Pipeline:** Python 3 (`requests`, `pandas`). Runs only inside Actions, never in the browser.
 - **Data store:** flat JSON files in `site/data/`, committed by the bot each day. This *is* your database — free, versioned, and diff-able (you can literally see sentiment history in git).
-- **AI:** Google Gemini Flash via free API key stored as a GitHub Actions Secret (never in the repo).
+- **AI:** Groq (Llama 3.1 8B Instant) via free API key stored as a GitHub Actions Secret (never in the repo).
 - **Automation:** one GitHub Actions workflow on a `cron` schedule.
 
 ---
@@ -163,9 +163,9 @@ You asked me to recommend the sentiment mix. Here's the call and the reasoning:
 - **Primary social: StockTwits.** It has a public, finance-native sentiment signal (explicit bull/bear tagging by users) — the cleanest free retail-sentiment source. No scraping fragility.
 - **Secondary social: Reddit** (r/stocks, r/investing, r/wallstreetbets). High volume, but noisy and behind an approval form as of 2026 — treat as an *enrichment* signal, not the backbone, so the tool still works if Reddit access lapses.
 - **News + macro/geo: GDELT.** This is the quiet winner. It's fully free, updates every 15 min, and *already encodes* article tone and geo-political event themes (conflict, trade, sanctions) in the CAMEO/GKG schema — which directly satisfies your "macro-economic and geo-political aspects" requirement without you building that from scratch.
-- **AI layer: Gemini Flash** re-scores the *top* headlines per sector for nuance (GDELT's dictionary tone is decent but blunt on financial text). Batching keeps us to ~30–60 calls/day, far under the 1,500 limit.
+- **AI layer: Groq (Llama 3.1 8B Instant)** re-scores the *top* headlines per sector for nuance (GDELT's dictionary tone is decent but blunt on financial text). Batching keeps us to ~30–60 calls/day, far under the 14,400 limit.
 
-**Avoid:** paid social-sentiment aggregators and Twitter/X API (expensive in 2026). The StockTwits + Reddit + GDELT + Gemini stack gives you 90% of the signal at 0% of the cost.
+**Avoid:** paid social-sentiment aggregators and Twitter/X API (expensive in 2026). The StockTwits + Reddit + GDELT + Groq stack gives you 90% of the signal at 0% of the cost.
 
 **Legal/ToS note:** use official APIs and public endpoints, respect rate limits, and don't republish raw third-party content wholesale — store *derived* scores and short headline snippets with source links. Add a disclaimer: *"Educational/research tool. Not financial advice."*
 
@@ -176,8 +176,8 @@ You asked me to recommend the sentiment mix. Here's the call and the reasoning:
 ### Phase 0 — Repo setup (½ day)
 - Create public GitHub repo, push this scaffold.
 - Enable GitHub Pages (Settings → Pages → deploy from `main`, `/site` folder or a Pages Action).
-- Get free API keys: Finnhub, Gemini. (Reddit + StockTwits optional to start.)
-- Add keys as **repository secrets** (`FINNHUB_KEY`, `GEMINI_KEY`).
+- Get free API keys: Finnhub, Groq. (Reddit + StockTwits optional to start.)
+- Add keys as **repository secrets** (`FINNHUB_KEY`, `GROQ_KEY`).
 
 ### Phase 1 — Static shell with sample data (1 day)
 - Ship the frontend reading the **sample JSON** already in this scaffold. Site is live and shareable on day one, even before real data flows.
@@ -190,7 +190,7 @@ You asked me to recommend the sentiment mix. Here's the call and the reasoning:
 
 ### Phase 3 — Sentiment pipeline (2–3 days)
 - `fetch_news.py` (GDELT), `fetch_social.py` (StockTwits/Reddit).
-- `score_sentiment.py` (Gemini) → `sentiment.json`, `sectors.json`.
+- `score_sentiment.py` (Groq) → `sentiment.json`, `sectors.json`.
 - Compute SAFV, wire into frontend.
 
 ### Phase 4 — Automate (½ day)
@@ -209,7 +209,7 @@ You asked me to recommend the sentiment mix. Here's the call and the reasoning:
 
 | Risk | Mitigation |
 |---|---|
-| Free API limits change (they did in 2026 — Alpha Vantage dropped to 25/day) | Abstract each source behind one function; document limits in `pipeline/SOURCES.md`; Finnhub/GDELT/Gemini chosen for generous headroom |
+| Free API limits change (they did in 2026 — Alpha Vantage dropped to 25/day) | Abstract each source behind one function; document limits in `pipeline/SOURCES.md`; Finnhub/GDELT/Groq chosen for generous headroom |
 | Reddit approval form / access lapses | Reddit is secondary; tool degrades gracefully to StockTwits + GDELT |
 | Sentiment ≠ truth (crowds are often wrong) | Capped `k`, always show BFV alongside; Methodology page is explicit; "not advice" disclaimer |
 | Data only daily, not real-time | Deliberate, disclosed via timestamp; framed as a *research* tool not a trading terminal |
@@ -239,7 +239,7 @@ meridian/
 │   ├── fetch_market.py           ← Finnhub prices/fundamentals (per market)
 │   ├── fetch_news.py             ← GDELT headlines + tone + macro theme
 │   ├── fetch_social.py           ← StockTwits bull/bear (+ Reddit optional)
-│   ├── score_sentiment.py        ← Gemini sector scoring → Sentiment Index
+│   ├── score_sentiment.py        ← Groq sector scoring → Sentiment Index
 │   ├── sector_signals.py         ← NEW: main/supporting drivers + vol-anchored range
 │   ├── build_valuation.py        ← Base Fair Value + Sentiment-Adjusted value
 │   ├── run_all.py                ← loops ALL markets, writes data/<MKT>/*.json
@@ -261,6 +261,6 @@ The frontend is fully functional against the sample data immediately — all fou
 - GDELT (fully free, tone + geo events): https://dataresearchtools.com/gdelt-project-for-news-data-2026-free-alternative-to-newsapi/
 - Reddit API free tier (~100 q/min, approval form): https://support.reddithelp.com/hc/en-us/articles/16160319875092-Reddit-Data-API-Wiki
 - StockTwits sentiment API: https://stocktwitsapi.com/
-- Google Gemini free tier (1,500 req/day on Flash): https://openrouter.ai/blog/tutorials/free-llm-apis-compared/
+- Groq free tier (14,400 req/day on Llama 3.1 8B Instant, verified via API rate-limit headers): https://console.groq.com/docs/rate-limits
 - GitHub Pages limits: https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits
 - GitHub Actions free & unlimited for public repos: https://docs.github.com/en/actions/concepts/billing-and-usage
