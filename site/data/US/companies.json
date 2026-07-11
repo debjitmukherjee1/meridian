@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11 06:59 UTC",
+  "updated_at": "2026-07-11 07:48 UTC",
   "market": "US",
   "currency": "$",
   "companies": [
@@ -12,13 +12,13 @@
       "pe": 38.143855998838696,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 42.2,
+      "sentiment_index": 50.0,
       "sentiment_breakdown": {
-        "news": 45,
+        "news": 58,
         "macro": 38
       },
       "base_fair_value": 252.46,
-      "sentiment_adjusted_fair_value": 246.55
+      "sentiment_adjusted_fair_value": 252.46
     },
     {
       "ticker": "MSFT",
@@ -29,13 +29,13 @@
       "pe": 22.936818030209178,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 42.2,
+      "sentiment_index": 50.0,
       "sentiment_breakdown": {
-        "news": 45,
+        "news": 58,
         "macro": 38
       },
       "base_fair_value": 512.76,
-      "sentiment_adjusted_fair_value": 500.76
+      "sentiment_adjusted_fair_value": 512.76
     },
     {
       "ticker": "JPM",
@@ -97,13 +97,13 @@
       "pe": 29.32023519288685,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 41.0,
+      "sentiment_index": 39.2,
       "sentiment_breakdown": {
-        "news": 43,
+        "news": 40,
         "macro": 38
       },
       "base_fair_value": 245.34,
-      "sentiment_adjusted_fair_value": 238.72
+      "sentiment_adjusted_fair_value": 237.39
     },
     {
       "ticker": "KO",
@@ -114,13 +114,13 @@
       "pe": 26.284472988288627,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 63.2,
+      "sentiment_index": 60.2,
       "sentiment_breakdown": {
-        "news": 80,
+        "news": 75,
         "macro": 38
       },
       "base_fair_value": 83.49,
-      "sentiment_adjusted_fair_value": 86.8
+      "sentiment_adjusted_fair_value": 86.04
     },
     {
       "ticker": "PFE",
@@ -131,13 +131,13 @@
       "pe": 18.465887386354957,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 63.2,
+      "sentiment_index": 51.2,
       "sentiment_breakdown": {
-        "news": 80,
+        "news": 60,
         "macro": 38
       },
       "base_fair_value": 24.17,
-      "sentiment_adjusted_fair_value": 25.13
+      "sentiment_adjusted_fair_value": 24.26
     }
   ]
 }

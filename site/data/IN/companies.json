@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11 06:59 UTC",
+  "updated_at": "2026-07-11 07:48 UTC",
   "market": "IN",
   "currency": "\u20b9",
   "companies": [
@@ -12,9 +12,9 @@
       "pe": null,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 45.2,
+      "sentiment_index": 18.2,
       "sentiment_breakdown": {
-        "news": 50,
+        "news": 5,
         "macro": 38
       },
       "base_fair_value": 0,
@@ -63,9 +63,9 @@
       "pe": null,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 66.2,
+      "sentiment_index": 63.2,
       "sentiment_breakdown": {
-        "news": 85,
+        "news": 80,
         "macro": 38
       },
       "base_fair_value": 0,
@@ -80,9 +80,9 @@
       "pe": null,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 66.2,
+      "sentiment_index": 63.2,
       "sentiment_breakdown": {
-        "news": 85,
+        "news": 80,
         "macro": 38
       },
       "base_fair_value": 0,
@@ -97,9 +97,9 @@
       "pe": null,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 72.2,
+      "sentiment_index": 64.4,
       "sentiment_breakdown": {
-        "news": 95,
+        "news": 82,
         "macro": 38
       },
       "base_fair_value": 0,
@@ -114,9 +114,9 @@
       "pe": null,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 39.2,
+      "sentiment_index": 29.0,
       "sentiment_breakdown": {
-        "news": 40,
+        "news": 23,
         "macro": 38
       },
       "base_fair_value": 0,
@@ -131,9 +131,9 @@
       "pe": null,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 66.2,
+      "sentiment_index": 72.2,
       "sentiment_breakdown": {
-        "news": 85,
+        "news": 95,
         "macro": 38
       },
       "base_fair_value": 0,

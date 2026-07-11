@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11 06:59 UTC",
+  "updated_at": "2026-07-11 07:48 UTC",
   "market": "UK",
   "currency": "\u00a3",
   "companies": [
@@ -12,13 +12,13 @@
       "pe": 25.603263069402498,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 51.2,
+      "sentiment_index": 30.2,
       "sentiment_breakdown": {
-        "news": 60,
+        "news": 25,
         "macro": 38
       },
       "base_fair_value": 356.33,
-      "sentiment_adjusted_fair_value": 357.61
+      "sentiment_adjusted_fair_value": 335.16
     },
     {
       "ticker": "BP",
@@ -29,13 +29,13 @@
       "pe": 196.29444166249377,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 51.2,
+      "sentiment_index": 30.2,
       "sentiment_breakdown": {
-        "news": 60,
+        "news": 25,
         "macro": 38
       },
       "base_fair_value": 22.16,
-      "sentiment_adjusted_fair_value": 22.24
+      "sentiment_adjusted_fair_value": 20.84
     },
     {
       "ticker": "HSBA",
@@ -80,13 +80,13 @@
       "pe": 25.792052422748586,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 60.2,
+      "sentiment_index": 66.2,
       "sentiment_breakdown": {
-        "news": 75,
+        "news": 85,
         "macro": 38
       },
       "base_fair_value": 171.61,
-      "sentiment_adjusted_fair_value": 176.86
+      "sentiment_adjusted_fair_value": 179.95
     },
     {
       "ticker": "ULVR",
@@ -97,9 +97,9 @@
       "pe": null,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 63.2,
+      "sentiment_index": 66.2,
       "sentiment_breakdown": {
-        "news": 80,
+        "news": 85,
         "macro": 38
       },
       "base_fair_value": 0,
@@ -131,13 +131,13 @@
       "pe": -800.0,
       "ebitda_per_share": null,
       "fcf_per_share": null,
-      "sentiment_index": 54.2,
+      "sentiment_index": 60.2,
       "sentiment_breakdown": {
-        "news": 65,
+        "news": 75,
         "macro": 38
       },
       "base_fair_value": 14.72,
-      "sentiment_adjusted_fair_value": 14.91
+      "sentiment_adjusted_fair_value": 15.17
     }
   ]
 }
