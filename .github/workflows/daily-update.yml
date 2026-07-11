@@ -29,7 +29,6 @@ jobs:
 
       - name: Run pipeline
         env:
-          FINNHUB_KEY: ${{ secrets.FINNHUB_KEY }}
           GROQ_KEY: ${{ secrets.GROQ_KEY }}
         run: |
           cd pipeline

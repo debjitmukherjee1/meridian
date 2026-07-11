@@ -32,7 +32,7 @@ The entire cost constraint ("keep daily maintenance under 5% of total, ideally $
 |---|---|---|---|---|
 | Hosting | **GitHub Pages** | 100 GB bandwidth/mo (soft), unlimited static | A few MB of JSON + static assets | Enormous |
 | Automation (the daily job) | **GitHub Actions** | **Unlimited minutes for public repos** | ~2–4 min/day | Effectively infinite |
-| Stock prices & fundamentals | **Finnhub** | 60 calls/min | ~30 tickers × ~3 calls = ~90 calls, spread over minutes | Large |
+| Stock prices & fundamentals | **Yahoo Finance** (unofficial quote API) | Best-effort, no published quota | ~30 tickers, 1 batched quote call/market + 1 FCF call/ticker | Large in practice |
 | News + macro/geo-political tone | **GDELT** | Fully free (file downloads / BigQuery) | 1–2 pulls/day | Unlimited |
 | AI sentiment scoring | **Groq (Llama 3.1 8B Instant)** free tier | **14,400 requests/day** | ~30–60 calls/day (batched) | ~240× headroom |
 
@@ -50,7 +50,7 @@ The magic word in your brief was **"self-sufficient by linking it to news and br
                     ┌─────────────────────────────────────────────┐
                     │   GitHub Actions (cron: once daily, free)    │
                     │                                              │
-   Finnhub  ───────▶│  fetch_market.py   → prices, fundamentals    │
+   Yahoo    ───────▶│  fetch_market.py   → prices, fundamentals    │
    GDELT    ───────▶│  fetch_news.py     → headlines + tone + geo  │
                     │  score_sentiment.py (Groq) → sector scores   │
                     │  build_valuation.py → fair value + adjustment│
@@ -160,6 +160,18 @@ Matches your `portfolio` folder style (static `index.html` + `css/` + `js/`, `fa
 The original plan called for a retail-social ingredient (StockTwits primary,
 Reddit as enrichment) alongside news and macro. In practice:
 
+- **Prices & fundamentals: Finnhub → Yahoo Finance.** The original plan
+  assumed Finnhub's free tier covered all four markets. It doesn't — it's
+  US-listed-only. Confirmed via direct API test:
+  `GET /quote?symbol=RELIANCE.NS` returned `{"error":"You don't have access
+  to this resource."}`, which meant every India/UK/Japan ticker was silently
+  getting a ₹0/£0/¥0 fair value in production while looking like it "worked."
+  Swapped for Yahoo Finance's unofficial quote API (cookie+crumb handshake,
+  no key) which covers all four markets in one batched call per market. It's
+  undocumented and not a stable product, so `fetch_market.py` retries with
+  backoff and a host fallback, then falls back to mock data per-ticker (or
+  per-market on a full batch failure) rather than risk another silent-zero
+  incident. See `pipeline/SOURCES.md` for the full trade-off.
 - **StockTwits — dropped.** Its public sentiment endpoint, which the original
   design relied on as the "cleanest free retail-sentiment source," is now
   sitting behind a full Cloudflare bot challenge (confirmed July 2026) — not a
@@ -207,15 +219,15 @@ a social one. See §4b for the reweighted formula.
 ### Phase 0 — Repo setup (½ day)
 - Create public GitHub repo, push this scaffold.
 - Enable GitHub Pages (Settings → Pages → deploy from `main`, `/site` folder or a Pages Action).
-- Get free API keys: Finnhub, Groq.
-- Add keys as **repository secrets** (`FINNHUB_KEY`, `GROQ_KEY`).
+- Get a free API key: Groq. (Yahoo Finance needs none.)
+- Add the key as a **repository secret** (`GROQ_KEY`).
 
 ### Phase 1 — Static shell with sample data (1 day)
 - Ship the frontend reading the **sample JSON** already in this scaffold. Site is live and shareable on day one, even before real data flows.
 - Tabs render, heatmap works, `k` slider works — all off mock data.
 
 ### Phase 2 — Market data pipeline (1–2 days)
-- Wire `fetch_market.py` to Finnhub for prices + fundamentals.
+- Wire `fetch_market.py` to Yahoo Finance for prices + fundamentals.
 - Implement `build_valuation.py` Base Fair Value (multiples first, DCF-lite later).
 - Job writes real `companies.json`.
 
@@ -240,7 +252,7 @@ a social one. See §4b for the reweighted formula.
 
 | Risk | Mitigation |
 |---|---|
-| Free API limits change (they did in 2026 — Alpha Vantage dropped to 25/day) | Abstract each source behind one function; document limits in `pipeline/SOURCES.md`; Finnhub/GDELT/Groq chosen for generous headroom |
+| Free API limits change (they did in 2026 — Alpha Vantage dropped to 25/day; Finnhub turned out US-only) | Abstract each source behind one function; document limits/caveats in `pipeline/SOURCES.md`; Yahoo Finance/GDELT/Groq chosen for generous headroom |
 | Free social-data sources vanish (StockTwits went behind a bot challenge; Gemini's free tier turned out to have zero quota) | Rather than fake it with a mock fallback dressed as live data, dropped the social ingredient and reweighted the formula (§4b) so every published number is real |
 | Sentiment ≠ truth (crowds are often wrong) | Capped `k`, always show BFV alongside; Methodology page is explicit; "not advice" disclaimer |
 | Data only daily, not real-time | Deliberate, disclosed via timestamp; framed as a *research* tool not a trading terminal |
@@ -267,7 +279,7 @@ meridian/
 ├── pipeline/                     ← the daily job (Python)
 │   ├── config.py                 ← markets, watchlists, weights, k, and the
 │   │                                SECTOR_EVENT_VOL historical-vol table
-│   ├── fetch_market.py           ← Finnhub prices/fundamentals (per market)
+│   ├── fetch_market.py           ← Yahoo Finance prices/fundamentals (per market)
 │   ├── fetch_news.py             ← GDELT headlines + tone + macro theme
 │   ├── score_sentiment.py        ← Groq sector scoring → Sentiment Index
 │   ├── sector_signals.py         ← main/supporting drivers + vol-anchored range
@@ -287,8 +299,9 @@ The frontend is fully functional against the sample data immediately — all fou
 
 ## 11. Sources (free-tier limits verified July 2026)
 
-- Finnhub free tier (60 calls/min): https://finnhub.io/docs/api/rate-limit
+- Yahoo Finance quote API (unofficial; no published rate limit — see `pipeline/SOURCES.md` for the reliability caveat and the cookie+crumb mechanism): https://github.com/ranaroussi/yfinance (community reference for the same undocumented endpoints)
 - Alpha Vantage free tier now 25/day (why we avoided it): https://www.macroption.com/alpha-vantage-api-limits/
+- Finnhub free tier is US-listed-only (why it was dropped after initially being planned): https://finnhub.io/docs/api/rate-limit
 - GDELT (fully free, tone + geo events): https://dataresearchtools.com/gdelt-project-for-news-data-2026-free-alternative-to-newsapi/
 - Groq free tier (14,400 req/day on Llama 3.1 8B Instant, verified via API rate-limit headers): https://console.groq.com/docs/rate-limits
 - GitHub Pages limits: https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits

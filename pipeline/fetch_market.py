@@ -1,11 +1,17 @@
 """
-fetch_market.py — prices + fundamentals from Finnhub (free tier: 60 calls/min).
-In MOCK_MODE (no key) it returns deterministic sample numbers so the whole
-pipeline runs offline.
+fetch_market.py — prices + fundamentals from Yahoo Finance's unofficial
+quote API (cookie+crumb handshake). Covers all four markets; Finnhub was
+dropped because its free tier only covers US-listed tickers (confirmed live:
+non-US suffixed symbols returned "You don't have access to this resource.").
+See pipeline/SOURCES.md for the full trade-off writeup.
 
-Docs: https://finnhub.io/docs/api
+This is an undocumented endpoint, not a registered API product (the crumb
+endpoint literally has "/test/" in its path) — usable but not bulletproof.
+In MOCK_MODE (no GROQ_KEY) it returns deterministic sample numbers so the
+whole pipeline runs offline.
 """
 import random
+import time
 import config
 
 try:
@@ -13,7 +19,18 @@ try:
 except ImportError:
     requests = None
 
-BASE = "https://finnhub.io/api/v1"
+# A browser-like User-Agent is load-bearing, not cosmetic: the crumb endpoint
+# returns 429 "Edge: Too Many Requests" for the default python-requests UA.
+USER_AGENT = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+              "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
+HEADERS = {"User-Agent": USER_AGENT}
+
+# query1 first, query2 as a fallback host if query1 fails outright.
+QUOTE_HOSTS = ["query1.finance.yahoo.com", "query2.finance.yahoo.com"]
+
+# (session, crumb) is fetched lazily once per process and reused across every
+# fetch_all() call (run_all.py calls this once per market == 4x per run).
+_session_crumb = None
 
 
 def _mock_company(ticker, name, sector):
@@ -29,34 +46,156 @@ def _mock_company(ticker, name, sector):
     }
 
 
-def _live_company(ticker, name, sector):
-    key = config.FINNHUB_KEY
-    quote = requests.get(f"{BASE}/quote", params={"symbol": ticker, "token": key}, timeout=15).json()
-    metric = requests.get(f"{BASE}/stock/metric",
-                          params={"symbol": ticker, "metric": "all", "token": key}, timeout=15).json()
-    m = metric.get("metric", {})
-    price = quote.get("c") or 0
-    eps = m.get("epsTTM") or 0
-    pe = (price / eps) if eps else None
+def _retry(fn, attempts=3, backoff=(1, 2)):
+    """Call fn() up to `attempts` times total, sleeping `backoff[i]` seconds
+    between attempts, before letting the last exception propagate."""
+    last_exc = None
+    for i in range(attempts):
+        try:
+            return fn()
+        except Exception as e:
+            last_exc = e
+            if i < attempts - 1:
+                time.sleep(backoff[i])
+    raise last_exc
+
+
+def _request_with_host_fallback(path, params, session):
+    """GET `path` against query1 then query2, each attempt retried with
+    backoff, before giving up."""
+    last_exc = None
+    for host in QUOTE_HOSTS:
+        url = f"https://{host}{path}"
+
+        def _do(url=url):
+            r = session.get(url, params=params, headers=HEADERS, timeout=15)
+            r.raise_for_status()
+            return r
+
+        try:
+            return _retry(_do)
+        except Exception as e:
+            last_exc = e
+    raise last_exc
+
+
+def _handshake():
+    """GET https://fc.yahoo.com to set a cookie (its 404 body is expected and
+    ignored), then GET /v1/test/getcrumb on the same session for the crumb.
+    Returns (session, crumb)."""
+    session = requests.Session()
+
+    def _set_cookie():
+        session.get("https://fc.yahoo.com", headers=HEADERS, timeout=15)
+
+    _retry(_set_cookie)
+
+    r = _request_with_host_fallback("/v1/test/getcrumb", {}, session)
+    crumb = r.text.strip()
+    if not crumb:
+        raise RuntimeError("empty crumb from Yahoo handshake")
+    return session, crumb
+
+
+def _get_session_crumb():
+    global _session_crumb
+    if _session_crumb is None:
+        _session_crumb = _handshake()  # not cached on failure -> retried next call
+    return _session_crumb
+
+
+def _yahoo_symbol(ticker, market):
+    return f"{ticker}{config.MARKETS[market]['suffix']}"
+
+
+def _fetch_quotes(symbols, session, crumb):
+    """Batch quote call. Returns {yahoo_symbol: quote_dict}."""
+    params = {"symbols": ",".join(symbols), "crumb": crumb}
+    r = _request_with_host_fallback("/v7/finance/quote", params, session)
+    results = (r.json().get("quoteResponse") or {}).get("result") or []
+    return {item["symbol"]: item for item in results if "symbol" in item}
+
+
+def _fetch_fcf_per_share(yahoo_symbol, shares_out, session, crumb):
+    """FCF isn't on the quote endpoint; needs a per-symbol quoteSummary call.
+    Returns a float (can be negative) or None if unavailable — never raises
+    on missing data, only on request-level failure (caller catches)."""
+    if not shares_out:
+        return None
+    params = {"modules": "financialData", "crumb": crumb}
+    r = _request_with_host_fallback(f"/v10/finance/quoteSummary/{yahoo_symbol}",
+                                     params, session)
+    result = ((r.json().get("quoteSummary") or {}).get("result") or [])
+    if not result:
+        return None
+    financial_data = result[0].get("financialData") or {}
+    fcf = financial_data.get("freeCashflow")
+    fcf_raw = fcf.get("raw") if isinstance(fcf, dict) else None
+    if fcf_raw is None:
+        return None
+    return fcf_raw / shares_out
+
+
+def _quote_to_company(ticker, name, sector, yahoo_symbol, quote, session, crumb):
+    price = quote.get("regularMarketPrice") or 0
+    # LSE tickers report price in pence (GBp) but EPS in whole GBP.
+    if quote.get("currency") == "GBp" and price:
+        price = price / 100
+    eps = quote.get("epsTrailingTwelveMonths") or 0
+    pe = quote.get("trailingPE")  # used directly, not recomputed
+    shares_out = quote.get("sharesOutstanding")
+
+    try:
+        fcf_per_share = _fetch_fcf_per_share(yahoo_symbol, shares_out, session, crumb)
+    except Exception as e:
+        print(f"[market] {ticker} FCF lookup failed ({e}); leaving fcf_per_share=None")
+        fcf_per_share = None
+
     return {
         "ticker": ticker, "name": name, "sector": sector,
         "price": price, "eps": eps, "pe": pe,
-        "ebitda_per_share": m.get("ebitdaPerShareTTM"),
-        "fcf_per_share": m.get("freeCashFlowPerShareTTM"),
+        "ebitda_per_share": None,
+        "fcf_per_share": fcf_per_share,
     }
 
 
 def fetch_all(market):
+    watchlist = config.WATCHLISTS[market]
+    if config.MOCK_MODE:
+        return [_mock_company(t, n, s) for t, n, s in watchlist]
+
     out = []
-    for ticker, name, sector in config.WATCHLISTS[market]:
-        if config.MOCK_MODE:
+    symbol_map = {_yahoo_symbol(t, market): (t, n, s) for t, n, s in watchlist}
+
+    try:
+        session, crumb = _get_session_crumb()
+        quotes = _fetch_quotes(list(symbol_map.keys()), session, crumb)
+    except Exception as e:
+        # Whole batch failed after retries/host-fallback -> mock every ticker
+        # in this market, matching the per-ticker fallback logging style.
+        # Drop the cached crumb too: if it went bad mid-run, later markets in
+        # this same process get a fresh handshake instead of repeating the
+        # same failure for the rest of the run.
+        global _session_crumb
+        _session_crumb = None
+        for ticker, name, sector in watchlist:
+            print(f"[market] {ticker} failed ({e}); using mock fallback")
             out.append(_mock_company(ticker, name, sector))
-        else:
-            try:
-                out.append(_live_company(ticker, name, sector))
-            except Exception as e:
-                print(f"[market] {ticker} failed ({e}); using mock fallback")
-                out.append(_mock_company(ticker, name, sector))
+        return out
+
+    for yahoo_symbol, (ticker, name, sector) in symbol_map.items():
+        quote = quotes.get(yahoo_symbol)
+        if quote is None:
+            print(f"[market] {ticker} failed (missing from Yahoo quote response); "
+                  f"using mock fallback")
+            out.append(_mock_company(ticker, name, sector))
+            continue
+        try:
+            out.append(_quote_to_company(ticker, name, sector, yahoo_symbol,
+                                          quote, session, crumb))
+        except Exception as e:
+            print(f"[market] {ticker} failed ({e}); using mock fallback")
+            out.append(_mock_company(ticker, name, sector))
     return out
 
 

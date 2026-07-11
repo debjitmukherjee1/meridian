@@ -25,7 +25,7 @@ used to build it.
 ## How it stays free
 - **Hosting:** GitHub Pages (static, free)
 - **Daily job:** GitHub Actions (unlimited minutes for public repos)
-- **Data:** Finnhub (60/min), GDELT (free), Groq Llama 3.1 8B (14,400/day)
+- **Data:** Yahoo Finance (unofficial, no key), GDELT (free), Groq Llama 3.1 8B (14,400/day)
 - The website only reads pre-computed JSON — **never calls a paid API at runtime**,
   so every extra visitor costs $0.
 
@@ -44,7 +44,7 @@ python -m http.server 8000
 
 ## Go live (real data)
 1. Push this repo to GitHub (public).
-2. Add repo secrets: `FINNHUB_KEY`, `GROQ_KEY`. See
+2. Add repo secret: `GROQ_KEY`. See
    [`pipeline/SOURCES.md`](pipeline/SOURCES.md).
 3. Settings → Pages → deploy from `main` → `/site`.
 4. The `daily-update.yml` workflow refreshes all markets every morning.

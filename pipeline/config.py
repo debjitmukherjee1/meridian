@@ -16,7 +16,8 @@ MARKETS = {
 }
 
 # --- Watchlists per market: (ticker, company, sector) ----------------------
-# Small, representative baskets. Finnhub free tier (60/min) handles all four.
+# Small, representative baskets. Yahoo Finance's quote endpoint handles all
+# four markets in one batched call per market.
 WATCHLISTS = {
     "IN": [
         ("RELIANCE",  "Reliance Industries", "Energy"),
@@ -25,7 +26,7 @@ WATCHLISTS = {
         ("HDFCBANK",  "HDFC Bank",           "Financials"),
         ("ICICIBANK", "ICICI Bank",          "Financials"),
         ("HINDUNILVR","Hindustan Unilever",  "Consumer Staples"),
-        ("TATAMOTORS","Tata Motors",         "Consumer Discretionary"),
+        ("TMPV",      "Tata Motors Passenger Vehicles", "Consumer Discretionary"),
         ("SUNPHARMA", "Sun Pharma",          "Healthcare"),
     ],
     "US": [
@@ -158,7 +159,8 @@ def vol_band(sector, event_type):
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "site", "data")
 
 # --- API keys (None => mock mode) ------------------------------------------
-FINNHUB_KEY = os.environ.get("FINNHUB_KEY")
-GROQ_KEY    = os.environ.get("GROQ_KEY")
+GROQ_KEY = os.environ.get("GROQ_KEY")
 
-MOCK_MODE = FINNHUB_KEY is None
+# Market data (Yahoo Finance) needs no key. GROQ_KEY is the only remaining
+# "do we have real credentials" signal, so it alone gates mock mode.
+MOCK_MODE = GROQ_KEY is None
