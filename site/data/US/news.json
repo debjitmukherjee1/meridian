@@ -1,0 +1,66 @@
+{
+  "updated_at": "2026-07-11 05:17 UTC",
+  "market": "US",
+  "items": [
+    {
+      "title": "Chipmakers rally as AI demand outpaces supply",
+      "sector": "Technology",
+      "tone": 3.4,
+      "url": "https://www.gdeltproject.org/"
+    },
+    {
+      "title": "Regulators open probe into big-tech ad practices",
+      "sector": "Technology",
+      "tone": -2.1,
+      "url": "https://www.gdeltproject.org/"
+    },
+    {
+      "title": "Consumer spending softens amid rate uncertainty",
+      "sector": "Consumer Discretionary",
+      "tone": -1.8,
+      "url": "https://www.gdeltproject.org/"
+    },
+    {
+      "title": "EV price war squeezes automaker margins",
+      "sector": "Consumer Discretionary",
+      "tone": -2.6,
+      "url": "https://www.gdeltproject.org/"
+    },
+    {
+      "title": "Banks post resilient quarterly earnings",
+      "sector": "Financials",
+      "tone": 2.2,
+      "url": "https://www.gdeltproject.org/"
+    },
+    {
+      "title": "Payment networks expand into emerging markets",
+      "sector": "Financials",
+      "tone": 1.9,
+      "url": "https://www.gdeltproject.org/"
+    },
+    {
+      "title": "Oil steadies as supply concerns ease",
+      "sector": "Energy",
+      "tone": 0.6,
+      "url": "https://www.gdeltproject.org/"
+    },
+    {
+      "title": "Staples firms hold pricing power through inflation",
+      "sector": "Consumer Staples",
+      "tone": 1.4,
+      "url": "https://www.gdeltproject.org/"
+    },
+    {
+      "title": "Drugmaker wins approval for key therapy",
+      "sector": "Healthcare",
+      "tone": 3.1,
+      "url": "https://www.gdeltproject.org/"
+    },
+    {
+      "title": "Geopolitical tension lifts safe-haven demand",
+      "sector": "Energy",
+      "tone": -1.2,
+      "url": "https://www.gdeltproject.org/"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+/* Meridian — old-money / high-finance aesthetic.
+   Deep ink navy + parchment + gold. Serif display, restrained. */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap');
+
+:root {
+  --ink: #10202e;          /* deep ink navy (primary bg) */
+  --ink-2: #16293a;        /* raised panel */
+  --ink-3: #1d3346;        /* card */
+  --line: #2c4055;         /* hairlines */
+  --gold: #c9a227;         /* old-money gold accent */
+  --gold-soft: #d8bd6a;
+  --parchment: #f3ecdd;    /* text on ink */
+  --parchment-dim: #b9b09b;/* muted text */
+  --bull: #3f7d5c;         /* muted forest green (not neon) */
+  --bear: #a23b34;         /* oxblood red */
+  --neutral: #b08d3a;      /* brass */
+  --radius: 4px;
+  --serif: 'EB Garamond', Georgia, 'Times New Roman', serif;
+  --display: 'Cormorant Garamond', Georgia, serif;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(1200px 600px at 50% -10%, #16293a 0%, var(--ink) 60%);
+  color: var(--parchment);
+  font-family: var(--serif);
+  font-size: 17px;
+  line-height: 1.55;
+}
+
+a { color: var(--gold-soft); text-decoration: none; }
+a:hover { color: var(--gold); }
+
+/* ---- top bar ---- */
+.topbar {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 1.1rem 2rem; border-bottom: 1px solid var(--line);
+  flex-wrap: wrap; gap: 1rem;
+}
+.brand { display: flex; align-items: baseline; gap: .9rem; }
+.monogram {
+  font-family: var(--display); font-size: 2.1rem; font-weight: 700;
+  color: var(--gold); letter-spacing: 1px;
+  border: 1px solid var(--gold); border-radius: 50%;
+  width: 46px; height: 46px; display: grid; place-items: center;
+  align-self: center;
+}
+.brand h1 {
+  font-family: var(--display); font-weight: 600; font-size: 1.9rem;
+  margin: 0; letter-spacing: 2px; text-transform: uppercase;
+}
+.tagline { margin: 0; color: var(--parchment-dim); font-style: italic; font-size: .92rem; }
+
+.topbar-right { display: flex; align-items: center; gap: 1.25rem; }
+.updated { color: var(--parchment-dim); font-size: .8rem; text-align: right; }
+
+/* region switcher */
+.market-switch { display: flex; align-items: center; gap: .4rem; }
+.market-switch label { font-size: .72rem; letter-spacing: 1px; text-transform: uppercase; color: var(--parchment-dim); }
+#market-select {
+  background: var(--ink-2); color: var(--parchment);
+  border: 1px solid var(--gold); border-radius: var(--radius);
+  padding: .45rem .7rem; font-family: var(--serif); font-size: .95rem;
+}
+
+/* macro banner */
+.macro-banner {
+  padding: .7rem 2rem; background: var(--ink-2);
+  border-bottom: 1px solid var(--line); font-size: .95rem;
+  font-style: italic; color: var(--parchment);
+}
+.macro-banner strong { font-style: normal; color: var(--gold-soft); letter-spacing: .5px; }
+
+/* tabs */
+.tabs {
+  display: flex; gap: .25rem; padding: 0 1.5rem;
+  border-bottom: 1px solid var(--line); overflow-x: auto;
+}
+.tab {
+  background: none; border: none; color: var(--parchment-dim);
+  padding: .85rem 1.1rem; cursor: pointer; font-family: var(--serif);
+  font-size: 1rem; letter-spacing: .5px; border-bottom: 2px solid transparent;
+  white-space: nowrap;
+}
+.tab:hover { color: var(--parchment); }
+.tab.active { color: var(--gold); border-bottom-color: var(--gold); }
+
+main { padding: 2rem; max-width: 1040px; margin: 0 auto; }
+.panel { display: none; animation: fade .3s ease; }
+.panel.active { display: block; }
+@keyframes fade { from {opacity:0; transform:translateY(4px);} to {opacity:1; transform:none;} }
+
+h2 { font-family: var(--display); font-weight: 600; font-size: 1.7rem; letter-spacing: .5px; margin-top: 0; }
+.muted { color: var(--parchment-dim); font-size: .92rem; }
+.rule { height: 1px; background: linear-gradient(90deg, var(--gold), transparent); border: 0; margin: .5rem 0 1.5rem; }
+
+/* heatmap */
+.heatmap { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px,1fr)); gap: .85rem; margin-top: 1rem; }
+.heat-cell { border: 1px solid var(--line); border-radius: var(--radius); padding: 1rem; background: var(--ink-3); }
+.heat-cell .sector-name { font-size: 1.02rem; letter-spacing: .3px; }
+.heat-cell .sector-score { font-family: var(--display); font-size: 2.1rem; font-weight: 700; }
+.heat-cell .sector-sub { font-size: .8rem; letter-spacing: 1px; text-transform: uppercase; }
+
+/* company cards */
+.company-header { display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+select {
+  background: var(--ink-2); color: var(--parchment);
+  border: 1px solid var(--line); border-radius: var(--radius);
+  padding: .5rem .75rem; font-family: var(--serif); font-size: 1rem;
+}
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px,1fr)); gap: 1rem; margin: 1.25rem 0; }
+.card { background: var(--ink-3); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.1rem; }
+.card.highlight { border-color: var(--gold); box-shadow: inset 0 0 0 1px var(--gold); }
+.card-label { color: var(--parchment-dim); font-size: .72rem; text-transform: uppercase; letter-spacing: 1.5px; }
+.card-value { font-family: var(--display); font-size: 2.1rem; font-weight: 700; margin: .3rem 0; }
+.card-sub { color: var(--parchment-dim); font-size: .84rem; font-style: italic; }
+
+.slider-row { display: flex; align-items: center; gap: .75rem; flex-wrap: wrap; margin: 1rem 0; }
+input[type=range] { flex: 1; min-width: 160px; accent-color: var(--gold); }
+
+.chart-wrap { background: var(--ink-3); border: 1px solid var(--line); border-radius: var(--radius); padding: 1rem; margin-top: 1rem; }
+
+/* news */
+.news-list { display: flex; flex-direction: column; gap: .55rem; margin-top: 1rem; }
+.news-item { background: var(--ink-3); border: 1px solid var(--line); border-radius: var(--radius); padding: .8rem 1rem; display: flex; justify-content: space-between; gap: 1rem; align-items: center; }
+.tone-badge { font-size: .68rem; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; padding: .22rem .6rem; border-radius: 2px; white-space: nowrap; }
+.tone-pos { background: rgba(63,125,92,.18); color: #7fbf9a; border: 1px solid rgba(63,125,92,.4); }
+.tone-neg { background: rgba(162,59,52,.18); color: #d98a83; border: 1px solid rgba(162,59,52,.4); }
+.tone-neu { background: rgba(176,141,58,.18); color: var(--gold-soft); border: 1px solid rgba(176,141,58,.4); }
+
+/* SECTOR SIGNALS (the new tab) */
+.signal-card {
+  background: var(--ink-3); border: 1px solid var(--line);
+  border-left: 3px solid var(--gold); border-radius: var(--radius);
+  padding: 1.1rem 1.25rem; margin-bottom: 1rem;
+}
+.signal-head { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+.signal-sector { font-family: var(--display); font-size: 1.35rem; font-weight: 600; }
+.signal-read { font-size: .72rem; letter-spacing: 1.5px; text-transform: uppercase; padding: .2rem .6rem; border-radius: 2px; }
+.signal-event { color: var(--parchment-dim); font-size: .8rem; font-style: italic; margin: .2rem 0 .8rem; }
+.driver { margin: .6rem 0; padding-left: 1rem; border-left: 1px solid var(--line); }
+.driver.main { border-left-color: var(--gold); }
+.driver-role { font-size: .68rem; letter-spacing: 1.5px; text-transform: uppercase; color: var(--gold-soft); }
+.driver-text { margin: .15rem 0; }
+.forecast {
+  display: inline-block; margin-top: .2rem; font-size: .84rem;
+  color: var(--parchment-dim); font-style: italic;
+}
+.forecast .band { font-style: normal; font-weight: 600; letter-spacing: .3px; }
+
+.formula { background: var(--ink-2); border: 1px solid var(--line); border-radius: var(--radius); padding: .9rem; overflow-x: auto; font-family: 'Courier New', monospace; }
+.disclaimer { background: rgba(162,59,52,.1); border: 1px solid rgba(162,59,52,.3); border-radius: var(--radius); padding: .8rem 1rem; font-style: italic; }
+
+footer { padding: 1.75rem; text-align: center; color: var(--parchment-dim); font-size: .82rem; border-top: 1px solid var(--line); font-style: italic; }

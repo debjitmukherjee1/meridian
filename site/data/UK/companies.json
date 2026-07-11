@@ -1,0 +1,151 @@
+{
+  "updated_at": "2026-07-11 05:17 UTC",
+  "market": "UK",
+  "currency": "\u00a3",
+  "companies": [
+    {
+      "ticker": "SHEL",
+      "name": "Shell",
+      "sector": "Energy",
+      "price": 127.28,
+      "eps": 3.82,
+      "pe": 33.3,
+      "ebitda_per_share": 5.29,
+      "fcf_per_share": 2.36,
+      "sentiment_index": 52.4,
+      "sentiment_breakdown": {
+        "social": 65.6,
+        "news": 47.6,
+        "macro": 38
+      },
+      "base_fair_value": 77.44,
+      "sentiment_adjusted_fair_value": 78.0
+    },
+    {
+      "ticker": "BP",
+      "name": "BP",
+      "sector": "Energy",
+      "price": 255.06,
+      "eps": 9.01,
+      "pe": 28.3,
+      "ebitda_per_share": 13.23,
+      "fcf_per_share": 7.81,
+      "sentiment_index": 44.5,
+      "sentiment_breakdown": {
+        "social": 45.9,
+        "news": 47.6,
+        "macro": 38
+      },
+      "base_fair_value": 200.33,
+      "sentiment_adjusted_fair_value": 197.02
+    },
+    {
+      "ticker": "HSBA",
+      "name": "HSBC",
+      "sector": "Financials",
+      "price": 138.13,
+      "eps": 7.51,
+      "pe": 18.4,
+      "ebitda_per_share": 12.99,
+      "fcf_per_share": 6.47,
+      "sentiment_index": 62.3,
+      "sentiment_breakdown": {
+        "social": 73.9,
+        "news": 66.4,
+        "macro": 38
+      },
+      "base_fair_value": 124.61,
+      "sentiment_adjusted_fair_value": 129.21
+    },
+    {
+      "ticker": "LLOY",
+      "name": "Lloyds Banking",
+      "sector": "Financials",
+      "price": 104.24,
+      "eps": 5.01,
+      "pe": 20.8,
+      "ebitda_per_share": 10.74,
+      "fcf_per_share": 5.21,
+      "sentiment_index": 58.7,
+      "sentiment_breakdown": {
+        "social": 64.8,
+        "news": 66.4,
+        "macro": 38
+      },
+      "base_fair_value": 90.18,
+      "sentiment_adjusted_fair_value": 92.53
+    },
+    {
+      "ticker": "AZN",
+      "name": "AstraZeneca",
+      "sector": "Healthcare",
+      "price": 126.2,
+      "eps": 4.32,
+      "pe": 29.2,
+      "ebitda_per_share": 5.99,
+      "fcf_per_share": 4.38,
+      "sentiment_index": 62.8,
+      "sentiment_breakdown": {
+        "social": 67.7,
+        "news": 74.8,
+        "macro": 38
+      },
+      "base_fair_value": 97.61,
+      "sentiment_adjusted_fair_value": 101.36
+    },
+    {
+      "ticker": "ULVR",
+      "name": "Unilever",
+      "sector": "Consumer Staples",
+      "price": 158.6,
+      "eps": 9.22,
+      "pe": 17.2,
+      "ebitda_per_share": 13.0,
+      "fcf_per_share": 7.73,
+      "sentiment_index": 49.0,
+      "sentiment_breakdown": {
+        "social": 45.1,
+        "news": 61.2,
+        "macro": 38
+      },
+      "base_fair_value": 140.24,
+      "sentiment_adjusted_fair_value": 139.82
+    },
+    {
+      "ticker": "RIO",
+      "name": "Rio Tinto",
+      "sector": "Materials",
+      "price": 243.4,
+      "eps": 10.72,
+      "pe": 22.7,
+      "ebitda_per_share": 16.65,
+      "fcf_per_share": 8.32,
+      "sentiment_index": 46.9,
+      "sentiment_breakdown": {
+        "social": 49.7,
+        "news": 50,
+        "macro": 38
+      },
+      "base_fair_value": 187.27,
+      "sentiment_adjusted_fair_value": 185.53
+    },
+    {
+      "ticker": "VOD",
+      "name": "Vodafone",
+      "sector": "Technology",
+      "price": 147.34,
+      "eps": 4.58,
+      "pe": 32.2,
+      "ebitda_per_share": 7.09,
+      "fcf_per_share": 3.29,
+      "sentiment_index": 43.7,
+      "sentiment_breakdown": {
+        "social": 37.3,
+        "news": 55.2,
+        "macro": 38
+      },
+      "base_fair_value": 99.68,
+      "sentiment_adjusted_fair_value": 97.8
+    }
+  ]
+}

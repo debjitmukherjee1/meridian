@@ -1,0 +1,30 @@
+{
+  "updated_at": "2026-07-11 05:17 UTC",
+  "default": "IN",
+  "markets": [
+    {
+      "code": "IN",
+      "name": "India",
+      "index": "NIFTY 50",
+      "currency": "\u20b9"
+    },
+    {
+      "code": "US",
+      "name": "United States",
+      "index": "S&P 500",
+      "currency": "$"
+    },
+    {
+      "code": "UK",
+      "name": "United Kingdom",
+      "index": "FTSE 100",
+      "currency": "\u00a3"
+    },
+    {
+      "code": "JP",
+      "name": "Japan",
+      "index": "Nikkei 225",
+      "currency": "\u00a5"
+    }
+  ]
+}

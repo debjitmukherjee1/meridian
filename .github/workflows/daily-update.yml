@@ -1,0 +1,41 @@
+name: Daily data refresh
+
+# Free for public repos (unlimited Actions minutes). Runs once a day.
+on:
+  schedule:
+    - cron: "0 6 * * *"   # 06:00 UTC daily — adjust to taste
+  workflow_dispatch: {}    # lets you trigger a run manually from the Actions tab
+
+permissions:
+  contents: write          # needed so the bot can commit the refreshed JSON
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: pip install -r pipeline/requirements.txt
+
+      - name: Run pipeline
+        env:
+          FINNHUB_KEY: ${{ secrets.FINNHUB_KEY }}
+          GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
+          REDDIT_ID: ${{ secrets.REDDIT_ID }}
+          REDDIT_SECRET: ${{ secrets.REDDIT_SECRET }}
+        run: |
+          cd pipeline
+          python run_all.py
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "valusense-bot"
+          git config user.email "actions@github.com"
+          git add site/data/*.json
+          git diff --staged --quiet || git commit -m "chore: daily data refresh [skip ci]"
+          git push

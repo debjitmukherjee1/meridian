@@ -1,0 +1,266 @@
+# Meridian — Executable Plan
+
+**Name:** Meridian *("Fair value, read against the mood of the market.")*
+**Author:** Debjit Mukherjee
+**Goal:** A public, GitHub-hosted market-research house that valuates companies using *both* traditional finance *and* investor sentiment, across **four markets (India · USA · UK · Japan)**, refreshed daily, at **~zero running cost and zero Claude tokens**.
+**Status:** Plan + working scaffold (this repo)
+
+---
+
+## 0. Does this cost Claude tokens each day? (read this first)
+
+**No.** Once deployed, Meridian runs entirely independently of Claude/Anthropic:
+
+- The daily job runs on **GitHub's servers** via GitHub Actions on a cron schedule — not on anything of Anthropic's, and not by "asking Claude" each day.
+- The AI sentiment/reasoning step uses **Google Gemini's free API** (1,500 calls/day free), *not* Claude. So there is **no Anthropic token cost** in daily operation.
+- Claude (me) was only involved during the **build**. After you push this to GitHub, you could delete the chat and the site keeps updating forever. Daily Claude cost = **0 tokens, $0**.
+- (If you ever *preferred* Claude as the reasoning engine over Gemini, that would use Anthropic API credits — but the design deliberately uses free Gemini so you never pay.)
+
+---
+
+## 1. The one-paragraph pitch
+
+Most valuation tools tell you what a company is *worth on paper* (DCF, multiples, book value). They ignore the fact that markets are moved by *what people feel*. Meridian fuses the two: a classic fair-value estimate is adjusted by a **live, sector-level Sentiment Index** built from social chatter (StockTwits, Reddit), news tone, and a macro/geo-political risk overlay. Crucially, a dedicated **Sector Signals** view explains *why* each sector reads the way it does — a main impact plus supporting drivers — with each carrying a forecast **range anchored to how that sector has historically moved** in events of that type (e.g. a Gulf supply shock → Energy). Everything is scoped to a chosen market (India by default; USA, UK, Japan on a top-right switch) and runs as a static website that rebuilds itself once a day via a free automated job. **That fusion — plus transparent, history-anchored sector reasoning — is the differentiator.**
+
+---
+
+## 2. Why this is genuinely near-zero-cost (the numbers)
+
+The entire cost constraint ("keep daily maintenance under 5% of total, ideally $0") is met because **every moving part sits inside a free tier that is large relative to our usage.** Below is the real usage math for a starter watchlist of ~30 tickers across ~8 sectors, refreshed once per day.
+
+| Component | Provider (free tier) | Free limit | Our daily use | Headroom |
+|---|---|---|---|---|
+| Hosting | **GitHub Pages** | 100 GB bandwidth/mo (soft), unlimited static | A few MB of JSON + static assets | Enormous |
+| Automation (the daily job) | **GitHub Actions** | **Unlimited minutes for public repos** | ~2–4 min/day | Effectively infinite |
+| Stock prices & fundamentals | **Finnhub** | 60 calls/min | ~30 tickers × ~3 calls = ~90 calls, spread over minutes | Large |
+| News + macro/geo-political tone | **GDELT** | Fully free (file downloads / BigQuery) | 1–2 pulls/day | Unlimited |
+| Social sentiment | **StockTwits** public sentiment endpoint + **Reddit** API | StockTwits public; Reddit ~100 q/min (approved free tier) | ~30–60 calls/day | Large |
+| AI sentiment scoring | **Google Gemini 2.5 Flash** free tier | **1,500 requests/day** | ~30–60 calls/day (batched) | ~25× headroom |
+
+**Sources for these limits are listed in §11.** The key architectural insight: because GitHub Actions is *unlimited for public repos*, the "server" that does the daily work is free forever, and because we cache results as static JSON, the website itself never calls a paid API at runtime — visitors just read pre-computed files. **Marginal cost per extra visitor ≈ $0.**
+
+> **The "5% of total cost" constraint:** With total running cost at $0, any conceivable maintenance (e.g. an optional custom domain at ~$10/yr, or a paid data upgrade later) is a deliberate choice, not a requirement. The baseline is genuinely free.
+
+---
+
+## 3. Architecture (how "self-sufficient" works)
+
+The magic word in your brief was **"self-sufficient by linking it to news and broker platforms."** Here's how that's achieved without a backend server:
+
+```
+                    ┌─────────────────────────────────────────────┐
+                    │   GitHub Actions (cron: once daily, free)    │
+                    │                                              │
+   Finnhub  ───────▶│  fetch_market.py   → prices, fundamentals    │
+   GDELT    ───────▶│  fetch_news.py     → headlines + tone + geo  │
+   StockTwits ─────▶│  fetch_social.py   → bull/bear ratios        │
+   Reddit   ───────▶│                                              │
+                    │  score_sentiment.py (Gemini) → sector scores │
+                    │  build_valuation.py → fair value + adjustment│
+                    │                                              │
+                    │           writes  ▼                          │
+                    │   site/data/*.json  (committed to repo)      │
+                    └───────────────────┬──────────────────────────┘
+                                        │  git push
+                                        ▼
+                    ┌─────────────────────────────────────────────┐
+                    │   GitHub Pages (static hosting, free)        │
+                    │   index.html reads site/data/*.json          │
+                    │   → renders tabs, charts, valuation cards    │
+                    └─────────────────────────────────────────────┘
+                                        │
+                                        ▼
+                              Visitors (LinkedIn / your site)
+```
+
+**Why no server:** the frontend is 100% static. It never holds an API key and never calls a paid service live. All the "linking to news and broker platforms" happens *inside the daily job*, and the result is frozen into JSON files. This is what keeps it free and also fast (no cold starts, no rate-limit errors for visitors).
+
+**Trade-off (be honest about it):** data is **daily, not real-time**. That's a deliberate choice to stay free. Intraday would require a live backend and paid feeds. For a research/analysis tool aimed at LinkedIn + portfolio, daily is the right call — and you can add a "last updated" timestamp so it's transparent.
+
+---
+
+## 4. The differentiator: how sentiment actually enters the valuation
+
+This is the intellectual core. Keep it **explainable** — a black box impresses nobody and invites "how do you know?" This design is defensible in a comment section.
+
+### 4a. Base (traditional) fair value
+For each company, compute a simple, transparent blend so the number is reproducible:
+- **Multiples anchor:** peer/sector median P/E and EV/EBITDA applied to the company's earnings → an implied price.
+- **Optional DCF-lite:** a simplified 5-year FCF projection with a conservative terminal growth (only where FCF data is clean; otherwise skip and note it).
+- Output: **Base Fair Value (BFV)** with the assumptions shown.
+
+### 4b. Sentiment Index (0–100, per sector and per stock)
+Three ingredients, each normalized to 0–100, then weighted:
+
+| Signal | Source | What it captures | Default weight |
+|---|---|---|---|
+| **Social mood** | StockTwits bull/bear ratio, Reddit post tone | Retail investor emotion | 40% |
+| **News tone** | GDELT tone score + Gemini scoring of top headlines | Media narrative | 35% |
+| **Macro/Geo overlay** | GDELT event themes (conflict, trade, policy) → sector risk multiplier | Systemic mood | 25% |
+
+`SentimentIndex = 0.40·Social + 0.35·News + 0.25·Macro`
+
+50 = neutral. >50 = crowd is bullish; <50 = bearish.
+
+### 4c. The fusion — Sentiment-Adjusted Fair Value (SAFV)
+```
+adjustment = (SentimentIndex − 50) / 50      →  ranges −1 … +1
+SAFV = BFV × (1 + k · adjustment)
+```
+`k` is a **capped tilt factor (default 0.15)** so sentiment can move the number by at most ±15%. This is the honest design choice: sentiment *tilts* a fundamentally-grounded value, it doesn't *replace* it. You can expose `k` as a slider so power users see the sensitivity.
+
+**Why this is smart, not gimmicky:** it separates "what the numbers say" (BFV) from "what the crowd feels" (SentimentIndex) and shows both, plus the blended result. A user who distrusts sentiment can set `k=0` and get pure fundamentals. That transparency is itself a selling point on LinkedIn.
+
+### 4d. The "dynamic sector map" (your crowd angle)
+Because sentiment is computed **per sector**, the homepage shows a live heatmap: Tech +, Energy −, Financials neutral, etc. This is the "taking people's sentiments in each sector makes it more dynamic" idea, made concrete. It updates daily and is visually shareable — great for LinkedIn posts.
+
+### 4e. Sector Signals — the "why", anchored in history (the new centrepiece)
+The heatmap tells you *that* Energy is bearish; the **Sector Signals** tab tells you *why*, defensibly. For each sector it produces:
+- a **main impact** (the dominant driver, e.g. *"Supply-route risk from conflict pushes crude higher; refiners and upstream diverge"*),
+- **2–3 supporting drivers** — but only when the picture is genuinely complex,
+- and for each, a **forecast range** rather than a fake single number.
+
+The honest part is the split of labour:
+- **The AI (Gemini) decides *direction* and writes the *narrative*** from that day's headlines.
+- **The *magnitude* is NOT invented by the AI.** It comes from a historical volatility table (`pipeline/config.py → SECTOR_EVENT_VOL`): how each sector has *actually* moved during a major event of that type. A Gulf/war supply shock maps Energy to an ~8–18% historical band; the same shock barely moves Consumer Staples (~2–5%). That band is then scaled by how one-sided today's mood is (event severity), and shown as a range — e.g. *"Historical analogue move: −8% to −15%"*.
+
+This directly answers your requirement: reasoning that isn't nonsense, is backed by past sector volatility in response to major events, and expresses uncertainty as a **range** rather than false precision. Every forecast on the site is therefore auditable back to a documented historical band.
+
+### 4f. Multi-market scope
+Everything above is computed **per market**. A top-right switcher toggles **India (default) · USA · UK · Japan**, each with its own index (NIFTY 50, S&P 500, FTSE 100, Nikkei 225), watchlist, currency, and sector reads. UK was chosen partly because the City-of-London context fits Meridian's old-money framing; Japan adds a genuinely different sentiment regime in Asia.
+
+---
+
+## 5. The tabs (what the user sees)
+
+1. **Overview** — sector sentiment heatmap + market macro/geo banner (today's dominant theme from GDELT), scoped to the selected market.
+2. **Sector Signals** — the "why" per sector: main impact + supporting drivers, each with a history-anchored forecast range (see §4e). This is the credibility centrepiece.
+3. **Company** — pick a ticker → Base Fair Value, Sentiment Index, Sentiment-Adjusted Fair Value, the `k` slider, and a one-line plain-English verdict.
+4. **Financial News** — top headlines with tone badges (from GDELT + Gemini).
+5. **Sentiment** — the composition of the index: social mood, news tone, macro/geo.
+6. **Methodology** — a static page explaining the model in plain English (pre-empts "is this legit?").
+
+**Top-right:** a **Market switcher** (India · USA · UK · Japan) and a "last updated" stamp.
+
+---
+
+## 6. Tech stack (chosen for zero-cost + your existing conventions)
+
+Matches your `portfolio` folder style (static `index.html` + `css/` + `js/`, `favicon.svg`):
+
+- **Frontend:** plain HTML + vanilla JS + Chart.js (CDN). No build step, no framework — deploys to Pages instantly and stays maintainable. (Upgrade path to React later if you want.)
+- **Pipeline:** Python 3 (`requests`, `pandas`). Runs only inside Actions, never in the browser.
+- **Data store:** flat JSON files in `site/data/`, committed by the bot each day. This *is* your database — free, versioned, and diff-able (you can literally see sentiment history in git).
+- **AI:** Google Gemini Flash via free API key stored as a GitHub Actions Secret (never in the repo).
+- **Automation:** one GitHub Actions workflow on a `cron` schedule.
+
+---
+
+## 7. Data-source decision (recommendation, per your ask)
+
+You asked me to recommend the sentiment mix. Here's the call and the reasoning:
+
+- **Primary social: StockTwits.** It has a public, finance-native sentiment signal (explicit bull/bear tagging by users) — the cleanest free retail-sentiment source. No scraping fragility.
+- **Secondary social: Reddit** (r/stocks, r/investing, r/wallstreetbets). High volume, but noisy and behind an approval form as of 2026 — treat as an *enrichment* signal, not the backbone, so the tool still works if Reddit access lapses.
+- **News + macro/geo: GDELT.** This is the quiet winner. It's fully free, updates every 15 min, and *already encodes* article tone and geo-political event themes (conflict, trade, sanctions) in the CAMEO/GKG schema — which directly satisfies your "macro-economic and geo-political aspects" requirement without you building that from scratch.
+- **AI layer: Gemini Flash** re-scores the *top* headlines per sector for nuance (GDELT's dictionary tone is decent but blunt on financial text). Batching keeps us to ~30–60 calls/day, far under the 1,500 limit.
+
+**Avoid:** paid social-sentiment aggregators and Twitter/X API (expensive in 2026). The StockTwits + Reddit + GDELT + Gemini stack gives you 90% of the signal at 0% of the cost.
+
+**Legal/ToS note:** use official APIs and public endpoints, respect rate limits, and don't republish raw third-party content wholesale — store *derived* scores and short headline snippets with source links. Add a disclaimer: *"Educational/research tool. Not financial advice."*
+
+---
+
+## 8. Phased build plan
+
+### Phase 0 — Repo setup (½ day)
+- Create public GitHub repo, push this scaffold.
+- Enable GitHub Pages (Settings → Pages → deploy from `main`, `/site` folder or a Pages Action).
+- Get free API keys: Finnhub, Gemini. (Reddit + StockTwits optional to start.)
+- Add keys as **repository secrets** (`FINNHUB_KEY`, `GEMINI_KEY`).
+
+### Phase 1 — Static shell with sample data (1 day)
+- Ship the frontend reading the **sample JSON** already in this scaffold. Site is live and shareable on day one, even before real data flows.
+- Tabs render, heatmap works, `k` slider works — all off mock data.
+
+### Phase 2 — Market data pipeline (1–2 days)
+- Wire `fetch_market.py` to Finnhub for prices + fundamentals.
+- Implement `build_valuation.py` Base Fair Value (multiples first, DCF-lite later).
+- Job writes real `companies.json`.
+
+### Phase 3 — Sentiment pipeline (2–3 days)
+- `fetch_news.py` (GDELT), `fetch_social.py` (StockTwits/Reddit).
+- `score_sentiment.py` (Gemini) → `sentiment.json`, `sectors.json`.
+- Compute SAFV, wire into frontend.
+
+### Phase 4 — Automate (½ day)
+- Enable the daily `cron` in the Actions workflow.
+- Add "last updated" stamp + graceful fallback (if a source fails, keep yesterday's data and flag it).
+
+### Phase 5 — Polish & launch (1–2 days)
+- Methodology page, disclaimer, favicon, OpenGraph tags for nice LinkedIn preview cards.
+- Write the LinkedIn launch post (tie into your existing posting schedule).
+
+**Total: ~1–1.5 focused weeks** to a launchable v1.
+
+---
+
+## 9. Risks & honest limitations
+
+| Risk | Mitigation |
+|---|---|
+| Free API limits change (they did in 2026 — Alpha Vantage dropped to 25/day) | Abstract each source behind one function; document limits in `pipeline/SOURCES.md`; Finnhub/GDELT/Gemini chosen for generous headroom |
+| Reddit approval form / access lapses | Reddit is secondary; tool degrades gracefully to StockTwits + GDELT |
+| Sentiment ≠ truth (crowds are often wrong) | Capped `k`, always show BFV alongside; Methodology page is explicit; "not advice" disclaimer |
+| Data only daily, not real-time | Deliberate, disclosed via timestamp; framed as a *research* tool not a trading terminal |
+| Look-back bias / cherry-picking | git history preserves every day's JSON → you can later show the tool's calls vs. reality (great content) |
+
+---
+
+## 10. What's in this scaffold (so you can run it today)
+
+```
+meridian/
+├── docs/
+│   └── EXECUTABLE_PLAN.md        ← this file
+├── site/                         ← the static website (GitHub Pages root)
+│   ├── index.html                ← 6 tabs, market switcher, k-slider
+│   ├── css/styles.css            ← old-money theme (ink/parchment/gold, serif)
+│   ├── js/app.js                 ← loads manifest → per-market data → renders
+│   └── data/                     ← sample JSON so the site works NOW
+│       ├── manifest.json         ← markets list + default (India)
+│       ├── IN/  {sectors,companies,news,signals}.json
+│       ├── US/  {sectors,companies,news,signals}.json
+│       ├── UK/  {sectors,companies,news,signals}.json
+│       └── JP/  {sectors,companies,news,signals}.json
+├── pipeline/                     ← the daily job (Python)
+│   ├── config.py                 ← markets, watchlists, weights, k, and the
+│   │                                SECTOR_EVENT_VOL historical-vol table
+│   ├── fetch_market.py           ← Finnhub prices/fundamentals (per market)
+│   ├── fetch_news.py             ← GDELT headlines + tone + macro theme
+│   ├── fetch_social.py           ← StockTwits bull/bear (+ Reddit optional)
+│   ├── score_sentiment.py        ← Gemini sector scoring → Sentiment Index
+│   ├── sector_signals.py         ← NEW: main/supporting drivers + vol-anchored range
+│   ├── build_valuation.py        ← Base Fair Value + Sentiment-Adjusted value
+│   ├── run_all.py                ← loops ALL markets, writes data/<MKT>/*.json
+│   ├── requirements.txt
+│   └── SOURCES.md                ← every API, its free limit, its docs link
+├── .github/workflows/
+│   └── daily-update.yml          ← the free cron automation (runs on GitHub)
+└── README.md
+```
+
+The frontend is fully functional against the sample data immediately — all four markets, all six tabs, the Sector Signals reasoning with forecast ranges. The pipeline runs end-to-end in **mock mode** without any API keys (it generates realistic sample data), so you can test the entire flow offline before signing up for anything. Verified: `python run_all.py` produces all 4 markets; the SAFV formula, the Sentiment Index weighting, and the forecast-range anchoring all reconcile exactly.
+
+---
+
+## 11. Sources (free-tier limits verified July 2026)
+
+- Finnhub free tier (60 calls/min): https://finnhub.io/docs/api/rate-limit
+- Alpha Vantage free tier now 25/day (why we avoided it): https://www.macroption.com/alpha-vantage-api-limits/
+- GDELT (fully free, tone + geo events): https://dataresearchtools.com/gdelt-project-for-news-data-2026-free-alternative-to-newsapi/
+- Reddit API free tier (~100 q/min, approval form): https://support.reddithelp.com/hc/en-us/articles/16160319875092-Reddit-Data-API-Wiki
+- StockTwits sentiment API: https://stocktwitsapi.com/
+- Google Gemini free tier (1,500 req/day on Flash): https://openrouter.ai/blog/tutorials/free-llm-apis-compared/
+- GitHub Pages limits: https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits
+- GitHub Actions free & unlimited for public repos: https://docs.github.com/en/actions/concepts/billing-and-usage

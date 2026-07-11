@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meridian — Sentiment-Adjusted Valuation</title>
+  <meta name="description" content="A market-research house that valuates companies through both classical finance and the prevailing sentiment of the market." />
+  <meta property="og:title" content="Meridian — Sentiment-Adjusted Valuation" />
+  <meta property="og:description" content="Fair value, read against the mood of the market. India · USA · UK · Japan. Updated daily." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="monogram">M</span>
+      <div>
+        <h1>Meridian</h1>
+        <p class="tagline">Fair value, read against the mood of the market.</p>
+      </div>
+    </div>
+    <div class="topbar-right">
+      <div class="market-switch">
+        <label for="market-select">Market</label>
+        <select id="market-select"></select>
+      </div>
+      <div class="updated">Last updated<br><span id="updated-at">—</span></div>
+    </div>
+  </header>
+
+  <div id="macro-banner" class="macro-banner">Reading the market…</div>
+
+  <nav class="tabs">
+    <button class="tab active" data-tab="overview">Overview</button>
+    <button class="tab" data-tab="signals">Sector Signals</button>
+    <button class="tab" data-tab="company">Company</button>
+    <button class="tab" data-tab="news">Financial News</button>
+    <button class="tab" data-tab="sentiment">Sentiment</button>
+    <button class="tab" data-tab="methodology">Methodology</button>
+  </nav>
+
+  <main>
+    <!-- OVERVIEW -->
+    <section id="overview" class="panel active">
+      <h2>Sector Sentiment</h2>
+      <hr class="rule" />
+      <p class="muted">The prevailing read across sectors for <strong id="ov-index">—</strong>. Green denotes a bullish crowd, oxblood a bearish one. Recomputed daily.</p>
+      <div id="heatmap" class="heatmap"></div>
+    </section>
+
+    <!-- SECTOR SIGNALS (new) -->
+    <section id="signals" class="panel">
+      <h2>Sector Signals</h2>
+      <hr class="rule" />
+      <p class="muted">Why each sector reads the way it does today. The <em>main impact</em> leads; supporting drivers follow only where the picture is genuinely complex. Each carries a forecast <strong>range</strong> anchored to how the sector has historically moved in events of this kind — not a single invented figure.</p>
+      <div id="signals-list"></div>
+    </section>
+
+    <!-- COMPANY -->
+    <section id="company" class="panel">
+      <div class="company-header">
+        <h2>Company Valuation</h2>
+        <select id="ticker-select"></select>
+      </div>
+      <hr class="rule" />
+      <div class="cards">
+        <div class="card">
+          <div class="card-label">Base Fair Value</div>
+          <div class="card-value" id="bfv">—</div>
+          <div class="card-sub">Fundamentals only — multiples &amp; DCF-lite</div>
+        </div>
+        <div class="card">
+          <div class="card-label">Sentiment Index</div>
+          <div class="card-value" id="sent-index">—</div>
+          <div class="card-sub">0 fearful · 50 neutral · 100 euphoric</div>
+        </div>
+        <div class="card highlight">
+          <div class="card-label">Sentiment-Adjusted Fair Value</div>
+          <div class="card-value" id="safv">—</div>
+          <div class="card-sub" id="verdict">—</div>
+        </div>
+      </div>
+      <div class="slider-row">
+        <label for="k-slider">Sentiment influence (k): <strong id="k-val">0.15</strong></label>
+        <input type="range" id="k-slider" min="0" max="0.30" step="0.01" value="0.15" />
+        <span class="muted">Set to nil for pure fundamentals.</span>
+      </div>
+      <div class="chart-wrap"><canvas id="company-chart"></canvas></div>
+    </section>
+
+    <!-- NEWS -->
+    <section id="news" class="panel">
+      <h2>Financial News <span class="muted">— tone-scored</span></h2>
+      <hr class="rule" />
+      <div id="news-list" class="news-list"></div>
+    </section>
+
+    <!-- SENTIMENT -->
+    <section id="sentiment" class="panel">
+      <h2>Sentiment Composition</h2>
+      <hr class="rule" />
+      <p class="muted">How the Sentiment Index is built for the selected company.</p>
+      <div class="chart-wrap"><canvas id="sentiment-chart"></canvas></div>
+    </section>
+
+    <!-- METHODOLOGY -->
+    <section id="methodology" class="panel">
+      <h2>How Meridian works</h2>
+      <hr class="rule" />
+      <p>Meridian fuses two views of a company:</p>
+      <ol>
+        <li><strong>Base Fair Value (BFV)</strong> — a transparent estimate from sector-median multiples (P/E, EV/EBITDA) and a conservative DCF-lite.</li>
+        <li><strong>Sentiment Index (0–100)</strong> — a blend of social mood (StockTwits bull/bear, Reddit), news tone (GDELT + AI), and a macro / geo-political overlay.</li>
+      </ol>
+      <p>They combine into <strong>Sentiment-Adjusted Fair Value</strong>:</p>
+      <pre class="formula">adjustment = (SentimentIndex − 50) / 50
+SAFV = BFV × (1 + k × adjustment)</pre>
+      <p><code>k</code> is capped so sentiment only <em>tilts</em> a fundamentally-grounded value. On the <strong>Sector Signals</strong> tab, the AI decides <em>direction</em> and writes the narrative, but the forecast <em>magnitude</em> is a historical volatility band — how the sector has actually behaved in past events of that type — so figures are anchored, and shown as a range rather than a false-precision point estimate.</p>
+      <p class="disclaimer">⚠ Educational / research instrument. Data refreshes daily, not in real time. Forecast ranges are historical-analogue estimates, not predictions. <strong>Not financial advice.</strong></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Meridian · built by Debjit Mukherjee · <a href="https://github.com/" target="_blank" rel="noopener">Source on GitHub</a><br>Runs on free tiers — GitHub Actions, Finnhub, GDELT &amp; Gemini. No live server, no per-visitor cost.</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

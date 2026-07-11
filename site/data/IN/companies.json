@@ -1,0 +1,151 @@
+{
+  "updated_at": "2026-07-11 05:17 UTC",
+  "market": "IN",
+  "currency": "\u20b9",
+  "companies": [
+    {
+      "ticker": "RELIANCE",
+      "name": "Reliance Industries",
+      "sector": "Energy",
+      "price": 396.64,
+      "eps": 21.21,
+      "pe": 18.7,
+      "ebitda_per_share": 29.69,
+      "fcf_per_share": 20.86,
+      "sentiment_index": 47.1,
+      "sentiment_breakdown": {
+        "social": 52.3,
+        "news": 47.6,
+        "macro": 38
+      },
+      "base_fair_value": 362.79,
+      "sentiment_adjusted_fair_value": 359.63
+    },
+    {
+      "ticker": "TCS",
+      "name": "Tata Consultancy",
+      "sector": "Technology",
+      "price": 189.77,
+      "eps": 11.23,
+      "pe": 16.9,
+      "ebitda_per_share": 17.56,
+      "fcf_per_share": 11.12,
+      "sentiment_index": 45.4,
+      "sentiment_breakdown": {
+        "social": 41.4,
+        "news": 55.2,
+        "macro": 38
+      },
+      "base_fair_value": 211.2,
+      "sentiment_adjusted_fair_value": 208.29
+    },
+    {
+      "ticker": "INFY",
+      "name": "Infosys",
+      "sector": "Technology",
+      "price": 308.31,
+      "eps": 11.38,
+      "pe": 27.1,
+      "ebitda_per_share": 23.15,
+      "fcf_per_share": 11.83,
+      "sentiment_index": 47.7,
+      "sentiment_breakdown": {
+        "social": 47.3,
+        "news": 55.2,
+        "macro": 38
+      },
+      "base_fair_value": 218.46,
+      "sentiment_adjusted_fair_value": 216.95
+    },
+    {
+      "ticker": "HDFCBANK",
+      "name": "HDFC Bank",
+      "sector": "Financials",
+      "price": 174.05,
+      "eps": 10.74,
+      "pe": 16.2,
+      "ebitda_per_share": 23.33,
+      "fcf_per_share": 10.2,
+      "sentiment_index": 60.6,
+      "sentiment_breakdown": {
+        "social": 69.7,
+        "news": 66.4,
+        "macro": 38
+      },
+      "base_fair_value": 162.85,
+      "sentiment_adjusted_fair_value": 168.03
+    },
+    {
+      "ticker": "ICICIBANK",
+      "name": "ICICI Bank",
+      "sector": "Financials",
+      "price": 116.35,
+      "eps": 8.02,
+      "pe": 14.5,
+      "ebitda_per_share": 11.21,
+      "fcf_per_share": 6.25,
+      "sentiment_index": 61.6,
+      "sentiment_breakdown": {
+        "social": 72.1,
+        "news": 66.4,
+        "macro": 38
+      },
+      "base_fair_value": 110.83,
+      "sentiment_adjusted_fair_value": 114.69
+    },
+    {
+      "ticker": "HINDUNILVR",
+      "name": "Hindustan Unilever",
+      "sector": "Consumer Staples",
+      "price": 353.84,
+      "eps": 17.6,
+      "pe": 20.1,
+      "ebitda_per_share": 30.42,
+      "fcf_per_share": 14.79,
+      "sentiment_index": 60.7,
+      "sentiment_breakdown": {
+        "social": 74.5,
+        "news": 61.2,
+        "macro": 38
+      },
+      "base_fair_value": 293.5,
+      "sentiment_adjusted_fair_value": 302.92
+    },
+    {
+      "ticker": "TATAMOTORS",
+      "name": "Tata Motors",
+      "sector": "Consumer Discretionary",
+      "price": 161.51,
+      "eps": 5.81,
+      "pe": 27.8,
+      "ebitda_per_share": 9.86,
+      "fcf_per_share": 4.99,
+      "sentiment_index": 47.9,
+      "sentiment_breakdown": {
+        "social": 67.6,
+        "news": 32.4,
+        "macro": 38
+      },
+      "base_fair_value": 120.1,
+      "sentiment_adjusted_fair_value": 119.34
+    },
+    {
+      "ticker": "SUNPHARMA",
+      "name": "Sun Pharma",
+      "sector": "Healthcare",
+      "price": 169.65,
+      "eps": 13.79,
+      "pe": 12.3,
+      "ebitda_per_share": 18.23,
+      "fcf_per_share": 10.85,
+      "sentiment_index": 48.3,
+      "sentiment_breakdown": {
+        "social": 31.6,
+        "news": 74.8,
+        "macro": 38
+      },
+      "base_fair_value": 170.36,
+      "sentiment_adjusted_fair_value": 169.49
+    }
+  ]
+}

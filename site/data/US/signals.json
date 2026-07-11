@@ -1,0 +1,135 @@
+{
+  "updated_at": "2026-07-11 05:17 UTC",
+  "market": "US",
+  "macro_theme": "Geopolitical conflict raises energy-sector risk",
+  "signals": [
+    {
+      "sector": "Consumer Discretionary",
+      "read": "Bearish",
+      "score": 39,
+      "event_type": "geopolitical_supply",
+      "drivers": [
+        {
+          "role": "main",
+          "text": "Consumer Discretionary sentiment pressured by the prevailing geopolitical supply backdrop",
+          "forecast": {
+            "low": 1.8,
+            "high": 4.3,
+            "direction": "-",
+            "text": "-1.8% to -4.3%"
+          }
+        }
+      ]
+    },
+    {
+      "sector": "Consumer Staples",
+      "read": "Neutral",
+      "score": 57,
+      "event_type": "geopolitical_supply",
+      "drivers": [
+        {
+          "role": "main",
+          "text": "Consumer Staples sentiment supported by the prevailing geopolitical supply backdrop",
+          "forecast": {
+            "low": 1.1,
+            "high": 2.9,
+            "direction": "+",
+            "text": "+1.1% to +2.9%"
+          }
+        }
+      ]
+    },
+    {
+      "sector": "Energy",
+      "read": "Neutral",
+      "score": 45,
+      "event_type": "geopolitical_supply",
+      "drivers": [
+        {
+          "role": "main",
+          "text": "Supply-route risk from conflict pushes crude higher; refiners and upstream names diverge",
+          "forecast": {
+            "low": 4.4,
+            "high": 9.9,
+            "direction": "-",
+            "text": "-4.4% to -9.9%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Freight and insurance costs rising on shipping-lane threats",
+          "forecast": {
+            "low": 4.4,
+            "high": 9.9,
+            "direction": "-",
+            "text": "-4.4% to -9.9%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Strategic-reserve releases could cap upside, adding two-way risk",
+          "forecast": {
+            "low": 4.4,
+            "high": 9.9,
+            "direction": "-",
+            "text": "-4.4% to -9.9%"
+          }
+        }
+      ]
+    },
+    {
+      "sector": "Financials",
+      "read": "Neutral",
+      "score": 47,
+      "event_type": "geopolitical_supply",
+      "drivers": [
+        {
+          "role": "main",
+          "text": "Financials sentiment pressured by the prevailing geopolitical supply backdrop",
+          "forecast": {
+            "low": 1.1,
+            "high": 3.2,
+            "direction": "-",
+            "text": "-1.1% to -3.2%"
+          }
+        }
+      ]
+    },
+    {
+      "sector": "Healthcare",
+      "read": "Neutral",
+      "score": 54,
+      "event_type": "geopolitical_supply",
+      "drivers": [
+        {
+          "role": "main",
+          "text": "Healthcare sentiment supported by the prevailing geopolitical supply backdrop",
+          "forecast": {
+            "low": 0.5,
+            "high": 2.2,
+            "direction": "+",
+            "text": "+0.5% to +2.2%"
+          }
+        }
+      ]
+    },
+    {
+      "sector": "Technology",
+      "read": "Neutral",
+      "score": 52,
+      "event_type": "geopolitical_supply",
+      "drivers": [
+        {
+          "role": "main",
+          "text": "Technology sentiment supported by the prevailing geopolitical supply backdrop",
+          "forecast": {
+            "low": 1.0,
+            "high": 3.1,
+            "direction": "+",
+            "text": "+1.0% to +3.1%"
+          }
+        }
+      ]
+    }
+  ]
+}
