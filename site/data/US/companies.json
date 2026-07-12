@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11 13:45 UTC",
+  "updated_at": "2026-07-12 08:10 UTC",
   "market": "US",
   "currency": "$",
   "companies": [
@@ -13,31 +13,31 @@
       "fcf_per_share": 6.882841701937367,
       "ebitda_per_share": 10.892089593252864,
       "net_debt_per_share": 1.1032616887614082,
-      "sentiment_index": 45.2,
+      "sentiment_index": 39.2,
       "sentiment_breakdown": {
-        "news": 50,
+        "news": 40,
         "macro": 38
       },
-      "base_fair_value": 201.22,
-      "sentiment_adjusted_fair_value": 198.32
+      "base_fair_value": 201.3,
+      "sentiment_adjusted_fair_value": 194.78
     },
     {
       "ticker": "MSFT",
       "name": "Microsoft",
       "sector": "Technology",
       "price": 385.1,
-      "eps": 16.83,
-      "pe": 22.88176,
+      "eps": 16.79,
+      "pe": 22.93627,
       "fcf_per_share": 4.982375517155788,
       "ebitda_per_share": 24.831207429026087,
       "net_debt_per_share": 6.354501536990289,
-      "sentiment_index": 45.2,
+      "sentiment_index": 39.2,
       "sentiment_breakdown": {
-        "news": 50,
+        "news": 40,
         "macro": 38
       },
-      "base_fair_value": 380.8,
-      "sentiment_adjusted_fair_value": 375.32
+      "base_fair_value": 380.55,
+      "sentiment_adjusted_fair_value": 368.22
     },
     {
       "ticker": "JPM",
@@ -49,13 +49,13 @@
       "fcf_per_share": null,
       "ebitda_per_share": null,
       "net_debt_per_share": -97.4584527991737,
-      "sentiment_index": 64.4,
+      "sentiment_index": 45.2,
       "sentiment_breakdown": {
-        "news": 82,
+        "news": 50,
         "macro": 38
       },
       "base_fair_value": 485.74,
-      "sentiment_adjusted_fair_value": 506.72
+      "sentiment_adjusted_fair_value": 478.75
     },
     {
       "ticker": "V",
@@ -67,31 +67,31 @@
       "fcf_per_share": 12.556260121241476,
       "ebitda_per_share": 18.161607636869885,
       "net_debt_per_share": 6.063107388815698,
-      "sentiment_index": 64.4,
+      "sentiment_index": 45.2,
       "sentiment_breakdown": {
-        "news": 82,
+        "news": 50,
         "macro": 38
       },
       "base_fair_value": 232.47,
-      "sentiment_adjusted_fair_value": 242.51
+      "sentiment_adjusted_fair_value": 229.12
     },
     {
       "ticker": "XOM",
       "name": "Exxon Mobil",
       "sector": "Energy",
       "price": 138.88,
-      "eps": 6.0,
-      "pe": 23.146667,
+      "eps": 5.94,
+      "pe": 23.380472,
       "fcf_per_share": 2.805946465765828,
       "ebitda_per_share": 13.512114358769237,
       "net_debt_per_share": 9.463570297738816,
-      "sentiment_index": 42.2,
+      "sentiment_index": 48.8,
       "sentiment_breakdown": {
-        "news": 45,
+        "news": 56,
         "macro": 38
       },
       "base_fair_value": 44.25,
-      "sentiment_adjusted_fair_value": 43.21
+      "sentiment_adjusted_fair_value": 44.09
     },
     {
       "ticker": "AMZN",
@@ -103,13 +103,13 @@
       "fcf_per_share": 0.9116412570072882,
       "ebitda_per_share": 14.489114657362494,
       "net_debt_per_share": 8.59441034397226,
-      "sentiment_index": 47.6,
+      "sentiment_index": 48.8,
       "sentiment_breakdown": {
-        "news": 54,
+        "news": 56,
         "macro": 38
       },
       "base_fair_value": 14.38,
-      "sentiment_adjusted_fair_value": 14.28
+      "sentiment_adjusted_fair_value": 14.33
     },
     {
       "ticker": "KO",
@@ -121,13 +121,13 @@
       "fcf_per_share": 0.7261505820289443,
       "ebitda_per_share": 3.884966441250429,
       "net_debt_per_share": 7.164932884102258,
-      "sentiment_index": 66.2,
+      "sentiment_index": 48.8,
       "sentiment_breakdown": {
-        "news": 85,
+        "news": 56,
         "macro": 38
       },
       "base_fair_value": 11.45,
-      "sentiment_adjusted_fair_value": 12.01
+      "sentiment_adjusted_fair_value": 11.41
     },
     {
       "ticker": "PFE",
@@ -139,13 +139,13 @@
       "fcf_per_share": 2.1715495029003065,
       "ebitda_per_share": 4.467102407368103,
       "net_debt_per_share": 9.062287367763142,
-      "sentiment_index": 64.4,
+      "sentiment_index": 48.8,
       "sentiment_breakdown": {
-        "news": 82,
+        "news": 56,
         "macro": 38
       },
       "base_fair_value": 34.24,
-      "sentiment_adjusted_fair_value": 35.72
+      "sentiment_adjusted_fair_value": 34.12
     }
   ]
 }

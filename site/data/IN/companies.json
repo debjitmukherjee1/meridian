@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11 13:45 UTC",
+  "updated_at": "2026-07-12 08:10 UTC",
   "market": "IN",
   "currency": "\u20b9",
   "companies": [
@@ -13,13 +13,13 @@
       "fcf_per_share": 16.130921764847958,
       "ebitda_per_share": 126.7063309660043,
       "net_debt_per_share": 103.3462168530996,
-      "sentiment_index": 54.2,
+      "sentiment_index": 44.0,
       "sentiment_breakdown": {
-        "news": 65,
+        "news": 48,
         "macro": 38
       },
       "base_fair_value": 254.37,
-      "sentiment_adjusted_fair_value": 257.58
+      "sentiment_adjusted_fair_value": 249.79
     },
     {
       "ticker": "TCS",
@@ -30,14 +30,14 @@
       "pe": 15.037431,
       "fcf_per_share": null,
       "ebitda_per_share": 199.69459206873725,
-      "net_debt_per_share": -82.35566397705917,
-      "sentiment_index": 66.2,
+      "net_debt_per_share": null,
+      "sentiment_index": 48.8,
       "sentiment_breakdown": {
-        "news": 85,
+        "news": 56,
         "macro": 38
       },
-      "base_fair_value": 50264.69,
-      "sentiment_adjusted_fair_value": 52707.55
+      "base_fair_value": 50244.1,
+      "sentiment_adjusted_fair_value": 50063.22
     },
     {
       "ticker": "INFY",
@@ -49,13 +49,13 @@
       "fcf_per_share": 0.7829850388601102,
       "ebitda_per_share": 1.0936228909438386,
       "net_debt_per_share": -0.676475335396061,
-      "sentiment_index": 66.2,
+      "sentiment_index": 48.8,
       "sentiment_breakdown": {
-        "news": 85,
+        "news": 56,
         "macro": 38
       },
-      "base_fair_value": 551.29,
-      "sentiment_adjusted_fair_value": 578.08
+      "base_fair_value": 551.36,
+      "sentiment_adjusted_fair_value": 549.38
     },
     {
       "ticker": "HDFCBANK",
@@ -67,31 +67,31 @@
       "fcf_per_share": null,
       "ebitda_per_share": null,
       "net_debt_per_share": 179.56935655258582,
-      "sentiment_index": 58.4,
+      "sentiment_index": 33.2,
       "sentiment_breakdown": {
-        "news": 72,
+        "news": 30,
         "macro": 38
       },
-      "base_fair_value": 825.64,
-      "sentiment_adjusted_fair_value": 846.45
+      "base_fair_value": 831.88,
+      "sentiment_adjusted_fair_value": 789.95
     },
     {
       "ticker": "ICICIBANK",
       "name": "ICICI Bank",
       "sector": "Financials",
       "price": 1401.2,
-      "eps": 75.95,
-      "pe": 18.44898,
+      "eps": 74.82,
+      "pe": 18.727612,
       "fcf_per_share": null,
       "ebitda_per_share": null,
       "net_debt_per_share": -62.33967680369084,
-      "sentiment_index": 58.4,
+      "sentiment_index": 33.2,
       "sentiment_breakdown": {
-        "news": 72,
+        "news": 30,
         "macro": 38
       },
-      "base_fair_value": 1400.03,
-      "sentiment_adjusted_fair_value": 1435.31
+      "base_fair_value": 1389.62,
+      "sentiment_adjusted_fair_value": 1319.58
     },
     {
       "ticker": "HINDUNILVR",
@@ -103,13 +103,13 @@
       "fcf_per_share": 27.769722885528846,
       "ebitda_per_share": 61.94269115731841,
       "net_debt_per_share": -23.47216769994951,
-      "sentiment_index": 63.2,
+      "sentiment_index": 44.0,
       "sentiment_breakdown": {
-        "news": 80,
+        "news": 48,
         "macro": 38
       },
       "base_fair_value": 437.91,
-      "sentiment_adjusted_fair_value": 455.25
+      "sentiment_adjusted_fair_value": 430.03
     },
     {
       "ticker": "TMPV",
@@ -121,13 +121,13 @@
       "fcf_per_share": -53.298530404136436,
       "ebitda_per_share": 36.15125741220856,
       "net_debt_per_share": 102.01265164077493,
-      "sentiment_index": 42.8,
+      "sentiment_index": 44.0,
       "sentiment_breakdown": {
-        "news": 46,
+        "news": 48,
         "macro": 38
       },
       "base_fair_value": 337.95,
-      "sentiment_adjusted_fair_value": 330.65
+      "sentiment_adjusted_fair_value": 331.87
     },
     {
       "ticker": "SUNPHARMA",
@@ -139,13 +139,13 @@
       "fcf_per_share": 24.791791302070674,
       "ebitda_per_share": 67.99171446077827,
       "net_debt_per_share": -120.4052737730072,
-      "sentiment_index": 64.4,
+      "sentiment_index": 44.0,
       "sentiment_breakdown": {
-        "news": 82,
+        "news": 48,
         "macro": 38
       },
       "base_fair_value": 390.95,
-      "sentiment_adjusted_fair_value": 407.84
+      "sentiment_adjusted_fair_value": 383.91
     }
   ]
 }
