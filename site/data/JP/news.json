@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-12 08:10 UTC",
+  "updated_at": "2026-07-13 09:18 UTC",
   "market": "JP",
   "items": [
     {
@@ -7,7 +7,7 @@
       "sector": "Technology",
       "tone": 0.0,
       "url": "https://economictimes.indiatimes.com/news/international/us/us-stock-market-concentration-risk-hits-extreme-levels-ai-stocks-surge-to-45-of-sp-500-market-cap-in-2026-can-1-4-trillion-ai-linked-debt-sustain-this-historic-dominance/articleshow/130493020.cms",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Technology sentiment."
+      "note": "Investors become more optimistic about S&P 500 AI stocks reaching a record-high market cap share."
     },
     {
       "title": "Quant Ratings Updated on 120 Stocks",
@@ -15,6 +15,20 @@
       "tone": 0.0,
       "url": "https://investorplace.com/market360/2026/04/quant-ratings-updated-on-120-stocks/",
       "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+    },
+    {
+      "title": "Ahead of Market : 10 things that will decide stock market action on Monday",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-monday/articleshow/132342643.cms",
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+    },
+    {
+      "title": "South Korea KOSPI Triggers Trading Curb as AI Chip Stock Selloff Deepens",
+      "sector": "Technology",
+      "tone": 0.0,
+      "url": "http://www.econotimes.com/South-Koreas-KOSPI-Triggers-Trading-Curb-as-AI-Chip-Stock-Selloff-Deepens-1746557",
+      "note": "Market curb triggers fear that AI chip stock selloff will spread, deepening Technology sector concerns."
     },
     {
       "title": "Sensex Gains 118 Points After Late Recovery , Nifty Ends Above 23 , 650 Despite Rupee Weakness",
@@ -63,7 +77,7 @@
       "sector": "Technology",
       "tone": 0.0,
       "url": "https://timesofindia.indiatimes.com/technology/tech-news/market-research-company-warn-of-ai-stocks-selling-cheap-say-they-point-to-a-dangerous-sign/articleshow/131900405.cms",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Technology sentiment."
+      "note": "Warning signs of AI stock sell-off could be a potential long-term risk for investors' sentiment in Technology."
     },
     {
       "title": "How will markets open today ? Nifty , Bank Nifty levels . Sectors and stocks to watch .",
@@ -71,20 +85,6 @@
       "tone": 0.0,
       "url": "https://www.indiainfoline.com/blog/how-will-markets-open-today-nifty-bank-nifty-levels-sectors-and-stocks-to-watch",
       "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Financials sentiment."
-    },
-    {
-      "title": "3 Overvalued Stocks to Take Profits In and 3 Undervalued Stocks to Buy Instead",
-      "sector": "Market",
-      "tone": 0.0,
-      "url": "https://www.morningstar.com/stocks/3-overvalued-stocks-take-profits-3-undervalued-stocks-buy-instead-2",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
-    },
-    {
-      "title": "Mid - and small - cap outperformance cycle may be back after earnings reset : Brokerage",
-      "sector": "Market",
-      "tone": 0.0,
-      "url": "https://www.moneycontrol.com/news/business/markets/mid-and-small-cap-outperformance-cycle-may-be-back-after-earnings-reset-brokerage-13933014.html",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
     }
   ]
 }

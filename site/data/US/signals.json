@@ -1,52 +1,52 @@
 {
-  "updated_at": "2026-07-12 08:10 UTC",
+  "updated_at": "2026-07-13 09:18 UTC",
   "market": "US",
   "macro_theme": "Geopolitical conflict raises energy-sector risk",
   "signals": [
     {
       "sector": "Consumer Discretionary",
       "read": "Neutral",
-      "score": 49,
+      "score": 50,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "The Consumer Discretionary sector is being primarily impacted by a geopolitical supply event.",
+          "text": "The MAIN impact on the Consumer Discretionary sector is the geopolitical supply chain disruptions.",
           "forecast": {
             "low": 1.5,
-            "high": 3.6,
-            "direction": "-",
-            "text": "-1.5% to -3.6%"
+            "high": 3.5,
+            "direction": "+",
+            "text": "+1.5% to +3.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "Market outperformance by mid- and small-cap stocks may also influence the sector.",
+          "text": "The sector's mixed sentiment is driven by these disruptions.",
           "forecast": {
             "low": 1.5,
-            "high": 3.6,
-            "direction": "-",
-            "text": "-1.5% to -3.6%"
+            "high": 3.5,
+            "direction": "+",
+            "text": "+1.5% to +3.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "Trump's potential influence on the market, though mentioned in a broader context, still adds to overall uncertainty.",
+          "text": "Supply chain concerns are affecting the broader market due to their significant impact on 52% of S&P gains.",
           "forecast": {
             "low": 1.5,
-            "high": 3.6,
-            "direction": "-",
-            "text": "-1.5% to -3.6%"
+            "high": 3.5,
+            "direction": "+",
+            "text": "+1.5% to +3.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "S&P earnings reset may further contribute to sector sentiment.",
+          "text": "The uncertainty surrounding this event will decide the stock market's action on Monday.",
           "forecast": {
             "low": 1.5,
-            "high": 3.6,
-            "direction": "-",
-            "text": "-1.5% to -3.6%"
+            "high": 3.5,
+            "direction": "+",
+            "text": "+1.5% to +3.5%"
           }
         }
       ]
@@ -54,47 +54,47 @@
     {
       "sector": "Consumer Staples",
       "read": "Neutral",
-      "score": 49,
+      "score": 50,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "A geopolitical supply event is impacting the Consumer Staples sector, as its sentiment remains mixed (49/100)",
+          "text": "Global food prices and supply chain disruptions caused by geopolitical events are the main impact on the Consumer Staples sector.",
           "forecast": {
             "low": 1.0,
             "high": 2.5,
-            "direction": "-",
-            "text": "-1.0% to -2.5%"
+            "direction": "+",
+            "text": "+1.0% to +2.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "Global supply chain disruptions due to geopolitical events may affect Consumer Staples companies",
+          "text": "Supply chain disruptions from the South Korea KOSPI curb may affect consumer staples companies reliant on Asian suppliers.",
           "forecast": {
             "low": 1.0,
             "high": 2.5,
-            "direction": "-",
-            "text": "-1.0% to -2.5%"
+            "direction": "+",
+            "text": "+1.0% to +2.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "Small-cap stocks within the sector may be seeing increased buying due to an outperformance cycle",
+          "text": "Geopolitical events could increase costs for consumer staples companies, potentially leading to higher prices for consumers.",
           "forecast": {
             "low": 1.0,
             "high": 2.5,
-            "direction": "-",
-            "text": "-1.0% to -2.5%"
+            "direction": "+",
+            "text": "+1.0% to +2.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "The sector's reliance on specific names makes it vulnerable to market fluctuations",
+          "text": "The focus on the S&P gains highlights the influence of a few key stocks, which may include consumer staples companies",
           "forecast": {
             "low": 1.0,
             "high": 2.5,
-            "direction": "-",
-            "text": "-1.0% to -2.5%"
+            "direction": "+",
+            "text": "+1.0% to +2.5%"
           }
         }
       ]
@@ -102,47 +102,47 @@
     {
       "sector": "Energy",
       "read": "Neutral",
-      "score": 49,
+      "score": 50,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "A geopolitical supply event is driving mixed sentiment in the Energy sector.",
+          "text": "The Energy sector is being negatively impacted by a geopolitical supply event.",
           "forecast": {
-            "low": 4.1,
-            "high": 9.2,
-            "direction": "-",
-            "text": "-4.1% to -9.2%"
+            "low": 4.0,
+            "high": 9.0,
+            "direction": "+",
+            "text": "+4.0% to +9.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "There is uncertainty stemming from the recent geopolitical climate affecting supplies.",
+          "text": "Uncertainty around global supply chains is affecting the sector.",
           "forecast": {
-            "low": 4.1,
-            "high": 9.2,
-            "direction": "-",
-            "text": "-4.1% to -9.2%"
+            "low": 4.0,
+            "high": 9.0,
+            "direction": "+",
+            "text": "+4.0% to +9.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "Some analysts note a potential shift towards mid- and small-cap outperformance, though its direct impact is unclear.",
+          "text": "Tensions between major oil-producing countries are contributing to the complexity.",
           "forecast": {
-            "low": 4.1,
-            "high": 9.2,
-            "direction": "-",
-            "text": "-4.1% to -9.2%"
+            "low": 4.0,
+            "high": 9.0,
+            "direction": "+",
+            "text": "+4.0% to +9.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "However, broader market metrics such as the S&P gains being dominated by a small number of stocks may also influence investor sentiment.",
+          "text": "Market sentiment remains mixed ahead of key decisions.",
           "forecast": {
-            "low": 4.1,
-            "high": 9.2,
-            "direction": "-",
-            "text": "-4.1% to -9.2%"
+            "low": 4.0,
+            "high": 9.0,
+            "direction": "+",
+            "text": "+4.0% to +9.0%"
           }
         }
       ]
@@ -150,47 +150,47 @@
     {
       "sector": "Financials",
       "read": "Neutral",
-      "score": 45,
+      "score": 42,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "The main impact on the Financials sector is the geopolitical supply event driven by a volatile global market and the weakening rupee.",
+          "text": "Geopolitical supply events are disrupting the Financials sector's operations.",
           "forecast": {
-            "low": 1.1,
-            "high": 3.3,
+            "low": 1.2,
+            "high": 3.5,
             "direction": "-",
-            "text": "-1.1% to -3.3%"
+            "text": "-1.2% to -3.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "A weak rupee has caused a Sensex gain of 118 points",
+          "text": "Volatility in the market due to earnings surprises being short-lived.",
           "forecast": {
-            "low": 1.1,
-            "high": 3.3,
+            "low": 1.2,
+            "high": 3.5,
             "direction": "-",
-            "text": "-1.1% to -3.3%"
+            "text": "-1.2% to -3.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "Value stocks are beating growth stocks by a wide margin",
+          "text": "The impact of AI stocks surging to 45% of S&P 500 market cap in 2026, potentially altering investment trends.",
           "forecast": {
-            "low": 1.1,
-            "high": 3.3,
+            "low": 1.2,
+            "high": 3.5,
             "direction": "-",
-            "text": "-1.1% to -3.3%"
+            "text": "-1.2% to -3.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "Earnings pops are proving short-lived in volatile markets",
+          "text": "The verdict from Morgan Stanley for nervous stock market investors is likely a bearish sentiment contributor",
           "forecast": {
-            "low": 1.1,
-            "high": 3.3,
+            "low": 1.2,
+            "high": 3.5,
             "direction": "-",
-            "text": "-1.1% to -3.3%"
+            "text": "-1.2% to -3.5%"
           }
         }
       ]
@@ -198,47 +198,47 @@
     {
       "sector": "Healthcare",
       "read": "Neutral",
-      "score": 49,
+      "score": 50,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "The Healthcare sector is impacted by geopolitical supply events, which are driving a mixed sentiment.",
+          "text": "The main impact on the Healthcare sector is geopolitical supply event uncertainty.",
           "forecast": {
             "low": 0.5,
             "high": 2.0,
-            "direction": "-",
-            "text": "-0.5% to -2.0%"
+            "direction": "+",
+            "text": "+0.5% to +2.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "A global supply event is affecting the sector.",
+          "text": "US-China trade tensions are exacerbating supply chain disruptions in the sector.",
           "forecast": {
             "low": 0.5,
             "high": 2.0,
-            "direction": "-",
-            "text": "-0.5% to -2.0%"
+            "direction": "+",
+            "text": "+0.5% to +2.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "There is uncertainty related to a geopolitical situation.",
+          "text": "Geopolitical instability is affecting pharmaceutical companies with international operations.",
           "forecast": {
             "low": 0.5,
             "high": 2.0,
-            "direction": "-",
-            "text": "-0.5% to -2.0%"
+            "direction": "+",
+            "text": "+0.5% to +2.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "A global supply event is impacting the sector's sentiment.",
+          "text": "Global vaccine demand is impacted by the ongoing war in Ukraine, affecting vaccine supply and distribution.",
           "forecast": {
             "low": 0.5,
             "high": 2.0,
-            "direction": "-",
-            "text": "-0.5% to -2.0%"
+            "direction": "+",
+            "text": "+0.5% to +2.0%"
           }
         }
       ]
@@ -246,47 +246,47 @@
     {
       "sector": "Technology",
       "read": "Bearish",
-      "score": 39,
+      "score": 33,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "The MAIN impact on the Technology sector is a bearish sentiment due to a geopolitical supply event.",
+          "text": "A bearish sentiment in the Technology sector, driven by geopolitical supply chain disruptions.",
           "forecast": {
-            "low": 1.2,
-            "high": 3.7,
+            "low": 1.3,
+            "high": 4.0,
             "direction": "-",
-            "text": "-1.2% to -3.7%"
+            "text": "-1.3% to -4.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "The US-China trade tensions and geopolitical supply event are driving the sector bearish.",
+          "text": "Supply chain concerns impact tech companies relying on components from affected regions.",
           "forecast": {
-            "low": 1.2,
-            "high": 3.7,
+            "low": 1.3,
+            "high": 4.0,
             "direction": "-",
-            "text": "-1.2% to -3.7%"
+            "text": "-1.3% to -4.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "Artificial intelligence (AI) stocks are selling cheap, indicating a potential buying opportunity.",
+          "text": "Geopolitical tensions may lead to shortages or price increases of essential technology hardware.",
           "forecast": {
-            "low": 1.2,
-            "high": 3.7,
+            "low": 1.3,
+            "high": 4.0,
             "direction": "-",
-            "text": "-1.2% to -3.7%"
+            "text": "-1.3% to -4.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "The outperformance cycle in mid- and small-cap technology stocks may be shifting, affecting the sector's overall sentiment.",
+          "text": "Global unrest could hinder the availability of skilled tech workforce, exacerbating supply chain disruptions.",
           "forecast": {
-            "low": 1.2,
-            "high": 3.7,
+            "low": 1.3,
+            "high": 4.0,
             "direction": "-",
-            "text": "-1.2% to -3.7%"
+            "text": "-1.3% to -4.0%"
           }
         }
       ]

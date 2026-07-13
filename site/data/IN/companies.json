@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-12 08:10 UTC",
+  "updated_at": "2026-07-13 09:18 UTC",
   "market": "IN",
   "currency": "\u20b9",
   "companies": [
@@ -7,145 +7,145 @@
       "ticker": "RELIANCE",
       "name": "Reliance Industries",
       "sector": "Energy",
-      "price": 1307.8,
+      "price": 1297.5,
       "eps": 59.64,
-      "pe": 21.928238,
+      "pe": 21.755533,
       "fcf_per_share": 16.130921764847958,
       "ebitda_per_share": 126.7063309660043,
       "net_debt_per_share": 103.3462168530996,
-      "sentiment_index": 44.0,
+      "sentiment_index": 54.2,
       "sentiment_breakdown": {
-        "news": 48,
+        "news": 65,
         "macro": 38
       },
       "base_fair_value": 254.37,
-      "sentiment_adjusted_fair_value": 249.79
+      "sentiment_adjusted_fair_value": 257.58
     },
     {
       "ticker": "TCS",
       "name": "Tata Consultancy",
       "sector": "Technology",
-      "price": 2069.0,
+      "price": 2187.1,
       "eps": 137.59,
-      "pe": 15.037431,
-      "fcf_per_share": null,
-      "ebitda_per_share": 199.69459206873725,
-      "net_debt_per_share": null,
-      "sentiment_index": 48.8,
+      "pe": 15.895779,
+      "fcf_per_share": 109.77208284103205,
+      "ebitda_per_share": 199.19087550164673,
+      "net_debt_per_share": -93.20393945871378,
+      "sentiment_index": 62.0,
       "sentiment_breakdown": {
-        "news": 56,
+        "news": 78,
         "macro": 38
       },
-      "base_fair_value": 50244.1,
-      "sentiment_adjusted_fair_value": 50063.22
+      "base_fair_value": 35113.01,
+      "sentiment_adjusted_fair_value": 36377.08
     },
     {
       "ticker": "INFY",
       "name": "Infosys",
       "sector": "Technology",
-      "price": 1068.0,
+      "price": 1102.8,
       "eps": 75.51,
-      "pe": 14.143822,
+      "pe": 14.604689,
       "fcf_per_share": 0.7829850388601102,
       "ebitda_per_share": 1.0936228909438386,
       "net_debt_per_share": -0.676475335396061,
-      "sentiment_index": 48.8,
+      "sentiment_index": 62.0,
       "sentiment_breakdown": {
-        "news": 56,
+        "news": 78,
         "macro": 38
       },
-      "base_fair_value": 551.36,
-      "sentiment_adjusted_fair_value": 549.38
+      "base_fair_value": 573.79,
+      "sentiment_adjusted_fair_value": 594.45
     },
     {
       "ticker": "HDFCBANK",
       "name": "HDFC Bank",
       "sector": "Financials",
-      "price": 824.95,
+      "price": 819.0,
       "eps": 44.79,
-      "pe": 18.418173,
+      "pe": 18.285332,
       "fcf_per_share": null,
       "ebitda_per_share": null,
-      "net_debt_per_share": 179.56935655258582,
-      "sentiment_index": 33.2,
+      "net_debt_per_share": 301.3090709477371,
+      "sentiment_index": 63.2,
       "sentiment_breakdown": {
-        "news": 30,
+        "news": 80,
         "macro": 38
       },
-      "base_fair_value": 831.88,
-      "sentiment_adjusted_fair_value": 789.95
+      "base_fair_value": 831.69,
+      "sentiment_adjusted_fair_value": 864.62
     },
     {
       "ticker": "ICICIBANK",
       "name": "ICICI Bank",
       "sector": "Financials",
-      "price": 1401.2,
+      "price": 1410.5,
       "eps": 74.82,
-      "pe": 18.727612,
+      "pe": 18.851912,
       "fcf_per_share": null,
       "ebitda_per_share": null,
       "net_debt_per_share": -62.33967680369084,
-      "sentiment_index": 33.2,
+      "sentiment_index": 63.2,
       "sentiment_breakdown": {
-        "news": 30,
+        "news": 80,
         "macro": 38
       },
-      "base_fair_value": 1389.62,
-      "sentiment_adjusted_fair_value": 1319.58
+      "base_fair_value": 1389.3,
+      "sentiment_adjusted_fair_value": 1444.32
     },
     {
       "ticker": "HINDUNILVR",
       "name": "Hindustan Unilever",
       "sector": "Consumer Staples",
-      "price": 2150.6,
+      "price": 2128.7,
       "eps": 45.16,
-      "pe": 47.62179,
+      "pe": 47.136845,
       "fcf_per_share": 27.769722885528846,
       "ebitda_per_share": 61.94269115731841,
       "net_debt_per_share": -23.47216769994951,
-      "sentiment_index": 44.0,
+      "sentiment_index": 66.2,
       "sentiment_breakdown": {
-        "news": 48,
+        "news": 85,
         "macro": 38
       },
       "base_fair_value": 437.91,
-      "sentiment_adjusted_fair_value": 430.03
+      "sentiment_adjusted_fair_value": 459.19
     },
     {
       "ticker": "TMPV",
       "name": "Tata Motors Passenger Vehicles",
       "sector": "Consumer Discretionary",
-      "price": 337.95,
+      "price": 340.8,
       "eps": -4.43,
       "pe": null,
       "fcf_per_share": -53.298530404136436,
       "ebitda_per_share": 36.15125741220856,
       "net_debt_per_share": 102.01265164077493,
-      "sentiment_index": 44.0,
+      "sentiment_index": 42.2,
       "sentiment_breakdown": {
-        "news": 48,
+        "news": 45,
         "macro": 38
       },
-      "base_fair_value": 337.95,
-      "sentiment_adjusted_fair_value": 331.87
+      "base_fair_value": 340.8,
+      "sentiment_adjusted_fair_value": 332.83
     },
     {
       "ticker": "SUNPHARMA",
       "name": "Sun Pharma",
       "sector": "Healthcare",
-      "price": 1935.5,
+      "price": 1925.4,
       "eps": 47.81,
-      "pe": 40.483162,
+      "pe": 40.271908,
       "fcf_per_share": 24.791791302070674,
       "ebitda_per_share": 67.99171446077827,
       "net_debt_per_share": -120.4052737730072,
-      "sentiment_index": 44.0,
+      "sentiment_index": 66.2,
       "sentiment_breakdown": {
-        "news": 48,
+        "news": 85,
         "macro": 38
       },
       "base_fair_value": 390.95,
-      "sentiment_adjusted_fair_value": 383.91
+      "sentiment_adjusted_fair_value": 409.95
     }
   ]
 }

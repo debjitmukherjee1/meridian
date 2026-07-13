@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-12 08:10 UTC",
+  "updated_at": "2026-07-13 09:18 UTC",
   "market": "UK",
   "items": [
     {
@@ -7,84 +7,84 @@
       "sector": "Technology",
       "tone": 0.0,
       "url": "https://economictimes.indiatimes.com/news/international/us/us-stock-market-concentration-risk-hits-extreme-levels-ai-stocks-surge-to-45-of-sp-500-market-cap-in-2026-can-1-4-trillion-ai-linked-debt-sustain-this-historic-dominance/articleshow/130493020.cms",
-      "note": "Rapidly increasing AI dominance in S&P 500 heightens short-term concern."
+      "note": "High concentration of AI stocks in S&P 500 raises concerns about market dominance."
     },
     {
       "title": "Quant Ratings Updated on 120 Stocks",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://investorplace.com/market360/2026/04/quant-ratings-updated-on-120-stocks/",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+      "note": "Rating updates may not affect sentiment on individual stocks but may have a positive overall effect."
+    },
+    {
+      "title": "Ahead of Market : 10 things that will decide stock market action on Monday",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-monday/articleshow/132342643.cms",
+      "note": "Speculation on market moves may increase short-term uncertainty and volatility."
+    },
+    {
+      "title": "South Korea KOSPI Triggers Trading Curb as AI Chip Stock Selloff Deepens",
+      "sector": "Technology",
+      "tone": 0.0,
+      "url": "http://www.econotimes.com/South-Koreas-KOSPI-Triggers-Trading-Curb-as-AI-Chip-Stock-Selloff-Deepens-1746557",
+      "note": "Selloff in AI chip stocks in South Korea's KOSPI index deepens market concerns."
     },
     {
       "title": "Sensex Gains 118 Points After Late Recovery , Nifty Ends Above 23 , 650 Despite Rupee Weakness",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://www.freepressjournal.in/business/sensex-gains-118-points-after-late-recovery-nifty-ends-above-23650-despite-rupee-weakness",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+      "note": "Rupee weakness had a negative impact, but late recovery suggests resilience in the market."
     },
     {
       "title": "Jim Cramer Shared Latest Take On Mega Quantum Computing Investment & Discussed These 13 Stocks",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://www.insidermonkey.com/blog/jim-cramer-shared-latest-take-on-mega-quantum-computing-investment-discussed-these-13-stocks-1768029/",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+      "note": "Jim Cramer's recommendations and opinions generally have a positive impact on investor sentiment."
     },
     {
       "title": "Morgan Stanley issues verdict for nervous stock market investors",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-issues-verdict-nervous-183300077.html",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+      "note": "Morgan Stanley's verdict suggests caution and may have a bearish effect, although not explicitly stated."
     },
     {
       "title": "This is not a flash in the pan : Why value stocks are beating growth by such a wide margin",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/not-flash-pan-why-value-225000407.html",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+      "note": "Value stocks beating growth by a wide margin could have a positive impact on overall market sentiment."
     },
     {
       "title": "Earnings pops prove short - lived amid volatile markets",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://www.livemint.com/market/stock-market-news/india-stock-market-earnings-season-short-lived-gains-investor-focus-future-guidance-11779180072439.html",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+      "note": "Short-lived earnings pops amid volatility may indicate uncertainty in market movements."
     },
     {
       "title": "Trump Bull Market Is Standing on Shaky Legs . Just 5 Stocks Account for 52 % of the S & P Gains",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/trump-bull-market-standing-shaky-161730353.html",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+      "note": "Weakened market with only 5 stocks driving gains could be a negative indicator for overall market performance."
     },
     {
       "title": "Market research company warn of AI stocks selling cheap ; say they point to a  dangerous sign",
       "sector": "Technology",
       "tone": 0.0,
       "url": "https://timesofindia.indiatimes.com/technology/tech-news/market-research-company-warn-of-ai-stocks-selling-cheap-say-they-point-to-a-dangerous-sign/articleshow/131900405.cms",
-      "note": "Warning of AI stock 'selling cheap' signals potential correction fears."
+      "note": "Market research warning of AI stocks selling cheap indicates increasing investor caution."
     },
     {
       "title": "How will markets open today ? Nifty , Bank Nifty levels . Sectors and stocks to watch .",
       "sector": "Financials",
       "tone": 0.0,
       "url": "https://www.indiainfoline.com/blog/how-will-markets-open-today-nifty-bank-nifty-levels-sectors-and-stocks-to-watch",
-      "note": "Market indecision and lack of clear levels reduce financial sector optimism"
-    },
-    {
-      "title": "3 Overvalued Stocks to Take Profits In and 3 Undervalued Stocks to Buy Instead",
-      "sector": "Market",
-      "tone": 0.0,
-      "url": "https://www.morningstar.com/stocks/3-overvalued-stocks-take-profits-3-undervalued-stocks-buy-instead-2",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
-    },
-    {
-      "title": "Mid - and small - cap outperformance cycle may be back after earnings reset : Brokerage",
-      "sector": "Market",
-      "tone": 0.0,
-      "url": "https://www.moneycontrol.com/news/business/markets/mid-and-small-cap-outperformance-cycle-may-be-back-after-earnings-reset-brokerage-13933014.html",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+      "note": "Uncertainty on market opening may lead to cautious sentiment in Financials"
     }
   ]
 }

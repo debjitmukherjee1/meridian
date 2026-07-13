@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-12 08:10 UTC",
+  "updated_at": "2026-07-13 09:18 UTC",
   "market": "US",
   "items": [
     {
@@ -7,84 +7,84 @@
       "sector": "Financials",
       "tone": 0.0,
       "url": "https://economictimes.indiatimes.com/news/international/us/us-stock-market-concentration-risk-hits-extreme-levels-ai-stocks-surge-to-45-of-sp-500-market-cap-in-2026-can-1-4-trillion-ai-linked-debt-sustain-this-historic-dominance/articleshow/130493020.cms",
-      "note": "Concerns about AI concentration risk in S& P 500."
+      "note": "US stock market concentration risk raises concern for Financials sector."
     },
     {
       "title": "Quant Ratings Updated on 120 Stocks",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://investorplace.com/market360/2026/04/quant-ratings-updated-on-120-stocks/",
-      "note": "Quantitative ratings update on 120 stocks suggests cautious, data-driven optimism."
+      "note": "Updating ratings on 120 stocks may not drastically shift overall market sentiment."
+    },
+    {
+      "title": "Ahead of Market : 10 things that will decide stock market action on Monday",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-monday/articleshow/132342643.cms",
+      "note": "Lack of specific information in '10 things' makes sentiment neutral but cautiously optimistic."
+    },
+    {
+      "title": "South Korea KOSPI Triggers Trading Curb as AI Chip Stock Selloff Deepens",
+      "sector": "Consumer Staples",
+      "tone": 0.0,
+      "url": "http://www.econotimes.com/South-Koreas-KOSPI-Triggers-Trading-Curb-as-AI-Chip-Stock-Selloff-Deepens-1746557",
+      "note": "Global market volatility may reduce spending in domestic markets impacting Staples"
     },
     {
       "title": "Sensex Gains 118 Points After Late Recovery , Nifty Ends Above 23 , 650 Despite Rupee Weakness",
       "sector": "Financials",
       "tone": 0.0,
       "url": "https://www.freepressjournal.in/business/sensex-gains-118-points-after-late-recovery-nifty-ends-above-23650-despite-rupee-weakness",
-      "note": "Positive sentiment from Indian market recovery, despite rupee weakness."
+      "note": "Indian Market shows resilience despite currency fluctuations."
     },
     {
       "title": "Jim Cramer Shared Latest Take On Mega Quantum Computing Investment & Discussed These 13 Stocks",
       "sector": "Financials",
       "tone": 0.0,
       "url": "https://www.insidermonkey.com/blog/jim-cramer-shared-latest-take-on-mega-quantum-computing-investment-discussed-these-13-stocks-1768029/",
-      "note": "Neutral sentiment from Jim Cramer's discussion, no explicit Financials impact."
+      "note": "Jim Cramer's positive views on Quantum Computing stocks might boost sentiment."
     },
     {
       "title": "Morgan Stanley issues verdict for nervous stock market investors",
       "sector": "Financials",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-issues-verdict-nervous-183300077.html",
-      "note": "Negative sentiment from Morgan Stanley's market verdict, suggesting nervous investors."
+      "note": "Morgan Stanley's verdict not specified, but issues may impact Financials."
     },
     {
       "title": "This is not a flash in the pan : Why value stocks are beating growth by such a wide margin",
       "sector": "Financials",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/not-flash-pan-why-value-225000407.html",
-      "note": "Positive sentiment from value stocks beating growth, potentially benefiting Financials."
+      "note": "Value stocks beating growth suggests a turn in sentiment for Financials."
     },
     {
       "title": "Earnings pops prove short - lived amid volatile markets",
       "sector": "Financials",
       "tone": 0.0,
       "url": "https://www.livemint.com/market/stock-market-news/india-stock-market-earnings-season-short-lived-gains-investor-focus-future-guidance-11779180072439.html",
-      "note": "Negative sentiment from short-lived earnings pops in volatile markets."
+      "note": "Earnings pops being short-lived implies lack of long-term confidence."
     },
     {
       "title": "Trump Bull Market Is Standing on Shaky Legs . Just 5 Stocks Account for 52 % of the S & P Gains",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/trump-bull-market-standing-shaky-161730353.html",
-      "note": "Trump bull market is shaky, raising concerns about market stability."
+      "note": "5 Stocks accounting for 52% of S&P gains creates market fragility concern"
     },
     {
       "title": "Market research company warn of AI stocks selling cheap ; say they point to a  dangerous sign",
       "sector": "Technology",
       "tone": 0.0,
       "url": "https://timesofindia.indiatimes.com/technology/tech-news/market-research-company-warn-of-ai-stocks-selling-cheap-say-they-point-to-a-dangerous-sign/articleshow/131900405.cms",
-      "note": "Investor concern over AI stocks could impact tech sector valuation."
+      "note": "AI stocks being sold cheaply is perceived as a cautionary sign."
     },
     {
       "title": "How will markets open today ? Nifty , Bank Nifty levels . Sectors and stocks to watch .",
       "sector": "Financials",
       "tone": 0.0,
       "url": "https://www.indiainfoline.com/blog/how-will-markets-open-today-nifty-bank-nifty-levels-sectors-and-stocks-to-watch",
-      "note": "Neutral sentiment from market opening levels and sectors, no explicit Financials impact."
-    },
-    {
-      "title": "3 Overvalued Stocks to Take Profits In and 3 Undervalued Stocks to Buy Instead",
-      "sector": "Financials",
-      "tone": 0.0,
-      "url": "https://www.morningstar.com/stocks/3-overvalued-stocks-take-profits-3-undervalued-stocks-buy-instead-2",
-      "note": "Negative sentiment from overvalued Financials stocks to take profits in."
-    },
-    {
-      "title": "Mid - and small - cap outperformance cycle may be back after earnings reset : Brokerage",
-      "sector": "Market",
-      "tone": 0.0,
-      "url": "https://www.moneycontrol.com/news/business/markets/mid-and-small-cap-outperformance-cycle-may-be-back-after-earnings-reset-brokerage-13933014.html",
-      "note": "Mid- and small-cap outperformance cycle's revival adds a glimmer of excitement."
+      "note": "Market opening today's performance will depend on various Sectors and stocks."
     }
   ]
 }
