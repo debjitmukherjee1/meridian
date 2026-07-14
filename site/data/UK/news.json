@@ -1,90 +1,76 @@
 {
-  "updated_at": "2026-07-13 09:18 UTC",
+  "updated_at": "2026-07-14 07:56 UTC",
   "market": "UK",
   "items": [
     {
-      "title": "AI now dominates the S & P 500 like never before : US stock market concentration risk hits extreme levels : AI stocks surge to 45 % of S & P 500 market cap in 2026 can $1 . 4 trillion AI - linked debt sustain this historic dominance ?",
+      "title": "Chipmakers rally as AI demand outpaces supply",
       "sector": "Technology",
-      "tone": 0.0,
-      "url": "https://economictimes.indiatimes.com/news/international/us/us-stock-market-concentration-risk-hits-extreme-levels-ai-stocks-surge-to-45-of-sp-500-market-cap-in-2026-can-1-4-trillion-ai-linked-debt-sustain-this-historic-dominance/articleshow/130493020.cms",
-      "note": "High concentration of AI stocks in S&P 500 raises concerns about market dominance."
+      "tone": 3.4,
+      "url": "https://www.gdeltproject.org/",
+      "note": "Rally in chipmakers boosts Technology investor sentiment due to AI demand growth."
     },
     {
-      "title": "Quant Ratings Updated on 120 Stocks",
-      "sector": "Market",
-      "tone": 0.0,
-      "url": "https://investorplace.com/market360/2026/04/quant-ratings-updated-on-120-stocks/",
-      "note": "Rating updates may not affect sentiment on individual stocks but may have a positive overall effect."
-    },
-    {
-      "title": "Ahead of Market : 10 things that will decide stock market action on Monday",
-      "sector": "Market",
-      "tone": 0.0,
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-monday/articleshow/132342643.cms",
-      "note": "Speculation on market moves may increase short-term uncertainty and volatility."
-    },
-    {
-      "title": "South Korea KOSPI Triggers Trading Curb as AI Chip Stock Selloff Deepens",
+      "title": "Regulators open probe into big-tech ad practices",
       "sector": "Technology",
-      "tone": 0.0,
-      "url": "http://www.econotimes.com/South-Koreas-KOSPI-Triggers-Trading-Curb-as-AI-Chip-Stock-Selloff-Deepens-1746557",
-      "note": "Selloff in AI chip stocks in South Korea's KOSPI index deepens market concerns."
+      "tone": -2.1,
+      "url": "https://www.gdeltproject.org/",
+      "note": "Regulators' probe into big-tech ad practices tempers investor enthusiasm, however."
     },
     {
-      "title": "Sensex Gains 118 Points After Late Recovery , Nifty Ends Above 23 , 650 Despite Rupee Weakness",
-      "sector": "Market",
-      "tone": 0.0,
-      "url": "https://www.freepressjournal.in/business/sensex-gains-118-points-after-late-recovery-nifty-ends-above-23650-despite-rupee-weakness",
-      "note": "Rupee weakness had a negative impact, but late recovery suggests resilience in the market."
+      "title": "Consumer spending softens amid rate uncertainty",
+      "sector": "Consumer Discretionary",
+      "tone": -1.8,
+      "url": "https://www.gdeltproject.org/",
+      "note": "Rate uncertainty increases Consumer Discretionary sector risks."
     },
     {
-      "title": "Jim Cramer Shared Latest Take On Mega Quantum Computing Investment & Discussed These 13 Stocks",
-      "sector": "Market",
-      "tone": 0.0,
-      "url": "https://www.insidermonkey.com/blog/jim-cramer-shared-latest-take-on-mega-quantum-computing-investment-discussed-these-13-stocks-1768029/",
-      "note": "Jim Cramer's recommendations and opinions generally have a positive impact on investor sentiment."
+      "title": "EV price war squeezes automaker margins",
+      "sector": "Consumer Discretionary",
+      "tone": -2.6,
+      "url": "https://www.gdeltproject.org/",
+      "note": "EV price war directly threatens auto manufacturers' profit margins."
     },
     {
-      "title": "Morgan Stanley issues verdict for nervous stock market investors",
-      "sector": "Market",
-      "tone": 0.0,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-issues-verdict-nervous-183300077.html",
-      "note": "Morgan Stanley's verdict suggests caution and may have a bearish effect, although not explicitly stated."
-    },
-    {
-      "title": "This is not a flash in the pan : Why value stocks are beating growth by such a wide margin",
-      "sector": "Market",
-      "tone": 0.0,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/not-flash-pan-why-value-225000407.html",
-      "note": "Value stocks beating growth by a wide margin could have a positive impact on overall market sentiment."
-    },
-    {
-      "title": "Earnings pops prove short - lived amid volatile markets",
-      "sector": "Market",
-      "tone": 0.0,
-      "url": "https://www.livemint.com/market/stock-market-news/india-stock-market-earnings-season-short-lived-gains-investor-focus-future-guidance-11779180072439.html",
-      "note": "Short-lived earnings pops amid volatility may indicate uncertainty in market movements."
-    },
-    {
-      "title": "Trump Bull Market Is Standing on Shaky Legs . Just 5 Stocks Account for 52 % of the S & P Gains",
-      "sector": "Market",
-      "tone": 0.0,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/trump-bull-market-standing-shaky-161730353.html",
-      "note": "Weakened market with only 5 stocks driving gains could be a negative indicator for overall market performance."
-    },
-    {
-      "title": "Market research company warn of AI stocks selling cheap ; say they point to a  dangerous sign",
-      "sector": "Technology",
-      "tone": 0.0,
-      "url": "https://timesofindia.indiatimes.com/technology/tech-news/market-research-company-warn-of-ai-stocks-selling-cheap-say-they-point-to-a-dangerous-sign/articleshow/131900405.cms",
-      "note": "Market research warning of AI stocks selling cheap indicates increasing investor caution."
-    },
-    {
-      "title": "How will markets open today ? Nifty , Bank Nifty levels . Sectors and stocks to watch .",
+      "title": "Banks post resilient quarterly earnings",
       "sector": "Financials",
-      "tone": 0.0,
-      "url": "https://www.indiainfoline.com/blog/how-will-markets-open-today-nifty-bank-nifty-levels-sectors-and-stocks-to-watch",
-      "note": "Uncertainty on market opening may lead to cautious sentiment in Financials"
+      "tone": 2.2,
+      "url": "https://www.gdeltproject.org/",
+      "note": "Bank earnings resilience boosts Financials investor confidence and expectations."
+    },
+    {
+      "title": "Payment networks expand into emerging markets",
+      "sector": "Financials",
+      "tone": 1.9,
+      "url": "https://www.gdeltproject.org/",
+      "note": "Emerging market expansion by payment networks adds positive growth prospects."
+    },
+    {
+      "title": "Oil steadies as supply concerns ease",
+      "sector": "Energy",
+      "tone": 0.6,
+      "url": "https://www.gdeltproject.org/",
+      "note": "Oil steadiness due to eased supply concerns positively impacts investor confidence in Energy sector"
+    },
+    {
+      "title": "Staples firms hold pricing power through inflation",
+      "sector": "Consumer Staples",
+      "tone": 1.4,
+      "url": "https://www.gdeltproject.org/",
+      "note": "Pricing power increases investor confidence in Consumer Staples' inflation resilience."
+    },
+    {
+      "title": "Drugmaker wins approval for key therapy",
+      "sector": "Healthcare",
+      "tone": 3.1,
+      "url": "https://www.gdeltproject.org/",
+      "note": "Approval for the drugmaker's therapy is likely to boost Healthcare sector sentiment positively."
+    },
+    {
+      "title": "Geopolitical tension lifts safe-haven demand",
+      "sector": "Energy",
+      "tone": -1.2,
+      "url": "https://www.gdeltproject.org/",
+      "note": "Geopolitical tension lifts safe-haven demand, potentially weighing on investor sentiment for Energy"
     }
   ]
 }

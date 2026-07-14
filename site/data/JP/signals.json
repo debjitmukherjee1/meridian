@@ -1,22 +1,52 @@
 {
-  "updated_at": "2026-07-13 09:18 UTC",
+  "updated_at": "2026-07-14 07:56 UTC",
   "market": "JP",
   "macro_theme": "Geopolitical conflict raises energy-sector risk",
   "signals": [
     {
       "sector": "Consumer Discretionary",
       "read": "Neutral",
-      "score": 45,
+      "score": 43,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Consumer Discretionary sentiment pressured by the prevailing geopolitical supply backdrop",
+          "text": "The geopolitical supply event and increasing EV price competition have squeezed automaker margins, negatively impacting the Consumer Discretionary sector.",
           "forecast": {
             "low": 1.7,
-            "high": 3.9,
+            "high": 4.0,
             "direction": "-",
-            "text": "-1.7% to -3.9%"
+            "text": "-1.7% to -4.0%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Rate uncertainty has contributed to softer consumer spending.",
+          "forecast": {
+            "low": 1.7,
+            "high": 4.0,
+            "direction": "-",
+            "text": "-1.7% to -4.0%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "The EV price war between automotive companies is further exacerbating margin pressure.",
+          "forecast": {
+            "low": 1.7,
+            "high": 4.0,
+            "direction": "-",
+            "text": "-1.7% to -4.0%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Automaker margins are particularly vulnerable to supply chain disruptions due to geopolitical events.",
+          "forecast": {
+            "low": 1.7,
+            "high": 4.0,
+            "direction": "-",
+            "text": "-1.7% to -4.0%"
           }
         }
       ]
@@ -61,36 +91,36 @@
     },
     {
       "sector": "Financials",
-      "read": "Neutral",
-      "score": 45,
+      "read": "Bullish",
+      "score": 64,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Financials sentiment pressured by the prevailing geopolitical supply backdrop",
+          "text": "Financials sentiment supported by the prevailing geopolitical supply backdrop",
           "forecast": {
-            "low": 1.1,
-            "high": 3.3,
-            "direction": "-",
-            "text": "-1.1% to -3.3%"
+            "low": 1.3,
+            "high": 3.8,
+            "direction": "+",
+            "text": "+1.3% to +3.8%"
           }
         }
       ]
     },
     {
       "sector": "Healthcare",
-      "read": "Neutral",
-      "score": 45,
+      "read": "Bullish",
+      "score": 69,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Healthcare sentiment pressured by the prevailing geopolitical supply backdrop",
+          "text": "Healthcare sentiment supported by the prevailing geopolitical supply backdrop",
           "forecast": {
-            "low": 0.6,
-            "high": 2.2,
-            "direction": "-",
-            "text": "-0.6% to -2.2%"
+            "low": 0.7,
+            "high": 2.8,
+            "direction": "+",
+            "text": "+0.7% to +2.8%"
           }
         }
       ]
@@ -116,17 +146,17 @@
     {
       "sector": "Technology",
       "read": "Neutral",
-      "score": 50,
+      "score": 45,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Technology sentiment supported by the prevailing geopolitical supply backdrop",
+          "text": "Technology sentiment pressured by the prevailing geopolitical supply backdrop",
           "forecast": {
-            "low": 1.0,
-            "high": 3.0,
-            "direction": "+",
-            "text": "+1.0% to +3.0%"
+            "low": 1.1,
+            "high": 3.3,
+            "direction": "-",
+            "text": "-1.1% to -3.3%"
           }
         }
       ]
