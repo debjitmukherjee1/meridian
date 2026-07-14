@@ -211,6 +211,18 @@ def _fred_series(series_id):
               for o in obs if o.get("value") not in (None, ".")]
     if not points:
         raise RuntimeError(f"FRED returned no observations for {series_id}")
+    # A series can return real data that's simply stopped updating (found
+    # live: IRSTCB01JPM156N's most recent point was Dec 2023 -- 2.5 years
+    # stale, silently showing 0.3% while BOJ's actual rate had since hiked to
+    # 1.00%). "Has any data" isn't the same as "current" -- reject anything
+    # older than the staleness budget so a dead-but-not-empty series falls
+    # back to the manually-verified rate instead of quietly lying.
+    latest_date = datetime.strptime(points[-1]["date"], "%Y-%m-%d").date()
+    age_days = (datetime.now(timezone.utc).date() - latest_date).days
+    if age_days > config.FRED_MAX_STALENESS_DAYS:
+        raise RuntimeError(
+            f"FRED {series_id} latest observation is {age_days}d old "
+            f"({points[-1]['date']}) -- treating as stale")
     return points
 
 

@@ -185,10 +185,18 @@ MACRO_FETCH_YEARS = 10       # years of history requested, to absorb World Bank'
 FRED_POLICY_RATE_SERIES = {
     "IN": None,
     "US": "FEDFUNDS",           # Effective Federal Funds Rate, monthly
-    "UK": "BOERUKM",            # Bank of England Policy Rate, monthly
+    # UK: BOERUKM was tried first but the Bank of England discontinued it in
+    # January 2017 (confirmed live: a real API call returns zero
+    # observations for any recent window, every single day, forever) — set
+    # to None rather than retry a call that can never succeed.
+    "UK": None,
     "JP": "IRSTCB01JPM156N",    # Immediate Rates: Central Bank Rate, OECD MEI, monthly
 }
 FRED_URL = "https://api.stlouisfed.org/fred/series/observations"
+# A FRED series can have real data that's simply stopped updating (found
+# live: IRSTCB01JPM156N's most recent point was ~2.5 years old, silently
+# showing a stale rate). Reject anything older than this many days.
+FRED_MAX_STALENESS_DAYS = 180
 
 # Frankfurter (ECB reference rates, keyless) FX pair per market, vs USD.
 # US has none: USD is Meridian's own reference currency for this comparison.

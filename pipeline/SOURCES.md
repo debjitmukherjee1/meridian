@@ -31,6 +31,21 @@ policy rate always comes from the hand-maintained, two-source-checked
 US/UK/JP if `FRED_KEY` is unset or a specific call fails, so MacroLens's
 policy-rate card never goes empty or scrapes an unofficial source for it.
 
+**FRED / UK caveat (found live, not in docs anywhere):** the obvious series,
+`BOERUKM` ("Bank of England Policy Rate in the United Kingdom"), looks right
+by name but the Bank of England discontinued it in **January 2017** — a real
+API call returns zero observations for any recent window, every day, forever.
+Confirmed by fetching it directly rather than trusting the series name.
+`config.FRED_POLICY_RATE_SERIES["UK"]` is `None`, same treatment as India, so
+the pipeline doesn't waste a call on a series that can never succeed.
+
+**FRED staleness caveat (also found live):** `IRSTCB01JPM156N` (Japan) *does*
+return data — its API call succeeds — but its most recent point was ~2.5
+years old (Dec 2023, 0.3%) while the real BOJ rate had since hiked to 1.00%.
+"Has any data" isn't "is current." `fetch_macro.py` now rejects any FRED
+observation older than `FRED_MAX_STALENESS_DAYS` (180 days) and falls back to
+`manual_rates.json` instead of silently serving a stale-but-present number.
+
 ## Why NOT these
 - **Finnhub** — was the original prices/fundamentals source, but its free
   tier only covers **US-listed tickers**. Confirmed live: `curl
