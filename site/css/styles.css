@@ -367,6 +367,7 @@ input[type=range]::-moz-range-progress { height: 4px; border-radius: 999px; back
 }
 
 footer { padding: 1.75rem; text-align: center; color: var(--ink-dim); font-size: .82rem; border-top: 1px solid var(--line); font-style: italic; }
+footer .sibling-links a { margin: 0 .4rem; }
 
 /* ---- number count-up ---- */
 .tabular { font-variant-numeric: tabular-nums; }
