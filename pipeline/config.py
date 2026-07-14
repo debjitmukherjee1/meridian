@@ -160,7 +160,43 @@ DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "site", "data")
 
 # --- API keys (None => mock mode) ------------------------------------------
 GROQ_KEY = os.environ.get("GROQ_KEY")
+FRED_KEY = os.environ.get("FRED_KEY")
 
 # Market data (Yahoo Finance) needs no key. GROQ_KEY is the only remaining
 # "do we have real credentials" signal, so it alone gates mock mode.
 MOCK_MODE = GROQ_KEY is None
+
+# --- MacroLens (World Bank / Frankfurter / FRED) ----------------------------
+# World Bank's ISO2 country code for the UK is "GB", not our internal "UK".
+WORLD_BANK_COUNTRY = {"IN": "IN", "US": "US", "UK": "GB", "JP": "JP"}
+
+# World Bank indicator codes, keyless, annual.
+WORLD_BANK_INDICATORS = {
+    "cpi":          {"code": "FP.CPI.TOTL.ZG",     "label": "CPI Inflation (YoY)", "unit": "%"},
+    "gdp_growth":   {"code": "NY.GDP.MKTP.KD.ZG",  "label": "Real GDP Growth",      "unit": "%"},
+    "unemployment": {"code": "SL.UEM.TOTL.ZS",     "label": "Unemployment",         "unit": "%"},
+}
+MACRO_YEARS = 5              # target number of annual points per indicator
+MACRO_FETCH_YEARS = 10       # years of history requested, to absorb World Bank's reporting lag
+
+# FRED series per market for the central-bank policy rate. None => always use
+# manual_rates.json (no FRED series exists for India's RBI repo rate — it
+# isn't part of the OECD Main Economic Indicators set FRED mirrors).
+FRED_POLICY_RATE_SERIES = {
+    "IN": None,
+    "US": "FEDFUNDS",           # Effective Federal Funds Rate, monthly
+    "UK": "BOERUKM",            # Bank of England Policy Rate, monthly
+    "JP": "IRSTCB01JPM156N",    # Immediate Rates: Central Bank Rate, OECD MEI, monthly
+}
+FRED_URL = "https://api.stlouisfed.org/fred/series/observations"
+
+# Frankfurter (ECB reference rates, keyless) FX pair per market, vs USD.
+# US has none: USD is Meridian's own reference currency for this comparison.
+FX_PAIRS = {
+    "IN": {"from": "USD", "to": "INR", "label": "INR per USD"},
+    "UK": {"from": "GBP", "to": "USD", "label": "USD per GBP"},
+    "JP": {"from": "USD", "to": "JPY", "label": "JPY per USD"},
+}
+FX_LOOKBACK_DAYS = 365
+
+MANUAL_RATES_PATH = os.path.join(os.path.dirname(__file__), "manual_rates.json")

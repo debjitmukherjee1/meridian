@@ -55,6 +55,7 @@ jobs:
         continue-on-error: true
         env:
           GROQ_KEY: ${{ secrets.GROQ_KEY }}
+          FRED_KEY: ${{ secrets.FRED_KEY }}
         run: |
           cd pipeline
           python run_all.py

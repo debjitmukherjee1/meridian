@@ -8,6 +8,9 @@ Every source below sits inside a free tier that's large relative to our usage
 | **Yahoo Finance** (unofficial quote API) | Prices + fundamentals, all 4 markets | Best-effort, no published quota | No | none published — see caveat below |
 | **GDELT** | News headlines, tone, macro/geo themes | Fully free | No | https://blog.gdeltproject.org/gdelt-doc-2-0-api-debuts/ |
 | **Groq (Llama 3.1 8B Instant)** | AI headline scoring | 14,400 req/day | Yes (`GROQ_KEY`) | https://console.groq.com/docs/api-reference |
+| **World Bank API** | MacroLens: CPI, real GDP growth, unemployment — annual, all 4 markets | Fully free, no published quota | No | https://datahelpdesk.worldbank.org/knowledgebase/articles/889392 |
+| **Frankfurter** (ECB reference rates) | MacroLens: FX vs USD, daily, 1Y | Fully free | No | https://www.frankfurter.dev/ |
+| **FRED** (St. Louis Fed) | MacroLens: central-bank policy rate (US/UK/JP only — see caveat below) | Free, generous published limits | Yes (`FRED_KEY`) | https://fred.stlouisfed.org/docs/api/fred/ |
 
 **Yahoo Finance caveat (be honest about it):** this is an *unofficial* endpoint
 — a cookie+crumb handshake (`fc.yahoo.com` → `/v1/test/getcrumb` →
@@ -19,6 +22,14 @@ requires an explicit browser-like `User-Agent` on every request or the crumb
 endpoint 429s. Treat it as best-effort market data, not a guarantee — `pipeline/fetch_market.py`
 retries with backoff and falls back to mock data per-ticker (or per-market, if
 the whole batch call fails) rather than silently serving stale/wrong numbers.
+
+**FRED / India caveat:** FRED mirrors the OECD's Main Economic Indicators
+central-bank-rate series, and India isn't in that set — there's no FRED
+series for the RBI's repo rate. `fetch_macro.py` never guesses at one; India's
+policy rate always comes from the hand-maintained, two-source-checked
+`pipeline/manual_rates.json` instead. That same file is also the fallback for
+US/UK/JP if `FRED_KEY` is unset or a specific call fails, so MacroLens's
+policy-rate card never goes empty or scrapes an unofficial source for it.
 
 ## Why NOT these
 - **Finnhub** — was the original prices/fundamentals source, but its free
@@ -43,6 +54,10 @@ the whole batch call fails) rather than silently serving stale/wrong numbers.
 ## Keys as GitHub Actions secrets
 Repo → Settings → Secrets and variables → Actions → New repository secret:
 - `GROQ_KEY`
+- `FRED_KEY` — free, instant signup: https://fred.stlouisfed.org/docs/api/api_key.html
 
 With **no key set**, the pipeline runs in MOCK_MODE and generates realistic
 sample data — so you can test everything before signing up for anything.
+Without `FRED_KEY` specifically (but with `GROQ_KEY` set, i.e. otherwise
+live), MacroLens still runs live for World Bank/Frankfurter and falls back to
+`manual_rates.json` for every market's policy rate, not just India's.

@@ -23,6 +23,7 @@ from datetime import datetime, timezone
 import config
 import fetch_market
 import fetch_news
+import fetch_macro
 import score_sentiment
 import build_valuation
 import sector_signals
@@ -101,6 +102,18 @@ def main():
         json.dump(manifest, f, indent=2)
     print(f"Wrote manifest with {len(manifest['markets'])} markets -> "
           f"{os.path.normpath(config.DATA_DIR)}")
+
+    # MacroLens: cross-market, so fetched once here rather than inside
+    # run_market() above -- a macro-only failure shouldn't touch the
+    # per-market valuation/sentiment data those already-written files hold.
+    try:
+        macro = fetch_macro.fetch_all()
+        _write(config.DATA_DIR, "macro.json", {"updated_at": updated, "markets": macro})
+        print(f"  macro: wrote data for {len(macro)} markets")
+    except Exception as e:
+        print(f"  macro: FAILED ({e}); leaving macro.json untouched")
+        failed.append("macro")
+
     if failed:
         # Non-zero exit so the Actions run shows red and gets noticed, but
         # only after every other market's data was already written above.

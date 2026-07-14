@@ -5,8 +5,10 @@ const state = {
   manifest: null, market: null, currency: "$",
   sectors: null, companies: null, news: null, signals: null,
   k: 0.15, selected: null,
+  macro: null, macroRendered: false,
 };
 let companyChart, sentimentChart;
+const macroCharts = [];
 
 // ---- safety: every field below that traces back to an external source
 // (GDELT headline titles/URLs, Groq-generated notes/narratives) gets built
@@ -30,6 +32,16 @@ async function boot() {
     document.getElementById("macro-text").textContent =
       "Could not load data. If running locally, serve with `python -m http.server`.";
     console.error(e);
+  }
+  // MacroLens: cross-market, independent of the market switcher above, and
+  // loaded in its own try/catch so a macro-only failure can't block the rest
+  // of the site from rendering. Its tab renders lazily on first click (see
+  // the tab-click handler below), not here, to avoid creating ~20 Chart.js
+  // sparklines inside a still-hidden (display:none) panel.
+  try {
+    state.macro = await fetch("data/macro.json").then(r => r.json());
+  } catch (e) {
+    console.error("[macro] failed to load macro.json", e);
   }
 }
 
@@ -378,6 +390,193 @@ function renderNews() {
   });
 }
 
+// ---- MACRO (MacroLens) -----------------------------------------------------
+// Rendered lazily on first visit to the tab (see the tab-click handler
+// below) rather than during boot(), so its ~20 small Chart.js sparklines
+// are never created while the panel is still display:none.
+const MACRO_INDICATORS = [
+  { key: "cpi", color: "--bear" },
+  { key: "gdp_growth", color: "--bull" },
+  { key: "unemployment", color: "--neutral" },
+  { key: "policy_rate", color: "--accent" },
+  { key: "fx", color: "--price-neutral" },
+];
+
+function macroFreqLabel(freq) {
+  return { annual: "Annual", daily: "Daily", monthly: "Monthly",
+            "as announced": "As announced", "n/a": "N/A" }[freq] || freq;
+}
+function macroAsOfLabel(ind) {
+  if (!ind || !ind.as_of) return "";
+  return `${macroFreqLabel(ind.frequency)} · as of ${ind.as_of}`;
+}
+function macroValueText(ind) {
+  if (!ind || ind.latest === null || ind.latest === undefined) return "N/A";
+  return ind.unit === "%" ? `${ind.latest}%` : `${ind.latest} ${ind.unit || ""}`.trim();
+}
+
+function renderMacro() {
+  if (!state.macro || !state.macro.markets) {
+    document.getElementById("macro-cards").innerHTML =
+      '<p class="muted">Macro data unavailable.</p>';
+    document.getElementById("macro-compare").innerHTML = "";
+    return;
+  }
+  document.getElementById("macro-updated").textContent =
+    `Refreshed ${state.macro.updated_at}.`;
+  renderMacroCompare();
+  renderMacroCards();
+}
+
+// One mini bar chart per indicator, all four markets on the same axis --
+// each market keeps its OWN as-of date (World Bank lag differs by country,
+// e.g. the US's latest CPI year can trail the others), surfaced in the
+// tooltip and the sub-line rather than implying every bar is the same
+// vintage.
+function renderMacroCompare() {
+  const el = document.getElementById("macro-compare");
+  el.innerHTML = "";
+  MACRO_INDICATORS.forEach(({ key }, i) => {
+    const codes = Object.keys(state.macro.markets);
+    const isFx = key === "fx";
+    let rows = codes
+      .map(code => ({ code, ind: state.macro.markets[code][key] }))
+      .filter(r => r.ind && r.ind.latest !== null && r.ind.latest !== undefined);
+
+    // Raw FX levels use different quote conventions per market (INR per USD,
+    // USD per GBP, JPY per USD) -- not comparable on one linear axis (the
+    // USD/GBP bar would sit at ~1.3 next to JPY/USD's ~160 and be invisible).
+    // Show 1Y % change vs USD instead, which genuinely IS apples-to-apples
+    // across markets; the per-market cards below still carry each one's real
+    // level + sparkline in its own native quote.
+    if (isFx) {
+      rows = rows
+        .map(r => {
+          const s = r.ind.series;
+          if (!s || s.length < 2 || !s[0].value) return null;
+          let pctChange = ((s[s.length - 1].value - s[0].value) / s[0].value) * 100;
+          // Quote convention differs by market: "INR per USD"/"JPY per USD"
+          // have USD as the base, so a RISING number means the local
+          // currency DEPRECIATED -- negate so positive consistently means
+          // "the local currency strengthened" everywhere. "USD per GBP"
+          // already has GBP as the base, so rising already means GBP
+          // strengthened; no negation there (unit === "USD" marks that case).
+          if (r.ind.unit !== "USD") pctChange = -pctChange;
+          return { ...r, displayValue: Math.round(pctChange * 100) / 100 };
+        })
+        .filter(Boolean);
+    } else {
+      rows = rows.map(r => ({ ...r, displayValue: r.ind.latest }));
+    }
+    if (rows.length === 0) return;
+
+    const wrap = document.createElement("div");
+    wrap.className = "macro-compare-card";
+    wrap.style.setProperty("--i", i);
+    const label = isFx ? "Currency vs USD (1Y % change)" : rows[0].ind.label;
+    const subText = isFx
+      ? "1-year % change vs USD from Frankfurter daily rates — positive means the currency strengthened. Raw levels use different quote conventions per market; see the cards below for those."
+      : "Each market's own latest reading — as-of dates differ; hover a bar, or see the cards below.";
+    wrap.innerHTML = `
+      <div class="macro-compare-label">${escapeHtml(label)}</div>
+      <div class="chart-wrap macro-compare-chart"><canvas></canvas></div>
+      <div class="macro-compare-sub muted small">${escapeHtml(subText)}</div>`;
+    el.appendChild(wrap);
+
+    const ctx = wrap.querySelector("canvas");
+    const unit = rows[0].ind.unit || "";
+    const chart = new Chart(ctx, {
+      type: "bar",
+      data: {
+        labels: rows.map(r => r.code),
+        datasets: [{
+          data: rows.map(r => r.displayValue),
+          backgroundColor: cssVar("--accent"),
+          borderRadius: 4,
+        }],
+      },
+      options: {
+        animation: CHART_ANIM,
+        plugins: {
+          legend: { display: false },
+          tooltip: { callbacks: { label: item => {
+            const r = rows[item.dataIndex];
+            return isFx
+              ? `${r.displayValue > 0 ? "+" : ""}${r.displayValue}% vs USD over 1Y (${r.ind.label}, as of ${r.ind.as_of})`
+              : `${r.ind.latest}${unit === "%" ? "%" : " " + unit} (as of ${r.ind.as_of})`;
+          } } },
+        },
+        scales: {
+          y: { ticks: { color: cssVar("--ink-dim") }, grid: { color: cssVar("--line") } },
+          x: { ticks: { color: cssVar("--ink-dim") }, grid: { color: "transparent" } },
+        },
+      },
+    });
+    macroCharts.push(chart);
+  });
+}
+
+function macroSparkline(canvas, series, color) {
+  return new Chart(canvas, {
+    type: "line",
+    data: {
+      labels: series.map(p => p.date),
+      datasets: [{
+        data: series.map(p => p.value),
+        borderColor: color, borderWidth: 1.5, pointRadius: 0, tension: .25, fill: false,
+      }],
+    },
+    options: {
+      animation: false,
+      plugins: { legend: { display: false }, tooltip: { enabled: false } },
+      scales: { x: { display: false }, y: { display: false } },
+    },
+  });
+}
+
+function renderMacroCards() {
+  const el = document.getElementById("macro-cards");
+  el.innerHTML = "";
+  Object.entries(state.macro.markets).forEach(([code, m], i) => {
+    const meta = (state.manifest.markets || []).find(mm => mm.code === code) || {};
+    const card = document.createElement("div");
+    card.className = "macro-card";
+    card.style.setProperty("--i", i);
+
+    const statsHtml = MACRO_INDICATORS.map(({ key }) => {
+      const ind = m[key];
+      const label = ind ? ind.label : key;
+      const sub = (ind && ind.as_of) ? macroAsOfLabel(ind) : (ind && ind.note) || "";
+      const hasSeries = ind && ind.series && ind.series.length >= 2;
+      return `
+        <div class="macro-stat">
+          <div class="macro-stat-label">${escapeHtml(label)}</div>
+          <div class="macro-stat-value${ind && ind.latest != null ? "" : " muted"}">${escapeHtml(macroValueText(ind))}</div>
+          <div class="macro-stat-sub">${escapeHtml(sub)}</div>
+          ${hasSeries ? `<canvas class="macro-spark" data-key="${key}"></canvas>` : ""}
+        </div>`;
+    }).join("");
+
+    card.innerHTML = `
+      <div class="macro-card-head">
+        <span class="macro-card-market">${escapeHtml(meta.name || code)}</span>
+        <span class="macro-card-index muted">${escapeHtml(meta.index || "")}</span>
+      </div>
+      <div class="macro-stats">${statsHtml}</div>
+      <p class="macro-narrative">${escapeHtml(m.narrative || "")}</p>`;
+    el.appendChild(card);
+
+    MACRO_INDICATORS.forEach(({ key, color }) => {
+      const ind = m[key];
+      if (!ind || !ind.series || ind.series.length < 2) return;
+      const canvas = card.querySelector(`canvas[data-key="${key}"]`);
+      if (!canvas) return;
+      macroCharts.push(macroSparkline(canvas, ind.series, cssVar(color)));
+    });
+  });
+  attachTiltAll(".macro-card");
+}
+
 // ---- interactions ---------------------------------------------------------
 function moveTabIndicator(tab) {
   const indicator = document.getElementById("tab-indicator");
@@ -418,6 +617,10 @@ document.querySelectorAll(".tab").forEach(t => {
     requestAnimationFrame(() => {
       if (companyChart) companyChart.resize();
       if (sentimentChart) sentimentChart.resize();
+      if (t.dataset.tab === "macro") {
+        if (!state.macroRendered) { renderMacro(); state.macroRendered = true; }
+        else macroCharts.forEach(c => c.resize());
+      }
     });
   });
 });

@@ -66,6 +66,7 @@
     <button class="tab" role="tab" aria-selected="false" aria-controls="news" id="tab-news" data-tab="news">Financial News</button>
     <button class="tab" role="tab" aria-selected="false" aria-controls="sentiment" id="tab-sentiment" data-tab="sentiment">Sentiment</button>
     <button class="tab" role="tab" aria-selected="false" aria-controls="methodology" id="tab-methodology" data-tab="methodology">Methodology</button>
+    <button class="tab" role="tab" aria-selected="false" aria-controls="macro" id="tab-macro" data-tab="macro">Macro</button>
   </nav>
 
   <main>
@@ -182,6 +183,23 @@
 SAFV = BFV × (1 + k × adjustment)</pre>
       <p><code>k</code> is capped so sentiment only <em>tilts</em> a fundamentally-grounded value. On the <strong>Sector Signals</strong> tab, the AI decides <em>direction</em> and writes the narrative, but the forecast <em>magnitude</em> is a historical volatility band — how the sector has actually behaved in past events of that type — so figures are anchored, and shown as a range rather than a false-precision point estimate.</p>
       <p class="disclaimer">⚠ Educational / research instrument. Data refreshes daily, not in real time. Forecast ranges are historical-analogue estimates, not predictions. <strong>Not financial advice.</strong></p>
+    </section>
+
+    <!-- MACRO (MacroLens) -->
+    <section id="macro" class="panel" role="tabpanel" aria-labelledby="tab-macro">
+      <h2>Macro Backdrop</h2>
+      <hr class="rule" />
+      <p class="muted">The macro backdrop across all four of Meridian's markets — inflation, growth, employment, policy rates, and currency. World Bank data is annual and lags; every reading is labeled with its real frequency and as-of date rather than implied as current. <span id="macro-updated"></span></p>
+
+      <h3 class="macro-subhead">Cross-market comparison</h3>
+      <div id="macro-compare" class="macro-compare-grid">
+        <div class="macro-compare-card skeleton" aria-hidden="true"></div>
+        <div class="macro-compare-card skeleton" aria-hidden="true"></div>
+        <div class="macro-compare-card skeleton" aria-hidden="true"></div>
+      </div>
+
+      <h3 class="macro-subhead">By market</h3>
+      <div id="macro-cards" class="macro-cards"></div>
     </section>
   </main>
 

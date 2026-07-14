@@ -25,7 +25,8 @@ used to build it.
 ## How it stays free
 - **Hosting:** GitHub Pages (static, free)
 - **Daily job:** GitHub Actions (unlimited minutes for public repos)
-- **Data:** Yahoo Finance (unofficial, no key), GDELT (free), Groq Llama 3.1 8B (14,400/day)
+- **Data:** Yahoo Finance (unofficial, no key), GDELT (free), Groq Llama 3.1 8B (14,400/day),
+  World Bank + Frankfurter (both keyless) and FRED (free key) for the **Macro** tab
 - The website only reads pre-computed JSON — **never calls a paid API at runtime**,
   so every extra visitor costs $0.
 
@@ -44,8 +45,10 @@ python -m http.server 8000
 
 ## Go live (real data)
 1. Push this repo to GitHub (public).
-2. Add repo secret: `GROQ_KEY`. See
-   [`pipeline/SOURCES.md`](pipeline/SOURCES.md).
+2. Add repo secrets: `GROQ_KEY` and `FRED_KEY` (free, instant signup — see
+   [`pipeline/SOURCES.md`](pipeline/SOURCES.md)). Without `FRED_KEY`, the
+   **Macro** tab still runs live for CPI/GDP/unemployment/FX and falls back
+   to hand-maintained figures (`pipeline/manual_rates.json`) for policy rates.
 3. Settings → Pages → deploy from `main` → `/site`.
 4. The `daily-update.yml` workflow refreshes all markets every morning.
 
