@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14 18:15 UTC",
+  "updated_at": "2026-07-14 18:43 UTC",
   "markets": {
     "IN": {
       "cpi": {
@@ -1142,7 +1142,7 @@
           }
         ]
       },
-      "narrative": "India: CPI inflation 2.4% (2025), real GDP growth 7.57% (2025), unemployment 4.22% (2025), policy rate 5.25% (2026-06-05). The currency stands at 96.2 (INR per USD, as of 2026-07-14)."
+      "narrative": "Despite relatively low unemployment, labor-market slack may persist given the unemployment rate, while strong growth momentum suggests a stable economy. With inflation on a decline and a tightening central-bank policy, the RBI may look to further hike interest rates to manage prices and maintain economic stability."
     },
     "US": {
       "cpi": {
@@ -1237,19 +1237,253 @@
       },
       "policy_rate": {
         "label": "Policy Rate",
-        "frequency": "as announced",
+        "frequency": "monthly",
         "unit": "%",
-        "source": "Federal Reserve (FOMC)",
-        "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
-        "as_of": "2026-06-17",
-        "latest": 3.625,
+        "source": "FRED (FEDFUNDS)",
+        "as_of": "2026-06-01",
+        "latest": 3.63,
         "series": [
           {
-            "date": "2026-06-17",
-            "value": 3.625
+            "date": "2021-07-01",
+            "value": 0.1
+          },
+          {
+            "date": "2021-08-01",
+            "value": 0.09
+          },
+          {
+            "date": "2021-09-01",
+            "value": 0.08
+          },
+          {
+            "date": "2021-10-01",
+            "value": 0.08
+          },
+          {
+            "date": "2021-11-01",
+            "value": 0.08
+          },
+          {
+            "date": "2021-12-01",
+            "value": 0.08
+          },
+          {
+            "date": "2022-01-01",
+            "value": 0.08
+          },
+          {
+            "date": "2022-02-01",
+            "value": 0.08
+          },
+          {
+            "date": "2022-03-01",
+            "value": 0.2
+          },
+          {
+            "date": "2022-04-01",
+            "value": 0.33
+          },
+          {
+            "date": "2022-05-01",
+            "value": 0.77
+          },
+          {
+            "date": "2022-06-01",
+            "value": 1.21
+          },
+          {
+            "date": "2022-07-01",
+            "value": 1.68
+          },
+          {
+            "date": "2022-08-01",
+            "value": 2.33
+          },
+          {
+            "date": "2022-09-01",
+            "value": 2.56
+          },
+          {
+            "date": "2022-10-01",
+            "value": 3.08
+          },
+          {
+            "date": "2022-11-01",
+            "value": 3.78
+          },
+          {
+            "date": "2022-12-01",
+            "value": 4.1
+          },
+          {
+            "date": "2023-01-01",
+            "value": 4.33
+          },
+          {
+            "date": "2023-02-01",
+            "value": 4.57
+          },
+          {
+            "date": "2023-03-01",
+            "value": 4.65
+          },
+          {
+            "date": "2023-04-01",
+            "value": 4.83
+          },
+          {
+            "date": "2023-05-01",
+            "value": 5.06
+          },
+          {
+            "date": "2023-06-01",
+            "value": 5.08
+          },
+          {
+            "date": "2023-07-01",
+            "value": 5.12
+          },
+          {
+            "date": "2023-08-01",
+            "value": 5.33
+          },
+          {
+            "date": "2023-09-01",
+            "value": 5.33
+          },
+          {
+            "date": "2023-10-01",
+            "value": 5.33
+          },
+          {
+            "date": "2023-11-01",
+            "value": 5.33
+          },
+          {
+            "date": "2023-12-01",
+            "value": 5.33
+          },
+          {
+            "date": "2024-01-01",
+            "value": 5.33
+          },
+          {
+            "date": "2024-02-01",
+            "value": 5.33
+          },
+          {
+            "date": "2024-03-01",
+            "value": 5.33
+          },
+          {
+            "date": "2024-04-01",
+            "value": 5.33
+          },
+          {
+            "date": "2024-05-01",
+            "value": 5.33
+          },
+          {
+            "date": "2024-06-01",
+            "value": 5.33
+          },
+          {
+            "date": "2024-07-01",
+            "value": 5.33
+          },
+          {
+            "date": "2024-08-01",
+            "value": 5.33
+          },
+          {
+            "date": "2024-09-01",
+            "value": 5.13
+          },
+          {
+            "date": "2024-10-01",
+            "value": 4.83
+          },
+          {
+            "date": "2024-11-01",
+            "value": 4.64
+          },
+          {
+            "date": "2024-12-01",
+            "value": 4.48
+          },
+          {
+            "date": "2025-01-01",
+            "value": 4.33
+          },
+          {
+            "date": "2025-02-01",
+            "value": 4.33
+          },
+          {
+            "date": "2025-03-01",
+            "value": 4.33
+          },
+          {
+            "date": "2025-04-01",
+            "value": 4.33
+          },
+          {
+            "date": "2025-05-01",
+            "value": 4.33
+          },
+          {
+            "date": "2025-06-01",
+            "value": 4.33
+          },
+          {
+            "date": "2025-07-01",
+            "value": 4.33
+          },
+          {
+            "date": "2025-08-01",
+            "value": 4.33
+          },
+          {
+            "date": "2025-09-01",
+            "value": 4.22
+          },
+          {
+            "date": "2025-10-01",
+            "value": 4.09
+          },
+          {
+            "date": "2025-11-01",
+            "value": 3.88
+          },
+          {
+            "date": "2025-12-01",
+            "value": 3.72
+          },
+          {
+            "date": "2026-01-01",
+            "value": 3.64
+          },
+          {
+            "date": "2026-02-01",
+            "value": 3.64
+          },
+          {
+            "date": "2026-03-01",
+            "value": 3.64
+          },
+          {
+            "date": "2026-04-01",
+            "value": 3.64
+          },
+          {
+            "date": "2026-05-01",
+            "value": 3.63
+          },
+          {
+            "date": "2026-06-01",
+            "value": 3.63
           }
-        ],
-        "note": "Manual, as of 2026-06-17 \u2014 FRED_KEY not set. Midpoint of the FOMC's target range, held at 3.50%\u20133.75% since the 2026-06-17 meeting."
+        ]
       },
       "fx": {
         "label": "Currency vs USD",
@@ -1261,7 +1495,7 @@
         "series": [],
         "note": "USD is Meridian's reference currency for this comparison; no vs-USD series applies."
       },
-      "narrative": "United States: CPI inflation 2.95% (2024), real GDP growth 2.16% (2025), unemployment 4.2% (2025), policy rate 3.625% (2026-06-17)."
+      "narrative": "The current macro backdrop points to a slowing inflation trend, steady growth momentum, and a relatively tight labor market. The moderate real GDP growth and low unemployment rate indicate a stable economic expansion. However, a slightly restrictive central-bank policy stance, reflected in the interest rate, suggests a cautious approach by the monetary authority."
     },
     "UK": {
       "cpi": {
@@ -1368,7 +1602,7 @@
             "value": 3.75
           }
         ],
-        "note": "Manual, as of 2026-06-18 \u2014 FRED_KEY not set. Bank Rate, held at 3.75% (7\u20132 vote) at the meeting ending 2026-06-17, announced 2026-06-18."
+        "note": "Manual, as of 2026-06-18 \u2014 FRED fetch failed (FRED returned no observations for BOERUKM). Bank Rate, held at 3.75% (7\u20132 vote) at the meeting ending 2026-06-17, announced 2026-06-18."
       },
       "fx": {
         "label": "USD per GBP",
@@ -2404,7 +2638,7 @@
           }
         ]
       },
-      "narrative": "United Kingdom: CPI inflation 3.88% (2025), real GDP growth 1.39% (2025), unemployment 4.75% (2025), policy rate 3.75% (2026-06-18). The currency stands at 1.3384 (USD per GBP, as of 2026-07-14)."
+      "narrative": "The UK's macro economy is characterized by a moderating inflation trend, underpinned by a growth trajectory that's neither strong nor weak, and labor market conditions that suggest some residual slack. The central bank seems to have reached a balanced stance, but the currency remains somewhat strong against the USD, likely reflecting this policy positioning."
     },
     "JP": {
       "cpi": {
@@ -2499,19 +2733,133 @@
       },
       "policy_rate": {
         "label": "Policy Rate",
-        "frequency": "as announced",
+        "frequency": "monthly",
         "unit": "%",
-        "source": "Bank of Japan",
-        "source_url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260616a.pdf",
-        "as_of": "2026-06-16",
-        "latest": 1.0,
+        "source": "FRED (IRSTCB01JPM156N)",
+        "as_of": "2023-12-01",
+        "latest": 0.3,
         "series": [
           {
-            "date": "2026-06-16",
-            "value": 1.0
+            "date": "2021-07-01",
+            "value": 0.3
+          },
+          {
+            "date": "2021-08-01",
+            "value": 0.3
+          },
+          {
+            "date": "2021-09-01",
+            "value": 0.3
+          },
+          {
+            "date": "2021-10-01",
+            "value": 0.3
+          },
+          {
+            "date": "2021-11-01",
+            "value": 0.3
+          },
+          {
+            "date": "2021-12-01",
+            "value": 0.3
+          },
+          {
+            "date": "2022-01-01",
+            "value": 0.3
+          },
+          {
+            "date": "2022-02-01",
+            "value": 0.3
+          },
+          {
+            "date": "2022-03-01",
+            "value": 0.3
+          },
+          {
+            "date": "2022-04-01",
+            "value": 0.3
+          },
+          {
+            "date": "2022-05-01",
+            "value": 0.3
+          },
+          {
+            "date": "2022-06-01",
+            "value": 0.3
+          },
+          {
+            "date": "2022-07-01",
+            "value": 0.3
+          },
+          {
+            "date": "2022-08-01",
+            "value": 0.3
+          },
+          {
+            "date": "2022-09-01",
+            "value": 0.3
+          },
+          {
+            "date": "2022-10-01",
+            "value": 0.3
+          },
+          {
+            "date": "2022-11-01",
+            "value": 0.3
+          },
+          {
+            "date": "2022-12-01",
+            "value": 0.3
+          },
+          {
+            "date": "2023-01-01",
+            "value": 0.3
+          },
+          {
+            "date": "2023-02-01",
+            "value": 0.3
+          },
+          {
+            "date": "2023-03-01",
+            "value": 0.3
+          },
+          {
+            "date": "2023-04-01",
+            "value": 0.3
+          },
+          {
+            "date": "2023-05-01",
+            "value": 0.3
+          },
+          {
+            "date": "2023-06-01",
+            "value": 0.3
+          },
+          {
+            "date": "2023-07-01",
+            "value": 0.3
+          },
+          {
+            "date": "2023-08-01",
+            "value": 0.3
+          },
+          {
+            "date": "2023-09-01",
+            "value": 0.3
+          },
+          {
+            "date": "2023-10-01",
+            "value": 0.3
+          },
+          {
+            "date": "2023-11-01",
+            "value": 0.3
+          },
+          {
+            "date": "2023-12-01",
+            "value": 0.3
           }
-        ],
-        "note": "Manual, as of 2026-06-16 \u2014 FRED_KEY not set. Policy rate, raised 25bp to 1.00% (7\u20131 vote) on 2026-06-16 \u2014 highest since 1995."
+        ]
       },
       "fx": {
         "label": "JPY per USD",
@@ -3547,7 +3895,7 @@
           }
         ]
       },
-      "narrative": "Japan: CPI inflation 3.17% (2025), real GDP growth 1.19% (2025), unemployment 2.45% (2025), policy rate 1.0% (2026-06-16). The currency stands at 162.22 (JPY per USD, as of 2026-07-14)."
+      "narrative": "Japan's economy is experiencing a moderate recovery, with inflation ticking above 3%, while real GDP growth remains sluggish at 1.19%. Meanwhile, the labor market is tight, with unemployment low at 2.45%, but the central bank's policy rate is still accommodative at 0.3%. Japan's currency is also relatively weak against the US dollar, suggesting some inflationary pressures but also a moderate appetite for risk."
     }
   }
 }
