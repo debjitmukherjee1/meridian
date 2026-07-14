@@ -1,76 +1,90 @@
 {
-  "updated_at": "2026-07-14 18:43 UTC",
+  "updated_at": "2026-07-14 18:57 UTC",
   "market": "US",
   "items": [
     {
-      "title": "Chipmakers rally as AI demand outpaces supply",
-      "sector": "Technology",
-      "tone": 3.4,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Increasing demand for AI-related chips boosts investor confidence in chipmakers."
-    },
-    {
-      "title": "Regulators open probe into big-tech ad practices",
-      "sector": "Technology",
-      "tone": -2.1,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Regulatory probe threatens profitability of big-tech companies through ad practices."
-    },
-    {
-      "title": "Consumer spending softens amid rate uncertainty",
-      "sector": "Consumer Discretionary",
-      "tone": -1.8,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Consumer spending slowdown due to rate uncertainty lowers market expectations."
-    },
-    {
-      "title": "EV price war squeezes automaker margins",
-      "sector": "Consumer Discretionary",
-      "tone": -2.6,
-      "url": "https://www.gdeltproject.org/",
-      "note": "EV price war threatens to further squeeze automaker margins and profitability."
-    },
-    {
-      "title": "Banks post resilient quarterly earnings",
+      "title": "AI now dominates the S & P 500 like never before : US stock market concentration risk hits extreme levels : AI stocks surge to 45 % of S & P 500 market cap in 2026 can $1 . 4 trillion AI - linked debt sustain this historic dominance ?",
       "sector": "Financials",
-      "tone": 2.2,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Banks' resilient earnings improve investors' confidence in Financials sector stability."
+      "tone": 0.0,
+      "url": "https://economictimes.indiatimes.com/news/international/us/us-stock-market-concentration-risk-hits-extreme-levels-ai-stocks-surge-to-45-of-sp-500-market-cap-in-2026-can-1-4-trillion-ai-linked-debt-sustain-this-historic-dominance/articleshow/130493020.cms",
+      "note": "Concentration risk and AI-linked debt pose concerns for market dominance."
     },
     {
-      "title": "Payment networks expand into emerging markets",
+      "title": "Quant Ratings Updated on 120 Stocks",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://investorplace.com/market360/2026/04/quant-ratings-updated-on-120-stocks/",
+      "note": "Neutral impact from Quant Ratings Update, as it's a general market activity."
+    },
+    {
+      "title": "Sensex Gains 118 Points After Late Recovery , Nifty Ends Above 23 , 650 Despite Rupee Weakness",
       "sector": "Financials",
-      "tone": 1.9,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Payment networks' expansion boosts optimism about sector's global growth prospects."
+      "tone": 0.0,
+      "url": "https://www.freepressjournal.in/business/sensex-gains-118-points-after-late-recovery-nifty-ends-above-23650-despite-rupee-weakness",
+      "note": "Recovery in Indian market alleviates some concerns with Rupee weakness"
     },
     {
-      "title": "Oil steadies as supply concerns ease",
-      "sector": "Energy",
-      "tone": 0.6,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Supply concerns ease, steadying oil prices and reducing investor nervousness."
+      "title": "Jim Cramer Shared Latest Take On Mega Quantum Computing Investment & Discussed These 13 Stocks",
+      "sector": "Financials",
+      "tone": 0.0,
+      "url": "https://www.insidermonkey.com/blog/jim-cramer-shared-latest-take-on-mega-quantum-computing-investment-discussed-these-13-stocks-1768029/",
+      "note": "Quantum computing investment is a catalyst for tech and potentially financial stocks."
     },
     {
-      "title": "Staples firms hold pricing power through inflation",
-      "sector": "Consumer Staples",
-      "tone": 1.4,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Increased pricing power helps maintain profitability during inflation."
+      "title": "Morgan Stanley issues verdict for nervous stock market investors",
+      "sector": "Financials",
+      "tone": 0.0,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-issues-verdict-nervous-183300077.html",
+      "note": "Nervous investors may be better off adopting a cautious market approach, per Morgan Stanley."
     },
     {
-      "title": "Drugmaker wins approval for key therapy",
-      "sector": "Healthcare",
-      "tone": 3.1,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Approval of key therapy likely to boost investor confidence in Healthcare."
+      "title": "This is not a flash in the pan : Why value stocks are beating growth by such a wide margin",
+      "sector": "Financials",
+      "tone": 0.0,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/not-flash-pan-why-value-225000407.html",
+      "note": "Value stocks beating growth indicates potential shift in investor preferences for Financials"
     },
     {
-      "title": "Geopolitical tension lifts safe-haven demand",
-      "sector": "Energy",
-      "tone": -1.2,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Geopolitical tension boosts demand for safe-haven assets like oil, lifting investor optimism."
+      "title": "Earnings pops prove short - lived amid volatile markets",
+      "sector": "Financials",
+      "tone": 0.0,
+      "url": "https://www.livemint.com/market/stock-market-news/india-stock-market-earnings-season-short-lived-gains-investor-focus-future-guidance-11779180072439.html",
+      "note": "Volatility and short-lived earnings pops create uncertainty and caution in the market."
+    },
+    {
+      "title": "Trump Bull Market Is Standing on Shaky Legs . Just 5 Stocks Account for 52 % of the S & P Gains",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/trump-bull-market-standing-shaky-161730353.html",
+      "note": "Negative impact from Trump Bull Market Being on Shaky Legs, raising concerns about market stability."
+    },
+    {
+      "title": "Market research company warn of AI stocks selling cheap ; say they point to a  dangerous sign",
+      "sector": "Technology",
+      "tone": 0.0,
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/market-research-company-warn-of-ai-stocks-selling-cheap-say-they-point-to-a-dangerous-sign/articleshow/131900405.cms",
+      "note": "Warning signs from a reputable firm increase investor caution."
+    },
+    {
+      "title": "How will markets open today ? Nifty , Bank Nifty levels . Sectors and stocks to watch .",
+      "sector": "Financials",
+      "tone": 0.0,
+      "url": "https://www.indiainfoline.com/blog/how-will-markets-open-today-nifty-bank-nifty-levels-sectors-and-stocks-to-watch",
+      "note": "Market opening levels and sector analysis are neutral in sentiment with no clear indication of direction."
+    },
+    {
+      "title": "3 Overvalued Stocks to Take Profits In and 3 Undervalued Stocks to Buy Instead",
+      "sector": "Financials",
+      "tone": 0.0,
+      "url": "https://www.morningstar.com/stocks/3-overvalued-stocks-take-profits-3-undervalued-stocks-buy-instead-2",
+      "note": "Overvalued stocks in Financials to take profits and undervalued ones to buy may be good strategic decisions."
+    },
+    {
+      "title": "Mid - and small - cap outperformance cycle may be back after earnings reset : Brokerage",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://www.moneycontrol.com/news/business/markets/mid-and-small-cap-outperformance-cycle-may-be-back-after-earnings-reset-brokerage-13933014.html",
+      "note": "Positive impact from Mid- and small-cap outperformance cycle potentially being back, boosting market optimism."
     }
   ]
 }

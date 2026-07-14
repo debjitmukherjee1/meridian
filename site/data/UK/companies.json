@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14 18:43 UTC",
+  "updated_at": "2026-07-14 18:57 UTC",
   "market": "UK",
   "currency": "\u00a3",
   "companies": [
@@ -13,13 +13,13 @@
       "fcf_per_share": 2.8209098736827998,
       "ebitda_per_share": 8.86509804797602,
       "net_debt_per_share": 9.477853265100872,
-      "sentiment_index": 42.2,
+      "sentiment_index": 45.2,
       "sentiment_breakdown": {
-        "news": 45,
+        "news": 50.0,
         "macro": 38
       },
       "base_fair_value": 41.89,
-      "sentiment_adjusted_fair_value": 40.91
+      "sentiment_adjusted_fair_value": 41.29
     },
     {
       "ticker": "BP",
@@ -31,13 +31,13 @@
       "fcf_per_share": 0.6506548039552821,
       "ebitda_per_share": 2.2250006341993176,
       "net_debt_per_share": 2.486282262398708,
-      "sentiment_index": 42.2,
+      "sentiment_index": 45.2,
       "sentiment_breakdown": {
-        "news": 45,
+        "news": 50.0,
         "macro": 38
       },
       "base_fair_value": 6.79,
-      "sentiment_adjusted_fair_value": 6.63
+      "sentiment_adjusted_fair_value": 6.69
     },
     {
       "ticker": "HSBA",
@@ -49,13 +49,13 @@
       "fcf_per_share": null,
       "ebitda_per_share": null,
       "net_debt_per_share": -22.706043340004086,
-      "sentiment_index": 42.2,
+      "sentiment_index": 45.2,
       "sentiment_breakdown": {
-        "news": 45,
+        "news": 50.0,
         "macro": 38
       },
       "base_fair_value": 13.89,
-      "sentiment_adjusted_fair_value": 13.56
+      "sentiment_adjusted_fair_value": 13.69
     },
     {
       "ticker": "LLOY",
@@ -67,13 +67,13 @@
       "fcf_per_share": null,
       "ebitda_per_share": null,
       "net_debt_per_share": -2.7824833267618034,
-      "sentiment_index": 42.2,
+      "sentiment_index": 45.2,
       "sentiment_breakdown": {
-        "news": 45,
+        "news": 50.0,
         "macro": 38
       },
       "base_fair_value": 1.21,
-      "sentiment_adjusted_fair_value": 1.18
+      "sentiment_adjusted_fair_value": 1.19
     },
     {
       "ticker": "AZN",
@@ -85,13 +85,13 @@
       "fcf_per_share": 4.229139506858902,
       "ebitda_per_share": 12.91269361004452,
       "net_debt_per_share": 16.992966635593,
-      "sentiment_index": 42.2,
+      "sentiment_index": 45.2,
       "sentiment_breakdown": {
-        "news": 45,
+        "news": 50.0,
         "macro": 38
       },
       "base_fair_value": 66.69,
-      "sentiment_adjusted_fair_value": 65.13
+      "sentiment_adjusted_fair_value": 65.73
     },
     {
       "ticker": "ULVR",
@@ -103,13 +103,13 @@
       "fcf_per_share": 2.913397006465255,
       "ebitda_per_share": 5.038548747806881,
       "net_debt_per_share": 10.805315667873465,
-      "sentiment_index": 42.2,
+      "sentiment_index": 45.2,
       "sentiment_breakdown": {
-        "news": 45,
+        "news": 50.0,
         "macro": 38
       },
       "base_fair_value": 45.94,
-      "sentiment_adjusted_fair_value": 44.87
+      "sentiment_adjusted_fair_value": 45.28
     },
     {
       "ticker": "RIO",
@@ -121,13 +121,13 @@
       "fcf_per_share": 2.7865637621644113,
       "ebitda_per_share": 16.169762378550544,
       "net_debt_per_share": 11.421264517414766,
-      "sentiment_index": 42.2,
+      "sentiment_index": 45.2,
       "sentiment_breakdown": {
-        "news": 45,
+        "news": 50.0,
         "macro": 38
       },
       "base_fair_value": 43.94,
-      "sentiment_adjusted_fair_value": 42.91
+      "sentiment_adjusted_fair_value": 43.31
     },
     {
       "ticker": "VOD",
@@ -139,13 +139,13 @@
       "fcf_per_share": 0.22439962211385228,
       "ebitda_per_share": 0.38857791824520005,
       "net_debt_per_share": 1.7311868045444259,
-      "sentiment_index": 48.2,
+      "sentiment_index": 45.2,
       "sentiment_breakdown": {
-        "news": 55,
+        "news": 50.0,
         "macro": 38
       },
       "base_fair_value": 3.54,
-      "sentiment_adjusted_fair_value": 3.52
+      "sentiment_adjusted_fair_value": 3.49
     }
   ]
 }

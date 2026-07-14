@@ -1,52 +1,22 @@
 {
-  "updated_at": "2026-07-14 18:43 UTC",
+  "updated_at": "2026-07-14 18:57 UTC",
   "market": "UK",
   "macro_theme": "Geopolitical conflict raises energy-sector risk",
   "signals": [
     {
       "sector": "Consumer Staples",
       "read": "Neutral",
-      "score": 42,
+      "score": 45,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "The geopolitical supply event is driving the bearish sentiment (42/100) in the Consumer Staples sector.",
+          "text": "Consumer Staples sentiment pressured by the prevailing geopolitical supply backdrop",
           "forecast": {
-            "low": 1.2,
-            "high": 2.9,
+            "low": 1.1,
+            "high": 2.8,
             "direction": "-",
-            "text": "-1.2% to -2.9%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Uncertainty over supply chains continues to affect earnings prospects for Consumer Staples companies.",
-          "forecast": {
-            "low": 1.2,
-            "high": 2.9,
-            "direction": "-",
-            "text": "-1.2% to -2.9%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Value stocks are outperforming growth stocks, suggesting a sector rotation away from Consumer Staples.",
-          "forecast": {
-            "low": 1.2,
-            "high": 2.9,
-            "direction": "-",
-            "text": "-1.2% to -2.9%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Market volatility is leading to short-lived earnings pops, which is weighing on investor confidence.",
-          "forecast": {
-            "low": 1.2,
-            "high": 2.9,
-            "direction": "-",
-            "text": "-1.2% to -2.9%"
+            "text": "-1.1% to -2.8%"
           }
         }
       ]
@@ -54,47 +24,37 @@
     {
       "sector": "Energy",
       "read": "Neutral",
-      "score": 42,
+      "score": 45,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "A geopolitical supply event is weighing heavily on the Energy sector, driving bearish sentiment.",
+          "text": "Supply-route risk from conflict pushes crude higher; refiners and upstream names diverge",
           "forecast": {
-            "low": 4.6,
-            "high": 10.4,
+            "low": 4.4,
+            "high": 9.9,
             "direction": "-",
-            "text": "-4.6% to -10.4%"
+            "text": "-4.4% to -9.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "Ongoing supply disruptions from the event are limiting production and impacting global oil prices.",
+          "text": "Freight and insurance costs rising on shipping-lane threats",
           "forecast": {
-            "low": 4.6,
-            "high": 10.4,
+            "low": 4.4,
+            "high": 9.9,
             "direction": "-",
-            "text": "-4.6% to -10.4%"
+            "text": "-4.4% to -9.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "Geopolitical instability is exacerbating concerns over the reliability of energy exports.",
+          "text": "Strategic-reserve releases could cap upside, adding two-way risk",
           "forecast": {
-            "low": 4.6,
-            "high": 10.4,
+            "low": 4.4,
+            "high": 9.9,
             "direction": "-",
-            "text": "-4.6% to -10.4%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Market volatility is further contributing to investor anxiety and sector pessimism.",
-          "forecast": {
-            "low": 4.6,
-            "high": 10.4,
-            "direction": "-",
-            "text": "-4.6% to -10.4%"
+            "text": "-4.4% to -9.9%"
           }
         }
       ]
@@ -102,47 +62,17 @@
     {
       "sector": "Financials",
       "read": "Neutral",
-      "score": 42,
+      "score": 45,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "The Financials sector remains bearish due to a geopolitical supply event affecting global markets.",
+          "text": "Financials sentiment pressured by the prevailing geopolitical supply backdrop",
           "forecast": {
-            "low": 1.2,
-            "high": 3.5,
+            "low": 1.1,
+            "high": 3.3,
             "direction": "-",
-            "text": "-1.2% to -3.5%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Earnings pops prove short-lived amid volatile markets, which can further dampen investor sentiment in Financials.",
-          "forecast": {
-            "low": 1.2,
-            "high": 3.5,
-            "direction": "-",
-            "text": "-1.2% to -3.5%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Value stocks have been beating growth stocks by a wide margin, leading to caution among investors, which may impact Financials.",
-          "forecast": {
-            "low": 1.2,
-            "high": 3.5,
-            "direction": "-",
-            "text": "-1.2% to -3.5%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "A weak rupee is negatively impacting the Rupee-sensitive Financials sector, adding to its bearish tone.",
-          "forecast": {
-            "low": 1.2,
-            "high": 3.5,
-            "direction": "-",
-            "text": "-1.2% to -3.5%"
+            "text": "-1.1% to -3.3%"
           }
         }
       ]
@@ -150,47 +80,17 @@
     {
       "sector": "Healthcare",
       "read": "Neutral",
-      "score": 42,
+      "score": 45,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "The geopolitical supply event is causing a bearish sentiment in the Healthcare sector with a low reading of 42/100.",
+          "text": "Healthcare sentiment pressured by the prevailing geopolitical supply backdrop",
           "forecast": {
             "low": 0.6,
-            "high": 2.3,
+            "high": 2.2,
             "direction": "-",
-            "text": "-0.6% to -2.3%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "A related global economic concern affects various markets globally.",
-          "forecast": {
-            "low": 0.6,
-            "high": 2.3,
-            "direction": "-",
-            "text": "-0.6% to -2.3%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Volatility in the overall market, as seen in the Sensex's late recovery, could exacerbate the sector's negative performance.",
-          "forecast": {
-            "low": 0.6,
-            "high": 2.3,
-            "direction": "-",
-            "text": "-0.6% to -2.3%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Recent earnings pops being short-lived suggests ongoing market instability.",
-          "forecast": {
-            "low": 0.6,
-            "high": 2.3,
-            "direction": "-",
-            "text": "-0.6% to -2.3%"
+            "text": "-0.6% to -2.2%"
           }
         }
       ]
@@ -198,47 +98,17 @@
     {
       "sector": "Materials",
       "read": "Neutral",
-      "score": 42,
+      "score": 45,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Geopolitical supply event impacts the Materials sector.",
+          "text": "Materials sentiment pressured by the prevailing geopolitical supply backdrop",
           "forecast": {
-            "low": 3.5,
-            "high": 8.1,
+            "low": 3.3,
+            "high": 7.7,
             "direction": "-",
-            "text": "-3.5% to -8.1%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "No specific details found in the given headlines related to the Materials sector.",
-          "forecast": {
-            "low": 3.5,
-            "high": 8.1,
-            "direction": "-",
-            "text": "-3.5% to -8.1%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Further research would be needed to determine the supporting drivers.",
-          "forecast": {
-            "low": 3.5,
-            "high": 8.1,
-            "direction": "-",
-            "text": "-3.5% to -8.1%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "However, a weak rupee could indirectly affect Materials sector earnings or supply chain costs.",
-          "forecast": {
-            "low": 3.5,
-            "high": 8.1,
-            "direction": "-",
-            "text": "-3.5% to -8.1%"
+            "text": "-3.3% to -7.7%"
           }
         }
       ]
@@ -246,47 +116,17 @@
     {
       "sector": "Technology",
       "read": "Neutral",
-      "score": 48,
+      "score": 45,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Historic concentration of AI stocks in the S&P 500 threatens the sector due to associated risks such as market concentration",
+          "text": "Technology sentiment pressured by the prevailing geopolitical supply backdrop",
           "forecast": {
-            "low": 1.0,
-            "high": 3.1,
+            "low": 1.1,
+            "high": 3.3,
             "direction": "-",
-            "text": "-1.0% to -3.1%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "US stock market concentration risk has reached extreme levels, with AI stocks now making up 45% of the S&P 500 market cap",
-          "forecast": {
-            "low": 1.0,
-            "high": 3.1,
-            "direction": "-",
-            "text": "-1.0% to -3.1%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "A $1.4 trillion AI-linked debt burden raises concerns about the sustainability of AI stocks' historic dominance",
-          "forecast": {
-            "low": 1.0,
-            "high": 3.1,
-            "direction": "-",
-            "text": "-1.0% to -3.1%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Earnings pops have proven short-lived amid volatile markets, adding to sector uncertainty",
-          "forecast": {
-            "low": 1.0,
-            "high": 3.1,
-            "direction": "-",
-            "text": "-1.0% to -3.1%"
+            "text": "-1.1% to -3.3%"
           }
         }
       ]

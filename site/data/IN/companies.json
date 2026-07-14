@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14 18:43 UTC",
+  "updated_at": "2026-07-14 18:57 UTC",
   "market": "IN",
   "currency": "\u20b9",
   "companies": [
@@ -13,31 +13,31 @@
       "fcf_per_share": 16.130921764847958,
       "ebitda_per_share": 126.7063309660043,
       "net_debt_per_share": 103.3462168530996,
-      "sentiment_index": 48.2,
+      "sentiment_index": 60.2,
       "sentiment_breakdown": {
-        "news": 55,
+        "news": 75,
         "macro": 38
       },
       "base_fair_value": 254.37,
-      "sentiment_adjusted_fair_value": 253.0
+      "sentiment_adjusted_fair_value": 262.15
     },
     {
       "ticker": "TCS",
       "name": "Tata Consultancy",
       "sector": "Technology",
       "price": 2200.6,
-      "eps": 145.07,
-      "pe": 15.169229,
+      "eps": 137.65,
+      "pe": 15.986925,
       "fcf_per_share": 109.77208284103205,
       "ebitda_per_share": 199.19087550164673,
       "net_debt_per_share": -93.20393945871378,
-      "sentiment_index": 66.2,
+      "sentiment_index": 48.2,
       "sentiment_breakdown": {
-        "news": 85,
+        "news": 55,
         "macro": 38
       },
-      "base_fair_value": 34831.93,
-      "sentiment_adjusted_fair_value": 36524.76
+      "base_fair_value": 34814.03,
+      "sentiment_adjusted_fair_value": 34626.03
     },
     {
       "ticker": "INFY",
@@ -49,13 +49,13 @@
       "fcf_per_share": 0.7829850388601102,
       "ebitda_per_share": 1.0936228909438386,
       "net_debt_per_share": -0.676475335396061,
-      "sentiment_index": 66.2,
+      "sentiment_index": 48.2,
       "sentiment_breakdown": {
-        "news": 85,
+        "news": 55,
         "macro": 38
       },
-      "base_fair_value": 561.41,
-      "sentiment_adjusted_fair_value": 588.69
+      "base_fair_value": 571.71,
+      "sentiment_adjusted_fair_value": 568.62
     },
     {
       "ticker": "HDFCBANK",
@@ -67,13 +67,13 @@
       "fcf_per_share": null,
       "ebitda_per_share": null,
       "net_debt_per_share": 301.3090709477371,
-      "sentiment_index": 66.2,
+      "sentiment_index": 44.0,
       "sentiment_breakdown": {
-        "news": 85,
+        "news": 48,
         "macro": 38
       },
       "base_fair_value": 827.01,
-      "sentiment_adjusted_fair_value": 867.2
+      "sentiment_adjusted_fair_value": 812.12
     },
     {
       "ticker": "ICICIBANK",
@@ -85,13 +85,13 @@
       "fcf_per_share": null,
       "ebitda_per_share": null,
       "net_debt_per_share": -62.33967680369084,
-      "sentiment_index": 66.2,
+      "sentiment_index": 44.0,
       "sentiment_breakdown": {
-        "news": 85,
+        "news": 48,
         "macro": 38
       },
       "base_fair_value": 1378.35,
-      "sentiment_adjusted_fair_value": 1445.34
+      "sentiment_adjusted_fair_value": 1353.54
     },
     {
       "ticker": "HINDUNILVR",
@@ -103,31 +103,31 @@
       "fcf_per_share": 27.769722885528846,
       "ebitda_per_share": 61.94269115731841,
       "net_debt_per_share": -23.47216769994951,
-      "sentiment_index": 64.4,
+      "sentiment_index": 60.2,
       "sentiment_breakdown": {
-        "news": 82,
+        "news": 75,
         "macro": 38
       },
       "base_fair_value": 437.91,
-      "sentiment_adjusted_fair_value": 456.83
+      "sentiment_adjusted_fair_value": 451.31
     },
     {
       "ticker": "TMPV",
       "name": "Tata Motors Passenger Vehicles",
       "sector": "Consumer Discretionary",
       "price": 333.35,
-      "eps": -4.42,
+      "eps": -4.48,
       "pe": null,
       "fcf_per_share": -53.298530404136436,
       "ebitda_per_share": 36.15125741220856,
       "net_debt_per_share": 102.01265164077493,
-      "sentiment_index": 36.2,
+      "sentiment_index": 60.2,
       "sentiment_breakdown": {
-        "news": 35,
+        "news": 75,
         "macro": 38
       },
       "base_fair_value": 333.35,
-      "sentiment_adjusted_fair_value": 319.55
+      "sentiment_adjusted_fair_value": 343.55
     },
     {
       "ticker": "SUNPHARMA",
@@ -139,13 +139,13 @@
       "fcf_per_share": 24.791791302070674,
       "ebitda_per_share": 67.99171446077827,
       "net_debt_per_share": -120.4052737730072,
-      "sentiment_index": 62.0,
+      "sentiment_index": 60.2,
       "sentiment_breakdown": {
-        "news": 78,
+        "news": 75,
         "macro": 38
       },
       "base_fair_value": 390.95,
-      "sentiment_adjusted_fair_value": 405.02
+      "sentiment_adjusted_fair_value": 402.91
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14 18:43 UTC",
+  "updated_at": "2026-07-14 18:57 UTC",
   "market": "JP",
   "macro_theme": "Geopolitical conflict raises energy-sector risk",
   "signals": [
@@ -116,17 +116,17 @@
     {
       "sector": "Technology",
       "read": "Neutral",
-      "score": 46,
+      "score": 49,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
           "text": "Technology sentiment pressured by the prevailing geopolitical supply backdrop",
           "forecast": {
-            "low": 1.1,
-            "high": 3.2,
+            "low": 1.0,
+            "high": 3.1,
             "direction": "-",
-            "text": "-1.1% to -3.2%"
+            "text": "-1.0% to -3.1%"
           }
         }
       ]
