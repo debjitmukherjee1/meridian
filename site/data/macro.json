@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14 18:57 UTC",
+  "updated_at": "2026-07-15 08:01 UTC",
   "markets": {
     "IN": {
       "cpi": {
@@ -116,10 +116,6 @@
         "as_of": "2026-07-14",
         "latest": 96.2,
         "series": [
-          {
-            "date": "2025-07-14",
-            "value": 86.01
-          },
           {
             "date": "2025-07-15",
             "value": 85.86
@@ -1142,7 +1138,7 @@
           }
         ]
       },
-      "narrative": "India's macroeconomic backdrop suggests a moderate inflation trend, with a stable growth momentum driving GDP upwards while unemployment levels point towards a labor market that's recovering but still has some slack. Central bank's policy rate is aligned with these stable economic conditions, and the stable exchange rate suggests a stable currency market."
+      "narrative": "India: CPI inflation 2.4% (2025), real GDP growth 7.57% (2025), unemployment 4.22% (2025), policy rate 5.25% (2026-06-05). The currency stands at 96.2 (INR per USD, as of 2026-07-14)."
     },
     "US": {
       "cpi": {
@@ -1495,7 +1491,7 @@
         "series": [],
         "note": "USD is Meridian's reference currency for this comparison; no vs-USD series applies."
       },
-      "narrative": "United States: CPI inflation 2.95% (2024), real GDP growth 2.16% (2025), unemployment 4.2% (2025), policy rate 3.63% (2026-06-01)."
+      "narrative": "The current macro backdrop suggests inflation remains elevated, but growth momentum is steady, with real GDP expanding modestly. Labor market conditions are relatively healthy, although not booming, with unemployment at a relatively low level. Central banks are taking a cautious stance with a higher policy rate in place, signaling a desire to temper demand without stifling growth entirely."
     },
     "UK": {
       "cpi": {
@@ -1612,10 +1608,6 @@
         "as_of": "2026-07-14",
         "latest": 1.3384,
         "series": [
-          {
-            "date": "2025-07-14",
-            "value": 1.3488
-          },
           {
             "date": "2025-07-15",
             "value": 1.344
@@ -2745,7 +2737,7 @@
             "value": 1.0
           }
         ],
-        "note": "Manual, as of 2026-06-16 \u2014 FRED fetch failed (FRED IRSTCB01JPM156N latest observation is 956d old (2023-12-01) -- treating as stale). Policy rate, raised 25bp to 1.00% (7\u20131 vote) on 2026-06-16 \u2014 highest since 1995."
+        "note": "Manual, as of 2026-06-16 \u2014 FRED fetch failed (FRED IRSTCB01JPM156N latest observation is 957d old (2023-12-01) -- treating as stale). Policy rate, raised 25bp to 1.00% (7\u20131 vote) on 2026-06-16 \u2014 highest since 1995."
       },
       "fx": {
         "label": "JPY per USD",
@@ -2755,10 +2747,6 @@
         "as_of": "2026-07-14",
         "latest": 162.22,
         "series": [
-          {
-            "date": "2025-07-14",
-            "value": 147.37
-          },
           {
             "date": "2025-07-15",
             "value": 147.95
