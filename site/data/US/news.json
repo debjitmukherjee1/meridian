@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-15 08:01 UTC",
+  "updated_at": "2026-07-16 08:06 UTC",
   "market": "US",
   "items": [
     {
@@ -7,70 +7,70 @@
       "sector": "Technology",
       "tone": 3.4,
       "url": "https://www.gdeltproject.org/",
-      "note": "Chip demand outpacing supply boosts investor confidence in chipmakers."
+      "note": "AI demand boosting chipmakers, indicating strong growth in tech sector demand."
     },
     {
       "title": "Regulators open probe into big-tech ad practices",
       "sector": "Technology",
       "tone": -2.1,
       "url": "https://www.gdeltproject.org/",
-      "note": "Regulatory probe into ad practices may lead to industry scrutiny and volatility."
+      "note": "Regulatory probe into ad practices raises concerns about big-tech revenue models, potentially negative impact."
     },
     {
       "title": "Consumer spending softens amid rate uncertainty",
       "sector": "Consumer Discretionary",
       "tone": -1.8,
       "url": "https://www.gdeltproject.org/",
-      "note": "Weakening consumer spending pressures Consumer Discretionary sector growth prospects."
+      "note": "Rate uncertainty weighs on consumer confidence and spending."
     },
     {
       "title": "EV price war squeezes automaker margins",
       "sector": "Consumer Discretionary",
       "tone": -2.6,
       "url": "https://www.gdeltproject.org/",
-      "note": "Price war erodes automaker margins, threatening sector profitability."
+      "note": "EV price war erodes automaker profit margins, impacting industry growth."
     },
     {
       "title": "Banks post resilient quarterly earnings",
       "sector": "Financials",
       "tone": 2.2,
       "url": "https://www.gdeltproject.org/",
-      "note": "Positive earnings for banks boost confidence in Financials sector."
+      "note": "Banks' resilient earnings boost investor confidence in Financials sector."
     },
     {
       "title": "Payment networks expand into emerging markets",
       "sector": "Financials",
       "tone": 1.9,
       "url": "https://www.gdeltproject.org/",
-      "note": "Expansion into emerging markets by payment networks is a bullish indicator."
+      "note": "Payment networks' expansion into emerging markets increases optimism and potential growth opportunities."
     },
     {
       "title": "Oil steadies as supply concerns ease",
       "sector": "Energy",
       "tone": 0.6,
       "url": "https://www.gdeltproject.org/",
-      "note": "Oil steadies, easing supply concerns and slightly boosting investor optimism for Energy."
+      "note": "Supplies tightening, lifting oil prices"
     },
     {
       "title": "Staples firms hold pricing power through inflation",
       "sector": "Consumer Staples",
       "tone": 1.4,
       "url": "https://www.gdeltproject.org/",
-      "note": "Headline indicates resilience and ability to counter inflation, boosting sentiment."
+      "note": "Investors are bullish on Consumer Staples due to the companies' ability to maintain pricing power."
     },
     {
       "title": "Drugmaker wins approval for key therapy",
       "sector": "Healthcare",
       "tone": 3.1,
       "url": "https://www.gdeltproject.org/",
-      "note": "Pharmaceutical company's therapy approval boosts investor confidence in Healthcare sector."
+      "note": "Approval of a key therapy boosts investment confidence in pharmaceutical sector."
     },
     {
       "title": "Geopolitical tension lifts safe-haven demand",
       "sector": "Energy",
       "tone": -1.2,
       "url": "https://www.gdeltproject.org/",
-      "note": "Geopolitical tension lifts safe-haven demand, negatively impacting sentiment for Energy market."
+      "note": "Tension increases safe-haven demand for oil derivatives"
     }
   ]
 }
