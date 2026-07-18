@@ -1,89 +1,89 @@
 {
-  "updated_at": "2026-07-17 08:03 UTC",
+  "updated_at": "2026-07-18 07:42 UTC",
   "market": "IN",
   "items": [
-    {
-      "title": "AI now dominates the S & P 500 like never before : US stock market concentration risk hits extreme levels : AI stocks surge to 45 % of S & P 500 market cap in 2026 can $1 . 4 trillion AI - linked debt sustain this historic dominance ?",
-      "sector": "Technology",
-      "tone": 0.0,
-      "url": "https://economictimes.indiatimes.com/news/international/us/us-stock-market-concentration-risk-hits-extreme-levels-ai-stocks-surge-to-45-of-sp-500-market-cap-in-2026-can-1-4-trillion-ai-linked-debt-sustain-this-historic-dominance/articleshow/130493020.cms",
-      "note": "AI's market dominance could exacerbate sector risk and affect investor appetite."
-    },
     {
       "title": "Which Is the Better Value Stock : Microsoft or Nvidia ?",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/better-value-stock-microsoft-nvidia-152500114.html",
-      "note": "Comparative analysis fuels investor indecision."
+      "note": "Questionable value between Microsoft and Nvidia keeps investors uncertain."
     },
     {
       "title": "Quant Ratings Updated on 120 Stocks",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://investorplace.com/market360/2026/04/quant-ratings-updated-on-120-stocks/",
-      "note": "Positive update for some stocks, potentially boosting market optimism."
+      "note": "Market gets boost as quant ratings update 120 stocks, increasing confidence."
     },
     {
       "title": "Sensex Gains 118 Points After Late Recovery , Nifty Ends Above 23 , 650 Despite Rupee Weakness",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://www.freepressjournal.in/business/sensex-gains-118-points-after-late-recovery-nifty-ends-above-23650-despite-rupee-weakness",
-      "note": "Late recovery suggests market resilience, strengthening sentiment."
+      "note": "Sensex and Nifty gains show Indian market resilience, despite rupee weakness concerns."
     },
     {
       "title": "Jim Cramer Shared Latest Take On Mega Quantum Computing Investment & Discussed These 13 Stocks",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://www.insidermonkey.com/blog/jim-cramer-shared-latest-take-on-mega-quantum-computing-investment-discussed-these-13-stocks-1768029/",
-      "note": "Jim Cramer's recommendations might instill short-term market confidence."
+      "note": "Jim Cramer's investment take on quantum computing stocks raises investor interest."
     },
     {
       "title": "Morgan Stanley issues verdict for nervous stock market investors",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-issues-verdict-nervous-183300077.html",
-      "note": "Morgan Stanley's verdict on nervous investors likely reinforces current anxiety."
+      "note": "Morgan Stanley's verdict for nervous investors implies cautious market sentiment."
     },
     {
       "title": "This is not a flash in the pan : Why value stocks are beating growth by such a wide margin",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/not-flash-pan-why-value-225000407.html",
-      "note": "Value stocks beating growth reinforces a bullish outlook."
+      "note": "Value stocks beating growth indicates potential long-term market stability."
     },
     {
       "title": "Earnings pops prove short - lived amid volatile markets",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://www.livemint.com/market/stock-market-news/india-stock-market-earnings-season-short-lived-gains-investor-focus-future-guidance-11779180072439.html",
-      "note": "Earnings pops' short-lived nature maintains current market uncertainty."
+      "note": "Earnings pops' short-lived nature reflects market volatility and uncertainty."
     },
     {
       "title": "Trump Bull Market Is Standing on Shaky Legs . Just 5 Stocks Account for 52 % of the S & P Gains",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/trump-bull-market-standing-shaky-161730353.html",
-      "note": "Shaky S&P gains underscore market volatility and potential bearishness."
+      "note": "Trump bull market's shaky legs imply significant market instability, raising concerns."
     },
     {
       "title": "Market research company warn of AI stocks selling cheap ; say they point to a  dangerous sign",
       "sector": "Technology",
       "tone": 0.0,
       "url": "https://timesofindia.indiatimes.com/technology/tech-news/market-research-company-warn-of-ai-stocks-selling-cheap-say-they-point-to-a-dangerous-sign/articleshow/131900405.cms",
-      "note": "Warning of cheaper AI stocks points to a potential sector reversal, sparking caution."
+      "note": "Warning of AI stocks selling cheap may deter some investors from Technology sector."
     },
     {
       "title": "How will markets open today ? Nifty , Bank Nifty levels . Sectors and stocks to watch .",
       "sector": "Financials",
       "tone": 0.0,
       "url": "https://www.indiainfoline.com/blog/how-will-markets-open-today-nifty-bank-nifty-levels-sectors-and-stocks-to-watch",
-      "note": "Neutral market opening levels indicate balanced sentiment."
+      "note": "Indicates uncertainty and lack of direction, impacting investor confidence in Financials."
     },
     {
       "title": "3 Overvalued Stocks to Take Profits In and 3 Undervalued Stocks to Buy Instead",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://www.morningstar.com/stocks/3-overvalued-stocks-take-profits-3-undervalued-stocks-buy-instead-2",
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+    },
+    {
+      "title": "Mid - and small - cap outperformance cycle may be back after earnings reset : Brokerage",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://www.moneycontrol.com/news/business/markets/mid-and-small-cap-outperformance-cycle-may-be-back-after-earnings-reset-brokerage-13933014.html",
       "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
     }
   ]

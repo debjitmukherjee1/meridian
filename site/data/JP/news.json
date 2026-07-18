@@ -1,14 +1,7 @@
 {
-  "updated_at": "2026-07-17 08:03 UTC",
+  "updated_at": "2026-07-18 07:42 UTC",
   "market": "JP",
   "items": [
-    {
-      "title": "AI now dominates the S & P 500 like never before : US stock market concentration risk hits extreme levels : AI stocks surge to 45 % of S & P 500 market cap in 2026 can $1 . 4 trillion AI - linked debt sustain this historic dominance ?",
-      "sector": "Technology",
-      "tone": 0.0,
-      "url": "https://economictimes.indiatimes.com/news/international/us/us-stock-market-concentration-risk-hits-extreme-levels-ai-stocks-surge-to-45-of-sp-500-market-cap-in-2026-can-1-4-trillion-ai-linked-debt-sustain-this-historic-dominance/articleshow/130493020.cms",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Technology sentiment."
-    },
     {
       "title": "Which Is the Better Value Stock : Microsoft or Nvidia ?",
       "sector": "Market",
@@ -70,7 +63,7 @@
       "sector": "Technology",
       "tone": 0.0,
       "url": "https://timesofindia.indiatimes.com/technology/tech-news/market-research-company-warn-of-ai-stocks-selling-cheap-say-they-point-to-a-dangerous-sign/articleshow/131900405.cms",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Technology sentiment."
+      "note": "Worried investors may reevaluate AI stocks, causing a temporary sell-off in the sector."
     },
     {
       "title": "How will markets open today ? Nifty , Bank Nifty levels . Sectors and stocks to watch .",
@@ -84,6 +77,13 @@
       "sector": "Market",
       "tone": 0.0,
       "url": "https://www.morningstar.com/stocks/3-overvalued-stocks-take-profits-3-undervalued-stocks-buy-instead-2",
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+    },
+    {
+      "title": "Mid - and small - cap outperformance cycle may be back after earnings reset : Brokerage",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://www.moneycontrol.com/news/business/markets/mid-and-small-cap-outperformance-cycle-may-be-back-after-earnings-reset-brokerage-13933014.html",
       "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
     }
   ]

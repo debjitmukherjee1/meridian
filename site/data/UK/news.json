@@ -1,76 +1,69 @@
 {
-  "updated_at": "2026-07-17 08:03 UTC",
+  "updated_at": "2026-07-18 07:42 UTC",
   "market": "UK",
   "items": [
-    {
-      "title": "AI now dominates the S & P 500 like never before : US stock market concentration risk hits extreme levels : AI stocks surge to 45 % of S & P 500 market cap in 2026 can $1 . 4 trillion AI - linked debt sustain this historic dominance ?",
-      "sector": "Technology",
-      "tone": 0.0,
-      "url": "https://economictimes.indiatimes.com/news/international/us/us-stock-market-concentration-risk-hits-extreme-levels-ai-stocks-surge-to-45-of-sp-500-market-cap-in-2026-can-1-4-trillion-ai-linked-debt-sustain-this-historic-dominance/articleshow/130493020.cms",
-      "note": "Investor concern grows about AI concentration risk on US stock market."
-    },
     {
       "title": "Which Is the Better Value Stock : Microsoft or Nvidia ?",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/better-value-stock-microsoft-nvidia-152500114.html",
-      "note": "Comparison of value between two stocks creates uncertainty."
+      "note": "Uncertainty about stock value due to Microsoft-Nvidia comparison."
     },
     {
       "title": "Quant Ratings Updated on 120 Stocks",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://investorplace.com/market360/2026/04/quant-ratings-updated-on-120-stocks/",
-      "note": "Update on quant ratings may be neutral news."
+      "note": "Neutral, as Quant Ratings updates are common occurrences."
     },
     {
       "title": "Sensex Gains 118 Points After Late Recovery , Nifty Ends Above 23 , 650 Despite Rupee Weakness",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://www.freepressjournal.in/business/sensex-gains-118-points-after-late-recovery-nifty-ends-above-23650-despite-rupee-weakness",
-      "note": "Late recovery suggests a market that's slightly bullish."
+      "note": "Positive, as Sensex gains suggest market recovery is happening."
     },
     {
       "title": "Jim Cramer Shared Latest Take On Mega Quantum Computing Investment & Discussed These 13 Stocks",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://www.insidermonkey.com/blog/jim-cramer-shared-latest-take-on-mega-quantum-computing-investment-discussed-these-13-stocks-1768029/",
-      "note": "Endorsement of specific stocks may boost related sectors' morale."
+      "note": "Neutral, as Jim Cramer mentions stocks but doesn't give specific predictions."
     },
     {
       "title": "Morgan Stanley issues verdict for nervous stock market investors",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-issues-verdict-nervous-183300077.html",
-      "note": "Advice from a well-respected analyst can be reassuring."
+      "note": "Neutral, as Morgan Stanley's verdict is not specified, only that it's a verdict."
     },
     {
       "title": "This is not a flash in the pan : Why value stocks are beating growth by such a wide margin",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/not-flash-pan-why-value-225000407.html",
-      "note": "Explanation of value stocks beating growth suggests optimism."
+      "note": "Positive, as value stocks beating growth stocks implies market optimism."
     },
     {
       "title": "Earnings pops prove short - lived amid volatile markets",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://www.livemint.com/market/stock-market-news/india-stock-market-earnings-season-short-lived-gains-investor-focus-future-guidance-11779180072439.html",
-      "note": "Short-term earnings optimism may be met with skepticism."
+      "note": "Negative, as earnings pops turning out to be short-lived indicates volatility fears."
     },
     {
       "title": "Trump Bull Market Is Standing on Shaky Legs . Just 5 Stocks Account for 52 % of the S & P Gains",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/trump-bull-market-standing-shaky-161730353.html",
-      "note": "Warning of market instability may evoke caution."
+      "note": "Negative, as Trump bull market on shaky legs implies instability concerns."
     },
     {
       "title": "Market research company warn of AI stocks selling cheap ; say they point to a  dangerous sign",
       "sector": "Technology",
       "tone": 0.0,
       "url": "https://timesofindia.indiatimes.com/technology/tech-news/market-research-company-warn-of-ai-stocks-selling-cheap-say-they-point-to-a-dangerous-sign/articleshow/131900405.cms",
-      "note": "Potential for high returns in AI stocks sparks buying interest."
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Technology sentiment."
     },
     {
       "title": "How will markets open today ? Nifty , Bank Nifty levels . Sectors and stocks to watch .",
@@ -84,6 +77,13 @@
       "sector": "Market",
       "tone": 0.0,
       "url": "https://www.morningstar.com/stocks/3-overvalued-stocks-take-profits-3-undervalued-stocks-buy-instead-2",
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+    },
+    {
+      "title": "Mid - and small - cap outperformance cycle may be back after earnings reset : Brokerage",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://www.moneycontrol.com/news/business/markets/mid-and-small-cap-outperformance-cycle-may-be-back-after-earnings-reset-brokerage-13933014.html",
       "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
     }
   ]

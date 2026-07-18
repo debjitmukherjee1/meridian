@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17 08:03 UTC",
+  "updated_at": "2026-07-18 07:42 UTC",
   "markets": {
     "IN": {
       "cpi": {
@@ -113,13 +113,9 @@
         "frequency": "daily",
         "unit": "INR",
         "source": "Frankfurter (ECB reference rates)",
-        "as_of": "2026-07-16",
-        "latest": 96.35,
+        "as_of": "2026-07-17",
+        "latest": 96.28,
         "series": [
-          {
-            "date": "2025-07-17",
-            "value": 86.08
-          },
           {
             "date": "2025-07-18",
             "value": 86.14
@@ -1135,10 +1131,14 @@
           {
             "date": "2026-07-16",
             "value": 96.35
+          },
+          {
+            "date": "2026-07-17",
+            "value": 96.28
           }
         ]
       },
-      "narrative": "India's macro backdrop is characterized by a benign inflation trend, sustained growth momentum, and an unemployment rate that suggests some underlying labor-market slack. The central bank's policy stance appears to be accommodative, with rates still relatively low. The exchange rate also suggests stability, with the INR trading steadily against the USD."
+      "narrative": "India's macro picture is marked by low inflation trend, sustained economic growth, moderate labor-market slack, and a dovish policy stance, as indicated by the central bank's relatively low policy rate and a stable exchange rate."
     },
     "US": {
       "cpi": {
@@ -1491,7 +1491,7 @@
         "series": [],
         "note": "USD is Meridian's reference currency for this comparison; no vs-USD series applies."
       },
-      "narrative": "United States: CPI inflation 2.95% (2024), real GDP growth 2.16% (2025), unemployment 4.2% (2025), policy rate 3.63% (2026-06-01)."
+      "narrative": "The US economy is experiencing a moderate growth pace with some signs of inflation pressure, although unemployment remains relatively low, suggesting a tight labor market, with the central bank maintaining a steady policy stance."
     },
     "UK": {
       "cpi": {
@@ -1605,13 +1605,9 @@
         "frequency": "daily",
         "unit": "USD",
         "source": "Frankfurter (ECB reference rates)",
-        "as_of": "2026-07-16",
-        "latest": 1.3511,
+        "as_of": "2026-07-17",
+        "latest": 1.3437,
         "series": [
-          {
-            "date": "2025-07-17",
-            "value": 1.3395
-          },
           {
             "date": "2025-07-18",
             "value": 1.3459
@@ -2627,10 +2623,14 @@
           {
             "date": "2026-07-16",
             "value": 1.3511
+          },
+          {
+            "date": "2026-07-17",
+            "value": 1.3437
           }
         ]
       },
-      "narrative": "The UK economy currently faces moderate inflationary pressures, sluggish real GDP growth, and a relatively low unemployment rate. However, with a still-substantial central-bank policy rate, policymakers may be cautious of any potential economic overheating. A moderately appreciating currency also hints at a stable economic environment."
+      "narrative": "The UK has seen moderate inflation, stable growth, relatively low unemployment and a tightening policy stance, albeit with some signs of inflation starting to creep upwards. Growth momentum appears steady, but labor market conditions indicate a relatively tight job market."
     },
     "JP": {
       "cpi": {
@@ -2737,20 +2737,16 @@
             "value": 1.0
           }
         ],
-        "note": "Manual, as of 2026-06-16 \u2014 FRED fetch failed (FRED IRSTCB01JPM156N latest observation is 959d old (2023-12-01) -- treating as stale). Policy rate, raised 25bp to 1.00% (7\u20131 vote) on 2026-06-16 \u2014 highest since 1995."
+        "note": "Manual, as of 2026-06-16 \u2014 FRED fetch failed (FRED IRSTCB01JPM156N latest observation is 960d old (2023-12-01) -- treating as stale). Policy rate, raised 25bp to 1.00% (7\u20131 vote) on 2026-06-16 \u2014 highest since 1995."
       },
       "fx": {
         "label": "JPY per USD",
         "frequency": "daily",
         "unit": "JPY",
         "source": "Frankfurter (ECB reference rates)",
-        "as_of": "2026-07-16",
-        "latest": 162.2,
+        "as_of": "2026-07-17",
+        "latest": 162.35,
         "series": [
-          {
-            "date": "2025-07-17",
-            "value": 148.79
-          },
           {
             "date": "2025-07-18",
             "value": 148.45
@@ -3766,10 +3762,14 @@
           {
             "date": "2026-07-16",
             "value": 162.2
+          },
+          {
+            "date": "2026-07-17",
+            "value": 162.35
           }
         ]
       },
-      "narrative": "Japan: CPI inflation 3.17% (2025), real GDP growth 1.19% (2025), unemployment 2.45% (2025), policy rate 1.0% (2026-06-16). The currency stands at 162.2 (JPY per USD, as of 2026-07-16)."
+      "narrative": "Japan's economy is characterized by a moderate inflation trend, stable growth momentum, limited labor-market slack, and a relatively accommodative monetary policy stance."
     }
   }
 }
