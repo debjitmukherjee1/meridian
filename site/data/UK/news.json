@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-18 07:42 UTC",
+  "updated_at": "2026-07-19 08:09 UTC",
   "market": "UK",
   "items": [
     {
@@ -7,56 +7,56 @@
       "sector": "Market",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/better-value-stock-microsoft-nvidia-152500114.html",
-      "note": "Uncertainty about stock value due to Microsoft-Nvidia comparison."
+      "note": "Unclear valuation comparison may affect sentiment for Microsoft and Nvidia"
     },
     {
       "title": "Quant Ratings Updated on 120 Stocks",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://investorplace.com/market360/2026/04/quant-ratings-updated-on-120-stocks/",
-      "note": "Neutral, as Quant Ratings updates are common occurrences."
+      "note": "Positive update for some stocks could mildly boost overall investor sentiment"
     },
     {
       "title": "Sensex Gains 118 Points After Late Recovery , Nifty Ends Above 23 , 650 Despite Rupee Weakness",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://www.freepressjournal.in/business/sensex-gains-118-points-after-late-recovery-nifty-ends-above-23650-despite-rupee-weakness",
-      "note": "Positive, as Sensex gains suggest market recovery is happening."
+      "note": "Indian market recovers, indicating some resilience to global economic pressures"
     },
     {
       "title": "Jim Cramer Shared Latest Take On Mega Quantum Computing Investment & Discussed These 13 Stocks",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://www.insidermonkey.com/blog/jim-cramer-shared-latest-take-on-mega-quantum-computing-investment-discussed-these-13-stocks-1768029/",
-      "note": "Neutral, as Jim Cramer mentions stocks but doesn't give specific predictions."
+      "note": "Jim Cramer's take on quantum computing may spark interest, slightly positive"
     },
     {
       "title": "Morgan Stanley issues verdict for nervous stock market investors",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-issues-verdict-nervous-183300077.html",
-      "note": "Neutral, as Morgan Stanley's verdict is not specified, only that it's a verdict."
+      "note": "Morgan Stanley's verdict adds to market uncertainties, potentially lowering sentiment"
     },
     {
       "title": "This is not a flash in the pan : Why value stocks are beating growth by such a wide margin",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/not-flash-pan-why-value-225000407.html",
-      "note": "Positive, as value stocks beating growth stocks implies market optimism."
+      "note": "Value stocks beating growth stocks may signal a shift, cautiously optimistic"
     },
     {
       "title": "Earnings pops prove short - lived amid volatile markets",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://www.livemint.com/market/stock-market-news/india-stock-market-earnings-season-short-lived-gains-investor-focus-future-guidance-11779180072439.html",
-      "note": "Negative, as earnings pops turning out to be short-lived indicates volatility fears."
+      "note": "Mixed market reactions to earnings may create uncertainty, slightly negative"
     },
     {
       "title": "Trump Bull Market Is Standing on Shaky Legs . Just 5 Stocks Account for 52 % of the S & P Gains",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/trump-bull-market-standing-shaky-161730353.html",
-      "note": "Negative, as Trump bull market on shaky legs implies instability concerns."
+      "note": "Trump Bull Market's instability could contribute to broader market pessimism"
     },
     {
       "title": "Market research company warn of AI stocks selling cheap ; say they point to a  dangerous sign",

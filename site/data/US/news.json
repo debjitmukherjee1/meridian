@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-18 07:42 UTC",
+  "updated_at": "2026-07-19 08:09 UTC",
   "market": "US",
   "items": [
     {
@@ -7,84 +7,84 @@
       "sector": "Technology",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/better-value-stock-microsoft-nvidia-152500114.html",
-      "note": "Investor interest is divided between Microsoft and Nvidia, no clear bias."
+      "note": "Investor appetite for MSFT and NVDA is uncertain, making it a hard call"
     },
     {
       "title": "Quant Ratings Updated on 120 Stocks",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://investorplace.com/market360/2026/04/quant-ratings-updated-on-120-stocks/",
-      "note": "Quantitative ratings provide a basis for informed investment decisions."
+      "note": "Quantitative analysis may lead to increased market confidence, possibly."
     },
     {
       "title": "Sensex Gains 118 Points After Late Recovery , Nifty Ends Above 23 , 650 Despite Rupee Weakness",
       "sector": "Financials",
       "tone": 0.0,
       "url": "https://www.freepressjournal.in/business/sensex-gains-118-points-after-late-recovery-nifty-ends-above-23650-despite-rupee-weakness",
-      "note": "Market optimism returns after Sensex recovers from early declines."
+      "note": "Indian market shows resilience with late recovery and Sensex gain."
     },
     {
       "title": "Jim Cramer Shared Latest Take On Mega Quantum Computing Investment & Discussed These 13 Stocks",
       "sector": "Financials",
       "tone": 0.0,
       "url": "https://www.insidermonkey.com/blog/jim-cramer-shared-latest-take-on-mega-quantum-computing-investment-discussed-these-13-stocks-1768029/",
-      "note": "Jim Cramer's endorsement of 13 stocks creates positive buzz around Financials."
+      "note": "Neutral stock suggestion, no specific impact on Financials sentiment."
     },
     {
       "title": "Morgan Stanley issues verdict for nervous stock market investors",
       "sector": "Financials",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-issues-verdict-nervous-183300077.html",
-      "note": "Morgan Stanley's verdict may exacerbate nervousness among investors."
+      "note": "Uncertainty for investors as Morgan Stanley issues a verdict."
     },
     {
       "title": "This is not a flash in the pan : Why value stocks are beating growth by such a wide margin",
       "sector": "Financials",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/not-flash-pan-why-value-225000407.html",
-      "note": "Value stocks beating growth stocks creates uncertainty for bulls."
+      "note": "Value stocks outperforming growth stocks positively affects Financials sentiment."
     },
     {
       "title": "Earnings pops prove short - lived amid volatile markets",
       "sector": "Financials",
       "tone": 0.0,
       "url": "https://www.livemint.com/market/stock-market-news/india-stock-market-earnings-season-short-lived-gains-investor-focus-future-guidance-11779180072439.html",
-      "note": "Earnings pops' brevity indicates market volatility persists in Financials."
+      "note": "Earnings pops are short-lived, potentially lowering investor expectations."
     },
     {
       "title": "Trump Bull Market Is Standing on Shaky Legs . Just 5 Stocks Account for 52 % of the S & P Gains",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/trump-bull-market-standing-shaky-161730353.html",
-      "note": "Trump's presidency is perceived as unstable, potentially impacting market confidence."
+      "note": "Trump's influence undermines the longevity of the bull market, casting doubt."
     },
     {
       "title": "Market research company warn of AI stocks selling cheap ; say they point to a  dangerous sign",
       "sector": "Technology",
       "tone": 0.0,
       "url": "https://timesofindia.indiatimes.com/technology/tech-news/market-research-company-warn-of-ai-stocks-selling-cheap-say-they-point-to-a-dangerous-sign/articleshow/131900405.cms",
-      "note": "Warning of AI stocks selling cheap suggests a short-term downturn ahead."
+      "note": "Warning of AI stocks selling cheap creates fear, weighing down tech market"
     },
     {
       "title": "How will markets open today ? Nifty , Bank Nifty levels . Sectors and stocks to watch .",
       "sector": "Financials",
       "tone": 0.0,
       "url": "https://www.indiainfoline.com/blog/how-will-markets-open-today-nifty-bank-nifty-levels-sectors-and-stocks-to-watch",
-      "note": "Speculation on market openings may increase investor uncertainty."
+      "note": "Market conditions and levels are uncertain, no clear impact yet."
     },
     {
       "title": "3 Overvalued Stocks to Take Profits In and 3 Undervalued Stocks to Buy Instead",
       "sector": "Financials",
       "tone": 0.0,
       "url": "https://www.morningstar.com/stocks/3-overvalued-stocks-take-profits-3-undervalued-stocks-buy-instead-2",
-      "note": "Overvalued and undervalued stock recommendations create mixed market sentiment."
+      "note": "Investors are advised to take profits in overvalued Financial stocks."
     },
     {
       "title": "Mid - and small - cap outperformance cycle may be back after earnings reset : Brokerage",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://www.moneycontrol.com/news/business/markets/mid-and-small-cap-outperformance-cycle-may-be-back-after-earnings-reset-brokerage-13933014.html",
-      "note": "Mid- and small-cap stocks' outperformance might lead to market optimism."
+      "note": "Potential for mid- and small-cap outperformance could positively impact investor sentiment."
     }
   ]
 }

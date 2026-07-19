@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-07-18 07:42 UTC",
+  "updated_at": "2026-07-19 08:09 UTC",
   "markets": {
     "IN": {
       "cpi": {
         "label": "CPI Inflation (YoY)",
         "frequency": "annual",
         "unit": "%",
-        "source": "World Bank (FP.CPI.TOTL.ZG)",
+        "source": "World Bank (FP.CPI.TOTL.ZG) [MOCK]",
         "as_of": "2025",
-        "latest": 2.4,
+        "latest": 8.43,
         "series": [
           {
             "date": "2021",
-            "value": 5.13
+            "value": 5.44
           },
           {
             "date": "2022",
-            "value": 6.7
+            "value": 6.6
           },
           {
             "date": "2023",
-            "value": 5.65
+            "value": 7.5
           },
           {
             "date": "2024",
-            "value": 4.95
+            "value": 7.48
           },
           {
             "date": "2025",
-            "value": 2.4
+            "value": 8.43
           }
         ]
       },
@@ -1138,7 +1138,7 @@
           }
         ]
       },
-      "narrative": "India's macro picture is marked by low inflation trend, sustained economic growth, moderate labor-market slack, and a dovish policy stance, as indicated by the central bank's relatively low policy rate and a stable exchange rate."
+      "narrative": "India's current macro backdrop suggests a moderate inflation trend, consistent with its growth momentum, and signs of improvement in its labor market, while the policy stance remains mildly hawkish."
     },
     "US": {
       "cpi": {
@@ -1205,29 +1205,29 @@
         "label": "Unemployment",
         "frequency": "annual",
         "unit": "%",
-        "source": "World Bank (SL.UEM.TOTL.ZS)",
+        "source": "World Bank (SL.UEM.TOTL.ZS) [MOCK]",
         "as_of": "2025",
-        "latest": 4.2,
+        "latest": 9.39,
         "series": [
           {
             "date": "2021",
-            "value": 5.35
+            "value": 6.66
           },
           {
             "date": "2022",
-            "value": 3.65
+            "value": 6.89
           },
           {
             "date": "2023",
-            "value": 3.64
+            "value": 8.0
           },
           {
             "date": "2024",
-            "value": 4.02
+            "value": 8.49
           },
           {
             "date": "2025",
-            "value": 4.2
+            "value": 9.39
           }
         ]
       },
@@ -1491,36 +1491,36 @@
         "series": [],
         "note": "USD is Meridian's reference currency for this comparison; no vs-USD series applies."
       },
-      "narrative": "The US economy is experiencing a moderate growth pace with some signs of inflation pressure, although unemployment remains relatively low, suggesting a tight labor market, with the central bank maintaining a steady policy stance."
+      "narrative": "The inflation trend is still slightly above target, suggesting a risk of persistent price pressures, while growth momentum is moderating and the labor market remains in a state of slack with elevated unemployment. The central bank's policy rate is currently poised to continue supporting growth, given the ongoing labor market issues. Overall, the current macro environment indicates a delicate balance between growth and inflation concerns."
     },
     "UK": {
       "cpi": {
         "label": "CPI Inflation (YoY)",
         "frequency": "annual",
         "unit": "%",
-        "source": "World Bank (FP.CPI.TOTL.ZG)",
+        "source": "World Bank (FP.CPI.TOTL.ZG) [MOCK]",
         "as_of": "2025",
-        "latest": 3.88,
+        "latest": 1.48,
         "series": [
           {
             "date": "2021",
-            "value": 2.52
+            "value": 3.4
           },
           {
             "date": "2022",
-            "value": 7.92
+            "value": 3.22
           },
           {
             "date": "2023",
-            "value": 6.79
+            "value": 3.52
           },
           {
             "date": "2024",
-            "value": 3.27
+            "value": 2.62
           },
           {
             "date": "2025",
-            "value": 3.88
+            "value": 1.48
           }
         ]
       },
@@ -2630,7 +2630,7 @@
           }
         ]
       },
-      "narrative": "The UK has seen moderate inflation, stable growth, relatively low unemployment and a tightening policy stance, albeit with some signs of inflation starting to creep upwards. Growth momentum appears steady, but labor market conditions indicate a relatively tight job market."
+      "narrative": "The UK's macro backdrop appears to be stabilizing, with inflation creeping back down and real GDP growth steady, yet labor market slack lingers despite a historically low unemployment rate, indicating continued pressure on wage growth, and the central bank's policy stance seems cautiously neutral with the current policy rate, reflecting a delicate balance between growth and price stability."
     },
     "JP": {
       "cpi": {
@@ -2737,7 +2737,7 @@
             "value": 1.0
           }
         ],
-        "note": "Manual, as of 2026-06-16 \u2014 FRED fetch failed (FRED IRSTCB01JPM156N latest observation is 960d old (2023-12-01) -- treating as stale). Policy rate, raised 25bp to 1.00% (7\u20131 vote) on 2026-06-16 \u2014 highest since 1995."
+        "note": "Manual, as of 2026-06-16 \u2014 FRED fetch failed (FRED IRSTCB01JPM156N latest observation is 961d old (2023-12-01) -- treating as stale). Policy rate, raised 25bp to 1.00% (7\u20131 vote) on 2026-06-16 \u2014 highest since 1995."
       },
       "fx": {
         "label": "JPY per USD",
@@ -3769,7 +3769,7 @@
           }
         ]
       },
-      "narrative": "Japan's economy is characterized by a moderate inflation trend, stable growth momentum, limited labor-market slack, and a relatively accommodative monetary policy stance."
+      "narrative": "Japan's macro backdrop is a story of stable growth, with 1.19% real GDP growth hinting at an economy on steady footing. However, inflation remains above central bank comfort levels at 3.17% YoY, potentially prompting future policy adjustments. The labor market is tight, with unemployment at 2.45%, which may further underscore the need for monetary tightening."
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-18 07:42 UTC",
+  "updated_at": "2026-07-19 08:09 UTC",
   "market": "UK",
   "currency": "\u00a3",
   "companies": [
@@ -13,13 +13,13 @@
       "fcf_per_share": 2.8224758834512924,
       "ebitda_per_share": 8.870019449496604,
       "net_debt_per_share": 9.483114833694735,
-      "sentiment_index": 46.4,
+      "sentiment_index": 47.6,
       "sentiment_breakdown": {
-        "news": 52,
+        "news": 54,
         "macro": 38
       },
       "base_fair_value": 42.22,
-      "sentiment_adjusted_fair_value": 41.76
+      "sentiment_adjusted_fair_value": 41.92
     },
     {
       "ticker": "BP",
@@ -31,13 +31,13 @@
       "fcf_per_share": 0.6506548039552821,
       "ebitda_per_share": 2.2250006341993176,
       "net_debt_per_share": 2.486282262398708,
-      "sentiment_index": 46.4,
+      "sentiment_index": 47.6,
       "sentiment_breakdown": {
-        "news": 52,
+        "news": 54,
         "macro": 38
       },
       "base_fair_value": 6.83,
-      "sentiment_adjusted_fair_value": 6.76
+      "sentiment_adjusted_fair_value": 6.78
     },
     {
       "ticker": "HSBA",
@@ -85,31 +85,31 @@
       "fcf_per_share": 4.229139506858902,
       "ebitda_per_share": 12.91269361004452,
       "net_debt_per_share": 16.992966635593,
-      "sentiment_index": 46.4,
+      "sentiment_index": 47.6,
       "sentiment_breakdown": {
-        "news": 52,
+        "news": 54,
         "macro": 38
       },
       "base_fair_value": 66.69,
-      "sentiment_adjusted_fair_value": 65.97
+      "sentiment_adjusted_fair_value": 66.21
     },
     {
       "ticker": "ULVR",
       "name": "Unilever",
       "sector": "Consumer Staples",
       "price": 46.73,
-      "eps": 2.24,
-      "pe": 20.861607,
+      "eps": 2.23,
+      "pe": 20.955156,
       "fcf_per_share": 2.913397006465255,
       "ebitda_per_share": 5.038548747806881,
       "net_debt_per_share": 10.805315667873465,
-      "sentiment_index": 46.4,
+      "sentiment_index": 47.6,
       "sentiment_breakdown": {
-        "news": 52,
+        "news": 54,
         "macro": 38
       },
       "base_fair_value": 45.94,
-      "sentiment_adjusted_fair_value": 45.44
+      "sentiment_adjusted_fair_value": 45.61
     },
     {
       "ticker": "RIO",
@@ -121,13 +121,13 @@
       "fcf_per_share": 2.7865637621644113,
       "ebitda_per_share": 16.169762378550544,
       "net_debt_per_share": 11.421264517414766,
-      "sentiment_index": 46.4,
+      "sentiment_index": 47.6,
       "sentiment_breakdown": {
-        "news": 52,
+        "news": 54,
         "macro": 38
       },
       "base_fair_value": 43.94,
-      "sentiment_adjusted_fair_value": 43.47
+      "sentiment_adjusted_fair_value": 43.62
     },
     {
       "ticker": "VOD",
