@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21 08:21 UTC",
+  "updated_at": "2026-07-22 08:21 UTC",
   "markets": {
     "IN": {
       "cpi": {
@@ -113,13 +113,9 @@
         "frequency": "daily",
         "unit": "INR",
         "source": "Frankfurter (ECB reference rates)",
-        "as_of": "2026-07-20",
-        "latest": 96.45,
+        "as_of": "2026-07-21",
+        "latest": 96.23,
         "series": [
-          {
-            "date": "2025-07-21",
-            "value": 86.29
-          },
           {
             "date": "2025-07-22",
             "value": 86.43
@@ -1135,10 +1131,14 @@
           {
             "date": "2026-07-20",
             "value": 96.45
+          },
+          {
+            "date": "2026-07-21",
+            "value": 96.23
           }
         ]
       },
-      "narrative": "India's current macro backdrop shows a moderate inflation trend, strong growth momentum with a notable acceleration, a labor market with some slack, and a monetary policy stance that's cautiously easing"
+      "narrative": "India's macroeconomic environment is characterized by a moderate inflation trend and robust growth momentum, with unemployment levels slightly above average, pointing to a relatively tight labor market. The central bank's policy stance appears neutral to mildly accommodative, with room for further rate adjustments as needed. Despite a stable currency, underlying macro fundamentals offer opportunities for sustained economic expansion."
     },
     "US": {
       "cpi": {
@@ -1491,7 +1491,7 @@
         "series": [],
         "note": "USD is Meridian's reference currency for this comparison; no vs-USD series applies."
       },
-      "narrative": "The current macro backdrop in the US suggests a moderate inflation trend, steady economic growth driven by a still healthy labor market, but with a relatively high central bank policy rate that could weigh on growth momentum."
+      "narrative": "The US economy is experiencing a moderate inflation trend, steady growth momentum, and moderate labor-market slack. The central bank's interest rate is positioned to curb inflation while still supporting economic growth, indicating a cautious policy stance."
     },
     "UK": {
       "cpi": {
@@ -1605,13 +1605,9 @@
         "frequency": "daily",
         "unit": "USD",
         "source": "Frankfurter (ECB reference rates)",
-        "as_of": "2026-07-20",
-        "latest": 1.346,
+        "as_of": "2026-07-21",
+        "latest": 1.3401,
         "series": [
-          {
-            "date": "2025-07-21",
-            "value": 1.3479
-          },
           {
             "date": "2025-07-22",
             "value": 1.3486
@@ -2627,10 +2623,14 @@
           {
             "date": "2026-07-20",
             "value": 1.346
+          },
+          {
+            "date": "2026-07-21",
+            "value": 1.3401
           }
         ]
       },
-      "narrative": "The UK's macro environment is characterized by elevated inflation, modest growth momentum, and still some labor-market slack, with high unemployment suggesting that monetary policy still has room to tighten without stalling the economy and the central-bank's rate stance reflects this delicate balancing act."
+      "narrative": "The current macro backdrop in the United Kingdom suggests a slowing inflation trend, with growth momentum losing steam due to high policy rates and a relatively weak labor market with notable slack, particularly considering unemployment rates remain at 4.75 percent."
     },
     "JP": {
       "cpi": {
@@ -2737,20 +2737,16 @@
             "value": 1.0
           }
         ],
-        "note": "Manual, as of 2026-06-16 \u2014 FRED fetch failed (FRED IRSTCB01JPM156N latest observation is 963d old (2023-12-01) -- treating as stale). Policy rate, raised 25bp to 1.00% (7\u20131 vote) on 2026-06-16 \u2014 highest since 1995."
+        "note": "Manual, as of 2026-06-16 \u2014 FRED fetch failed (FRED IRSTCB01JPM156N latest observation is 964d old (2023-12-01) -- treating as stale). Policy rate, raised 25bp to 1.00% (7\u20131 vote) on 2026-06-16 \u2014 highest since 1995."
       },
       "fx": {
         "label": "JPY per USD",
         "frequency": "daily",
         "unit": "JPY",
         "source": "Frankfurter (ECB reference rates)",
-        "as_of": "2026-07-20",
-        "latest": 162.38,
+        "as_of": "2026-07-21",
+        "latest": 162.74,
         "series": [
-          {
-            "date": "2025-07-21",
-            "value": 147.44
-          },
           {
             "date": "2025-07-22",
             "value": 147.17
@@ -3766,10 +3762,14 @@
           {
             "date": "2026-07-20",
             "value": 162.38
+          },
+          {
+            "date": "2026-07-21",
+            "value": 162.74
           }
         ]
       },
-      "narrative": "The Japanese economy is experiencing a moderate inflation trend, with CPI inflation above the desired level, while growth momentum remains fragile and below trend at around 1%. Labor-market conditions are tight, with low unemployment rates, suggesting potential supply-side constraints, while the accommodative central bank policy rate contrasts with these positive labor-market dynamics."
+      "narrative": "Japan's economy is experiencing a moderate inflation trend, with growth momentum slightly above potential, and labor markets are relatively tight, yet the low unemployment rate and high real GDP growth suggest a still-robust recovery. The central bank's policy rate has not kept pace with inflation, indicating easing pressure. The appreciating currency suggests a healthy economy, but may also weigh on exports."
     }
   }
 }

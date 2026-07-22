@@ -1,42 +1,42 @@
 {
-  "updated_at": "2026-07-21 08:21 UTC",
+  "updated_at": "2026-07-22 08:21 UTC",
   "market": "JP",
   "macro_theme": "Geopolitical conflict raises energy-sector risk",
   "signals": [
     {
       "sector": "Consumer Discretionary",
-      "read": "Bearish",
-      "score": 39,
+      "read": "Neutral",
+      "score": 43,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "A geopolitical supply event is negatively impacting the Consumer Discretionary sector by causing a reduction in demand for discretionary products, driven by the overall economic uncertainty.",
+          "text": "A bearish sentiment in the Consumer Discretionary sector is primarily driven by a price war in the Electric Vehicle (EV) market squeezing automaker margins.",
           "forecast": {
-            "low": 1.8,
-            "high": 4.3,
+            "low": 1.7,
+            "high": 4.0,
             "direction": "-",
-            "text": "-1.8% to -4.3%"
+            "text": "-1.7% to -4.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "Consumer spending softens amid rate uncertainty, a decline in consumer behavior that could further worsen the sector's outlook.",
+          "text": "The geopolitical supply event is likely contributing to higher input costs which can erode consumer confidence.",
           "forecast": {
-            "low": 1.8,
-            "high": 4.3,
+            "low": 1.7,
+            "high": 4.0,
             "direction": "-",
-            "text": "-1.8% to -4.3%"
+            "text": "-1.7% to -4.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "An EV price war squeezes automaker margins, a specific instance where a competitive market is already negatively impacting profitability in the automotive industry, which falls under Consumer Discretionary.",
+          "text": "Uncertainty surrounding monetary policy and interest rates can reduce consumer spending power.",
           "forecast": {
-            "low": 1.8,
-            "high": 4.3,
+            "low": 1.7,
+            "high": 4.0,
             "direction": "-",
-            "text": "-1.8% to -4.3%"
+            "text": "-1.7% to -4.0%"
           }
         }
       ]
@@ -44,47 +44,37 @@
     {
       "sector": "Energy",
       "read": "Neutral",
-      "score": 49,
+      "score": 58,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "The Energy sector is mixed (sentiment 49/100) due to a geopolitical supply event.",
+          "text": "Geopolitical supply event concerns are driving the Energy sector's bullish sentiment.",
           "forecast": {
-            "low": 4.1,
-            "high": 9.2,
-            "direction": "-",
-            "text": "-4.1% to -9.2%"
+            "low": 4.6,
+            "high": 10.4,
+            "direction": "+",
+            "text": "+4.6% to +10.4%"
           }
         },
         {
           "role": "supporting",
-          "text": "Oil steadies as supply concerns ease, indicating some stabilisation of supply.",
+          "text": "Oil supply concerns have recently eased, leading to an adjustment in prices.",
           "forecast": {
-            "low": 4.1,
-            "high": 9.2,
-            "direction": "-",
-            "text": "-4.1% to -9.2%"
+            "low": 4.6,
+            "high": 10.4,
+            "direction": "+",
+            "text": "+4.6% to +10.4%"
           }
         },
         {
           "role": "supporting",
-          "text": "Geopolitical tension lifts safe-haven demand, which could boost energy prices.",
+          "text": "Tension has led to an increase in safe-haven demand for oil.",
           "forecast": {
-            "low": 4.1,
-            "high": 9.2,
-            "direction": "-",
-            "text": "-4.1% to -9.2%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Global supply dynamics are being monitored closely due to ongoing geopolitical events.",
-          "forecast": {
-            "low": 4.1,
-            "high": 9.2,
-            "direction": "-",
-            "text": "-4.1% to -9.2%"
+            "low": 4.6,
+            "high": 10.4,
+            "direction": "+",
+            "text": "+4.6% to +10.4%"
           }
         }
       ]
@@ -92,37 +82,17 @@
     {
       "sector": "Financials",
       "read": "Bullish",
-      "score": 66,
+      "score": 64,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "The MAIN impact on the Financials sector is increasing access to emerging market clients and resilient earnings.",
+          "text": "Financials sentiment supported by the prevailing geopolitical supply backdrop",
           "forecast": {
             "low": 1.3,
-            "high": 4.0,
+            "high": 3.8,
             "direction": "+",
-            "text": "+1.3% to +4.0%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Banks have posted resilient quarterly earnings, supporting the Financials sector's upward trend.",
-          "forecast": {
-            "low": 1.3,
-            "high": 4.0,
-            "direction": "+",
-            "text": "+1.3% to +4.0%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Payment networks expanding into emerging markets is driving growth in the sector, tapping into new client bases.",
-          "forecast": {
-            "low": 1.3,
-            "high": 4.0,
-            "direction": "+",
-            "text": "+1.3% to +4.0%"
+            "text": "+1.3% to +3.8%"
           }
         }
       ]
@@ -130,17 +100,17 @@
     {
       "sector": "Healthcare",
       "read": "Bullish",
-      "score": 63,
+      "score": 67,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
           "text": "Healthcare sentiment supported by the prevailing geopolitical supply backdrop",
           "forecast": {
-            "low": 0.6,
-            "high": 2.5,
+            "low": 0.7,
+            "high": 2.7,
             "direction": "+",
-            "text": "+0.6% to +2.5%"
+            "text": "+0.7% to +2.7%"
           }
         }
       ]
@@ -166,7 +136,7 @@
     {
       "sector": "Technology",
       "read": "Neutral",
-      "score": 54,
+      "score": 55,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
@@ -174,9 +144,9 @@
           "text": "Technology sentiment supported by the prevailing geopolitical supply backdrop",
           "forecast": {
             "low": 1.1,
-            "high": 3.2,
+            "high": 3.3,
             "direction": "+",
-            "text": "+1.1% to +3.2%"
+            "text": "+1.1% to +3.3%"
           }
         }
       ]
