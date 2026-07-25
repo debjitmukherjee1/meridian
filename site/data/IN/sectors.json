@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24 08:20 UTC",
+  "updated_at": "2026-07-25 08:00 UTC",
   "market": "IN",
   "index": "NIFTY 50",
   "macro_theme": "Geopolitical conflict raises energy-sector risk",
@@ -8,33 +8,33 @@
   "sectors": [
     {
       "name": "Consumer Discretionary",
-      "score": 56,
+      "score": 49,
       "label": "Neutral"
     },
     {
       "name": "Consumer Staples",
-      "score": 56,
+      "score": 58,
       "label": "Neutral"
     },
     {
       "name": "Energy",
-      "score": 56,
+      "score": 57,
       "label": "Neutral"
     },
     {
       "name": "Financials",
-      "score": 56,
-      "label": "Neutral"
+      "score": 63,
+      "label": "Bullish"
     },
     {
       "name": "Healthcare",
-      "score": 56,
-      "label": "Neutral"
+      "score": 64,
+      "label": "Bullish"
     },
     {
       "name": "Technology",
-      "score": 40,
-      "label": "Neutral"
+      "score": 60,
+      "label": "Bullish"
     }
   ]
 }

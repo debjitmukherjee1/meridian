@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24 08:20 UTC",
+  "updated_at": "2026-07-25 08:00 UTC",
   "market": "JP",
   "macro_theme": "Geopolitical conflict raises energy-sector risk",
   "signals": [
@@ -11,7 +11,7 @@
       "drivers": [
         {
           "role": "main",
-          "text": "Consumer Discretionary sentiment pressured by the prevailing geopolitical supply backdrop",
+          "text": "The geopolitical supply event is driving down the Consumer Discretionary sector sentiment to 45/100, indicating bearish conditions.",
           "forecast": {
             "low": 1.7,
             "high": 3.9,
@@ -29,7 +29,7 @@
       "drivers": [
         {
           "role": "main",
-          "text": "Supply-route risk from conflict pushes crude higher; refiners and upstream names diverge",
+          "text": "The Energy sector is pressured by a geopolitical supply event.",
           "forecast": {
             "low": 4.4,
             "high": 9.9,
@@ -39,7 +39,7 @@
         },
         {
           "role": "supporting",
-          "text": "Freight and insurance costs rising on shipping-lane threats",
+          "text": "Geopolitical tensions have negatively impacted global energy supply.",
           "forecast": {
             "low": 4.4,
             "high": 9.9,
@@ -49,7 +49,17 @@
         },
         {
           "role": "supporting",
-          "text": "Strategic-reserve releases could cap upside, adding two-way risk",
+          "text": "The current geopolitical situation has led to concerns about energy security and availability.",
+          "forecast": {
+            "low": 4.4,
+            "high": 9.9,
+            "direction": "-",
+            "text": "-4.4% to -9.9%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Investors are reacting to the potential disruptions in oil and gas production.",
           "forecast": {
             "low": 4.4,
             "high": 9.9,
@@ -67,7 +77,37 @@
       "drivers": [
         {
           "role": "main",
-          "text": "Financials sentiment pressured by the prevailing geopolitical supply backdrop",
+          "text": "A geopolitical supply event is impacting the Financials sector.",
+          "forecast": {
+            "low": 1.1,
+            "high": 3.3,
+            "direction": "-",
+            "text": "-1.1% to -3.3%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Rupee weakness is causing concern",
+          "forecast": {
+            "low": 1.1,
+            "high": 3.3,
+            "direction": "-",
+            "text": "-1.1% to -3.3%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Volatile markets are affecting earnings pops",
+          "forecast": {
+            "low": 1.1,
+            "high": 3.3,
+            "direction": "-",
+            "text": "-1.1% to -3.3%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "The stock market is showing nervousness among investors",
           "forecast": {
             "low": 1.1,
             "high": 3.3,
@@ -85,7 +125,7 @@
       "drivers": [
         {
           "role": "main",
-          "text": "Healthcare sentiment pressured by the prevailing geopolitical supply backdrop",
+          "text": "The geopolitical supply event is driving a bearish sentiment in the Healthcare sector.",
           "forecast": {
             "low": 0.6,
             "high": 2.2,
@@ -103,7 +143,37 @@
       "drivers": [
         {
           "role": "main",
-          "text": "Industrials sentiment pressured by the prevailing geopolitical supply backdrop",
+          "text": "A geopolitical supply event has driven the Industrials sector sentiment to 45/100, reading bearish.",
+          "forecast": {
+            "low": 1.7,
+            "high": 4.4,
+            "direction": "-",
+            "text": "-1.7% to -4.4%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Rupee weakness has negatively impacted Indian stocks, affecting the sector.",
+          "forecast": {
+            "low": 1.7,
+            "high": 4.4,
+            "direction": "-",
+            "text": "-1.7% to -4.4%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Volatile markets have led to short-lived earnings pops, exacerbating investor sentiment in Industrials.",
+          "forecast": {
+            "low": 1.7,
+            "high": 4.4,
+            "direction": "-",
+            "text": "-1.7% to -4.4%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Geopolitical uncertainty and supply disruptions are significant concerns for the sector.",
           "forecast": {
             "low": 1.7,
             "high": 4.4,
@@ -116,17 +186,47 @@
     {
       "sector": "Technology",
       "read": "Neutral",
-      "score": 45,
+      "score": 50,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Technology sentiment pressured by the prevailing geopolitical supply backdrop",
+          "text": "Geopolitical supply event",
           "forecast": {
-            "low": 1.1,
-            "high": 3.3,
-            "direction": "-",
-            "text": "-1.1% to -3.3%"
+            "low": 1.0,
+            "high": 3.0,
+            "direction": "+",
+            "text": "+1.0% to +3.0%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Earnings pops prove short-lived amid volatile markets",
+          "forecast": {
+            "low": 1.0,
+            "high": 3.0,
+            "direction": "+",
+            "text": "+1.0% to +3.0%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Market research company warn of AI stocks selling cheap",
+          "forecast": {
+            "low": 1.0,
+            "high": 3.0,
+            "direction": "+",
+            "text": "+1.0% to +3.0%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "This is not a flash in the pan : Why value stocks are beating growth by such a wide margin",
+          "forecast": {
+            "low": 1.0,
+            "high": 3.0,
+            "direction": "+",
+            "text": "+1.0% to +3.0%"
           }
         }
       ]
