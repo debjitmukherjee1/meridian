@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-25 08:00 UTC",
+  "updated_at": "2026-07-26 08:20 UTC",
   "market": "UK",
   "currency": "\u00a3",
   "companies": [
@@ -8,18 +8,18 @@
       "name": "Shell",
       "sector": "Energy",
       "price": 33.055,
-      "eps": 2.4,
-      "pe": 13.772916,
+      "eps": 2.41,
+      "pe": 13.715767,
       "fcf_per_share": 2.825212900634133,
       "ebitda_per_share": 8.878620903201753,
       "net_debt_per_share": 9.492310819530736,
-      "sentiment_index": 48.2,
+      "sentiment_index": 52.4,
       "sentiment_breakdown": {
-        "news": 55,
+        "news": 62,
         "macro": 38
       },
-      "base_fair_value": 44.21,
-      "sentiment_adjusted_fair_value": 43.97
+      "base_fair_value": 44.27,
+      "sentiment_adjusted_fair_value": 44.59
     },
     {
       "ticker": "BP",
@@ -31,21 +31,21 @@
       "fcf_per_share": 0.6506548039552821,
       "ebitda_per_share": 2.2250006341993176,
       "net_debt_per_share": 2.486282262398708,
-      "sentiment_index": 48.2,
+      "sentiment_index": 52.4,
       "sentiment_breakdown": {
-        "news": 55,
+        "news": 62,
         "macro": 38
       },
-      "base_fair_value": 6.96,
-      "sentiment_adjusted_fair_value": 6.92
+      "base_fair_value": 6.95,
+      "sentiment_adjusted_fair_value": 7.0
     },
     {
       "ticker": "HSBA",
       "name": "HSBC",
       "sector": "Financials",
       "price": 15.527999999999999,
-      "eps": 0.9,
-      "pe": 17.253334,
+      "eps": 0.91,
+      "pe": 17.063736,
       "fcf_per_share": null,
       "ebitda_per_share": null,
       "net_debt_per_share": -22.706043340004086,
@@ -54,8 +54,8 @@
         "news": 80,
         "macro": 38
       },
-      "base_fair_value": 14.15,
-      "sentiment_adjusted_fair_value": 14.71
+      "base_fair_value": 14.22,
+      "sentiment_adjusted_fair_value": 14.78
     },
     {
       "ticker": "LLOY",
@@ -72,26 +72,26 @@
         "news": 80,
         "macro": 38
       },
-      "base_fair_value": 1.26,
-      "sentiment_adjusted_fair_value": 1.31
+      "base_fair_value": 1.25,
+      "sentiment_adjusted_fair_value": 1.3
     },
     {
       "ticker": "AZN",
       "name": "AstraZeneca",
       "sector": "Healthcare",
       "price": 126.7,
-      "eps": 4.96,
-      "pe": 25.544353,
+      "eps": 4.99,
+      "pe": 25.390781,
       "fcf_per_share": 4.229139506858902,
       "ebitda_per_share": 12.91269361004452,
       "net_debt_per_share": 16.992966635593,
-      "sentiment_index": 63.2,
+      "sentiment_index": 66.2,
       "sentiment_breakdown": {
-        "news": 80,
+        "news": 85,
         "macro": 38
       },
       "base_fair_value": 66.69,
-      "sentiment_adjusted_fair_value": 69.33
+      "sentiment_adjusted_fair_value": 69.93
     },
     {
       "ticker": "ULVR",
@@ -103,21 +103,21 @@
       "fcf_per_share": 2.913397006465255,
       "ebitda_per_share": 5.038548747806881,
       "net_debt_per_share": 10.805315667873465,
-      "sentiment_index": 61.4,
+      "sentiment_index": 63.2,
       "sentiment_breakdown": {
-        "news": 77,
+        "news": 80,
         "macro": 38
       },
       "base_fair_value": 45.94,
-      "sentiment_adjusted_fair_value": 47.51
+      "sentiment_adjusted_fair_value": 47.76
     },
     {
       "ticker": "RIO",
       "name": "Rio Tinto",
       "sector": "Materials",
       "price": 68.69,
-      "eps": 4.55,
-      "pe": 15.096704,
+      "eps": 4.57,
+      "pe": 15.030635,
       "fcf_per_share": 2.7865637621644113,
       "ebitda_per_share": 16.169762378550544,
       "net_debt_per_share": 11.421264517414766,
@@ -139,13 +139,13 @@
       "fcf_per_share": 0.22439962211385228,
       "ebitda_per_share": 0.38857791824520005,
       "net_debt_per_share": 1.7311868045444259,
-      "sentiment_index": 48.2,
+      "sentiment_index": 58.4,
       "sentiment_breakdown": {
-        "news": 55,
+        "news": 72,
         "macro": 38
       },
       "base_fair_value": 3.54,
-      "sentiment_adjusted_fair_value": 3.52
+      "sentiment_adjusted_fair_value": 3.63
     }
   ]
 }
