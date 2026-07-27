@@ -1,52 +1,52 @@
 {
-  "updated_at": "2026-07-26 08:20 UTC",
+  "updated_at": "2026-07-27 09:42 UTC",
   "market": "JP",
   "macro_theme": "Geopolitical conflict raises energy-sector risk",
   "signals": [
     {
       "sector": "Consumer Discretionary",
-      "read": "Bearish",
-      "score": 39,
+      "read": "Neutral",
+      "score": 54,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "The geopolitical supply event triggered by an EV price war is severely impacting Consumer Discretionary sector, squeezing automaker margins.",
+          "text": "The geopolitical supply event has driven the Consumer Discretionary sector's mixed sentiment.",
           "forecast": {
-            "low": 1.8,
-            "high": 4.3,
-            "direction": "-",
-            "text": "-1.8% to -4.3%"
+            "low": 1.6,
+            "high": 3.8,
+            "direction": "+",
+            "text": "+1.6% to +3.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "Consumer spending is softening amid rate uncertainty, which is affecting the overall demand.",
+          "text": "Rupee weakness has affected Sensex and Nifty indexes",
           "forecast": {
-            "low": 1.8,
-            "high": 4.3,
-            "direction": "-",
-            "text": "-1.8% to -4.3%"
+            "low": 1.6,
+            "high": 3.8,
+            "direction": "+",
+            "text": "+1.6% to +3.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "The price war among EV manufacturers is leading to squeezed margins for automakers, a key component of the sector.",
+          "text": "Volatility in the market has led to short-lived earnings pops",
           "forecast": {
-            "low": 1.8,
-            "high": 4.3,
-            "direction": "-",
-            "text": "-1.8% to -4.3%"
+            "low": 1.6,
+            "high": 3.8,
+            "direction": "+",
+            "text": "+1.6% to +3.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "Supply disruptions due to the geopolitical event are limiting the sector's ability to meet consumer demand.",
+          "text": "Value stocks are currently outperforming growth stocks",
           "forecast": {
-            "low": 1.8,
-            "high": 4.3,
-            "direction": "-",
-            "text": "-1.8% to -4.3%"
+            "low": 1.6,
+            "high": 3.8,
+            "direction": "+",
+            "text": "+1.6% to +3.8%"
           }
         }
       ]
@@ -59,7 +59,7 @@
       "drivers": [
         {
           "role": "main",
-          "text": "Geopolitical supply concerns are driving the mixed sentiment in the Energy sector.",
+          "text": "A geopolitical supply event is driving mixed sentiment in the Energy sector (sentiment 54/100).",
           "forecast": {
             "low": 4.3,
             "high": 9.7,
@@ -69,7 +69,7 @@
         },
         {
           "role": "supporting",
-          "text": "Supply concerns have eased but still affect sentiment",
+          "text": "Market volatility, as seen in Sensex fluctuations and the weak Rupee, has a cascading effect on the Energy sector.",
           "forecast": {
             "low": 4.3,
             "high": 9.7,
@@ -79,7 +79,17 @@
         },
         {
           "role": "supporting",
-          "text": "Geopolitical tension is lifting safe-haven demand",
+          "text": "Earnings performance is not translating into sustained support for Energy stocks, amid a broader trend of earnings pops being short-lived.",
+          "forecast": {
+            "low": 4.3,
+            "high": 9.7,
+            "direction": "+",
+            "text": "+4.3% to +9.7%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Global economic conditions are influencing investor appetite for Energy stocks, as evident from Trump's Bull Market concerns.",
           "forecast": {
             "low": 4.3,
             "high": 9.7,
@@ -91,66 +101,96 @@
     },
     {
       "sector": "Financials",
-      "read": "Bullish",
-      "score": 62,
+      "read": "Neutral",
+      "score": 54,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "The MAIN impact on the Financials sector is the geopolitical supply event driving an increase in trade, benefiting the sector.",
+          "text": "The Financials sector is experiencing sentiment mixedness driven by a geopolitical supply event.",
           "forecast": {
-            "low": 1.2,
-            "high": 3.7,
+            "low": 1.1,
+            "high": 3.2,
             "direction": "+",
-            "text": "+1.2% to +3.7%"
+            "text": "+1.1% to +3.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "Resilient quarterly earnings from banks boosted investor sentiment.",
+          "text": "Rupee weakness as seen in Indian stock market performance may be impacting sectors",
           "forecast": {
-            "low": 1.2,
-            "high": 3.7,
+            "low": 1.1,
+            "high": 3.2,
             "direction": "+",
-            "text": "+1.2% to +3.7%"
+            "text": "+1.1% to +3.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "Payment networks expanding into emerging markets offer opportunities for growth.",
+          "text": "Volatility in markets is causing earnings-driven stock movements to remain short-lived",
           "forecast": {
-            "low": 1.2,
-            "high": 3.7,
+            "low": 1.1,
+            "high": 3.2,
             "direction": "+",
-            "text": "+1.2% to +3.7%"
+            "text": "+1.1% to +3.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "Strong trade due to geopolitical tensions has increased the usage of payment networks.",
+          "text": "Value stocks beating growth stocks as seen in US market data could have some implications",
           "forecast": {
-            "low": 1.2,
-            "high": 3.7,
+            "low": 1.1,
+            "high": 3.2,
             "direction": "+",
-            "text": "+1.2% to +3.7%"
+            "text": "+1.1% to +3.2%"
           }
         }
       ]
     },
     {
       "sector": "Healthcare",
-      "read": "Bullish",
-      "score": 66,
+      "read": "Neutral",
+      "score": 54,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Healthcare sentiment supported by the prevailing geopolitical supply backdrop",
+          "text": "The geopolitical supply event has affected global trade, leading to uncertainty in healthcare supply chains",
           "forecast": {
-            "low": 0.7,
-            "high": 2.6,
+            "low": 0.5,
+            "high": 2.2,
             "direction": "+",
-            "text": "+0.7% to +2.6%"
+            "text": "+0.5% to +2.2%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Rupee weakness may impact imports of vital supplies affecting the sector (Source: Sensex Gains 118 Points After Late Recovery, Nifty Ends Above 23, 650 Despite Rupee Weakness)",
+          "forecast": {
+            "low": 0.5,
+            "high": 2.2,
+            "direction": "+",
+            "text": "+0.5% to +2.2%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Market volatility may hinder investor confidence, driving down growth stocks (Source: Trump Bull Market Is Standing on Shaky Legs. Just 5 Stocks Account for 52% of the S&P Gains)",
+          "forecast": {
+            "low": 0.5,
+            "high": 2.2,
+            "direction": "+",
+            "text": "+0.5% to +2.2%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Recent market trends indicate a shift towards value stocks, potentially benefitting sectors with stable supply chains (Source: This is not a flash in the pan: Why value stocks are beating growth by such a wide margin)",
+          "forecast": {
+            "low": 0.5,
+            "high": 2.2,
+            "direction": "+",
+            "text": "+0.5% to +2.2%"
           }
         }
       ]
@@ -158,35 +198,35 @@
     {
       "sector": "Industrials",
       "read": "Neutral",
-      "score": 45,
+      "score": 54,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Industrials sentiment pressured by the prevailing geopolitical supply backdrop",
+          "text": "Industrials sentiment supported by the prevailing geopolitical supply backdrop",
           "forecast": {
-            "low": 1.7,
-            "high": 4.4,
-            "direction": "-",
-            "text": "-1.7% to -4.4%"
+            "low": 1.6,
+            "high": 4.3,
+            "direction": "+",
+            "text": "+1.6% to +4.3%"
           }
         }
       ]
     },
     {
       "sector": "Technology",
-      "read": "Neutral",
-      "score": 57,
+      "read": "Bearish",
+      "score": 39,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Technology sentiment supported by the prevailing geopolitical supply backdrop",
+          "text": "Technology sentiment pressured by the prevailing geopolitical supply backdrop",
           "forecast": {
-            "low": 1.1,
-            "high": 3.4,
-            "direction": "+",
-            "text": "+1.1% to +3.4%"
+            "low": 1.2,
+            "high": 3.7,
+            "direction": "-",
+            "text": "-1.2% to -3.7%"
           }
         }
       ]

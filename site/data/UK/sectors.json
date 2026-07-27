@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26 08:20 UTC",
+  "updated_at": "2026-07-27 09:42 UTC",
   "market": "UK",
   "index": "FTSE 100",
   "macro_theme": "Geopolitical conflict raises energy-sector risk",
@@ -13,17 +13,17 @@
     },
     {
       "name": "Energy",
-      "score": 52,
+      "score": 49,
       "label": "Neutral"
     },
     {
       "name": "Financials",
-      "score": 63,
+      "score": 67,
       "label": "Bullish"
     },
     {
       "name": "Healthcare",
-      "score": 66,
+      "score": 70,
       "label": "Bullish"
     },
     {
@@ -33,8 +33,8 @@
     },
     {
       "name": "Technology",
-      "score": 58,
-      "label": "Neutral"
+      "score": 63,
+      "label": "Bullish"
     }
   ]
 }
