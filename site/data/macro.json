@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-27 09:42 UTC",
+  "updated_at": "2026-07-28 08:27 UTC",
   "markets": {
     "IN": {
       "cpi": {
@@ -36,29 +36,29 @@
         "label": "Real GDP Growth",
         "frequency": "annual",
         "unit": "%",
-        "source": "World Bank (NY.GDP.MKTP.KD.ZG) [MOCK]",
+        "source": "World Bank (NY.GDP.MKTP.KD.ZG)",
         "as_of": "2025",
-        "latest": 5.77,
+        "latest": 7.57,
         "series": [
           {
             "date": "2021",
-            "value": 2.95
+            "value": 9.69
           },
           {
             "date": "2022",
-            "value": 3.5
+            "value": 7.61
           },
           {
             "date": "2023",
-            "value": 4.66
+            "value": 7.21
           },
           {
             "date": "2024",
-            "value": 5.71
+            "value": 7.1
           },
           {
             "date": "2025",
-            "value": 5.77
+            "value": 7.57
           }
         ]
       },
@@ -66,29 +66,29 @@
         "label": "Unemployment",
         "frequency": "annual",
         "unit": "%",
-        "source": "World Bank (SL.UEM.TOTL.ZS) [MOCK]",
+        "source": "World Bank (SL.UEM.TOTL.ZS)",
         "as_of": "2025",
-        "latest": 3.7,
+        "latest": 4.22,
         "series": [
           {
             "date": "2021",
-            "value": 5.36
+            "value": 6.38
           },
           {
             "date": "2022",
-            "value": 5.19
+            "value": 4.82
           },
           {
             "date": "2023",
-            "value": 4.8
+            "value": 4.17
           },
           {
             "date": "2024",
-            "value": 4.02
+            "value": 4.17
           },
           {
             "date": "2025",
-            "value": 3.7
+            "value": 4.22
           }
         ]
       },
@@ -113,13 +113,9 @@
         "frequency": "daily",
         "unit": "INR",
         "source": "Frankfurter (ECB reference rates)",
-        "as_of": "2026-07-24",
-        "latest": 96.56,
+        "as_of": "2026-07-27",
+        "latest": 95.92,
         "series": [
-          {
-            "date": "2025-07-25",
-            "value": 86.51
-          },
           {
             "date": "2025-07-28",
             "value": 86.7
@@ -1135,39 +1131,43 @@
           {
             "date": "2026-07-24",
             "value": 96.56
+          },
+          {
+            "date": "2026-07-27",
+            "value": 95.92
           }
         ]
       },
-      "narrative": "India's macro backdrop is marked by a deceleration in inflation, maintaining a relatively stable economic growth trajectory, albeit with pockets of underlying labor-market slack, and an accommodative monetary policy stance."
+      "narrative": "India's macroeconomic environment appears to be stable, with CPI inflation at a modest level and real GDP growth showing resilience. Despite unemployment rates, the economy seems to be maintaining momentum. The central-bank's policy stance continues to signal caution, reflected in the current interest rate."
     },
     "US": {
       "cpi": {
         "label": "CPI Inflation (YoY)",
         "frequency": "annual",
         "unit": "%",
-        "source": "World Bank (FP.CPI.TOTL.ZG) [MOCK]",
-        "as_of": "2025",
-        "latest": 5.4,
+        "source": "World Bank (FP.CPI.TOTL.ZG)",
+        "as_of": "2024",
+        "latest": 2.95,
         "series": [
           {
+            "date": "2020",
+            "value": 1.23
+          },
+          {
             "date": "2021",
-            "value": 4.99
+            "value": 4.7
           },
           {
             "date": "2022",
-            "value": 5.35
+            "value": 8.0
           },
           {
             "date": "2023",
-            "value": 6.19
+            "value": 4.12
           },
           {
             "date": "2024",
-            "value": 5.96
-          },
-          {
-            "date": "2025",
-            "value": 5.4
+            "value": 2.95
           }
         ]
       },
@@ -1205,29 +1205,29 @@
         "label": "Unemployment",
         "frequency": "annual",
         "unit": "%",
-        "source": "World Bank (SL.UEM.TOTL.ZS) [MOCK]",
+        "source": "World Bank (SL.UEM.TOTL.ZS)",
         "as_of": "2025",
-        "latest": 9.39,
+        "latest": 4.2,
         "series": [
           {
             "date": "2021",
-            "value": 6.66
+            "value": 5.35
           },
           {
             "date": "2022",
-            "value": 6.89
+            "value": 3.65
           },
           {
             "date": "2023",
-            "value": 8.0
+            "value": 3.64
           },
           {
             "date": "2024",
-            "value": 8.49
+            "value": 4.02
           },
           {
             "date": "2025",
-            "value": 9.39
+            "value": 4.2
           }
         ]
       },
@@ -1491,36 +1491,36 @@
         "series": [],
         "note": "USD is Meridian's reference currency for this comparison; no vs-USD series applies."
       },
-      "narrative": "United States: CPI inflation 5.4% (2025), real GDP growth 2.16% (2025), unemployment 9.39% (2025), policy rate 3.63% (2026-06-01)."
+      "narrative": "United States: CPI inflation 2.95% (2024), real GDP growth 2.16% (2025), unemployment 4.2% (2025), policy rate 3.63% (2026-06-01)."
     },
     "UK": {
       "cpi": {
         "label": "CPI Inflation (YoY)",
         "frequency": "annual",
         "unit": "%",
-        "source": "World Bank (FP.CPI.TOTL.ZG) [MOCK]",
+        "source": "World Bank (FP.CPI.TOTL.ZG)",
         "as_of": "2025",
-        "latest": 1.48,
+        "latest": 3.88,
         "series": [
           {
             "date": "2021",
-            "value": 3.4
+            "value": 2.52
           },
           {
             "date": "2022",
-            "value": 3.22
+            "value": 7.92
           },
           {
             "date": "2023",
-            "value": 3.52
+            "value": 6.79
           },
           {
             "date": "2024",
-            "value": 2.62
+            "value": 3.27
           },
           {
             "date": "2025",
-            "value": 1.48
+            "value": 3.88
           }
         ]
       },
@@ -1605,13 +1605,9 @@
         "frequency": "daily",
         "unit": "USD",
         "source": "Frankfurter (ECB reference rates)",
-        "as_of": "2026-07-24",
-        "latest": 1.3324,
+        "as_of": "2026-07-27",
+        "latest": 1.3317,
         "series": [
-          {
-            "date": "2025-07-25",
-            "value": 1.3453
-          },
           {
             "date": "2025-07-28",
             "value": 1.3428
@@ -2627,10 +2623,14 @@
           {
             "date": "2026-07-24",
             "value": 1.3324
+          },
+          {
+            "date": "2026-07-27",
+            "value": 1.3317
           }
         ]
       },
-      "narrative": "The UK's macro backdrop suggests a mild economic expansion with modest growth momentum, low inflation trend, and relatively high labor-market slack but with tightening monetary conditions from a high central-bank policy rate."
+      "narrative": "The UK economy is navigating a challenging inflation environment, underpinned by steady but moderate real GDP growth, while labor markets remain relatively tight. Monetary policy is set to remain restrictive, with the central bank standing pat given the ongoing inflation pressures. This cautious stance is likely reflecting concerns about maintaining price stability despite a modest level of slack left in the labor market."
     },
     "JP": {
       "cpi": {
@@ -2737,20 +2737,16 @@
             "value": 1.0
           }
         ],
-        "note": "Manual, as of 2026-06-16 \u2014 FRED fetch failed (FRED IRSTCB01JPM156N latest observation is 969d old (2023-12-01) -- treating as stale). Policy rate, raised 25bp to 1.00% (7\u20131 vote) on 2026-06-16 \u2014 highest since 1995."
+        "note": "Manual, as of 2026-06-16 \u2014 FRED fetch failed (FRED IRSTCB01JPM156N latest observation is 970d old (2023-12-01) -- treating as stale). Policy rate, raised 25bp to 1.00% (7\u20131 vote) on 2026-06-16 \u2014 highest since 1995."
       },
       "fx": {
         "label": "JPY per USD",
         "frequency": "daily",
         "unit": "JPY",
         "source": "Frankfurter (ECB reference rates)",
-        "as_of": "2026-07-24",
-        "latest": 163.82,
+        "as_of": "2026-07-27",
+        "latest": 163.64,
         "series": [
-          {
-            "date": "2025-07-25",
-            "value": 147.65
-          },
           {
             "date": "2025-07-28",
             "value": 148.15
@@ -3766,10 +3762,14 @@
           {
             "date": "2026-07-24",
             "value": 163.82
+          },
+          {
+            "date": "2026-07-27",
+            "value": 163.64
           }
         ]
       },
-      "narrative": "Japan's current macro backdrop is characterized by moderate inflation, tepid growth, and an extremely favorable labor market with low unemployment, while the central bank maintains interest rates at a relatively accommodative level."
+      "narrative": "Japan: CPI inflation 3.17% (2025), real GDP growth 1.19% (2025), unemployment 2.45% (2025), policy rate 1.0% (2026-06-16). The currency stands at 163.64 (JPY per USD, as of 2026-07-27)."
     }
   }
 }
