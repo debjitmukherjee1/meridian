@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-28 08:27 UTC",
+  "updated_at": "2026-07-29 08:33 UTC",
   "market": "UK",
   "items": [
     {
@@ -7,63 +7,70 @@
       "sector": "Market",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/better-value-stock-microsoft-nvidia-152500114.html",
-      "note": "Comparative analysis suggests both stocks have value, no clear direction."
+      "note": "Neutral comparison between Microsoft and Nvidia does not sway overall sentiment"
     },
     {
       "title": "Sensex Gains 118 Points After Late Recovery , Nifty Ends Above 23 , 650 Despite Rupee Weakness",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://www.freepressjournal.in/business/sensex-gains-118-points-after-late-recovery-nifty-ends-above-23650-despite-rupee-weakness",
-      "note": "Market stabilization is positive, but currency weakness causes some concern."
+      "note": "Sensex gaining points indicates a positive market despite rupee weakness concerns"
     },
     {
       "title": "Jim Cramer Shared Latest Take On Mega Quantum Computing Investment & Discussed These 13 Stocks",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://www.insidermonkey.com/blog/jim-cramer-shared-latest-take-on-mega-quantum-computing-investment-discussed-these-13-stocks-1768029/",
-      "note": "Jim Cramer's endorsement can boost stock prices, making his list influential."
+      "note": "Jim Cramer's discussion of 13 stocks adds uncertainty to market expectations"
+    },
+    {
+      "title": "Amazon , Apple , Meta , Microsoft Earnings on Deck : 33 % of Benzinga Viewers Say This is Top Report to Watch",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/07/60742266/amazon-apple-meta-microsoft-earnings-on-deck-33-of-benzinga-viewers-say-this-is-top-report-to-watch",
+      "note": "Amazon, Apple and Meta earnings raise excitement, but Microsoft's involvement neutralizes"
     },
     {
       "title": "Morgan Stanley issues verdict for nervous stock market investors",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-issues-verdict-nervous-183300077.html",
-      "note": "Morgan Stanley's verdict may reassure investors, promoting cautious optimism."
+      "note": "Morgan Stanley's verdict and investor nervousness suggest caution"
     },
     {
       "title": "This is not a flash in the pan : Why value stocks are beating growth by such a wide margin",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/not-flash-pan-why-value-225000407.html",
-      "note": "Value stocks beating growth may signal market correction, leading to some recovery."
+      "note": "Value stocks beating growth stocks adds a bullish note to market dynamics"
     },
     {
       "title": "Earnings pops prove short - lived amid volatile markets",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://www.livemint.com/market/stock-market-news/india-stock-market-earnings-season-short-lived-gains-investor-focus-future-guidance-11779180072439.html",
-      "note": "Volatility and fleeting earnings pops indicate ongoing market uncertainty."
+      "note": "Earnings pops being short-lived suggests market caution amidst volatility"
     },
     {
       "title": "Trump Bull Market Is Standing on Shaky Legs . Just 5 Stocks Account for 52 % of the S & P Gains",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/trump-bull-market-standing-shaky-161730353.html",
-      "note": "Weakness in the S&P, driven by Trump-era stocks, signals market unease."
+      "note": "Trump bull market concerns add volatility, affecting investor optimism"
     },
     {
       "title": "Market research company warn of AI stocks selling cheap ; say they point to a  dangerous sign",
       "sector": "Technology",
       "tone": 0.0,
       "url": "https://timesofindia.indiatimes.com/technology/tech-news/market-research-company-warn-of-ai-stocks-selling-cheap-say-they-point-to-a-dangerous-sign/articleshow/131900405.cms",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Technology sentiment."
+      "note": "Market researcher's warning of AI stocks undervaluation could boost sentiment."
     },
     {
       "title": "Mid - and small - cap outperformance cycle may be back after earnings reset : Brokerage",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://www.moneycontrol.com/news/business/markets/mid-and-small-cap-outperformance-cycle-may-be-back-after-earnings-reset-brokerage-13933014.html",
-      "note": "Brokerage's prediction of mid-cap outperformance cycle could boost overall sentiment."
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
     },
     {
       "title": "Price Action : Embassy Developments , Kansai Nerolac , Paytm gain up to 20 %; KPI Tech , Blue Star decline after earnings",
@@ -77,13 +84,6 @@
       "sector": "Market",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-getting-more-bullish-165847579.html",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
-    },
-    {
-      "title": "Why large cap and mid cap funds could be the best mutual fund to bet on now , according to Abakkus study",
-      "sector": "Market",
-      "tone": 0.0,
-      "url": "https://www.livemint.com/market/stock-market-news/why-large-cap-and-mid-cap-funds-could-be-the-best-mutual-fund-to-bet-on-now-according-to-abakkus-study-11783754490006.html",
       "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-28 08:27 UTC",
+  "updated_at": "2026-07-29 08:33 UTC",
   "market": "US",
   "items": [
     {
@@ -7,84 +7,84 @@
       "sector": "Technology",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/better-value-stock-microsoft-nvidia-152500114.html",
-      "note": "Investor confusion between Microsoft and Nvidia creates market unease due to unclear value."
+      "note": "Comparison between Microsoft and Nvidia stocks may shift investor attention towards growth."
     },
     {
       "title": "Sensex Gains 118 Points After Late Recovery , Nifty Ends Above 23 , 650 Despite Rupee Weakness",
       "sector": "Financials",
       "tone": 0.0,
       "url": "https://www.freepressjournal.in/business/sensex-gains-118-points-after-late-recovery-nifty-ends-above-23650-despite-rupee-weakness",
-      "note": "Late recovery and strength of Sensex and Nifty index boosts investor sentiment."
+      "note": "Sensex gains indicate slight optimism amidst global market fluctuations."
     },
     {
       "title": "Jim Cramer Shared Latest Take On Mega Quantum Computing Investment & Discussed These 13 Stocks",
       "sector": "Financials",
       "tone": 0.0,
       "url": "https://www.insidermonkey.com/blog/jim-cramer-shared-latest-take-on-mega-quantum-computing-investment-discussed-these-13-stocks-1768029/",
-      "note": "Jim Cramer's views on specific stocks may influence investors but have minimal impact directly on Financials."
+      "note": "Cramer's positive views on stocks do not specifically mention Financials."
+    },
+    {
+      "title": "Amazon , Apple , Meta , Microsoft Earnings on Deck : 33 % of Benzinga Viewers Say This is Top Report to Watch",
+      "sector": "Technology",
+      "tone": 0.0,
+      "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/07/60742266/amazon-apple-meta-microsoft-earnings-on-deck-33-of-benzinga-viewers-say-this-is-top-report-to-watch",
+      "note": "High viewer interest in tech earnings reports could boost investor confidence."
     },
     {
       "title": "Morgan Stanley issues verdict for nervous stock market investors",
       "sector": "Financials",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-issues-verdict-nervous-183300077.html",
-      "note": "Morgan Stanley's verdict may raise concerns and create uncertainty, contributing to bearish sentiment."
+      "note": "Morgan Stanley's verdict for investors suggests caution and neutral sentiment."
     },
     {
       "title": "This is not a flash in the pan : Why value stocks are beating growth by such a wide margin",
       "sector": "Financials",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/not-flash-pan-why-value-225000407.html",
-      "note": "Value stocks beating growth stocks may indicate long-term bullishness in Financials sector."
+      "note": "Value stocks beating growth stocks indicate a slight shift toward value stocks."
     },
     {
       "title": "Earnings pops prove short - lived amid volatile markets",
       "sector": "Financials",
       "tone": 0.0,
       "url": "https://www.livemint.com/market/stock-market-news/india-stock-market-earnings-season-short-lived-gains-investor-focus-future-guidance-11779180072439.html",
-      "note": "Short-lived earnings pops may indicate volatility but have a limited direct impact on investor sentiment."
+      "note": "Short-lived earnings pops suggest volatility in the market."
     },
     {
       "title": "Trump Bull Market Is Standing on Shaky Legs . Just 5 Stocks Account for 52 % of the S & P Gains",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/trump-bull-market-standing-shaky-161730353.html",
-      "note": "Investor concern due to market instability and heavy dependency on a few stocks"
+      "note": "Investor sentiment is bearish due to shaky market foundation and high concentration."
     },
     {
       "title": "Market research company warn of AI stocks selling cheap ; say they point to a  dangerous sign",
       "sector": "Technology",
       "tone": 0.0,
       "url": "https://timesofindia.indiatimes.com/technology/tech-news/market-research-company-warn-of-ai-stocks-selling-cheap-say-they-point-to-a-dangerous-sign/articleshow/131900405.cms",
-      "note": "Market research warning of AI stocks selling cheap suggests caution and potential downturn."
+      "note": "Warning about AI stocks being undervalued could lead to increased investor interest and buying."
     },
     {
       "title": "Mid - and small - cap outperformance cycle may be back after earnings reset : Brokerage",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://www.moneycontrol.com/news/business/markets/mid-and-small-cap-outperformance-cycle-may-be-back-after-earnings-reset-brokerage-13933014.html",
-      "note": "Expectation of potential resurgence in mid-and small-cap performance post-earnings season"
+      "note": "Market sentiment is neutral with potential return to growth after earnings reset."
     },
     {
       "title": "Price Action : Embassy Developments , Kansai Nerolac , Paytm gain up to 20 %; KPI Tech , Blue Star decline after earnings",
       "sector": "Financials",
       "tone": 0.0,
       "url": "https://www.moneycontrol.com/news/business/markets/price-action-embassy-developments-kansai-nerolac-paytm-gain-up-to-20-kpi-tech-blue-star-decline-after-earnings-13911400.html",
-      "note": "Price actions of specific stocks may influence individual stocks but have minimal overall impact on Financials sector."
+      "note": "Price action of specific companies does not reflect overall sentiment for Financials."
     },
     {
       "title": "Wall Street Is Getting More Bullish on Stocks . The S & P 500 Is  Earning  Its Gains .",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-getting-more-bullish-165847579.html",
-      "note": "Increasing bullishness among Wall Street professionals supporting S& P 500 gains"
-    },
-    {
-      "title": "Why large cap and mid cap funds could be the best mutual fund to bet on now , according to Abakkus study",
-      "sector": "Market",
-      "tone": 0.0,
-      "url": "https://www.livemint.com/market/stock-market-news/why-large-cap-and-mid-cap-funds-could-be-the-best-mutual-fund-to-bet-on-now-according-to-abakkus-study-11783754490006.html",
-      "note": "Recommendation to allocate funds in large-cap and mid-cap based mutual funds"
+      "note": "Investor sentiment is moderately bullish with Wall Street's optimistic outlook."
     }
   ]
 }
