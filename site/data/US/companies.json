@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-29 08:33 UTC",
+  "updated_at": "2026-07-30 08:18 UTC",
   "market": "US",
   "currency": "$",
   "companies": [
@@ -7,145 +7,145 @@
       "ticker": "AAPL",
       "name": "Apple",
       "sector": "Technology",
-      "price": 340.08,
-      "eps": 8.33,
-      "pe": 40.825928,
+      "price": 338.19,
+      "eps": 8.22,
+      "pe": 41.142334,
       "fcf_per_share": 6.882841701937367,
       "ebitda_per_share": 10.892089593252864,
       "net_debt_per_share": 1.1032616887614082,
-      "sentiment_index": 57.2,
+      "sentiment_index": 55.4,
       "sentiment_breakdown": {
-        "news": 70,
+        "news": 67,
         "macro": 38
       },
-      "base_fair_value": 210.72,
-      "sentiment_adjusted_fair_value": 215.27
+      "base_fair_value": 209.82,
+      "sentiment_adjusted_fair_value": 213.22
     },
     {
       "ticker": "MSFT",
       "name": "Microsoft",
       "sector": "Technology",
-      "price": 393.35,
-      "eps": 16.99,
-      "pe": 23.151855,
+      "price": 390.54,
+      "eps": 16.68,
+      "pe": 23.41367,
       "fcf_per_share": 4.982375517155788,
       "ebitda_per_share": 24.831207429026087,
       "net_debt_per_share": 6.354501536990289,
-      "sentiment_index": 57.2,
+      "sentiment_index": 55.4,
       "sentiment_breakdown": {
-        "news": 70,
+        "news": 67,
         "macro": 38
       },
-      "base_fair_value": 401.49,
-      "sentiment_adjusted_fair_value": 410.16
+      "base_fair_value": 398.6,
+      "sentiment_adjusted_fair_value": 405.06
     },
     {
       "ticker": "JPM",
       "name": "JPMorgan Chase",
       "sector": "Financials",
-      "price": 357.31,
-      "eps": 23.4,
-      "pe": 15.269658,
+      "price": 344.71,
+      "eps": 22.51,
+      "pe": 15.313638,
       "fcf_per_share": null,
       "ebitda_per_share": null,
       "net_debt_per_share": -182.15073177338047,
-      "sentiment_index": 47.0,
+      "sentiment_index": 60.2,
       "sentiment_breakdown": {
-        "news": 53,
+        "news": 75,
         "macro": 38
       },
-      "base_fair_value": 549.04,
-      "sentiment_adjusted_fair_value": 544.1
+      "base_fair_value": 531.98,
+      "sentiment_adjusted_fair_value": 548.26
     },
     {
       "ticker": "V",
       "name": "Visa",
       "sector": "Financials",
-      "price": 366.59,
-      "eps": 11.58,
-      "pe": 31.657167,
-      "fcf_per_share": 12.556260121241476,
-      "ebitda_per_share": 18.161607636869885,
-      "net_debt_per_share": 6.063107388815698,
-      "sentiment_index": 47.0,
+      "price": 368.73,
+      "eps": 11.54,
+      "pe": 31.952341,
+      "fcf_per_share": 12.229091248116717,
+      "ebitda_per_share": 17.6883845077443,
+      "net_debt_per_share": 5.90512563366892,
+      "sentiment_index": 60.2,
       "sentiment_breakdown": {
-        "news": 53,
+        "news": 75,
         "macro": 38
       },
-      "base_fair_value": 234.85,
-      "sentiment_adjusted_fair_value": 232.74
+      "base_fair_value": 232.78,
+      "sentiment_adjusted_fair_value": 239.9
     },
     {
       "ticker": "XOM",
       "name": "Exxon Mobil",
       "sector": "Energy",
-      "price": 153.04,
-      "eps": 5.88,
-      "pe": 26.027208,
+      "price": 156.75,
+      "eps": 6.08,
+      "pe": 25.78125,
       "fcf_per_share": 2.805946465765828,
       "ebitda_per_share": 13.512114358769237,
       "net_debt_per_share": 9.463570297738816,
-      "sentiment_index": 48.2,
+      "sentiment_index": 56.0,
       "sentiment_breakdown": {
-        "news": 55,
+        "news": 68,
         "macro": 38
       },
       "base_fair_value": 44.25,
-      "sentiment_adjusted_fair_value": 44.01
+      "sentiment_adjusted_fair_value": 45.05
     },
     {
       "ticker": "AMZN",
       "name": "Amazon",
       "sector": "Consumer Discretionary",
-      "price": 230.86,
-      "eps": 8.33,
-      "pe": 27.714287,
+      "price": 226.65,
+      "eps": 8.2,
+      "pe": 27.640244,
       "fcf_per_share": 0.9116412570072882,
       "ebitda_per_share": 14.489114657362494,
       "net_debt_per_share": 8.59441034397226,
-      "sentiment_index": 48.2,
+      "sentiment_index": 42.2,
       "sentiment_breakdown": {
-        "news": 55,
+        "news": 45,
         "macro": 38
       },
       "base_fair_value": 14.38,
-      "sentiment_adjusted_fair_value": 14.3
+      "sentiment_adjusted_fair_value": 14.04
     },
     {
       "ticker": "KO",
       "name": "Coca-Cola",
       "sector": "Consumer Staples",
-      "price": 88.27,
-      "eps": 3.34,
-      "pe": 26.428143,
-      "fcf_per_share": 0.7260632377411108,
-      "ebitda_per_share": 3.884499141993958,
-      "net_debt_per_share": 7.164071057401813,
-      "sentiment_index": 48.2,
+      "price": 89.08,
+      "eps": 3.21,
+      "pe": 27.750778,
+      "fcf_per_share": 1.2445387348361607,
+      "ebitda_per_share": 3.986521002091564,
+      "net_debt_per_share": 6.314663890309086,
+      "sentiment_index": 63.2,
       "sentiment_breakdown": {
-        "news": 55,
+        "news": 80,
         "macro": 38
       },
-      "base_fair_value": 11.45,
-      "sentiment_adjusted_fair_value": 11.39
+      "base_fair_value": 19.63,
+      "sentiment_adjusted_fair_value": 20.41
     },
     {
       "ticker": "PFE",
       "name": "Pfizer",
       "sector": "Healthcare",
-      "price": 25.25,
-      "eps": 1.34,
-      "pe": 18.843283,
+      "price": 25.15,
+      "eps": 1.31,
+      "pe": 19.198473,
       "fcf_per_share": 2.1715495029003065,
       "ebitda_per_share": 4.467102407368103,
       "net_debt_per_share": 9.062287367763142,
-      "sentiment_index": 48.2,
+      "sentiment_index": 63.2,
       "sentiment_breakdown": {
-        "news": 55,
+        "news": 80,
         "macro": 38
       },
       "base_fair_value": 34.24,
-      "sentiment_adjusted_fair_value": 34.06
+      "sentiment_adjusted_fair_value": 35.6
     }
   ]
 }
