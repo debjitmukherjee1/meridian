@@ -1,76 +1,90 @@
 {
-  "updated_at": "2026-07-31 08:43 UTC",
+  "updated_at": "2026-08-01 08:13 UTC",
   "market": "UK",
   "items": [
     {
-      "title": "Chipmakers rally as AI demand outpaces supply",
+      "title": "Which Is the Better Value Stock : Microsoft or Nvidia ?",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/better-value-stock-microsoft-nvidia-152500114.html",
+      "note": "Comparing Microsoft and Nvidia may favor a more neutral sentiment."
+    },
+    {
+      "title": "Sensex Gains 118 Points After Late Recovery , Nifty Ends Above 23 , 650 Despite Rupee Weakness",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://www.freepressjournal.in/business/sensex-gains-118-points-after-late-recovery-nifty-ends-above-23650-despite-rupee-weakness",
+      "note": "Rupee weakness may lead to short-term bearishness, but late recovery suggests resilience."
+    },
+    {
+      "title": "Jim Cramer Shared Latest Take On Mega Quantum Computing Investment & Discussed These 13 Stocks",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://www.insidermonkey.com/blog/jim-cramer-shared-latest-take-on-mega-quantum-computing-investment-discussed-these-13-stocks-1768029/",
+      "note": "Jim Cramer's endorsement can lead to short-term bullishness for mentioned stocks."
+    },
+    {
+      "title": "Morgan Stanley issues verdict for nervous stock market investors",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-issues-verdict-nervous-183300077.html",
+      "note": "Morgan Stanley's verdict implies caution, thus a slightly bearish market sentiment."
+    },
+    {
+      "title": "This is not a flash in the pan : Why value stocks are beating growth by such a wide margin",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/not-flash-pan-why-value-225000407.html",
+      "note": "Value stocks beating growth indicates a potential long-term bullish trend."
+    },
+    {
+      "title": "Earnings pops prove short - lived amid volatile markets",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://www.livemint.com/market/stock-market-news/india-stock-market-earnings-season-short-lived-gains-investor-focus-future-guidance-11779180072439.html",
+      "note": "Short-lived earnings pops amid volatility imply market uncertainty."
+    },
+    {
+      "title": "Trump Bull Market Is Standing on Shaky Legs . Just 5 Stocks Account for 52 % of the S & P Gains",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/trump-bull-market-standing-shaky-161730353.html",
+      "note": "The Trump bull market's shaky legs suggest a bearish market outlook."
+    },
+    {
+      "title": "Market research company warn of AI stocks selling cheap ; say they point to a  dangerous sign",
       "sector": "Technology",
-      "tone": 3.4,
-      "url": "https://www.gdeltproject.org/",
-      "note": "AI demand surge contributes to bullish chipmaker stock performance."
+      "tone": 0.0,
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/market-research-company-warn-of-ai-stocks-selling-cheap-say-they-point-to-a-dangerous-sign/articleshow/131900405.cms",
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Technology sentiment."
     },
     {
-      "title": "Regulators open probe into big-tech ad practices",
-      "sector": "Technology",
-      "tone": -2.1,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Regulatory probe heightens uncertainty and potential negative impact on big-tech."
+      "title": "Amazon , Apple , Meta , Microsoft Earnings on Deck : 33 % of Benzinga Viewers Say This is Top Report to Watch",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/07/60742266/amazon-apple-meta-microsoft-earnings-on-deck-33-of-benzinga-viewers-say-this-is-top-report-to-watch",
+      "note": "Upcoming earnings from Amazon, Apple, and others may boost investor optimism."
     },
     {
-      "title": "Consumer spending softens amid rate uncertainty",
-      "sector": "Consumer Discretionary",
-      "tone": -1.8,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Uncertainty around interest rates weighs on consumer spend and discretionary sector"
+      "title": "Mid - and small - cap outperformance cycle may be back after earnings reset : Brokerage",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://www.moneycontrol.com/news/business/markets/mid-and-small-cap-outperformance-cycle-may-be-back-after-earnings-reset-brokerage-13933014.html",
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
     },
     {
-      "title": "EV price war squeezes automaker margins",
-      "sector": "Consumer Discretionary",
-      "tone": -2.6,
-      "url": "https://www.gdeltproject.org/",
-      "note": "EV price war exacerbates margin pressure for automakers, impacting sector outlook"
+      "title": "Wall Street Is Getting More Bullish on Stocks . The S & P 500 Is  Earning  Its Gains .",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-getting-more-bullish-165847579.html",
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
     },
     {
-      "title": "Banks post resilient quarterly earnings",
-      "sector": "Financials",
-      "tone": 2.2,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Positive earnings boost investor confidence in banks' stability and resilience."
-    },
-    {
-      "title": "Payment networks expand into emerging markets",
-      "sector": "Financials",
-      "tone": 1.9,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Potential for increased revenue and growth from emerging markets expansion."
-    },
-    {
-      "title": "Oil steadies as supply concerns ease",
-      "sector": "Energy",
-      "tone": 0.6,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Reduced supply concerns alleviate investor bearishness in oil prices slightly"
-    },
-    {
-      "title": "Staples firms hold pricing power through inflation",
-      "sector": "Consumer Staples",
-      "tone": 1.4,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Consumer Staples sector sentiment is bolstered by firms' ability to hold pricing power."
-    },
-    {
-      "title": "Drugmaker wins approval for key therapy",
-      "sector": "Healthcare",
-      "tone": 3.1,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Approval of key therapy boosts investor optimism for Drugmaker and sector."
-    },
-    {
-      "title": "Geopolitical tension lifts safe-haven demand",
-      "sector": "Energy",
-      "tone": -1.2,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Escalating geopolitical tension bolsters investor demand for safe-haven energy assets"
+      "title": "Why large cap and mid cap funds could be the best mutual fund to bet on now , according to Abakkus study",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://www.livemint.com/market/stock-market-news/why-large-cap-and-mid-cap-funds-could-be-the-best-mutual-fund-to-bet-on-now-according-to-abakkus-study-11783754490006.html",
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
     }
   ]
 }
