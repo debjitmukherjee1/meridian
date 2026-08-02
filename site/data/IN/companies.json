@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-01 08:13 UTC",
+  "updated_at": "2026-08-02 08:15 UTC",
   "market": "IN",
   "currency": "\u20b9",
   "companies": [
@@ -13,13 +13,13 @@
       "fcf_per_share": null,
       "ebitda_per_share": null,
       "net_debt_per_share": null,
-      "sentiment_index": 51.2,
+      "sentiment_index": 58.4,
       "sentiment_breakdown": {
-        "news": 60,
+        "news": 72,
         "macro": 38
       },
       "base_fair_value": 1307.8,
-      "sentiment_adjusted_fair_value": 1312.51
+      "sentiment_adjusted_fair_value": 1340.76
     },
     {
       "ticker": "TCS",
@@ -31,13 +31,13 @@
       "fcf_per_share": null,
       "ebitda_per_share": null,
       "net_debt_per_share": null,
-      "sentiment_index": 48.2,
+      "sentiment_index": 61.4,
       "sentiment_breakdown": {
-        "news": 55,
+        "news": 77,
         "macro": 38
       },
       "base_fair_value": 2186.36,
-      "sentiment_adjusted_fair_value": 2174.55
+      "sentiment_adjusted_fair_value": 2261.13
     },
     {
       "ticker": "INFY",
@@ -49,13 +49,13 @@
       "fcf_per_share": 0.781611974803797,
       "ebitda_per_share": 1.1066328682773836,
       "net_debt_per_share": -0.5434402080854235,
-      "sentiment_index": 48.2,
+      "sentiment_index": 61.4,
       "sentiment_breakdown": {
-        "news": 55,
+        "news": 77,
         "macro": 38
       },
       "base_fair_value": 621.67,
-      "sentiment_adjusted_fair_value": 618.31
+      "sentiment_adjusted_fair_value": 642.93
     },
     {
       "ticker": "HDFCBANK",
@@ -67,13 +67,13 @@
       "fcf_per_share": null,
       "ebitda_per_share": null,
       "net_debt_per_share": 212.98557209554545,
-      "sentiment_index": 51.2,
+      "sentiment_index": 64.4,
       "sentiment_breakdown": {
-        "news": 60,
+        "news": 82,
         "macro": 38
       },
       "base_fair_value": 798.83,
-      "sentiment_adjusted_fair_value": 801.71
+      "sentiment_adjusted_fair_value": 833.34
     },
     {
       "ticker": "ICICIBANK",
@@ -85,13 +85,13 @@
       "fcf_per_share": null,
       "ebitda_per_share": null,
       "net_debt_per_share": 212.32784781081034,
-      "sentiment_index": 51.2,
+      "sentiment_index": 64.4,
       "sentiment_breakdown": {
-        "news": 60,
+        "news": 82,
         "macro": 38
       },
       "base_fair_value": 1349.76,
-      "sentiment_adjusted_fair_value": 1354.62
+      "sentiment_adjusted_fair_value": 1408.07
     },
     {
       "ticker": "HINDUNILVR",
@@ -103,13 +103,13 @@
       "fcf_per_share": null,
       "ebitda_per_share": 63.1929032293107,
       "net_debt_per_share": -23.47216769994951,
-      "sentiment_index": 51.2,
+      "sentiment_index": 63.2,
       "sentiment_breakdown": {
-        "news": 60,
+        "news": 80,
         "macro": 38
       },
       "base_fair_value": 2101.3,
-      "sentiment_adjusted_fair_value": 2108.86
+      "sentiment_adjusted_fair_value": 2184.51
     },
     {
       "ticker": "TMPV",
@@ -121,31 +121,31 @@
       "fcf_per_share": -53.298530404136436,
       "ebitda_per_share": 36.15125741220856,
       "net_debt_per_share": 102.01265164077493,
-      "sentiment_index": 51.2,
+      "sentiment_index": 40.4,
       "sentiment_breakdown": {
-        "news": 60,
+        "news": 42,
         "macro": 38
       },
       "base_fair_value": 339.75,
-      "sentiment_adjusted_fair_value": 340.97
+      "sentiment_adjusted_fair_value": 329.97
     },
     {
       "ticker": "SUNPHARMA",
       "name": "Sun Pharma",
       "sector": "Healthcare",
       "price": 1990.5,
-      "eps": 47.83,
-      "pe": 41.61614,
-      "fcf_per_share": 24.791791302070674,
-      "ebitda_per_share": 67.99171446077827,
+      "eps": 50.36,
+      "pe": 39.525417,
+      "fcf_per_share": null,
+      "ebitda_per_share": 69.11597521541563,
       "net_debt_per_share": -120.4052737730072,
-      "sentiment_index": 51.2,
+      "sentiment_index": 60.2,
       "sentiment_breakdown": {
-        "news": 60,
+        "news": 75,
         "macro": 38
       },
-      "base_fair_value": 390.95,
-      "sentiment_adjusted_fair_value": 392.36
+      "base_fair_value": 1990.5,
+      "sentiment_adjusted_fair_value": 2051.41
     }
   ]
 }

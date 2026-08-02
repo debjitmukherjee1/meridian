@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-01 08:13 UTC",
+  "updated_at": "2026-08-02 08:15 UTC",
   "market": "JP",
   "currency": "\u00a5",
   "companies": [
@@ -13,13 +13,13 @@
       "fcf_per_share": -101.7507614525833,
       "ebitda_per_share": 474.0198701364087,
       "net_debt_per_share": 2537.6914446713104,
-      "sentiment_index": 45.2,
+      "sentiment_index": 40.4,
       "sentiment_breakdown": {
-        "news": 50.0,
+        "news": 42,
         "macro": 38
       },
       "base_fair_value": 3067.0,
-      "sentiment_adjusted_fair_value": 3022.84
+      "sentiment_adjusted_fair_value": 2978.67
     },
     {
       "ticker": "6758",
@@ -28,16 +28,16 @@
       "price": 3787.0,
       "eps": 186.32,
       "pe": 20.325247,
-      "fcf_per_share": -231.24089212959362,
-      "ebitda_per_share": 335.46560042268607,
-      "net_debt_per_share": -91.8200946186784,
-      "sentiment_index": 39.2,
+      "fcf_per_share": 570.6865984951351,
+      "ebitda_per_share": 354.0651330905914,
+      "net_debt_per_share": -50.987303843411624,
+      "sentiment_index": 60.2,
       "sentiment_breakdown": {
-        "news": 40,
+        "news": 75,
         "macro": 38
       },
-      "base_fair_value": 3020.29,
-      "sentiment_adjusted_fair_value": 2922.43
+      "base_fair_value": 5013.29,
+      "sentiment_adjusted_fair_value": 5166.7
     },
     {
       "ticker": "9984",
@@ -49,13 +49,13 @@
       "fcf_per_share": -428.3868418599135,
       "ebitda_per_share": 160.37431640076628,
       "net_debt_per_share": 3516.832533121854,
-      "sentiment_index": 39.2,
+      "sentiment_index": 60.2,
       "sentiment_breakdown": {
-        "news": 40,
+        "news": 75,
         "macro": 38
       },
       "base_fair_value": 10554.67,
-      "sentiment_adjusted_fair_value": 10212.7
+      "sentiment_adjusted_fair_value": 10877.64
     },
     {
       "ticker": "8306",
@@ -67,13 +67,13 @@
       "fcf_per_share": null,
       "ebitda_per_share": null,
       "net_debt_per_share": -5378.562967133707,
-      "sentiment_index": 45.2,
+      "sentiment_index": 66.2,
       "sentiment_breakdown": {
-        "news": 50.0,
+        "news": 85,
         "macro": 38
       },
       "base_fair_value": 3571.0,
-      "sentiment_adjusted_fair_value": 3519.58
+      "sentiment_adjusted_fair_value": 3744.55
     },
     {
       "ticker": "9432",
@@ -85,13 +85,13 @@
       "fcf_per_share": 126.34131854828514,
       "ebitda_per_share": 42.95073006576144,
       "net_debt_per_share": 184.192945167981,
-      "sentiment_index": 39.2,
+      "sentiment_index": 60.2,
       "sentiment_breakdown": {
-        "news": 40,
+        "news": 75,
         "macro": 38
       },
-      "base_fair_value": 811.21,
-      "sentiment_adjusted_fair_value": 784.93
+      "base_fair_value": 804.57,
+      "sentiment_adjusted_fair_value": 829.19
     },
     {
       "ticker": "4502",
@@ -103,13 +103,13 @@
       "fcf_per_share": 339.09090030135866,
       "ebitda_per_share": 782.4235740325518,
       "net_debt_per_share": 3178.6519732204856,
-      "sentiment_index": 45.2,
+      "sentiment_index": 64.4,
       "sentiment_breakdown": {
-        "news": 50.0,
+        "news": 82,
         "macro": 38
       },
       "base_fair_value": 5347.2,
-      "sentiment_adjusted_fair_value": 5270.2
+      "sentiment_adjusted_fair_value": 5578.2
     },
     {
       "ticker": "6501",
@@ -123,7 +123,7 @@
       "net_debt_per_share": -183.2834975912896,
       "sentiment_index": 45.2,
       "sentiment_breakdown": {
-        "news": 50.0,
+        "news": 50,
         "macro": 38
       },
       "base_fair_value": 5267.0,
@@ -139,13 +139,13 @@
       "fcf_per_share": 10.564322239515024,
       "ebitda_per_share": 187.3243830326656,
       "net_debt_per_share": 1269.7314918632126,
-      "sentiment_index": 45.2,
+      "sentiment_index": 51.2,
       "sentiment_breakdown": {
-        "news": 50.0,
+        "news": 60,
         "macro": 38
       },
       "base_fair_value": 166.59,
-      "sentiment_adjusted_fair_value": 164.19
+      "sentiment_adjusted_fair_value": 167.19
     }
   ]
 }
