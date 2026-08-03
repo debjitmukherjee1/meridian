@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-02 08:15 UTC",
+  "updated_at": "2026-08-03 09:35 UTC",
   "market": "IN",
   "index": "NIFTY 50",
   "macro_theme": "Geopolitical conflict raises energy-sector risk",
@@ -8,7 +8,7 @@
   "sectors": [
     {
       "name": "Consumer Discretionary",
-      "score": 40,
+      "score": 44,
       "label": "Neutral"
     },
     {
@@ -18,22 +18,22 @@
     },
     {
       "name": "Energy",
-      "score": 58,
+      "score": 51,
       "label": "Neutral"
     },
     {
       "name": "Financials",
-      "score": 64,
-      "label": "Bullish"
-    },
-    {
-      "name": "Healthcare",
       "score": 60,
       "label": "Bullish"
     },
     {
+      "name": "Healthcare",
+      "score": 65,
+      "label": "Bullish"
+    },
+    {
       "name": "Technology",
-      "score": 61,
+      "score": 63,
       "label": "Bullish"
     }
   ]

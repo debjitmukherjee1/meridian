@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-02 08:15 UTC",
+  "updated_at": "2026-08-03 09:35 UTC",
   "market": "UK",
   "items": [
     {
@@ -7,70 +7,70 @@
       "sector": "Technology",
       "tone": 3.4,
       "url": "https://www.gdeltproject.org/",
-      "note": "Growing AI demand boosts investor confidence, driving Technology sector up"
+      "note": "Demand for AI chips lifts investor sentiment for chipmakers."
     },
     {
       "title": "Regulators open probe into big-tech ad practices",
       "sector": "Technology",
       "tone": -2.1,
       "url": "https://www.gdeltproject.org/",
-      "note": "Regulatory probe into ad practices may hinder big-tech growth, causing caution"
+      "note": "Investor sentiment for big-tech is dampened by advertising scrutiny."
     },
     {
       "title": "Consumer spending softens amid rate uncertainty",
       "sector": "Consumer Discretionary",
       "tone": -1.8,
       "url": "https://www.gdeltproject.org/",
-      "note": "Rate uncertainty weighs on consumer confidence, negatively impacting sector sentiment."
+      "note": "Rate uncertainty weighs down consumer spending, impacting discretionary sectors negatively."
     },
     {
       "title": "EV price war squeezes automaker margins",
       "sector": "Consumer Discretionary",
       "tone": -2.6,
       "url": "https://www.gdeltproject.org/",
-      "note": "Automaker margins compress due to EV price war, squeezing profits."
+      "note": "EV price war erodes automaker margins, affecting profitability in the sector."
     },
     {
       "title": "Banks post resilient quarterly earnings",
       "sector": "Financials",
       "tone": 2.2,
       "url": "https://www.gdeltproject.org/",
-      "note": "Resilient quarterly earnings improve investor confidence in banks' stability and growth."
+      "note": "Resilient earnings boost investor confidence in bank stocks."
     },
     {
       "title": "Payment networks expand into emerging markets",
       "sector": "Financials",
       "tone": 1.9,
       "url": "https://www.gdeltproject.org/",
-      "note": "Expansion into emerging markets presents long-term growth opportunities, outweighing immediate challenges."
+      "note": "Expansion into emerging markets suggests growing payment network opportunities."
     },
     {
       "title": "Oil steadies as supply concerns ease",
       "sector": "Energy",
       "tone": 0.6,
       "url": "https://www.gdeltproject.org/",
-      "note": "Supply concerns easing reduce near-term price pressures and boost sentiment."
+      "note": "Supply concerns easing suggests reduced pressure on oil prices"
     },
     {
       "title": "Staples firms hold pricing power through inflation",
       "sector": "Consumer Staples",
       "tone": 1.4,
       "url": "https://www.gdeltproject.org/",
-      "note": "Positive sentiment due to firms maintaining pricing power through inflation."
+      "note": "Consumer Staples sector expected to maintain pricing power amidst inflation pressures."
     },
     {
       "title": "Drugmaker wins approval for key therapy",
       "sector": "Healthcare",
       "tone": 3.1,
       "url": "https://www.gdeltproject.org/",
-      "note": "Positive approval boosts investor sentiment in the Healthcare sector's therapeutic treatments."
+      "note": "New therapy approval boosts investor confidence in pharmaceutical sector."
     },
     {
       "title": "Geopolitical tension lifts safe-haven demand",
       "sector": "Energy",
       "tone": -1.2,
       "url": "https://www.gdeltproject.org/",
-      "note": "Increased safe-haven demand due to geopolitical tension is a double-edged sword, hurting energy prices."
+      "note": "Geopolitical tension boosting safe-haven demand supports oil prices"
     }
   ]
 }
