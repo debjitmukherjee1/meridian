@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-03 09:35 UTC",
+  "updated_at": "2026-08-04 08:30 UTC",
   "market": "UK",
   "index": "FTSE 100",
   "macro_theme": "Geopolitical conflict raises energy-sector risk",
@@ -8,33 +8,33 @@
   "sectors": [
     {
       "name": "Consumer Staples",
-      "score": 69,
-      "label": "Bullish"
+      "score": 47,
+      "label": "Neutral"
     },
     {
       "name": "Energy",
-      "score": 58,
+      "score": 52,
       "label": "Neutral"
     },
     {
       "name": "Financials",
-      "score": 63,
-      "label": "Bullish"
+      "score": 47,
+      "label": "Neutral"
     },
     {
       "name": "Healthcare",
-      "score": 68,
-      "label": "Bullish"
+      "score": 47,
+      "label": "Neutral"
     },
     {
       "name": "Materials",
-      "score": 45,
+      "score": 47,
       "label": "Neutral"
     },
     {
       "name": "Technology",
-      "score": 60,
-      "label": "Bullish"
+      "score": 48,
+      "label": "Neutral"
     }
   ]
 }
