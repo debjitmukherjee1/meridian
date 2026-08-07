@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-06 08:28 UTC",
+  "updated_at": "2026-08-07 07:08 UTC",
   "market": "JP",
   "macro_theme": "Geopolitical conflict raises energy-sector risk",
   "signals": [
@@ -121,7 +121,37 @@
       "drivers": [
         {
           "role": "main",
-          "text": "Technology sentiment pressured by the prevailing geopolitical supply backdrop",
+          "text": "The geopolitical supply event is the main impact on the Technology sector, driving a bearish sentiment.",
+          "forecast": {
+            "low": 1.1,
+            "high": 3.3,
+            "direction": "-",
+            "text": "-1.1% to -3.3%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Rupee weakness",
+          "forecast": {
+            "low": 1.1,
+            "high": 3.3,
+            "direction": "-",
+            "text": "-1.1% to -3.3%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Volatile market conditions",
+          "forecast": {
+            "low": 1.1,
+            "high": 3.3,
+            "direction": "-",
+            "text": "-1.1% to -3.3%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Shaky global economic environment due to a possible Trump bull market",
           "forecast": {
             "low": 1.1,
             "high": 3.3,
