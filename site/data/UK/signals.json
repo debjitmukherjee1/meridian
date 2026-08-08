@@ -1,22 +1,52 @@
 {
-  "updated_at": "2026-08-07 07:08 UTC",
+  "updated_at": "2026-08-08 06:43 UTC",
   "market": "UK",
   "macro_theme": "Geopolitical conflict raises energy-sector risk",
   "signals": [
     {
       "sector": "Consumer Staples",
-      "read": "Neutral",
-      "score": 44,
+      "read": "Bullish",
+      "score": 64,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Consumer Staples sentiment pressured by the prevailing geopolitical supply backdrop",
+          "text": "Consumer staple companies' pricing power is expected to help mitigate the impact of inflation.",
           "forecast": {
-            "low": 1.1,
-            "high": 2.8,
-            "direction": "-",
-            "text": "-1.1% to -2.8%"
+            "low": 1.3,
+            "high": 3.2,
+            "direction": "+",
+            "text": "+1.3% to +3.2%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Geopolitical supply event fuels sector sentiment",
+          "forecast": {
+            "low": 1.3,
+            "high": 3.2,
+            "direction": "+",
+            "text": "+1.3% to +3.2%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Staples firms face reduced competition from international suppliers",
+          "forecast": {
+            "low": 1.3,
+            "high": 3.2,
+            "direction": "+",
+            "text": "+1.3% to +3.2%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Increased demand for stockpiling staples during supply disruptions",
+          "forecast": {
+            "low": 1.3,
+            "high": 3.2,
+            "direction": "+",
+            "text": "+1.3% to +3.2%"
           }
         }
       ]
@@ -24,73 +54,123 @@
     {
       "sector": "Energy",
       "read": "Neutral",
-      "score": 44,
+      "score": 45,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Supply-route risk from conflict pushes crude higher; refiners and upstream names diverge",
+          "text": "Geopolitical supply event is the primary driver of the bearish Energy sector sentiment, particularly geopolitical tension.",
           "forecast": {
-            "low": 4.5,
-            "high": 10.1,
+            "low": 4.4,
+            "high": 9.9,
             "direction": "-",
-            "text": "-4.5% to -10.1%"
+            "text": "-4.4% to -9.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "Freight and insurance costs rising on shipping-lane threats",
+          "text": "The recent easing of supply concerns suggests some stabilization in crude oil prices",
           "forecast": {
-            "low": 4.5,
-            "high": 10.1,
+            "low": 4.4,
+            "high": 9.9,
             "direction": "-",
-            "text": "-4.5% to -10.1%"
+            "text": "-4.4% to -9.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "Strategic-reserve releases could cap upside, adding two-way risk",
+          "text": "Safe-haven demand has increased due to the ongoing geopolitical tension",
           "forecast": {
-            "low": 4.5,
-            "high": 10.1,
+            "low": 4.4,
+            "high": 9.9,
             "direction": "-",
-            "text": "-4.5% to -10.1%"
+            "text": "-4.4% to -9.9%"
           }
         }
       ]
     },
     {
       "sector": "Financials",
-      "read": "Neutral",
-      "score": 44,
+      "read": "Bullish",
+      "score": 63,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Financials sentiment pressured by the prevailing geopolitical supply backdrop",
+          "text": "The geopolitical supply event has driven up sentiment in the Financials sector as banks post resilient quarterly earnings and expand into emerging markets.",
           "forecast": {
-            "low": 1.1,
-            "high": 3.4,
-            "direction": "-",
-            "text": "-1.1% to -3.4%"
+            "low": 1.3,
+            "high": 3.8,
+            "direction": "+",
+            "text": "+1.3% to +3.8%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Banks post resilient quarterly earnings",
+          "forecast": {
+            "low": 1.3,
+            "high": 3.8,
+            "direction": "+",
+            "text": "+1.3% to +3.8%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Expansion into emerging markets by payment networks",
+          "forecast": {
+            "low": 1.3,
+            "high": 3.8,
+            "direction": "+",
+            "text": "+1.3% to +3.8%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Payment networks expanding into emerging markets is seen as a bullish indicator, driving up sentiment",
+          "forecast": {
+            "low": 1.3,
+            "high": 3.8,
+            "direction": "+",
+            "text": "+1.3% to +3.8%"
           }
         }
       ]
     },
     {
       "sector": "Healthcare",
-      "read": "Neutral",
-      "score": 44,
+      "read": "Bullish",
+      "score": 63,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Healthcare sentiment pressured by the prevailing geopolitical supply backdrop",
+          "text": "The Healthcare sector's bullish sentiment is mainly influenced by a geopolitical supply event, specifically supply chain disruptions impacting the biotech and pharmaceutical industries.",
           "forecast": {
             "low": 0.6,
-            "high": 2.2,
-            "direction": "-",
-            "text": "-0.6% to -2.2%"
+            "high": 2.5,
+            "direction": "+",
+            "text": "+0.6% to +2.5%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "The approval of a key therapy by a drugmaker has bolstered investor optimism on select Healthcare stocks.",
+          "forecast": {
+            "low": 0.6,
+            "high": 2.5,
+            "direction": "+",
+            "text": "+0.6% to +2.5%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Recent geopolitical tensions have heightened concerns over supply chain risk, with many firms struggling to maintain adequate inventory.",
+          "forecast": {
+            "low": 0.6,
+            "high": 2.5,
+            "direction": "+",
+            "text": "+0.6% to +2.5%"
           }
         }
       ]
@@ -98,17 +178,47 @@
     {
       "sector": "Materials",
       "read": "Neutral",
-      "score": 44,
+      "score": 45,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Materials sentiment pressured by the prevailing geopolitical supply backdrop",
+          "text": "Global rare earth magnet supply is disrupted due to a China-US geopolitical event causing Materials sector sentiment to decline.",
           "forecast": {
-            "low": 3.4,
-            "high": 7.8,
+            "low": 3.3,
+            "high": 7.7,
             "direction": "-",
-            "text": "-3.4% to -7.8%"
+            "text": "-3.3% to -7.7%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "US imposes sanctions on Chinese rare earth magnet exporter",
+          "forecast": {
+            "low": 3.3,
+            "high": 7.7,
+            "direction": "-",
+            "text": "-3.3% to -7.7%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "China retaliates with tariffs on US aluminium products",
+          "forecast": {
+            "low": 3.3,
+            "high": 7.7,
+            "direction": "-",
+            "text": "-3.3% to -7.7%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Russia's Ukraine invasion affects global steel production causing material shortages.",
+          "forecast": {
+            "low": 3.3,
+            "high": 7.7,
+            "direction": "-",
+            "text": "-3.3% to -7.7%"
           }
         }
       ]
@@ -116,17 +226,37 @@
     {
       "sector": "Technology",
       "read": "Neutral",
-      "score": 45,
+      "score": 58,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Technology sentiment pressured by the prevailing geopolitical supply backdrop",
+          "text": "Geopolitical tensions are hindering the supply of technology components.",
           "forecast": {
-            "low": 1.1,
-            "high": 3.3,
-            "direction": "-",
-            "text": "-1.1% to -3.3%"
+            "low": 1.2,
+            "high": 3.5,
+            "direction": "+",
+            "text": "+1.2% to +3.5%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "AI demand is outpacing supply from chipmakers, leading to a rally in the market.",
+          "forecast": {
+            "low": 1.2,
+            "high": 3.5,
+            "direction": "+",
+            "text": "+1.2% to +3.5%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Regulatory probe into big-tech could have a future impact but currently doesn't directly affect supply.",
+          "forecast": {
+            "low": 1.2,
+            "high": 3.5,
+            "direction": "+",
+            "text": "+1.2% to +3.5%"
           }
         }
       ]
