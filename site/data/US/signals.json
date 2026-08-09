@@ -1,42 +1,52 @@
 {
-  "updated_at": "2026-08-08 06:43 UTC",
+  "updated_at": "2026-08-09 06:48 UTC",
   "market": "US",
   "macro_theme": "Geopolitical conflict raises energy-sector risk",
   "signals": [
     {
       "sector": "Consumer Discretionary",
       "read": "Neutral",
-      "score": 50,
+      "score": 42,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "The main impact on the Consumer Discretionary sector is a squeeze on automaker margins due to an EV price war.",
+          "text": "The geopolitical supply event and rising rates are negatively impacting consumer spending, particularly in the EV and auto sectors.",
           "forecast": {
-            "low": 1.5,
-            "high": 3.5,
-            "direction": "+",
-            "text": "+1.5% to +3.5%"
+            "low": 1.7,
+            "high": 4.1,
+            "direction": "-",
+            "text": "-1.7% to -4.1%"
           }
         },
         {
           "role": "supporting",
-          "text": "Consumer spending softening amid rate uncertainty affects overall sector demand.",
+          "text": "Rising rates are causing uncertainty in consumer spending, leading to a softening in the market.",
           "forecast": {
-            "low": 1.5,
-            "high": 3.5,
-            "direction": "+",
-            "text": "+1.5% to +3.5%"
+            "low": 1.7,
+            "high": 4.1,
+            "direction": "-",
+            "text": "-1.7% to -4.1%"
           }
         },
         {
           "role": "supporting",
-          "text": "The EV price war increases costs for automakers, pressuring their profit margins.",
+          "text": "The EV price war is squeezing automaker margins, exacerbating the sector's decline.",
           "forecast": {
-            "low": 1.5,
-            "high": 3.5,
-            "direction": "+",
-            "text": "+1.5% to +3.5%"
+            "low": 1.7,
+            "high": 4.1,
+            "direction": "-",
+            "text": "-1.7% to -4.1%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "The supply event is disrupting the sector's ability to meet demand, further pressuring Consumer Discretionary stocks.",
+          "forecast": {
+            "low": 1.7,
+            "high": 4.1,
+            "direction": "-",
+            "text": "-1.7% to -4.1%"
           }
         }
       ]
@@ -49,37 +59,7 @@
       "drivers": [
         {
           "role": "main",
-          "text": "The geopolitical supply event is boosting Consumer Staples sector due to its ability to retain pricing power amidst rising inflation.",
-          "forecast": {
-            "low": 1.3,
-            "high": 3.3,
-            "direction": "+",
-            "text": "+1.3% to +3.3%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Staples firms hold pricing power through inflation",
-          "forecast": {
-            "low": 1.3,
-            "high": 3.3,
-            "direction": "+",
-            "text": "+1.3% to +3.3%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Geopolitical supply event drives demand for staples, leading to higher prices.",
-          "forecast": {
-            "low": 1.3,
-            "high": 3.3,
-            "direction": "+",
-            "text": "+1.3% to +3.3%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Consumer Staples companies can mitigate supply chain disruptions more effectively",
+          "text": "Escalating geopolitical tensions impacting global supply chains is the main impact on the Consumer Staples sector.",
           "forecast": {
             "low": 1.3,
             "high": 3.3,
@@ -92,37 +72,37 @@
     {
       "sector": "Energy",
       "read": "Neutral",
-      "score": 55,
+      "score": 51,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "The geopolitical supply event has increased safe-haven demand for oil, boosting the Energy sector.",
+          "text": "Geopolitical uncertainty is negatively impacting the Energy sector due to concerns over global supply.",
           "forecast": {
-            "low": 4.4,
-            "high": 9.9,
+            "low": 4.1,
+            "high": 9.2,
             "direction": "+",
-            "text": "+4.4% to +9.9%"
+            "text": "+4.1% to +9.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "Oil steadies as supply concerns ease, reducing downward pressure on the sector.",
+          "text": "Supply concerns are alleviated partially by an easing of oil supply worries.",
           "forecast": {
-            "low": 4.4,
-            "high": 9.9,
+            "low": 4.1,
+            "high": 9.2,
             "direction": "+",
-            "text": "+4.4% to +9.9%"
+            "text": "+4.1% to +9.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "Geopolitical tension lifts safe-haven demand for oil, driving prices higher and benefiting the Energy sector.",
+          "text": "However, geopolitical tension drives safe-haven demand, further clouding the picture.",
           "forecast": {
-            "low": 4.4,
-            "high": 9.9,
+            "low": 4.1,
+            "high": 9.2,
             "direction": "+",
-            "text": "+4.4% to +9.9%"
+            "text": "+4.1% to +9.2%"
           }
         }
       ]
@@ -130,47 +110,47 @@
     {
       "sector": "Financials",
       "read": "Bullish",
-      "score": 66,
+      "score": 63,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "A geopolitical supply event is causing a shortage in a critical financial sector, impacting sentiment positively.",
+          "text": "The main impact on the Financials sector is increased investor confidence due to a geopolitical supply event and resilient quarterly earnings.",
           "forecast": {
             "low": 1.3,
-            "high": 4.0,
+            "high": 3.8,
             "direction": "+",
-            "text": "+1.3% to +4.0%"
+            "text": "+1.3% to +3.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "Banks post resilient quarterly earnings",
+          "text": "Resilient quarterly earnings from banks",
           "forecast": {
             "low": 1.3,
-            "high": 4.0,
+            "high": 3.8,
             "direction": "+",
-            "text": "+1.3% to +4.0%"
+            "text": "+1.3% to +3.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "Payment networks expand into emerging markets",
+          "text": "Payment networks expanding into emerging markets provides potential for growth",
           "forecast": {
             "low": 1.3,
-            "high": 4.0,
+            "high": 3.8,
             "direction": "+",
-            "text": "+1.3% to +4.0%"
+            "text": "+1.3% to +3.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "Supply chain disruptions are having a minimal effect on overall financial sector performance",
+          "text": "Emerging market expansion boosts demand for financial services",
           "forecast": {
             "low": 1.3,
-            "high": 4.0,
+            "high": 3.8,
             "direction": "+",
-            "text": "+1.3% to +4.0%"
+            "text": "+1.3% to +3.8%"
           }
         }
       ]
@@ -178,85 +158,85 @@
     {
       "sector": "Healthcare",
       "read": "Bullish",
-      "score": 66,
+      "score": 64,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "The geopolitical supply event's scarcity has driven up demand for the key therapy, positively impacting the Healthcare sector.",
+          "text": "A geopolitical supply event and regulatory approval of key therapies are driving the Healthcare sector's bullish sentiment.",
           "forecast": {
-            "low": 0.7,
+            "low": 0.6,
             "high": 2.6,
             "direction": "+",
-            "text": "+0.7% to +2.6%"
+            "text": "+0.6% to +2.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Drugmaker wins approval for key therapy",
+          "text": "Regulatory approval for key therapies is improving investor confidence in the sector.",
           "forecast": {
-            "low": 0.7,
+            "low": 0.6,
             "high": 2.6,
             "direction": "+",
-            "text": "+0.7% to +2.6%"
+            "text": "+0.6% to +2.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Shortages fueled by geopolitical supply event expected to continue",
+          "text": "The geopolitical supply event is adding fuel to the sector's upward momentum by impacting existing global medication supply chains,",
           "forecast": {
-            "low": 0.7,
+            "low": 0.6,
             "high": 2.6,
             "direction": "+",
-            "text": "+0.7% to +2.6%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Therapy is crucial for treating a common condition",
-          "forecast": {
-            "low": 0.7,
-            "high": 2.6,
-            "direction": "+",
-            "text": "+0.7% to +2.6%"
+            "text": "+0.6% to +2.6%"
           }
         }
       ]
     },
     {
       "sector": "Technology",
-      "read": "Neutral",
-      "score": 55,
+      "read": "Bullish",
+      "score": 60,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Supply chain disruptions due to AI demand outpacing supply",
+          "text": "The MAIN impact on the Technology sector is the geopolitical supply event related to AI chipmakers",
           "forecast": {
-            "low": 1.1,
-            "high": 3.3,
+            "low": 1.2,
+            "high": 3.6,
             "direction": "+",
-            "text": "+1.1% to +3.3%"
+            "text": "+1.2% to +3.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Regulators opening probe into big-tech ad practices sparks concerns over future revenue streams",
+          "text": "Chip supply constraints driven by AI demand is a significant driver",
           "forecast": {
-            "low": 1.1,
-            "high": 3.3,
+            "low": 1.2,
+            "high": 3.6,
             "direction": "+",
-            "text": "+1.1% to +3.3%"
+            "text": "+1.2% to +3.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Chipmakers' rally driven by strong demand for artificial intelligence applications",
+          "text": "Growing regulatory scrutiny of big-tech ad practices may pose a concern in the longer term",
           "forecast": {
-            "low": 1.1,
-            "high": 3.3,
+            "low": 1.2,
+            "high": 3.6,
             "direction": "+",
-            "text": "+1.1% to +3.3%"
+            "text": "+1.2% to +3.6%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "No additional information provided to indicate a major impact from the regulator probe",
+          "forecast": {
+            "low": 1.2,
+            "high": 3.6,
+            "direction": "+",
+            "text": "+1.2% to +3.6%"
           }
         }
       ]
