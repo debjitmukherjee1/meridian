@@ -409,7 +409,10 @@ input[type=range]::-moz-range-progress { height: 4px; border-radius: 999px; back
 .macro-stat-label { font-size: .68rem; text-transform: uppercase; letter-spacing: 1px; color: var(--ink-dim); }
 .macro-stat-value { font-family: var(--display); font-size: 1.35rem; font-weight: 700; color: var(--ink); font-variant-numeric: tabular-nums; margin: .15rem 0 .1rem; }
 .macro-stat-sub { font-size: .74rem; font-style: italic; color: var(--ink-dim); }
-.macro-spark { width: 100%; height: 34px; margin-top: .3rem; display: block; }
+/* Fixed-height box so the Chart.js sparkline (maintainAspectRatio:false) fills
+   34px instead of forcing a 2:1 aspect ratio off the card width. */
+.macro-spark-wrap { position: relative; height: 34px; margin-top: .3rem; }
+.macro-spark { display: block; width: 100% !important; height: 100% !important; }
 
 .macro-narrative {
   font-style: italic; color: var(--ink);
