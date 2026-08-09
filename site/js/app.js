@@ -527,6 +527,12 @@ function macroSparkline(canvas, series, color) {
       }],
     },
     options: {
+      // Sparklines are fixed-height (see .macro-spark-wrap in CSS). Without
+      // maintainAspectRatio:false, Chart.js ignores the CSS height and forces
+      // a 2:1 aspect ratio off the card width — which rendered these ~130px+
+      // tall and blew the By-market cards out of proportion.
+      responsive: true,
+      maintainAspectRatio: false,
       animation: false,
       plugins: { legend: { display: false }, tooltip: { enabled: false } },
       scales: { x: { display: false }, y: { display: false } },
@@ -553,7 +559,7 @@ function renderMacroCards() {
           <div class="macro-stat-label">${escapeHtml(label)}</div>
           <div class="macro-stat-value${ind && ind.latest != null ? "" : " muted"}">${escapeHtml(macroValueText(ind))}</div>
           <div class="macro-stat-sub">${escapeHtml(sub)}</div>
-          ${hasSeries ? `<canvas class="macro-spark" data-key="${key}"></canvas>` : ""}
+          ${hasSeries ? `<div class="macro-spark-wrap"><canvas class="macro-spark" data-key="${key}"></canvas></div>` : ""}
         </div>`;
     }).join("");
 
