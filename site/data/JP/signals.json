@@ -1,52 +1,52 @@
 {
-  "updated_at": "2026-08-09 06:48 UTC",
+  "updated_at": "2026-08-10 07:23 UTC",
   "market": "JP",
   "macro_theme": "Geopolitical conflict raises energy-sector risk",
   "signals": [
     {
       "sector": "Consumer Discretionary",
       "read": "Neutral",
-      "score": 46,
+      "score": 47,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "A weak global rupee and associated inflation concerns contribute to the mixed Consumer Discretionary sector sentiment.",
+          "text": "The Consumer Discretionary sector remains mixed (sentiment 47/100) due to a geopolitical supply event",
           "forecast": {
             "low": 1.6,
-            "high": 3.8,
+            "high": 3.7,
             "direction": "-",
-            "text": "-1.6% to -3.8%"
+            "text": "-1.6% to -3.7%"
           }
         },
         {
           "role": "supporting",
-          "text": "Earnings are upcoming for key Consumer Discretionary players, including Amazon, Apple, Meta, and Microsoft.",
+          "text": "Value stocks are currently outperforming growth stocks",
           "forecast": {
             "low": 1.6,
-            "high": 3.8,
+            "high": 3.7,
             "direction": "-",
-            "text": "-1.6% to -3.8%"
+            "text": "-1.6% to -3.7%"
           }
         },
         {
           "role": "supporting",
-          "text": "Value stocks are beating growth stocks by a significant margin as described in a recent article.",
+          "text": "A late recovery in Indian stock markets has eased investors' concerns for now",
           "forecast": {
             "low": 1.6,
-            "high": 3.8,
+            "high": 3.7,
             "direction": "-",
-            "text": "-1.6% to -3.8%"
+            "text": "-1.6% to -3.7%"
           }
         },
         {
           "role": "supporting",
-          "text": "A volatile market amid geopolitical supply events may impact consumer spending habits.",
+          "text": "Earnings reports from major tech companies including Amazon, Apple, and Microsoft are upcoming",
           "forecast": {
             "low": 1.6,
-            "high": 3.8,
+            "high": 3.7,
             "direction": "-",
-            "text": "-1.6% to -3.8%"
+            "text": "-1.6% to -3.7%"
           }
         }
       ]
@@ -54,47 +54,37 @@
     {
       "sector": "Energy",
       "read": "Neutral",
-      "score": 46,
+      "score": 47,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "The Energy sector is primarily impacted by a geopolitical supply event.",
+          "text": "Supply-route risk from conflict pushes crude higher; refiners and upstream names diverge",
           "forecast": {
-            "low": 4.3,
-            "high": 9.7,
+            "low": 4.2,
+            "high": 9.5,
             "direction": "-",
-            "text": "-4.3% to -9.7%"
+            "text": "-4.2% to -9.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "The global energy landscape is influenced by external factors and geopolitical tensions, affecting supply chains.",
+          "text": "Freight and insurance costs rising on shipping-lane threats",
           "forecast": {
-            "low": 4.3,
-            "high": 9.7,
+            "low": 4.2,
+            "high": 9.5,
             "direction": "-",
-            "text": "-4.3% to -9.7%"
+            "text": "-4.2% to -9.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "The ongoing situation has created a mixed sentiment in the sector, driven by uncertainty.",
+          "text": "Strategic-reserve releases could cap upside, adding two-way risk",
           "forecast": {
-            "low": 4.3,
-            "high": 9.7,
+            "low": 4.2,
+            "high": 9.5,
             "direction": "-",
-            "text": "-4.3% to -9.7%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Oil prices and production levels are closely tied to geopolitical events, which have a direct impact on the sector.",
-          "forecast": {
-            "low": 4.3,
-            "high": 9.7,
-            "direction": "-",
-            "text": "-4.3% to -9.7%"
+            "text": "-4.2% to -9.5%"
           }
         }
       ]
@@ -102,42 +92,12 @@
     {
       "sector": "Financials",
       "read": "Neutral",
-      "score": 46,
+      "score": 47,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "The Financials sector is experiencing a mixed sentiment due to a geopolitical supply event.",
-          "forecast": {
-            "low": 1.1,
-            "high": 3.2,
-            "direction": "-",
-            "text": "-1.1% to -3.2%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Market participants are cautious due to the recent geopolitical tensions affecting supply chains.",
-          "forecast": {
-            "low": 1.1,
-            "high": 3.2,
-            "direction": "-",
-            "text": "-1.1% to -3.2%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "The Indian stock market is experiencing volatility, leading to a mixed sentiment in the Financials sector.",
-          "forecast": {
-            "low": 1.1,
-            "high": 3.2,
-            "direction": "-",
-            "text": "-1.1% to -3.2%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Earnings pops are proving short-lived amid the ongoing market volatility.",
+          "text": "Financials sentiment pressured by the prevailing geopolitical supply backdrop",
           "forecast": {
             "low": 1.1,
             "high": 3.2,
@@ -150,47 +110,17 @@
     {
       "sector": "Healthcare",
       "read": "Neutral",
-      "score": 46,
+      "score": 47,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "The geopolitics-driven supply event negatively impacts the Healthcare sector",
+          "text": "Healthcare sentiment pressured by the prevailing geopolitical supply backdrop",
           "forecast": {
             "low": 0.5,
-            "high": 2.2,
+            "high": 2.1,
             "direction": "-",
-            "text": "-0.5% to -2.2%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "There is limited information available from the provided headlines to support complex drivers",
-          "forecast": {
-            "low": 0.5,
-            "high": 2.2,
-            "direction": "-",
-            "text": "-0.5% to -2.2%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "No direct connections can be made between the given headlines and the Healthcare sector",
-          "forecast": {
-            "low": 0.5,
-            "high": 2.2,
-            "direction": "-",
-            "text": "-0.5% to -2.2%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "The primary headline focuses on a geopolitical event rather than a sector-specific driver",
-          "forecast": {
-            "low": 0.5,
-            "high": 2.2,
-            "direction": "-",
-            "text": "-0.5% to -2.2%"
+            "text": "-0.5% to -2.1%"
           }
         }
       ]
@@ -198,65 +128,35 @@
     {
       "sector": "Industrials",
       "read": "Neutral",
-      "score": 46,
+      "score": 47,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Global Industrials sector is impacted by a geopolitical supply event",
+          "text": "Industrials sentiment pressured by the prevailing geopolitical supply backdrop",
           "forecast": {
             "low": 1.6,
-            "high": 4.3,
+            "high": 4.2,
             "direction": "-",
-            "text": "-1.6% to -4.3%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Earnings season, led by Amazon, Apple, Meta, and Microsoft, may not provide the boost the sector is looking for",
-          "forecast": {
-            "low": 1.6,
-            "high": 4.3,
-            "direction": "-",
-            "text": "-1.6% to -4.3%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Volatility in the market is causing short-lived pops in earnings, making long-term growth uncertain",
-          "forecast": {
-            "low": 1.6,
-            "high": 4.3,
-            "direction": "-",
-            "text": "-1.6% to -4.3%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Value stocks are currently outperforming growth stocks",
-          "forecast": {
-            "low": 1.6,
-            "high": 4.3,
-            "direction": "-",
-            "text": "-1.6% to -4.3%"
+            "text": "-1.6% to -4.2%"
           }
         }
       ]
     },
     {
       "sector": "Technology",
-      "read": "Bearish",
-      "score": 38,
+      "read": "Neutral",
+      "score": 45,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "The main impact on the Technology sector is the geopolitical supply event.",
+          "text": "Technology sentiment pressured by the prevailing geopolitical supply backdrop",
           "forecast": {
-            "low": 1.2,
-            "high": 3.7,
+            "low": 1.1,
+            "high": 3.3,
             "direction": "-",
-            "text": "-1.2% to -3.7%"
+            "text": "-1.1% to -3.3%"
           }
         }
       ]

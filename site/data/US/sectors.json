@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-09 06:48 UTC",
+  "updated_at": "2026-08-10 07:23 UTC",
   "market": "US",
   "index": "S&P 500",
   "macro_theme": "Geopolitical conflict raises energy-sector risk",
@@ -8,8 +8,8 @@
   "sectors": [
     {
       "name": "Consumer Discretionary",
-      "score": 42,
-      "label": "Neutral"
+      "score": 40,
+      "label": "Bearish"
     },
     {
       "name": "Consumer Staples",
@@ -33,7 +33,7 @@
     },
     {
       "name": "Technology",
-      "score": 60,
+      "score": 61,
       "label": "Bullish"
     }
   ]

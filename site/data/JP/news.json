@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-09 06:48 UTC",
+  "updated_at": "2026-08-10 07:23 UTC",
   "market": "JP",
   "items": [
     {
@@ -7,63 +7,63 @@
       "sector": "Market",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/better-value-stock-microsoft-nvidia-152500114.html",
-      "note": "Comparing Microsoft and Nvidia indicates uncertainty about stock values."
+      "note": "Microsoft vs Nvidia comparison suggests caution in tech investing"
     },
     {
       "title": "Sensex Gains 118 Points After Late Recovery , Nifty Ends Above 23 , 650 Despite Rupee Weakness",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://www.freepressjournal.in/business/sensex-gains-118-points-after-late-recovery-nifty-ends-above-23650-despite-rupee-weakness",
-      "note": "Sensex's late recovery suggests market resilience against rupee weakness."
+      "note": "Late recovery indicates market resilience despite rupee weakness"
     },
     {
       "title": "Jim Cramer Shared Latest Take On Mega Quantum Computing Investment & Discussed These 13 Stocks",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://www.insidermonkey.com/blog/jim-cramer-shared-latest-take-on-mega-quantum-computing-investment-discussed-these-13-stocks-1768029/",
-      "note": "Jim Cramer's discussion fuels hope for quantum computing investment."
+      "note": "Jim Cramer's discussion of 13 stocks sparks renewed interest in investing"
     },
     {
       "title": "Morgan Stanley issues verdict for nervous stock market investors",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-issues-verdict-nervous-183300077.html",
-      "note": "Morgan Stanley's verdict implies cautious optimism for nervous investors."
+      "note": "Morgan Stanley's verdict for nervous investors suggests market uncertainty"
     },
     {
       "title": "This is not a flash in the pan : Why value stocks are beating growth by such a wide margin",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/not-flash-pan-why-value-225000407.html",
-      "note": "Value stocks beating growth indicates shift in market preferences."
+      "note": "Value stocks outperforming growth stocks adds to market optimism"
     },
     {
       "title": "Amazon , Apple , Meta , Microsoft Earnings on Deck : 33 % of Benzinga Viewers Say This is Top Report to Watch",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/07/60742266/amazon-apple-meta-microsoft-earnings-on-deck-33-of-benzinga-viewers-say-this-is-top-report-to-watch",
-      "note": "Amazon, Apple, Meta, Microsoft earnings anticipation fuels excitement."
+      "note": "Amazon, Apple, Meta, Microsoft earnings excitement builds market anticipation"
     },
     {
       "title": "Earnings pops prove short - lived amid volatile markets",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://www.livemint.com/market/stock-market-news/india-stock-market-earnings-season-short-lived-gains-investor-focus-future-guidance-11779180072439.html",
-      "note": "Earnings pops being short-lived suggests market volatility."
+      "note": "Short-lived earnings pops amid volatile markets dampen investor enthusiasm"
     },
     {
       "title": "Trump Bull Market Is Standing on Shaky Legs . Just 5 Stocks Account for 52 % of the S & P Gains",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/trump-bull-market-standing-shaky-161730353.html",
-      "note": "Trump bull market's shaky legs indicate underlying concerns about market stability."
+      "note": "Trump bull market's shaky legs raise concerns about market sustainability"
     },
     {
       "title": "Market research company warn of AI stocks selling cheap ; say they point to a  dangerous sign",
       "sector": "Technology",
       "tone": 0.0,
       "url": "https://timesofindia.indiatimes.com/technology/tech-news/market-research-company-warn-of-ai-stocks-selling-cheap-say-they-point-to-a-dangerous-sign/articleshow/131900405.cms",
-      "note": "Warning signs may lead to increased risk aversion among investors, weighing on sentiment."
+      "note": "Market sentiment may turn bearish due to the warning about AI stock prices."
     },
     {
       "title": "Mid - and small - cap outperformance cycle may be back after earnings reset : Brokerage",

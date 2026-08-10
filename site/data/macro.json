@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-09 06:48 UTC",
+  "updated_at": "2026-08-10 07:23 UTC",
   "markets": {
     "IN": {
       "cpi": {
@@ -36,29 +36,29 @@
         "label": "Real GDP Growth",
         "frequency": "annual",
         "unit": "%",
-        "source": "World Bank (NY.GDP.MKTP.KD.ZG)",
+        "source": "World Bank (NY.GDP.MKTP.KD.ZG) [MOCK]",
         "as_of": "2025",
-        "latest": 7.57,
+        "latest": 5.77,
         "series": [
           {
             "date": "2021",
-            "value": 9.69
+            "value": 2.95
           },
           {
             "date": "2022",
-            "value": 7.61
+            "value": 3.5
           },
           {
             "date": "2023",
-            "value": 7.21
+            "value": 4.66
           },
           {
             "date": "2024",
-            "value": 7.1
+            "value": 5.71
           },
           {
             "date": "2025",
-            "value": 7.57
+            "value": 5.77
           }
         ]
       },
@@ -1138,7 +1138,7 @@
           }
         ]
       },
-      "narrative": "India's inflation trend is showing signs of moderation with CPI inflation at 2.4%, while the growth momentum remains robust with a real GDP growth rate of 7.57%, indicating a relatively strong economic expansion amidst a labor market that still has some slack with an unemployment rate of 4.22%. The central bank's current policy stance is moderately tight with a rates of 5.25%, likely reflecting its efforts to balance growth and inflation goals in a stable currency environment."
+      "narrative": "India's macroeconomic backdrop is characterized by low inflation, solid growth momentum, relatively low unemployment, and a modest but tightening central bank policy. The low unemployment rate suggests a relatively strong labor market, while moderate inflation rates indicate a stable price environment. Overall, the data paints a picture of a resilient Indian economy with a stable macro profile."
     },
     "US": {
       "cpi": {
@@ -1491,7 +1491,7 @@
         "series": [],
         "note": "USD is Meridian's reference currency for this comparison; no vs-USD series applies."
       },
-      "narrative": "The data reveals that inflation is gradually cooling down, but still remains above target, while economic growth is experiencing steady momentum with a solid labor market, albeit with some underlying slack. The central bank has maintained a relatively cautious policy stance to address inflation concerns."
+      "narrative": "The US macro backdrop currently exhibits a moderate inflation trend, supported by steady growth momentum in the economy and gradually declining labor-market slack, but remains somewhat at odds with the central bank's policy stance, which appears to be tightening."
     },
     "UK": {
       "cpi": {
@@ -1558,29 +1558,29 @@
         "label": "Unemployment",
         "frequency": "annual",
         "unit": "%",
-        "source": "World Bank (SL.UEM.TOTL.ZS)",
+        "source": "World Bank (SL.UEM.TOTL.ZS) [MOCK]",
         "as_of": "2025",
-        "latest": 4.75,
+        "latest": 2.87,
         "series": [
           {
             "date": "2021",
-            "value": 4.86
+            "value": 5.48
           },
           {
             "date": "2022",
-            "value": 3.77
+            "value": 4.58
           },
           {
             "date": "2023",
-            "value": 4.03
+            "value": 3.75
           },
           {
             "date": "2024",
-            "value": 4.36
+            "value": 3.14
           },
           {
             "date": "2025",
-            "value": 4.75
+            "value": 2.87
           }
         ]
       },
@@ -2630,7 +2630,7 @@
           }
         ]
       },
-      "narrative": "The UK's macro backdrop suggests a moderate inflation trend, with growth momentum that's relatively weak but improving, and a labor market that's experiencing some slack given elevated unemployment. Monetary policy is slightly restrictive but might not be enough to keep inflation in check, which may prompt further tightening. The currency remains relatively weak."
+      "narrative": "UK's current macro backdrop suggests a still elevated inflation trend, accompanied by relatively modest growth momentum and very low unemployment, but the central bank is taking a cautious approach with a relatively high policy rate."
     },
     "JP": {
       "cpi": {
@@ -2737,7 +2737,7 @@
             "value": 1.0
           }
         ],
-        "note": "Manual, as of 2026-06-16 \u2014 FRED fetch failed (FRED IRSTCB01JPM156N latest observation is 982d old (2023-12-01) -- treating as stale). Policy rate, raised 25bp to 1.00% (7\u20131 vote) on 2026-06-16 \u2014 highest since 1995."
+        "note": "Manual, as of 2026-06-16 \u2014 FRED fetch failed (FRED IRSTCB01JPM156N latest observation is 983d old (2023-12-01) -- treating as stale). Policy rate, raised 25bp to 1.00% (7\u20131 vote) on 2026-06-16 \u2014 highest since 1995."
       },
       "fx": {
         "label": "JPY per USD",
@@ -3769,7 +3769,7 @@
           }
         ]
       },
-      "narrative": "The current Japanese macro backdrop displays a persistent inflation trend, steady albeit sluggish growth momentum, low unemployment, and a relatively accommodative policy stance."
+      "narrative": "Japan's macro backdrop reveals a mixed bag, with inflationary pressures easing slightly as GDP growth inches upward at a sluggish pace, however labor market conditions remain tight and unemployment is low, likely keeping the central bank cautious in its policy stance, but also not feeling overly pressured to raise rates anytime soon."
     }
   }
 }

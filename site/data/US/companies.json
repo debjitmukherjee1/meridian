@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-09 06:48 UTC",
+  "updated_at": "2026-08-10 07:23 UTC",
   "market": "US",
   "currency": "$",
   "companies": [
@@ -13,13 +13,13 @@
       "fcf_per_share": 7.3811529977018235,
       "ebitda_per_share": 11.508628997038546,
       "net_debt_per_share": 1.503681319539707,
-      "sentiment_index": 60.2,
+      "sentiment_index": 60.8,
       "sentiment_breakdown": {
-        "news": 75,
+        "news": 76,
         "macro": 38
       },
       "base_fair_value": 220.6,
-      "sentiment_adjusted_fair_value": 227.35
+      "sentiment_adjusted_fair_value": 227.75
     },
     {
       "ticker": "MSFT",
@@ -31,13 +31,13 @@
       "fcf_per_share": 2.2281864921646064,
       "ebitda_per_share": 26.157944363740214,
       "net_debt_per_share": 6.998812263824834,
-      "sentiment_index": 60.2,
+      "sentiment_index": 60.8,
       "sentiment_breakdown": {
-        "news": 75,
+        "news": 76,
         "macro": 38
       },
       "base_fair_value": 404.1,
-      "sentiment_adjusted_fair_value": 416.47
+      "sentiment_adjusted_fair_value": 417.19
     },
     {
       "ticker": "JPM",
@@ -103,13 +103,13 @@
       "fcf_per_share": 0.2984453372796865,
       "ebitda_per_share": 15.659844649656362,
       "net_debt_per_share": 11.92687411702479,
-      "sentiment_index": 41.6,
+      "sentiment_index": 39.8,
       "sentiment_breakdown": {
-        "news": 44,
+        "news": 41,
         "macro": 38
       },
       "base_fair_value": 4.71,
-      "sentiment_adjusted_fair_value": 4.59
+      "sentiment_adjusted_fair_value": 4.57
     },
     {
       "ticker": "KO",
