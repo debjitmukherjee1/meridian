@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-12 07:18 UTC",
+  "updated_at": "2026-08-13 07:20 UTC",
   "market": "US",
   "items": [
     {
@@ -7,84 +7,84 @@
       "sector": "Technology",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/better-value-stock-microsoft-nvidia-152500114.html",
-      "note": "Investor sentiment for Microsoft and Nvidia may be neutral as a comparison."
-    },
-    {
-      "title": "Sensex Gains 118 Points After Late Recovery , Nifty Ends Above 23 , 650 Despite Rupee Weakness",
-      "sector": "Financials",
-      "tone": 0.0,
-      "url": "https://www.freepressjournal.in/business/sensex-gains-118-points-after-late-recovery-nifty-ends-above-23650-despite-rupee-weakness",
-      "note": "Sensex recovery and Nifty reaching 23,650 suggest a slight market rebound."
+      "note": "Contrasting stock performance may weigh on investor confidence in Microsoft & Nvidia"
     },
     {
       "title": "Jim Cramer Shared Latest Take On Mega Quantum Computing Investment & Discussed These 13 Stocks",
       "sector": "Financials",
       "tone": 0.0,
       "url": "https://www.insidermonkey.com/blog/jim-cramer-shared-latest-take-on-mega-quantum-computing-investment-discussed-these-13-stocks-1768029/",
-      "note": "Jim Cramer's mention of 'Mega Quantum Computing Investment' is neutral for Financials sector."
+      "note": "Mega computing investment potentially boosts tech stocks, possibly improving Financials"
     },
     {
       "title": "Morgan Stanley issues verdict for nervous stock market investors",
       "sector": "Financials",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-issues-verdict-nervous-183300077.html",
-      "note": "Morgan Stanley verdict may cause nervous investors but doesn't specify Financials."
+      "note": "Morgan Stanley's verdict likely influences neutral or bearish market sentiment for Financials"
     },
     {
       "title": "This is not a flash in the pan : Why value stocks are beating growth by such a wide margin",
       "sector": "Financials",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/not-flash-pan-why-value-225000407.html",
-      "note": "Value stocks beating growth by a wide margin is bullish for Financials sector."
+      "note": "Value stocks beating growth may positively impact Financials, especially value-oriented stocks"
     },
     {
       "title": "Amazon , Apple , Meta , Microsoft Earnings on Deck : 33 % of Benzinga Viewers Say This is Top Report to Watch",
       "sector": "Technology",
       "tone": 0.0,
       "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/07/60742266/amazon-apple-meta-microsoft-earnings-on-deck-33-of-benzinga-viewers-say-this-is-top-report-to-watch",
-      "note": "Increased attention to Tech earnings may lead to positive near-term market expectations."
-    },
-    {
-      "title": "Earnings pops prove short - lived amid volatile markets",
-      "sector": "Financials",
-      "tone": 0.0,
-      "url": "https://www.livemint.com/market/stock-market-news/india-stock-market-earnings-season-short-lived-gains-investor-focus-future-guidance-11779180072439.html",
-      "note": "Short-lived earnings pops amid volatility suggest Financials sector remains uncertain."
+      "note": "Expectations of strong earnings reports may boost investor sentiment for Amazon, Apple & Meta"
     },
     {
       "title": "Trump Bull Market Is Standing on Shaky Legs . Just 5 Stocks Account for 52 % of the S & P Gains",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/trump-bull-market-standing-shaky-161730353.html",
-      "note": "Shaky legs of bull market cast doubt on continued gains for top performers."
+      "note": "Market sentiment weakens due to shaky legs of Trump bull market."
     },
     {
       "title": "Market research company warn of AI stocks selling cheap ; say they point to a  dangerous sign",
       "sector": "Technology",
       "tone": 0.0,
       "url": "https://timesofindia.indiatimes.com/technology/tech-news/market-research-company-warn-of-ai-stocks-selling-cheap-say-they-point-to-a-dangerous-sign/articleshow/131900405.cms",
-      "note": "Warning signs of AI stock value decline could lead to decreased investor confidence."
+      "note": "Warning of potentially cheaper AI stocks could heighten caution among investors"
     },
     {
       "title": "Mid - and small - cap outperformance cycle may be back after earnings reset : Brokerage",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://www.moneycontrol.com/news/business/markets/mid-and-small-cap-outperformance-cycle-may-be-back-after-earnings-reset-brokerage-13933014.html",
-      "note": "Mid-cap outperformance might signal a shift in market trend, boosting optimism."
+      "note": "Re-emergence of outperformance cycle boosts mid- and small-cap optimism."
     },
     {
       "title": "Wall Street Is Getting More Bullish on Stocks . The S & P 500 Is  Earning  Its Gains .",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-getting-more-bullish-165847579.html",
-      "note": "Increased bullishness on Wall Street suggests growing confidence in market fundamentals."
+      "note": "Increased bullishness on Wall Street suggests growing market confidence."
     },
     {
       "title": "Why large cap and mid cap funds could be the best mutual fund to bet on now , according to Abakkus study",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://www.livemint.com/market/stock-market-news/why-large-cap-and-mid-cap-funds-could-be-the-best-mutual-fund-to-bet-on-now-according-to-abakkus-study-11783754490006.html",
-      "note": "Large cap and mid cap funds' performance in Abakkus study bolsters investor expectations."
+      "note": "Study suggests large-cap and mid-cap funds may be attractive investment choices."
+    },
+    {
+      "title": "Second - Quarter Earnings Season Starts Next Week . Here What to Expect .",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://www.fool.com/investing/2026/07/09/second-quarter-earnings-season-starts-expect/?source=iedfolrf0000001",
+      "note": "Second-quarter earnings season sparks cautious optimism and increased expectation."
+    },
+    {
+      "title": "Sensex surges 828 points , Nifty tops 24 , 200 amid broad - based buying",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://www.ibtimes.co.in/sensex-surges-828-points-nifty-tops-24200-amid-broad-based-buying-903743",
+      "note": "Indian market shows broad-based buying, indicating rising investor confidence."
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-12 07:18 UTC",
+  "updated_at": "2026-08-13 07:20 UTC",
   "market": "JP",
   "items": [
     {
@@ -7,63 +7,49 @@
       "sector": "Market",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/better-value-stock-microsoft-nvidia-152500114.html",
-      "note": "Contrasting values may create uncertainty"
-    },
-    {
-      "title": "Sensex Gains 118 Points After Late Recovery , Nifty Ends Above 23 , 650 Despite Rupee Weakness",
-      "sector": "Market",
-      "tone": 0.0,
-      "url": "https://www.freepressjournal.in/business/sensex-gains-118-points-after-late-recovery-nifty-ends-above-23650-despite-rupee-weakness",
-      "note": "Late recovery and rupee weakness balance sentiment"
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
     },
     {
       "title": "Jim Cramer Shared Latest Take On Mega Quantum Computing Investment & Discussed These 13 Stocks",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://www.insidermonkey.com/blog/jim-cramer-shared-latest-take-on-mega-quantum-computing-investment-discussed-these-13-stocks-1768029/",
-      "note": "Cramer's take on quantum computing investment sparks potential growth hopes"
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
     },
     {
       "title": "Morgan Stanley issues verdict for nervous stock market investors",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-issues-verdict-nervous-183300077.html",
-      "note": "Morgan Stanley's verdict adds to investor nervousness"
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
     },
     {
       "title": "This is not a flash in the pan : Why value stocks are beating growth by such a wide margin",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/not-flash-pan-why-value-225000407.html",
-      "note": "Value stocks beating growth by a wide margin increases bullishness"
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
     },
     {
       "title": "Amazon , Apple , Meta , Microsoft Earnings on Deck : 33 % of Benzinga Viewers Say This is Top Report to Watch",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/07/60742266/amazon-apple-meta-microsoft-earnings-on-deck-33-of-benzinga-viewers-say-this-is-top-report-to-watch",
-      "note": "Amazon, Apple, etc. earnings to drive market anticipation"
-    },
-    {
-      "title": "Earnings pops prove short - lived amid volatile markets",
-      "sector": "Market",
-      "tone": 0.0,
-      "url": "https://www.livemint.com/market/stock-market-news/india-stock-market-earnings-season-short-lived-gains-investor-focus-future-guidance-11779180072439.html",
-      "note": "Volatility affects earnings pops, dampening investor enthusiasm"
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
     },
     {
       "title": "Trump Bull Market Is Standing on Shaky Legs . Just 5 Stocks Account for 52 % of the S & P Gains",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/trump-bull-market-standing-shaky-161730353.html",
-      "note": "Market's reliance on few stocks makes its prospects shaky"
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
     },
     {
       "title": "Market research company warn of AI stocks selling cheap ; say they point to a  dangerous sign",
       "sector": "Technology",
       "tone": 0.0,
       "url": "https://timesofindia.indiatimes.com/technology/tech-news/market-research-company-warn-of-ai-stocks-selling-cheap-say-they-point-to-a-dangerous-sign/articleshow/131900405.cms",
-      "note": "This warning about AI stocks may cause short-term bearishness."
+      "note": "Potential AI stock buying opportunity mentioned, but also warned of as a warning sign."
     },
     {
       "title": "Mid - and small - cap outperformance cycle may be back after earnings reset : Brokerage",
@@ -84,6 +70,20 @@
       "sector": "Market",
       "tone": 0.0,
       "url": "https://www.livemint.com/market/stock-market-news/why-large-cap-and-mid-cap-funds-could-be-the-best-mutual-fund-to-bet-on-now-according-to-abakkus-study-11783754490006.html",
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+    },
+    {
+      "title": "Second - Quarter Earnings Season Starts Next Week . Here What to Expect .",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://www.fool.com/investing/2026/07/09/second-quarter-earnings-season-starts-expect/?source=iedfolrf0000001",
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+    },
+    {
+      "title": "Sensex surges 828 points , Nifty tops 24 , 200 amid broad - based buying",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://www.ibtimes.co.in/sensex-surges-828-points-nifty-tops-24200-amid-broad-based-buying-903743",
       "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
     }
   ]

@@ -1,52 +1,52 @@
 {
-  "updated_at": "2026-08-12 07:18 UTC",
+  "updated_at": "2026-08-13 07:20 UTC",
   "market": "US",
   "macro_theme": "Geopolitical conflict raises energy-sector risk",
   "signals": [
     {
       "sector": "Consumer Discretionary",
       "read": "Neutral",
-      "score": 56,
+      "score": 58,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "The sector is primarily impacted by increasing geopolitical supply events driving bullish sentiment.",
+          "text": "Geopolitical supply events are driving bullish sentiment in the Consumer Discretionary sector.",
           "forecast": {
             "low": 1.7,
-            "high": 3.9,
+            "high": 4.1,
             "direction": "+",
-            "text": "+1.7% to +3.9%"
+            "text": "+1.7% to +4.1%"
           }
         },
         {
           "role": "supporting",
-          "text": "Mid- and small-cap outperformance cycle may be back, supporting Consumer Discretionary sector growth.",
+          "text": "There is a mid-and small-cap outperformance cycle, which supports broader equity markets.",
           "forecast": {
             "low": 1.7,
-            "high": 3.9,
+            "high": 4.1,
             "direction": "+",
-            "text": "+1.7% to +3.9%"
+            "text": "+1.7% to +4.1%"
           }
         },
         {
           "role": "supporting",
-          "text": "Wall Street's growing bullishness on stocks is contributing to the sector's upward momentum.",
+          "text": "Large cap and mid cap funds are seeing increased investment, potentially benefiting Consumer Discretionary stocks.",
           "forecast": {
             "low": 1.7,
-            "high": 3.9,
+            "high": 4.1,
             "direction": "+",
-            "text": "+1.7% to +3.9%"
+            "text": "+1.7% to +4.1%"
           }
         },
         {
           "role": "supporting",
-          "text": "Large and mid-cap funds are favored, indicating investment inflows supporting the sector.",
+          "text": "A strong earnings season, including the upcoming Q2 results, may further bolster investor sentiment in the sector.",
           "forecast": {
             "low": 1.7,
-            "high": 3.9,
+            "high": 4.1,
             "direction": "+",
-            "text": "+1.7% to +3.9%"
+            "text": "+1.7% to +4.1%"
           }
         }
       ]
@@ -54,47 +54,37 @@
     {
       "sector": "Consumer Staples",
       "read": "Neutral",
-      "score": 56,
+      "score": 58,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "A geopolitical supply event is driving the bullish sentiment in the Consumer Staples sector.",
+          "text": "Geopolitical supply event has a bullish impact on the Consumer Staples sector",
           "forecast": {
-            "low": 1.1,
-            "high": 2.8,
+            "low": 1.2,
+            "high": 2.9,
             "direction": "+",
-            "text": "+1.1% to +2.8%"
+            "text": "+1.2% to +2.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "Outperformance of mid- and small-cap stocks may contribute to the sector's gains.",
+          "text": "Outperformance of large-cap and mid-cap stocks",
           "forecast": {
-            "low": 1.1,
-            "high": 2.8,
+            "low": 1.2,
+            "high": 2.9,
             "direction": "+",
-            "text": "+1.1% to +2.8%"
+            "text": "+1.2% to +2.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "Investors are becoming more bullish on overall stocks, with the S&P 500 earning its gains.",
+          "text": "Reset expectations ahead of Q2 earnings season",
           "forecast": {
-            "low": 1.1,
-            "high": 2.8,
+            "low": 1.2,
+            "high": 2.9,
             "direction": "+",
-            "text": "+1.1% to +2.8%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Large-cap and mid-cap funds are seeing favorability as potential investment options.",
-          "forecast": {
-            "low": 1.1,
-            "high": 2.8,
-            "direction": "+",
-            "text": "+1.1% to +2.8%"
+            "text": "+1.2% to +2.9%"
           }
         }
       ]
@@ -102,17 +92,47 @@
     {
       "sector": "Energy",
       "read": "Neutral",
-      "score": 56,
+      "score": 58,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "A geopolitical supply event is driving the current bullish sentiment in the Energy sector.",
+          "text": "A geopolitical supply event is driving the Energy sector's bullish sentiment.",
           "forecast": {
-            "low": 4.5,
-            "high": 10.1,
+            "low": 4.6,
+            "high": 10.4,
             "direction": "+",
-            "text": "+4.5% to +10.1%"
+            "text": "+4.6% to +10.4%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Second-Quarter Earnings Season Starts Next Week",
+          "forecast": {
+            "low": 4.6,
+            "high": 10.4,
+            "direction": "+",
+            "text": "+4.6% to +10.4%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Sensex surges 828 points, Nifty tops 24,200 amid broad-based buying",
+          "forecast": {
+            "low": 4.6,
+            "high": 10.4,
+            "direction": "+",
+            "text": "+4.6% to +10.4%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Wall Street Is Getting More Bullish on Stocks. The S & P 500 Is Earning Its Gains.",
+          "forecast": {
+            "low": 4.6,
+            "high": 10.4,
+            "direction": "+",
+            "text": "+4.6% to +10.4%"
           }
         }
       ]
@@ -120,47 +140,17 @@
     {
       "sector": "Financials",
       "read": "Neutral",
-      "score": 49,
+      "score": 50,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Rupee weakness is the MAIN impact on the Financials sector.",
+          "text": "Ongoing geopolitical supply events are primarily affecting the Financials sector.",
           "forecast": {
             "low": 1.0,
-            "high": 3.1,
-            "direction": "-",
-            "text": "-1.0% to -3.1%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Volatility in the market due to geopolitical supply events",
-          "forecast": {
-            "low": 1.0,
-            "high": 3.1,
-            "direction": "-",
-            "text": "-1.0% to -3.1%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Mixed earnings reports from Financials companies",
-          "forecast": {
-            "low": 1.0,
-            "high": 3.1,
-            "direction": "-",
-            "text": "-1.0% to -3.1%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Earnings pops proving short-lived",
-          "forecast": {
-            "low": 1.0,
-            "high": 3.1,
-            "direction": "-",
-            "text": "-1.0% to -3.1%"
+            "high": 3.0,
+            "direction": "+",
+            "text": "+1.0% to +3.0%"
           }
         }
       ]
@@ -168,47 +158,17 @@
     {
       "sector": "Healthcare",
       "read": "Neutral",
-      "score": 56,
+      "score": 58,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Bullish sentiment driven by a geopolitical supply event is boosting the Healthcare sector.",
+          "text": "A geopolitical supply event is driving a bullish sentiment towards the Healthcare sector, with a currently positive impact.",
           "forecast": {
             "low": 0.6,
-            "high": 2.2,
+            "high": 2.3,
             "direction": "+",
-            "text": "+0.6% to +2.2%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "The cycle of mid- and small-cap outperformance is resuming, potentially benefiting healthcare stocks.",
-          "forecast": {
-            "low": 0.6,
-            "high": 2.2,
-            "direction": "+",
-            "text": "+0.6% to +2.2%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Large-cap and mid-cap funds are expected to perform well, which can indirectly support healthcare stocks.",
-          "forecast": {
-            "low": 0.6,
-            "high": 2.2,
-            "direction": "+",
-            "text": "+0.6% to +2.2%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Overall sentiment on Wall Street is increasingly bullish, with stocks earning their gains, contributing to a favorable environment for healthcare",
-          "forecast": {
-            "low": 0.6,
-            "high": 2.2,
-            "direction": "+",
-            "text": "+0.6% to +2.2%"
+            "text": "+0.6% to +2.3%"
           }
         }
       ]
@@ -216,47 +176,47 @@
     {
       "sector": "Technology",
       "read": "Neutral",
-      "score": 58,
+      "score": 56,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Global geopolitical tensions and supply events are driving a bullish sentiment in the Technology sector.",
+          "text": "A geopolitical supply event appears to be the primary driver behind the bullish sentiment in the Technology sector.",
           "forecast": {
-            "low": 1.2,
-            "high": 3.5,
+            "low": 1.1,
+            "high": 3.4,
             "direction": "+",
-            "text": "+1.2% to +3.5%"
+            "text": "+1.1% to +3.4%"
           }
         },
         {
           "role": "supporting",
-          "text": "Strong earnings from major Tech companies such as Amazon, Apple, Meta, and Microsoft are expected.",
+          "text": "A warning by market research about AI stocks selling cheap may be signaling a potential opportunity within the sector.",
           "forecast": {
-            "low": 1.2,
-            "high": 3.5,
+            "low": 1.1,
+            "high": 3.4,
             "direction": "+",
-            "text": "+1.2% to +3.5%"
+            "text": "+1.1% to +3.4%"
           }
         },
         {
           "role": "supporting",
-          "text": "Investors are seeking safe-haven assets like large-cap and mid-cap funds in the midst of market uncertainty.",
+          "text": "An upcoming earnings season for major technology players has increased investor interest.",
           "forecast": {
-            "low": 1.2,
-            "high": 3.5,
+            "low": 1.1,
+            "high": 3.4,
             "direction": "+",
-            "text": "+1.2% to +3.5%"
+            "text": "+1.1% to +3.4%"
           }
         },
         {
           "role": "supporting",
-          "text": "Market research warns that undervalued AI stocks could indicate a potentially dangerous market sign, contributing to sentiment.",
+          "text": "Large cap and mid-cap funds are being seen as potentially attractive investment opportunities at this time.",
           "forecast": {
-            "low": 1.2,
-            "high": 3.5,
+            "low": 1.1,
+            "high": 3.4,
             "direction": "+",
-            "text": "+1.2% to +3.5%"
+            "text": "+1.1% to +3.4%"
           }
         }
       ]
