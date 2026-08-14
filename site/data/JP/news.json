@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13 07:20 UTC",
+  "updated_at": "2026-08-14 07:17 UTC",
   "market": "JP",
   "items": [
     {
@@ -38,18 +38,11 @@
       "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
     },
     {
-      "title": "Trump Bull Market Is Standing on Shaky Legs . Just 5 Stocks Account for 52 % of the S & P Gains",
-      "sector": "Market",
-      "tone": 0.0,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/trump-bull-market-standing-shaky-161730353.html",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
-    },
-    {
       "title": "Market research company warn of AI stocks selling cheap ; say they point to a  dangerous sign",
       "sector": "Technology",
       "tone": 0.0,
       "url": "https://timesofindia.indiatimes.com/technology/tech-news/market-research-company-warn-of-ai-stocks-selling-cheap-say-they-point-to-a-dangerous-sign/articleshow/131900405.cms",
-      "note": "Potential AI stock buying opportunity mentioned, but also warned of as a warning sign."
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Technology sentiment."
     },
     {
       "title": "Mid - and small - cap outperformance cycle may be back after earnings reset : Brokerage",
@@ -85,6 +78,13 @@
       "tone": 0.0,
       "url": "https://www.ibtimes.co.in/sensex-surges-828-points-nifty-tops-24200-amid-broad-based-buying-903743",
       "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+    },
+    {
+      "title": "US Stock Market Today | Dow Jones | Nasdaq Live : US stocks set for higher open as AI optimism outweighs Middle East risks",
+      "sector": "Technology",
+      "tone": 0.0,
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stock-market-live-dow-jones-sp-500-nasdaq-trump-us-iran-israel-war-hormuz-brent-crude-oil-fed-warsh-rate-marvell-tech-micron-ai-stocks-price-news/liveblog/131329548.cms",
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Technology sentiment."
     }
   ]
 }

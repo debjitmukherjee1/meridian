@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13 07:20 UTC",
+  "updated_at": "2026-08-14 07:17 UTC",
   "market": "UK",
   "items": [
     {
@@ -7,70 +7,63 @@
       "sector": "Market",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/better-value-stock-microsoft-nvidia-152500114.html",
-      "note": "Comparative value analysis could lead to increased demand for Nvidia."
+      "note": "Value stocks beating growth suggests positive sentiment for low-risk investments."
     },
     {
       "title": "Jim Cramer Shared Latest Take On Mega Quantum Computing Investment & Discussed These 13 Stocks",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://www.insidermonkey.com/blog/jim-cramer-shared-latest-take-on-mega-quantum-computing-investment-discussed-these-13-stocks-1768029/",
-      "note": "Mega quantum computing investment optimism may lift market sentiment partially."
+      "note": "Focus on specific stocks like Microsoft and Nvidia may be bullish for these."
     },
     {
       "title": "Morgan Stanley issues verdict for nervous stock market investors",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-issues-verdict-nervous-183300077.html",
-      "note": "Morgan Stanley's verdict likely to influence nervous investors' decisions."
+      "note": "Jim Cramer's take can lead to speculative buying, potentially increasing market value."
     },
     {
       "title": "This is not a flash in the pan : Why value stocks are beating growth by such a wide margin",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/not-flash-pan-why-value-225000407.html",
-      "note": "Value stocks outperforming growth increases market optimism, specifically."
+      "note": "Morgan Stanley's verdict likely to calm nervous investors, stabilizing market sentiment."
     },
     {
       "title": "Amazon , Apple , Meta , Microsoft Earnings on Deck : 33 % of Benzinga Viewers Say This is Top Report to Watch",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/07/60742266/amazon-apple-meta-microsoft-earnings-on-deck-33-of-benzinga-viewers-say-this-is-top-report-to-watch",
-      "note": "Amazon and other top tech companies' earnings will be highly watched."
-    },
-    {
-      "title": "Trump Bull Market Is Standing on Shaky Legs . Just 5 Stocks Account for 52 % of the S & P Gains",
-      "sector": "Market",
-      "tone": 0.0,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/trump-bull-market-standing-shaky-161730353.html",
-      "note": "Trump bull market's shaky legs raise concerns, potentially decreasing optimism."
+      "note": "Strong earnings from tech giants may indicate overall market growth and investor confidence."
     },
     {
       "title": "Market research company warn of AI stocks selling cheap ; say they point to a  dangerous sign",
       "sector": "Technology",
       "tone": 0.0,
       "url": "https://timesofindia.indiatimes.com/technology/tech-news/market-research-company-warn-of-ai-stocks-selling-cheap-say-they-point-to-a-dangerous-sign/articleshow/131900405.cms",
-      "note": "Investor concern about AI stocks selling cheap increases bearish sentiment."
+      "note": "Warning of potentially undervalued AI stocks may decrease investor optimism in the sector."
     },
     {
       "title": "Mid - and small - cap outperformance cycle may be back after earnings reset : Brokerage",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://www.moneycontrol.com/news/business/markets/mid-and-small-cap-outperformance-cycle-may-be-back-after-earnings-reset-brokerage-13933014.html",
-      "note": "Potential return of mid- and small-cap outperformance could boost market."
+      "note": "Mid-and-small-cap outperformance after earnings reset could boost market sentiment for smaller firms."
     },
     {
       "title": "Wall Street Is Getting More Bullish on Stocks . The S & P 500 Is  Earning  Its Gains .",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-getting-more-bullish-165847579.html",
-      "note": "Wall Street's growing bullishness and S&P 500's earned gains contribute to positivity."
+      "note": "Wall Street's increasing bullishness on stocks suggests a market recovery is ongoing."
     },
     {
       "title": "Why large cap and mid cap funds could be the best mutual fund to bet on now , according to Abakkus study",
       "sector": "Market",
       "tone": 0.0,
       "url": "https://www.livemint.com/market/stock-market-news/why-large-cap-and-mid-cap-funds-could-be-the-best-mutual-fund-to-bet-on-now-according-to-abakkus-study-11783754490006.html",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+      "note": "Large and mid-cap funds may become attractive options in a market with improving sentiment."
     },
     {
       "title": "Second - Quarter Earnings Season Starts Next Week . Here What to Expect .",
@@ -85,6 +78,13 @@
       "tone": 0.0,
       "url": "https://www.ibtimes.co.in/sensex-surges-828-points-nifty-tops-24200-amid-broad-based-buying-903743",
       "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+    },
+    {
+      "title": "US Stock Market Today | Dow Jones | Nasdaq Live : US stocks set for higher open as AI optimism outweighs Middle East risks",
+      "sector": "Technology",
+      "tone": 0.0,
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stock-market-live-dow-jones-sp-500-nasdaq-trump-us-iran-israel-war-hormuz-brent-crude-oil-fed-warsh-rate-marvell-tech-micron-ai-stocks-price-news/liveblog/131329548.cms",
+      "note": "US stock market optimism about AI outweighing Middle East risks may increase technology investor sentiment."
     }
   ]
 }
