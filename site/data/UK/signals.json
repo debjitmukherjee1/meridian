@@ -1,52 +1,22 @@
 {
-  "updated_at": "2026-08-14 07:17 UTC",
+  "updated_at": "2026-08-15 06:30 UTC",
   "market": "UK",
   "macro_theme": "Geopolitical conflict raises energy-sector risk",
   "signals": [
     {
       "sector": "Consumer Staples",
       "read": "Neutral",
-      "score": 59,
+      "score": 45,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "The geopolitical supply event has driven the Consumer Staples sector to a bullish sentiment.",
+          "text": "Consumer Staples sentiment pressured by the prevailing geopolitical supply backdrop",
           "forecast": {
-            "low": 1.2,
-            "high": 2.9,
-            "direction": "+",
-            "text": "+1.2% to +2.9%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Value stocks are beating growth stocks by a wide margin.",
-          "forecast": {
-            "low": 1.2,
-            "high": 2.9,
-            "direction": "+",
-            "text": "+1.2% to +2.9%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Mid- and small-cap stocks are outperforming, potentially signaling a new outperformance cycle.",
-          "forecast": {
-            "low": 1.2,
-            "high": 2.9,
-            "direction": "+",
-            "text": "+1.2% to +2.9%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Market sentiment, as indicated by the S&P 500, is bullish on stocks.",
-          "forecast": {
-            "low": 1.2,
-            "high": 2.9,
-            "direction": "+",
-            "text": "+1.2% to +2.9%"
+            "low": 1.1,
+            "high": 2.8,
+            "direction": "-",
+            "text": "-1.1% to -2.8%"
           }
         }
       ]
@@ -54,37 +24,37 @@
     {
       "sector": "Energy",
       "read": "Neutral",
-      "score": 59,
+      "score": 45,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Geopolitical supply event is driving the Energy sector bullish with a higher sentiment.",
+          "text": "Supply-route risk from conflict pushes crude higher; refiners and upstream names diverge",
           "forecast": {
-            "low": 4.7,
-            "high": 10.6,
-            "direction": "+",
-            "text": "+4.7% to +10.6%"
+            "low": 4.4,
+            "high": 9.9,
+            "direction": "-",
+            "text": "-4.4% to -9.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "There is no direct information, however, this could potentially be supported by a 'Mid - and small - cap outperformance cycle may be back after earnings reset', indicating a broader shift in sentiment, and 'Why value stocks are beating growth by such a wide margin' could hint at broader market shifts in favor of energy.",
+          "text": "Freight and insurance costs rising on shipping-lane threats",
           "forecast": {
-            "low": 4.7,
-            "high": 10.6,
-            "direction": "+",
-            "text": "+4.7% to +10.6%"
+            "low": 4.4,
+            "high": 9.9,
+            "direction": "-",
+            "text": "-4.4% to -9.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "Additionally, an improving sentiment overall as indicated by 'Wall Street Is Getting More Bullish on Stocks. The S & P 500 Is Earning Its Gains.' could be positively correlating with the sector.",
+          "text": "Strategic-reserve releases could cap upside, adding two-way risk",
           "forecast": {
-            "low": 4.7,
-            "high": 10.6,
-            "direction": "+",
-            "text": "+4.7% to +10.6%"
+            "low": 4.4,
+            "high": 9.9,
+            "direction": "-",
+            "text": "-4.4% to -9.9%"
           }
         }
       ]
@@ -92,37 +62,17 @@
     {
       "sector": "Financials",
       "read": "Neutral",
-      "score": 59,
+      "score": 45,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "The main impact on the Financials sector is the bullish sentiment driven by geopolitical supply events",
+          "text": "Financials sentiment pressured by the prevailing geopolitical supply backdrop",
           "forecast": {
-            "low": 1.2,
-            "high": 3.5,
-            "direction": "+",
-            "text": "+1.2% to +3.5%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Large-cap and mid-cap funds could be in focus.",
-          "forecast": {
-            "low": 1.2,
-            "high": 3.5,
-            "direction": "+",
-            "text": "+1.2% to +3.5%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Value stocks are outperforming growth stocks.",
-          "forecast": {
-            "low": 1.2,
-            "high": 3.5,
-            "direction": "+",
-            "text": "+1.2% to +3.5%"
+            "low": 1.1,
+            "high": 3.3,
+            "direction": "-",
+            "text": "-1.1% to -3.3%"
           }
         }
       ]
@@ -130,47 +80,47 @@
     {
       "sector": "Healthcare",
       "read": "Neutral",
-      "score": 59,
+      "score": 45,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "The geopolitical supply event in the Healthcare sector is driving a bullish sentiment (59/100).",
+          "text": "The geopolitical supply event is the primary factor driving the current bearish Healthcare sector sentiment of 45/100.",
           "forecast": {
             "low": 0.6,
-            "high": 2.4,
-            "direction": "+",
-            "text": "+0.6% to +2.4%"
+            "high": 2.2,
+            "direction": "-",
+            "text": "-0.6% to -2.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "The supply event is currently the main driver of the sector's performance.",
+          "text": "The event has disrupted traditional value growth dynamics, with value stocks outperforming growth stocks as mentioned in the article 'This is not a flash in the pan : Why value stocks are beating growth by such a wide margin.'",
           "forecast": {
             "low": 0.6,
-            "high": 2.4,
-            "direction": "+",
-            "text": "+0.6% to +2.4%"
+            "high": 2.2,
+            "direction": "-",
+            "text": "-0.6% to -2.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "Other supporting factors may include value stocks beating growth stocks by a wide margin, and the outperformance of mid- and small-cap companies after an earnings reset.",
+          "text": "Mid-and small-cap outperformance may be back after an earnings reset, as mentioned in 'Mid - and small - cap outperformance cycle may be back after earnings reset : Brokerage.'",
           "forecast": {
             "low": 0.6,
-            "high": 2.4,
-            "direction": "+",
-            "text": "+0.6% to +2.4%"
+            "high": 2.2,
+            "direction": "-",
+            "text": "-0.6% to -2.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "Large cap and mid cap funds may also be considered as a mutual fund option.",
+          "text": "There is a shift towards large cap and mid cap funds, according to Abakkus study mentioned in 'Why large cap and mid cap funds could be the best mutual fund to bet on now, according to Abakkus study'",
           "forecast": {
             "low": 0.6,
-            "high": 2.4,
-            "direction": "+",
-            "text": "+0.6% to +2.4%"
+            "high": 2.2,
+            "direction": "-",
+            "text": "-0.6% to -2.2%"
           }
         }
       ]
@@ -178,17 +128,17 @@
     {
       "sector": "Materials",
       "read": "Neutral",
-      "score": 59,
+      "score": 45,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "The Materials sector is being driven by a geopolitical supply event.",
+          "text": "Materials sentiment pressured by the prevailing geopolitical supply backdrop",
           "forecast": {
-            "low": 3.5,
-            "high": 8.3,
-            "direction": "+",
-            "text": "+3.5% to +8.3%"
+            "low": 3.3,
+            "high": 7.7,
+            "direction": "-",
+            "text": "-3.3% to -7.7%"
           }
         }
       ]
@@ -196,47 +146,17 @@
     {
       "sector": "Technology",
       "read": "Neutral",
-      "score": 57,
+      "score": 45,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Geopolitical supply events drive bullish sentiment in the Technology sector.",
+          "text": "Technology sentiment pressured by the prevailing geopolitical supply backdrop",
           "forecast": {
             "low": 1.1,
-            "high": 3.4,
-            "direction": "+",
-            "text": "+1.1% to +3.4%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "The Mid-and small-cap outperformance cycle may be back after earnings reset.",
-          "forecast": {
-            "low": 1.1,
-            "high": 3.4,
-            "direction": "+",
-            "text": "+1.1% to +3.4%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Market research company warn of AI stocks selling cheap, pointing to a dangerous sign.",
-          "forecast": {
-            "low": 1.1,
-            "high": 3.4,
-            "direction": "+",
-            "text": "+1.1% to +3.4%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Amazon, Apple, Meta, Microsoft Earnings on Deck, as 33% of Benzinga Viewers Say This is Top Report to Watch.",
-          "forecast": {
-            "low": 1.1,
-            "high": 3.4,
-            "direction": "+",
-            "text": "+1.1% to +3.4%"
+            "high": 3.3,
+            "direction": "-",
+            "text": "-1.1% to -3.3%"
           }
         }
       ]
