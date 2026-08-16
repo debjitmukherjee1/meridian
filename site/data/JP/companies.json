@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-15 06:30 UTC",
+  "updated_at": "2026-08-16 06:32 UTC",
   "market": "JP",
   "currency": "\u00a5",
   "companies": [
@@ -13,13 +13,13 @@
       "fcf_per_share": -304.02385924126907,
       "ebitda_per_share": 472.97661204116207,
       "net_debt_per_share": 2584.44996964459,
-      "sentiment_index": 45.2,
+      "sentiment_index": 57.2,
       "sentiment_breakdown": {
-        "news": 50.0,
+        "news": 70,
         "macro": 38
       },
       "base_fair_value": 3020.0,
-      "sentiment_adjusted_fair_value": 2976.51
+      "sentiment_adjusted_fair_value": 3085.23
     },
     {
       "ticker": "6758",
@@ -31,13 +31,13 @@
       "fcf_per_share": 572.5053879618104,
       "ebitda_per_share": 355.19354566639095,
       "net_debt_per_share": -51.14980138831474,
-      "sentiment_index": 45.2,
+      "sentiment_index": 56.0,
       "sentiment_breakdown": {
-        "news": 50.0,
+        "news": 68,
         "macro": 38
       },
       "base_fair_value": 5115.86,
-      "sentiment_adjusted_fair_value": 5042.19
+      "sentiment_adjusted_fair_value": 5207.95
     },
     {
       "ticker": "9984",
@@ -49,13 +49,13 @@
       "fcf_per_share": -383.4588802009301,
       "ebitda_per_share": 92.66223333843507,
       "net_debt_per_share": 4187.397077067833,
-      "sentiment_index": 45.2,
+      "sentiment_index": 56.0,
       "sentiment_breakdown": {
-        "news": 50.0,
+        "news": 68,
         "macro": 38
       },
       "base_fair_value": 11255.2,
-      "sentiment_adjusted_fair_value": 11093.13
+      "sentiment_adjusted_fair_value": 11457.79
     },
     {
       "ticker": "8306",
@@ -67,13 +67,13 @@
       "fcf_per_share": null,
       "ebitda_per_share": null,
       "net_debt_per_share": -3079.13672234009,
-      "sentiment_index": 45.2,
+      "sentiment_index": 57.2,
       "sentiment_breakdown": {
-        "news": 50.0,
+        "news": 70,
         "macro": 38
       },
       "base_fair_value": 3686.0,
-      "sentiment_adjusted_fair_value": 3632.92
+      "sentiment_adjusted_fair_value": 3765.62
     },
     {
       "ticker": "9432",
@@ -85,13 +85,13 @@
       "fcf_per_share": 138.67545702189742,
       "ebitda_per_share": 45.998750527220466,
       "net_debt_per_share": 185.19342713801203,
-      "sentiment_index": 45.2,
+      "sentiment_index": 56.0,
       "sentiment_breakdown": {
-        "news": 50.0,
+        "news": 68,
         "macro": 38
       },
       "base_fair_value": 888.1,
-      "sentiment_adjusted_fair_value": 875.31
+      "sentiment_adjusted_fair_value": 904.09
     },
     {
       "ticker": "4502",
@@ -103,13 +103,13 @@
       "fcf_per_share": 339.09090030135866,
       "ebitda_per_share": 782.4235740325518,
       "net_debt_per_share": 3178.6519732204856,
-      "sentiment_index": 45.2,
+      "sentiment_index": 57.2,
       "sentiment_breakdown": {
-        "news": 50.0,
+        "news": 70,
         "macro": 38
       },
       "base_fair_value": 5347.2,
-      "sentiment_adjusted_fair_value": 5270.2
+      "sentiment_adjusted_fair_value": 5462.7
     },
     {
       "ticker": "6501",
@@ -121,13 +121,13 @@
       "fcf_per_share": null,
       "ebitda_per_share": 391.8862910832362,
       "net_debt_per_share": -183.62225126262368,
-      "sentiment_index": 45.2,
+      "sentiment_index": 57.2,
       "sentiment_breakdown": {
-        "news": 50.0,
+        "news": 70,
         "macro": 38
       },
       "base_fair_value": 5767.0,
-      "sentiment_adjusted_fair_value": 5683.96
+      "sentiment_adjusted_fair_value": 5891.57
     },
     {
       "ticker": "8058",
@@ -139,13 +139,13 @@
       "fcf_per_share": 36.434637425545034,
       "ebitda_per_share": 211.93972430640272,
       "net_debt_per_share": 1270.1599505106033,
-      "sentiment_index": 45.2,
+      "sentiment_index": 57.2,
       "sentiment_breakdown": {
-        "news": 50.0,
+        "news": 70,
         "macro": 38
       },
       "base_fair_value": 574.55,
-      "sentiment_adjusted_fair_value": 566.28
+      "sentiment_adjusted_fair_value": 586.96
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-15 06:30 UTC",
+  "updated_at": "2026-08-16 06:32 UTC",
   "markets": {
     "IN": {
       "cpi": {
@@ -1491,7 +1491,7 @@
         "series": [],
         "note": "USD is Meridian's reference currency for this comparison; no vs-USD series applies."
       },
-      "narrative": "The current macro backdrop in the US is marked by a gradual inflation decline, accompanied by moderate growth momentum and relatively low labor-market slack. With real GDP growth steady and unemployment at a manageable level, the overall environment is favorable for sustained expansion. The central bank policy rate suggests a slightly restrictive stance."
+      "narrative": "The US economy is currently experiencing a moderate growth pace, with inflation slowly starting to trend upwards, while unemployment remains relatively low, indicating a labor market that's still tight but may be showing signs of easing, given the current central bank policy rate, which is at a relatively high stance."
     },
     "UK": {
       "cpi": {
@@ -2630,7 +2630,7 @@
           }
         ]
       },
-      "narrative": "United Kingdom: CPI inflation 3.88% (2025), real GDP growth 1.39% (2025), unemployment 4.75% (2025), policy rate 3.75% (2026-06-18). The currency stands at 1.3537 (USD per GBP, as of 2026-08-14)."
+      "narrative": "The UK economy is experiencing an inflation trend that's slightly higher than desired, with growth momentum that's somewhat below average, and labor-market slack that's relatively limited, all while the central bank holds a slightly hawkish policy stance."
     },
     "JP": {
       "cpi": {
@@ -2737,7 +2737,7 @@
             "value": 1.0
           }
         ],
-        "note": "Manual, as of 2026-06-16 \u2014 FRED fetch failed (FRED IRSTCB01JPM156N latest observation is 988d old (2023-12-01) -- treating as stale). Policy rate, raised 25bp to 1.00% (7\u20131 vote) on 2026-06-16 \u2014 highest since 1995."
+        "note": "Manual, as of 2026-06-16 \u2014 FRED fetch failed (FRED IRSTCB01JPM156N latest observation is 989d old (2023-12-01) -- treating as stale). Policy rate, raised 25bp to 1.00% (7\u20131 vote) on 2026-06-16 \u2014 highest since 1995."
       },
       "fx": {
         "label": "JPY per USD",
@@ -3769,7 +3769,7 @@
           }
         ]
       },
-      "narrative": "Japan: CPI inflation 3.17% (2025), real GDP growth 1.19% (2025), unemployment 2.45% (2025), policy rate 1.0% (2026-06-16). The currency stands at 159.01 (JPY per USD, as of 2026-08-14)."
+      "narrative": "Japan's economy seems to be navigating a delicate balance between tepid growth and moderating inflation, with a job market that still appears relatively tight, while the central bank maintains a neutral policy stance to monitor the situation."
     }
   }
 }
