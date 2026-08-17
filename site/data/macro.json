@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-08-16 06:32 UTC",
+  "updated_at": "2026-08-17 06:43 UTC",
   "markets": {
     "IN": {
       "cpi": {
         "label": "CPI Inflation (YoY)",
         "frequency": "annual",
         "unit": "%",
-        "source": "World Bank (FP.CPI.TOTL.ZG)",
+        "source": "World Bank (FP.CPI.TOTL.ZG) [MOCK]",
         "as_of": "2025",
-        "latest": 2.4,
+        "latest": 8.43,
         "series": [
           {
             "date": "2021",
-            "value": 5.13
+            "value": 5.44
           },
           {
             "date": "2022",
-            "value": 6.7
+            "value": 6.6
           },
           {
             "date": "2023",
-            "value": 5.65
+            "value": 7.5
           },
           {
             "date": "2024",
-            "value": 4.95
+            "value": 7.48
           },
           {
             "date": "2025",
-            "value": 2.4
+            "value": 8.43
           }
         ]
       },
@@ -36,29 +36,29 @@
         "label": "Real GDP Growth",
         "frequency": "annual",
         "unit": "%",
-        "source": "World Bank (NY.GDP.MKTP.KD.ZG)",
+        "source": "World Bank (NY.GDP.MKTP.KD.ZG) [MOCK]",
         "as_of": "2025",
-        "latest": 7.57,
+        "latest": 5.77,
         "series": [
           {
             "date": "2021",
-            "value": 9.69
+            "value": 2.95
           },
           {
             "date": "2022",
-            "value": 7.61
+            "value": 3.5
           },
           {
             "date": "2023",
-            "value": 7.21
+            "value": 4.66
           },
           {
             "date": "2024",
-            "value": 7.1
+            "value": 5.71
           },
           {
             "date": "2025",
-            "value": 7.57
+            "value": 5.77
           }
         ]
       },
@@ -66,29 +66,29 @@
         "label": "Unemployment",
         "frequency": "annual",
         "unit": "%",
-        "source": "World Bank (SL.UEM.TOTL.ZS)",
+        "source": "World Bank (SL.UEM.TOTL.ZS) [MOCK]",
         "as_of": "2025",
-        "latest": 4.22,
+        "latest": 3.7,
         "series": [
           {
             "date": "2021",
-            "value": 6.38
+            "value": 5.36
           },
           {
             "date": "2022",
-            "value": 4.82
+            "value": 5.19
           },
           {
             "date": "2023",
-            "value": 4.17
+            "value": 4.8
           },
           {
             "date": "2024",
-            "value": 4.17
+            "value": 4.02
           },
           {
             "date": "2025",
-            "value": 4.22
+            "value": 3.7
           }
         ]
       },
@@ -1138,7 +1138,7 @@
           }
         ]
       },
-      "narrative": "India: CPI inflation 2.4% (2025), real GDP growth 7.57% (2025), unemployment 4.22% (2025), policy rate 5.25% (2026-06-05). The currency stands at 95.43 (INR per USD, as of 2026-08-14)."
+      "narrative": "India's macro economy is characterized by a moderate inflation trend, supported by a stable economic growth momentum. Despite a low unemployment rate, there appears to be some labor-market slack. The central bank has maintained a cautiously hawkish policy stance to address the lingering inflationary pressures."
     },
     "US": {
       "cpi": {
@@ -1205,29 +1205,29 @@
         "label": "Unemployment",
         "frequency": "annual",
         "unit": "%",
-        "source": "World Bank (SL.UEM.TOTL.ZS)",
+        "source": "World Bank (SL.UEM.TOTL.ZS) [MOCK]",
         "as_of": "2025",
-        "latest": 4.2,
+        "latest": 9.39,
         "series": [
           {
             "date": "2021",
-            "value": 5.35
+            "value": 6.66
           },
           {
             "date": "2022",
-            "value": 3.65
+            "value": 6.89
           },
           {
             "date": "2023",
-            "value": 3.64
+            "value": 8.0
           },
           {
             "date": "2024",
-            "value": 4.02
+            "value": 8.49
           },
           {
             "date": "2025",
-            "value": 4.2
+            "value": 9.39
           }
         ]
       },
@@ -1491,36 +1491,36 @@
         "series": [],
         "note": "USD is Meridian's reference currency for this comparison; no vs-USD series applies."
       },
-      "narrative": "The US economy is currently experiencing a moderate growth pace, with inflation slowly starting to trend upwards, while unemployment remains relatively low, indicating a labor market that's still tight but may be showing signs of easing, given the current central bank policy rate, which is at a relatively high stance."
+      "narrative": "The overall macro backdrop suggests a moderate inflation trend, modest growth momentum, and a relatively high level of labor-market slack, with the central bank maintaining a slightly restrictive policy stance."
     },
     "UK": {
       "cpi": {
         "label": "CPI Inflation (YoY)",
         "frequency": "annual",
         "unit": "%",
-        "source": "World Bank (FP.CPI.TOTL.ZG)",
+        "source": "World Bank (FP.CPI.TOTL.ZG) [MOCK]",
         "as_of": "2025",
-        "latest": 3.88,
+        "latest": 1.48,
         "series": [
           {
             "date": "2021",
-            "value": 2.52
+            "value": 3.4
           },
           {
             "date": "2022",
-            "value": 7.92
+            "value": 3.22
           },
           {
             "date": "2023",
-            "value": 6.79
+            "value": 3.52
           },
           {
             "date": "2024",
-            "value": 3.27
+            "value": 2.62
           },
           {
             "date": "2025",
-            "value": 3.88
+            "value": 1.48
           }
         ]
       },
@@ -1558,29 +1558,29 @@
         "label": "Unemployment",
         "frequency": "annual",
         "unit": "%",
-        "source": "World Bank (SL.UEM.TOTL.ZS)",
+        "source": "World Bank (SL.UEM.TOTL.ZS) [MOCK]",
         "as_of": "2025",
-        "latest": 4.75,
+        "latest": 2.87,
         "series": [
           {
             "date": "2021",
-            "value": 4.86
+            "value": 5.48
           },
           {
             "date": "2022",
-            "value": 3.77
+            "value": 4.58
           },
           {
             "date": "2023",
-            "value": 4.03
+            "value": 3.75
           },
           {
             "date": "2024",
-            "value": 4.36
+            "value": 3.14
           },
           {
             "date": "2025",
-            "value": 4.75
+            "value": 2.87
           }
         ]
       },
@@ -2630,7 +2630,7 @@
           }
         ]
       },
-      "narrative": "The UK economy is experiencing an inflation trend that's slightly higher than desired, with growth momentum that's somewhat below average, and labor-market slack that's relatively limited, all while the central bank holds a slightly hawkish policy stance."
+      "narrative": "The UK's current macro backdrop reveals a modest inflation trend, with a low yet slowly increasing rate. Meanwhile, real GDP growth is steady, but unemployment remains relatively low, suggesting minimal labor-market slack. The central bank's policy stance is cautiously expansionary given a relatively stable policy rate and a strong currency."
     },
     "JP": {
       "cpi": {
@@ -2737,7 +2737,7 @@
             "value": 1.0
           }
         ],
-        "note": "Manual, as of 2026-06-16 \u2014 FRED fetch failed (FRED IRSTCB01JPM156N latest observation is 989d old (2023-12-01) -- treating as stale). Policy rate, raised 25bp to 1.00% (7\u20131 vote) on 2026-06-16 \u2014 highest since 1995."
+        "note": "Manual, as of 2026-06-16 \u2014 FRED fetch failed (FRED IRSTCB01JPM156N latest observation is 990d old (2023-12-01) -- treating as stale). Policy rate, raised 25bp to 1.00% (7\u20131 vote) on 2026-06-16 \u2014 highest since 1995."
       },
       "fx": {
         "label": "JPY per USD",
@@ -3769,7 +3769,7 @@
           }
         ]
       },
-      "narrative": "Japan's economy seems to be navigating a delicate balance between tepid growth and moderating inflation, with a job market that still appears relatively tight, while the central bank maintains a neutral policy stance to monitor the situation."
+      "narrative": "Japan: CPI inflation 3.17% (2025), real GDP growth 1.19% (2025), unemployment 2.45% (2025), policy rate 1.0% (2026-06-16). The currency stands at 159.01 (JPY per USD, as of 2026-08-14)."
     }
   }
 }
