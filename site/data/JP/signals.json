@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-08-19 06:36 UTC",
+  "updated_at": "2026-08-20 06:38 UTC",
   "market": "JP",
-  "macro_theme": "Geopolitical conflict raises energy-sector risk",
+  "macro_theme": "Consumer demand signals dominate headlines",
   "signals": [
     {
       "sector": "Consumer Discretionary",
-      "read": "Bearish",
-      "score": 35,
-      "event_type": "geopolitical_supply",
+      "read": "Neutral",
+      "score": 50,
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Consumer Discretionary sentiment pressured by the prevailing geopolitical supply backdrop",
+          "text": "Consumer Discretionary sentiment supported by the prevailing demand shock backdrop",
           "forecast": {
-            "low": 2.0,
-            "high": 4.5,
-            "direction": "-",
-            "text": "-2.0% to -4.5%"
+            "low": 2.5,
+            "high": 5.5,
+            "direction": "+",
+            "text": "+2.5% to +5.5%"
           }
         }
       ]
@@ -24,37 +24,17 @@
     {
       "sector": "Energy",
       "read": "Neutral",
-      "score": 44,
-      "event_type": "geopolitical_supply",
+      "score": 50,
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Supply-route risk from conflict pushes crude higher; refiners and upstream names diverge",
+          "text": "Energy sentiment supported by the prevailing demand shock backdrop",
           "forecast": {
-            "low": 4.5,
-            "high": 10.1,
-            "direction": "-",
-            "text": "-4.5% to -10.1%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Freight and insurance costs rising on shipping-lane threats",
-          "forecast": {
-            "low": 4.5,
-            "high": 10.1,
-            "direction": "-",
-            "text": "-4.5% to -10.1%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Strategic-reserve releases could cap upside, adding two-way risk",
-          "forecast": {
-            "low": 4.5,
-            "high": 10.1,
-            "direction": "-",
-            "text": "-4.5% to -10.1%"
+            "low": 2.5,
+            "high": 6.0,
+            "direction": "+",
+            "text": "+2.5% to +6.0%"
           }
         }
       ]
@@ -62,35 +42,35 @@
     {
       "sector": "Financials",
       "read": "Neutral",
-      "score": 55,
-      "event_type": "geopolitical_supply",
+      "score": 50,
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Financials sentiment supported by the prevailing geopolitical supply backdrop",
+          "text": "Financials sentiment supported by the prevailing demand shock backdrop",
           "forecast": {
-            "low": 1.1,
-            "high": 3.3,
+            "low": 1.5,
+            "high": 3.5,
             "direction": "+",
-            "text": "+1.1% to +3.3%"
+            "text": "+1.5% to +3.5%"
           }
         }
       ]
     },
     {
       "sector": "Healthcare",
-      "read": "Bullish",
-      "score": 60,
-      "event_type": "geopolitical_supply",
+      "read": "Neutral",
+      "score": 50,
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Healthcare sentiment supported by the prevailing geopolitical supply backdrop",
+          "text": "Healthcare sentiment supported by the prevailing demand shock backdrop",
           "forecast": {
-            "low": 0.6,
-            "high": 2.4,
+            "low": 1.0,
+            "high": 2.5,
             "direction": "+",
-            "text": "+0.6% to +2.4%"
+            "text": "+1.0% to +2.5%"
           }
         }
       ]
@@ -98,17 +78,17 @@
     {
       "sector": "Industrials",
       "read": "Neutral",
-      "score": 45,
-      "event_type": "geopolitical_supply",
+      "score": 50,
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Industrials sentiment pressured by the prevailing geopolitical supply backdrop",
+          "text": "Industrials sentiment supported by the prevailing demand shock backdrop",
           "forecast": {
-            "low": 1.7,
-            "high": 4.4,
-            "direction": "-",
-            "text": "-1.7% to -4.4%"
+            "low": 2.0,
+            "high": 4.5,
+            "direction": "+",
+            "text": "+2.0% to +4.5%"
           }
         }
       ]
@@ -116,17 +96,17 @@
     {
       "sector": "Technology",
       "read": "Neutral",
-      "score": 48,
-      "event_type": "geopolitical_supply",
+      "score": 50,
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Technology sentiment pressured by the prevailing geopolitical supply backdrop",
+          "text": "Technology sentiment supported by the prevailing demand shock backdrop",
           "forecast": {
-            "low": 1.0,
-            "high": 3.1,
-            "direction": "-",
-            "text": "-1.0% to -3.1%"
+            "low": 2.0,
+            "high": 4.5,
+            "direction": "+",
+            "text": "+2.0% to +4.5%"
           }
         }
       ]

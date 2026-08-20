@@ -1,76 +1,90 @@
 {
-  "updated_at": "2026-08-19 06:36 UTC",
+  "updated_at": "2026-08-20 06:38 UTC",
   "market": "JP",
   "items": [
     {
-      "title": "Chipmakers rally as AI demand outpaces supply",
+      "title": "Which Is the Better Value Stock : Microsoft or Nvidia ?",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/better-value-stock-microsoft-nvidia-152500114.html",
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+    },
+    {
+      "title": "Morgan Stanley issues verdict for nervous stock market investors",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-issues-verdict-nervous-183300077.html",
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+    },
+    {
+      "title": "This is not a flash in the pan : Why value stocks are beating growth by such a wide margin",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/not-flash-pan-why-value-225000407.html",
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+    },
+    {
+      "title": "Amazon , Apple , Meta , Microsoft Earnings on Deck : 33 % of Benzinga Viewers Say This is Top Report to Watch",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/07/60742266/amazon-apple-meta-microsoft-earnings-on-deck-33-of-benzinga-viewers-say-this-is-top-report-to-watch",
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+    },
+    {
+      "title": "Market research company warn of AI stocks selling cheap ; say they point to a  dangerous sign",
       "sector": "Technology",
-      "tone": 3.4,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Tone +3.4 \u2014 reads positive, supports bullish sentiment in Technology."
+      "tone": 0.0,
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/market-research-company-warn-of-ai-stocks-selling-cheap-say-they-point-to-a-dangerous-sign/articleshow/131900405.cms",
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Technology sentiment."
     },
     {
-      "title": "Regulators open probe into big-tech ad practices",
-      "sector": "Technology",
-      "tone": -2.1,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Tone -2.1 \u2014 reads negative, weighs on sentiment in Technology."
+      "title": "Wall Street Is Getting More Bullish on Stocks . The S & P 500 Is  Earning  Its Gains .",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-getting-more-bullish-165847579.html",
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
     },
     {
-      "title": "Consumer spending softens amid rate uncertainty",
-      "sector": "Consumer Discretionary",
-      "tone": -1.8,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Tone -1.8 \u2014 reads negative, weighs on sentiment in Consumer Discretionary."
+      "title": "Why large cap and mid cap funds could be the best mutual fund to bet on now , according to Abakkus study",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://www.livemint.com/market/stock-market-news/why-large-cap-and-mid-cap-funds-could-be-the-best-mutual-fund-to-bet-on-now-according-to-abakkus-study-11783754490006.html",
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
     },
     {
-      "title": "EV price war squeezes automaker margins",
-      "sector": "Consumer Discretionary",
-      "tone": -2.6,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Tone -2.6 \u2014 reads negative, weighs on sentiment in Consumer Discretionary."
+      "title": "Second - Quarter Earnings Season Starts Next Week . Here What to Expect .",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://www.fool.com/investing/2026/07/09/second-quarter-earnings-season-starts-expect/?source=iedfolrf0000001",
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
     },
     {
-      "title": "Banks post resilient quarterly earnings",
-      "sector": "Financials",
-      "tone": 2.2,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Tone +2.2 \u2014 reads positive, supports bullish sentiment in Financials."
+      "title": "Sensex surges 828 points , Nifty tops 24 , 200 amid broad - based buying",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://www.ibtimes.co.in/sensex-surges-828-points-nifty-tops-24200-amid-broad-based-buying-903743",
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
     },
     {
-      "title": "Payment networks expand into emerging markets",
-      "sector": "Financials",
-      "tone": 1.9,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Tone +1.9 \u2014 reads positive, supports bullish sentiment in Financials."
-    },
-    {
-      "title": "Oil steadies as supply concerns ease",
+      "title": "US stocks , bonds rise as Iran hopes spur oil drop",
       "sector": "Energy",
-      "tone": 0.6,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Tone +0.6 \u2014 roughly neutral, limited effect on Energy sentiment."
+      "tone": 0.0,
+      "url": "https://www.moneycontrol.com/news/business/markets/us-stocks-bonds-rise-as-iran-hopes-spur-oil-drop-13992791.html",
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Energy sentiment."
     },
     {
-      "title": "Staples firms hold pricing power through inflation",
-      "sector": "Consumer Staples",
-      "tone": 1.4,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Tone +1.4 \u2014 reads positive, supports bullish sentiment in Consumer Staples."
+      "title": "In a Volatile Market , This Dividend Growth Stock Is Worth Every Penny of $1 , 000",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://www.fool.com/investing/2026/06/28/in-a-volatile-market-this-dividend-growth-stock-is/?source=iedfolrf0000001",
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
     },
     {
-      "title": "Drugmaker wins approval for key therapy",
-      "sector": "Healthcare",
-      "tone": 3.1,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Tone +3.1 \u2014 reads positive, supports bullish sentiment in Healthcare."
-    },
-    {
-      "title": "Geopolitical tension lifts safe-haven demand",
-      "sector": "Energy",
-      "tone": -1.2,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Tone -1.2 \u2014 reads negative, weighs on sentiment in Energy."
+      "title": "Sensex jumps 500 points , Nifty up over 0 . 5 %; IT stocks , Reliance among key factors lifting Indian markets today",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://www.moneycontrol.com/news/business/markets/sensex-jumps-500-points-nifty-up-over-0-5-it-stocks-reliance-among-key-factors-lifting-indian-markets-today-13976384.html",
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
     }
   ]
 }
