@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-08-20 06:38 UTC",
+  "updated_at": "2026-08-21 06:38 UTC",
   "market": "JP",
   "index": "Nikkei 225",
-  "macro_theme": "Consumer demand signals dominate headlines",
-  "macro_score": 50,
-  "macro_explanation": "No strong macro keyword matched today's theme \u2192 neutral overlay (50).",
+  "macro_theme": "Geopolitical conflict raises energy-sector risk",
+  "macro_score": 38,
+  "macro_explanation": "Matched keyword \"conflict\" in the macro theme \u2192 bearish overlay (38).",
   "sectors": [
     {
       "name": "Consumer Discretionary",
-      "score": 50,
-      "label": "Neutral"
+      "score": 35,
+      "label": "Bearish"
     },
     {
       "name": "Energy",
-      "score": 50,
+      "score": 44,
       "label": "Neutral"
     },
     {
       "name": "Financials",
-      "score": 50,
+      "score": 55,
       "label": "Neutral"
     },
     {
       "name": "Healthcare",
-      "score": 50,
-      "label": "Neutral"
+      "score": 60,
+      "label": "Bullish"
     },
     {
       "name": "Industrials",
-      "score": 50,
+      "score": 45,
       "label": "Neutral"
     },
     {
       "name": "Technology",
-      "score": 50,
+      "score": 48,
       "label": "Neutral"
     }
   ]
