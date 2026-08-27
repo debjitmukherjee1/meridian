@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-26 06:40 UTC",
+  "updated_at": "2026-08-27 17:15 UTC",
   "markets": {
     "IN": {
       "cpi": {
@@ -113,13 +113,9 @@
         "frequency": "daily",
         "unit": "INR",
         "source": "Frankfurter (ECB reference rates)",
-        "as_of": "2026-08-25",
-        "latest": 95.42,
+        "as_of": "2026-08-27",
+        "latest": 95.54,
         "series": [
-          {
-            "date": "2025-08-26",
-            "value": 87.62
-          },
           {
             "date": "2025-08-27",
             "value": 87.76
@@ -1135,10 +1131,18 @@
           {
             "date": "2026-08-25",
             "value": 95.42
+          },
+          {
+            "date": "2026-08-26",
+            "value": 95.42
+          },
+          {
+            "date": "2026-08-27",
+            "value": 95.54
           }
         ]
       },
-      "narrative": "India: CPI inflation 2.4% (2025), real GDP growth 7.57% (2025), unemployment 4.22% (2025), policy rate 5.25% (2026-06-05). The currency stands at 95.42 (INR per USD, as of 2026-08-25)."
+      "narrative": "India: CPI inflation 2.4% (2025), real GDP growth 7.57% (2025), unemployment 4.22% (2025), policy rate 5.25% (2026-06-05). The currency stands at 95.54 (INR per USD, as of 2026-08-27)."
     },
     "US": {
       "cpi": {
@@ -1605,13 +1609,9 @@
         "frequency": "daily",
         "unit": "USD",
         "source": "Frankfurter (ECB reference rates)",
-        "as_of": "2026-08-25",
-        "latest": 1.3632,
+        "as_of": "2026-08-27",
+        "latest": 1.3582,
         "series": [
-          {
-            "date": "2025-08-26",
-            "value": 1.3488
-          },
           {
             "date": "2025-08-27",
             "value": 1.344
@@ -2627,10 +2627,18 @@
           {
             "date": "2026-08-25",
             "value": 1.3632
+          },
+          {
+            "date": "2026-08-26",
+            "value": 1.363
+          },
+          {
+            "date": "2026-08-27",
+            "value": 1.3582
           }
         ]
       },
-      "narrative": "United Kingdom: CPI inflation 3.88% (2025), real GDP growth 1.39% (2025), unemployment 4.75% (2025), policy rate 3.75% (2026-06-18). The currency stands at 1.3632 (USD per GBP, as of 2026-08-25)."
+      "narrative": "United Kingdom: CPI inflation 3.88% (2025), real GDP growth 1.39% (2025), unemployment 4.75% (2025), policy rate 3.75% (2026-06-18). The currency stands at 1.3582 (USD per GBP, as of 2026-08-27)."
     },
     "JP": {
       "cpi": {
@@ -2737,20 +2745,16 @@
             "value": 1.0
           }
         ],
-        "note": "Manual, as of 2026-06-16 \u2014 FRED fetch failed (FRED IRSTCB01JPM156N latest observation is 999d old (2023-12-01) -- treating as stale). Policy rate, raised 25bp to 1.00% (7\u20131 vote) on 2026-06-16 \u2014 highest since 1995."
+        "note": "Manual, as of 2026-06-16 \u2014 FRED fetch failed (FRED IRSTCB01JPM156N latest observation is 1000d old (2023-12-01) -- treating as stale). Policy rate, raised 25bp to 1.00% (7\u20131 vote) on 2026-06-16 \u2014 highest since 1995."
       },
       "fx": {
         "label": "JPY per USD",
         "frequency": "daily",
         "unit": "JPY",
         "source": "Frankfurter (ECB reference rates)",
-        "as_of": "2026-08-25",
-        "latest": 159.24,
+        "as_of": "2026-08-27",
+        "latest": 159.39,
         "series": [
-          {
-            "date": "2025-08-26",
-            "value": 147.37
-          },
           {
             "date": "2025-08-27",
             "value": 148.05
@@ -3766,10 +3770,18 @@
           {
             "date": "2026-08-25",
             "value": 159.24
+          },
+          {
+            "date": "2026-08-26",
+            "value": 159.07
+          },
+          {
+            "date": "2026-08-27",
+            "value": 159.39
           }
         ]
       },
-      "narrative": "Japan: CPI inflation 3.17% (2025), real GDP growth 1.19% (2025), unemployment 2.45% (2025), policy rate 1.0% (2026-06-16). The currency stands at 159.24 (JPY per USD, as of 2026-08-25)."
+      "narrative": "Japan: CPI inflation 3.17% (2025), real GDP growth 1.19% (2025), unemployment 2.45% (2025), policy rate 1.0% (2026-06-16). The currency stands at 159.39 (JPY per USD, as of 2026-08-27)."
     }
   }
 }
