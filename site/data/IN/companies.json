@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28 18:08 UTC",
+  "updated_at": "2026-08-29 12:11 UTC",
   "market": "IN",
   "currency": "\u20b9",
   "companies": [
@@ -11,8 +11,8 @@
       "eps": 55.26,
       "pe": 23.289904,
       "fcf_per_share": null,
-      "ebitda_per_share": null,
-      "net_debt_per_share": null,
+      "ebitda_per_share": 133.48336516399564,
+      "net_debt_per_share": 103.3462168530996,
       "sentiment_index": 50.0,
       "sentiment_breakdown": {
         "news": 50.0,
@@ -28,16 +28,16 @@
       "price": 2342.0,
       "eps": 137.6,
       "pe": 17.020348,
-      "fcf_per_share": null,
-      "ebitda_per_share": null,
-      "net_debt_per_share": null,
+      "fcf_per_share": 109.77208284103205,
+      "ebitda_per_share": 199.19087550164673,
+      "net_debt_per_share": -93.20393945871378,
       "sentiment_index": 50.0,
       "sentiment_breakdown": {
         "news": 50.0,
         "macro": 50
       },
-      "base_fair_value": 2178.9,
-      "sentiment_adjusted_fair_value": 2178.9
+      "base_fair_value": 36013.84,
+      "sentiment_adjusted_fair_value": 36013.84
     },
     {
       "ticker": "INFY",
@@ -54,8 +54,8 @@
         "news": 50.0,
         "macro": 50
       },
-      "base_fair_value": 624.44,
-      "sentiment_adjusted_fair_value": 624.44
+      "base_fair_value": 609.13,
+      "sentiment_adjusted_fair_value": 609.13
     },
     {
       "ticker": "HDFCBANK",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28 18:08 UTC",
+  "updated_at": "2026-08-29 12:11 UTC",
   "markets": {
     "IN": {
       "cpi": {
@@ -116,10 +116,6 @@
         "as_of": "2026-08-28",
         "latest": 95.39,
         "series": [
-          {
-            "date": "2025-08-28",
-            "value": 87.57
-          },
           {
             "date": "2025-08-29",
             "value": 88.18
@@ -1613,10 +1609,6 @@
         "latest": 1.3583,
         "series": [
           {
-            "date": "2025-08-28",
-            "value": 1.3519
-          },
-          {
             "date": "2025-08-29",
             "value": 1.3449
           },
@@ -2745,7 +2737,7 @@
             "value": 1.0
           }
         ],
-        "note": "Manual, as of 2026-06-16 \u2014 FRED fetch failed (FRED IRSTCB01JPM156N latest observation is 1001d old (2023-12-01) -- treating as stale). Policy rate, raised 25bp to 1.00% (7\u20131 vote) on 2026-06-16 \u2014 highest since 1995."
+        "note": "Manual, as of 2026-06-16 \u2014 FRED fetch failed (FRED IRSTCB01JPM156N latest observation is 1002d old (2023-12-01) -- treating as stale). Policy rate, raised 25bp to 1.00% (7\u20131 vote) on 2026-06-16 \u2014 highest since 1995."
       },
       "fx": {
         "label": "JPY per USD",
@@ -2755,10 +2747,6 @@
         "as_of": "2026-08-28",
         "latest": 159.68,
         "series": [
-          {
-            "date": "2025-08-28",
-            "value": 146.87
-          },
           {
             "date": "2025-08-29",
             "value": 147.3

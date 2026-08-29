@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28 18:08 UTC",
+  "updated_at": "2026-08-29 12:11 UTC",
   "market": "UK",
   "currency": "\u00a3",
   "companies": [
@@ -48,7 +48,7 @@
       "pe": 14.838836,
       "fcf_per_share": null,
       "ebitda_per_share": null,
-      "net_debt_per_share": -22.298778069963504,
+      "net_debt_per_share": -22.30268297787695,
       "sentiment_index": 50.0,
       "sentiment_breakdown": {
         "news": 50.0,
@@ -136,9 +136,9 @@
       "price": 1.1845,
       "eps": -0.01,
       "pe": null,
-      "fcf_per_share": 0.22359883281613105,
-      "ebitda_per_share": 0.3871912446165623,
-      "net_debt_per_share": 1.7250089159527418,
+      "fcf_per_share": 0.22359586318389524,
+      "ebitda_per_share": 0.38718610230169886,
+      "net_debt_per_share": 1.7249860059848348,
       "sentiment_index": 50.0,
       "sentiment_breakdown": {
         "news": 50.0,
