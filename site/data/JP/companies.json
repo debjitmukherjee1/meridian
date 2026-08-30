@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29 12:11 UTC",
+  "updated_at": "2026-08-30 11:08 UTC",
   "market": "JP",
   "currency": "\u00a5",
   "companies": [
@@ -28,16 +28,16 @@
       "price": 3928.0,
       "eps": 186.58,
       "pe": 21.052631,
-      "fcf_per_share": 572.5284018434581,
-      "ebitda_per_share": 355.2078239289084,
-      "net_debt_per_share": -51.1518575357331,
+      "fcf_per_share": 572.5053879618104,
+      "ebitda_per_share": 355.19354566639095,
+      "net_debt_per_share": -51.14980138831474,
       "sentiment_index": 50.0,
       "sentiment_breakdown": {
         "news": 50.0,
         "macro": 50
       },
-      "base_fair_value": 5150.32,
-      "sentiment_adjusted_fair_value": 5150.32
+      "base_fair_value": 5150.2,
+      "sentiment_adjusted_fair_value": 5150.2
     },
     {
       "ticker": "9984",
@@ -62,8 +62,8 @@
       "name": "Mitsubishi UFJ",
       "sector": "Financials",
       "price": 3658.0,
-      "eps": 236.32,
-      "pe": 15.479011,
+      "eps": 236.31,
+      "pe": 15.479667,
       "fcf_per_share": null,
       "ebitda_per_share": null,
       "net_debt_per_share": -3084.910972271761,
@@ -90,8 +90,8 @@
         "news": 50.0,
         "macro": 50
       },
-      "base_fair_value": 890.75,
-      "sentiment_adjusted_fair_value": 890.75
+      "base_fair_value": 890.76,
+      "sentiment_adjusted_fair_value": 890.76
     },
     {
       "ticker": "4502",
