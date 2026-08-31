@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30 11:08 UTC",
+  "updated_at": "2026-08-31 12:32 UTC",
   "market": "UK",
   "currency": "\u00a3",
   "companies": [
@@ -44,8 +44,8 @@
       "name": "HSBC",
       "sector": "Financials",
       "price": 15.284,
-      "eps": 1.03,
-      "pe": 14.838836,
+      "eps": 1.01,
+      "pe": 15.132674,
       "fcf_per_share": null,
       "ebitda_per_share": null,
       "net_debt_per_share": -22.30268297787695,
@@ -54,8 +54,8 @@
         "news": 66.4,
         "macro": 38
       },
-      "base_fair_value": 14.72,
-      "sentiment_adjusted_fair_value": 14.94
+      "base_fair_value": 14.58,
+      "sentiment_adjusted_fair_value": 14.8
     },
     {
       "ticker": "LLOY",
@@ -72,16 +72,16 @@
         "news": 66.4,
         "macro": 38
       },
-      "base_fair_value": 1.14,
-      "sentiment_adjusted_fair_value": 1.16
+      "base_fair_value": 1.16,
+      "sentiment_adjusted_fair_value": 1.18
     },
     {
       "ticker": "AZN",
       "name": "AstraZeneca",
       "sector": "Healthcare",
       "price": 119.7,
-      "eps": 4.97,
-      "pe": 24.084507,
+      "eps": 4.91,
+      "pe": 24.378819,
       "fcf_per_share": 3.162950553261934,
       "ebitda_per_share": 12.833955576209329,
       "net_debt_per_share": 17.655715438531935,
@@ -98,8 +98,8 @@
       "name": "Unilever",
       "sector": "Consumer Staples",
       "price": 47.76,
-      "eps": 2.19,
-      "pe": 21.808218,
+      "eps": 2.18,
+      "pe": 21.908255,
       "fcf_per_share": 3.1267059674558446,
       "ebitda_per_share": 5.0509356198783975,
       "net_debt_per_share": 12.152246191397838,
@@ -136,9 +136,9 @@
       "price": 1.1845,
       "eps": -0.01,
       "pe": null,
-      "fcf_per_share": 0.22359883281613105,
-      "ebitda_per_share": 0.3871912446165623,
-      "net_debt_per_share": 1.7250089159527418,
+      "fcf_per_share": 0.22359586318389524,
+      "ebitda_per_share": 0.38718610230169886,
+      "net_debt_per_share": 1.7249860059848348,
       "sentiment_index": 48.3,
       "sentiment_breakdown": {
         "news": 55.2,
