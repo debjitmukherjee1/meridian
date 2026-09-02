@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01 11:00 UTC",
+  "updated_at": "2026-09-02 10:30 UTC",
   "market": "JP",
   "items": [
     {
@@ -7,6 +7,13 @@
       "sector": "Market",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/better-value-stock-microsoft-nvidia-152500114.html",
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+    },
+    {
+      "title": "From the ashes of bear - market : Over 125 smallcap stocks soar up to 300 % from 52 - week lows",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/from-the-ashes-of-bear-market-over-125-smallcap-stocks-soar-up-to-300-from-52-week-lows/articleshow/133697629.cms",
       "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
     },
     {
@@ -77,13 +84,6 @@
       "sector": "Market",
       "tone": 0.0,
       "url": "https://www.fool.com/investing/2026/06/28/in-a-volatile-market-this-dividend-growth-stock-is/?source=iedfolrf0000001",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
-    },
-    {
-      "title": "Bill Ackman Thinks This Factor Is Even More Important Than Valuation For Long - Term Investments",
-      "sector": "Market",
-      "tone": 0.0,
-      "url": "https://www.fool.com/investing/2026/08/26/bill-ackman-factor-more-important-valuation/?source=iedfolrf0000001",
       "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
     }
   ]
