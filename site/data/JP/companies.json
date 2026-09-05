@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04 10:28 UTC",
+  "updated_at": "2026-09-05 09:53 UTC",
   "market": "JP",
   "currency": "\u00a5",
   "companies": [
@@ -8,8 +8,8 @@
       "name": "Toyota Motor",
       "sector": "Consumer Discretionary",
       "price": 3081.0,
-      "eps": 351.29,
-      "pe": 8.770532,
+      "eps": 347.23,
+      "pe": 8.873081,
       "fcf_per_share": -304.00380344879795,
       "ebitda_per_share": 472.9454108032117,
       "net_debt_per_share": 2584.2794791035767,
@@ -26,8 +26,8 @@
       "name": "Sony Group",
       "sector": "Technology",
       "price": 3885.0,
-      "eps": 186.57,
-      "pe": 20.823282,
+      "eps": 186.09,
+      "pe": 20.876995,
       "fcf_per_share": 573.6434229328117,
       "ebitda_per_share": 355.89960483184507,
       "net_debt_per_share": -51.251477746238486,
@@ -36,16 +36,16 @@
         "news": 55.2,
         "macro": 38
       },
-      "base_fair_value": 5161.54,
-      "sentiment_adjusted_fair_value": 5135.22
+      "base_fair_value": 5159.35,
+      "sentiment_adjusted_fair_value": 5133.04
     },
     {
       "ticker": "9984",
       "name": "SoftBank Group",
       "sector": "Technology",
       "price": 5590.0,
-      "eps": 872.67,
-      "pe": 6.4056287,
+      "eps": 975.45,
+      "pe": 5.730688,
       "fcf_per_share": -383.4588802009301,
       "ebitda_per_share": 92.66223333843507,
       "net_debt_per_share": 4187.397077067833,
@@ -54,16 +54,16 @@
         "news": 55.2,
         "macro": 38
       },
-      "base_fair_value": 11944.72,
-      "sentiment_adjusted_fair_value": 11883.8
+      "base_fair_value": 13351.52,
+      "sentiment_adjusted_fair_value": 13283.43
     },
     {
       "ticker": "8306",
       "name": "Mitsubishi UFJ",
       "sector": "Financials",
       "price": 3785.0,
-      "eps": 236.5,
-      "pe": 16.004229,
+      "eps": 236.56,
+      "pe": 16.00017,
       "fcf_per_share": null,
       "ebitda_per_share": null,
       "net_debt_per_share": -3084.910972271761,
@@ -98,7 +98,7 @@
       "name": "Takeda Pharma",
       "sector": "Healthcare",
       "price": 5753.0,
-      "eps": -104.57,
+      "eps": -104.7,
       "pe": null,
       "fcf_per_share": 339.09090030135866,
       "ebitda_per_share": 782.4235740325518,
