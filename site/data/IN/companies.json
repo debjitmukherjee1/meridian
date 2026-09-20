@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19 10:13 UTC",
+  "updated_at": "2026-09-20 10:32 UTC",
   "market": "IN",
   "currency": "\u20b9",
   "companies": [
@@ -8,11 +8,11 @@
       "name": "Reliance Industries",
       "sector": "Energy",
       "price": 1226.4,
-      "eps": 54.45,
-      "pe": 22.523417,
+      "eps": 55.19,
+      "pe": 22.221418,
       "fcf_per_share": null,
-      "ebitda_per_share": 133.48336516399564,
-      "net_debt_per_share": 103.3462168530996,
+      "ebitda_per_share": null,
+      "net_debt_per_share": null,
       "sentiment_index": 43.8,
       "sentiment_breakdown": {
         "news": 47.6,
@@ -28,16 +28,16 @@
       "price": 2105.0,
       "eps": 137.67,
       "pe": 15.290187,
-      "fcf_per_share": 109.77208284103205,
-      "ebitda_per_share": 199.19087550164673,
-      "net_debt_per_share": -93.20393945871378,
+      "fcf_per_share": null,
+      "ebitda_per_share": null,
+      "net_debt_per_share": null,
       "sentiment_index": 48.3,
       "sentiment_breakdown": {
         "news": 55.2,
         "macro": 38
       },
-      "base_fair_value": 33130.78,
-      "sentiment_adjusted_fair_value": 32961.81
+      "base_fair_value": 1981.43,
+      "sentiment_adjusted_fair_value": 1971.32
     },
     {
       "ticker": "INFY",
@@ -54,8 +54,8 @@
         "news": 55.2,
         "macro": 38
       },
-      "base_fair_value": 555.07,
-      "sentiment_adjusted_fair_value": 552.24
+      "base_fair_value": 566.82,
+      "sentiment_adjusted_fair_value": 563.93
     },
     {
       "ticker": "HDFCBANK",
@@ -72,16 +72,16 @@
         "news": 66.4,
         "macro": 38
       },
-      "base_fair_value": 764.12,
-      "sentiment_adjusted_fair_value": 775.58
+      "base_fair_value": 761.34,
+      "sentiment_adjusted_fair_value": 772.76
     },
     {
       "ticker": "ICICIBANK",
       "name": "ICICI Bank",
       "sector": "Financials",
       "price": 1338.9,
-      "eps": 76.85,
-      "pe": 17.422253,
+      "eps": 77.39,
+      "pe": 17.300686,
       "fcf_per_share": null,
       "ebitda_per_share": null,
       "net_debt_per_share": 212.19501504414035,
@@ -90,8 +90,8 @@
         "news": 66.4,
         "macro": 38
       },
-      "base_fair_value": 1283.28,
-      "sentiment_adjusted_fair_value": 1302.53
+      "base_fair_value": 1287.59,
+      "sentiment_adjusted_fair_value": 1306.9
     },
     {
       "ticker": "HINDUNILVR",

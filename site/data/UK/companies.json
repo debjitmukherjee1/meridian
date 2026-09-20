@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19 10:13 UTC",
+  "updated_at": "2026-09-20 10:32 UTC",
   "market": "UK",
   "currency": "\u00a3",
   "companies": [
@@ -28,9 +28,9 @@
       "price": 5.587000000000001,
       "eps": 0.26,
       "pe": 21.488462,
-      "fcf_per_share": 0.833473326633776,
-      "ebitda_per_share": 2.536750117103916,
-      "net_debt_per_share": 2.2953581322157826,
+      "fcf_per_share": 0.833453207374162,
+      "ebitda_per_share": 2.536688882349844,
+      "net_debt_per_share": 2.295302724436441,
       "sentiment_index": 43.8,
       "sentiment_breakdown": {
         "news": 47.6,
@@ -82,9 +82,9 @@
       "price": 125.0,
       "eps": 5.0,
       "pe": 25.0,
-      "fcf_per_share": 3.162950553261934,
-      "ebitda_per_share": 12.833955576209329,
-      "net_debt_per_share": 17.655715438531935,
+      "fcf_per_share": 3.162930012078167,
+      "ebitda_per_share": 12.833872228513718,
+      "net_debt_per_share": 17.655600776829438,
       "sentiment_index": 60.1,
       "sentiment_breakdown": {
         "news": 74.8,
@@ -100,9 +100,9 @@
       "price": 46.21,
       "eps": 2.19,
       "pe": 21.100456,
-      "fcf_per_share": 3.1267059674558446,
-      "ebitda_per_share": 5.0509356198783975,
-      "net_debt_per_share": 12.152246191397838,
+      "fcf_per_share": 3.126705565230549,
+      "ebitda_per_share": 5.0509349701166055,
+      "net_debt_per_share": 12.152244628110191,
       "sentiment_index": 51.9,
       "sentiment_breakdown": {
         "news": 61.2,

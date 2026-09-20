@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19 10:13 UTC",
+  "updated_at": "2026-09-20 10:32 UTC",
   "market": "US",
   "currency": "$",
   "companies": [
@@ -18,16 +18,16 @@
         "news": 55.2,
         "macro": 38
       },
-      "base_fair_value": 227.52,
-      "sentiment_adjusted_fair_value": 226.36
+      "base_fair_value": 227.2,
+      "sentiment_adjusted_fair_value": 226.04
     },
     {
       "ticker": "MSFT",
       "name": "Microsoft",
       "sector": "Technology",
       "price": 493.78,
-      "eps": 17.83,
-      "pe": 27.693775,
+      "eps": 17.97,
+      "pe": 27.47802,
       "fcf_per_share": 2.2281864921646064,
       "ebitda_per_share": 26.157944363740214,
       "net_debt_per_share": 6.998812263824834,
@@ -36,16 +36,16 @@
         "news": 55.2,
         "macro": 38
       },
-      "base_fair_value": 417.72,
-      "sentiment_adjusted_fair_value": 415.59
+      "base_fair_value": 418.62,
+      "sentiment_adjusted_fair_value": 416.49
     },
     {
       "ticker": "JPM",
       "name": "JPMorgan Chase",
       "sector": "Financials",
       "price": 349.67,
-      "eps": 23.36,
-      "pe": 14.96875,
+      "eps": 23.32,
+      "pe": 14.994426,
       "fcf_per_share": null,
       "ebitda_per_share": null,
       "net_debt_per_share": -68.88608510285337,
@@ -54,8 +54,8 @@
         "news": 66.4,
         "macro": 38
       },
-      "base_fair_value": 540.93,
-      "sentiment_adjusted_fair_value": 549.04
+      "base_fair_value": 540.3,
+      "sentiment_adjusted_fair_value": 548.4
     },
     {
       "ticker": "V",
@@ -72,16 +72,16 @@
         "news": 66.4,
         "macro": 38
       },
-      "base_fair_value": 230.45,
-      "sentiment_adjusted_fair_value": 233.91
+      "base_fair_value": 230.52,
+      "sentiment_adjusted_fair_value": 233.98
     },
     {
       "ticker": "XOM",
       "name": "Exxon Mobil",
       "sector": "Energy",
       "price": 163.54,
-      "eps": 7.78,
-      "pe": 21.020565,
+      "eps": 7.77,
+      "pe": 21.047619,
       "fcf_per_share": 5.027101936297294,
       "ebitda_per_share": 16.521998071184385,
       "net_debt_per_share": 7.728764636293429,
@@ -98,8 +98,8 @@
       "name": "Amazon",
       "sector": "Consumer Discretionary",
       "price": 253.71,
-      "eps": 12.56,
-      "pe": 20.19984,
+      "eps": 12.43,
+      "pe": 20.411102,
       "fcf_per_share": 0.2984453372796865,
       "ebitda_per_share": 15.659844649656362,
       "net_debt_per_share": 11.92687411702479,
@@ -116,8 +116,8 @@
       "name": "Coca-Cola",
       "sector": "Consumer Staples",
       "price": 88.25,
-      "eps": 3.34,
-      "pe": 26.422157,
+      "eps": 3.33,
+      "pe": 26.501503,
       "fcf_per_share": 1.212943689253669,
       "ebitda_per_share": 3.950681016296273,
       "net_debt_per_share": 6.4822032875917515,
