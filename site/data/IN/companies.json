@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25 11:01 UTC",
+  "updated_at": "2026-09-26 10:43 UTC",
   "market": "IN",
   "currency": "\u20b9",
   "companies": [
@@ -8,11 +8,11 @@
       "name": "Reliance Industries",
       "sector": "Energy",
       "price": 1226.0,
-      "eps": 53.89,
-      "pe": 22.750046,
+      "eps": 55.17,
+      "pe": 22.222223,
       "fcf_per_share": null,
-      "ebitda_per_share": 133.48336516399564,
-      "net_debt_per_share": 103.3462168530996,
+      "ebitda_per_share": null,
+      "net_debt_per_share": null,
       "sentiment_index": 43.8,
       "sentiment_breakdown": {
         "news": 47.6,
@@ -26,26 +26,26 @@
       "name": "Tata Consultancy",
       "sector": "Technology",
       "price": 2082.0,
-      "eps": 137.74,
-      "pe": 15.115435,
-      "fcf_per_share": 109.77208284103205,
-      "ebitda_per_share": 199.19087550164673,
-      "net_debt_per_share": -93.20393945871378,
+      "eps": 137.62,
+      "pe": 15.128615,
+      "fcf_per_share": null,
+      "ebitda_per_share": null,
+      "net_debt_per_share": null,
       "sentiment_index": 48.3,
       "sentiment_breakdown": {
         "news": 55.2,
         "macro": 38
       },
-      "base_fair_value": 31575.22,
-      "sentiment_adjusted_fair_value": 31414.19
+      "base_fair_value": 1941.6,
+      "sentiment_adjusted_fair_value": 1931.7
     },
     {
       "ticker": "INFY",
       "name": "Infosys",
       "sector": "Technology",
       "price": 1000.2,
-      "eps": 77.1,
-      "pe": 12.972763,
+      "eps": 76.42,
+      "pe": 13.088198,
       "fcf_per_share": 0.7815695241372487,
       "ebitda_per_share": 1.106572765177128,
       "net_debt_per_share": -0.5434106929298143,
@@ -54,34 +54,34 @@
         "news": 55.2,
         "macro": 38
       },
-      "base_fair_value": 533.67,
-      "sentiment_adjusted_fair_value": 530.95
+      "base_fair_value": 545.24,
+      "sentiment_adjusted_fair_value": 542.46
     },
     {
       "ticker": "HDFCBANK",
       "name": "HDFC Bank",
       "sector": "Financials",
       "price": 735.6,
-      "eps": 45.77,
-      "pe": 16.071663,
+      "eps": 45.75,
+      "pe": 16.078688,
       "fcf_per_share": null,
       "ebitda_per_share": null,
-      "net_debt_per_share": 212.82590269610716,
+      "net_debt_per_share": 212.79971534661973,
       "sentiment_index": 55.0,
       "sentiment_breakdown": {
         "news": 66.4,
         "macro": 38
       },
-      "base_fair_value": 760.5,
-      "sentiment_adjusted_fair_value": 771.91
+      "base_fair_value": 761.96,
+      "sentiment_adjusted_fair_value": 773.39
     },
     {
       "ticker": "ICICIBANK",
       "name": "ICICI Bank",
       "sector": "Financials",
       "price": 1326.8,
-      "eps": 77.32,
-      "pe": 17.159857,
+      "eps": 77.0,
+      "pe": 17.231169,
       "fcf_per_share": null,
       "ebitda_per_share": null,
       "net_debt_per_share": 212.17602136408277,
@@ -90,16 +90,16 @@
         "news": 66.4,
         "macro": 38
       },
-      "base_fair_value": 1284.73,
-      "sentiment_adjusted_fair_value": 1304.0
+      "base_fair_value": 1282.43,
+      "sentiment_adjusted_fair_value": 1301.67
     },
     {
       "ticker": "HINDUNILVR",
       "name": "Hindustan Unilever",
       "sector": "Consumer Staples",
       "price": 1942.9,
-      "eps": 44.66,
-      "pe": 43.504253,
+      "eps": 45.27,
+      "pe": 42.91805,
       "fcf_per_share": null,
       "ebitda_per_share": 63.1929032293107,
       "net_debt_per_share": -23.47216769994951,
@@ -116,7 +116,7 @@
       "name": "Tata Motors Passenger Vehicles",
       "sector": "Consumer Discretionary",
       "price": 290.45,
-      "eps": -9.17,
+      "eps": -9.18,
       "pe": null,
       "fcf_per_share": null,
       "ebitda_per_share": 31.75882360911039,
@@ -134,8 +134,8 @@
       "name": "Sun Pharma",
       "sector": "Healthcare",
       "price": 1852.2,
-      "eps": 49.95,
-      "pe": 37.08108,
+      "eps": 50.38,
+      "pe": 36.764587,
       "fcf_per_share": null,
       "ebitda_per_share": 69.11597521541563,
       "net_debt_per_share": -120.4052737730072,
