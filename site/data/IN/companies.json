@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26 10:43 UTC",
+  "updated_at": "2026-09-27 11:17 UTC",
   "market": "IN",
   "currency": "\u20b9",
   "companies": [
@@ -36,16 +36,16 @@
         "news": 55.2,
         "macro": 38
       },
-      "base_fair_value": 1941.6,
-      "sentiment_adjusted_fair_value": 1931.7
+      "base_fair_value": 1928.82,
+      "sentiment_adjusted_fair_value": 1918.98
     },
     {
       "ticker": "INFY",
       "name": "Infosys",
       "sector": "Technology",
       "price": 1000.2,
-      "eps": 76.42,
-      "pe": 13.088198,
+      "eps": 77.52,
+      "pe": 12.902477,
       "fcf_per_share": 0.7815695241372487,
       "ebitda_per_share": 1.106572765177128,
       "net_debt_per_share": -0.5434106929298143,
@@ -54,8 +54,8 @@
         "news": 55.2,
         "macro": 38
       },
-      "base_fair_value": 545.24,
-      "sentiment_adjusted_fair_value": 542.46
+      "base_fair_value": 549.4,
+      "sentiment_adjusted_fair_value": 546.6
     },
     {
       "ticker": "HDFCBANK",
@@ -72,16 +72,16 @@
         "news": 66.4,
         "macro": 38
       },
-      "base_fair_value": 761.96,
-      "sentiment_adjusted_fair_value": 773.39
+      "base_fair_value": 760.18,
+      "sentiment_adjusted_fair_value": 771.58
     },
     {
       "ticker": "ICICIBANK",
       "name": "ICICI Bank",
       "sector": "Financials",
       "price": 1326.8,
-      "eps": 77.0,
-      "pe": 17.231169,
+      "eps": 77.35,
+      "pe": 17.1532,
       "fcf_per_share": null,
       "ebitda_per_share": null,
       "net_debt_per_share": 212.17602136408277,
@@ -90,16 +90,16 @@
         "news": 66.4,
         "macro": 38
       },
-      "base_fair_value": 1282.43,
-      "sentiment_adjusted_fair_value": 1301.67
+      "base_fair_value": 1285.24,
+      "sentiment_adjusted_fair_value": 1304.52
     },
     {
       "ticker": "HINDUNILVR",
       "name": "Hindustan Unilever",
       "sector": "Consumer Staples",
       "price": 1942.9,
-      "eps": 45.27,
-      "pe": 42.91805,
+      "eps": 45.08,
+      "pe": 43.098934,
       "fcf_per_share": null,
       "ebitda_per_share": 63.1929032293107,
       "net_debt_per_share": -23.47216769994951,

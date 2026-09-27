@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26 10:43 UTC",
+  "updated_at": "2026-09-27 11:17 UTC",
   "market": "US",
   "currency": "$",
   "companies": [
@@ -18,16 +18,16 @@
         "news": 55.2,
         "macro": 38
       },
-      "base_fair_value": 232.49,
-      "sentiment_adjusted_fair_value": 231.3
+      "base_fair_value": 232.42,
+      "sentiment_adjusted_fair_value": 231.23
     },
     {
       "ticker": "MSFT",
       "name": "Microsoft",
       "sector": "Technology",
       "price": 516.17,
-      "eps": 17.93,
-      "pe": 28.788063,
+      "eps": 17.96,
+      "pe": 28.739979,
       "fcf_per_share": 2.2281864921646064,
       "ebitda_per_share": 26.157944363740214,
       "net_debt_per_share": 6.998812263824834,
@@ -36,8 +36,8 @@
         "news": 55.2,
         "macro": 38
       },
-      "base_fair_value": 429.13,
-      "sentiment_adjusted_fair_value": 426.94
+      "base_fair_value": 429.32,
+      "sentiment_adjusted_fair_value": 427.13
     },
     {
       "ticker": "JPM",
@@ -54,16 +54,16 @@
         "news": 66.4,
         "macro": 38
       },
-      "base_fair_value": 536.56,
-      "sentiment_adjusted_fair_value": 544.61
+      "base_fair_value": 535.94,
+      "sentiment_adjusted_fair_value": 543.98
     },
     {
       "ticker": "V",
       "name": "Visa",
       "sector": "Financials",
       "price": 367.38,
-      "eps": 11.74,
-      "pe": 31.293016,
+      "eps": 11.76,
+      "pe": 31.239796,
       "fcf_per_share": 11.973386994792259,
       "ebitda_per_share": 18.246445628554188,
       "net_debt_per_share": 5.906886268403092,
@@ -72,8 +72,8 @@
         "news": 66.4,
         "macro": 38
       },
-      "base_fair_value": 229.41,
-      "sentiment_adjusted_fair_value": 232.85
+      "base_fair_value": 229.48,
+      "sentiment_adjusted_fair_value": 232.92
     },
     {
       "ticker": "XOM",
@@ -98,8 +98,8 @@
       "name": "Amazon",
       "sector": "Consumer Discretionary",
       "price": 249.67,
-      "eps": 12.42,
-      "pe": 20.102255,
+      "eps": 12.43,
+      "pe": 20.08608,
       "fcf_per_share": 0.2984453372796865,
       "ebitda_per_share": 15.659844649656362,
       "net_debt_per_share": 11.92687411702479,
