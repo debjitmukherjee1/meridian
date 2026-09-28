@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27 11:17 UTC",
+  "updated_at": "2026-09-28 12:46 UTC",
   "market": "JP",
   "items": [
     {
@@ -36,13 +36,6 @@
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/forget-p-500-3-unloved-003857058.html",
       "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
-    },
-    {
-      "title": "China Consumer Stocks Near Decade Lows as AI Shares Surge",
-      "sector": "Technology",
-      "tone": 0.0,
-      "url": "http://www.econotimes.com/China-Consumer-Stocks-Near-Decade-Lows-as-AI-Shares-Surge-1753152",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Technology sentiment."
     },
     {
       "title": "Amazon , Apple , Meta , Microsoft Earnings on Deck : 33 % of Benzinga Viewers Say This is Top Report to Watch",
@@ -85,6 +78,13 @@
       "tone": 0.0,
       "url": "https://www.morningstar.com/podcasts/the-morning-filter/4-stocks-buy-before-they-bounce-back",
       "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+    },
+    {
+      "title": "US stocks , bonds rise as Iran hopes spur oil drop",
+      "sector": "Energy",
+      "tone": 0.0,
+      "url": "https://www.moneycontrol.com/news/business/markets/us-stocks-bonds-rise-as-iran-hopes-spur-oil-drop-13992791.html",
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Energy sentiment."
     }
   ]
 }
