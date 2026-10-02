@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01 12:19 UTC",
+  "updated_at": "2026-10-02 11:47 UTC",
   "markets": {
     "IN": {
       "cpi": {
@@ -113,13 +113,9 @@
         "frequency": "daily",
         "unit": "INR",
         "source": "Frankfurter (ECB reference rates)",
-        "as_of": "2026-09-30",
-        "latest": 95.83,
+        "as_of": "2026-10-01",
+        "latest": 96.33,
         "series": [
-          {
-            "date": "2025-10-01",
-            "value": 88.72
-          },
           {
             "date": "2025-10-02",
             "value": 88.72
@@ -1135,10 +1131,14 @@
           {
             "date": "2026-09-30",
             "value": 95.83
+          },
+          {
+            "date": "2026-10-01",
+            "value": 96.33
           }
         ]
       },
-      "narrative": "India: CPI inflation 2.4% (2025), real GDP growth 7.57% (2025), unemployment 4.22% (2025), policy rate 5.25% (2026-06-05). The currency stands at 95.83 (INR per USD, as of 2026-09-30)."
+      "narrative": "India: CPI inflation 2.4% (2025), real GDP growth 7.57% (2025), unemployment 4.22% (2025), policy rate 5.25% (2026-06-05). The currency stands at 96.33 (INR per USD, as of 2026-10-01)."
     },
     "US": {
       "cpi": {
@@ -1236,8 +1236,8 @@
         "frequency": "monthly",
         "unit": "%",
         "source": "FRED (FEDFUNDS)",
-        "as_of": "2026-08-01",
-        "latest": 3.63,
+        "as_of": "2026-09-01",
+        "latest": 3.75,
         "series": [
           {
             "date": "2021-10-01",
@@ -1474,6 +1474,10 @@
           {
             "date": "2026-08-01",
             "value": 3.63
+          },
+          {
+            "date": "2026-09-01",
+            "value": 3.75
           }
         ]
       },
@@ -1487,7 +1491,7 @@
         "series": [],
         "note": "USD is Meridian's reference currency for this comparison; no vs-USD series applies."
       },
-      "narrative": "United States: CPI inflation 2.95% (2024), real GDP growth 2.16% (2025), unemployment 4.2% (2025), policy rate 3.63% (2026-08-01)."
+      "narrative": "United States: CPI inflation 2.95% (2024), real GDP growth 2.16% (2025), unemployment 4.2% (2025), policy rate 3.75% (2026-09-01)."
     },
     "UK": {
       "cpi": {
@@ -1601,13 +1605,9 @@
         "frequency": "daily",
         "unit": "USD",
         "source": "Frankfurter (ECB reference rates)",
-        "as_of": "2026-09-30",
-        "latest": 1.3286,
+        "as_of": "2026-10-01",
+        "latest": 1.3234,
         "series": [
-          {
-            "date": "2025-10-01",
-            "value": 1.347
-          },
           {
             "date": "2025-10-02",
             "value": 1.3478
@@ -2623,10 +2623,14 @@
           {
             "date": "2026-09-30",
             "value": 1.3286
+          },
+          {
+            "date": "2026-10-01",
+            "value": 1.3234
           }
         ]
       },
-      "narrative": "United Kingdom: CPI inflation 3.88% (2025), real GDP growth 1.39% (2025), unemployment 4.75% (2025), policy rate 3.75% (2026-06-18). The currency stands at 1.3286 (USD per GBP, as of 2026-09-30)."
+      "narrative": "United Kingdom: CPI inflation 3.88% (2025), real GDP growth 1.39% (2025), unemployment 4.75% (2025), policy rate 3.75% (2026-06-18). The currency stands at 1.3234 (USD per GBP, as of 2026-10-01)."
     },
     "JP": {
       "cpi": {
@@ -2733,20 +2737,16 @@
             "value": 1.0
           }
         ],
-        "note": "Manual, as of 2026-06-16 \u2014 FRED fetch failed (FRED IRSTCB01JPM156N latest observation is 1035d old (2023-12-01) -- treating as stale). Policy rate, raised 25bp to 1.00% (7\u20131 vote) on 2026-06-16 \u2014 highest since 1995."
+        "note": "Manual, as of 2026-06-16 \u2014 FRED fetch failed (FRED IRSTCB01JPM156N latest observation is 1036d old (2023-12-01) -- treating as stale). Policy rate, raised 25bp to 1.00% (7\u20131 vote) on 2026-06-16 \u2014 highest since 1995."
       },
       "fx": {
         "label": "JPY per USD",
         "frequency": "daily",
         "unit": "JPY",
         "source": "Frankfurter (ECB reference rates)",
-        "as_of": "2026-09-30",
-        "latest": 157.0,
+        "as_of": "2026-10-01",
+        "latest": 157.98,
         "series": [
-          {
-            "date": "2025-10-01",
-            "value": 147.11
-          },
           {
             "date": "2025-10-02",
             "value": 146.78
@@ -3762,10 +3762,14 @@
           {
             "date": "2026-09-30",
             "value": 157.0
+          },
+          {
+            "date": "2026-10-01",
+            "value": 157.98
           }
         ]
       },
-      "narrative": "Japan: CPI inflation 3.17% (2025), real GDP growth 1.19% (2025), unemployment 2.45% (2025), policy rate 1.0% (2026-06-16). The currency stands at 157.0 (JPY per USD, as of 2026-09-30)."
+      "narrative": "Japan: CPI inflation 3.17% (2025), real GDP growth 1.19% (2025), unemployment 2.45% (2025), policy rate 1.0% (2026-06-16). The currency stands at 157.98 (JPY per USD, as of 2026-10-01)."
     }
   }
 }
