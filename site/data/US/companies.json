@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03 11:01 UTC",
+  "updated_at": "2026-10-04 11:42 UTC",
   "market": "US",
   "currency": "$",
   "companies": [
@@ -54,16 +54,16 @@
         "news": 66.4,
         "macro": 38
       },
-      "base_fair_value": 523.63,
-      "sentiment_adjusted_fair_value": 531.48
+      "base_fair_value": 523.94,
+      "sentiment_adjusted_fair_value": 531.8
     },
     {
       "ticker": "V",
       "name": "Visa",
       "sector": "Financials",
       "price": 360.66,
-      "eps": 11.77,
-      "pe": 30.64231,
+      "eps": 11.76,
+      "pe": 30.668367,
       "fcf_per_share": 11.973386994792259,
       "ebitda_per_share": 18.246445628554188,
       "net_debt_per_share": 5.906886268403092,
@@ -72,8 +72,8 @@
         "news": 66.4,
         "macro": 38
       },
-      "base_fair_value": 226.49,
-      "sentiment_adjusted_fair_value": 229.89
+      "base_fair_value": 226.46,
+      "sentiment_adjusted_fair_value": 229.86
     },
     {
       "ticker": "XOM",
@@ -98,8 +98,8 @@
       "name": "Amazon",
       "sector": "Consumer Discretionary",
       "price": 251.52,
-      "eps": 12.6,
-      "pe": 19.961905,
+      "eps": 12.43,
+      "pe": 20.234915,
       "fcf_per_share": 0.2984453372796865,
       "ebitda_per_share": 15.659844649656362,
       "net_debt_per_share": 11.92687411702479,
