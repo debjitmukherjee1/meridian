@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06 12:39 UTC",
+  "updated_at": "2026-10-07 12:33 UTC",
   "market": "IN",
   "currency": "\u20b9",
   "companies": [
@@ -7,9 +7,9 @@
       "ticker": "RELIANCE",
       "name": "Reliance Industries",
       "sector": "Energy",
-      "price": 1218.0,
+      "price": 1207.7,
       "eps": 55.22,
-      "pe": 22.057224,
+      "pe": 21.870697,
       "fcf_per_share": null,
       "ebitda_per_share": null,
       "net_debt_per_share": null,
@@ -18,16 +18,16 @@
         "news": 47.6,
         "macro": 38
       },
-      "base_fair_value": 1218.0,
-      "sentiment_adjusted_fair_value": 1195.35
+      "base_fair_value": 1207.7,
+      "sentiment_adjusted_fair_value": 1185.24
     },
     {
       "ticker": "TCS",
       "name": "Tata Consultancy",
       "sector": "Technology",
-      "price": 2100.0,
+      "price": 2080.3,
       "eps": 137.66,
-      "pe": 15.254975,
+      "pe": 15.11187,
       "fcf_per_share": null,
       "ebitda_per_share": null,
       "net_debt_per_share": null,
@@ -36,16 +36,16 @@
         "news": 55.2,
         "macro": 38
       },
-      "base_fair_value": 2000.73,
-      "sentiment_adjusted_fair_value": 1990.53
+      "base_fair_value": 1970.39,
+      "sentiment_adjusted_fair_value": 1960.34
     },
     {
       "ticker": "INFY",
       "name": "Infosys",
       "sector": "Technology",
-      "price": 1013.85,
+      "price": 992.0,
       "eps": 73.4,
-      "pe": 13.81267,
+      "pe": 13.514986,
       "fcf_per_share": 0.7815695241372487,
       "ebitda_per_share": 1.106572765177128,
       "net_debt_per_share": -0.5434106929298143,
@@ -54,16 +54,16 @@
         "news": 55.2,
         "macro": 38
       },
-      "base_fair_value": 539.55,
-      "sentiment_adjusted_fair_value": 536.8
+      "base_fair_value": 531.46,
+      "sentiment_adjusted_fair_value": 528.75
     },
     {
       "ticker": "HDFCBANK",
       "name": "HDFC Bank",
       "sector": "Financials",
-      "price": 711.45,
+      "price": 702.75,
       "eps": 45.75,
-      "pe": 15.55082,
+      "pe": 15.360656,
       "fcf_per_share": null,
       "ebitda_per_share": null,
       "net_debt_per_share": 212.79971534661973,
@@ -79,27 +79,27 @@
       "ticker": "ICICIBANK",
       "name": "ICICI Bank",
       "sector": "Financials",
-      "price": 1342.8,
+      "price": 1357.5,
       "eps": 77.36,
-      "pe": 17.35781,
+      "pe": 17.547829,
       "fcf_per_share": null,
       "ebitda_per_share": null,
-      "net_debt_per_share": 212.17602136408277,
+      "net_debt_per_share": 212.17002620361566,
       "sentiment_index": 55.0,
       "sentiment_breakdown": {
         "news": 66.4,
         "macro": 38
       },
-      "base_fair_value": 1272.91,
-      "sentiment_adjusted_fair_value": 1292.0
+      "base_fair_value": 1272.9,
+      "sentiment_adjusted_fair_value": 1291.99
     },
     {
       "ticker": "HINDUNILVR",
       "name": "Hindustan Unilever",
       "sector": "Consumer Staples",
-      "price": 1895.2,
+      "price": 1865.4,
       "eps": 44.6,
-      "pe": 42.493275,
+      "pe": 41.825115,
       "fcf_per_share": null,
       "ebitda_per_share": 63.1929032293107,
       "net_debt_per_share": -23.47216769994951,
@@ -108,14 +108,14 @@
         "news": 61.2,
         "macro": 38
       },
-      "base_fair_value": 1895.2,
-      "sentiment_adjusted_fair_value": 1906.0
+      "base_fair_value": 1865.4,
+      "sentiment_adjusted_fair_value": 1876.03
     },
     {
       "ticker": "TMPV",
       "name": "Tata Motors Passenger Vehicles",
       "sector": "Consumer Discretionary",
-      "price": 285.8,
+      "price": 283.0,
       "eps": -9.17,
       "pe": null,
       "fcf_per_share": null,
@@ -126,16 +126,16 @@
         "news": 32.4,
         "macro": 38
       },
-      "base_fair_value": 285.8,
-      "sentiment_adjusted_fair_value": 272.6
+      "base_fair_value": 283.0,
+      "sentiment_adjusted_fair_value": 269.93
     },
     {
       "ticker": "SUNPHARMA",
       "name": "Sun Pharma",
       "sector": "Healthcare",
-      "price": 1804.1,
+      "price": 1781.0,
       "eps": 50.4,
-      "pe": 35.795635,
+      "pe": 35.3373,
       "fcf_per_share": null,
       "ebitda_per_share": 69.11597521541563,
       "net_debt_per_share": -120.4052737730072,
@@ -144,8 +144,8 @@
         "news": 74.8,
         "macro": 38
       },
-      "base_fair_value": 1804.1,
-      "sentiment_adjusted_fair_value": 1858.76
+      "base_fair_value": 1781.0,
+      "sentiment_adjusted_fair_value": 1834.96
     }
   ]
 }
