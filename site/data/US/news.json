@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08 12:43 UTC",
+  "updated_at": "2026-10-09 12:29 UTC",
   "market": "US",
   "items": [
     {
@@ -8,13 +8,6 @@
       "tone": 0.0,
       "url": "https://www.aol.com/articles/morgan-stanley-reveals-red-hot-213000000.html",
       "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Financials sentiment."
-    },
-    {
-      "title": "Which Is the Better Value Stock : Microsoft or Nvidia ?",
-      "sector": "Technology",
-      "tone": 0.0,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/better-value-stock-microsoft-nvidia-152500114.html",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Technology sentiment."
     },
     {
       "title": "From the ashes of bear - market : Over 125 smallcap stocks soar up to 300 % from 52 - week lows",
@@ -84,6 +77,13 @@
       "sector": "Financials",
       "tone": 0.0,
       "url": "https://www.fool.com/investing/2026/08/26/bill-ackman-factor-more-important-valuation/?source=iedfolrf0000001",
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Financials sentiment."
+    },
+    {
+      "title": "Sensex jumps 500 points , Nifty up over 0 . 5 %; IT stocks , Reliance among key factors lifting Indian markets today",
+      "sector": "Financials",
+      "tone": 0.0,
+      "url": "https://www.moneycontrol.com/news/business/markets/sensex-jumps-500-points-nifty-up-over-0-5-it-stocks-reliance-among-key-factors-lifting-indian-markets-today-13976384.html",
       "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Financials sentiment."
     }
   ]
