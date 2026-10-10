@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-10-09 12:29 UTC",
+  "updated_at": "2026-10-10 11:49 UTC",
   "markets": {
     "IN": {
       "cpi": {
         "label": "CPI Inflation (YoY)",
         "frequency": "annual",
         "unit": "%",
-        "source": "World Bank (FP.CPI.TOTL.ZG) [MOCK]",
+        "source": "World Bank (FP.CPI.TOTL.ZG)",
         "as_of": "2025",
-        "latest": 8.43,
+        "latest": 2.4,
         "series": [
           {
             "date": "2021",
-            "value": 5.44
+            "value": 5.13
           },
           {
             "date": "2022",
-            "value": 6.6
+            "value": 6.7
           },
           {
             "date": "2023",
-            "value": 7.5
+            "value": 5.65
           },
           {
             "date": "2024",
-            "value": 7.48
+            "value": 4.95
           },
           {
             "date": "2025",
-            "value": 8.43
+            "value": 2.4
           }
         ]
       },
@@ -36,29 +36,29 @@
         "label": "Real GDP Growth",
         "frequency": "annual",
         "unit": "%",
-        "source": "World Bank (NY.GDP.MKTP.KD.ZG) [MOCK]",
+        "source": "World Bank (NY.GDP.MKTP.KD.ZG)",
         "as_of": "2025",
-        "latest": 5.77,
+        "latest": 7.57,
         "series": [
           {
             "date": "2021",
-            "value": 2.95
+            "value": 9.69
           },
           {
             "date": "2022",
-            "value": 3.5
+            "value": 7.61
           },
           {
             "date": "2023",
-            "value": 4.66
+            "value": 7.21
           },
           {
             "date": "2024",
-            "value": 5.71
+            "value": 7.1
           },
           {
             "date": "2025",
-            "value": 5.77
+            "value": 7.57
           }
         ]
       },
@@ -66,29 +66,29 @@
         "label": "Unemployment",
         "frequency": "annual",
         "unit": "%",
-        "source": "World Bank (SL.UEM.TOTL.ZS) [MOCK]",
+        "source": "World Bank (SL.UEM.TOTL.ZS)",
         "as_of": "2025",
-        "latest": 3.7,
+        "latest": 4.22,
         "series": [
           {
             "date": "2021",
-            "value": 5.36
+            "value": 6.38
           },
           {
             "date": "2022",
-            "value": 5.19
+            "value": 4.82
           },
           {
             "date": "2023",
-            "value": 4.8
+            "value": 4.17
           },
           {
             "date": "2024",
-            "value": 4.02
+            "value": 4.17
           },
           {
             "date": "2025",
-            "value": 3.7
+            "value": 4.22
           }
         ]
       },
@@ -113,13 +113,9 @@
         "frequency": "daily",
         "unit": "INR",
         "source": "Frankfurter (ECB reference rates)",
-        "as_of": "2026-10-08",
-        "latest": 96.78,
+        "as_of": "2026-10-09",
+        "latest": 96.73,
         "series": [
-          {
-            "date": "2025-10-09",
-            "value": 88.8
-          },
           {
             "date": "2025-10-10",
             "value": 88.71
@@ -1135,39 +1131,43 @@
           {
             "date": "2026-10-08",
             "value": 96.78
+          },
+          {
+            "date": "2026-10-09",
+            "value": 96.73
           }
         ]
       },
-      "narrative": "India: CPI inflation 8.43% (2025), real GDP growth 5.77% (2025), unemployment 3.7% (2025), policy rate 5.25% (2026-06-05). The currency stands at 96.78 (INR per USD, as of 2026-10-08)."
+      "narrative": "India: CPI inflation 2.4% (2025), real GDP growth 7.57% (2025), unemployment 4.22% (2025), policy rate 5.25% (2026-06-05). The currency stands at 96.73 (INR per USD, as of 2026-10-09)."
     },
     "US": {
       "cpi": {
         "label": "CPI Inflation (YoY)",
         "frequency": "annual",
         "unit": "%",
-        "source": "World Bank (FP.CPI.TOTL.ZG) [MOCK]",
-        "as_of": "2025",
-        "latest": 5.4,
+        "source": "World Bank (FP.CPI.TOTL.ZG)",
+        "as_of": "2024",
+        "latest": 2.95,
         "series": [
           {
+            "date": "2020",
+            "value": 1.23
+          },
+          {
             "date": "2021",
-            "value": 4.99
+            "value": 4.7
           },
           {
             "date": "2022",
-            "value": 5.35
+            "value": 8.0
           },
           {
             "date": "2023",
-            "value": 6.19
+            "value": 4.12
           },
           {
             "date": "2024",
-            "value": 5.96
-          },
-          {
-            "date": "2025",
-            "value": 5.4
+            "value": 2.95
           }
         ]
       },
@@ -1175,29 +1175,29 @@
         "label": "Real GDP Growth",
         "frequency": "annual",
         "unit": "%",
-        "source": "World Bank (NY.GDP.MKTP.KD.ZG) [MOCK]",
+        "source": "World Bank (NY.GDP.MKTP.KD.ZG)",
         "as_of": "2025",
-        "latest": 3.15,
+        "latest": 2.16,
         "series": [
           {
             "date": "2021",
-            "value": 2.91
+            "value": 6.15
           },
           {
             "date": "2022",
-            "value": 3.89
+            "value": 2.52
           },
           {
             "date": "2023",
-            "value": 4.86
+            "value": 2.93
           },
           {
             "date": "2024",
-            "value": 4.25
+            "value": 2.79
           },
           {
             "date": "2025",
-            "value": 3.15
+            "value": 2.16
           }
         ]
       },
@@ -1205,29 +1205,29 @@
         "label": "Unemployment",
         "frequency": "annual",
         "unit": "%",
-        "source": "World Bank (SL.UEM.TOTL.ZS) [MOCK]",
+        "source": "World Bank (SL.UEM.TOTL.ZS)",
         "as_of": "2025",
-        "latest": 9.39,
+        "latest": 4.2,
         "series": [
           {
             "date": "2021",
-            "value": 6.66
+            "value": 5.35
           },
           {
             "date": "2022",
-            "value": 6.89
+            "value": 3.65
           },
           {
             "date": "2023",
-            "value": 8.0
+            "value": 3.64
           },
           {
             "date": "2024",
-            "value": 8.49
+            "value": 4.02
           },
           {
             "date": "2025",
-            "value": 9.39
+            "value": 4.2
           }
         ]
       },
@@ -1491,36 +1491,36 @@
         "series": [],
         "note": "USD is Meridian's reference currency for this comparison; no vs-USD series applies."
       },
-      "narrative": "United States: CPI inflation 5.4% (2025), real GDP growth 3.15% (2025), unemployment 9.39% (2025), policy rate 3.75% (2026-09-01)."
+      "narrative": "United States: CPI inflation 2.95% (2024), real GDP growth 2.16% (2025), unemployment 4.2% (2025), policy rate 3.75% (2026-09-01)."
     },
     "UK": {
       "cpi": {
         "label": "CPI Inflation (YoY)",
         "frequency": "annual",
         "unit": "%",
-        "source": "World Bank (FP.CPI.TOTL.ZG) [MOCK]",
+        "source": "World Bank (FP.CPI.TOTL.ZG)",
         "as_of": "2025",
-        "latest": 1.48,
+        "latest": 3.88,
         "series": [
           {
             "date": "2021",
-            "value": 3.4
+            "value": 2.52
           },
           {
             "date": "2022",
-            "value": 3.22
+            "value": 7.92
           },
           {
             "date": "2023",
-            "value": 3.52
+            "value": 6.79
           },
           {
             "date": "2024",
-            "value": 2.62
+            "value": 3.27
           },
           {
             "date": "2025",
-            "value": 1.48
+            "value": 3.88
           }
         ]
       },
@@ -1528,29 +1528,29 @@
         "label": "Real GDP Growth",
         "frequency": "annual",
         "unit": "%",
-        "source": "World Bank (NY.GDP.MKTP.KD.ZG) [MOCK]",
+        "source": "World Bank (NY.GDP.MKTP.KD.ZG)",
         "as_of": "2025",
-        "latest": 3.75,
+        "latest": 1.39,
         "series": [
           {
             "date": "2021",
-            "value": 3.8
+            "value": 8.54
           },
           {
             "date": "2022",
-            "value": 4.04
+            "value": 5.15
           },
           {
             "date": "2023",
-            "value": 4.19
+            "value": 0.27
           },
           {
             "date": "2024",
-            "value": 4.23
+            "value": 1.08
           },
           {
             "date": "2025",
-            "value": 3.75
+            "value": 1.39
           }
         ]
       },
@@ -1558,29 +1558,29 @@
         "label": "Unemployment",
         "frequency": "annual",
         "unit": "%",
-        "source": "World Bank (SL.UEM.TOTL.ZS) [MOCK]",
+        "source": "World Bank (SL.UEM.TOTL.ZS)",
         "as_of": "2025",
-        "latest": 2.87,
+        "latest": 4.75,
         "series": [
           {
             "date": "2021",
-            "value": 5.48
+            "value": 4.86
           },
           {
             "date": "2022",
-            "value": 4.58
+            "value": 3.77
           },
           {
             "date": "2023",
-            "value": 3.75
+            "value": 4.03
           },
           {
             "date": "2024",
-            "value": 3.14
+            "value": 4.36
           },
           {
             "date": "2025",
-            "value": 2.87
+            "value": 4.75
           }
         ]
       },
@@ -1605,13 +1605,9 @@
         "frequency": "daily",
         "unit": "USD",
         "source": "Frankfurter (ECB reference rates)",
-        "as_of": "2026-10-08",
-        "latest": 1.3207,
+        "as_of": "2026-10-09",
+        "latest": 1.322,
         "series": [
-          {
-            "date": "2025-10-09",
-            "value": 1.3372
-          },
           {
             "date": "2025-10-10",
             "value": 1.3283
@@ -2627,87 +2623,31 @@
           {
             "date": "2026-10-08",
             "value": 1.3207
+          },
+          {
+            "date": "2026-10-09",
+            "value": 1.322
           }
         ]
       },
-      "narrative": "United Kingdom: CPI inflation 1.48% (2025), real GDP growth 3.75% (2025), unemployment 2.87% (2025), policy rate 3.75% (2026-06-18). The currency stands at 1.3207 (USD per GBP, as of 2026-10-08)."
+      "narrative": "United Kingdom: CPI inflation 3.88% (2025), real GDP growth 1.39% (2025), unemployment 4.75% (2025), policy rate 3.75% (2026-06-18). The currency stands at 1.322 (USD per GBP, as of 2026-10-09)."
     },
     "JP": {
       "cpi": {
         "label": "CPI Inflation (YoY)",
         "frequency": "annual",
         "unit": "%",
-        "source": "World Bank (FP.CPI.TOTL.ZG) [MOCK]",
+        "source": "World Bank (FP.CPI.TOTL.ZG)",
         "as_of": "2025",
-        "latest": 6.28,
+        "latest": 3.17,
         "series": [
           {
             "date": "2021",
-            "value": 5.64
+            "value": -0.23
           },
           {
             "date": "2022",
-            "value": 4.79
-          },
-          {
-            "date": "2023",
-            "value": 5.03
-          },
-          {
-            "date": "2024",
-            "value": 5.66
-          },
-          {
-            "date": "2025",
-            "value": 6.28
-          }
-        ]
-      },
-      "gdp_growth": {
-        "label": "Real GDP Growth",
-        "frequency": "annual",
-        "unit": "%",
-        "source": "World Bank (NY.GDP.MKTP.KD.ZG) [MOCK]",
-        "as_of": "2025",
-        "latest": 1.03,
-        "series": [
-          {
-            "date": "2021",
-            "value": 2.36
-          },
-          {
-            "date": "2022",
-            "value": 3.02
-          },
-          {
-            "date": "2023",
-            "value": 2.62
-          },
-          {
-            "date": "2024",
-            "value": 1.83
-          },
-          {
-            "date": "2025",
-            "value": 1.03
-          }
-        ]
-      },
-      "unemployment": {
-        "label": "Unemployment",
-        "frequency": "annual",
-        "unit": "%",
-        "source": "World Bank (SL.UEM.TOTL.ZS) [MOCK]",
-        "as_of": "2025",
-        "latest": 4.39,
-        "series": [
-          {
-            "date": "2021",
-            "value": 4.66
-          },
-          {
-            "date": "2022",
-            "value": 4.41
+            "value": 2.5
           },
           {
             "date": "2023",
@@ -2715,11 +2655,71 @@
           },
           {
             "date": "2024",
-            "value": 3.6
+            "value": 2.74
           },
           {
             "date": "2025",
-            "value": 4.39
+            "value": 3.17
+          }
+        ]
+      },
+      "gdp_growth": {
+        "label": "Real GDP Growth",
+        "frequency": "annual",
+        "unit": "%",
+        "source": "World Bank (NY.GDP.MKTP.KD.ZG)",
+        "as_of": "2025",
+        "latest": 1.19,
+        "series": [
+          {
+            "date": "2021",
+            "value": 3.56
+          },
+          {
+            "date": "2022",
+            "value": 1.33
+          },
+          {
+            "date": "2023",
+            "value": 0.72
+          },
+          {
+            "date": "2024",
+            "value": -0.24
+          },
+          {
+            "date": "2025",
+            "value": 1.19
+          }
+        ]
+      },
+      "unemployment": {
+        "label": "Unemployment",
+        "frequency": "annual",
+        "unit": "%",
+        "source": "World Bank (SL.UEM.TOTL.ZS)",
+        "as_of": "2025",
+        "latest": 2.45,
+        "series": [
+          {
+            "date": "2021",
+            "value": 2.81
+          },
+          {
+            "date": "2022",
+            "value": 2.61
+          },
+          {
+            "date": "2023",
+            "value": 2.6
+          },
+          {
+            "date": "2024",
+            "value": 2.5
+          },
+          {
+            "date": "2025",
+            "value": 2.45
           }
         ]
       },
@@ -2737,20 +2737,16 @@
             "value": 1.0
           }
         ],
-        "note": "Manual, as of 2026-06-16 \u2014 FRED fetch failed (FRED IRSTCB01JPM156N latest observation is 1043d old (2023-12-01) -- treating as stale). Policy rate, raised 25bp to 1.00% (7\u20131 vote) on 2026-06-16 \u2014 highest since 1995."
+        "note": "Manual, as of 2026-06-16 \u2014 FRED fetch failed (FRED IRSTCB01JPM156N latest observation is 1044d old (2023-12-01) -- treating as stale). Policy rate, raised 25bp to 1.00% (7\u20131 vote) on 2026-06-16 \u2014 highest since 1995."
       },
       "fx": {
         "label": "JPY per USD",
         "frequency": "daily",
         "unit": "JPY",
         "source": "Frankfurter (ECB reference rates)",
-        "as_of": "2026-10-08",
-        "latest": 158.28,
+        "as_of": "2026-10-09",
+        "latest": 158.25,
         "series": [
-          {
-            "date": "2025-10-09",
-            "value": 152.79
-          },
           {
             "date": "2025-10-10",
             "value": 152.54
@@ -3766,10 +3762,14 @@
           {
             "date": "2026-10-08",
             "value": 158.28
+          },
+          {
+            "date": "2026-10-09",
+            "value": 158.25
           }
         ]
       },
-      "narrative": "Japan: CPI inflation 6.28% (2025), real GDP growth 1.03% (2025), unemployment 4.39% (2025), policy rate 1.0% (2026-06-16). The currency stands at 158.28 (JPY per USD, as of 2026-10-08)."
+      "narrative": "Japan: CPI inflation 3.17% (2025), real GDP growth 1.19% (2025), unemployment 2.45% (2025), policy rate 1.0% (2026-06-16). The currency stands at 158.25 (JPY per USD, as of 2026-10-09)."
     }
   }
 }
