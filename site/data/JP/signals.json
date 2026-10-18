@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-10-17 10:04 UTC",
+  "updated_at": "2026-10-18 10:17 UTC",
   "market": "JP",
-  "macro_theme": "Mixed macro signals; markets range-bound",
+  "macro_theme": "Consumer demand signals dominate headlines",
   "signals": [
     {
       "sector": "Consumer Discretionary",
       "read": "Neutral",
       "score": 50,
-      "event_type": "default",
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Consumer Discretionary sentiment supported by the prevailing default backdrop",
+          "text": "Consumer Discretionary sentiment supported by the prevailing demand shock backdrop",
           "forecast": {
-            "low": 1.5,
-            "high": 3.5,
+            "low": 2.5,
+            "high": 5.5,
             "direction": "+",
-            "text": "+1.5% to +3.5%"
+            "text": "+2.5% to +5.5%"
           }
         }
       ]
@@ -25,11 +25,29 @@
       "sector": "Energy",
       "read": "Neutral",
       "score": 50,
-      "event_type": "default",
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Energy sentiment supported by the prevailing default backdrop",
+          "text": "Energy sentiment supported by the prevailing demand shock backdrop",
+          "forecast": {
+            "low": 2.5,
+            "high": 6.0,
+            "direction": "+",
+            "text": "+2.5% to +6.0%"
+          }
+        }
+      ]
+    },
+    {
+      "sector": "Financials",
+      "read": "Neutral",
+      "score": 50,
+      "event_type": "demand_shock",
+      "drivers": [
+        {
+          "role": "main",
+          "text": "Financials sentiment supported by the prevailing demand shock backdrop",
           "forecast": {
             "low": 1.5,
             "high": 3.5,
@@ -40,32 +58,14 @@
       ]
     },
     {
-      "sector": "Financials",
-      "read": "Neutral",
-      "score": 50,
-      "event_type": "default",
-      "drivers": [
-        {
-          "role": "main",
-          "text": "Financials sentiment supported by the prevailing default backdrop",
-          "forecast": {
-            "low": 1.0,
-            "high": 2.5,
-            "direction": "+",
-            "text": "+1.0% to +2.5%"
-          }
-        }
-      ]
-    },
-    {
       "sector": "Healthcare",
       "read": "Neutral",
       "score": 50,
-      "event_type": "default",
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Healthcare sentiment supported by the prevailing default backdrop",
+          "text": "Healthcare sentiment supported by the prevailing demand shock backdrop",
           "forecast": {
             "low": 1.0,
             "high": 2.5,
@@ -79,16 +79,16 @@
       "sector": "Industrials",
       "read": "Neutral",
       "score": 50,
-      "event_type": "default",
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Industrials sentiment supported by the prevailing default backdrop",
+          "text": "Industrials sentiment supported by the prevailing demand shock backdrop",
           "forecast": {
-            "low": 1.5,
-            "high": 3.0,
+            "low": 2.0,
+            "high": 4.5,
             "direction": "+",
-            "text": "+1.5% to +3.0%"
+            "text": "+2.0% to +4.5%"
           }
         }
       ]
@@ -97,16 +97,16 @@
       "sector": "Technology",
       "read": "Neutral",
       "score": 50,
-      "event_type": "default",
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Technology sentiment supported by the prevailing default backdrop",
+          "text": "Technology sentiment supported by the prevailing demand shock backdrop",
           "forecast": {
-            "low": 1.5,
-            "high": 3.5,
+            "low": 2.0,
+            "high": 4.5,
             "direction": "+",
-            "text": "+1.5% to +3.5%"
+            "text": "+2.0% to +4.5%"
           }
         }
       ]

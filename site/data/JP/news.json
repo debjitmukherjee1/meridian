@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17 10:04 UTC",
+  "updated_at": "2026-10-18 10:17 UTC",
   "market": "JP",
   "items": [
     {
@@ -31,6 +31,13 @@
       "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
     },
     {
+      "title": "Consensus earnings growth for AI stocks to plunge sharply : Report",
+      "sector": "Technology",
+      "tone": 0.0,
+      "url": "https://www.prokerala.com/news/articles/a1825679.html",
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Technology sentiment."
+    },
+    {
       "title": "Amazon , Apple , Meta , Microsoft Earnings on Deck : 33 % of Benzinga Viewers Say This is Top Report to Watch",
       "sector": "Market",
       "tone": 0.0,
@@ -59,6 +66,13 @@
       "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
     },
     {
+      "title": "AI stocks earnings grAI stock earnings growth set to slow sharply , Jefferies urges diversificationowth set to slow sharply , Jefferies urges diversification",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://aninews.in/news/business/ai-stocks-earnings-grai-stocks-earnings-growth-set-to-slow-sharply-jefferies-urges-diversificationowth-set-to-slow-sharply-jefferies-urges-diversification20261016125426/",
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+    },
+    {
       "title": "US stocks , bonds rise as Iran hopes spur oil drop",
       "sector": "Energy",
       "tone": 0.0,
@@ -66,24 +80,10 @@
       "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Energy sentiment."
     },
     {
-      "title": "Cramer Wants Nvidia to Buy Back a Tenth of Itself but One Analyst Expects the Stock To Hit $400 Without It",
+      "title": "DalalStreet extends recovery ; Sensex ends over 400 pts , Nifty above 23 , 100 ; IT lead gains",
       "sector": "Market",
       "tone": 0.0,
-      "url": "https://www.aol.com/articles/cramer-wants-nvidia-buy-back-155853000.html",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
-    },
-    {
-      "title": "Bill Ackman Thinks This Factor Is Even More Important Than Valuation For Long - Term Investments",
-      "sector": "Market",
-      "tone": 0.0,
-      "url": "https://www.fool.com/investing/2026/08/26/bill-ackman-factor-more-important-valuation/?source=iedfolrf0000001",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
-    },
-    {
-      "title": "The S & P 500 Keeps Hitting Highs But It Just Microsoft and Nvidia Carrying the Entire Market",
-      "sector": "Market",
-      "tone": 0.0,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-keeps-hitting-highs-145500277.html",
+      "url": "https://news.webindia123.com/news/Articles/Business/20261016/4511730.html",
       "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
     }
   ]
