@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18 10:17 UTC",
+  "updated_at": "2026-10-19 11:58 UTC",
   "market": "JP",
   "items": [
     {
@@ -28,6 +28,13 @@
       "sector": "Market",
       "tone": 0.0,
       "url": "https://finance.yahoo.com/markets/stocks/articles/forget-p-500-3-unloved-003857058.html",
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+    },
+    {
+      "title": "Stocks are heading for a high - stakes showdown , as strong earnings collide with rising borrowing costs",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://www.morningstar.com/news/marketwatch/202610183/stocks-are-heading-for-a-high-stakes-showdown-as-strong-earnings-collide-with-rising-borrowing-costs",
       "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
     },
     {
@@ -78,13 +85,6 @@
       "tone": 0.0,
       "url": "https://www.moneycontrol.com/news/business/markets/us-stocks-bonds-rise-as-iran-hopes-spur-oil-drop-13992791.html",
       "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Energy sentiment."
-    },
-    {
-      "title": "DalalStreet extends recovery ; Sensex ends over 400 pts , Nifty above 23 , 100 ; IT lead gains",
-      "sector": "Market",
-      "tone": 0.0,
-      "url": "https://news.webindia123.com/news/Articles/Business/20261016/4511730.html",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
     }
   ]
 }
