@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22 11:03 UTC",
+  "updated_at": "2026-10-23 10:56 UTC",
   "markets": {
     "IN": {
       "cpi": {
@@ -113,13 +113,9 @@
         "frequency": "daily",
         "unit": "INR",
         "source": "Frankfurter (ECB reference rates)",
-        "as_of": "2026-10-21",
-        "latest": 94.47,
+        "as_of": "2026-10-22",
+        "latest": 94.82,
         "series": [
-          {
-            "date": "2025-10-22",
-            "value": 88.42
-          },
           {
             "date": "2025-10-23",
             "value": 87.82
@@ -1135,10 +1131,14 @@
           {
             "date": "2026-10-21",
             "value": 94.47
+          },
+          {
+            "date": "2026-10-22",
+            "value": 94.82
           }
         ]
       },
-      "narrative": "India: CPI inflation 2.4% (2025), real GDP growth 7.57% (2025), unemployment 4.22% (2025), policy rate 5.25% (2026-06-05). The currency stands at 94.47 (INR per USD, as of 2026-10-21)."
+      "narrative": "India: CPI inflation 2.4% (2025), real GDP growth 7.57% (2025), unemployment 4.22% (2025), policy rate 5.25% (2026-06-05). The currency stands at 94.82 (INR per USD, as of 2026-10-22)."
     },
     "US": {
       "cpi": {
@@ -1605,13 +1605,9 @@
         "frequency": "daily",
         "unit": "USD",
         "source": "Frankfurter (ECB reference rates)",
-        "as_of": "2026-10-21",
-        "latest": 1.3402,
+        "as_of": "2026-10-22",
+        "latest": 1.3376,
         "series": [
-          {
-            "date": "2025-10-22",
-            "value": 1.3335
-          },
           {
             "date": "2025-10-23",
             "value": 1.3339
@@ -2627,10 +2623,14 @@
           {
             "date": "2026-10-21",
             "value": 1.3402
+          },
+          {
+            "date": "2026-10-22",
+            "value": 1.3376
           }
         ]
       },
-      "narrative": "United Kingdom: CPI inflation 3.88% (2025), real GDP growth 1.39% (2025), unemployment 4.75% (2025), policy rate 3.75% (2026-06-18). The currency stands at 1.3402 (USD per GBP, as of 2026-10-21)."
+      "narrative": "United Kingdom: CPI inflation 3.88% (2025), real GDP growth 1.39% (2025), unemployment 4.75% (2025), policy rate 3.75% (2026-06-18). The currency stands at 1.3376 (USD per GBP, as of 2026-10-22)."
     },
     "JP": {
       "cpi": {
@@ -2737,20 +2737,16 @@
             "value": 1.0
           }
         ],
-        "note": "Manual, as of 2026-06-16 \u2014 FRED fetch failed (FRED IRSTCB01JPM156N latest observation is 1056d old (2023-12-01) -- treating as stale). Policy rate, raised 25bp to 1.00% (7\u20131 vote) on 2026-06-16 \u2014 highest since 1995."
+        "note": "Manual, as of 2026-06-16 \u2014 FRED fetch failed (FRED IRSTCB01JPM156N latest observation is 1057d old (2023-12-01) -- treating as stale). Policy rate, raised 25bp to 1.00% (7\u20131 vote) on 2026-06-16 \u2014 highest since 1995."
       },
       "fx": {
         "label": "JPY per USD",
         "frequency": "daily",
         "unit": "JPY",
         "source": "Frankfurter (ECB reference rates)",
-        "as_of": "2026-10-21",
-        "latest": 157.88,
+        "as_of": "2026-10-22",
+        "latest": 157.05,
         "series": [
-          {
-            "date": "2025-10-22",
-            "value": 151.83
-          },
           {
             "date": "2025-10-23",
             "value": 152.63
@@ -3766,10 +3762,14 @@
           {
             "date": "2026-10-21",
             "value": 157.88
+          },
+          {
+            "date": "2026-10-22",
+            "value": 157.05
           }
         ]
       },
-      "narrative": "Japan: CPI inflation 3.17% (2025), real GDP growth 1.19% (2025), unemployment 2.45% (2025), policy rate 1.0% (2026-06-16). The currency stands at 157.88 (JPY per USD, as of 2026-10-21)."
+      "narrative": "Japan: CPI inflation 3.17% (2025), real GDP growth 1.19% (2025), unemployment 2.45% (2025), policy rate 1.0% (2026-06-16). The currency stands at 157.05 (JPY per USD, as of 2026-10-22)."
     }
   }
 }
