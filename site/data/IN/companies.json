@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23 10:56 UTC",
+  "updated_at": "2026-10-24 10:11 UTC",
   "market": "IN",
   "currency": "\u20b9",
   "companies": [
@@ -36,26 +36,26 @@
         "news": 55.2,
         "macro": 38
       },
-      "base_fair_value": 2386.26,
-      "sentiment_adjusted_fair_value": 2374.09
+      "base_fair_value": 2360.88,
+      "sentiment_adjusted_fair_value": 2348.84
     },
     {
       "ticker": "INFY",
       "name": "Infosys",
       "sector": "Technology",
       "price": 1153.8,
-      "eps": 73.4,
-      "pe": 15.719346,
-      "fcf_per_share": 0.7815661619511507,
-      "ebitda_per_share": 1.1065680048794801,
-      "net_debt_per_share": -0.5434083552646152,
+      "eps": 75.1,
+      "pe": 15.363516,
+      "fcf_per_share": 0.7426190121385534,
+      "ebitda_per_share": 1.1361949938080371,
+      "net_debt_per_share": -0.7621542743860665,
       "sentiment_index": 48.3,
       "sentiment_breakdown": {
         "news": 55.2,
         "macro": 38
       },
-      "base_fair_value": 620.04,
-      "sentiment_adjusted_fair_value": 616.88
+      "base_fair_value": 627.27,
+      "sentiment_adjusted_fair_value": 624.07
     },
     {
       "ticker": "HDFCBANK",
@@ -66,7 +66,7 @@
       "pe": 15.143169,
       "fcf_per_share": null,
       "ebitda_per_share": null,
-      "net_debt_per_share": 214.25161413592758,
+      "net_debt_per_share": 214.1247025736227,
       "sentiment_index": 55.0,
       "sentiment_breakdown": {
         "news": 66.4,
@@ -84,7 +84,7 @@
       "pe": 16.956944,
       "fcf_per_share": null,
       "ebitda_per_share": null,
-      "net_debt_per_share": 28.274281242861488,
+      "net_debt_per_share": 28.273739510573446,
       "sentiment_index": 55.0,
       "sentiment_breakdown": {
         "news": 66.4,
