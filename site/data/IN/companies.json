@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24 10:11 UTC",
+  "updated_at": "2026-10-25 10:36 UTC",
   "market": "IN",
   "currency": "\u20b9",
   "companies": [
@@ -11,8 +11,8 @@
       "eps": 55.22,
       "pe": 21.550163,
       "fcf_per_share": null,
-      "ebitda_per_share": null,
-      "net_debt_per_share": null,
+      "ebitda_per_share": 133.54322303194837,
+      "net_debt_per_share": 180.0365821896256,
       "sentiment_index": 43.8,
       "sentiment_breakdown": {
         "news": 47.6,
@@ -28,16 +28,16 @@
       "price": 2530.0,
       "eps": 142.66,
       "pe": 17.734472,
-      "fcf_per_share": null,
-      "ebitda_per_share": null,
-      "net_debt_per_share": null,
+      "fcf_per_share": 109.06245272312398,
+      "ebitda_per_share": 201.3522251343175,
+      "net_debt_per_share": -108.38875513569045,
       "sentiment_index": 48.3,
       "sentiment_breakdown": {
         "news": 55.2,
         "macro": 38
       },
-      "base_fair_value": 2360.88,
-      "sentiment_adjusted_fair_value": 2348.84
+      "base_fair_value": 36535.59,
+      "sentiment_adjusted_fair_value": 36349.26
     },
     {
       "ticker": "INFY",
@@ -46,16 +46,16 @@
       "price": 1153.8,
       "eps": 75.1,
       "pe": 15.363516,
-      "fcf_per_share": 0.7426190121385534,
-      "ebitda_per_share": 1.1361949938080371,
-      "net_debt_per_share": -0.7621542743860665,
+      "fcf_per_share": 0.7553310310596576,
+      "ebitda_per_share": 1.113970499297485,
+      "net_debt_per_share": -0.7621513430933564,
       "sentiment_index": 48.3,
       "sentiment_breakdown": {
         "news": 55.2,
         "macro": 38
       },
-      "base_fair_value": 627.27,
-      "sentiment_adjusted_fair_value": 624.07
+      "base_fair_value": 612.91,
+      "sentiment_adjusted_fair_value": 609.78
     },
     {
       "ticker": "HDFCBANK",
@@ -72,16 +72,16 @@
         "news": 66.4,
         "macro": 38
       },
-      "base_fair_value": 734.29,
-      "sentiment_adjusted_fair_value": 745.3
+      "base_fair_value": 738.05,
+      "sentiment_adjusted_fair_value": 749.12
     },
     {
       "ticker": "ICICIBANK",
       "name": "ICICI Bank",
       "sector": "Financials",
       "price": 1394.2,
-      "eps": 82.22,
-      "pe": 16.956944,
+      "eps": 81.43,
+      "pe": 17.121454,
       "fcf_per_share": null,
       "ebitda_per_share": null,
       "net_debt_per_share": 28.273739510573446,
@@ -90,8 +90,8 @@
         "news": 66.4,
         "macro": 38
       },
-      "base_fair_value": 1319.64,
-      "sentiment_adjusted_fair_value": 1339.43
+      "base_fair_value": 1313.65,
+      "sentiment_adjusted_fair_value": 1333.35
     },
     {
       "ticker": "HINDUNILVR",

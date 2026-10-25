@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24 10:11 UTC",
+  "updated_at": "2026-10-25 10:36 UTC",
   "market": "JP",
   "currency": "\u00a5",
   "companies": [
@@ -62,8 +62,8 @@
       "name": "Mitsubishi UFJ",
       "sector": "Financials",
       "price": 3295.0,
-      "eps": 231.0,
-      "pe": 14.26407,
+      "eps": 236.47,
+      "pe": 13.934114,
       "fcf_per_share": null,
       "ebitda_per_share": null,
       "net_debt_per_share": -3084.910972271761,

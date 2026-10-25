@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24 10:11 UTC",
+  "updated_at": "2026-10-25 10:36 UTC",
   "market": "JP",
   "items": [
     {
@@ -59,6 +59,13 @@
       "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
     },
     {
+      "title": "Stocks are heading for a high - stakes showdown , as strong earnings collide with rising borrowing costs",
+      "sector": "Market",
+      "tone": 0.0,
+      "url": "https://www.morningstar.com/news/marketwatch/202610183/stocks-are-heading-for-a-high-stakes-showdown-as-strong-earnings-collide-with-rising-borrowing-costs",
+      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+    },
+    {
       "title": "AI stocks earnings grAI stock earnings growth set to slow sharply , Jefferies urges diversificationowth set to slow sharply , Jefferies urges diversification",
       "sector": "Market",
       "tone": 0.0,
@@ -77,13 +84,6 @@
       "sector": "Market",
       "tone": 0.0,
       "url": "https://news.webindia123.com/news/Articles/Business/20261016/4511730.html",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
-    },
-    {
-      "title": "Cramer Wants Nvidia to Buy Back a Tenth of Itself but One Analyst Expects the Stock To Hit $400 Without It",
-      "sector": "Market",
-      "tone": 0.0,
-      "url": "https://www.aol.com/articles/cramer-wants-nvidia-buy-back-155853000.html",
       "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
     }
   ]
