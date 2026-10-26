@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25 10:36 UTC",
+  "updated_at": "2026-10-26 12:09 UTC",
   "market": "US",
   "currency": "$",
   "companies": [
@@ -134,8 +134,8 @@
       "name": "Pfizer",
       "sector": "Healthcare",
       "price": 30.03,
-      "eps": 0.77,
-      "pe": 39.0,
+      "eps": 0.76,
+      "pe": 39.51316,
       "fcf_per_share": 2.1905859409381696,
       "ebitda_per_share": 4.453412931047059,
       "net_debt_per_share": 9.084028969645615,
