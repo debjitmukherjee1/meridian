@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30 12:01 UTC",
+  "updated_at": "2026-10-31 11:37 UTC",
   "market": "IN",
   "currency": "\u20b9",
   "companies": [
@@ -8,8 +8,8 @@
       "name": "Reliance Industries",
       "sector": "Energy",
       "price": 1164.9,
-      "eps": 55.22,
-      "pe": 21.095617,
+      "eps": 60.68,
+      "pe": 19.19743,
       "fcf_per_share": null,
       "ebitda_per_share": null,
       "net_debt_per_share": null,
@@ -134,18 +134,18 @@
       "name": "Sun Pharma",
       "sector": "Healthcare",
       "price": 1777.7,
-      "eps": 50.4,
-      "pe": 35.271824,
-      "fcf_per_share": null,
-      "ebitda_per_share": 69.11597521541563,
-      "net_debt_per_share": -120.4052737730072,
+      "eps": 45.7,
+      "pe": 38.89934,
+      "fcf_per_share": 31.43764350669219,
+      "ebitda_per_share": 71.29225740080803,
+      "net_debt_per_share": -126.40515711568193,
       "sentiment_index": 60.1,
       "sentiment_breakdown": {
         "news": 74.8,
         "macro": 38
       },
-      "base_fair_value": 1777.7,
-      "sentiment_adjusted_fair_value": 1831.56
+      "base_fair_value": 495.75,
+      "sentiment_adjusted_fair_value": 510.77
     }
   ]
 }

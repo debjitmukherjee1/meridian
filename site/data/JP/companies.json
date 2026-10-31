@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30 12:01 UTC",
+  "updated_at": "2026-10-31 11:37 UTC",
   "market": "JP",
   "currency": "\u00a5",
   "companies": [
@@ -100,16 +100,16 @@
       "price": 6651.0,
       "eps": 22.32,
       "pe": 297.9839,
-      "fcf_per_share": 338.94285070704206,
-      "ebitda_per_share": 782.0819621148732,
-      "net_debt_per_share": 3177.26415026596,
+      "fcf_per_share": 415.5666701017479,
+      "ebitda_per_share": 799.1610875048856,
+      "net_debt_per_share": 3091.7320727938127,
       "sentiment_index": 60.1,
       "sentiment_breakdown": {
         "news": 74.8,
         "macro": 38
       },
-      "base_fair_value": 5344.87,
-      "sentiment_adjusted_fair_value": 5506.82
+      "base_fair_value": 6553.17,
+      "sentiment_adjusted_fair_value": 6751.73
     },
     {
       "ticker": "6501",
