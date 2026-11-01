@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31 11:37 UTC",
+  "updated_at": "2026-11-01 12:35 UTC",
   "market": "US",
   "currency": "$",
   "companies": [
@@ -82,16 +82,16 @@
       "price": 187.25,
       "eps": 9.72,
       "pe": 19.264402,
-      "fcf_per_share": 6.8964270645522285,
-      "ebitda_per_share": 18.975600425063575,
-      "net_debt_per_share": 5.3738992135425,
+      "fcf_per_share": 7.084150491787203,
+      "ebitda_per_share": 19.340034698700663,
+      "net_debt_per_share": 5.417259241971071,
       "sentiment_index": 43.8,
       "sentiment_breakdown": {
         "news": 47.6,
         "macro": 38
       },
-      "base_fair_value": 108.75,
-      "sentiment_adjusted_fair_value": 106.73
+      "base_fair_value": 111.71,
+      "sentiment_adjusted_fair_value": 109.63
     },
     {
       "ticker": "AMZN",
@@ -100,9 +100,9 @@
       "price": 240.35,
       "eps": 12.37,
       "pe": 19.430073,
-      "fcf_per_share": -1.0679631397650542,
-      "ebitda_per_share": 16.993710305429655,
-      "net_debt_per_share": 14.589122267320322,
+      "fcf_per_share": -1.0302050683859993,
+      "ebitda_per_share": 16.990349786801293,
+      "net_debt_per_share": 14.586237257733268,
       "sentiment_index": 34.6,
       "sentiment_breakdown": {
         "news": 32.4,

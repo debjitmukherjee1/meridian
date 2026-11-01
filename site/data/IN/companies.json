@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31 11:37 UTC",
+  "updated_at": "2026-11-01 12:35 UTC",
   "market": "IN",
   "currency": "\u20b9",
   "companies": [
@@ -66,7 +66,7 @@
       "pe": 15.143169,
       "fcf_per_share": null,
       "ebitda_per_share": null,
-      "net_debt_per_share": 214.1247025736227,
+      "net_debt_per_share": 214.05982815740242,
       "sentiment_index": 55.0,
       "sentiment_breakdown": {
         "news": 66.4,
@@ -84,7 +84,7 @@
       "pe": 17.16812,
       "fcf_per_share": null,
       "ebitda_per_share": null,
-      "net_debt_per_share": 28.269552387259104,
+      "net_debt_per_share": 28.269123116944225,
       "sentiment_index": 55.0,
       "sentiment_breakdown": {
         "news": 66.4,
