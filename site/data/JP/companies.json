@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06 13:40 UTC",
+  "updated_at": "2026-11-07 12:21 UTC",
   "market": "JP",
   "currency": "\u00a5",
   "companies": [
@@ -10,7 +10,7 @@
       "price": 3338.0,
       "eps": 345.15,
       "pe": 9.671158,
-      "fcf_per_share": -263.358381107887,
+      "fcf_per_share": -258.29368642872544,
       "ebitda_per_share": 505.59295762276037,
       "net_debt_per_share": 2459.9008771477643,
       "sentiment_index": 50.0,
@@ -28,16 +28,16 @@
       "price": 4142.0,
       "eps": 211.05,
       "pe": 19.62568,
-      "fcf_per_share": 394.31039217415855,
-      "ebitda_per_share": 393.89858181691096,
-      "net_debt_per_share": 13.273634471125055,
+      "fcf_per_share": 395.0946554539517,
+      "ebitda_per_share": 394.68202602688547,
+      "net_debt_per_share": 13.300035053792179,
       "sentiment_index": 50.0,
       "sentiment_breakdown": {
         "news": 50.0,
         "macro": 50
       },
-      "base_fair_value": 4335.87,
-      "sentiment_adjusted_fair_value": 4335.87
+      "base_fair_value": 4439.16,
+      "sentiment_adjusted_fair_value": 4439.16
     },
     {
       "ticker": "9984",
@@ -54,8 +54,8 @@
         "news": 50.0,
         "macro": 50
       },
-      "base_fair_value": 10778.06,
-      "sentiment_adjusted_fair_value": 10778.06
+      "base_fair_value": 11989.18,
+      "sentiment_adjusted_fair_value": 11989.18
     },
     {
       "ticker": "8306",
@@ -80,18 +80,18 @@
       "name": "NTT",
       "sector": "Technology",
       "price": 160.2,
-      "eps": 12.77,
-      "pe": 12.545027,
-      "fcf_per_share": 105.8875354972838,
-      "ebitda_per_share": 44.818828134885614,
-      "net_debt_per_share": 204.64060473794095,
+      "eps": 11.48,
+      "pe": 13.954704,
+      "fcf_per_share": 105.90138617657279,
+      "ebitda_per_share": 44.82469068718404,
+      "net_debt_per_share": 204.6673728686035,
       "sentiment_index": 50.0,
       "sentiment_breakdown": {
         "news": 50.0,
         "macro": 50
       },
-      "base_fair_value": 699.37,
-      "sentiment_adjusted_fair_value": 699.37
+      "base_fair_value": 699.15,
+      "sentiment_adjusted_fair_value": 699.15
     },
     {
       "ticker": "4502",

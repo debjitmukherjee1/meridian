@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06 13:40 UTC",
+  "updated_at": "2026-11-07 12:21 UTC",
   "market": "IN",
   "currency": "\u20b9",
   "companies": [
@@ -10,16 +10,16 @@
       "price": 1320.0,
       "eps": 60.68,
       "pe": 21.75346,
-      "fcf_per_share": 8.768630410813953,
-      "ebitda_per_share": 138.10410199777243,
-      "net_debt_per_share": 178.6332929299608,
+      "fcf_per_share": null,
+      "ebitda_per_share": null,
+      "net_debt_per_share": null,
       "sentiment_index": 43.8,
       "sentiment_breakdown": {
         "news": 47.6,
         "macro": 38
       },
-      "base_fair_value": 138.27,
-      "sentiment_adjusted_fair_value": 135.7
+      "base_fair_value": 1320.0,
+      "sentiment_adjusted_fair_value": 1295.45
     },
     {
       "ticker": "TCS",
@@ -28,16 +28,16 @@
       "price": 2498.5,
       "eps": 142.66,
       "pe": 17.513668,
-      "fcf_per_share": 109.06245272312398,
-      "ebitda_per_share": 201.3522251343175,
-      "net_debt_per_share": -108.38875513569045,
+      "fcf_per_share": null,
+      "ebitda_per_share": null,
+      "net_debt_per_share": null,
       "sentiment_index": 48.3,
       "sentiment_breakdown": {
         "news": 55.2,
         "macro": 38
       },
-      "base_fair_value": 34562.33,
-      "sentiment_adjusted_fair_value": 34386.06
+      "base_fair_value": 2371.34,
+      "sentiment_adjusted_fair_value": 2359.25
     },
     {
       "ticker": "INFY",
@@ -54,8 +54,8 @@
         "news": 55.2,
         "macro": 38
       },
-      "base_fair_value": 619.82,
-      "sentiment_adjusted_fair_value": 616.66
+      "base_fair_value": 630.59,
+      "sentiment_adjusted_fair_value": 627.37
     },
     {
       "ticker": "HDFCBANK",
