@@ -127,7 +127,7 @@ main { position: relative; z-index: 1; max-width: 1180px; margin: 0 auto; paddin
 h2 { font: 400 clamp(30px, 4.2vw, 48px)/1.04 var(--display); letter-spacing: -.025em; margin: 0 0 10px; color: var(--ink); }
 h3 { font-family: var(--display); font-weight: 400; letter-spacing: -.015em; color: var(--ink); }
 h4 { font: 500 12px/1.4 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--mute); }
-.rule { height: 1px; border: 0; margin: 14px 0 22px; background: linear-gradient(90deg, var(--line-2), transparent 80%); }
+hr.rule { height: 1px; border: 0; margin: 14px 0 22px; background: linear-gradient(90deg, var(--line-2), transparent 80%); }
 main p { color: var(--ink-2); max-width: 78ch; }
 main p.muted { color: var(--mute); }
 main li { color: var(--ink-2); margin-bottom: 6px; }
@@ -197,9 +197,25 @@ select:hover, input:hover, textarea:hover { border-color: rgba(255, 255, 255, .2
 select:focus, input:focus, textarea:focus { outline: none; border-color: rgba(255, 255, 255, .55); background-color: rgba(255, 255, 255, .07); box-shadow: 0 0 0 4px rgba(255, 255, 255, .06); }
 input::placeholder, textarea::placeholder { color: var(--mute); opacity: 1; }
 input[type=range] { accent-color: var(--ink); }
+/* sliders: hairline track, white thumb. :where() keeps specificity at zero so
+   an app's own slider styling (e.g. Meridian's filled track) still wins. */
+:where(input[type=range]) { -webkit-appearance: none; appearance: none; height: 22px; background: transparent; cursor: pointer; }
+:where(input[type=range])::-webkit-slider-runnable-track { height: 3px; border-radius: 999px; background: rgba(255, 255, 255, .16); }
+:where(input[type=range])::-moz-range-track { height: 3px; border-radius: 999px; background: rgba(255, 255, 255, .16); }
+:where(input[type=range])::-moz-range-progress { height: 3px; border-radius: 999px; background: var(--ink); }
+:where(input[type=range])::-webkit-slider-thumb {
+  -webkit-appearance: none; appearance: none; width: 16px; height: 16px; margin-top: -6.5px; border-radius: 50%; border: 0;
+  background: var(--ink); box-shadow: 0 0 0 4px rgba(255, 255, 255, .08), 0 3px 10px rgba(0, 0, 0, .6);
+  transition: transform .3s var(--ease), box-shadow .3s var(--ease);
+}
+:where(input[type=range])::-moz-range-thumb { width: 16px; height: 16px; border-radius: 50%; border: 0; background: var(--ink); box-shadow: 0 0 0 4px rgba(255, 255, 255, .08); }
+:where(input[type=range]):hover::-webkit-slider-thumb { transform: scale(1.12); box-shadow: 0 0 0 6px rgba(255, 255, 255, .1), 0 3px 10px rgba(0, 0, 0, .6); }
+:where(input[type=range]):focus-visible { outline: none; }
+:where(input[type=range]):focus-visible::-webkit-slider-thumb { box-shadow: 0 0 0 4px rgba(255, 255, 255, .45); }
+input[type=date]::-webkit-calendar-picker-indicator { filter: invert(.75); cursor: pointer; }
 input[type=checkbox], input[type=radio] { accent-color: var(--ink); }
 
-.btn, button.btn, a.btn {
+.btn {
   display: inline-flex; align-items: center; justify-content: center; gap: 8px;
   height: 42px; padding: 0 20px; border-radius: 999px; text-decoration: none;
   font: 500 13.5px/1 var(--sans); letter-spacing: .005em;
@@ -211,14 +227,14 @@ input[type=checkbox], input[type=radio] { accent-color: var(--ink); }
 .btn:active { transform: scale(.98); }
 .btn:disabled, .btn[disabled] { opacity: .45; cursor: not-allowed; transform: none; }
 .btn:disabled:hover { background: var(--ink); }
-.btn-outline, .btn.secondary, .btn-ghost {
+.btn-outline, .btn.btn-outline, .btn-secondary, .btn.btn-secondary, .btn.secondary, .btn-ghost {
   display: inline-flex; align-items: center; justify-content: center; height: 42px; padding: 0 20px; border-radius: 999px;
   background: rgba(255, 255, 255, .05); color: var(--ink); border: 1px solid rgba(255, 255, 255, .2);
   font: 500 13.5px/1 var(--sans); box-shadow: inset 0 1px 0 rgba(255, 255, 255, .14);
   -webkit-backdrop-filter: blur(14px) saturate(1.5); backdrop-filter: blur(14px) saturate(1.5);
   transition: background .3s var(--ease), border-color .3s var(--ease), color .3s var(--ease);
 }
-.btn-outline:hover, .btn.secondary:hover, .btn-ghost:hover { background: rgba(255, 255, 255, .1); border-color: rgba(255, 255, 255, .4); color: var(--ink); }
+.btn-outline:hover, .btn.btn-outline:hover, .btn-secondary:hover, .btn.btn-secondary:hover, .btn.secondary:hover, .btn-ghost:hover { background: rgba(255, 255, 255, .1); border-color: rgba(255, 255, 255, .4); color: var(--ink); }
 .link-btn { font-family: var(--sans); color: var(--ink); text-decoration-color: var(--line-2); text-underline-offset: 3px; }
 .link-btn:hover { color: var(--ink); text-decoration-color: var(--ink); }
 
