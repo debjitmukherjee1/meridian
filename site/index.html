@@ -28,10 +28,15 @@
   <meta name="twitter:description" content="Fair value, read against the mood of the market. India · USA · UK · Japan. Updated daily." />
   <meta name="twitter:image" content="https://debjitmukherjee1.github.io/meridian/og-image.png" />
 
-  <meta name="theme-color" content="#efe8d8" />
+  <meta name="theme-color" content="#050505" />
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300..500&family=Geist:wght@300..600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/styles.css" />
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <link rel="stylesheet" href="css/suite.css" />
+  <script src="vendor/chart.umd.min.js"></script>
+  <script src="js/suite-charts.js"></script>
 </head>
 <body>
   <header class="topbar">
@@ -40,7 +45,7 @@
         <circle cx="24" cy="24" r="22" fill="var(--surface)" stroke="var(--accent)" stroke-width="1.5" />
         <circle cx="24" cy="24" r="17.5" fill="none" stroke="var(--accent-soft)" stroke-width=".75" opacity=".6" />
         <text x="24" y="25.5" text-anchor="middle" dominant-baseline="central"
-              font-family="'Cormorant Garamond', Georgia, serif" font-size="21" font-weight="700"
+              font-family="Newsreader, Georgia, serif" font-size="21" font-weight="400"
               fill="var(--accent)">M</text>
       </svg>
       <div class="brand-text">
@@ -82,7 +87,7 @@
     <section id="overview" class="panel active" role="tabpanel" aria-labelledby="tab-overview">
       <h2>Sector Sentiment</h2>
       <hr class="rule" />
-      <p class="muted">The prevailing read across sectors for <strong id="ov-index">—</strong>. Green denotes a bullish crowd, oxblood a bearish one. Recomputed daily.</p>
+      <p class="muted">The prevailing read across sectors for <strong id="ov-index">—</strong>. Green denotes a bullish crowd, red a bearish one. Recomputed daily.</p>
       <div id="heatmap" class="heatmap">
         <div class="heat-cell skeleton" aria-hidden="true"></div>
         <div class="heat-cell skeleton" aria-hidden="true"></div>
@@ -190,7 +195,7 @@
       <pre class="formula">adjustment = (SentimentIndex − 50) / 50
 SAFV = BFV × (1 + k × adjustment)</pre>
       <p><code>k</code> is capped so sentiment only <em>tilts</em> a fundamentally-grounded value. On the <strong>Sector Signals</strong> tab, the AI decides <em>direction</em> and writes the narrative, but the forecast <em>magnitude</em> is a historical volatility band — how the sector has actually behaved in past events of that type — so figures are anchored, and shown as a range rather than a false-precision point estimate.</p>
-      <p class="disclaimer">⚠ Educational / research instrument. Data refreshes daily, not in real time. Forecast ranges are historical-analogue estimates, not predictions. <strong>Not financial advice.</strong></p>
+      <p class="disclaimer">Educational / research instrument. Data refreshes daily, not in real time. Forecast ranges are historical-analogue estimates, not predictions. <strong>Not financial advice.</strong></p>
     </section>
 
     <!-- MACRO (MacroLens) -->
