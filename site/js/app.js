@@ -274,7 +274,7 @@ function renderCompanyChart(c, adjusted) {
       label: state.currency,
       data: [c.price, c.base_fair_value, adjusted],
       backgroundColor: [cssVar("--price-neutral"), cssVar("--accent"), resolvedSentColor(c.sentiment_index)],
-      borderRadius: 4,
+      borderRadius: 10, borderSkipped: false, maxBarThickness: 120,
     }]
   };
   if (companyChart) { companyChart.data = data; companyChart.update(); return; }
@@ -310,7 +310,7 @@ function renderSentimentChart(c) {
       label: "Contribution (0-100)",
       data: [b.news, b.macro],
       backgroundColor: [cssVar("--accent"), cssVar("--ink-dim")],
-      borderRadius: 4,
+      borderRadius: 10, borderSkipped: false, maxBarThickness: 120,
     }]
   };
   if (sentimentChart) {
@@ -491,8 +491,9 @@ function renderMacroCompare() {
         labels: rows.map(r => r.code),
         datasets: [{
           data: rows.map(r => r.displayValue),
-          backgroundColor: cssVar("--accent"),
-          borderRadius: 4,
+          backgroundColor: "rgba(243,243,241,.82)",
+          hoverBackgroundColor: "#f3f3f1",
+          borderRadius: 3, maxBarThickness: 22,
         }],
       },
       options: {
@@ -586,11 +587,12 @@ function renderMacroCards() {
 // ---- interactions ---------------------------------------------------------
 function moveTabIndicator(tab) {
   const indicator = document.getElementById("tab-indicator");
-  const nav = tab.parentElement;
-  const navRect = nav.getBoundingClientRect();
-  const tabRect = tab.getBoundingClientRect();
-  const x = tabRect.left - navRect.left + nav.scrollLeft;
-  indicator.style.transform = `translateX(${x}px) scaleX(${tabRect.width})`;
+  // The indicator is a rounded pill behind the active tab, so it is sized
+  // with left/width (a scaleX transform would squash its rounded ends).
+  indicator.style.left = tab.offsetLeft + "px";
+  indicator.style.width = tab.offsetWidth + "px";
+  // Keep the active tab in view inside the scrollable dock on phones.
+  if (tab.scrollIntoView) tab.scrollIntoView({ block: "nearest", inline: "nearest", behavior: "smooth" });
 }
 
 // Recompute any OPEN accordion's max-height. Without this, resizing the
