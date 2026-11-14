@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13 13:51 UTC",
+  "updated_at": "2026-11-14 12:53 UTC",
   "market": "IN",
   "currency": "\u20b9",
   "companies": [
@@ -116,7 +116,7 @@
       "name": "Tata Motors Passenger Vehicles",
       "sector": "Consumer Discretionary",
       "price": 287.4,
-      "eps": -9.17,
+      "eps": -6.68,
       "pe": null,
       "fcf_per_share": null,
       "ebitda_per_share": 31.758368565818447,
