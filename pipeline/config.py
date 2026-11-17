@@ -128,6 +128,7 @@ NEWS_QUERIES = {
 # llama-3.1-8b-instant was shut down for free/dev tiers on 16-Aug-2026
 # (console.groq.com/docs/deprecations); Groq's named replacement is gpt-oss-20b.
 GROQ_MODELS = ["openai/gpt-oss-20b", "openai/gpt-oss-120b"]
+GROQ_CALL_SPACING_S = 3   # free tier is rate-limited per minute; ~50 calls a run
 
 # --- Valuation fusion ------------------------------------------------------
 SENTIMENT_TILT_K = 0.15

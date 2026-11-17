@@ -22,6 +22,7 @@ Now:
 """
 import json
 import re
+import time
 
 import config
 
@@ -32,24 +33,63 @@ except ImportError:
 
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 _working_model = None
+_low_effort = True
+
+
+def _retry_after(r, attempt):
+    """Seconds to wait after a 429: Retry-After header, else Groq's
+    'try again in 12.3s' message, else exponential backoff."""
+    h = r.headers.get("retry-after")
+    if h:
+        try:
+            return min(90.0, float(h) + 1)
+        except ValueError:
+            pass
+    m = re.search(r"try again in ([0-9.]+)(ms|s)", r.text)
+    if m:
+        v = float(m.group(1)) / (1000 if m.group(2) == "ms" else 1)
+        return min(90.0, v + 1)
+    return min(90.0, 5 * 2 ** attempt)
+
+
+def _post(model, prompt, low_effort):
+    body = {"model": model,
+            "messages": [{"role": "user", "content": prompt}],
+            "response_format": {"type": "json_object"},
+            "temperature": 0.2,
+            "max_completion_tokens": 2048}
+    if low_effort:
+        # gpt-oss is a reasoning model; low effort cuts tokens per call, which
+        # is what the free tier's per-minute token limit is measured in.
+        body["reasoning_effort"] = "low"
+    for attempt in range(7):
+        r = requests.post(GROQ_URL, headers={"Authorization": f"Bearer {config.GROQ_KEY}"},
+                          json=body, timeout=90)
+        if r.status_code != 429:
+            return r
+        wait = _retry_after(r, attempt)
+        print(f"[groq] rate-limited; waiting {wait:.0f}s")
+        time.sleep(wait)
+    return r
 
 
 def _chat(prompt):
     """Call Groq, walking config.GROQ_MODELS until one answers. Returns the
-    parsed JSON object. Remembers the first model that works for the run."""
-    global _working_model
+    parsed JSON object. Remembers the first model that works for the run.
+    Retries on rate limits (HTTP 429) and spaces calls out, because the free
+    tier is limited per minute."""
+    global _working_model, _low_effort
     if not config.GROQ_KEY:
         raise RuntimeError("GROQ_KEY is not set")
+    time.sleep(config.GROQ_CALL_SPACING_S)
     models = [_working_model] if _working_model else list(config.GROQ_MODELS)
     last = None
     for model in models:
-        body = {"model": model,
-                "messages": [{"role": "user", "content": prompt}],
-                "response_format": {"type": "json_object"},
-                "temperature": 0.2}
         try:
-            r = requests.post(GROQ_URL, headers={"Authorization": f"Bearer {config.GROQ_KEY}"},
-                              json=body, timeout=60)
+            r = _post(model, prompt, _low_effort)
+            if r.status_code == 400 and _low_effort and "reasoning" in r.text.lower():
+                _low_effort = False          # model doesn't take the parameter
+                r = _post(model, prompt, False)
         except Exception as e:
             last = e
             continue
