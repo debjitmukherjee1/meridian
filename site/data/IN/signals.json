@@ -1,96 +1,196 @@
 {
-  "updated_at": "2026-11-16 14:36 UTC",
+  "updated_at": "2026-11-17 07:40 UTC",
   "market": "IN",
-  "macro_theme": "Geopolitical conflict raises energy-sector risk",
+  "macro_theme": "Consumer demand signals dominate headlines",
   "signals": [
     {
       "sector": "Consumer Discretionary",
-      "read": "Bearish",
-      "score": 35,
-      "event_type": "geopolitical_supply",
+      "read": "Bullish",
+      "score": 62,
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Consumer Discretionary sentiment pressured by the prevailing geopolitical supply backdrop",
+          "text": "Foreign fund buying and lower crude prices are driving a bullish sentiment in the Consumer Discretionary sector.",
           "forecast": {
-            "low": 2.0,
-            "high": 4.5,
-            "direction": "-",
-            "text": "-2.0% to -4.5%"
+            "low": 3.1,
+            "high": 6.8,
+            "direction": "+",
+            "text": "+3.1% to +6.8%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Global investors are rushing back to Indian stocks, with AI hedge funds contributing to inflows.",
+          "forecast": {
+            "low": 3.1,
+            "high": 6.8,
+            "direction": "+",
+            "text": "+3.1% to +6.8%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Lower crude prices are reducing input costs for consumer discretionary companies, supporting higher margins.",
+          "forecast": {
+            "low": 3.1,
+            "high": 6.8,
+            "direction": "+",
+            "text": "+3.1% to +6.8%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Foreign institutional buying is lifting the broader market, which in turn lifts consumer discretionary stocks.",
+          "forecast": {
+            "low": 3.1,
+            "high": 6.8,
+            "direction": "+",
+            "text": "+3.1% to +6.8%"
           }
         }
       ]
     },
     {
       "sector": "Consumer Staples",
-      "read": "Neutral",
-      "score": 52,
-      "event_type": "geopolitical_supply",
+      "read": "Bullish",
+      "score": 67,
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Consumer Staples sentiment supported by the prevailing geopolitical supply backdrop",
+          "text": "Demand shock in FMCG drives Consumer Staples bullishness",
           "forecast": {
-            "low": 1.0,
-            "high": 2.6,
+            "low": 1.3,
+            "high": 3.4,
             "direction": "+",
-            "text": "+1.0% to +2.6%"
+            "text": "+1.3% to +3.4%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Lower crude prices lift overall market sentiment, boosting sector exposure",
+          "forecast": {
+            "low": 1.3,
+            "high": 3.4,
+            "direction": "+",
+            "text": "+1.3% to +3.4%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Foreign fund buying fuels index gains, indirectly supporting staples stocks",
+          "forecast": {
+            "low": 1.3,
+            "high": 3.4,
+            "direction": "+",
+            "text": "+1.3% to +3.4%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Interest in AI-driven hedge funds increases capital flow into Indian equities, benefiting the sector",
+          "forecast": {
+            "low": 1.3,
+            "high": 3.4,
+            "direction": "+",
+            "text": "+1.3% to +3.4%"
           }
         }
       ]
     },
     {
       "sector": "Energy",
-      "read": "Neutral",
-      "score": 44,
-      "event_type": "geopolitical_supply",
+      "read": "Bullish",
+      "score": 67,
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Supply-route risk from conflict pushes crude higher; refiners and upstream names diverge",
+          "text": "Lower crude prices are driving a bullish sentiment in the Energy sector.",
           "forecast": {
-            "low": 4.5,
-            "high": 10.1,
-            "direction": "-",
-            "text": "-4.5% to -10.1%"
+            "low": 3.4,
+            "high": 8.0,
+            "direction": "+",
+            "text": "+3.4% to +8.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "Freight and insurance costs rising on shipping-lane threats",
+          "text": "Foreign fund buying is boosting overall market sentiment, indirectly supporting Energy stocks.",
           "forecast": {
-            "low": 4.5,
-            "high": 10.1,
-            "direction": "-",
-            "text": "-4.5% to -10.1%"
+            "low": 3.4,
+            "high": 8.0,
+            "direction": "+",
+            "text": "+3.4% to +8.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "Strategic-reserve releases could cap upside, adding two-way risk",
+          "text": "The demand shock event is amplifying the positive impact of lower crude on Energy earnings.",
           "forecast": {
-            "low": 4.5,
-            "high": 10.1,
-            "direction": "-",
-            "text": "-4.5% to -10.1%"
+            "low": 3.4,
+            "high": 8.0,
+            "direction": "+",
+            "text": "+3.4% to +8.0%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Early trade gains from foreign inflows are reinforcing the sector\u2019s upward momentum.",
+          "forecast": {
+            "low": 3.4,
+            "high": 8.0,
+            "direction": "+",
+            "text": "+3.4% to +8.0%"
           }
         }
       ]
     },
     {
       "sector": "Financials",
-      "read": "Neutral",
-      "score": 55,
-      "event_type": "geopolitical_supply",
+      "read": "Bullish",
+      "score": 67,
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Financials sentiment supported by the prevailing geopolitical supply backdrop",
+          "text": "The Financials sector is benefiting from a surge in bank stock valuations driven by strong foreign fund inflows and a lower crude oil backdrop.",
           "forecast": {
-            "low": 1.1,
-            "high": 3.3,
+            "low": 2.0,
+            "high": 4.7,
             "direction": "+",
-            "text": "+1.1% to +3.3%"
+            "text": "+2.0% to +4.7%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Bank Nifty\u2019s all\u2011time high and 10% monthly jump signal robust credit demand and improved profitability outlooks for banks.",
+          "forecast": {
+            "low": 2.0,
+            "high": 4.7,
+            "direction": "+",
+            "text": "+2.0% to +4.7%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Foreign institutional buying is pushing Indian equities higher, providing a tailwind for financial stocks.",
+          "forecast": {
+            "low": 2.0,
+            "high": 4.7,
+            "direction": "+",
+            "text": "+2.0% to +4.7%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Lower crude prices reduce inflationary pressure, supporting higher real interest rates and bank earnings.",
+          "forecast": {
+            "low": 2.0,
+            "high": 4.7,
+            "direction": "+",
+            "text": "+2.0% to +4.7%"
           }
         }
       ]
@@ -98,35 +198,95 @@
     {
       "sector": "Healthcare",
       "read": "Bullish",
-      "score": 60,
-      "event_type": "geopolitical_supply",
+      "score": 62,
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Healthcare sentiment supported by the prevailing geopolitical supply backdrop",
+          "text": "Foreign institutional inflows, driven by AI\u2011driven demand and lower crude prices, are propelling the Healthcare sector higher.",
           "forecast": {
-            "low": 0.6,
-            "high": 2.4,
+            "low": 1.2,
+            "high": 3.1,
             "direction": "+",
-            "text": "+0.6% to +2.4%"
+            "text": "+1.2% to +3.1%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Foreign fund buying is lifting the broader market, benefiting healthcare stocks",
+          "forecast": {
+            "low": 1.2,
+            "high": 3.1,
+            "direction": "+",
+            "text": "+1.2% to +3.1%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Lower crude prices reduce input costs for many healthcare companies",
+          "forecast": {
+            "low": 1.2,
+            "high": 3.1,
+            "direction": "+",
+            "text": "+1.2% to +3.1%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "The launch of a Nifty Pharma Index Fund signals renewed investor focus on the sector",
+          "forecast": {
+            "low": 1.2,
+            "high": 3.1,
+            "direction": "+",
+            "text": "+1.2% to +3.1%"
           }
         }
       ]
     },
     {
       "sector": "Technology",
-      "read": "Neutral",
-      "score": 48,
-      "event_type": "geopolitical_supply",
+      "read": "Bullish",
+      "score": 62,
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Technology sentiment pressured by the prevailing geopolitical supply backdrop",
+          "text": "Foreign institutional inflows driven by AI\u2011driven demand are propelling the technology sector higher",
           "forecast": {
-            "low": 1.0,
-            "high": 3.1,
-            "direction": "-",
-            "text": "-1.0% to -3.1%"
+            "low": 2.5,
+            "high": 5.6,
+            "direction": "+",
+            "text": "+2.5% to +5.6%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Lower crude prices are boosting investor sentiment and supporting equity valuations",
+          "forecast": {
+            "low": 2.5,
+            "high": 5.6,
+            "direction": "+",
+            "text": "+2.5% to +5.6%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Global funds are cautiously increasing exposure to India IT stocks, adding buying pressure",
+          "forecast": {
+            "low": 2.5,
+            "high": 5.6,
+            "direction": "+",
+            "text": "+2.5% to +5.6%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "The emergence of a \u2018world\u2019s largest AI hedge\u2019 is attracting global investors back to Indian stocks",
+          "forecast": {
+            "low": 2.5,
+            "high": 5.6,
+            "direction": "+",
+            "text": "+2.5% to +5.6%"
           }
         }
       ]

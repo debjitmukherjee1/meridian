@@ -1,90 +1,384 @@
 {
-  "updated_at": "2026-11-16 14:36 UTC",
+  "updated_at": "2026-11-17 07:40 UTC",
   "market": "UK",
   "items": [
     {
-      "title": "Morgan Stanley reveals the red - hot  overweight  stocks worth buying as earnings season approaches",
+      "title": "UK Stocks Draw Investors as AI Boosts Domestic Growth Outlook",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVFAtMmJkYUthT201ZTBOb3JWdC1fSXlnNE1MMlo3aHB6Q2dIYzd4dHBldDZtSWNXSWRGRUZJN01EcW15VmdVQmJmb0lGUWt6aVViYWp2QktVOU1KN3VRQTgwRUhLbG9ONm9NWXQyNXZLZ29tT2NpQTRaR0tZMmFYX1FfQmZ4Unhhdml4ZzUzNmh6Z1BYMHBkYjNRUVFsU3RyYmJnRXBHQjh2dDNzY2c?oc=5",
+      "published": "2026-11-17 07:22 UTC",
       "sector": "Market",
-      "tone": 0.0,
-      "url": "https://www.aol.com/articles/morgan-stanley-reveals-red-hot-213000000.html",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+      "tone": 3.0,
+      "note": "AI boosts domestic growth outlook, positive for UK stocks."
     },
     {
-      "title": "From the ashes of bear - market : Over 125 smallcap stocks soar up to 300 % from 52 - week lows",
+      "title": "FTSE 100 set to fall as global tech sell-off deepens ahead of Nvidia earnings",
+      "source": "Share Talk",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOEc2TS1rcVpRRkVpS3Y0bWdKd253bkowNlZGQmktbU5RTzlwUGJOemFyZHdCQXpzN2YxalE4Y1hJdzROZjZ6a011Z0lWcm9Oa2lwdEdsMDZENndHd1dRdjBYYzRmX1RzaUF4VVlESXRFS0UxMjZhMXkzZk1pZENNV0pIOFplc0lFTFZBVjlPSW5FZF9keTZ1V2x5eUtadDFyNlNPaDliVGE?oc=5",
+      "published": "2026-11-17 07:19 UTC",
       "sector": "Market",
-      "tone": 0.0,
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/from-the-ashes-of-bear-market-over-125-smallcap-stocks-soar-up-to-300-from-52-week-lows/articleshow/133697629.cms",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+      "tone": -4.0,
+      "note": "Global tech sell-off and Nvidia earnings weigh on FTSE 100."
     },
     {
-      "title": "Morgan Stanley , investors , diversify , markets , equities",
+      "title": "LONDON MARKET EARLY CALL: FTSE 100 seen down after US tech sell-off",
+      "source": "London South East",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcV9COGtDXy1LSE82T2dhLWIydTFKQTFTcC16aUEyVzQwakVZa095ZnVCNEdFdkZPVHdOVFFwWWdVQ2JXOXoxbF9HSFNQdVhBUzJRcm1ndVJwM2xoWC1PenNMV0UtQXBMelp1dkxsbVdxb1dQT3RCYXRzc29Yc2JLS21Ma2N0ODN0ZThKbE4wUFRuUk9WUk9rUUgxdHdUc2FIbWRId3VjaDM4T1ZLQnlLMjhjdEs?oc=5",
+      "published": "2026-11-17 06:58 UTC",
       "sector": "Market",
-      "tone": 0.0,
-      "url": "https://www.cnbc.com/2026/09/23/morgan-stanley-investors-diversify-markets-equities-.html",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+      "tone": -3.0,
+      "note": "US tech sell-off expected to push FTSE 100 lower."
     },
     {
-      "title": "Forget the S & P 500 : 3 Unloved Parts of the Market Are Winning in 2026 and These Vanguard ETFs Own Them Cheap",
+      "title": "FTSE 100 Live: Stocks to slide after Asian markets fall; oil lower",
+      "source": "City AM",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOSk5QZjA2OFM2UGVkMjBIdTd6SGsyZFZ5TE9CenBKNGJqRDZESWZRR2VlOFVYajZGWnZRZG1zNHQzZGh5WXhKYnFxazZnSi1QYzRSZkdaRFh0dlFoRTBGN3BiRUlUSWpCdExZNGp1Um9FSkdTOVVNNkxGdTNaRVZwZ2NncXAxWlZ6TTcyWXhFQjM3Zw?oc=5",
+      "published": "2026-11-17 06:27 UTC",
       "sector": "Market",
-      "tone": 0.0,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/forget-p-500-3-unloved-003857058.html",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+      "tone": -2.0,
+      "note": "Asian market fall and lower oil pressure FTSE 100."
     },
     {
-      "title": "Consensus earnings growth for AI stocks to plunge sharply : Report",
+      "title": "UK Markets Open Lower As Dollar Weighs On Metals",
+      "source": "Finimize",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVkFzUmFES2g0bzRGVGNxb2NTUWZpcTVCSVVseHlzMk8tc1F1aUxnMDZHNFhRbUFub1p0SDZTYXRJMzczaXA1SE9mZGpIZUdqSlVnUTI3dV9GSllFTmhEbW8wZ2NNb19UWGNRVlZmYktxWHJxbE1EVUd6Tk9SZWtjU3I3NA?oc=5",
+      "published": "2026-11-17 05:25 UTC",
+      "sector": "Market",
+      "tone": -1.0,
+      "note": "Dollar strength hurts metals, modest negative impact on UK market."
+    },
+    {
+      "title": "UK stocks-factors to watch on November 17",
+      "source": "marketscreener.com",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZ2Z2VFlFS1Q0WkhrT1JYT3p3WHVhdmRMcTZwejktZFVOQTFwUDREa0hrRDVOUW55VlVDOUpFVU1KLWEzT05hM0FlbHZ4eW1sakd3S01NMGZ6cFBzNkhHc2JoR1RyN05rbnZUNk9qWmt0SFVxa1ZPV0FBQ3BIQ3hwV1hZTTNEb1BZdVpycHVuSDh5ejhiR3hJcFln?oc=5",
+      "published": "2026-11-17 05:20 UTC",
+      "sector": "Market",
+      "tone": 0.0,
+      "note": "Factors list is neutral, no direct market direction."
+    },
+    {
+      "title": "Zegona Communications : Half-year 27 Interim Financial Report",
+      "source": "www.marketscreener.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPc0FNalRUNWMtZ25XQ0Y1UE5vTnJFR3dzSTc3Mk0xdTkzcDBOVVUxZFZyQ0ZXVDNibXJGTVlieHdzb01OYXZ1dWFXekJ2MzY5VzJfMXlqd0FIUDdrV1dXWUdnc0xkWFhPUkdfLXJpTFRJQVVKX3VVbTRZbzMwUEZrWGlPQ0FDYmNTZTJSTnh2YnphVFBFVk41RW1WTEdpMzRfd0V5TEZocXVNMnZJUmluaDV3?oc=5",
+      "published": "2026-11-17 07:16 UTC",
+      "sector": "Technology",
+      "tone": 2.0,
+      "note": "Positive outlook on Vodafone\u2019s climate strategy boosts tech sentiment."
+    },
+    {
+      "title": "Is Vodafone (NASDAQ:VOD) Spotlighting Climate Resilience?",
+      "source": "Kalkine Media",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVURyVUZta1pmM0lhMF9xcnlLR0kxUWxYcEUzbmNzZ05mRzJtWVQydlV4VlZRc1Voc2xnMkkzQkJNV2x6VDdxcjh4anFYcy1oVWxDTmhDY1VuMDFUQVNQNzl3YzhPcXV4TWNueU15SFZOR0NRUFZIOS1oU19JOGtSc3Z2LUtQWEpEbncxal9uTEFpR2dJWWxocy1DS3VBTlZkWDlNSw?oc=5",
+      "published": "2026-11-17 06:23 UTC",
       "sector": "Technology",
       "tone": 0.0,
-      "url": "https://www.prokerala.com/news/articles/a1825679.html",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Technology sentiment."
+      "note": "Neutral, no direct tech impact."
     },
     {
-      "title": "The S & P 500 Has Only Grown Earnings This Fast Twice Before . History Says This Is What Happens Next",
-      "sector": "Market",
-      "tone": 0.0,
-      "url": "https://www.fool.com/investing/2026/09/28/the-s-and-p-500-has-only-grown-earnings-this-fast-twice-before-history-says-this-is-what-happens-next/?source=iedfolrf0000001",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+      "title": "GTA VI hacker pleads guilty to targeting tech firms",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5yaEY3YndJUTZBcnNhTmFKdnpXZWxJT3RCX1EzeTFqcHdrV3BfOVh0dWRYUEpXYll4QzI5eTc2ZDdJRU40WW9wQTZvb2N4WFllZXgtc0F6cjRiOG8?oc=5",
+      "published": "2026-11-16 23:26 UTC",
+      "sector": "Technology",
+      "tone": -3.0,
+      "note": "Cyber threat raises concerns for tech firms."
     },
     {
-      "title": "What a Rare Market Pattern Signals for Investors",
-      "sector": "Market",
+      "title": "Banco Santander, S.A. (BNC.L) stock price, news, quote and history",
+      "source": "Yahoo Finance UK",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1uWk43MUpEcFd6SVEyc3NxQVJaYVFwaTRqX0tRNkNnZ2JpMWRrX2c5Z3J6ekY2Mk8zQlZlbWdHYlRyX2paQ0RydDFNcWRDSDQ4LXl3?oc=5",
+      "published": "2026-11-16 22:33 UTC",
+      "sector": "Technology",
       "tone": 0.0,
-      "url": "https://www.aol.com/articles/rare-market-pattern-signals-investors-065000000.html",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+      "note": "Banking news irrelevant to tech."
     },
     {
-      "title": "4 Stocks to Buy Before They Bounce Back",
-      "sector": "Market",
+      "title": "Vodafone Group Plc (VOD.L) stock price, news, quote and history",
+      "source": "Yahoo Finance UK",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5FRWJrbExDWDk3WW54SVFEcEhhNzVMR2pGWWlHcWtxcHNXbnpjanVMNnNDR3cxUHEwSHdnR2dVeU1tOGRfY0pna0NSTFJLOWJRbDc0?oc=5",
+      "published": "2026-11-16 21:52 UTC",
+      "sector": "Technology",
       "tone": 0.0,
-      "url": "https://www.morningstar.com/podcasts/the-morning-filter/4-stocks-buy-before-they-bounce-back",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+      "note": "Stock price data not sentiment indicator."
     },
     {
-      "title": "Stocks are heading for a high - stakes showdown , as strong earnings collide with rising borrowing costs",
-      "sector": "Market",
-      "tone": 0.0,
-      "url": "https://www.morningstar.com/news/marketwatch/202610183/stocks-are-heading-for-a-high-stakes-showdown-as-strong-earnings-collide-with-rising-borrowing-costs",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+      "title": "Does Half Year Loss Change The Bull Case For Vodafone (LSE:VOD)?",
+      "source": "Yahoo! Finance Canada",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPeVRhdjUtRXV4Rjc0WUFEckZINk1SdmRONVhCai10OEVSMWJsRnFocjFrV1ljRklFbWt0NmcyRm1ITGZWYkV1dFRLbVdfSzNNVEJnMy13dHJneTZBMEVxUkJuN2JqMkx4bHBNNkJ1OGVLLWNBcTFRYm9xTHRxSWxkZA?oc=5",
+      "published": "2026-11-16 21:11 UTC",
+      "sector": "Technology",
+      "tone": -2.0,
+      "note": "Losses dampen bullish case for Vodafone."
     },
     {
-      "title": "AI stocks earnings grAI stock earnings growth set to slow sharply , Jefferies urges diversificationowth set to slow sharply , Jefferies urges diversification",
-      "sector": "Market",
-      "tone": 0.0,
-      "url": "https://aninews.in/news/business/ai-stocks-earnings-grai-stocks-earnings-growth-set-to-slow-sharply-jefferies-urges-diversificationowth-set-to-slow-sharply-jefferies-urges-diversification20261016125426/",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+      "title": "UK Philanthropic Donations Up 9.7 Per Cent In 2025 \u2013 Barclays Private Bank",
+      "source": "Wealth Briefing",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPV3RhMmthUzBxS2N0aEpiblpHUGh1MUlMN3hRNFZMXzNhdC1DMkZWX09zWThsYXhIVEZpdWVWVHJtY2ZXYk1ucC1Ca3RRcXliN0FpRHNuU3NpTzNMN0RhdVRmUUZTeVd5MXdtVFk3TEszMktiXzcxOWNrVW85dHY0VnBWZUFLYnFwbnF0eXZQbmpqX1VaLXhybWZub1VnNnhqODBkM25aZXBMSVhFU21ybmd2QWFJOWFmY3FZTlZVMA?oc=5",
+      "published": "2026-11-17 07:41 UTC",
+      "sector": "Financials",
+      "tone": 2.0,
+      "note": "Positive donation trend boosts banking image."
     },
     {
-      "title": "DalalStreet extends recovery ; Sensex ends over 400 pts , Nifty above 23 , 100 ; IT lead gains",
-      "sector": "Market",
+      "title": "Barclays reiterates Tesla stock rating on robotaxi progress",
+      "source": "Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcnBtY0Q5S1UxM3o1bGs2SkNsY3BJVDJJa09iazMxeUo4VkotVWpmN0ZFUkladDA0RS1IVG40UFZIdDh0SGFPS0pROEd3SUxiNS0xVnluVjgtUWE4R08xZDFiOHNsMU9Kc1JuUFdiUTQzMXpYNTk0YUFUZ1JWcml1UlZFQkZYcmE3RmtQSjk2Z2xtLUpZeUF1LUlzX292dDJLTjhQZ2Fkd0hXZFhzbngtZWVlTVdUYlhkR1FR?oc=5",
+      "published": "2026-11-17 07:28 UTC",
+      "sector": "Financials",
       "tone": 0.0,
-      "url": "https://news.webindia123.com/news/Articles/Business/20261016/4511730.html",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+      "note": "Tesla rating unrelated to UK financials."
     },
     {
-      "title": "Cramer Wants Nvidia to Buy Back a Tenth of Itself but One Analyst Expects the Stock To Hit $400 Without It",
-      "sector": "Market",
+      "title": "World's Most Visited Websites Targeted To Steal Crypto, Infect iPhones",
+      "source": "NDTV",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNMFpqN1owNUs4MThNVHk4VWhiRU1zdWpoVUl1THdLQUlPWDlpWkdWTTkzdFZwaFhKZENBQXZCSk9WYUpLZ3hyTGM4amczZmdrN0t1cXBidVhJU1BseURvZnBONTItY1JKbERXeS1QQnNXamJEbjI2NnNTcmFzR2ZEaFdpeDl4Zms2RUZuUjZCZTZxSGtUZUJ3cWdSc0hwdTNuZzlid3BYRE0za1lLRFRwQVpyRFVuVnNROVdBLVRMMUJteTN1UjRNa2RHYknSAdQBQVVfeXFMTTg2YVl5R0pNWS16d3hXcEpsMFpUMXQybUltU3B6WXkzWjlMVFRtNEZJUm5KUUtWUFBuZEs5QmRPUkdpSi1tTlpLbEZuLXBSbkZ2QXNQeURCa24zYkZaMmh3ZnJYaWItZEFYSlU1NUowTTNPQTVXMExsVmwwalRacEFNWnBLSHlMdTZRVmd3MnRGZmpJSnc0Q19uaVh4aFhuUWh3bEYxaXNsSTVERFBKSzg4T0pKQU5BcFVZaWhMQnQxZVE4QnJNWlhFVnF0LW41dkVQYlE?oc=5",
+      "published": "2026-11-17 07:24 UTC",
+      "sector": "Financials",
+      "tone": -3.0,
+      "note": "Cyber threats increase risk for UK banks."
+    },
+    {
+      "title": "HSBC upgrades Cisco stock rating on AI networking growth outlook",
+      "source": "Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeG5rcWhsWUtQSXYzZkI3Z2RETi1lcVpfYk92OEVlSWpIaVZ6SElmbVpSN3RjT180X0trVDVoQy16MnppQVZLR0xIZWJBTXhGLXZzc1h6S1pnZEdRYWMtZnpCb3V2WlVwNkRvUXVLaWJIRUpZc1BLSTl5SndxWldSV3RKX1Z5RVd0MlZudnhZSTBoRzBqZDdBcTlvTk1UbUJYR3pXc0lIQm5aWjVYSzAxamZSSjJCQnVmT1k5YWd1US1rQQ?oc=5",
+      "published": "2026-11-17 07:02 UTC",
+      "sector": "Financials",
+      "tone": 1.0,
+      "note": "AI networking upgrade benefits UK financial tech."
+    },
+    {
+      "title": "Diversification and AI are Hong Kong firms\u2019 answers to rising costs, report says",
+      "source": "South China Morning Post",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQSEthbm43MzNTVGVHOHh3dGNZb19GQ2JQZUtwRWdNUUxwaTVLbUlBZVNCZnc0eTJITVhVNmVuRnBONDVqUXBRMzNncjJjUkZuZG5tZ3ltZTI3a05FX0dheS1WWE1sVWo4XzFYVnl1cWlPVFBMbVEtTlFTMFZ0UDRnUXdWNUtuNkkyY0JTN0tnbjBpdUh2S2hqV2d6dEk0bWR4WnRRQ1RlSmViNlFLaGlwUGdWZG5ScHQ1b2ZsbVgwSkNEYmpBN3dIUWxWNFgwNkZaWHc?oc=5",
+      "published": "2026-11-17 07:00 UTC",
+      "sector": "Financials",
       "tone": 0.0,
-      "url": "https://www.aol.com/articles/cramer-wants-nvidia-buy-back-155853000.html",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+      "note": "Hong Kong focus not directly UK financials."
+    },
+    {
+      "title": "Malware Targets 178 Sites Including CNN, Zoom, IKEA, and HSBC to Steal Card Data : Global : JKN",
+      "source": "\uc7ac\uacbd\uc77c\ubcf4",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5RRkxUTkM0bGtsQk1qaWkyTnZESE5iRm1ubWRqQ3QyaVFnWXh2TkFVQVJVT0tucWlrT2FxdkNwNzY0UVhRV0paUHRBMjFyZGRPczlhTk1oMndjLWZyMkNKWm9R?oc=5",
+      "published": "2026-11-17 07:00 UTC",
+      "sector": "Financials",
+      "tone": -4.0,
+      "note": "Malware targeting HSBC raises security concerns."
+    },
+    {
+      "title": "Shell Starts Gas Production from Rosmari-Marjoram Fields Offshore Malaysia",
+      "source": "Egypt Oil & Gas",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWGJRWjhRaXM5NVY3RGZaZFJSQlRCTUZmTnFsRzg0bEhPUWZ5RlhIeV9xeDl5ellKcTd2RnprTXhsRk9CMmJXWVBZbWF4NGx3dkNJMGZ6ZWNLYjdJMUlxLTdUX29MdzlTN1dSTVJXMlVfVG44UU53Wnd0ejlRc0M3UUdISkpFTDNvNEl2MDY0a0NGemhWX3lvWFBGb1pxVVlqclZCeEdKeUM?oc=5",
+      "published": "2026-11-17 07:33 UTC",
+      "sector": "Energy",
+      "tone": 2.0,
+      "note": "Shell\u2019s new offshore gas output signals growth potential."
+    },
+    {
+      "title": "Cashew Nut Shell Oil Plant Setup Cost: Business Plan, CapEx, OpEx, Investment & Feasibility Study",
+      "source": "openPR.com",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdlFpRmk4em8wdjBkek9WNmdsSzU1Y1RYNWJ5Zi1FX2steWRiNG45a1hMUzVUdEdqVlp3V1lDeFZVRzBONzNfVk9TRWFRblBRRU43WDdPaFNGMzBGZzNNZ19DdWU5dmVhaTU1WGhLMkZGcnNxRjFTbEx5TktxMC1wTzM5S2dkVjRtemluX29rcEZXRTZPTGxGUw?oc=5",
+      "published": "2026-11-17 06:45 UTC",
+      "sector": "Energy",
+      "tone": 0.0,
+      "note": "Cashew oil plant unrelated to UK energy."
+    },
+    {
+      "title": "Nigeria: Shell, Esso and Agip test Tinubu\u2019s new tax regime in court",
+      "source": "The Africa Report",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWTRIZVFjNmJyLTBQZGFZZ1B4bGUyZVYtTUlvbHhFNGVEUU1lTzBLTGpzRGg0RzNGTDRRYW9zWkdzQlJZYlE2ZjlUc254bklsMHl4eldsS2dzbkJrM2ZmeXlZMTJVRmJka2stOHp6a21NdGYyc2NFbV9RMkJZb0xGXzNGTDd3TDlIVVBuYW9JSlAzOUFXNFB5S0ZicTFDaEdaUzU2d3NGVQ?oc=5",
+      "published": "2026-11-17 06:01 UTC",
+      "sector": "Energy",
+      "tone": -3.0,
+      "note": "Shell\u2019s legal challenges in Nigeria may raise regulatory risk."
+    },
+    {
+      "title": "Danish North Sea fund sees up to DKK 48bn gain from longer oil and gas licenses",
+      "source": "EnergyWatch",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5zVDc1MmltU3ZTQWhOZjhfQ1FYbUJ0dVBxOWhTbTA3bDhKT1BUcXhYSlVpVUtqbHljaUo4LTk2cnJwOFVIVC1lZmljSFFBQVhIUmp5SktCWkJtYmhheEtiRjlJY3ZiQTRERDZDRzIzZ1llZw?oc=5",
+      "published": "2026-11-17 05:56 UTC",
+      "sector": "Energy",
+      "tone": 3.0,
+      "note": "Danish fund gains suggest favorable policy for UK North Sea."
+    },
+    {
+      "title": "Rosebank evasions underline SNP Government North Sea oil hypocrisy",
+      "source": "The Herald",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUy1tZ3l2Wk8tRWRWN2hjbDFvU0tXWnZBdFRpQ3RUdS1sb2pyOHVQMDFKQlQ5NE9PZVhsUFFrYllzRnVvMW5IUWgydjVPQ2ZweFFXc1BKc0JuQ1ZZTDhBd2c4SHNCNUFzRW0xa18yTGgyaUZuWUZ6eWtmcVI2U2JrRDNrTTRjUllLVFBUNEJKT01OMF84Wk9IT1BhTG9zR2wwdTYwdEJrc1U4cFc1elV4aGM5UQ?oc=5",
+      "published": "2026-11-17 04:34 UTC",
+      "sector": "Energy",
+      "tone": -2.0,
+      "note": "SNP hypocrisy could dampen political support for UK oil."
+    },
+    {
+      "title": "Norway Supreme Court invalidates approvals for three North Sea oil and gas projects",
+      "source": "Jurist.org",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcmFFRlV0V21qWVJjR1FLTjZJVkpKUG9xUXN5aWJrQzRlYzhjbGN3WWdTUUluNXdqWWN5UTJCSTk4Q21yRmI5MU56UlZvX3ZPT2d3dlIzMk41WVg1NnlUbnZfeExPSFBnRTJxTlRPNGwtdTFubVRvSlpIYlpjakZjMFg1bGRqeWFPZ2RLQm94bng1aWphM1lRVlVUR2d2bU9HNlFJUmthalV6X2NYNHFwbm9oamZzOE02VkZiRw?oc=5",
+      "published": "2026-11-17 03:24 UTC",
+      "sector": "Energy",
+      "tone": -4.0,
+      "note": "Court invalidations threaten UK North Sea project stability."
+    },
+    {
+      "title": "Diageo (LSE:DGE) First Quarter Sales Growth and Board Refresh Put Valuation in Focus",
+      "source": "Kalkine Media",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNUpicjR2blpVTVpEOGg3OXVrRjE4Z0dydnNXM3VPT0pBS3lqckxLdE52MUtYQUkyV18yamRzUGh6VGg2WTNHWmNJVFB1cnZ1ZFN5OVdhLUx6VE1zVlN2ZlZjSklLNTRPMkkyYUVJcGtfNm4xbGlkWDk1SE5EdWpPNG5ab2VLd1JVMTU5eDdIRS11ZGhGNGd1WHFXOW9xODJRLXJELUNnWnlKZVZXQ0wtOWNMT2VGLWRMWTlkMUw1OTI5X1k?oc=5",
+      "published": "2026-11-17 06:00 UTC",
+      "sector": "Consumer Staples",
+      "tone": 2.0,
+      "note": "Diageo\u2019s growth and board changes signal potential upside for consumer staples."
+    },
+    {
+      "title": "Supermarkets launch Christmas toy collection",
+      "source": "Newbury Today",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRDlOSkM0MFNHZ3RvY3pCLTBCdlRROVNpM3NnMzhaaWVxWUlQRnJyY0c2TDNfaTdSTjZFTlFmaklsVXNsLXlHQ2pCVmFNLWhzeWdlRWJDRWhVc2k0eFFFd09JeHEyNnF2VTNmbGgzTUl0YzRvS2o1ODJVREJ5dWJYOWxfMllGdjFGblg5cHFRTlRtOUk?oc=5",
+      "published": "2026-11-17 05:30 UTC",
+      "sector": "Consumer Staples",
+      "tone": 0.0,
+      "note": "Christmas toy collection is unrelated to staples."
+    },
+    {
+      "title": "Volunteers wanted in Kidderminster for Tesco's three-day winter food appeal",
+      "source": "Kidderminster Shuttle",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSGdSUS1pYWt6ckZUSF9OQmo4Z1paU0lFVHViMUdEYnZ5Umt5WnZPNXFIc2h2NFE4RlhNOG9xUHlsbVc3MXAzMlc1WVpMcnl3N2cwc3BBbmpPNERjUjNFbE5FcFQ5dzhpc092aG5oVEtHUGNIUFBkdkFPdkxhVGJiNkdXMXZPZUJVNlhRTEJmYmgxMndqSVdDYUtMYWxKaHl6cGJGODR4T250NUU?oc=5",
+      "published": "2026-11-17 05:14 UTC",
+      "sector": "Consumer Staples",
+      "tone": 0.0,
+      "note": "Volunteer appeal is a community event, not sector performance."
+    },
+    {
+      "title": "Tesco colleagues raise more than \u00a3200,000 for Cancer Research UK",
+      "source": "EDP24",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRHF1bG1PaFJjcm1iUFA1RXlaTkhNcmo4WE9hSGFrajM5Rlp6UlpIOERka2FEREw0djRoNng5VEo2NXFYTUcwUHppdmhHaFNRaW1TMV9vSzh5a3g5UVF6T3RkNFhxWVBnbktTbDVIMjg0dXRUUUNLR2F6d0ZMdThueE8tdzZkQTY4VFBkMQ?oc=5",
+      "published": "2026-11-17 05:00 UTC",
+      "sector": "Consumer Staples",
+      "tone": 0.0,
+      "note": "Tesco charity fundraising is positive goodwill but neutral for sector."
+    },
+    {
+      "title": "Festive Feasts & Winter Treats Return to The Caf\u00e9 at Tesco",
+      "source": "Supermarket News",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNXzREVjVpVWRiTnNmdDhVZlloN1pDRFg4VXA4RTVGRm5VQVhCb0RSR2NyVE5ITXRCSWFZeW9samlyNW1XLWFHeXphYlA3Tk5RUExFSzFQZThQVEhpQTk1NGJTdEFKQ0FHak52UmpGNkx0alJHRllDM0tTcUZadHhpSHFoNzFPbjJZWmg5T0J5YXBzVXVpcEhkdWdLSQ?oc=5",
+      "published": "2026-11-17 03:09 UTC",
+      "sector": "Consumer Staples",
+      "tone": 0.0,
+      "note": "Festive feasts are seasonal, no clear sector impact."
+    },
+    {
+      "title": "WulfJoy launches three pet food toppers on Tesco Marketplace",
+      "source": "Pet Gazette",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZGxYRk05ZEVyM0Z6Tm9GWmdob3BUalFxWjFwaER0WS1UMWo0SVFoTkhONUlocmd5bGl4OW9rMTdiTWhHQms2R0dDT3lBRXdFM0FYMmdXdTBOdmJYSTRxbVNYRWkzRWVZRlBDNWtmX0VYTEx0dUkybjdGVS1pMVVuTUdKcTNzNkpxMkhIVFRCWG54aklDUVc1LXRMRQ?oc=5",
+      "published": "2026-11-17 02:13 UTC",
+      "sector": "Consumer Staples",
+      "tone": 0.0,
+      "note": "Pet food toppers are niche, not core staples."
+    },
+    {
+      "title": "Uniquity\u2019s Phase II Solrikitug Data In EoE Rival Amgen/AstraZeneca\u2019s Tezspire",
+      "source": "Scrip",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQX3dVTzRQSWJCVjJSRGlNeUxCSWZmb2txMXdheHZMNHBoTDBkTTgxLVE0M2dMSXl2QTdEQWk5bmFCY0ZlSWhxblZaODI5dUtrb2NTRHZZSE12OWVsRG4wQW9oOUNrTTJHY2hfVmxHUHlEU2JuNmxKLW14RU1rZ3pFQkZ5QUZ2TTMzLWJDcHA5MXNsOHctSTdCQm9NYVd6XzE1XzUyS1VzaXNPdEx4S1V5LXdCaVRnU2tFZjRZOE1ZMk90WjFBQ3l1YWVZWnFBVUdHeUZJQy1WQjZqVUpCM2FFMWpPN2FiVGhKM1pQdS14ZHJYWGR3?oc=5",
+      "published": "2026-11-17 07:05 UTC",
+      "sector": "Healthcare",
+      "tone": 3.0,
+      "note": "Uniquity\u2019s Phase II data shows strong competition with major pharma, boosting confidence."
+    },
+    {
+      "title": "GSK stock slips to EUR 22.86, down 1.00% premarket",
+      "source": "ad-hoc-news.de",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVUhYc29vczlpSzEtX2JoM0hGdzgwdDVkWms2cmpVY18wanB1cWhOYlpTX2loTl9RMWJSNU80R25wRXU0U05RUGRDZ1pUX0NGOGdwQXZZVUVvLVNyeWJwcGVSTkEwcS1XMEk2VXdBNllMaS1qODBqeGR5Zi1ic2F3YV9JZ1FFOTNpYmhCcGwwNWgxN00xOV9WMEdaNVYzUlR1TDVGVW5sYlpKQQ?oc=5",
+      "published": "2026-11-17 06:50 UTC",
+      "sector": "Healthcare",
+      "tone": -2.0,
+      "note": "GSK stock dip signals short-term market caution."
+    },
+    {
+      "title": "GSK Appoints Saubiya Kidwai as Vice President of Compliance \u2013 R&D, Chief Patient Organization & Global Product Strategy",
+      "source": "https://hrtoday.in/",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPVkJjaE1zMUF4SEJ1a25MbmNhY2VydER4YnBDNVpmWjhueUFWMkVvWjg0RnQ3bUg4Yk83eFVUWEVRNXJzb0JRZ0x2YlNmSGhIeDI5NnVRckwzeTVTTzJQRHVtU0tuR1pkLUljRTl4bm83c055VjVBVEZUM1hkZWRoTDJJLVJYX3daUjctWHlMdUJPbkNzZVdWWVhQa2lWSG9XSi12aHRoRmh5Ty1sQWJZWEg2d0pWLTdLZFhXV2NicmQzbElwSVR3dUN0RFpiZw?oc=5",
+      "published": "2026-11-17 06:30 UTC",
+      "sector": "Healthcare",
+      "tone": 2.0,
+      "note": "New compliance VP signals robust governance, positive for long-term stability."
+    },
+    {
+      "title": "SAP Wraps TechWolf Purchase, Expands AstraZeneca Alliance and Books Two Investor Dates With CFO Asam",
+      "source": "ad-hoc-news.de",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPS3kzbjFqMTFzNzlEcWpYdnBIMlZIdHFiX0QydjJ1eW0wdGNYZmViVUNFcDVCS2pjaWN5NmVlbkFEV2MwUkpJZGFjU2pOYkNOb1FUeWdVaUZDUzFqdEhKYmFKUVUtREdSS05CYk43alpHaVRTRGFUc09vSnRKN3BkdUp0M2FMRkZQODctcGtPUFIyajllZ2tjYVBkMUhVZ3IwOVZzbDFCRnl0WjM0bFk5TE8wU3RXUERzMEh0cjV6cjF2ODBONWtVMWE0QmhraS1TYjlmN2sxR0tJMjJMMDRSS1dfcnJwaTVEdzlNS2ExeFZ6R05lZFZlb1BxLWU1dmNN?oc=5",
+      "published": "2026-11-17 05:40 UTC",
+      "sector": "Healthcare",
+      "tone": 1.0,
+      "note": "SAP\u2019s purchase and alliance expansion indicates strategic growth, modestly bullish."
+    },
+    {
+      "title": "GSK: 3 Key Takeaways for Long-Term Investors",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSzktcWNBeXdlcTRVSmhzQzd0R2doM3JLWTlWSEdjd1c0VW1jNzdTN3h4aVNBNTc2S29BcWY1bTVXcUtHVUlaUHo5T0RSZWZPaE9NNXd6TlBuWUFfWk5PZm1PYmxwc2FPMll4eklMRUN6ZDAzTEphMnpOWjB2QmFRSVUzemlUQTkxWjdmRWt4cGt0NUk?oc=5",
+      "published": "2026-11-17 05:36 UTC",
+      "sector": "Healthcare",
+      "tone": 2.0,
+      "note": "GSK\u2019s long-term takeaways highlight solid fundamentals, encouraging investors."
+    },
+    {
+      "title": "AstraZeneca Secures 2 FDA Approvals in Bladder Cancer, Myasthenia Gravis",
+      "source": "PharmTech.com",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdElvMFU5SUFQT0wzVUJhMnE4Z0w3ODFwTUtmSHRSSVZoMldod0wyV2ZKUGI1UXo5bmpmVmJkQjAwTTQ2aklQWWVWU3hDcGlib1RaSzZwQ2U4ekEwNHh0V3NhOEhueVc4d2JDMzdiZlBkTTJaUF9XeWE2QVQ0RTNGOVY5OHBoLW1DSFpkWFdhcjFXMWl1Ui1UaXUzMmlTLTBS?oc=5",
+      "published": "2026-11-16 21:08 UTC",
+      "sector": "Healthcare",
+      "tone": 4.0,
+      "note": "AstraZeneca\u2019s dual FDA approvals signal breakthrough success, highly bullish."
+    },
+    {
+      "title": "Rinehart buys more of SpaceX, tops up on aerospace shares",
+      "source": "The West Australian",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPeFVBR0V5WnBoNnpBTTlsbENlMW5CWXlIc1JEU2VmV2UxOHVFNGg5Um1MSnVucFc3ek55UmQxSml4R1BKSFNDQzY0OHlsSnpKZGVpMWQwTEJCRWdaYUI0b0MwZmhtT0hYS0xzaXM5QnByMEN6YzhCQXgybWFwMFh3enN2TzVQMXF6VThVSVVXSG5mb3NNeDZXTHFaa21TQUpvRkdJNjg2WTdscndRVEE?oc=5",
+      "published": "2026-11-17 06:08 UTC",
+      "sector": "Materials",
+      "tone": 0.0,
+      "note": "SpaceX investment unrelated to UK materials."
+    },
+    {
+      "title": "Angola eyes 10% of diamond producer De Beers as Anglo American plots exit",
+      "source": "internationalfinance.com",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTU9QWFFwOU1zazRNNHBsZ2dGVVQ0YXhNRkRLYWhEMHlUWUkwSHVLZUFfQ3JYM21TNUpwb21LNTdad3dmeUUxMWJCaFpXOWxtVWZDYkJpdVQ0QS0xYzRxbWx6WkRDNEp3eUs1QmJWdDRuQmdTLUZpLVppYmx2c0pKQkg2aC15S28tMzFHQnBPUHl5Sjh5WnhWWkdid28xbTlpc1ZpOUNtc09HeUtXWk5GVHEtZEthWnc?oc=5",
+      "published": "2026-11-17 05:00 UTC",
+      "sector": "Materials",
+      "tone": 3.0,
+      "note": "Angola's interest in De Beers signals potential upside for diamond mining."
+    },
+    {
+      "title": "FTSE 100 slips 0.1% as miners weaken ahead of UK data",
+      "source": "ad-hoc-news.de",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcUVYbmI2ZFI5amRaM3ZHRE9fdkpkeEJjSkpHNXdLSmo1QzlXcERqLXgzbnNpVnlza1BfaENmdDFPSjNNbHN5MmhEc19KUjlnRlpVUjM3RGJUZVFBc1FVV2tCX2gtVkRpaUQwOEpJdnJRX3NEenBMMFFCT3pCaDJ5UXRYNXpGaDZHTUdtVzV6X0ItUHh3UlREU2ZqMTBPV3Z4cVdtZUZ4N0daUG9XVUR6bFpjanA?oc=5",
+      "published": "2026-11-16 21:42 UTC",
+      "sector": "Materials",
+      "tone": -2.0,
+      "note": "FTSE 100 slip and miners weakness dampen sector sentiment."
+    },
+    {
+      "title": "Rio Tinto plc (RIO.L) stock price, news, quote and history",
+      "source": "Yahoo Finance UK",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE95Z0oxcC1fS2Ntdk83dDJCOTh4aHJnQ1dHRlo0dXdoQlhCM0otM1VxSllBWVI1LTRsSFZvNGxveFQ1SjFNTERBamUtRlB2SmljbGtZ?oc=5",
+      "published": "2026-11-16 20:26 UTC",
+      "sector": "Materials",
+      "tone": 0.0,
+      "note": "Rio Tinto stock details not sentiment indicator."
+    },
+    {
+      "title": "Angola seeks to acquire a 10% stake in De Beers from Anglo American to strengthen its influence in the global diamond industry",
+      "source": "FashionNetwork USA",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOMDRPTUtnZ0VCQ3RVUXdNcHFLUzZJSVQwc0FEaTc1Y0NEQ0pTZWpjcDB0aDJnMXd3R3Z4bVdST2x6Nm0zWTRZVkppVXFWaWljbWpzZ01VcmxsQjdyV3RNUlNtUWNkNXhlTUxPUkNBR21VSHlZTm1RQ2dKdmJIc0ltOEU4NGJ0N2ItZXRydGtUUDFLa0FxRVRhTnljNVpGaDlvdXBFeUJicnFGRUJoUzBUOFJiQ2xQRTh2TV82dVVfMTJpcFJKZUJuYWNRT1RPazBRSlB2WVN0VXlLQXFkcU95aWNlTEFoNkF4Q0RsTEphLXdtMU1xNmF4elhZUUtfWnVzbTlr?oc=5",
+      "published": "2026-11-16 18:01 UTC",
+      "sector": "Materials",
+      "tone": 3.0,
+      "note": "Angola stake acquisition could boost Anglo American\u2019s diamond operations."
+    },
+    {
+      "title": "5 Medieval Works That Inspired Tolkien\u2019s 'The Lord of the Rings'",
+      "source": "History.com",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5kdlJhYU9yMEVMUGt1UzdMZlpnSVdUVGxtOVRnUWpOZDZoUFdtWTBPQy1fOXliYVo3aTNvZWw2LV91V0kwWktJTWdfXzVyY09YT2F4dTVxRk5Ja2N0RElBUjhTMXFKd3VxZFVsa1R5elVVbExCTjJTU0xB?oc=5",
+      "published": "2026-11-16 17:28 UTC",
+      "sector": "Materials",
+      "tone": 0.0,
+      "note": "Tolkien article irrelevant to materials sector."
     }
   ]
 }

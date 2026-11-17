@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-11-16 14:36 UTC",
+  "updated_at": "2026-11-17 07:40 UTC",
   "market": "IN",
   "index": "NIFTY 50",
-  "macro_theme": "Geopolitical conflict raises energy-sector risk",
-  "macro_score": 38,
-  "macro_explanation": "Matched keyword \"conflict\" in the macro theme \u2192 bearish overlay (38).",
+  "macro_theme": "Consumer demand signals dominate headlines",
+  "macro_score": 62,
+  "macro_explanation": "Broad-market headlines scored 62/100 by the model (bullish); this is the macro overlay.",
   "sectors": [
     {
       "name": "Consumer Discretionary",
-      "score": 35,
-      "label": "Bearish"
+      "score": 62,
+      "label": "Bullish"
     },
     {
       "name": "Consumer Staples",
-      "score": 52,
-      "label": "Neutral"
+      "score": 67,
+      "label": "Bullish"
     },
     {
       "name": "Energy",
-      "score": 44,
-      "label": "Neutral"
+      "score": 67,
+      "label": "Bullish"
     },
     {
       "name": "Financials",
-      "score": 55,
-      "label": "Neutral"
+      "score": 67,
+      "label": "Bullish"
     },
     {
       "name": "Healthcare",
-      "score": 60,
+      "score": 62,
       "label": "Bullish"
     },
     {
       "name": "Technology",
-      "score": 48,
-      "label": "Neutral"
+      "score": 62,
+      "label": "Bullish"
     }
   ]
 }

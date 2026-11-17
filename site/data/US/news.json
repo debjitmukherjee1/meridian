@@ -1,90 +1,357 @@
 {
-  "updated_at": "2026-11-16 14:36 UTC",
+  "updated_at": "2026-11-17 07:40 UTC",
   "market": "US",
   "items": [
     {
-      "title": "Morgan Stanley reveals the red - hot  overweight  stocks worth buying as earnings season approaches",
-      "sector": "Financials",
+      "title": "ASL Foresees Sideways Movements in Thai Stock Market, Recommends Five Speculative Picks",
+      "source": "kaohoon international",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB3OTZlYlNrSy1ZX3Bpa18zQlhfNW1FWjIwZnB4SnAxWENFZEFNSlZNWFIwNHNDb0FKdFkwbkVCTzB0Tk42RUlLV3o0cmhRYkJHN29jYVdCWHdWdTlnMVg0Qg?oc=5",
+      "published": "2026-11-17 07:29 UTC",
+      "sector": "Market",
       "tone": 0.0,
-      "url": "https://www.aol.com/articles/morgan-stanley-reveals-red-hot-213000000.html",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Financials sentiment."
+      "note": "Thai market focus, no US impact."
     },
     {
-      "title": "From the ashes of bear - market : Over 125 smallcap stocks soar up to 300 % from 52 - week lows",
-      "sector": "Financials",
-      "tone": 0.0,
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/from-the-ashes-of-bear-market-over-125-smallcap-stocks-soar-up-to-300-from-52-week-lows/articleshow/133697629.cms",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Financials sentiment."
+      "title": "Swiss stock market sets another record high",
+      "source": "SWI swissinfo.ch",
+      "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxPOFprcjBDSTJpamVzWG1sZFl2d21CWENVa0xBZXNZMWtKa0NYOFE4UVk5eEI0LTFMczhkSTJkWk1oSVJkaEktOXBma1JVTkxaendMNm5JN0o1S3daOTBJdGkydU1KTDFNcGxCUGV3SndLTGF5ZGNpNVZEQkRnWUg2bURzMVEzQ3doc2hoS3FrWTJ5UFo3eWVRUlpjRGVfNEFyc0JyWkNIekFOekxuczRZbUhJNHE2S3BMWGUxUWpITHBPRmJYaTIwQmhoeHhHRzlyTGo2d2k0dU01dmdyZ2pfSVpUclAta0I1aEdYYUR0MFhIbEVmbUhSX29VUExxdVpBMkdaVTQtODZzMzB5RTVJeWNJdURJOU91bG9vV25PZkhPVVBUdGR4TS1acmo4dXp3NXc3UFVBUQ?oc=5",
+      "published": "2026-11-17 07:22 UTC",
+      "sector": "Market",
+      "tone": 3.0,
+      "note": "Swiss record high signals global strength."
     },
     {
-      "title": "Morgan Stanley , investors , diversify , markets , equities",
-      "sector": "Financials",
-      "tone": 0.0,
-      "url": "https://www.cnbc.com/2026/09/23/morgan-stanley-investors-diversify-markets-equities-.html",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Financials sentiment."
+      "title": "Tesla \u00d7 SpaceX: $3.5T Merger Talks Advance, Wall Street Split on Deal Premium & Regulation",
+      "source": "Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNOHNhMUpoRndDNHVXUlYtNURUWTd5dHhSWXo5cy1hNDJxQ0hTWnhueXlHVy11Q1pvaXQ1djlHajByODlGWTBCSXNzcHI1M3B5QVFzblpTdjNOOGttcXFYV3dkWFAzUGd3dzVTMXdES2JWcnMzdUQ0S1AtV0ZLM2xRSzVHTUstN2l6ZHB2UTMwMW9OOGxNc2dNb09iYUlERTZXV2lESDJKcUZGQVQwZDNr?oc=5",
+      "published": "2026-11-17 07:21 UTC",
+      "sector": "Market",
+      "tone": -2.0,
+      "note": "Tesla\u2011SpaceX merger worries about regulation."
     },
     {
-      "title": "Forget the S & P 500 : 3 Unloved Parts of the Market Are Winning in 2026 and These Vanguard ETFs Own Them Cheap",
-      "sector": "Financials",
-      "tone": 0.0,
-      "url": "https://finance.yahoo.com/markets/stocks/articles/forget-p-500-3-unloved-003857058.html",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Financials sentiment."
+      "title": "Morning Wrap: The Tech frenzy is cooling, and Wall Street is bleeding. All eyes on Nvidia.",
+      "source": "XTB.com",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWGNVRkVFNjZkeW9Rbk54TUJ4RmQ2WlNaei1vMUpTSnMtY0Uwb0xWSUNuY1kwdldGMm1ORUl3QUZVTDlrM2llLTFEY19SR0lVV0ljYV9ZSndPeXdTSUcxb3ROYzBHekJNSU5UQWNkWDRIcFRyM1J0UW44RW1lYVRnY1MwVm9aUlplRm9OZ1FMdEV4aXg2VG9UMnk5OGgwQkFFREd6MXRQOXNJcGNYS1gwSXFYRFpKWFNvWUl5MUpLOGJOUUpKdXlwU3pDazl2dFhrM1JyU2dwU3I4aEU?oc=5",
+      "published": "2026-11-17 07:02 UTC",
+      "sector": "Market",
+      "tone": -4.0,
+      "note": "Tech cooling and Nvidia bleeding weigh on US sentiment."
     },
     {
-      "title": "Consensus earnings growth for AI stocks to plunge sharply : Report",
+      "title": "Stock market drops amid continued Nvidia fallout",
+      "source": "The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMEFFWkM0QU81aEJfWUszZ083R0l0MVEwOGJDTmF5MzJRRnI2eDhLd2RhaUoxVHRzSzRud3JKVEtsNmJmZWxrZkg0R3NpaVQ4QTJGZnZXZGstZy1OMl9TYXotOG41blRaTUVFd21xT2NLUlI1aTE0TThlb0tyX2lJbDE2MGczejYwcmU0UHNwbFd5UXZCYnRISGJXOEh4dXBNMnc?oc=5",
+      "published": "2026-11-17 07:00 UTC",
+      "sector": "Market",
+      "tone": -5.0,
+      "note": "Nvidia fallout drives market drop."
+    },
+    {
+      "title": "Asian Stocks to Fall Ahead of Nvidia, Anthropic: Markets Wrap",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSHFoREFNUWJRYTJxR0pTRnpHM2Q1NlhjQ1pjN0w3U1FWM09sclNuMlVNLWx4YXF0TURpOEdtSk9sc3BXTEpBakhLd21neWhod2pvZ1hRNVAtZWxNTlZmUXl4TXNJQ0MyTTFqa0tpRGVmOVpQZlRidlZzYkFLYnlNSXduLUtPSXo3QUJ0aVhlM0xWVFNh?oc=5",
+      "published": "2026-11-17 07:00 UTC",
+      "sector": "Market",
+      "tone": -3.0,
+      "note": "Asian fall ahead of Nvidia, Anthropic signals global weakness."
+    },
+    {
+      "title": "Markets Brief: A Big Week Ahead As Nvidia to Report Earnings, Anthropic to Debut IPO",
+      "source": "Morningstar",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWHZBZ2hibWdUVk1Lc2VHbGVIb0N6bWw1cG9zQXEzbzZNNDNYdnRHWFo1T283T3h2elUtWGpzWG5KQ2U1dXYtZ3o0bmN4djFadDhNUmFEU2xEM1hfeVBoVHJySGVkTnNCYXpLZ3pOdU9TSUI2ZjNyVFI1aHV3SlFkWm1UdlBoNWtHSmo2NnJRVm14TWg4dGNVTGVaaHAwY0YxQXBUaGljRE1iV1hLQmJPdVVfM2hnSUk?oc=5",
+      "published": "2026-11-17 07:19 UTC",
+      "sector": "Technology",
+      "tone": 2.0,
+      "note": "Positive anticipation for Nvidia earnings boosts tech optimism."
+    },
+    {
+      "title": "Nvidia warns chip buyers of legal risks tied to China AI access, sources tell CNBC",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBvLUltN01zNnhQWHVEUWlEbWJoUXcyVjFlRUF0SU90cXZwU2FoT1J2NnNZTGthUjZOX1ozbHBaUnB3QVc2bl9LNHFEMDRiUXZJVEktNjRBUG81M0dpSzRKbFl5cjdNaXhGeHVIVDNDV2dITFVhZlBpME1n0gF_QVVfeXFMT3ZEaUU4Z1VBUm44S2Y3MmwyRlpsUjYyejJRTFlyMnU5aklRa3pGQW41MkRHb3RqTzh5a0l0dE9MbzdSeFpTRWlBajFvRllpa0VnX3RXUDJIR0tjUE1NOGsyazJRbEc1RGcyZmt5cGdwUUxjZXFYb252N2dUU1VWRQ?oc=5",
+      "published": "2026-11-17 07:07 UTC",
+      "sector": "Technology",
+      "tone": -3.0,
+      "note": "Legal risk warnings dampen confidence in AI chip demand."
+    },
+    {
+      "title": "U.S. agencies detail Megaspeed investigation in 2024, dispute \u2018inaccurate information\u2019",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMmh4RlhBOTRJcDZWeDU3Tnh5cDdEUUZRYmNjTXNSdDc1M0dXUU1UOEI0ZDlpSlZ1MWptTy1IZ3REamdmeGFGazNRSFNTSU1Hc2ppbWVrU0wzNEczbVBQYlhzQkp4XzRGWnRSTGY0LWlHaVUzMExjYVRlX0NLUGhmN0FZMTRaejTSAYwBQVVfeXFMTVVZZF8ySGlfNDkwSS1TV3J1Ylo0aHk2b3A2c2RfRDZOdFJGQ2JNdWhndGphYWl0dGVvaUFyN1daVzVzUmlpVV85XzZGOVZVenZOQjZBUzY4VHpHX1I0ZkdXcE4zVVdxaGU1Wnlsc2NFSGp4RlVWV3lNakdudGlfSXBudFBLSnZHYllkNEw?oc=5",
+      "published": "2026-11-17 06:36 UTC",
       "sector": "Technology",
       "tone": 0.0,
-      "url": "https://www.prokerala.com/news/articles/a1825679.html",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Technology sentiment."
+      "note": "Megaspeed investigation unrelated to tech sector."
     },
     {
-      "title": "The S & P 500 Has Only Grown Earnings This Fast Twice Before . History Says This Is What Happens Next",
-      "sector": "Market",
-      "tone": 0.0,
-      "url": "https://www.fool.com/investing/2026/09/28/the-s-and-p-500-has-only-grown-earnings-this-fast-twice-before-history-says-this-is-what-happens-next/?source=iedfolrf0000001",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+      "title": "Tech sell-off deepens as Nvidia results loom",
+      "source": "Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaGpqcXpGcmwtSWNzX2FvRDFXejF5TktMbktSemlOZ3pRc0FYNmRiUk1qM0dCdXphenJFWnU0bTZNc1NZWEdVVUV4N1F1YzRNOUtvdUE4UVoxWUxJUWt1Zk9kVklyam9JZlFKeU9yWXJfS1pBQ2lNRjFYUUY0WkV3MWx2aG0?oc=5",
+      "published": "2026-11-17 06:11 UTC",
+      "sector": "Technology",
+      "tone": -4.0,
+      "note": "Tech sell\u2011off signals short\u2011term bearish pressure."
     },
     {
-      "title": "What a Rare Market Pattern Signals for Investors",
+      "title": "Trump Backs Huang Comeback While Nvidia Board Seeks New CEO",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTzZFZHJxQ1ZMaW5Ba1V4bm8taHd4bFBvYUZHWFY4SFpydml5YUVhLTRCaEFsNG9TbjY1dl9ac2tDek1DemJ0M3FwQTNtQm5aNV83RjFsZEZTNmJ2WHRJRWtHUVRDVEdnTUJtSzlaMWZfSEU2anpRSmVGcG9SUEgxN3c1WG5UcVBkdG02bmsyQkxvNlVqeEV2SDFORlA3VGNHZnpha2EyQ3V5aDVIS1E?oc=5",
+      "published": "2026-11-17 06:09 UTC",
+      "sector": "Technology",
+      "tone": 1.0,
+      "note": "Trump\u2019s support for Huang offers slight bullish lift."
+    },
+    {
+      "title": "Asian tech stocks are getting caught in a fresh AI squeeze",
+      "source": "Business Insider",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNXzM1Z3ZSUE5URjgxUkhCRUYxN01HRUo2TnJzUjBOZHFDRlVBdUFIRmhsc0QxUXpBRElKa1RaSXYzMmdHNWZoXzBVRzBXb1lKWm0wcE5DOXBDVlBkY2FMRHBJLUtHTDNyV1FIYURCQVF2M09PcF9zU0pReWpvM0d0bmlXOGU1RXpvdzVZbUs5cnZ4N3BDc1dRYkxmQjBkaTdpLXRz?oc=5",
+      "published": "2026-11-17 05:46 UTC",
+      "sector": "Technology",
+      "tone": -2.0,
+      "note": "AI squeeze on Asian tech stocks hints broader sector weakness."
+    },
+    {
+      "title": "Widespread service outages at major U.S. banks appear to be over",
+      "source": "CBS News",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNX1d2eVdIR1IwREpOWHRfSlJsSURCZjN1Y2hjQVQtYWN3ejJwWUVaZkg3SXVVRm5FNXFPOTJaZng5UjdvZTh2RElDWnp6cktHTUZTOTg5YWdsY2NnU0tzcGJweVJ3TXdZNERkbUZhOFhIRDZEYWRKYWtmd19xREtBVWJRNXZ0Y1ExYnBKUFFCbkZfT3ZFZnJhZTlHQWlJSXVjSVdN?oc=5",
+      "published": "2026-11-17 07:21 UTC",
+      "sector": "Financials",
+      "tone": 2.0,
+      "note": "Outages resolved, restoring confidence."
+    },
+    {
+      "title": "Widespread US Bank Outage Hits Thousands, Disrupts Payments",
+      "source": "\u062a\u0633\u0646\u06cc\u0645",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMm9Ka210SUpWMnF4S2R5OGk0bUZzbXlNcng1YXZqNlQxdmJZOU9VMXYtWDR3S1JJdmgzVTBCLV9rYnN1RGVxaUFKdC1jcmZnLUQ4bTJSSTJGRjZTa0FDNDRyazEzMUFfMF9La2F3cHFscU1CZktLWnV6azVDMUFYRDR0Vko2RUtzLTNkOFd2ZlVCWHdiOVB0aFk5UEZDT1A4ZFRxa0ZGd0xIUXVZSTJfU9IBtgFBVV95cUxOMmRkNU12SGFxWHZBQTJjbjhRaXZFWjltRnkyTnUxSkE2TmR4RWx5ZzJ5Y0M3UzdHaDJYR003VmpWQjgzdWtidzlLa1NfYk9NTHNJejFGQ2tqZlhINVEzUkM3Y1hhLTlaaUtVY0QyOHF2VlI3MlB5R3ZNT0RTNkdUdEtMS3hfclBibHI4bFAwbWRfbWc0OWI2V2w2UWt0ZkZITWRzLUlMY3QtSnNLYXUzU0JUNnF6Zw?oc=5",
+      "published": "2026-11-17 07:19 UTC",
+      "sector": "Financials",
+      "tone": -3.0,
+      "note": "Recent outages disrupted services, hurting trust."
+    },
+    {
+      "title": "JPMorgan Turns More Positive On UAE And Turkey Stocks",
+      "source": "Finimize",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZ0JNR2dyZHJhd3V2NHU2UWxmUU9rVnJlVVdOWmtVWDFXVF9yU1NJd2lueXVvSUZiZEd0YnFRbHJFX2NseG1obHVrc2M5dE14NHRGNnM5V0Mtc3lCbm53aVJDVHoxeVcwV1lZTGZabGtzdWFOUkIycUJBZWxQMjM4MU1WblI4SDBKZlE?oc=5",
+      "published": "2026-11-17 07:00 UTC",
       "sector": "Financials",
       "tone": 0.0,
-      "url": "https://www.aol.com/articles/rare-market-pattern-signals-investors-065000000.html",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Financials sentiment."
+      "note": "Focus on foreign markets, not U.S. financials."
     },
     {
-      "title": "4 Stocks to Buy Before They Bounce Back",
-      "sector": "Market",
-      "tone": 0.0,
-      "url": "https://www.morningstar.com/podcasts/the-morning-filter/4-stocks-buy-before-they-bounce-back",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+      "title": "JPMorgan and DBS Launch 24/7 Tokenized Dollar Transfers",
+      "source": "Brave New Coin",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB2SGwxWTNvUjhxQTZSS1lTWGd3SHVJRGVwYTlVUUlIamlrWkJPMmtWQi16LU1hbldMSElJMm1QaDl2WDRHR29PMWJTMHlVdDlCYTlkOFlXQm5Dd29QQWI3QldYM3VwY2tDLTI1RWxSeEZXdFhLb3FLWA?oc=5",
+      "published": "2026-11-17 07:00 UTC",
+      "sector": "Financials",
+      "tone": 3.0,
+      "note": "Tokenized transfers boost innovation and efficiency."
     },
     {
-      "title": "Stocks are heading for a high - stakes showdown , as strong earnings collide with rising borrowing costs",
-      "sector": "Market",
-      "tone": 0.0,
-      "url": "https://www.morningstar.com/news/marketwatch/202610183/stocks-are-heading-for-a-high-stakes-showdown-as-strong-earnings-collide-with-rising-borrowing-costs",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Market sentiment."
+      "title": "Technical issue at JPMorgan Chase triggers online problems for major banks",
+      "source": "TelegraphHerald.com",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQU2c2aTI3aVNxdTBMb0ZrQ3hIN3YteTg4UmFmRVhWd2JUZy1DQ1NOaUFQV0N5WGhhVGpBMWJmOVJYeFBmLVRqaktfUEZob3hBZ2Q5TFp5MmJiSF9IdVVNZUJ1OXdvcFNVb1ZHTVNaTkVyQUR5T0RodlAtbFRVLUYyUGxnMUxRWXAyUGV1OFRuWjFrOU51NldhVQ?oc=5",
+      "published": "2026-11-17 06:30 UTC",
+      "sector": "Financials",
+      "tone": -2.0,
+      "note": "Technical glitch signals operational risk."
     },
     {
-      "title": "AI stocks earnings grAI stock earnings growth set to slow sharply , Jefferies urges diversificationowth set to slow sharply , Jefferies urges diversification",
+      "title": "Australia\u2019s backpacker visa rules are changing again. Here\u2019s how the new system will work",
+      "source": "The Conversation",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMFp2cHhha2VkUTNqeURkOHZQZVJfNHNSSndWYVlvcHZGVFpyTzZ3LUlqTkFOSjRsZXoxX0VkRDIyYlFVVmdUdHZvNFVwd25zTWVKUlVGc0FQRS1wNHZlaVdaT2hIcE1LcjlQV0RQb2RiMHNxZU02MUNlYlVheTNFSlcwcXJjTGNTY2FHd18zZEs2djBMSVBGOTViWFVOVUt6aTRTOTRBYWRBRmNkWlBhcFppYmI5MHY1WjljNEhR?oc=5",
+      "published": "2026-11-17 06:19 UTC",
       "sector": "Financials",
       "tone": 0.0,
-      "url": "https://aninews.in/news/business/ai-stocks-earnings-grai-stocks-earnings-growth-set-to-slow-sharply-jefferies-urges-diversificationowth-set-to-slow-sharply-jefferies-urges-diversification20261016125426/",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Financials sentiment."
+      "note": "Visa rule change unrelated to U.S. financial sector."
     },
     {
-      "title": "DalalStreet extends recovery ; Sensex ends over 400 pts , Nifty above 23 , 100 ; IT lead gains",
-      "sector": "Financials",
-      "tone": 0.0,
-      "url": "https://news.webindia123.com/news/Articles/Business/20261016/4511730.html",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Financials sentiment."
+      "title": "ExxonMobil pushes past million-barrel daily output in Guyana",
+      "source": "Splash247",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOODNPTDNwRVZob1FPRnpKd3FtZVRtRHhobl9PNUpTb3hfMGFEOVVZaDNkZUxrTlZ0eGZqcEpPUVA4VXg0VXBBUEJELS1rTzNDRFVneGQzeTYwSTZ0WlFKMFktWFlMRzM4YlYtdHFfWlh0cDJHbU1GMk1lZWptUFI2cVZNYjNIdmZZUHZN?oc=5",
+      "published": "2026-11-17 07:00 UTC",
+      "sector": "Energy",
+      "tone": 3.0,
+      "note": "ExxonMobil surpassing million-barrel output signals strong production growth."
     },
     {
-      "title": "Cramer Wants Nvidia to Buy Back a Tenth of Itself but One Analyst Expects the Stock To Hit $400 Without It",
-      "sector": "Financials",
+      "title": "Oil prices fall despite Gulf security risks",
+      "source": "Gulf News",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVHprRFBOMEY4U0Z5MHJuaUhld3ZPMXB6RGNsdkoyTzdfZXNpNzAxR3Q1dWxPOWpESnZvZE1NVWVoQlNaQy03UG5nYzVWOFh0bHhRZjEzTFlzZUtkWXV1TzBXei1tUm9KdzBNczF0ZVdKMnlCbEhjUlZxMjNINGx6TWNpbFMzbWxUdVlWLWpibGEzUFBUYktj0gGqAUFVX3lxTE5UY0FMUmpFcU96bC1uUTFEWmNFTHFFYW1kcGUxb19IN1JmcFIyaEl1LVRXUFdtb1VZRzVSbGh2c1VUV21abFYzWElhbFhUSGo5VVNOVFlMS2dwckJrOGJjTGlzUnhuTFd4c0t6YW4xVEtrekk4bWJxamE4cUFfdVlXTzBXT0M2Z2J0WlotY2g1clI1d2dHcVowZ0VPem9FQk9yS1JrMVBEclln?oc=5",
+      "published": "2026-11-17 06:46 UTC",
+      "sector": "Energy",
+      "tone": -2.0,
+      "note": "Oil price decline dampens short-term earnings outlook."
+    },
+    {
+      "title": "Indian Rupee: Oil prices weigh on outlook against US Dollar \u2013 Commerzbank",
+      "source": "FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORGtjQ0lGdG1NOElOUjh0VnVZVlhDb3MySXVpZGhWWExEMGNBZGhZZTZ3amZidnpaTnE0LWRaQnFsNzE3SlVBdFllYmdmUUs5ZV92Y0NuWU92YjlTeUFQSjRBWC1mYXlyZGFSOU40dW1GYmkxLVFMLXhHbTVZX2RlYm01R3BmVUZQTG1BRUZvOXNKbFJXSktOSDlPbjRFMTZUbHN0NzhxSGF1TEw4UjlGazlicw?oc=5",
+      "published": "2026-11-17 06:44 UTC",
+      "sector": "Energy",
+      "tone": -1.0,
+      "note": "Rupee weakness reflects oil price pressure, modest negative impact."
+    },
+    {
+      "title": "ExxonMobil launches production at fifth oil development offshore Guyana",
+      "source": "Trend News Agency",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5pZ0o3c19HMWZad29sUGhHdWFROUxJalk3dC1jd0NoNXgzcDNucmhDLUxuSXdOY2Z2ZFlzdzN2MlF4bmp6b0otVF9MNUdnRnhpVDl6eA?oc=5",
+      "published": "2026-11-17 06:43 UTC",
+      "sector": "Energy",
+      "tone": 3.0,
+      "note": "New production launch boosts output and investor confidence."
+    },
+    {
+      "title": "ExxonMobil's Uaru Startup Lifts Guyana Oil Capacity to 1.1 Million Bpd",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONHVIX3B1R3lCTDhSYzVLaVZvenpXR2w4ZWVhOTRYZ3MzVkIzcUZLZG1qRi1wR2l0UER5UkxkZW40ZGk3MFkyVDVvX1BuU3lrVjVETURYTXo5bGlEX3NsZElIUk1ZREdCR2c3dUFRbjFpdDlJQXhnT0ZIY0NsTGZHb2JyOXRvVnhTeUJUbzNUNGZoa042cWd5dUxn?oc=5",
+      "published": "2026-11-17 06:40 UTC",
+      "sector": "Energy",
+      "tone": 4.0,
+      "note": "Uaru startup lifts capacity, indicating significant expansion."
+    },
+    {
+      "title": "Saipem secures approval for ExxonMobil\u2019s Guyana deepwater project",
+      "source": "Upstream Online",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPejFkNmpNX1ZrYXBaNjYwcHowcVJJcXhxNTZOVkhVdVNJeDloSUZZcE00S1FSdHJvLXpBYWdIQVVBcWkyeWwySXZHTUt0Q2EtZVI3cHEzRF9weDJoRlRtSHN6OXNyUU5qbUJFUDhvTC1LWVVyYlI0UDg5LUNVZ1YxenU3bzNJbFVIQmlrQUZqOVRIaVYwMUpHVjE4cGEzX1lVakR3ZGJ0aTN3aFg1YUlYWE5HOGxieUc0M1kxWURMWWdhVVcw?oc=5",
+      "published": "2026-11-17 06:36 UTC",
+      "sector": "Energy",
+      "tone": 2.0,
+      "note": "Saipem approval supports deepwater project, enhancing future output."
+    },
+    {
+      "title": "Institutional investors turn cautious on data-centre stocks in Q3: Reports",
+      "source": "Bing News",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6afc057503494d12b5d0df243773f8aa&url=https%3a%2f%2feconomictimes.indiatimes.com%2fmarkets%2fus-stocks%2fwall-street-guide%2finstitutional-investors-turn-cautious-on-data-centre-stocks-in-q3-reports%2farticleshow%2f135910255.cms&c=1552736100026297351&mkt=en-us",
+      "published": "2026-11-16 20:25 UTC",
+      "sector": "Consumer Discretionary",
       "tone": 0.0,
-      "url": "https://www.aol.com/articles/cramer-wants-nvidia-buy-back-155853000.html",
-      "note": "Tone +0.0 \u2014 roughly neutral, limited effect on Financials sentiment."
+      "note": "Data\u2011centre stocks are tech, not consumer discretionary."
+    },
+    {
+      "title": "Your $300,000 in XLY holds $125,585 in Amazon and Tesla alone",
+      "source": "Bing News",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6afc057503494d12b5d0df243773f8aa&url=https%3a%2f%2fwww.msn.com%2fen-us%2fmoney%2ftop-stocks%2fyour-300-000-in-xly-holds-125-585-in-amazon-and-tesla-alone%2far-AA2hz6jr&c=15833447879965379350&mkt=en-us",
+      "published": "2026-11-16 15:03 UTC",
+      "sector": "Consumer Discretionary",
+      "tone": 0.0,
+      "note": "Portfolio composition note, no clear sentiment on sector."
+    },
+    {
+      "title": "Micron, Amazon, and IBM: My 3 Favorite Stocks to Buy and Hold Through 2030",
+      "source": "Bing News",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6afc057503494d12b5d0df243773f8aa&url=https%3a%2f%2fwww.msn.com%2fen-us%2fmoney%2fgeneral%2fmicron-amazon-and-ibm-my-3-favorite-stocks-to-buy-and-hold-through-2030%2far-AA2htstn&c=14789415394734163210&mkt=en-us",
+      "published": "2026-11-15 03:17 UTC",
+      "sector": "Consumer Discretionary",
+      "tone": 2.0,
+      "note": "Positive outlook on Amazon, a key consumer discretionary player."
+    },
+    {
+      "title": "Bernstein downgrades Pepsico stock rating on North America concerns",
+      "source": "Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNN0Z1MkM1cFpPeTE5ei15Vm16anpXQUJDYUc2X2hnaGQ4NmFSWkFCRW9falNSbFlYMEtuaFRndUh2OUdLanNJR2RJSFdnYWZQLXo1VDdQT1c4TXRuZ2ZpR1Q2WGRSLWVXZlBEcVp3bkZPSlNCbmY4bnJkMzlJbnFCV0VRd0k2YnBVenItc1dJOS1iR0ZVaVgtakozVFdBSU5yYmd5Zks1WU9DU3c5cHFEMGVrTEFDV19jcVlSUVdJVjgyenZaU3c?oc=5",
+      "published": "2026-11-17 07:28 UTC",
+      "sector": "Consumer Staples",
+      "tone": -3.0,
+      "note": "Downgrade signals concerns over North America performance."
+    },
+    {
+      "title": "PepsiCo (NASDAQ:PEP) Shares Cross Above 200-Day Moving Average - Here's What Happened",
+      "source": "MarketBeat",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPTlJUOGg3WGhVbkxEdllJTUJVZjVwdTNlSXp5Yk5CUW1WUlNxQ0lWNHd3NVpCcGRTZ0Zod2xOTkNaRVgwTnhpYUdhLWlYWU1ZaTduVl8zRURkUVBKR0ZrRVdyOEs2WTg3Z3BTN2piX3dfdWlRMFZHTFhTS0tUaTI4aXJPaXpUUEtLODFTdm9TWmJ3NUp2YUt4RGRNZkcyOHoxLVJMWXV0a09raEhFSUVXRl9CRDhQalNNcy12RFdONTRGUTdycG94eHdndmJ3a3NqOWd1dTllNA?oc=5",
+      "published": "2026-11-17 07:22 UTC",
+      "sector": "Consumer Staples",
+      "tone": 3.0,
+      "note": "Positive technical breakout suggests momentum."
+    },
+    {
+      "title": "Mars, Coca-Cola and Carlsberg rank among investors in Kazakhstan\u2019s agro-industrial complex",
+      "source": "Qazinform",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQam1hSk43MzBKQjFCSWRKR3FPN1lvUHdENk4wWk81QjBjTnJ0QnFDX0ZfMFhtQWVBcGxaSDFzdDk4SENrRHh5UzcxODJySDJYbHlCcG9EbTA0cjFfZUxvbHNiQjllZW1WZXJvSUlwUlBBb0c2eWt0TERLaDZ6c0stdjZMSU1lZ1o1eVJlVHB1ZmhNdlRaM1p0T3c0b2lYV3dvSk5JOGFrbk5hcXJDZGdRTEFGLUxLT1pqV0F4V3VvMNIBvwFBVV95cUxQMnVjSTBGbHFnU1pGVmVyemZteEdaU2k1TWtOdmRzR1N5ajB4ancwOTNrbFBIaks3SkZqcUZmSUhBMEdEdGF4dzVqTFUtQkxQNDUxNFRQdW1GdEkzVnY0SktUbmRTMkVzUWdXNXZyZHZVR0xEQzBkb0JGRW9HekxLVDVGOXhEMmJYODZjZVFnQjJrUzJoY0k3eDdmX1RCRHh3aWRNamxkc1JqU21aSlI1ZXNCN3JLeVlMZkRocWw2RQ?oc=5",
+      "published": "2026-11-17 07:14 UTC",
+      "sector": "Consumer Staples",
+      "tone": 0.0,
+      "note": "Kazakhstan investment not directly US consumer staples."
+    },
+    {
+      "title": "November supplier contracts update: Latest deals signed for Coca-Cola, Lockhart and Winterhalter",
+      "source": "The Caterer",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdFMxeFJPWk9zeHFFeDBjNllaMFlXTmZ1Z0ljRk8zY3loclNPZ29rRDdrWlVLaElMS0pZeVNBcVhMZm9ENEFDSGpZRFljZ0dKeXUtZ0lkRzBaUWYwTE1selNrMEdRbVRaQmR0UXhhYTZTOWNBX0tOVEVmYUE0aEpHeVlXQnlONWJHQzJDTGdSZ05lWHFGc2hYampZS3JCYmNDTnZ6Z0lMMl8yQzNEdHZDMzRnSWt2VnFwaVc0X19mbm9xQ21jblhVek5raVJuT3B5NjNtZ3hMVDY?oc=5",
+      "published": "2026-11-17 06:57 UTC",
+      "sector": "Consumer Staples",
+      "tone": 0.0,
+      "note": "Supplier contracts update irrelevant to US sector."
+    },
+    {
+      "title": "Coca-Cola HBC set for Johannesburg listing on November 23",
+      "source": "Engineering News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQTYzZGQtT2tHUkdUNk1XQlZmODlNM1JHN3RKUy16eGtKbW8xbmUwOEdsWG1vYl9NY28wTjVHRVBwZnlHR3VBbEUtT0dOcUdWa19fRnBmUnYzLVVjXzZtUHVRYjV4VjEwelM3QVdrV25NVUdUMUlleGYyczhRTVJFRnVVcUktZ1JjSDg4RmZRYm9nNjhvRHhyemVsaFdFRHA2Slo3VUpPd1lGRnlJel9J?oc=5",
+      "published": "2026-11-17 06:57 UTC",
+      "sector": "Consumer Staples",
+      "tone": 0.0,
+      "note": "Johannesburg listing unrelated to US market."
+    },
+    {
+      "title": "Mars, Coca-Cola and Carlsberg among investors in Kazakhstan's agricultural sector",
+      "source": "AKIpress News Agency",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOWxMNnpiaXZSMnVLalI2WjEtLU5DQVF6cG5Jc3VQa3d5MGFKX1d1ZkZacDNSZzNaYnd5U1pJaXBQbVU4YXJvaEE0RW9pQ0JrMlN4YVduczU3cHBLZ3lOVWZqSVJibVdOQ0xCR3JDVGJ2cUIwMmZ0N0djaHRFUk9wR2V5Ujhpb09PZ3l6cVdIbHl0T0UyRWdEc2JMNlUwYWROWnpwWkZEcWp0N3FqMTRHYkdEYkYxUQ?oc=5",
+      "published": "2026-11-17 06:46 UTC",
+      "sector": "Consumer Staples",
+      "tone": 0.0,
+      "note": "Repeat Kazakhstan investment, no US impact."
+    },
+    {
+      "title": "FDA Rejects ivonescimab BLA Over Missing Overall Survival Data",
+      "source": "The Clinical Trial Vanguard",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTDI3T01CZ1VjMERmQlVEdmFyVGRsTXgzN2JqbnBJbzRUVkd1VEVBaFRBdGFVNUVxRU0ydkZjMWI2WVUtd3lJWDhKMmFfLW9wZTM3eGFaVXhqYjFsVWJ3c2ctcWhiNlkzVndZX2ZoVHZhRTJpQ09uc3M4aldOTTFHTDlQVlU3anB3UEo1bXVObWpMUkhsQm1ZYlhDQVczeWQ0eWwtU2Y0MUgwZw?oc=5",
+      "published": "2026-11-17 07:41 UTC",
+      "sector": "Healthcare",
+      "tone": -4.0,
+      "note": "FDA rejection signals regulatory risk for ivonescimab"
+    },
+    {
+      "title": "Food Safety Five Ep. 39: Microbial Meat Contamination Research, an International Food Pyramid, and FDA Updates",
+      "source": "Food Safety Magazine",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQaExCaG1Uak5BbUpkU2JlcnVPQWJkbUtfSWRwRjdsUU10ZDdUeFJZR3JEZ3hfWExhM0NBTUxTaHpHbWo0bkw4bWZrVFpSeDBnRF9GdUJPRjN4eFVNYURGc0hrMGFPalRXeDhtN2ZaaXN2dXJWdEpCVnk5NmNGZkxuaVpMcGtJSmoxbURac3ZQQmNZSTUzUDJTazUtVFJkVUhZRTdLWWdNYmt2UjE1TnVWOGJWa09obnozV1Roak1NWjNJSzNfODVYOTNiV1VfTXBScWxVd3lMNGl1Vy1rX01ZMG1USQ?oc=5",
+      "published": "2026-11-17 07:34 UTC",
+      "sector": "Healthcare",
+      "tone": 0.0,
+      "note": "Food safety topic unrelated to healthcare stocks"
+    },
+    {
+      "title": "Noema Pharma wins FDA Orphan Drug Designation for basimglurant in trigeminal neuralgia",
+      "source": "Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdkxVSkZkSHlWWWcyenJ1TEZCazFFZjZrbzlsVDhYajNmaEYteWNkT2JPT2VUNW5mY2JwSFFjZkczLXdvNmNDbHR0aFk1bWdGTURvRFZQaE9yOGJ2VmtkczJsUU9idlBGX0p6cndQdG9JTFhNb0daZnJGRnk3OXNkWm5PVEJLczFyUXR5bVcwa0hpaFlsZDhCZ1Z1S1hpRlhiMlNHakQ0SEpZRURMV2NWZWpIUWZVaFVXNG9kNg?oc=5",
+      "published": "2026-11-17 07:22 UTC",
+      "sector": "Healthcare",
+      "tone": 3.0,
+      "note": "Orphan drug designation boosts Noema Pharma prospects"
+    },
+    {
+      "title": "IDEAYA clears FDA Type C meeting for IDE849 registrational plan in neuroendocrine carcinomas",
+      "source": "Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTEdLV2k5dVhnenAxV2RtSVVWekRyOXlyYWM0RFVUa0ZwMDY4cWxsa1VtbmhYWVRpTW9Vd1FFZTVUSjhfOWdjc0NFOFJVTHZ3QXBERk8zVkdVZzB2YzVpN2lDMVJocnNnRnZIN3lNOEhMai1CcDNoSE5DQjd3bXQ5VTBrV01mSjVrQ0ZNV3g2OHRPTjR1eEd3RW1CVy1iNzh5aU5yYWJtVjExeC1QNDEwLTNYMmI1U21ZVXR2ZW40T2VxdEJt?oc=5",
+      "published": "2026-11-17 07:22 UTC",
+      "sector": "Healthcare",
+      "tone": 2.0,
+      "note": "Type C meeting clearance supports IDEAYA\u2019s pipeline"
+    },
+    {
+      "title": "Health Brief: Trouble is mounting for Trump\u2019s FDA nominee",
+      "source": "The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZmpsdmh3eGRGSEZMbmVtQ3NZU2dsLWZDbEUwdEtJVUcyaG53SzBtTTJkSVhka1JPU1N6Ti1kTFBDc19GTWRYU095RzdiUS1COGhNdVlEV3FBT2NuMDFtNkNWdGJSM01aUURfVXdtT2UtNXMteTd3R1AwN2pObUZ1RlRVay1BVmxQU04ycENzbkVNaGUtdExqRkpqYVQ0bmg2TVNsVENPNmQ1RERTU3VXQ1N1bjd4cnFTUElBQU1ZdHQ?oc=5",
+      "published": "2026-11-17 07:18 UTC",
+      "sector": "Healthcare",
+      "tone": -2.0,
+      "note": "Political pressure on FDA nominee raises uncertainty"
+    },
+    {
+      "title": "FDA accepted an application to review at-home use of dexmedetomidine for agitation in schizophrenia and bipolar disorder",
+      "source": "2 Minute Medicine",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQQldubGNSd3FpNUFGdUFsUXZyN3JpVTdWOWlOSDB3b09PVHFSQ3dfYzEyYjRXMmhVdFR4OFljcmp1X25rYXFkbEhkR2c2RDFtaXlrWFRtTF9kdU1TbFJlMWxhQmdadGV0Zk1LdDJiRW1SUjFadjFRX1BtcGNjT0t3MTJCTTRLSnN0R1pGdEJBMGJqZ0M2TE1iWW4tTXZhUllsd21DVHpTLWR4RzFrMUQ0eG8yb1A3Ni01TldOZmFQUkVOVWY2LUVfY2wtemdjeEFPQmpOM0VOSzkzN1RvWk9RTGc5eFp0dHhi?oc=5",
+      "published": "2026-11-17 07:07 UTC",
+      "sector": "Healthcare",
+      "tone": 2.0,
+      "note": "At\u2011home dexmedetomidine review expands treatment options"
     }
   ]
 }

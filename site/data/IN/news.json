@@ -1,76 +1,384 @@
 {
-  "updated_at": "2026-11-16 14:36 UTC",
+  "updated_at": "2026-11-17 07:40 UTC",
   "market": "IN",
   "items": [
     {
-      "title": "Chipmakers rally as AI demand outpaces supply",
+      "title": "Sensex surges over 600 points: 4 reasons why Dalal Street is on a roll",
+      "source": "India Today",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPb0FWT0VmXzBZd25CUWtMSk0wNUwybDhHeXdydnRkXy1fc0hiQTJOOW1CQUZCTzlJSGRmQ0dXRDY1dmpEMWpVY01ZT1hQbWRaRnpRbkJnbU1ieWE4YWJ5aFFZeDFGbGNsSDY2bFN2cU5FbTNyd0dNMzRhZ0psRUFNUTVpWm9qTDVEV2xTMElLNEhtTFN3X3ItUFhicjRWSVc2WXY1UFhQVlRHUzBIamR3dnhHX2xoaHdQdDQ1Wk1fa1BlMUtEZmdzMU1QSkxFQlZ3U2xjTk5DMNIB1wFBVV95cUxPb0FWT0VmXzBZd25CUWtMSk0wNUwybDhHeXdydnRkXy1fc0hiQTJOOW1CQUZCTzlJSGRmQ0dXRDY1dmpEMWpVY01ZT1hQbWRaRnpRbkJnbU1ieWE4YWJ5aFFZeDFGbGNsSDY2bFN2cU5FbTNyd0dNMzRhZ0psRUFNUTVpWm9qTDVEV2xTMElLNEhtTFN3X3ItUFhicjRWSVc2WXY1UFhQVlRHUzBIamR3dnhHX2xoaHdQdDQ1Wk1fa1BlMUtEZmdzMU1QSkxFQlZ3U2xjTk5DMA?oc=5",
+      "published": "2026-11-17 07:34 UTC",
+      "sector": "Market",
+      "tone": 3.0,
+      "note": "Sensex surges, positive momentum."
+    },
+    {
+      "title": "Stock Market Today: Sensex, Nifty Rise on Foreign Fund Buying and Lower Crude",
+      "source": "Dainik Jagran MP CG",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNN2Z5MU1QcnFNeUdFeXY0MHlIb0U2Z2tNMTlMSUFJOWZ3VmJRdzY1aTVIVTZLTDgyR1dINVlkU1dlYmlQUWItU3RKMGJGbUlaMWNfa1BsNnBXbTloaUU1WVhIU0I2aFNCaTRLV3BENzY4eXFGN2tyYUZyQnYyYm9qdUhZbUkxUmRqM1o4QTBYNUpQT3lRNXlEYjJqUWNBbjg3LVJ2RWxpTEFRamVXRHo0UGRneUtRZw?oc=5",
+      "published": "2026-11-17 07:18 UTC",
+      "sector": "Market",
+      "tone": 3.0,
+      "note": "Foreign buying and lower crude boost optimism."
+    },
+    {
+      "title": "Nifty Bank hits record high above 62,300; analysts see room for more gains",
+      "source": "Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPYW1kbzJ1VnR6aHpOYUJpNVBlckFBRVlQMVp5ZUxuT2FkcEZpdGFYV3pRcWxPTTE3WlZ6NkNYT1VPR0YtWTBuSVZyRVBHUXNxVkRmekd4WGhsWTNremFWczJGdHIteXV5ZmZHaW1CMHYxYUZweDVLN2JOa2hYTjNFREZPWFZWeFJ5aUhHNzE4VlFMOEVhVXJMVWVnempiT2RNV1ZTclh4SWZVdzA4ZTg0VTdUQUpYNE9zNENwanFsSjVJaXZ0NnA40gHMAUFVX3lxTFAxOWpzQmw2MDRGaXNYVDg5cEc4cUxxOTFjUEU3Yy1PMm1wT2VKTHdnLWtqNWt6ZnJsdGU3dVdkMGs0ZHNEQ3AyTXZTQ040bDY0WHlfZnVWUTR5eW9zWWhMaktLX2dqZHlXcDlrMUUyQzEwWV9tbm5iMjhKWERnM1JsblZDV2tuenQzQzF5dnpiWmEzZ1g3QUNYSmo4WlJiR2VSRGRES0RvMF9rV0luWGpKcGZHMVVFVUktQTNlMW1OWTVGQ2JtVjExblVpcA?oc=5",
+      "published": "2026-11-17 06:56 UTC",
+      "sector": "Market",
+      "tone": 4.0,
+      "note": "Nifty Bank record high signals strong sectoral growth."
+    },
+    {
+      "title": "'World's largest AI hedge': Why global investors are rushing back to Indian stocks",
+      "source": "Moneycontrol.com",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQb2EyX1I5WGxudnVCSGpPYjM0NmFKRnNaZFMyNDJBTGs2M0NBUnp1NmUzOGxSUFI5SEZuZWxlNms0bHllSzZjZ1lvTUxFVVZtMTluVEoteHNmTXJqcnkxelRFREpBaVVkUnpzY3hQMWlzUUQtbEtHWFJQZ2ZuMkNjWU5yLTlYdEhvZ2xZd09BZTA4Yk0wcVVvMkRCUDIxam5Ld3VXc3gtMjU4ZmdybmVhM0xIQlVQZXF5N2tpMEdTQkd4S2Etc0NUQ0gyMWpmM1Nqa2fSAdcBQVVfeXFMTjhLbVJucGFMR0g4OUFRVno2MGs3VjVXS1kxQU9hWVJMZHhfVlVfY1NIVVBLVk52UHdOWm5NZGE3LVk2SDVQaVdLRjJjS3o1dnFVWUxDblFCVnlYcGR0TzRid0UyVzdldXg1bG5teTVXcHVpYnpzamFnc1RBc0Zvcl8zclRHUHdMZENTblQxUTVtWHhmcy1zSFduZFZQeUd0V3NGTFIyTkRidDRReUhTVDdYTkRKZEUwQnlRRndWZ243YmlBSEN5UXBrMy1UUDFFV055RTlnXzQ?oc=5",
+      "published": "2026-11-17 06:48 UTC",
+      "sector": "Market",
+      "tone": 4.0,
+      "note": "AI hedge interest drives global investor confidence."
+    },
+    {
+      "title": "Capital Market stocks shine: Angel One jumps 6%; Groww, NSE hit new highs",
+      "source": "Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUEhlTWdGQkJ6c0pTOHhiS3R5d0JFYUhoU0hLdFlfT282NjV5Wkd3Vl9rdlJ4bjgxQ21nN3BYSzUyX1hkYjhIX21jenAtcEQwS3dtQktaMVdUUlB2MU1wYVNBaTRONDBjQnlGRzg0RS1RSWkxMUpraG9oTjU3dnFvZVNiUDQ5V0ptaXFhVlZXZUZSaDZZMDdVazVmaW1EVnloVXFhVVZaZHN4LTZIa0NhR1E2cEk3QlFoMWxKSWxhcndhLVh2SzVyOWxValdSWGVMcEHSAdcBQVVfeXFMUHVGOXdydDRGQ2ZKZXhaT2Y0MjA0enViOFdxZ3pMYkx4MGl2WkhTRnlXQ0hpX2lEZFQwTnZuM3pVc1M3MkZPUkItcmdPdEI2RjlsTXpMaldaajZnNUhGSXI3Z0EwOU9FSzJZb2JxeVlVRGZUeWM4MnE2VDlnVkx4SHZLM2xCZUlQeTRYUGl1U1phQkR5SzAyV3U0RE8zYXgzaGNxUGczREdnWUt4YlpWRnhvZ2d0ZjdLMmwzT2NDZjNLajFsNkk3NEJYaXFJVGxKM1U0czBuWUk?oc=5",
+      "published": "2026-11-17 06:41 UTC",
+      "sector": "Market",
+      "tone": 3.0,
+      "note": "Capital market stocks rally, indicating sector strength."
+    },
+    {
+      "title": "Nifty Bank at all-time high; 3 stocks need up to 2,200% rise to revisit peaks!",
+      "source": "Business Today",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNVDcyLTRmQ0dpZ3JuYUY3YWZxT0hHRms3VXI2SW4xY3AtSURJSlJlMk5kdnlZYVZPbWtkZ0U0VUx2Zlk4Yk0tUmNOWUt1VGp2OWZxZTVZTHRRRHEzRkpwWVFSdjhnNjdVV2FnY09CUERhY0c1X2FyZW5NZkN3WEhqNDJUNFFlajV4dTJHX1Z6d0lhaC1GUTNwQnUzNkR4UFRYZ1FMTHZRZnl5U3FaTVJEN29oNVNPZmZDZkJOb2xaUTZuXzVSRTVfc1pIN0VNQXk0cExFcmZ1a1VNUdIB3wFBVV95cUxOUEw1Z0IxZVdqYVJ4TVRBOS1pZjJackttVHVhUFJpRV8wWUVWYjFwbFUyalVwSVhMRFB0UWZmWHZCS1EtdEdwZjVPV19ybWxELW9YaGpGSDl1WGNiTC1HSWtQczNaU3p6S1BtaU41YzZBTlp6Qlh4YVQwTHU3bHVmbnlvc0I2X25XNzhsVkUwcnkyY0g5a2RxNGY4UDVyeHR0UmlYSGp3UU5xRG5YdGpvYUZlMFU4ZHVGRGdDa1Z4RUhDQWNlV0Q4dzNva09qZk1rVng1YVNMMHAyT1lDTnRv?oc=5",
+      "published": "2026-11-17 06:41 UTC",
+      "sector": "Market",
+      "tone": 2.0,
+      "note": "High potential gains suggest bullish outlook."
+    },
+    {
+      "title": "Global Funds Cautiously Increasing Exposure to India IT Stocks",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQ2NOQkNqYVZWbkN6TG0xVWxvcXkteG81NU93amR5aHNoSWlxT3V2SmJfSE9XVHNEWWI2RWhibWJGdENFd0s1T044cEZhYnllT2NtQWN3U0ZaT2xlN2c5eGpBSVE2R2xxd3VLUzZkWmRVdFY0a3Y2SVRqbzdXN0lpRzI2UVRuclRTX3FsR0N3WDZoc2tqOXlJZ0E0cEo2bDRRWTNJVk04UnZiajlQeXJtYXhwUTdyTmc?oc=5",
+      "published": "2026-11-17 07:12 UTC",
       "sector": "Technology",
-      "tone": 3.4,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Tone +3.4 \u2014 reads positive, supports bullish sentiment in Technology."
+      "tone": 3.0,
+      "note": "Global funds increasing exposure signals confidence."
     },
     {
-      "title": "Regulators open probe into big-tech ad practices",
+      "title": "Bunnings to cut 350 technology jobs, shift work to TCS teams in India and Philippines - People Matters",
+      "source": "HR News",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQSUlFaWlUcEN5b1RTUlBtOHlEOU90c0RfQnlSYTgxY0h1a3RVa05POFJKWm4tWXU5RjlGX09QSVVDenhudHpocUt4di1CWlY3N0NxZ056aG1HSWVRQXVVdzNBS205WUdIN1RoMWY3Z0RhZWROZHpnSEdqTy1BQUFHaE5xd1hwT3A5TmRvZWtkTlM0OUJMRldKNHUyNS1Ha29VTnFlNDZSUFlVc3VXRWptdVRtOGtob2JhR2lhM1VZNzQwS29nSXhDbXFGV0tBUkZWVEdDd1NfTmJNOEE?oc=5",
+      "published": "2026-11-17 06:19 UTC",
       "sector": "Technology",
-      "tone": -2.1,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Tone -2.1 \u2014 reads negative, weighs on sentiment in Technology."
+      "tone": 1.0,
+      "note": "Job cuts offset by outsourcing to TCS, modest lift."
     },
     {
-      "title": "Consumer spending softens amid rate uncertainty",
-      "sector": "Consumer Discretionary",
-      "tone": -1.8,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Tone -1.8 \u2014 reads negative, weighs on sentiment in Consumer Discretionary."
+      "title": "Bunnings to cut 350 tech roles and outsource to TCS",
+      "source": "NewsBytes",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSkNIRElQbUo5TnYzOUpYWk9wWVB5c1V0QTFGcmZGVU1FSGJVOVJzTzZLVUFKeUlicmhHU2ZfYWZYVlBCMWRveFJCWnkxbFVRNm9SZjNnejFrUFNRcDFtOU0wZGFVTnZSTFhUck82U3Y2bVRaYnNRc1hIS2daWTBYRFFjSnZRclhhR2VwOGx4TWFOb2tZV0RyU1NvUmQydVIz?oc=5",
+      "published": "2026-11-17 06:19 UTC",
+      "sector": "Technology",
+      "tone": 1.0,
+      "note": "Duplicate headline, same neutral-positive effect."
     },
     {
-      "title": "EV price war squeezes automaker margins",
-      "sector": "Consumer Discretionary",
-      "tone": -2.6,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Tone -2.6 \u2014 reads negative, weighs on sentiment in Consumer Discretionary."
+      "title": "HFS Research ranks TCS as a leader in agentic application management services",
+      "source": "Tata Consultancy Services",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQd2tFdkpiSXRZMlZhTGlhVGpMNmUxb3JZUVJlOHVKWDZ5dkMyZjIxV1VqcmVPU0FHSzJkY2UtNi1YeFFHM2NyT251NXd4LW9ReG1FbUEtck93ZUJnSHZlX3Z5dmc4RnlTa01XNjZibm5SQXl0N25Wci1hOHdkRzRZMHhQWmNzaEVzQV9PY3BBNHVabVJhc3lwRUFfeXNNRjN1RGJrX29iRlhHbzItNDFwWHJCT3ZxT0lmQ19VYUhjdEs?oc=5",
+      "published": "2026-11-17 06:17 UTC",
+      "sector": "Technology",
+      "tone": 4.0,
+      "note": "HFS ranking boosts TCS\u2019s market perception."
     },
     {
-      "title": "Banks post resilient quarterly earnings",
+      "title": "IT weight in mutual fund portfolios rises to 7-month high of 6.8%",
+      "source": "Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPeEtGXzhpYUZiVUFQUURXMVRUdXlxNTlEQlBsRHBibG1NcDB2c3RnbnpHWVhFS3dtUTdWUkpHTUJibHdrYVlQc0w0czltdmRHeWU5cTBNY2l0S2YtN0ViYUdtcE1NRS13SGxvcHJpbUI0dmFYTURoN2JHT3ZCaXlwUzVxZWV4S05ORy01V2NsLXExdVVPUTVlOGhuTWlrbTF1dVQ0eFRiLUgzYkIxOHM0dWNBbW9GWGtxZVd1TlFHbHhvb2V2UXM4ZFJuTjfSAdIBQVVfeXFMTkRJOUV1dVRFSFg2cENKTHdBYm52b2RZMEZBOVE1d1ZHQUllZkJMbFJpUXA1QXJmNm0tVHJsVmcwZHE4dnBqTDRVblJCejlKT3pUVm9ELWhWNWtLWHJteHBfcFhXaTR3LUtZUUt2UUFyMUVQbTMyRFlHaEdzTDAyLUV0VFZ6OVEyUDh5bnNWVnMza3hqMWR4RzVOVkVtdEpMZ0VOajlCLW9NTnhWeWNiWDJsTDNxd004ZjNxa1RlQzBjbUR5cTZta2Z6YmswZ3ZCMEx3?oc=5",
+      "published": "2026-11-17 06:04 UTC",
+      "sector": "Technology",
+      "tone": 3.0,
+      "note": "IT weight rise shows sector\u2019s growing appeal."
+    },
+    {
+      "title": "TCS Recognised as Leader in Agentic Application Management by HFS Research; Shares Rise Nearly 1.7%",
+      "source": "HDFC Sky",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNbEFyMnBUVExobE5OY2NjNUZpRkJ4UXRkNUlZck1fbFBKN25lTjkzejZTUlo5MWNuTS0xM080X19taGVuRWYyZGg4X21WVnBOcVR5RUhyUUZHRDRDcXQ0b25EOGhZdV9jWS1YVE5hZnNaUmZrZ2JyOEIwLUVDT1M1ZVJhSXNlTjZqT2xJMU5UMEFUZHNhOG5ILVBSVkxZNVNwaW1HY2lMV3lyVUdZU3JyNllxbUZpYXZLZWRWbWs3enFJenByRDBZOUNn?oc=5",
+      "published": "2026-11-17 06:00 UTC",
+      "sector": "Technology",
+      "tone": 3.0,
+      "note": "Share price jump reflects positive investor sentiment."
+    },
+    {
+      "title": "Top stock picks: Analysts recommend ICICI Bank, Reliance, CDSL, Indian Hotels and Force Motors",
+      "source": "CNBC TV18",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZHNZTGpQX2hSX0JqeXdOX29lR29sYllRVDR4NkhQb1dxSFc4dzlndEZtMXRVbkRqWjJVX3BCV2gxWkNKeUZfZk1PcF9Gd0NZcEhxNldEcEJXd0plQlBrRXNVUC1URndaU19pZ3pYX1RCb3prdk1mNjgxRXp4X1ROVURXRFIzVlk1bmw2aThzWTF3Z3liMUtMX2hCNjZQWFctdjg4NzktQ3dKeTkzU3llWEM5VEJqclBYREpCdHRFRlhWcWlZTWw4T2lRc9IB0AFBVV95cUxNSS1QN3Bpd0NPRGw4RFZ3bGU4SDRjYmZmbmVpOElCaDlmc0o0NGlBV0cyaVlRSjIwdmV4QXI3VmtmeTZqcTd6TmxsTGRZVGtRd3pQSXdoeHl4aVFlMnZHNmg3eHVCQnBsN0xlaTFUZ1Zqa2ZKNndzTDhBam8tMXF0dHhULWJWekI2bG5EMG10RWd4VFRiUldhaVJVeTlpeTl6Ymc5MXVoVUR4cFJGU1NmaEZpUnhvbFpIRVJFUWZxRW1xVFhxX0hqYzlfcHN0WGJT?oc=5",
+      "published": "2026-11-17 07:25 UTC",
       "sector": "Financials",
-      "tone": 2.2,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Tone +2.2 \u2014 reads positive, supports bullish sentiment in Financials."
+      "tone": 4.0,
+      "note": "Bank Nifty\u2019s 10% monthly jump signals strong banking sector confidence."
     },
     {
-      "title": "Payment networks expand into emerging markets",
+      "title": "Bank Nifty hits all-time high, jumps 10% in 1 month: 5 reasons fuelling the surge",
+      "source": "The Financial Express",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNcWgyZEpwM1UxMER3TkxRN3B1NUE3YTRrSTRIYm1HUm92aFg4Q1ZJUGxpeE9LVEZZVkppSk9ISmpZd3JXMFpFMlJlaEU0QjB1ZlhSYkNIcUY3Z1hSWVdpLVhVTDN3MHRWSExiV1BWX1k0T1RDSDh3Ml9mQURQaHBJSlEzRXh2NGpzWF9Lc1EyZFVtMGxxVmx6N2tyVGs0NHhCc185WUQ5Z292Y3JiQTlKRGdOM01reG1RaU1VZnl5R1FqdkpKbVHSAcwBQVVfeXFMTUdUQjZlRk0yRmszQXQzR2U0MjV0eDJqLUFYQnZPMEQyTDdHdHFNWFZPdlBSUl9FYk9ST2gwWlJJanRWMTluZ1ZGZ2MzRWFyU3BKTjlBZlhYRFRneUwxR3VxSURFLWRsX0hNQ3hKd3R5azI4QW11UXEyQnA4eTFiaGtQS3JCZTVVZVhCbTNKVlVVQmFqdTQzZk90ZkJndmFKWTVXWTRZbGdIcW8wYkh3aG5Ic0RVQXNYM213WnJOcDlrajFoM2YtWVhfNFp0?oc=5",
+      "published": "2026-11-17 06:40 UTC",
       "sector": "Financials",
-      "tone": 1.9,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Tone +1.9 \u2014 reads positive, supports bullish sentiment in Financials."
+      "tone": 5.0,
+      "note": "Record high of 62,300 reflects bullish market for financial stocks."
     },
     {
-      "title": "Oil steadies as supply concerns ease",
+      "title": "Bank Nifty hits record high of 62,300",
+      "source": "NewsBytes",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaGstMlVVUkktbkx4ZHpFVzRCcjVSSDQ1T0dpWlBOa1g0dUh5WmV0anEwd1pJQzB0QlJEY2wzUlg1OENacWJORFV3eDM1TTdOcFZzLWxVMVk4TThqX1hzUTd0Ym43elFRdWU0MFpkMklGVVNUdTM2alBLcHUtQ19ONnBWOVpCdTZTQzNHdFBOcw?oc=5",
+      "published": "2026-11-17 06:16 UTC",
+      "sector": "Financials",
+      "tone": 5.0,
+      "note": "Record high and 62,000 level show sustained investor optimism."
+    },
+    {
+      "title": "Nifty Bank hits record high, tops 62,000; HDFC Bank jumps 20% from Oct low",
+      "source": "Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZlFkbEo5RE1LSUx3Qkp2dHZFZXNsYzA2Wm5jYUFLdkNOZXZDRzJvSk9JUUZsOTZEUkMyWEpIZ0NQRXpPd0NCNk95WmFEajdBZXE2amc1YmxCQXVNR09OYmFPakZxcnpiMWJiTV9lY2ltenZJV1FHd2s4S1M5ZWtnLXl5NGd3TUVzTnBoQXcwWEVSVFZDZGp6VENlcEhBbVRjY0dZY3JJb1k5ZzlDTURBamhWM3RtdVBzdlV3aEJPSHdySU1JeDZIeHJ2NExSM0xKZ0NQZNIB2gFBVV95cUxQVEZKYlYzdlVaWG1NQWFaNG8tYmhaa2NaSlJZcU9mc2ZlWW1uRzdlMUtaRndRc2VoVW9rQWp4NUwyRDZKM0VVUEZLdjV0Z25jWDM5aFk1Y3JpWmNSU093WHV6SEl3UjFDbmhJUk9pTF90dFJycFhtdkVKT0M0aktIMS04dmdQT0pfMnJUczhERWZEMERwOEhaczg1Z3M2YXRCOHRWREx3cFN3TmRMcjNhVVJfNlhEN1dkSUw0eER2cV9wMXpRMThlY0Jsbnk0dVM0N1JKZVpRTmdmZw?oc=5",
+      "published": "2026-11-17 05:09 UTC",
+      "sector": "Financials",
+      "tone": 4.0,
+      "note": "HDFC Bank\u2019s 20% rise boosts overall banking sentiment."
+    },
+    {
+      "title": "Bank Nifty surges to record high of 62,300 for first time ever; Canara Bank, PNB, SBI jump up to 5%",
+      "source": "Moneycontrol.com",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPRkFnNlBSbFVnUzdzZVYyZ2lCOW01UzAxSDZfVm8yWTNfSWlKcXhsY05lZklmXzY4cWlBcUR1Y2hwODUySHE1UHVmQ05vSW1tMjVrMnpIMlZzdHdad09jYjFxUEJ0eTY5clU2VGpOemVUd3c0ZWRYXzFvVkkxb1ZsM3hsdTN3NE45ZmhHdXE3QWQ4YWhEZExKaFVqWWxGUEVhTVVhbkZzQnQ3UTE3anU1YlFhOG5ySnNiWFR4ejNfLWVfNjNvVGpGY2NMbUFYU0VLNFFSbU1uSHpfQlFMQ09lRVpvaEpUblRMa0FrdjBhclV4Z9IB9wFBVV95cUxQQm5jaGp5eHkxV1ZiU1ZMNGhDQ1c1ZWRUQk1hc3MwNk9TLVJOeUNSdHVOeHhwTWJoYzBfZzBqd2dCdVhXeDNUR1dKeGstb293UUM0UFVQN0VTTTEwZFo4NmtDZjNiLTZNVXpDS253TVNNSEtlSzRXVlVxME81YVZlLUxPYy1Pbk95UmdYcDJsdllqaklQNWZoNi1LdGNjV0RCQ2VCMllVckpzMVh1VlJTUGM1Wk9yVnBpa0lOeWVFdEFOakNUOWhFaFpHRXp1S3lpNUFpUkRMUTU5MjJsRno4NndXTE5HQUFIM29tc2VjTElRR040eTgw?oc=5",
+      "published": "2026-11-17 04:59 UTC",
+      "sector": "Financials",
+      "tone": 4.0,
+      "note": "Canara, PNB, SBI gains reinforce positive outlook for banks."
+    },
+    {
+      "title": "Sensex jumps nearly 300 points, Nifty crosses 25,370; Bank Nifty hits record high",
+      "source": "NewsDrum",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWC1NbEIyUmN0NnA3VENBYnZ5eFlwUk5sWlN5ZW9ZQlNpYVRvUUtQNTg0QkJuRXphbU0yclI2ZC1zbzdjUjl1RDZnTC1JLTBXU0ZaZGFjeFg2UGNBX0lwZFl2N2dCaTVMelY5WXF1RklqSEJZcHpJbmFTSnhvZkFVSm9xYzZPc25RaXJLWlpGTHdONTBBazVSeWdLazlqVjl3ME1Gck1tQmhRbFREU3BLdGV3TkRiU3RsRkkzQtIBvAFBVV95cUxQWC1NbEIyUmN0NnA3VENBYnZ5eFlwUk5sWlN5ZW9ZQlNpYVRvUUtQNTg0QkJuRXphbU0yclI2ZC1zbzdjUjl1RDZnTC1JLTBXU0ZaZGFjeFg2UGNBX0lwZFl2N2dCaTVMelY5WXF1RklqSEJZcHpJbmFTSnhvZkFVSm9xYzZPc25RaXJLWlpGTHdONTBBazVSeWdLazlqVjl3ME1Gck1tQmhRbFREU3BLdGV3TkRiU3RsRkkzQg?oc=5",
+      "published": "2026-11-17 04:35 UTC",
+      "sector": "Financials",
+      "tone": 5.0,
+      "note": "Sensex and Nifty gains alongside Bank Nifty record highlight robust financial sector."
+    },
+    {
+      "title": "Indian Stock Market Sees Gains as Foreign Investments Surge",
+      "source": "India News Network",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWjcxTDN6WmVzQ2dVbkNiRTRXU1AwaTlDMHF1bEd2Q3JIbkpuOGlLWnhSMmlyX1g1cWc5Q2F5eUs4UTFOVldLd05CT05PUmRrZ0x4RVVTMUFSUi1UajVNX2FqaHVCRUFTdWtDSWY4andBc2x0ZWViZ2RDeUF1SjRMdmFzS3pSbXNLT3VtV25hbzZMT0VhTEZhOGE5RmwxOGROS1hn?oc=5",
+      "published": "2026-11-17 05:42 UTC",
       "sector": "Energy",
-      "tone": 0.6,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Tone +0.6 \u2014 roughly neutral, limited effect on Energy sentiment."
+      "tone": 0.0,
+      "note": "Market gains from foreign inflows, no direct energy reference."
     },
     {
-      "title": "Staples firms hold pricing power through inflation",
+      "title": "Stock markets climb in early trade on foreign fund inflows, fall in crude oil prices",
+      "source": "The Hindu",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPdmMwRHhBdEQyNVlYQWtfRVRoMnFXR3A4SUd3eWtWWWxfZTZhYVpIOGZxZ0NoaVVVdkNnd2toUnFDci1wT3c5aVE0aDV4V21oWmJ2T09GdjVYQWJ3RmNTVWNTSnoyOFhtUFJZQUhxOFc4ZFdNNGR1ek90SmRxSnNpamU3clpQS1lFaW5rVEUxUDJfSEw4QXJUcHNWYXRhVTV0azhMdzZDWlUxTFg5bVBMak9XRl9aZnAtd0Ryc3gxcWdQdkxKV1BRRWxFdGZ2bV9LVjFuQlR5TlBCZV9MSlpR0gHmAUFVX3lxTE43cG1KTzFEb0dQVnFoNTRidjJHanRFX2U1cEVXcWZhdFRjcDFMYnFLRTdSMWFJdGtwYmN1bV9HTU1EWDNQUHBjMXZORzQ4WXdtZjVpaF9nLTVPN3JXWFZ5Ym1FR3c1VDdUOS1STk8wMElaejN1c3hCV3hUeHN1bVlaWEFwR1lLUElSaFRMdFpNdE01OEZaSDdUckN0TDBuMnFKck43MzVybFAzbjlVd3NwTVVIYldSczdjckpKdDNPMXVEZVhLODgzWmxkR3F2dUJVTWx3ZXlueHlBZWpvSGFFcGNwSENB?oc=5",
+      "published": "2026-11-17 05:03 UTC",
+      "sector": "Energy",
+      "tone": 3.0,
+      "note": "Falling crude boosts energy stocks, foreign inflows lift market."
+    },
+    {
+      "title": "Indian Stock Markets Climb on FII Inflows, Falling Crude",
+      "source": "Rediff MoneyWiz",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNklVWGtfT0tYVmhLbmdvdnJSM1BPaW12Qk5CTDVzbGc0dE44VGxIN1JTOWJFSE1PRHFad2tDLTF4Z3ZOQXFuR0xIMVMxZ0VIN3dkazFabnloLWZSSGVKYXVLNTNDTURUS1BUb1dhSzRRSW1obkdTY0pIVnVHeGxodjlfdHRyalFjeDFQN3pjd1VDQndMSnF5T0E1OXBuRjd0LXVDanJHel84RVXSAbABQVVfeXFMTWNhb2trZG91Q2ExQ19CQXBTbG9RV0tiRC15V0E0YWpPcHFtcVI5ZGVtZnVtNmhoVlM0dGNkal9HM1RVOGJhTTlwd2dIUkU2MW9LbHhJRlZkZVBHYzhxeF9nWlBkOVQzUnBlbHlISVY5MjVpTGdET243Y21SMHNyTFlibVZFS1Iwa0RhYl9JdXZwcXZUa1VxVVh1NnRyam1CbEs2dndwZzFyek9vX1hWRVg?oc=5",
+      "published": "2026-11-17 04:33 UTC",
+      "sector": "Energy",
+      "tone": 3.0,
+      "note": "Energy stocks benefit from lower crude and FII inflows."
+    },
+    {
+      "title": "Stock Market Today: Sensex, Nifty Eye Higher Opening",
+      "source": "HDFC Sky",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQdFhaOE42YVp1RHp0b0YzdWRIVFh6ZWpqUklrR19XVVhUSl92bm5SenJDUlBiTUdNUF9GV1BPRGUydlZzQmZDMHBjLUdpSFA5YXJydnBrVklrM2F2UU52QU5lTE5fYnR6ZDRPenkwLVUtbzhNRy1rcFJJT3pYRXdwc2tDOXE2eFVxN0tfbzV3VkRGanZoRVk3bklPby1HZU1lUFRWVUtGd3Q3MlBpVGdnUFkxejhDMWo1T0lwVDV1aDFkOWRTSjJ6NDA3UTJkbnc1cGdCRTl6TFFXa2VQMGtNRFVtWDd4OElN?oc=5",
+      "published": "2026-11-17 03:37 UTC",
+      "sector": "Energy",
+      "tone": 0.0,
+      "note": "General market opening, no energy focus."
+    },
+    {
+      "title": "Crude oil prices drop 5.6%: IndiGo, HPCL, Indian Oil, Asian Paints, other oil-sensitive stocks in focus; here's why",
+      "source": "Upstox",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxONW9qVXpIczRtVDBFbE9zRWJaRUNCTm5fN2VXYlVoY05wcEV0RlhYZW5GWjNYcWhJRUdDQjFCdkt4b1hKVDdQRVhidUhZZnBQSWhFYXE5eEVkNlFOeG00LWQ4eGtMTm1CMFNpaGE2azg2VHNGaFV0clllMW9JczZoaTlyV0RlNHBFNFJMVDlxTlo2V0p0OUYzbUM1LUdkWnYteHU1MF9Vc1FfbVdOTEhTM29HTmp1Slh2b0x2RU9YNjVPanFYZnl1ZFpocEdtTnZSR3p5cmJ2cDJBQWYwc2xvMUZ0YXFyNGQ1VFR4VGF2dWpBTkF5V3hzMWwxdW0?oc=5",
+      "published": "2026-11-17 03:21 UTC",
+      "sector": "Energy",
+      "tone": 4.0,
+      "note": "Crude drop directly lifts oil\u2011sensitive stocks."
+    },
+    {
+      "title": "Rupee flies high in Asia on easing crude oil prices, foreign flows",
+      "source": "Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMzEzVG02SjY0N3NIMmJZaF9yTHF1TXotUm8zbnczcGlFTTRKLUpGdzFGRm1Mcmg0WWpzWmIwVW9tZm9SLVpoVFRrcDVuZzM3SWotc0xuQlNuSE1yZ2UzMHVIcHFJMmtrSzVpOUVKUWxJMUdXUnB6N1l1MllvT1Zfd0FxdURsX3JjX2hDblpMU1hRbDhTM25QLU5RVWJOdW43UVpSTTNoRlJfdUJZcURCOVd3ZjNLLVBoLUVac05CQWxfV0tMZ2FUU21sdGdldjdSNlJr0gHYAUFVX3lxTE1EY2lERFdKaVU5YjJhdS1iNFVOWHRnMEhSN0RBYUZSLWhzNDdoN0t4ZWFHR24tN041c3FONWgybkpRNkMyck43dXFtdkRGWnNWemV3bDdOVnFXNDEycncxRC1SRFJiaE5vMU9HS1FRTGRiSm1HaW9WYndUZFFpNDJpcmxwbFVkcU56dU9Fdk9IaWFPT0VoTWowZHhJQk5DRzJJTGtSWG1kRERoV2ZKT0pnQUlvWjRjRnNEY0dRQjNGRVliOGRKdEZIZDZ6VHlIbW9YTmtRVVhZOQ?oc=5",
+      "published": "2026-11-16 13:47 UTC",
+      "sector": "Energy",
+      "tone": 3.0,
+      "note": "Easing crude and foreign flows support energy sector."
+    },
+    {
+      "title": "Sunil Singhania-backed Abakkus Flexi Cap Fund increases stake in Tata Motors, Dixon Technologies, Groww an",
+      "source": "The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNWGw4YUJDLXVZSVZROHd0VlgxcG84TkJydGd4S1FBSmVISmN0NVZ6WWNINGluSHN3OE9heTlkaVFNQ2w2aGZtS29DM3A0akx3dGFsc0MzRl9oT0VTMjNTcF83Q3IwV2J4dkwwU3duNGlBM1VUVDNpNV9lZTRfZFdQXzI4R3FVLWdtWW9IZ1NJSk5leElEdXdVNFEwbmxMM0w3aXh6Q3lLak5ncDh4Q25OUURrYVdSOUZ6b1dFR3JTelFDbVNKa0Y5dXNlRWZoY1NRaGI5YWpDSmZNMGl5dHVmQWV1MVhLU3BZaEFsb2Q5R2tVUGxqSUNiMGhyVnFIVTB6UUoybjRLS1dDWEhOa3fSAZMCQVVfeXFMUE1Zb2ExS25QQVZ2U3NMTmkyRmVKbjItaFZ1ZnhCTGpmTXRJbnpHWVFaN0lHbG8xa19ENENzc0J2MG1fcUtfVWxOMjJsWlNLaUNnV1UtNFFIVkV1N1p4SURJT194RmpRVGhMNGhEdkFXRnZsNDRZNTl6ZVZSN2I4dzg4U2Q1SWpNZWhqY19iakRaVmROV0dWaWVibndtalJiQXBhWWlsaHZXb1JMb0hSb2N2bnJUX1N4OTZWSUhUNjFyVVBBODBuYURuMExHNTZWSkh2UnJJOTJxZWd2WUstOExoMFF3cHdNakdSTWZYMTNIWW95VGVEV0lBZzVrTXJKd1hid2NfdWEwS3V0OF9KdHhpZFk?oc=5",
+      "published": "2026-11-17 06:28 UTC",
+      "sector": "Consumer Discretionary",
+      "tone": 2.0,
+      "note": "Abakkus Flexi Cap Fund increasing stake signals confidence in Tata Motors."
+    },
+    {
+      "title": "Mid-Cap Auto Stocks: Hyundai vs Force Motors vs JBM Auto",
+      "source": "Univest",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQa1FaZUMwdld4MnZZaGJhVE9NSHlzckREa0pQNGtlQzlCT1VqbFNNc09GdEszM0FoNTJ0ZE9jd0s1dXFCZk1CSzB0Y0pxSURRQ2NEb2FZNk9iTlUxblBKaXBVUEVfLVhzbFo2enZDa3Q1ZmJvY3hLM2VkZzNXeUR3WmRGemJJYm9QNm1ORU5tUWhaamxLRmhxR0ZsZHQ4RlVremJyMGlUd05TWW1kNUxNSDI5cVg5VUZwZFl0RWdJbXFtYjJDcGJfV2lCNA?oc=5",
+      "published": "2026-11-17 04:59 UTC",
+      "sector": "Consumer Discretionary",
+      "tone": 0.0,
+      "note": "Mid-Cap Auto comparison neutral for sector sentiment."
+    },
+    {
+      "title": "Tata Investment, Tata Chemicals, Tata Motors share surged up to 9% today; here's why",
+      "source": "Business Today",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNQTBJdHBnTUdlZzR4a3lFZjVERVVMVE9naHA2RnowR29MZGlLMTlta3hlaFJtekZHd0pnTUVzY3VUZFY1V21sOURBcW9SRlY3eDFFM0JKQUtuZ2ZIVnhYQzdGRkFHd3lGSnktZnJjWnBrSkVCM3FrVUpwTkRFR0xrektMM0trdi1reUlsWXRZMTROQ1lTSzl4VXFxU2tjOHBobjRjUDNyWC1vdmtad3FZMC1UMElQdnRxV3J0elJNbnppdGNudWxmdnNJZmZ3NWFuSzdXNGNLaXJubGNHRHlOU2k5YURxQdIB5gFBVV95cUxNQTBJdHBnTUdlZzR4a3lFZjVERVVMVE9naHA2RnowR29MZGlLMTlta3hlaFJtekZHd0pnTUVzY3VUZFY1V21sOURBcW9SRlY3eDFFM0JKQUtuZ2ZIVnhYQzdGRkFHd3lGSnktZnJjWnBrSkVCM3FrVUpwTkRFR0xrektMM0trdi1reUlsWXRZMTROQ1lTSzl4VXFxU2tjOHBobjRjUDNyWC1vdmtad3FZMC1UMElQdnRxV3J0elJNbnppdGNudWxmdnNJZmZ3NWFuSzdXNGNLaXJubGNHRHlOU2k5YURxQQ?oc=5",
+      "published": "2026-11-17 04:40 UTC",
+      "sector": "Consumer Discretionary",
+      "tone": 3.0,
+      "note": "Surge in Tata shares indicates strong investor optimism."
+    },
+    {
+      "title": "Stocks to Watch Today: Tata Motors PV, Max Healthcare, ITC",
+      "source": "Univest",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE91cEwtbG5IRkg1eXktNklyQzJxd0ZLdE9LYnJtZld4ZUxySVB1bWZtWDlWRDF5RTVtX2VBVWp0Q2d2OC10QW5IRzVFaDZJektaczBVc0l6WjJaTXBSWE5SYw?oc=5",
+      "published": "2026-11-16 21:20 UTC",
+      "sector": "Consumer Discretionary",
+      "tone": 0.0,
+      "note": "Stocks to watch list is neutral, no clear bias."
+    },
+    {
+      "title": "Tata Motors PV shares crash 9% following Q2 results, cuts JLR guidance",
+      "source": "The New Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNM19fS0h3YXczRzV2MF8wZjBDYjhWLXp5b1ZVaUc1VVktMm9tRlB3aTlxeDFvYV9UZUhWcXV2Nzc4S3kyZC1GRFJadWpydXI1TE1UTEh0NGZNOFJ4aW1SMmJUMHZXLVlBeFBVOUpaSFZwSGdCZEpWWjNEczZmUXctamRuY21VMTdIdXJrQndERmVaUmRKb1VqY1dRTjFlLVBUS3M3Y0g3dDhjaGxZZDRVNXRsLWFZWUZmenNlLU9waTN0R2hZR2F4SmJfV0PSAcwBQVVfeXFMTTNfX0tId2F3M0c1djBfMGYwQ2I4Vi16eW9WVWlHNVVZLTJvbUZQd2k5cXgxb2FfVGVIVnF1djc3OEt5MmQtRkRSWnVqcnVyNUxNVExIdDRmTThSeGltUjJiVDB2Vy1ZQXhQVTlKWkhWcEhnQmRKVlozRHM2ZlF3LWpkbmNtVTE3SHVya0J3REZlWlJkSm9VamNXUU4xZS1QVEtzN2NIN3Q4Y2hsWWQ0VTV0bC1hWVlGZnpzZS1PcGkzdEdoWUdheEpiX1dD?oc=5",
+      "published": "2026-11-16 16:55 UTC",
+      "sector": "Consumer Discretionary",
+      "tone": -4.0,
+      "note": "Tata Motors PV crash reflects weak Q2 performance."
+    },
+    {
+      "title": "Tata Motors Shares Slide 9% as Jaguar Land Rover Cuts Profit Margin Outlook",
+      "source": "Tekedia",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTXNac2JGZzI5RzFYU2NMeWZVR2wyRC11a185VWNMeWpCTGtpcV9SWEpJa2dNbzRHRm14ZG1sWmdaYTdCUEYyc3JYSVBGWW9wclZYS3hUdEN1cTV2WDZ0UklkQXNoSjMyZFN3RHItVVVnRnpNZ0h0VDdfaTJDYkJGYVpNRFdnQzBwUURmMkFUbDVyTUt3RUxXbXVfVHhfai1K?oc=5",
+      "published": "2026-11-16 12:20 UTC",
+      "sector": "Consumer Discretionary",
+      "tone": -4.0,
+      "note": "JLR cuts profit margin outlook dampens auto sector outlook."
+    },
+    {
+      "title": "FMCG, paints demand to remain resilient despite input cost pressures; margins seen improving in H2FY27: Report",
+      "source": "The Tribune",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNUURFWDZ3Y2N0U2pRMVlDcVMwaUZVUGhPZGlYeUlPYmsycGxRd2NoMzNfUG5wU25TRXJLVEdYZmFpaWdGVE5hZGJBa0V2d1FVeXBJbU41SDRNamhoaVVqTm9JV3lfVmdYRndwLVlOd2hRWHhGbUgyaHozTElVaEVmU0JHRUJ2ektyOVV0eUVGcktEZk1WMWREM0ttYXZfN1Mwc1RkYjhxSDMyM2RXYndCZkJSZ3BnamllamtUZmZMeFQyMlZSZVI3bjhiODBoN3padkxDdzA1dnNhdmtyLTdLQW1Rc3pHUdIB6gFBVV95cUxNcTFFeW03MmMwWnBydVU2WUhvQWUxS0Jkci1yRjRRWElrM1hmb2VrOWRObU9TQzZacjhSbTZObVlKVDM4ZzMwMlk3Q2wtTE1xSVdETnJOM01kX2tXSDVxejdnNDM1akxzWDgzaFlJMFB4UUxCcjVTekhqWUJFUnZFc1J0V3h4R05pZWtDdzdKNFlreHFOWE9hSzNRNF9KaHBZeHdxY1pVRlppVjZpeWNBQ3Q3RjZGdlhPX0NJLVdDZ3RKZHRhcTlLSWlOeFdWVmlGdGhBVFE5ODdRdUViQ2tGd3J3d21sZzJYY3c?oc=5",
+      "published": "2026-11-17 06:58 UTC",
       "sector": "Consumer Staples",
-      "tone": 1.4,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Tone +1.4 \u2014 reads positive, supports bullish sentiment in Consumer Staples."
+      "tone": 3.0,
+      "note": "FMCG demand resilient, margins improving."
     },
     {
-      "title": "Drugmaker wins approval for key therapy",
+      "title": "FMCG Distributors Urge Government to Exempt Merchant-to-Merchant UPI Payments From MDR",
+      "source": "Siliconindia",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNR1o5UFIwWWF4c1B2eEcwT19OLTJkVldLc3FzTVVsM3FxdEdXMmhNNk5NYU5fLTJQVzg1RmNuTTFGcmM5VkIzc0ZHb00xZFNCZ0tuMmFHWFc3N0RhVHNZUjFPbkNEMXdNcVQ0VWxGUlBBRndGclMtRzlYMTQxVHJ2aEt1QVBFcEJ5a3ZrM0lOR3hVd25OSmxOTFNWRW9iRmxFVGdUelFaWEZQM0xNNUtYbnpDNGtIZzd1ZTBFWWFGUzZCVlN2a0lFakdRZjZ3LTNfNHE5QnB2OExpZVRsWFBIdXBn?oc=5",
+      "published": "2026-11-17 06:15 UTC",
+      "sector": "Consumer Staples",
+      "tone": 0.0,
+      "note": "UPI payment exemption request, neutral for sector."
+    },
+    {
+      "title": "Mars banks on two-decade head start as FMCG rivals enter pet food market",
+      "source": "Livemint",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQamtVeW0tci1KZTVvejNOQzJHRzJjSS05WEhKYXlIWmt5Qm83eGNJUkRUSmNnLTB4Y3FlWVpNWnV0Y2t6cGVmNzZKSUdWUF9WUEh6emNpT0dzSXhYYmZjaUVDeHNkT01qVFhrY0NFUnBMM1Jvb05JT3dnb3pIb3ptbWFLZlJOUWhvUE9Kay1EMVpuYmNiNnpXQWpuOTF3WHJRZmhydkl6QjJjS3F10gGyAUFVX3lxTE4xWE1VY25IZU12c3drVGw3YVZBenZQLUpzWk9YYml3eG04MEQ3UkNndXV2M2xrMW9oSkZGejhNbWJGS2FkZ1FRbXRpUGlycVdyVEVyOTBtWnBkaUdDY2x1VEVXYTdEWHktRnJZUkljSVFUbFZhVkZTM0JfZEdKZHBkeUJnY3J2TXN5blZ3cXpQOXphZUNiclNRSHpxX0ttVDE5UHdWdllGYk5BcEY0X3N5YUE?oc=5",
+      "published": "2026-11-17 04:20 UTC",
+      "sector": "Consumer Staples",
+      "tone": 3.0,
+      "note": "Mars leads pet food, boosting FMCG growth."
+    },
+    {
+      "title": "US FMCG major Church & Dwight plans India launch with premium products for online customers",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNa2xyQzQxN1VrdlBCZDFCV0xlWHl2ZFBLckZmOHJqbl9mMFV0Z2kyRWxWOFFwT29Yc2xmWlFfUTJiT1VhejhuVUcwTEV4ZzVaUGxfMEN5SXFpNWR2cGM5anRYblJJN3d4Y2pRY3drbXpkOFhaR3pBRnozVTR4MFA2dkVSUmFwLWNtVlpEZlcwQkcxSzUyaTRoVmF6LW5DVTY0bnRWUW5LLS1hNDROMkNvSjhLd1ZYOHBqeXRfTFRnNGQxWWJlQ19ZMzBKanBMcEZLMnUtbHlaOU95YzVDcVA0?oc=5",
+      "published": "2026-11-17 03:32 UTC",
+      "sector": "Consumer Staples",
+      "tone": 3.0,
+      "note": "Church & Dwight entry signals confidence in Indian FMCG."
+    },
+    {
+      "title": "Shreeji Global FMCG Limited (SHETHJI) Achieves 84% of FY26 Full-Year Net Profit in H1 FY27; PAT Rises 90% HoH and 51% YoY",
+      "source": "First India",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNRGFLVnZxeEZEY1NzbHdOd0dGaXRWS1BzRFQ3SlRqRzd2UkZfYWNNczY0UTM4RGd4U202SjZqZ3MxSVNxTXdScF9FdklZbW11NGRYSFhFcVFSX0UyUEVreDd0MW14TVA0UnRFY0RyMHIwakR1MTRNcndUaE1DUVNRMVV5aVRydDJ0M0NlaU05RTBOaWg2MHpMeEY1VmczeGFJMUc1Mm5hbUdyWkdCMDNSMkI2RFFYSm1RbGV5bDA5dFFZUDFPWmg5cDhaTGZ5ZHBiZzdQdng3ZjVjVHVwYzByc2ZqLURXbVFJU0pEYjBNckNjUQ?oc=5",
+      "published": "2026-11-16 20:10 UTC",
+      "sector": "Consumer Staples",
+      "tone": 4.0,
+      "note": "Shreeji Global profit surge shows strong performance."
+    },
+    {
+      "title": "Sensex jumps over 500 points as bank, FMCG stocks shine - India Tribune",
+      "source": "Chicago",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNaU9DY2haTG1HOHhpcnNYdHBVQUhBRndXU2djbU1aOWRiakJ2aGdORzRfRDRGVkhVOUZSTzlLVzgteDNvdnhPbDV4OVRIZ28tNGYwTmJzY284SklHVUpFZ0Uzc21tcmJFTkE0a3RrdDZRbU44RjJiRFc5WkdHQWtFUFg1dld0QlFvVFBxbVRvbTZwRXg1?oc=5",
+      "published": "2026-11-16 18:07 UTC",
+      "sector": "Consumer Staples",
+      "tone": 4.0,
+      "note": "Sensex rise driven by FMCG stocks, positive sentiment."
+    },
+    {
+      "title": "Sectoral Snapshot Today, November 16, 2026: FMCG, Banking Stocks Lead Gains",
+      "source": "HDFC Sky",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSzk0V2dsdm1pOGwyZUJreVJCLVZCR3JoVjk3NWVuVExUUDg2dUpRVlBBaGJnY2Zud3lwcDRMYlZ4NmphWjAtZmUwS19HckkteVZsMHJIMUdYQVAwQkMzUzFYV2hqeWpRekZYTmR2RlktaE04M3BHeDdsRHV6ZlJLeEtJNWRmM1Ezd2d6aEo0bXk5X3FKZDdqbWs3bG0?oc=5",
+      "published": "2026-11-16 11:34 UTC",
       "sector": "Healthcare",
-      "tone": 3.1,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Tone +3.1 \u2014 reads positive, supports bullish sentiment in Healthcare."
+      "tone": 0.0,
+      "note": "FMCG and banking focus, no healthcare mention."
     },
     {
-      "title": "Geopolitical tension lifts safe-haven demand",
-      "sector": "Energy",
-      "tone": -1.2,
-      "url": "https://www.gdeltproject.org/",
-      "note": "Tone -1.2 \u2014 reads negative, weighs on sentiment in Energy."
+      "title": "Kotak Mahindra MF introduces Nifty Pharma Index Fund",
+      "source": "Investment Guru India",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVk5ndW1sYzdnZGJXckZ2ZHhUZ3FOVDBzbTFEd1Z2LUZTeTlJa2JGcFRLaVlqRU1hNVFpem9FcHBPY2hpUXNNdXBMT3pjRnRUZUpoRWJFV24zSXQzSTRXaUFhaVlEV0ZaREQyZThLNDBybjh2T3hTV095UFNqYVEwRDlIOHlJMUpWcHRLM0k1Z2V1T0Z5UDJRQVNJblhEcldyaEs3c19rZnA?oc=5",
+      "published": "2026-11-16 10:58 UTC",
+      "sector": "Healthcare",
+      "tone": 3.0,
+      "note": "New index fund signals institutional confidence in pharma."
+    },
+    {
+      "title": "Pharma stocks under pressure; Laurus, Sai Life, Divi's slide up to 10%",
+      "source": "Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPMWYxcjFhNGUtRUZoeV9vSjZDc0pQc2pfLUhvZnotS1MzeXJGTEowNjRzTVZpSGcxMDNyVDM0aDFQOFFWZ0NxOWNGdFVLWFdacXJyWHVZR3BIZHBmNk1xSmZtd1hqdzFDS3V2OU5ybE5hdW9hWmtwNEtzLU42dnl6cGpYcWlOVHd6QjZSa015c00wTkRKd1ZMTDVMdFAwbkZoWHRfeURydkg3S0k3a1d2RF9TdXpWemVhTzg5ZXJQdUc3UzMxUjUtVXRteXRpUdIB0wFBVV95cUxPdjBxYzBpT0RGRVFjUFJBNUxDRlA4TWh4bHJWQlpOZm95OUVjWDN2eVprbTdsMnMyakJ6WC1xaTVlSlpPbE41ODUtX3RTblRfM3prNFdRWkg2UEV6VUVlMDlHdW9ndGlESzNXNEY5bnk5dVNJZDd0aEF3NGRRYXphd285VUZibW90T3g4YVR4SUdzTWFNM250cks3NVVXMzhwc1dQUkNLcllSVGZuZ1pIdS1LWUg3Y3dKRlNvcldicTIxakh4RkxtWVpxZHVlcDRlREZv?oc=5",
+      "published": "2026-11-16 09:44 UTC",
+      "sector": "Healthcare",
+      "tone": -4.0,
+      "note": "Major pharma stocks falling, indicating sector weakness."
+    },
+    {
+      "title": "Pharma sector stocks today, November 16: Orchid Pharma jumps 5.65%, Natco Pharma up 3.12%, Panacea Biotec gains 3.05%",
+      "source": "Business Upturn",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOMUdZYTF2WG9OUjVGTEpjZldpNVdPb1FpbE1CMEVYUGNsbWxBYkNsOWlMdFBDM3NHc1dLbzlIWEdUSnROSGlIdGpOZ0x3eWNuemNrLVpsRnQyYmpUN0hDMG9wOWs2WGh2dlBRZ3kzWmRkZ2lsUmgwbTZtaUMxZ19aUk1UY2xJeFVJZGZ4R0RVNEhhWFc1S0dHZU1RUTRYX3k3WlF5NmlwY0twZjFYY09qZ0JKN0h6eEVUQjE4UHhtX0hnZlVzZU9Vd3Bzc2VGa1ZGbVRQTnJfU3RHZkN1clNyRUZ5My1hMzJjRXdoRVhSczU?oc=5",
+      "published": "2026-11-16 06:47 UTC",
+      "sector": "Healthcare",
+      "tone": 4.0,
+      "note": "Multiple pharma names rally, showing positive market sentiment."
+    },
+    {
+      "title": "Sun Pharma seeks $4 bln loan to refinance Organon deal- ET",
+      "source": "Investing.com India",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRWtXZDhYR2UtcUxjRDhhQjdsazh2U00zSTBCZmoyZmxuLWJQZFZ3TzFPZGxOSUlfR1EwYXU0cGlHSWtobGZBRl9TVmFPNTZGckVBdkI5RTZSWGI4dGtFVm9jYTVCejZfcHZGcHJVT1Rwdks1bHNEWEIzbmZRb29wMHlBZ1VPMVVvM1VFa180ZVI3SlRrMk9zQzVaSl9aZ1ppM3NldmR4RUx4NVBaZ0FSTUV1WkdQTlND?oc=5",
+      "published": "2026-11-16 06:17 UTC",
+      "sector": "Healthcare",
+      "tone": 1.0,
+      "note": "Loan for refinancing suggests liquidity support, modestly bullish."
+    },
+    {
+      "title": "Sun Pharma Plans $4 Billion Loan To Refinance $11.75 Billion Organon Acquisition",
+      "source": "Sahi",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPM0tXZE4tMHYyS1NTWDg3bWRqeXU3bDFLS0pPUGlDemdGNHQ4dnMtM0dFQ3BkVWUxbWlpaDh6MVRNa2Z5b1phcVNLVjJ0cWxoaktqNjBrcEpEcHcwYk5BRzRhazllMjZ0TEp1bXR3cHpLcHVWcy1iTHgyX0J4VDBhcFhmekRST19kLXhTV3QzN1dOS2l0R01yeGZLMEVrODNtNmhCaXhSdw?oc=5",
+      "published": "2026-11-16 05:31 UTC",
+      "sector": "Healthcare",
+      "tone": 1.0,
+      "note": "Loan to fund large acquisition signals growth ambition."
     }
   ]
 }

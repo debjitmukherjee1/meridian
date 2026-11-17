@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16 14:36 UTC",
+  "updated_at": "2026-11-17 07:40 UTC",
   "market": "JP",
   "currency": "\u00a5",
   "companies": [
@@ -7,145 +7,145 @@
       "ticker": "7203",
       "name": "Toyota Motor",
       "sector": "Consumer Discretionary",
-      "price": 3428.0,
+      "price": 3414.0,
       "eps": 345.15,
-      "pe": 9.931913,
+      "pe": 9.891352,
       "fcf_per_share": -259.22242500123764,
       "ebitda_per_share": 507.41090249097283,
       "net_debt_per_share": 2468.745866201704,
-      "sentiment_index": 50.0,
+      "sentiment_index": 53.2,
       "sentiment_breakdown": {
-        "news": 50.0,
-        "macro": 50
+        "news": 62,
+        "macro": 40
       },
-      "base_fair_value": 3428.0,
-      "sentiment_adjusted_fair_value": 3428.0
+      "base_fair_value": 3414.0,
+      "sentiment_adjusted_fair_value": 3446.77
     },
     {
       "ticker": "6758",
       "name": "Sony Group",
       "sector": "Technology",
-      "price": 4320.0,
+      "price": 4271.0,
       "eps": 211.05,
-      "pe": 20.469084,
+      "pe": 20.23691,
       "fcf_per_share": 395.0946554539517,
       "ebitda_per_share": 394.68202602688547,
       "net_debt_per_share": 13.300035053792179,
-      "sentiment_index": 50.0,
+      "sentiment_index": 53.2,
       "sentiment_breakdown": {
-        "news": 50.0,
-        "macro": 50
+        "news": 62,
+        "macro": 40
       },
-      "base_fair_value": 4582.95,
-      "sentiment_adjusted_fair_value": 4582.95
+      "base_fair_value": 4541.6,
+      "sentiment_adjusted_fair_value": 4585.2
     },
     {
       "ticker": "9984",
       "name": "SoftBank Group",
       "sector": "Technology",
-      "price": 3416.0,
+      "price": 3281.0,
       "eps": 225.4,
-      "pe": 15.15528,
+      "pe": 14.556345,
       "fcf_per_share": -180.72352184709945,
       "ebitda_per_share": 79.88655771267804,
       "net_debt_per_share": 4612.336070224197,
-      "sentiment_index": 50.0,
+      "sentiment_index": 53.2,
       "sentiment_breakdown": {
-        "news": 50.0,
-        "macro": 50
+        "news": 62,
+        "macro": 40
       },
-      "base_fair_value": 3416.0,
-      "sentiment_adjusted_fair_value": 3416.0
+      "base_fair_value": 3335.84,
+      "sentiment_adjusted_fair_value": 3367.86
     },
     {
       "ticker": "8306",
       "name": "Mitsubishi UFJ",
       "sector": "Financials",
-      "price": 3415.0,
+      "price": 3287.0,
       "eps": 243.96,
-      "pe": 13.998196,
+      "pe": 13.47352,
       "fcf_per_share": null,
       "ebitda_per_share": null,
       "net_debt_per_share": -3495.5392636994884,
-      "sentiment_index": 50.0,
+      "sentiment_index": 53.2,
       "sentiment_breakdown": {
-        "news": 50.0,
-        "macro": 50
+        "news": 62,
+        "macro": 40
       },
-      "base_fair_value": 3415.0,
-      "sentiment_adjusted_fair_value": 3415.0
+      "base_fair_value": 3287.0,
+      "sentiment_adjusted_fair_value": 3318.56
     },
     {
       "ticker": "9432",
       "name": "NTT",
       "sector": "Technology",
-      "price": 168.6,
+      "price": 169.9,
       "eps": 11.48,
-      "pe": 14.686412,
+      "pe": 14.799652,
       "fcf_per_share": 104.28369639889155,
       "ebitda_per_share": 42.25718915723025,
       "net_debt_per_share": 204.6673728686035,
-      "sentiment_index": 50.0,
+      "sentiment_index": 53.2,
       "sentiment_breakdown": {
-        "news": 50.0,
-        "macro": 50
+        "news": 62,
+        "macro": 40
       },
-      "base_fair_value": 692.58,
-      "sentiment_adjusted_fair_value": 692.58
+      "base_fair_value": 689.47,
+      "sentiment_adjusted_fair_value": 696.09
     },
     {
       "ticker": "4502",
       "name": "Takeda Pharma",
       "sector": "Healthcare",
-      "price": 6937.0,
+      "price": 6931.0,
       "eps": 22.32,
-      "pe": 310.7975,
+      "pe": 310.5287,
       "fcf_per_share": 426.5408038527069,
       "ebitda_per_share": 855.3776359432424,
       "net_debt_per_share": 3091.7320727938127,
-      "sentiment_index": 50.0,
+      "sentiment_index": 53.2,
       "sentiment_breakdown": {
-        "news": 50.0,
-        "macro": 50
+        "news": 62,
+        "macro": 40
       },
       "base_fair_value": 6726.22,
-      "sentiment_adjusted_fair_value": 6726.22
+      "sentiment_adjusted_fair_value": 6790.79
     },
     {
       "ticker": "6501",
       "name": "Hitachi",
       "sector": "Industrials",
-      "price": 4896.0,
+      "price": 4811.0,
       "eps": 166.18,
-      "pe": 29.46203,
+      "pe": 28.950537,
       "fcf_per_share": 236.43976999761895,
       "ebitda_per_share": 414.5906716009604,
       "net_debt_per_share": -211.65481585056745,
-      "sentiment_index": 50.0,
+      "sentiment_index": 53.2,
       "sentiment_breakdown": {
-        "news": 50.0,
-        "macro": 50
+        "news": 62,
+        "macro": 40
       },
       "base_fair_value": 3728.47,
-      "sentiment_adjusted_fair_value": 3728.47
+      "sentiment_adjusted_fair_value": 3764.26
     },
     {
       "ticker": "8058",
       "name": "Mitsubishi Corp",
       "sector": "Energy",
-      "price": 5358.0,
+      "price": 5160.0,
       "eps": 286.65,
-      "pe": 18.691784,
+      "pe": 18.001047,
       "fcf_per_share": 167.87656731100418,
       "ebitda_per_share": 268.8372227863573,
       "net_debt_per_share": 1380.457182121788,
-      "sentiment_index": 50.0,
+      "sentiment_index": 58.0,
       "sentiment_breakdown": {
-        "news": 50.0,
-        "macro": 50
+        "news": 70,
+        "macro": 40
       },
       "base_fair_value": 2647.28,
-      "sentiment_adjusted_fair_value": 2647.28
+      "sentiment_adjusted_fair_value": 2710.81
     }
   ]
 }
