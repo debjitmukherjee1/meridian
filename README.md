@@ -25,7 +25,7 @@ used to build it.
 ## How it stays free
 - **Hosting:** GitHub Pages (static, free)
 - **Daily job:** GitHub Actions (unlimited minutes for public repos)
-- **Data:** Yahoo Finance (unofficial, no key), GDELT (free), Groq Llama 3.1 8B (14,400/day),
+- **Data:** Yahoo Finance (unofficial, no key), Google News RSS with Bing News fallback (free, per market), Groq gpt-oss-20b (free tier),
   World Bank + Frankfurter (both keyless) and FRED (free key) for the **Macro** tab
 - The website only reads pre-computed JSON — **never calls a paid API at runtime**,
   so every extra visitor costs $0.

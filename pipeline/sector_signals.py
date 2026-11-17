@@ -14,14 +14,13 @@ That split is what keeps the reasoning defensible.
 """
 import json
 import config
+import score_sentiment
 
 try:
     import requests
 except ImportError:
     requests = None
 
-GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
-GROQ_MODEL = "llama-3.1-8b-instant"
 
 
 def classify_event(macro_theme):
@@ -96,14 +95,7 @@ def _ai_narrative(sector, event_type, score, headlines):
         f'{{"main": "...", "supporting": ["...", "..."]}}\n\nHeadlines:\n'
         + "\n".join(f"- {h}" for h in headlines[:8])
     )
-    body = {"model": GROQ_MODEL, "messages": [{"role": "user", "content": prompt}],
-            "response_format": {"type": "json_object"}}
-    r = requests.post(GROQ_URL,
-                      headers={"Authorization": f"Bearer {config.GROQ_KEY}"},
-                      json=body, timeout=30)
-    r.raise_for_status()
-    txt = r.json()["choices"][0]["message"]["content"]
-    obj = json.loads(txt)
+    obj = score_sentiment._chat(prompt)
     return obj.get("main", ""), obj.get("supporting", [])[:3]
 
 

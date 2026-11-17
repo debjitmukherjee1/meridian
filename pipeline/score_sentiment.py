@@ -1,14 +1,28 @@
 """
-score_sentiment.py — turns raw signals into the 0-100 Sentiment Index.
+score_sentiment.py — turns live headlines into the 0-100 Sentiment Index.
 
-The AI step (Groq, free tier 14,400 req/day on Llama 3.1 8B Instant)
-re-scores the top news headlines per sector for nuance, because GDELT's
-dictionary tone is blunt on financial language. We BATCH one call per
-sector, so ~8 calls/day << 14,400.
+Changed 17-Nov-2026. What was wrong:
+  * The Groq model (llama-3.1-8b-instant) was shut down for free/developer
+    tiers on 16-Aug-2026. Every call since returned HTTP 404 and the code fell
+    back to GDELT "tone", which was always 0.0, so every live sector scored
+    exactly 50. The Actions run still showed green.
+  * The macro overlay (40% of the index) was a keyword match on a theme
+    string: one word ("conflict") set it to 38 for the whole market.
 
-Groq API (OpenAI-compatible): https://console.groq.com/docs/api-reference
+Now:
+  * Models are tried in order from config.GROQ_MODELS; a 404/400 on one moves
+    to the next, so a future retirement degrades instead of breaking.
+  * The model scores each sector 0-100 from that sector's headlines AND gives
+    every headline a polarity from -5 to +5 (stored in "tone", which drives
+    the Positive/Negative badge on the site).
+  * The macro overlay is the model's score for the market's broad headlines
+    (the "Market" bucket), not a keyword.
+  * If no model answers, this RAISES. A market with no real read keeps
+    yesterday's data and the Actions run goes red. There is no silent 50.
 """
 import json
+import re
+
 import config
 
 try:
@@ -17,158 +31,114 @@ except ImportError:
     requests = None
 
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
-GROQ_MODEL = "llama-3.1-8b-instant"
+_working_model = None
 
 
-def _news_tone_by_sector(news_items):
-    """Fallback: average GDELT tone per sector, mapped to 0-100."""
-    buckets = {}
-    for n in news_items:
-        buckets.setdefault(n["sector"], []).append(n["tone"])
-    out = {}
-    for sector, tones in buckets.items():
-        avg = sum(tones) / len(tones)
-        out[sector] = max(0, min(100, 50 + avg * 8))  # tone ~[-10,10] -> 0-100
-    return out
+def _chat(prompt):
+    """Call Groq, walking config.GROQ_MODELS until one answers. Returns the
+    parsed JSON object. Remembers the first model that works for the run."""
+    global _working_model
+    if not config.GROQ_KEY:
+        raise RuntimeError("GROQ_KEY is not set")
+    models = [_working_model] if _working_model else list(config.GROQ_MODELS)
+    last = None
+    for model in models:
+        body = {"model": model,
+                "messages": [{"role": "user", "content": prompt}],
+                "response_format": {"type": "json_object"},
+                "temperature": 0.2}
+        try:
+            r = requests.post(GROQ_URL, headers={"Authorization": f"Bearer {config.GROQ_KEY}"},
+                              json=body, timeout=60)
+        except Exception as e:
+            last = e
+            continue
+        if r.status_code in (400, 404) and not _working_model:
+            last = RuntimeError(f"{model}: HTTP {r.status_code} {r.text[:160]}")
+            print(f"[groq] {last}; trying next model")
+            continue
+        r.raise_for_status()
+        txt = r.json()["choices"][0]["message"]["content"] or ""
+        m = re.search(r"\{.*\}", txt, re.S)
+        if not m:
+            raise ValueError(f"{model}: no JSON in reply")
+        if _working_model is None:
+            _working_model = model
+            print(f"[groq] using {model}")
+        return json.loads(m.group(0))
+    raise RuntimeError(f"no Groq model answered ({last})")
 
 
-def _tone_note(tone, sector):
-    """Deterministic fallback note (no AI call) grounded in the real GDELT
-    tone number -- used in mock mode and whenever the Groq call fails, so a
-    headline never ships with no reasoning at all."""
-    if tone > 1:
-        return f"Tone {tone:+.1f} — reads positive, supports bullish sentiment in {sector}."
-    if tone < -1:
-        return f"Tone {tone:+.1f} — reads negative, weighs on sentiment in {sector}."
-    return f"Tone {tone:+.1f} — roughly neutral, limited effect on {sector} sentiment."
-
-
-def _groq_sector_analysis(sector, headlines):
-    """One batched call: ask Groq for a 0-100 sentiment score for the sector
-    AND a one-line note per headline (same order/count) explaining how it
-    reads. Returns (score, notes_list); notes_list may be shorter than
-    headlines if the model drops one -- caller pads with the tone fallback."""
+def _score_bucket(market_name, sector, headlines):
     numbered = "\n".join(f"{i+1}. {h}" for i, h in enumerate(headlines))
+    who = "the overall stock market" if sector == "Market" else f"the {sector} sector"
     prompt = (
-        f"You are a financial sentiment analyst covering the {sector} sector. "
-        f"Given these headlines:\n{numbered}\n\n"
-        f"1) Rate overall investor sentiment for {sector} from 0 (very bearish) "
-        f"to 100 (very bullish), based ONLY on these headlines.\n"
-        f"2) For EACH headline, in the SAME order, write ONE short clause "
-        f"(under 16 words) on how that specific headline affects market "
-        f"sentiment for {sector}. Be specific to the headline, not generic.\n"
-        f'Return JSON exactly like: {{"score": 62, "notes": ["...", "...", ...]}} '
-        f"with exactly {len(headlines)} entries in notes, same order as the headlines."
+        f"You are an equity sentiment analyst covering {who} in {market_name}. "
+        f"Headlines from the last few days:\n{numbered}\n\n"
+        f"1) Rate current investor sentiment toward {who} in {market_name} from 0 "
+        f"(very bearish) to 100 (very bullish), based ONLY on these headlines. "
+        f"50 means genuinely balanced, not 'unsure'.\n"
+        f"2) For EACH headline, in the SAME order, give a polarity from -5 (clearly "
+        f"bearish for {who}) to +5 (clearly bullish), and ONE clause under 16 words "
+        f"on why. Headlines irrelevant to {who} get 0.\n"
+        f'Return JSON exactly: {{"score": 62, "items": [{{"polarity": 2, "note": "..."}}, ...]}} '
+        f"with exactly {len(headlines)} items."
     )
-    body = {"model": GROQ_MODEL, "messages": [{"role": "user", "content": prompt}],
-            "response_format": {"type": "json_object"}}
-    r = requests.post(GROQ_URL,
-                      headers={"Authorization": f"Bearer {config.GROQ_KEY}"},
-                      json=body, timeout=30)
-    r.raise_for_status()
-    obj = json.loads(r.json()["choices"][0]["message"]["content"])
-    score = max(0, min(100, int(obj.get("score", 50))))
-    notes = obj.get("notes") or []
-    # Defensive: a small model can return "notes" as something other than a
-    # flat list of strings (a single string -- which Python would otherwise
-    # iterate character-by-character into single-letter "notes" -- or a list
-    # of dicts, whose str() would leak a Python repr into user-facing text).
-    # Anything not cleanly a list of strings is discarded, not coerced, so
-    # the caller's existing "pad missing notes with the tone fallback" path
-    # engages instead of shipping garbage.
-    if not isinstance(notes, list):
-        notes = []
-    notes = [n for n in notes if isinstance(n, str)]
-    return score, notes
+    obj = _chat(prompt)
+    score = max(0, min(100, int(round(float(obj.get("score", 50))))))
+    raw = obj.get("items") if isinstance(obj.get("items"), list) else []
+    parsed = []
+    for it in raw:
+        if isinstance(it, dict):
+            try:
+                pol = max(-5.0, min(5.0, float(it.get("polarity", 0))))
+            except (TypeError, ValueError):
+                pol = 0.0
+            note = it.get("note") if isinstance(it.get("note"), str) else ""
+            parsed.append((pol, note))
+    return score, parsed
 
 
-def news_scores(news_items):
-    """Per-sector news sentiment 0-100. Uses Groq if available, else tone avg.
-    Also attaches a "note" to every item in news_items (mutated in place) --
-    the same list is written verbatim to news.json by run_all.py, so this is
-    how the per-headline reasoning shown on the Sentiment tab gets there."""
+def news_scores(market, news_items):
+    """Per-bucket 0-100 score. Mutates news_items in place: sets "tone"
+    (model polarity, -5..+5) and "note" for every headline."""
+    market_name = config.MARKETS[market]["name"]
     by_sector = {}
     for n in news_items:
         by_sector.setdefault(n["sector"], []).append(n)
-
-    if config.MOCK_MODE or config.GROQ_KEY is None:
-        for n in news_items:
-            n["note"] = _tone_note(n["tone"], n["sector"])
-        return _news_tone_by_sector(news_items)
-
     out = {}
     for sector, items in by_sector.items():
-        subset = items[:8]
-        try:
-            score, notes = _groq_sector_analysis(sector, [it["title"] for it in subset])
-            out[sector] = score
-            for it, note in zip(subset, notes):
-                it["note"] = note
-            for it in subset[len(notes):]:  # model returned fewer notes than asked
-                it["note"] = _tone_note(it["tone"], it["sector"])
-        except Exception as e:
-            print(f"[groq] {sector} failed ({e}); tone fallback")
-            out.update(_news_tone_by_sector(items))
-            for it in subset:
-                it["note"] = _tone_note(it["tone"], it["sector"])
-        for it in items[8:]:  # beyond the batch Groq saw -- still needs a note
-            it["note"] = _tone_note(it["tone"], it["sector"])
+        subset = items[:config.NEWS_PER_SECTOR]
+        score, parsed = _score_bucket(market_name, sector, [it["title"] for it in subset])
+        out[sector] = score
+        for it, (pol, note) in zip(subset, parsed):
+            it["tone"], it["note"] = pol, note
+        for it in subset[len(parsed):]:
+            it["note"] = "Model returned no read for this headline."
     return out
 
 
-MACRO_KEYWORDS = {
-    62: ["easing", "lift", "steadies", "resilient", "calm"],
-    38: ["tension", "conflict", "risk-off", "probe", "squeeze"],
-}
+def macro_explanation(market_score):
+    mood = "bullish" if market_score >= 60 else "bearish" if market_score <= 40 else "balanced"
+    return (f"Broad-market headlines scored {market_score}/100 by the model "
+            f"({mood}); this is the macro overlay.")
 
 
-def macro_score(macro_theme):
-    """Crude 0-100 macro overlay from the theme string (kept transparent)."""
-    t = macro_theme.lower()
-    for score, words in MACRO_KEYWORDS.items():
-        for w in words:
-            if w in t:
-                return score
-    return 50
-
-
-def macro_explanation(macro_theme):
-    """Which keyword (if any) actually drove macro_score, for the UI to show
-    its work rather than just asserting a number."""
-    t = macro_theme.lower()
-    for score, words in MACRO_KEYWORDS.items():
-        for w in words:
-            if w in t:
-                mood = "bullish" if score > 50 else "bearish"
-                return f'Matched keyword "{w}" in the macro theme → {mood} overlay ({score}).'
-    return "No strong macro keyword matched today's theme → neutral overlay (50)."
-
-
-def build_sentiment(companies, news_items, macro_theme):
-    """Combine news + macro into the per-company Sentiment Index."""
+def build_sentiment(market, companies, news_items):
+    """Combine sector news + broad-market read into the per-company index."""
     w = config.SENTIMENT_WEIGHTS
-    news_by_sector = news_scores(news_items)
-    macro = macro_score(macro_theme)
+    news_by_sector = news_scores(market, news_items)
+    macro = news_by_sector.get("Market")
+    if macro is None:
+        raise RuntimeError(f"{market}: no broad-market headlines were scored")
 
     enriched = []
     for c in companies:
-        # Fall back to the shared "Market" bucket (broad/unsectored
-        # headlines) before defaulting to a flat neutral 50 -- matches the
-        # same fallback sector_signals.py already uses. Without this, any
-        # sector with zero headlines tagged to it specifically (common even
-        # with real sector-tagging, since not every headline names a
-        # watchlist company) got a hardcoded neutral score instead of the
-        # genuinely-scored broad-market read.
-        news = news_by_sector.get(c["sector"])
-        if news is None:
-            news = news_by_sector.get("Market", 50)
+        news = news_by_sector.get(c["sector"], macro)  # no sector headlines -> market read
         index = round(w["news"] * news + w["macro"] * macro, 1)
         c = dict(c)
         c["sentiment_index"] = index
-        c["sentiment_breakdown"] = {
-            "news": round(news, 1),
-            "macro": round(macro, 1),
-        }
+        c["sentiment_breakdown"] = {"news": round(news, 1), "macro": round(macro, 1)}
         enriched.append(c)
     return enriched, macro
 

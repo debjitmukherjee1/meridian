@@ -42,7 +42,7 @@ def run_market(market, updated):
     news_items, macro_theme = fetch_news.fetch_all(market)
 
     companies, macro = score_sentiment.build_sentiment(
-        companies, news_items, macro_theme)
+        market, companies, news_items)
     companies = build_valuation.base_fair_value(companies)
     companies = build_valuation.sentiment_adjust(companies)
 
@@ -64,7 +64,7 @@ def run_market(market, updated):
     _write(mkt_dir, "sectors.json",
            {"updated_at": updated, "market": market, "index": config.MARKETS[market]["index"],
             "macro_theme": macro_theme, "macro_score": macro,
-            "macro_explanation": score_sentiment.macro_explanation(macro_theme),
+            "macro_explanation": score_sentiment.macro_explanation(macro),
             "sectors": sectors})
     _write(mkt_dir, "signals.json",
            {"updated_at": updated, "market": market,

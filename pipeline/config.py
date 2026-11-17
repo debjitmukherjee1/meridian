@@ -30,6 +30,7 @@ WATCHLISTS = {
         ("SUNPHARMA", "Sun Pharma",          "Healthcare"),
     ],
     "US": [
+        ("NVDA", "Nvidia",         "Technology"),
         ("AAPL", "Apple",          "Technology"),
         ("MSFT", "Microsoft",      "Technology"),
         ("JPM",  "JPMorgan Chase", "Financials"),
@@ -68,9 +69,65 @@ def sectors_for(market):
 # No retail-social component: StockTwits' public feed is now behind a
 # Cloudflare bot challenge, so this is a news+macro sentiment index.
 SENTIMENT_WEIGHTS = {
-    "news":  0.60,   # GDELT tone + Groq scoring
-    "macro": 0.40,   # GDELT geo-political / macro theme overlay
+    "news":  0.60,   # model score of the sector's own headlines
+    "macro": 0.40,   # model score of the market's broad headlines
 }
+
+# --- News (Google News RSS, per market) ------------------------------------
+# One broad "Market" query plus one query per watchlist sector. A headline's
+# sector is the query that found it. Queries are deliberately written in each
+# market's own vocabulary (Nifty IT, FPIs, Sensex; Wall Street, S&P 500 ...).
+NEWS_LOOKBACK_DAYS = 2
+NEWS_PER_SECTOR = 6
+NEWS_LOCALE = {
+    "IN": {"hl": "en-IN", "gl": "IN", "ceid": "IN:en"},
+    "US": {"hl": "en-US", "gl": "US", "ceid": "US:en"},
+    "UK": {"hl": "en-GB", "gl": "GB", "ceid": "GB:en"},
+    "JP": {"hl": "en-US", "gl": "US", "ceid": "US:en"},   # English coverage of Japan
+}
+NEWS_QUERIES = {
+    "IN": {
+        "Market": 'Sensex OR Nifty OR "Indian stocks" OR FPI OR "foreign investors" India',
+        "Technology": '"Nifty IT" OR "IT stocks" OR TCS OR Infosys OR "Indian IT"',
+        "Financials": '"Bank Nifty" OR "HDFC Bank" OR "ICICI Bank" OR "bank stocks" India',
+        "Energy": '"Reliance Industries" OR "oil marketing" OR "crude oil" India stocks',
+        "Consumer Discretionary": '"Tata Motors" OR "auto stocks" OR "auto sales" India',
+        "Consumer Staples": '"Hindustan Unilever" OR "FMCG stocks" OR FMCG India',
+        "Healthcare": '"pharma stocks" OR "Sun Pharma" OR "Nifty Pharma"',
+    },
+    "US": {
+        "Market": '"stock market" OR "S&P 500" OR "Wall Street" OR Nasdaq',
+        "Technology": 'Nvidia OR "AI stocks" OR "tech stocks" OR Microsoft OR Apple OR semiconductor',
+        "Financials": '"bank stocks" OR JPMorgan OR Visa OR "financial stocks"',
+        "Energy": '"oil prices" OR "energy stocks" OR ExxonMobil OR OPEC',
+        "Consumer Discretionary": 'Amazon OR "retail sales" OR "consumer spending" OR "retail stocks"',
+        "Consumer Staples": '"consumer staples" OR Coca-Cola OR PepsiCo OR "Procter & Gamble"',
+        "Healthcare": '"healthcare stocks" OR "pharma stocks" OR Pfizer OR FDA',
+    },
+    "UK": {
+        "Market": '"FTSE 100" OR "London stocks" OR "UK stocks"',
+        "Technology": 'Vodafone OR "UK tech stocks" OR BT Group',
+        "Financials": 'HSBC OR Lloyds OR Barclays OR "UK banks"',
+        "Energy": 'Shell OR BP OR "North Sea" oil',
+        "Consumer Staples": 'Unilever OR Diageo OR Tesco',
+        "Healthcare": 'AstraZeneca OR GSK',
+        "Materials": '"Rio Tinto" OR "mining stocks" OR Glencore OR Anglo American',
+    },
+    "JP": {
+        "Market": 'Nikkei OR "Japanese stocks" OR "Tokyo stocks" OR Topix',
+        "Technology": 'Sony OR SoftBank OR NTT OR "Japan chip stocks"',
+        "Financials": '"Mitsubishi UFJ" OR MUFG OR "Japanese banks" OR "Bank of Japan"',
+        "Consumer Discretionary": 'Toyota OR "Japanese automakers" OR Honda',
+        "Healthcare": 'Takeda OR "Japanese drugmakers"',
+        "Industrials": 'Hitachi OR "Japan industrial" OR Mitsubishi Heavy',
+        "Energy": '"Mitsubishi Corp" OR "Japan trading houses" OR LNG Japan',
+    },
+}
+
+# --- Groq models, tried in order (first that answers is used for the run) ---
+# llama-3.1-8b-instant was shut down for free/dev tiers on 16-Aug-2026
+# (console.groq.com/docs/deprecations); Groq's named replacement is gpt-oss-20b.
+GROQ_MODELS = ["openai/gpt-oss-20b", "openai/gpt-oss-120b"]
 
 # --- Valuation fusion ------------------------------------------------------
 SENTIMENT_TILT_K = 0.15

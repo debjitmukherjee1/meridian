@@ -6,8 +6,8 @@ Every source below sits inside a free tier that's large relative to our usage
 | Source | Purpose | Free limit | Key needed? | Docs |
 |---|---|---|---|---|
 | **Yahoo Finance** (unofficial quote API) | Prices + fundamentals, all 4 markets | Best-effort, no published quota | No | none published — see caveat below |
-| **GDELT** | News headlines, tone, macro/geo themes | Fully free | No | https://blog.gdeltproject.org/gdelt-doc-2-0-api-debuts/ |
-| **Groq (Llama 3.1 8B Instant)** | AI headline scoring | 14,400 req/day | Yes (`GROQ_KEY`) | https://console.groq.com/docs/api-reference |
+| **Google News RSS** (Bing News RSS fallback) | Per-market, per-sector headlines | Free | No | https://news.google.com/rss |
+| **Groq (openai/gpt-oss-20b, gpt-oss-120b fallback)** | Headline polarity, sector and market scores | 14,400 req/day | Yes (`GROQ_KEY`) | https://console.groq.com/docs/api-reference |
 | **World Bank API** | MacroLens: CPI, real GDP growth, unemployment — annual, all 4 markets | Fully free, no published quota | No | https://datahelpdesk.worldbank.org/knowledgebase/articles/889392 |
 | **Frankfurter** (ECB reference rates) | MacroLens: FX vs USD, daily, 1Y | Fully free | No | https://www.frankfurter.dev/ |
 | **FRED** (St. Louis Fed) | MacroLens: central-bank policy rate (US/UK/JP only — see caveat below) | Free, generous published limits | Yes (`FRED_KEY`) | https://fred.stlouisfed.org/docs/api/fred/ |
@@ -63,7 +63,7 @@ observation older than `FRED_MAX_STALENESS_DAYS` (180 days) and falls back to
   no primary to pair it with, and Reddit coverage for non-US small/mid-caps (India, UK,
   Japan watchlist names) is thin anyway. Dropped; Meridian is a news+macro sentiment
   index, not social.
-- **Paid sentiment aggregators** — unnecessary; Yahoo Finance + GDELT + Groq covers
+- **Paid sentiment aggregators** — unnecessary; Yahoo Finance + Google News + Groq covers
   the signal that's actually free to get, at $0.
 
 ## Keys as GitHub Actions secrets
