@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17 07:40 UTC",
+  "updated_at": "2026-11-17 07:48 UTC",
   "market": "JP",
   "items": [
     {
@@ -9,7 +9,7 @@
       "published": "2026-11-17 07:43 UTC",
       "sector": "Market",
       "tone": -4.0,
-      "note": "Nikkei falls below 59,000, sharp selloff signals strong bearish pressure."
+      "note": "Sharp selloff and Nikkei below 59,000 signals strong fear."
     },
     {
       "title": "Japan stocks lower at close of trade; Nikkei 225 down 1.23%",
@@ -18,7 +18,7 @@
       "published": "2026-11-17 07:18 UTC",
       "sector": "Market",
       "tone": -3.0,
-      "note": "Nikkei down 1.23%, indicating continued downside momentum."
+      "note": "Daily decline shows sustained bearish momentum."
     },
     {
       "title": "Kospi Slumps 2% Below 5,000, Nikkei Drops for Fourth Day; Kioxia Plunges Over 5%, Samsung and SoftBank Fall Over 3%",
@@ -26,8 +26,8 @@
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOTno4Z1VJZEt1VmRDTENjZlNZa01xaHlOdTBmV2R6NF9KWF9mSFlqa3BlVTBQWGtldXlaN04wclVONmF3YVQ3VHZSTnY0SGpqVnBtZC1rTHlvSlkzeW5IYzRlOHhCQUpEUFlEX2FsZlFOVWxzS2FwbVk3RWh4UzF2dFpIbmNOWTZtcV9vWFVGMFV3bFFZbTNncjVkSjlZVHZJaDhpOWNZUXhQNEsxTkJ5Y3lYYVRLckhuMjlKNjVIZURjeVVMQ0owRDU5X0pJZ0c4aTBXSWpMYWcwaGkxR2Vv?oc=5",
       "published": "2026-11-17 07:11 UTC",
       "sector": "Market",
-      "tone": -5.0,
-      "note": "Multiple major stocks plunge, reinforcing a broad market selloff."
+      "tone": -4.0,
+      "note": "Cross\u2011market slump and major names falling amplify panic."
     },
     {
       "title": "Japan shares lower at close of trade; Nikkei 225 down 1.23% By Investing.com",
@@ -36,7 +36,7 @@
       "published": "2026-11-17 07:08 UTC",
       "sector": "Market",
       "tone": -3.0,
-      "note": "Repeated 1.23% decline shows persistent bearish trend."
+      "note": "Repeated losses reinforce negative outlook."
     },
     {
       "title": "Japan shares lower at close of trade; Nikkei 225 down 1.23%",
@@ -45,16 +45,16 @@
       "published": "2026-11-17 07:00 UTC",
       "sector": "Market",
       "tone": -3.0,
-      "note": "Duplicate bearish close confirms ongoing negative sentiment."
+      "note": "Consistent downtrend confirms bearish sentiment."
     },
     {
-      "title": "[Tokyo Stocks] Extend losses as uncertainty over AI outlook weighs on market (17th)",
-      "source": "Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQa0dtWXgwbVQ1WG5WQ21UcWR2VmtZRlpXUUZhR2JzRVFKODJPWGR6MGtPZjB5YU9YcjM2dlRCTndaTFVvZ1JhUEpqMHl0eTdpVjd2Mm10YWFJdnAwZTFTcF9aaUtQQzhpc21ncHZteFhkQWU2LVhSX3l3U0ZrRUNWemp6VU05Ym1tWUFqUXpXaDZoQXo5UkdmaUFBTno5akZhMnNrTG9TTllmbG1v?oc=5",
-      "published": "2026-11-17 06:44 UTC",
+      "title": "Japan's Nikkei slips as investors shun risk ahead of Nvidia earnings",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVmItcGk5RzNpN2RnSnRiVUFhRFVLVExleFNleW5YZ1FwWW1QMEI3aHdKelJKNGt0QUk1NXluZVZsNkNGY3liZDMwZUF3Y2Zub1lhOGtCQzR6Wk5aa055NTlCRHUwUl9oSklzX2lfSDBsbFF2UF93aVVwRlBjcjBfaFlRVU9rVmdaS0FkLWlXZEo0WS1kZWZUYWd4MGExYzVwYUdEQkk4UnBoYUxsb0xSRXpiZlZOVkxCUUpsbkk0VUtRSjJwUDU2R1A5TXVwZDM1V1Z1cw?oc=5",
+      "published": "2026-11-17 06:55 UTC",
       "sector": "Market",
-      "tone": -2.0,
-      "note": "AI outlook uncertainty adds to market caution, but not a decisive blow."
+      "tone": -3.0,
+      "note": "Risk aversion ahead of earnings fuels market retreat."
     },
     {
       "title": "Softbank Hawks announce spring camp schedule | Pacific League.com | Professional baseball",
@@ -63,7 +63,7 @@
       "published": "2026-11-17 07:15 UTC",
       "sector": "Technology",
       "tone": 0.0,
-      "note": "Baseball news unrelated to tech"
+      "note": "Baseball schedule, unrelated to tech."
     },
     {
       "title": "Softbank Hawks players Stewart, Rutledge, Hernandez, Rodriguez, and Downs have become free agents.",
@@ -72,7 +72,7 @@
       "published": "2026-11-17 07:15 UTC",
       "sector": "Technology",
       "tone": 0.0,
-      "note": "Player free agency unrelated to tech"
+      "note": "Player free agency, no tech impact."
     },
     {
       "title": "NTT Data launches gen AI service to modernise legacy COBOL systems",
@@ -80,8 +80,8 @@
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYzBZaXZQR3BmMmZ3UFBISm1aMHdZQ3FHMlRnbXpFSEZUM0lvRE9uRVRjdTNkem1qNHZzdUZZa2daTG9tWDg4S2dMMGVCclZuc2trdUtfSVJVUGdSVE1TcGpsU2FLWkZ5dVBaWnAxakJBRUFFVFp0QnpGRWZjbTd5WVJKRDl5VldIRThrZnZIdmZWY2ZGdnRRQTdmY1lqN1hQWGdEb1dQWko5SXlqQ3c?oc=5",
       "published": "2026-11-17 06:26 UTC",
       "sector": "Technology",
-      "tone": 3.0,
-      "note": "AI service modernizes legacy systems, positive tech impact"
+      "tone": 4.0,
+      "note": "NTT Data AI service modernizes legacy systems, boosts tech confidence."
     },
     {
       "title": "SoftBank, Grab, PETROS to Develop AI Infrastructure in Sarawak",
@@ -89,8 +89,8 @@
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQV1hXT2FFRkpxcnltbXdiZEJNRC1NUWowOHdocnFOZ1pJQjhXRmpEazZrcnlrbmNtejBnNlhRX2o1UVFZd1RSc05LdXh2aEVFXzBURC1uSVViY0tMSm9qSWZyR3Y5RHNFc1V3TDRCTnR6aktYREhmazZYYmxmLVVlX0FCaDdiQzAxMFE3ZUd2SlNVdDlpY1RIUDRJZzJqdGo0dkw4TzJ1NzNhajE2UXdMTUVzNDJfYWVGYTN3?oc=5",
       "published": "2026-11-17 06:24 UTC",
       "sector": "Technology",
-      "tone": 2.0,
-      "note": "AI infrastructure development boosts tech ecosystem"
+      "tone": 3.0,
+      "note": "SoftBank AI infrastructure in Sarawak signals growth."
     },
     {
       "title": "SoftBank Corp. to Showcase AI Technologies and Solutions for Global Telecommunications Carriers at MWC27 Barcelona",
@@ -99,7 +99,7 @@
       "published": "2026-11-17 06:06 UTC",
       "sector": "Technology",
       "tone": 4.0,
-      "note": "Showcase AI tech at MWC signals strong tech focus"
+      "note": "Showcase at MWC27 highlights tech leadership."
     },
     {
       "title": "NTT West partners Kyoto University to develop physical AI training programme",
@@ -108,7 +108,7 @@
       "published": "2026-11-17 06:05 UTC",
       "sector": "Technology",
       "tone": 3.0,
-      "note": "University partnership enhances AI research and talent"
+      "note": "NTT West partnership with Kyoto University fosters AI research."
     },
     {
       "title": "Middle East",
@@ -116,17 +116,8 @@
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE14ZWt2eUVPaHlqV0VwakUwMzlUMmhUM3Ywc2owN0x0X2J5N1hhQng0UUhFOGhYUzZ2T2FQeTltT21KMGFoZXBaNjZhUDREOHVvQ2dpZTY4N2JJRXlvYXlyWlQtd2lGUTlseWEtTDRUYURiWWlNYnMzeWJ3?oc=5",
       "published": "2026-11-17 07:36 UTC",
       "sector": "Financials",
-      "tone": 0.0,
-      "note": "Middle East developments unrelated to Japanese financials."
-    },
-    {
-      "title": "Modernizing Overseas Core Banking Systems at Major Japanese Banks: A Five-Layer Architecture Blueprint for Modernization Alongside Legacy Systems | Insights | ABeam Consulting",
-      "source": "ABeam Consulting",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAybXpaUTVLMk1Ca3VpNXRTd241bVlpN3U1NUVQM1ZRRFFfQTYwNDdBaVptOE4ySEhaVllSWlFNN0ZNZmliWU1rYUFMY0hGd01vNGxF?oc=5",
-      "published": "2026-11-17 06:16 UTC",
-      "sector": "Financials",
-      "tone": 3.0,
-      "note": "Modernization boosts bank efficiency and competitiveness."
+      "tone": 2.0,
+      "note": "BOJ rate hike signals confidence in financial sector growth."
     },
     {
       "title": "The Bank of Japan will raise interest rates in December, despite the slowing economy.",
@@ -134,8 +125,17 @@
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQT2k4ME5IcmpMNTZhMVJXZEFCMmxpSnJNdHJUejg5OVk1UW9qbkhxWmRvU0FyUkVJbUR6TnJOb1hlRXNMVjJuMXpzOXlXczlrTll1cXNwdkNlZ1Q1NWZjME83Z3FxLVJKQ2ZpRkMtVDFvS3VUTVlPN2NGSVpVdGtxSlRCVGlYbVpfMDlEUHZsVC11b3VMOXc?oc=5",
       "published": "2026-11-17 03:09 UTC",
       "sector": "Financials",
-      "tone": 4.0,
-      "note": "BOJ rate hike supports bank profitability and lending."
+      "tone": -3.0,
+      "note": "BOJ rate hike amid slowing economy may pressure banks' profitability."
+    },
+    {
+      "title": "Modernizing Overseas Core Banking Systems at Major Japanese Banks: A Five-Layer Architecture Blueprint for Modernization Alongside Legacy Systems | Insights | ABeam Consulting Indonesia",
+      "source": "ABeam Consulting",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBIYmtHYWJENFlfOThNU2VYQ0RpTE1WQkx0VmloMTEwRU9LMERvbU8tZU5WazJtdVNjMEhBTFBNdG5KNU10ZlFmdkJ3WVlQam1uT2pr?oc=5",
+      "published": "2026-11-17 03:06 UTC",
+      "sector": "Financials",
+      "tone": 3.0,
+      "note": "Modernization blueprint boosts efficiency, attracting investors."
     },
     {
       "title": "Asian Currencies Likely to Be on 'Defensive', MUFG Bank Says -- Market Talk",
@@ -143,8 +143,8 @@
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZnAtVjhISU9KbTl4RUVaek04NFVaTFAxUFcwaDE0cmNPdnFzd3RwaWh1WjBoZTlBSDRzOWotSGtLX3ltNWhSek50TmUyaVFZZVhZekF2NjlGOHVyLWR2YURoVVUwTFhZbE1nRmhNVnJBUFJRb0RQdXlLTWQtUWtUYTFhd2VBbld6MUxhMG0wQ1l4SVZhaDRTMlBjYXFuZDh3b093?oc=5",
       "published": "2026-11-17 02:11 UTC",
       "sector": "Financials",
-      "tone": 1.0,
-      "note": "Defensive currencies may limit export earnings but support stability."
+      "tone": -2.0,
+      "note": "Defensive currencies hint at weaker yen, hurting export-oriented banks."
     },
     {
       "title": "Japan's Economy Minister Minoru Kiuchi Keeps Distance From BOJ Rate Hike Call, Citing July-September GDP Slowdown: \"Method Left to the Bank of Japan\"",
@@ -152,8 +152,8 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBMTVlLbS1IZ0JNam9fMGZneFFjMEVFVWRNQ19IcVg1VHdXSGhQcVhyRElaN0YydURvUnJYMWJjTWNnMWtTa2FsZ0NCMURUZ2VuSm9VREM5cnl6X3lFZEM2QjRidXVmY21jLXhMNy1EYnhkM1BkaUE?oc=5",
       "published": "2026-11-17 01:35 UTC",
       "sector": "Financials",
-      "tone": -2.0,
-      "note": "Minister\u2019s caution signals potential policy uncertainty."
+      "tone": -1.0,
+      "note": "Economy minister\u2019s caution may dampen market enthusiasm for banks."
     },
     {
       "title": "Asia FX Talk",
@@ -162,7 +162,7 @@
       "published": "2026-11-17 01:06 UTC",
       "sector": "Financials",
       "tone": 0.0,
-      "note": "Asia FX talk not directly tied to Japanese financial sector."
+      "note": "Middle East headline unrelated to Japanese financials."
     },
     {
       "title": "Toyota Mobility Foundation and MaRS Select Participants for Mobility Unlimited Hub Toronto\u2019s Third Cohort",
@@ -170,8 +170,8 @@
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1takg3VmVoUGs0WXVNak1UYW5PbEREM1FCeEd3VENRTkl1UXhKS3hpVUdMYlkxZVZqelpkTW52a1B5eEcwaWp3dlhFU1BtZlFHQTAtX1huU0ptZDVLUUZudg?oc=5",
       "published": "2026-11-17 07:35 UTC",
       "sector": "Consumer Discretionary",
-      "tone": 2.0,
-      "note": "Toyota\u2019s global mobility initiative signals innovation, boosting sector confidence."
+      "tone": 3.0,
+      "note": "Toyota\u2019s mobility hub signals innovation and future growth."
     },
     {
       "title": "Honda drops gas-only option for 2028 CR-V as hybrids already account for over half of sales",
@@ -179,8 +179,8 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1KR0JGTHRKcHdueDZQOWM2V2pJQVNrbm9sbTBKamhRc1I1QURmbnFPLUxSUUJKSFZ0LUJwa3Iwc2F6SXNCb1B5YkJ0TGk3T19uRUtpWVozbFA1cktraXlDclk3b3M4Y2JzOGFvbzJXemxBUG9iZkE?oc=5",
       "published": "2026-11-17 07:30 UTC",
       "sector": "Consumer Discretionary",
-      "tone": 3.0,
-      "note": "Honda\u2019s shift to hybrids reflects strong demand for eco-friendly vehicles."
+      "tone": 4.0,
+      "note": "Honda\u2019s shift to hybrids boosts eco\u2011friendly sales."
     },
     {
       "title": "UNA vs. BAMA at Toyota Field",
@@ -197,8 +197,8 @@
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMEhKRVpVNXBBWFZublNhMEp0TEFKX3NuYWRvT2Nhczg0SmNMUFc3OURUSnRGOFgwRENMR1p0eXRkeDc1OG5pb3dRYlpWdzNZeFgxR3MxZS1FVDJXNmViQ0xORFlBZ3p4bDVnekxWcWJGZTZuOWV1SUdFU3EtdVdTSk9KM2labVctTU1TVms3UkpOY0RLUGN5R21IY3dZVXRTdzhDaVQwbkp2Q0RSMnJN?oc=5",
       "published": "2026-11-17 04:55 UTC",
       "sector": "Consumer Discretionary",
-      "tone": -2.0,
-      "note": "Accident involving Toyota pickup raises safety concerns, slightly negative."
+      "tone": 0.0,
+      "note": "Accident unrelated to product performance."
     },
     {
       "title": "One dead, one seriously injured in three-vehicle fatal crash on Highway 101 near Warrenton",
@@ -206,8 +206,8 @@
       "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOVXA3RGk3Z2VpU0x3RU9fT2FPR2xtZXo3VHo5TDhkTElleGlMNDQ0M1FMdWsxOFJHNFVIZk1yVEFUQzU0c1g3Vnpnckt3UFBwcVdGQ2F5d0ROTTNJRHhXYVVFdF9xa3ppYTVOYXJmR0lLTnY1M09sTm1FOGZpOFlqdGg0VUFPNXc1WVFpaDJ0ZlRrSnJNbFRELU40Tjh5VlVSRXBtMW9DMTdndzlRcmwtSEtGZ1R2cXV1WVlwdFVxR3psV0NOenJnYkowMG14N0J3M3gydTNINElVRm5PTWZ0a1NOeEpKSEJsZFA1aGUtZ3RTTlJ3ZGRGWXhicExCd3NvQmJSTVppZ0w1YmRSeUxYdEtfZ2Fla1lFb3M3NXFFWQ?oc=5",
       "published": "2026-11-17 04:35 UTC",
       "sector": "Consumer Discretionary",
-      "tone": -1.0,
-      "note": "General traffic crash, minimal impact on sector sentiment."
+      "tone": 0.0,
+      "note": "Accident unrelated to product performance."
     },
     {
       "title": "8 SUVs You Have To See If You Love The Honda Passport",
@@ -216,7 +216,7 @@
       "published": "2026-11-17 03:30 UTC",
       "sector": "Consumer Discretionary",
       "tone": 2.0,
-      "note": "Honda Passport SUV showcase highlights product appeal, supporting sales outlook."
+      "note": "Positive coverage of Honda SUV lineup encourages buyers."
     },
     {
       "title": "Takeda and Zuellig Pharma Partner to Expand Medicine Access Across Three Southeast Asian Markets",
@@ -225,7 +225,7 @@
       "published": "2026-11-17 07:32 UTC",
       "sector": "Healthcare",
       "tone": 3.0,
-      "note": "Takeda partners to broaden medicine access in Southeast Asia."
+      "note": "Strategic partnership expands market reach, boosting revenue potential."
     },
     {
       "title": "\"Three Reasons Why Korea Cannot Beat Japan\": Japanese Media Offers Harsh Criticism, with Some Points Worth Heeding",
@@ -234,7 +234,7 @@
       "published": "2026-11-17 07:00 UTC",
       "sector": "Healthcare",
       "tone": 0.0,
-      "note": "Korean media criticism unrelated to healthcare."
+      "note": "No direct impact on healthcare sector."
     },
     {
       "title": "Japan's NTT Docomo Hit by Third Network Outage This Month; Communications Minister Takeda Calls It 'Deeply Regrettable,' Demands Root-Cause Probe",
@@ -242,8 +242,8 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5QZTFWVnRGN2lDWnh5a0VpUURSd2NzWEw0VVRTOEdabFRsZldpa1d0UmdZTDdKX3BNRDRpajNxbEtHSVdrUVBucXZhaXdlNHdxMTFDbktHSWNrSlFzRnR3a3o3ZTZZek1rZEQxSUQ0MkxBUU9TcUE?oc=5",
       "published": "2026-11-17 03:36 UTC",
       "sector": "Healthcare",
-      "tone": 0.0,
-      "note": "NTT Docomo outage unrelated to healthcare."
+      "tone": -2.0,
+      "note": "Network outage may erode trust, but limited to telecom."
     },
     {
       "title": "Kobe Beef Hamburg Steaks at This Price? What Makes Takeda\u2019s Hamburg Steak Restaurant in Himeji Special",
@@ -252,7 +252,7 @@
       "published": "2026-11-17 02:59 UTC",
       "sector": "Healthcare",
       "tone": 0.0,
-      "note": "Kobe beef restaurant unrelated to healthcare."
+      "note": "Restaurant business unrelated to pharma."
     },
     {
       "title": "Crypto-Stealing Malware Distributed on 178 Sites Including CNN, BBC; Takeda Pharmaceutical Also Affected",
@@ -260,17 +260,17 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9ZSXVsMmREcFN0UnY5ZmpqTTZwOVBaQWRicjZFTmUwektUTUxIanh2b2RvNVR2VXU2VGlKNVNud3BOZVh1SElQeEdSNXRKVkFsQjZfaTNMdmVnWWU2Z0xCUUlzMWEzMUlUVUNzcWE1aFctaXZiVXc?oc=5",
       "published": "2026-11-17 01:36 UTC",
       "sector": "Healthcare",
-      "tone": -4.0,
-      "note": "Malware hit Takeda, harming pharma reputation."
+      "tone": -3.0,
+      "note": "Malware attack damages brand reputation and operational security."
     },
     {
-      "title": "Takeda Pharmaceutical Co (4502) Q3 2025 Earnings Report - Results, Call & Slides",
-      "source": "TipRanks",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBCdEcxS1U1bHpFRldubDdXbVRtZ3JReTFGcUJwMERkNnVzRWtEZjR2Y0hXOWt2SENBMUhRSDA3bGZnTHJhemRrWm5pZDQtQzQwQ2V4VDNDeW5IMERyQUJKQ3FnN0o0VEg2YWhWenR0R00?oc=5",
-      "published": "2026-11-17 00:49 UTC",
+      "title": "DEA Puts Narcolepsy Pill Orzeyful in Schedule IV as Takeda Launches It in U.S. at $16,500 per Bottle",
+      "source": "Medical Daily",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOYndyWkZjZFRmOWM3Uk9Yem9RQWxuM0dlbUVKaVRoMjNWeTV0VnhiNEV5NElHSnF4S0RkOWI2bGJhNDh4MDRINTBpS3ZHQUtva3lWbkRzODdCX2FPQzljbm0xcnhfY3BQcFBEaU8yX3lMTWZjLUFMclhJQW51cGVVS19KMGdSRDRxMjRDag?oc=5",
+      "published": "2026-11-16 23:34 UTC",
       "sector": "Healthcare",
-      "tone": 3.0,
-      "note": "Q3 earnings show strong performance for Takeda."
+      "tone": 2.0,
+      "note": "New drug launch increases portfolio, though high price may limit uptake."
     },
     {
       "title": "Mitsubishi Shipbuilding acquires certification from WinGD for MAmmoSS\u00ae ammonia fuel handling system",
@@ -296,8 +296,8 @@
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSTl5ZE95QVBydjVNQW5DVjNsZF9TNzNYZUE1REpDcHctd0w0cnA4ZzJqeGlTM19ldUFWbjJObTNWNm5KRXBWQWV3U1FaYzBWUTNoRUpkbG9aeE1oSkhPelFSbjgyTUdna2g0RzhMWEFibUxJenJ5c3ZFV3k5NDhNN3lyZ2ZTd2ZoWDloUFZJYUI2bjBkblF3VTlMOGNpdTFqZkQ5SlFWWGE0UGpUYld3U1o1blhwVFJEQTZuQjRpZ3dNT244cGw4aUVlWjEwMzBf?oc=5",
       "published": "2026-11-16 23:31 UTC",
       "sector": "Industrials",
-      "tone": 2.0,
-      "note": "Growth forecast supports seismic retrofitting and automotive demand."
+      "tone": 4.0,
+      "note": "Vibration dampers market growth signals strong industrial demand."
     },
     {
       "title": "Mitsubishi Power Americas Opens New Headquarters in Lake Mary, Florida",
@@ -305,8 +305,8 @@
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdExTYVNHM3JFVHZna3FmQXJjNkZFOWhhT0Q3X2N3TlgxM0c1bU8tZFBteW9Hb3ZQTThrVVpIQWpNZmh1VlUyVzJLQjNmZldwYlpsSW54SWpRLTM2b3ZrbTRzOVFBLXFueUh3bC1UeS1EUHBSd3V6R0NjVHlxY05NTHVycnRMbmh5YjM1ekNOQTliSi1jdUgyWlV6Zm9OYTVKUlkzYzlaMDJkN0VRVTVRdEVfWmNNSi1sQXFSb2RVemZGMTVV?oc=5",
       "published": "2026-11-16 20:00 UTC",
       "sector": "Industrials",
-      "tone": 3.0,
-      "note": "New HQ signals Mitsubishi Power\u2019s expansion and investment."
+      "tone": 2.0,
+      "note": "New HQ shows Mitsubishi Power\u2019s expansion confidence."
     },
     {
       "title": "WPP Wins Creative Mandate For Bosch & Hitachi AC Brands In India: Report",
@@ -315,7 +315,7 @@
       "published": "2026-11-16 19:59 UTC",
       "sector": "Industrials",
       "tone": 0.0,
-      "note": "WPP creative mandate unrelated to industrial operations."
+      "note": "WPP contract unrelated to Japanese industrial sector."
     },
     {
       "title": "AI, manufacturing boom fuels Mitsubishi Power's local expansion",
@@ -324,7 +324,7 @@
       "published": "2026-11-16 18:50 UTC",
       "sector": "Industrials",
       "tone": 3.0,
-      "note": "AI manufacturing boom drives Mitsubishi Power\u2019s local expansion."
+      "note": "AI-driven manufacturing fuels Mitsubishi Power\u2019s local growth."
     },
     {
       "title": "AVDV: Macro Factors May Pressure International Small-Caps",
@@ -332,8 +332,8 @@
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxORGdOUmN5TXVlUUhjVEFyNTZjUFpIaVpQZEsyNk15Z3VQdkNyM29KX3U3R0JUWXNNM3Z0ZDNkM0oxY2FYSTh0OFU3U1BtVFUxeURESXU4ODVKVDV4Wks1WkFrYlFYVHlpNWsxUnExTDR1TGRjUDNRZmlPSVBsWWEzSWVjdlJmS0MtcThYUTBMWU1aajl2bFo2UHNzY1RIdw?oc=5",
       "published": "2026-11-17 06:54 UTC",
       "sector": "Energy",
-      "tone": 2.0,
-      "note": "Positive LNG projects boost demand."
+      "tone": -2.0,
+      "note": "Small-cap pressure signals weaker growth prospects."
     },
     {
       "title": "PNG Moves Papua LNG Project Closer to Construction Following Fiscal Agreement",
@@ -342,7 +342,7 @@
       "published": "2026-11-17 02:27 UTC",
       "sector": "Energy",
       "tone": 3.0,
-      "note": "Construction move signals strong project pipeline."
+      "note": "LNG project move boosts regional supply and investment."
     },
     {
       "title": "LNG Canada Exports Hit 1 Million Metric Tons for First Time in Single Month",
@@ -351,7 +351,7 @@
       "published": "2026-11-17 00:38 UTC",
       "sector": "Energy",
       "tone": 4.0,
-      "note": "Record exports indicate robust market."
+      "note": "Record exports highlight strong demand and price stability."
     },
     {
       "title": "LNG Bunker Prices: Rotterdam Falls to $1,630/mt as Singapore Swings to $41 Discount - News and Statistics",
@@ -359,8 +359,8 @@
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYm5Ed2N0Mk1IaXAyVHBQLXlSVTV3eEIteHMwU1FNNGJIdXdsVDJJVjhfNXhaUkJqaUlJTVA1TmNjU29GRlltYmhfLVZNT0ZBS2RZdy1JMk05dHNkeklWZG01TFdsNFN2LTZ5aFZmZjFpMmd3bjZNRHN5V3dxOXg4b3ZXN1ZfRy1yVFBYWVAzY2lRbXVKaHhBdHZLS1c1Zw?oc=5",
       "published": "2026-11-17 00:31 UTC",
       "sector": "Energy",
-      "tone": 1.0,
-      "note": "Price drop may hurt margins but signals demand."
+      "tone": -1.0,
+      "note": "Bunker price drop may pressure LNG revenue streams."
     },
     {
       "title": "LNG Canada Phase Two Draws Closer",
@@ -369,7 +369,7 @@
       "published": "2026-11-17 00:13 UTC",
       "sector": "Energy",
       "tone": 3.0,
-      "note": "Phase two progress supports future supply."
+      "note": "Phase two progress signals continued LNG expansion."
     },
     {
       "title": "Mitsui Seeks LNG Investments to Meet Power Demand From Data Centers, Bloomberg News Reports",
@@ -378,7 +378,7 @@
       "published": "2026-11-17 00:13 UTC",
       "sector": "Energy",
       "tone": 4.0,
-      "note": "Mitsui investment shows confidence in LNG growth."
+      "note": "Mitsui's investment push supports domestic LNG demand growth."
     }
   ]
 }

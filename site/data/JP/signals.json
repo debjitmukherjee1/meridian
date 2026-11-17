@@ -1,42 +1,52 @@
 {
-  "updated_at": "2026-11-17 07:40 UTC",
+  "updated_at": "2026-11-17 07:48 UTC",
   "market": "JP",
   "macro_theme": "Consumer demand signals dominate headlines",
   "signals": [
     {
       "sector": "Consumer Discretionary",
       "read": "Neutral",
-      "score": 53,
+      "score": 55,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Weak demand for consumer discretionary goods in Japan, driven by economic uncertainty and a shift toward hybrid vehicles, is weighing on the sector.",
+          "text": "Risk\u2011aversion in Japan has dampened consumer discretionary demand, contributing to the sector\u2019s bullish sentiment.",
           "forecast": {
-            "low": 2.7,
-            "high": 5.8,
+            "low": 2.8,
+            "high": 6.1,
             "direction": "+",
-            "text": "+2.7% to +5.8%"
+            "text": "+2.8% to +6.1%"
           }
         },
         {
           "role": "supporting",
-          "text": "Uncertainty over AI outlook is contributing to broader market selloffs, dampening consumer confidence.",
+          "text": "Japan stocks fell 1.23% as investors shunned risk ahead of Nvidia earnings, signalling a broader market pullback.",
           "forecast": {
-            "low": 2.7,
-            "high": 5.8,
+            "low": 2.8,
+            "high": 6.1,
             "direction": "+",
-            "text": "+2.7% to +5.8%"
+            "text": "+2.8% to +6.1%"
           }
         },
         {
           "role": "supporting",
-          "text": "The shift to hybrids has led Honda to drop the gas-only option for the 2028 CR\u2011V, signaling reduced demand for traditional gasoline vehicles.",
+          "text": "The Nikkei\u2019s sharp selloff and continued decline for four days reflect heightened risk\u2011off sentiment in the region.",
           "forecast": {
-            "low": 2.7,
-            "high": 5.8,
+            "low": 2.8,
+            "high": 6.1,
             "direction": "+",
-            "text": "+2.7% to +5.8%"
+            "text": "+2.8% to +6.1%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Tech names such as Kioxia, Samsung and SoftBank dropped over 3%, underscoring the weakness in related consumer discretionary segments.",
+          "forecast": {
+            "low": 2.8,
+            "high": 6.1,
+            "direction": "+",
+            "text": "+2.8% to +6.1%"
           }
         }
       ]
@@ -44,133 +54,123 @@
     {
       "sector": "Energy",
       "read": "Neutral",
-      "score": 58,
+      "score": 48,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
           "text": "The construction of the Papua LNG project is expected to boost the Energy sector.",
           "forecast": {
-            "low": 2.9,
-            "high": 7.0,
-            "direction": "+",
-            "text": "+2.9% to +7.0%"
+            "low": 2.6,
+            "high": 6.2,
+            "direction": "-",
+            "text": "-2.6% to -6.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "The project moves closer to construction following a fiscal agreement, signaling a demand shock for LNG.",
+          "text": "Risk\u2011averse sentiment in Japan and Korea is weighing on energy stocks, reflecting broader market caution.",
           "forecast": {
-            "low": 2.9,
-            "high": 7.0,
-            "direction": "+",
-            "text": "+2.9% to +7.0%"
+            "low": 2.6,
+            "high": 6.2,
+            "direction": "-",
+            "text": "-2.6% to -6.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "The fiscal agreement provides a financial framework that supports the project\u2019s development.",
+          "text": "Macro factors may pressure international small\u2011caps, adding uncertainty to the sector.",
           "forecast": {
-            "low": 2.9,
-            "high": 7.0,
-            "direction": "+",
-            "text": "+2.9% to +7.0%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "The project\u2019s initiation is likely to increase upstream activity and related services in the sector.",
-          "forecast": {
-            "low": 2.9,
-            "high": 7.0,
-            "direction": "+",
-            "text": "+2.9% to +7.0%"
+            "low": 2.6,
+            "high": 6.2,
+            "direction": "-",
+            "text": "-2.6% to -6.2%"
           }
         }
       ]
     },
     {
       "sector": "Financials",
-      "read": "Neutral",
-      "score": 53,
+      "read": "Bearish",
+      "score": 36,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Japan\u2019s financial sector is experiencing a broad sell\u2011off driven by heightened uncertainty over AI developments and regional geopolitical tensions.",
+          "text": "Risk\u2011aversion driven by a demand shock and an upcoming BOJ rate hike is weighing on the Financials sector.",
           "forecast": {
-            "low": 1.6,
-            "high": 3.7,
-            "direction": "+",
-            "text": "+1.6% to +3.7%"
+            "low": 1.9,
+            "high": 4.5,
+            "direction": "-",
+            "text": "-1.9% to -4.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "AI outlook uncertainty has weighed on investor sentiment, contributing to Nikkei declines.",
+          "text": "Japan\u2019s Nikkei fell 1.23% as investors shunned risk ahead of Nvidia earnings",
           "forecast": {
-            "low": 1.6,
-            "high": 3.7,
-            "direction": "+",
-            "text": "+1.6% to +3.7%"
+            "low": 1.9,
+            "high": 4.5,
+            "direction": "-",
+            "text": "-1.9% to -4.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "Regional tensions in the Middle East have amplified risk aversion, further pressuring Japanese equities.",
+          "text": "The Bank of Japan plans to raise rates in December despite a slowing economy",
           "forecast": {
-            "low": 1.6,
-            "high": 3.7,
-            "direction": "+",
-            "text": "+1.6% to +3.7%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Ongoing modernization of core banking systems at major Japanese banks signals structural shifts that may affect short\u2011term earnings outlooks.",
-          "forecast": {
-            "low": 1.6,
-            "high": 3.7,
-            "direction": "+",
-            "text": "+1.6% to +3.7%"
+            "low": 1.9,
+            "high": 4.5,
+            "direction": "-",
+            "text": "-1.9% to -4.5%"
           }
         }
       ]
     },
     {
       "sector": "Healthcare",
-      "read": "Neutral",
-      "score": 53,
+      "read": "Bearish",
+      "score": 37,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Uncertainty over AI developments is weighing on Japanese healthcare stocks, dampening investor sentiment.",
+          "text": "Risk\u2011aversion driven selloffs in Japan and Korea are dragging the Healthcare sector down.",
           "forecast": {
-            "low": 1.1,
-            "high": 2.7,
-            "direction": "+",
-            "text": "+1.1% to +2.7%"
+            "low": 1.3,
+            "high": 3.1,
+            "direction": "-",
+            "text": "-1.3% to -3.1%"
           }
         },
         {
           "role": "supporting",
-          "text": "Takeda\u2019s partnership with Zuellig Pharma to expand medicine access in Southeast Asia could provide a long\u2011term growth catalyst for the sector.",
+          "text": "Japan\u2019s Nikkei fell sharply as investors shunned risk ahead of Nvidia earnings, reflecting broader market volatility.",
           "forecast": {
-            "low": 1.1,
-            "high": 2.7,
-            "direction": "+",
-            "text": "+1.1% to +2.7%"
+            "low": 1.3,
+            "high": 3.1,
+            "direction": "-",
+            "text": "-1.3% to -3.1%"
           }
         },
         {
           "role": "supporting",
-          "text": "The broader sell\u2011off in Japanese equities, reflected in the Nikkei\u2019s decline, has pressured healthcare names alongside other sectors.",
+          "text": "The sector\u2019s demand shock is compounded by a regional selloff, with the Kospi and Nikkei both dropping over 2% in a single day.",
           "forecast": {
-            "low": 1.1,
-            "high": 2.7,
-            "direction": "+",
-            "text": "+1.1% to +2.7%"
+            "low": 1.3,
+            "high": 3.1,
+            "direction": "-",
+            "text": "-1.3% to -3.1%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "A partnership between Takeda and Zuellig Pharma to expand medicine access in Southeast Asia offers a limited counterbalance to the negative sentiment.",
+          "forecast": {
+            "low": 1.3,
+            "high": 3.1,
+            "direction": "-",
+            "text": "-1.3% to -3.1%"
           }
         }
       ]
@@ -178,37 +178,37 @@
     {
       "sector": "Industrials",
       "read": "Neutral",
-      "score": 53,
+      "score": 46,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Broad selloff in Japanese industrial stocks driven by uncertainty over AI developments and recent tech disruptions.",
+          "text": "Risk\u2011aversion around Nvidia earnings has driven a sharp sell\u2011off in the Japanese industrials sector, dragging the Nikkei 225 below 59,000.",
           "forecast": {
-            "low": 2.1,
-            "high": 4.8,
-            "direction": "+",
-            "text": "+2.1% to +4.8%"
+            "low": 2.2,
+            "high": 4.9,
+            "direction": "-",
+            "text": "-2.2% to -4.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "AI outlook uncertainty weighing on market sentiment",
+          "text": "Mitsubishi Shipbuilding\u2019s acquisition of a WinGD certification for its MAmmoSS\u00ae ammonia fuel handling system signals a shift toward green propulsion in the shipbuilding industry.",
           "forecast": {
-            "low": 2.1,
-            "high": 4.8,
-            "direction": "+",
-            "text": "+2.1% to +4.8%"
+            "low": 2.2,
+            "high": 4.9,
+            "direction": "-",
+            "text": "-2.2% to -4.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "Recent hacking incidents at major automotive and tech firms raising security concerns",
+          "text": "Japan\u2019s supercomputer \u2018Fugaku\u2019 was hacked, raising concerns over data security for major automakers such as Toyota, Honda and Mitsubishi, adding to investor caution.",
           "forecast": {
-            "low": 2.1,
-            "high": 4.8,
-            "direction": "+",
-            "text": "+2.1% to +4.8%"
+            "low": 2.2,
+            "high": 4.9,
+            "direction": "-",
+            "text": "-2.2% to -4.9%"
           }
         }
       ]
@@ -216,37 +216,47 @@
     {
       "sector": "Technology",
       "read": "Neutral",
-      "score": 53,
+      "score": 58,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Uncertainty over AI outlook has driven a sharp selloff in Japanese technology stocks, dragging the Nikkei 225 and key tech names lower.",
+          "text": "Risk\u2011aversion pressure on Japanese technology stocks has driven a sharp selloff in the sector.",
           "forecast": {
-            "low": 2.1,
-            "high": 4.8,
+            "low": 2.3,
+            "high": 5.2,
             "direction": "+",
-            "text": "+2.1% to +4.8%"
+            "text": "+2.3% to +5.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "Nikkei 225 fell 1.23% amid the selloff, with the index dropping below 59,000 for the first time in months.",
+          "text": "Nikkei 225 fell 1.23% as investors shunned risk ahead of Nvidia earnings",
           "forecast": {
-            "low": 2.1,
-            "high": 4.8,
+            "low": 2.3,
+            "high": 5.2,
             "direction": "+",
-            "text": "+2.1% to +4.8%"
+            "text": "+2.3% to +5.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "Kioxia shares plunged over 5%, while Samsung and SoftBank fell more than 3%, reflecting broader tech sector weakness.",
+          "text": "Kioxia, Samsung and SoftBank shares dropped more than 3% in the broader selloff",
           "forecast": {
-            "low": 2.1,
-            "high": 4.8,
+            "low": 2.3,
+            "high": 5.2,
             "direction": "+",
-            "text": "+2.1% to +4.8%"
+            "text": "+2.3% to +5.2%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "The Nikkei fell below 59,000, marking a fourth consecutive day of declines",
+          "forecast": {
+            "low": 2.3,
+            "high": 5.2,
+            "direction": "+",
+            "text": "+2.3% to +5.2%"
           }
         }
       ]

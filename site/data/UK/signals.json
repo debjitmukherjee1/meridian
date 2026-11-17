@@ -1,252 +1,242 @@
 {
-  "updated_at": "2026-11-17 07:40 UTC",
+  "updated_at": "2026-11-17 07:48 UTC",
   "market": "UK",
   "macro_theme": "Consumer demand signals dominate headlines",
   "signals": [
     {
       "sector": "Consumer Staples",
-      "read": "Bullish",
-      "score": 62,
+      "read": "Neutral",
+      "score": 57,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
           "text": "Seasonal demand surge from supermarkets launching a Christmas toy collection is driving the Consumer Staples sector higher.",
           "forecast": {
-            "low": 1.2,
-            "high": 3.1,
+            "low": 1.1,
+            "high": 2.9,
             "direction": "+",
-            "text": "+1.2% to +3.1%"
+            "text": "+1.1% to +2.9%"
           }
         },
         {
           "role": "supporting",
           "text": "Diageo\u2019s first\u2011quarter sales growth and board refresh are adding positive momentum to the sector\u2019s valuation outlook.",
           "forecast": {
-            "low": 1.2,
-            "high": 3.1,
+            "low": 1.1,
+            "high": 2.9,
             "direction": "+",
-            "text": "+1.2% to +3.1%"
+            "text": "+1.1% to +2.9%"
           }
         }
       ]
     },
     {
       "sector": "Energy",
-      "read": "Bullish",
-      "score": 62,
+      "read": "Neutral",
+      "score": 43,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Shell\u2019s commencement of gas production from the Rosmari\u2011Marjoram fields offshore Malaysia boosts the Energy sector\u2019s supply outlook.",
+          "text": "The Energy sector remains bearish as a demand shock event outweighs the positive impact of new gas production from Shell\u2019s Rosmari-Marjoram fields.",
           "forecast": {
-            "low": 3.1,
-            "high": 7.4,
-            "direction": "+",
-            "text": "+3.1% to +7.4%"
+            "low": 2.9,
+            "high": 6.8,
+            "direction": "-",
+            "text": "-2.9% to -6.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "The new fields add significant natural gas output to the global supply chain.",
+          "text": "The demand shock has reduced overall consumption expectations for energy commodities.",
           "forecast": {
-            "low": 3.1,
-            "high": 7.4,
-            "direction": "+",
-            "text": "+3.1% to +7.4%"
+            "low": 2.9,
+            "high": 6.8,
+            "direction": "-",
+            "text": "-2.9% to -6.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "Shell\u2019s expansion into Malaysian gas diversifies its portfolio and strengthens its upstream position.",
+          "text": "Shell\u2019s commencement of gas production adds supply capacity but is insufficient to offset the demand decline.",
           "forecast": {
-            "low": 3.1,
-            "high": 7.4,
-            "direction": "+",
-            "text": "+3.1% to +7.4%"
+            "low": 2.9,
+            "high": 6.8,
+            "direction": "-",
+            "text": "-2.9% to -6.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "The additional supply is likely to provide short\u2011term price support amid current demand\u2011shock\u2011driven bullish sentiment.",
+          "text": "Oil prices fell following Asian market declines, further dampening sector sentiment.",
           "forecast": {
-            "low": 3.1,
-            "high": 7.4,
-            "direction": "+",
-            "text": "+3.1% to +7.4%"
+            "low": 2.9,
+            "high": 6.8,
+            "direction": "-",
+            "text": "-2.9% to -6.8%"
           }
         }
       ]
     },
     {
       "sector": "Financials",
-      "read": "Bullish",
-      "score": 62,
+      "read": "Neutral",
+      "score": 48,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "AI\u2011driven domestic growth outlook is the primary catalyst lifting the Financials sector.",
+          "text": "Global tech sell\u2011off is dragging the FTSE 100 lower, offsetting gains from AI\u2011driven domestic growth outlook.",
           "forecast": {
-            "low": 1.9,
-            "high": 4.3,
-            "direction": "+",
-            "text": "+1.9% to +4.3%"
+            "low": 1.6,
+            "high": 3.6,
+            "direction": "-",
+            "text": "-1.6% to -3.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "UK stocks attracted by AI\u2011boosted growth prospects, supporting banks and insurers",
+          "text": "FTSE 100 set to fall as global tech sell\u2011off deepens ahead of Nvidia earnings",
           "forecast": {
-            "low": 1.9,
-            "high": 4.3,
-            "direction": "+",
-            "text": "+1.9% to +4.3%"
+            "low": 1.6,
+            "high": 3.6,
+            "direction": "-",
+            "text": "-1.6% to -3.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Global tech sell\u2011off has reduced pressure on financials, improving relative valuation",
+          "text": "UK markets open lower as dollar weighs on metals",
           "forecast": {
-            "low": 1.9,
-            "high": 4.3,
-            "direction": "+",
-            "text": "+1.9% to +4.3%"
+            "low": 1.6,
+            "high": 3.6,
+            "direction": "-",
+            "text": "-1.6% to -3.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Lower oil prices are easing inflationary expectations, supporting higher loan demand",
+          "text": "FTSE 100 Live: Stocks to slide after Asian markets fall; oil lower",
           "forecast": {
-            "low": 1.9,
-            "high": 4.3,
-            "direction": "+",
-            "text": "+1.9% to +4.3%"
+            "low": 1.6,
+            "high": 3.6,
+            "direction": "-",
+            "text": "-1.6% to -3.6%"
           }
         }
       ]
     },
     {
       "sector": "Healthcare",
-      "read": "Bullish",
-      "score": 62,
+      "read": "Neutral",
+      "score": 58,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Breakthrough Phase II data for Solrikitug, a rival to Amgen/AstraZeneca\u2019s Tezspire, is expected to create a demand shock for the healthcare sector.",
+          "text": "Breakthrough Phase II data for Solrikitug, a rival to Amgen/AstraZeneca\u2019s Tezspire, is expected to spur a demand shock in the oncology segment of the healthcare sector.",
           "forecast": {
             "low": 1.2,
-            "high": 3.1,
+            "high": 2.9,
             "direction": "+",
-            "text": "+1.2% to +3.1%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "AI\u2011driven domestic growth outlook is lifting UK equities, providing a supportive backdrop for healthcare stocks.",
-          "forecast": {
-            "low": 1.2,
-            "high": 3.1,
-            "direction": "+",
-            "text": "+1.2% to +3.1%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "The global tech sell\u2011off is pulling down high\u2011beta names, potentially boosting relative valuation for healthcare companies.",
-          "forecast": {
-            "low": 1.2,
-            "high": 3.1,
-            "direction": "+",
-            "text": "+1.2% to +3.1%"
+            "text": "+1.2% to +2.9%"
           }
         }
       ]
     },
     {
       "sector": "Materials",
-      "read": "Bullish",
-      "score": 62,
+      "read": "Bearish",
+      "score": 33,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "AI\u2011driven growth optimism in the UK is boosting demand for metals, underpinning the sector\u2019s bullish stance.",
+          "text": "The Materials sector is under pressure from a demand shock triggered by a global tech sell\u2011off and falling oil prices, which have reduced demand for metals.",
           "forecast": {
-            "low": 3.1,
-            "high": 6.8,
-            "direction": "+",
-            "text": "+3.1% to +6.8%"
+            "low": 3.4,
+            "high": 7.4,
+            "direction": "-",
+            "text": "-3.4% to -7.4%"
           }
         },
         {
           "role": "supporting",
-          "text": "The headline \u201cUK Stocks Draw Investors as AI Boosts Domestic Growth Outlook\u201d signals increased industrial activity that will raise material consumption.",
+          "text": "Oil prices are lower, cutting demand for metals used in energy and infrastructure projects.",
           "forecast": {
-            "low": 3.1,
-            "high": 6.8,
-            "direction": "+",
-            "text": "+3.1% to +6.8%"
+            "low": 3.4,
+            "high": 7.4,
+            "direction": "-",
+            "text": "-3.4% to -7.4%"
           }
         },
         {
           "role": "supporting",
-          "text": "Tech sell\u2011offs are weighing on the broader FTSE 100, but the materials sub\u2011index remains insulated as demand fundamentals stay strong.",
+          "text": "A stronger dollar is weighing on metal prices, dampening investor sentiment.",
           "forecast": {
-            "low": 3.1,
-            "high": 6.8,
-            "direction": "+",
-            "text": "+3.1% to +6.8%"
+            "low": 3.4,
+            "high": 7.4,
+            "direction": "-",
+            "text": "-3.4% to -7.4%"
           }
         },
         {
           "role": "supporting",
-          "text": "Oil prices falling in the same session lower production costs for metal producers, supporting profitability.",
+          "text": "The tech sell\u2011off is curbing demand for semiconductor\u2011grade metals, further tightening the sector.",
           "forecast": {
-            "low": 3.1,
-            "high": 6.8,
-            "direction": "+",
-            "text": "+3.1% to +6.8%"
+            "low": 3.4,
+            "high": 7.4,
+            "direction": "-",
+            "text": "-3.4% to -7.4%"
           }
         }
       ]
     },
     {
       "sector": "Technology",
-      "read": "Bullish",
-      "score": 62,
+      "read": "Neutral",
+      "score": 48,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "AI-driven optimism is lifting the UK technology sector, boosting domestic growth outlook.",
+          "text": "The Technology sector is experiencing a mixed outlook, buoyed by AI\u2011driven growth prospects in the UK but weighed down by a global tech sell\u2011off and currency pressures.",
           "forecast": {
-            "low": 2.5,
-            "high": 5.6,
-            "direction": "+",
-            "text": "+2.5% to +5.6%"
+            "low": 2.1,
+            "high": 4.7,
+            "direction": "-",
+            "text": "-2.1% to -4.7%"
           }
         },
         {
           "role": "supporting",
-          "text": "Global tech sell-offs ahead of Nvidia earnings are weighing on the broader market, creating a complex backdrop for tech stocks.",
+          "text": "UK AI developments are lifting domestic growth expectations for tech firms",
           "forecast": {
-            "low": 2.5,
-            "high": 5.6,
-            "direction": "+",
-            "text": "+2.5% to +5.6%"
+            "low": 2.1,
+            "high": 4.7,
+            "direction": "-",
+            "text": "-2.1% to -4.7%"
           }
         },
         {
           "role": "supporting",
-          "text": "The strengthening US dollar is exerting downward pressure on metals, indirectly affecting technology companies reliant on metal supply chains.",
+          "text": "A global sell\u2011off in technology stocks, highlighted by Nvidia earnings expectations, is pressuring the sector",
           "forecast": {
-            "low": 2.5,
-            "high": 5.6,
-            "direction": "+",
-            "text": "+2.5% to +5.6%"
+            "low": 2.1,
+            "high": 4.7,
+            "direction": "-",
+            "text": "-2.1% to -4.7%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "The strengthening dollar is negatively impacting metal\u2011related tech companies",
+          "forecast": {
+            "low": 2.1,
+            "high": 4.7,
+            "direction": "-",
+            "text": "-2.1% to -4.7%"
           }
         }
       ]

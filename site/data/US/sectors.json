@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-11-17 07:40 UTC",
+  "updated_at": "2026-11-17 07:48 UTC",
   "market": "US",
   "index": "S&P 500",
-  "macro_theme": "Regulatory scrutiny dominates today's headlines",
-  "macro_score": 62,
-  "macro_explanation": "Broad-market headlines scored 62/100 by the model (bullish); this is the macro overlay.",
+  "macro_theme": "Geopolitical conflict raises energy-sector risk",
+  "macro_score": 36,
+  "macro_explanation": "Broad-market headlines scored 36/100 by the model (bearish); this is the macro overlay.",
   "sectors": [
     {
       "name": "Consumer Discretionary",
-      "score": 62,
-      "label": "Bullish"
+      "score": 48,
+      "label": "Neutral"
     },
     {
       "name": "Consumer Staples",
-      "score": 62,
-      "label": "Bullish"
+      "score": 44,
+      "label": "Neutral"
     },
     {
       "name": "Energy",
-      "score": 62,
-      "label": "Bullish"
+      "score": 44,
+      "label": "Neutral"
     },
     {
       "name": "Financials",
-      "score": 62,
-      "label": "Bullish"
+      "score": 30,
+      "label": "Bearish"
     },
     {
       "name": "Healthcare",
-      "score": 62,
-      "label": "Bullish"
+      "score": 44,
+      "label": "Neutral"
     },
     {
       "name": "Technology",
-      "score": 62,
-      "label": "Bullish"
+      "score": 36,
+      "label": "Bearish"
     }
   ]
 }

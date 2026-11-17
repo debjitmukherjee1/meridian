@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17 07:40 UTC",
+  "updated_at": "2026-11-17 07:48 UTC",
   "market": "UK",
   "currency": "\u00a3",
   "companies": [
@@ -13,13 +13,13 @@
       "fcf_per_share": 5.1382844126850085,
       "ebitda_per_share": 11.951078099014223,
       "net_debt_per_share": 7.013605948236346,
-      "sentiment_index": 62.0,
+      "sentiment_index": 42.8,
       "sentiment_breakdown": {
-        "news": 62,
-        "macro": 62
+        "news": 46,
+        "macro": 38
       },
       "base_fair_value": 58.77,
-      "sentiment_adjusted_fair_value": 60.89
+      "sentiment_adjusted_fair_value": 57.5
     },
     {
       "ticker": "BP",
@@ -31,13 +31,13 @@
       "fcf_per_share": 1.1015980479034988,
       "ebitda_per_share": 3.0476423963308408,
       "net_debt_per_share": 1.7188528873968996,
-      "sentiment_index": 62.0,
+      "sentiment_index": 42.8,
       "sentiment_breakdown": {
-        "news": 62,
-        "macro": 62
+        "news": 46,
+        "macro": 38
       },
       "base_fair_value": 9.65,
-      "sentiment_adjusted_fair_value": 10.0
+      "sentiment_adjusted_fair_value": 9.44
     },
     {
       "ticker": "HSBA",
@@ -49,13 +49,13 @@
       "fcf_per_share": null,
       "ebitda_per_share": null,
       "net_debt_per_share": -19.675708158823458,
-      "sentiment_index": 62.0,
+      "sentiment_index": 48.2,
       "sentiment_breakdown": {
-        "news": 62,
-        "macro": 62
+        "news": 55,
+        "macro": 38
       },
       "base_fair_value": 12.38,
-      "sentiment_adjusted_fair_value": 12.83
+      "sentiment_adjusted_fair_value": 12.31
     },
     {
       "ticker": "LLOY",
@@ -67,13 +67,13 @@
       "fcf_per_share": null,
       "ebitda_per_share": null,
       "net_debt_per_share": -2.922762967075067,
-      "sentiment_index": 62.0,
+      "sentiment_index": 48.2,
       "sentiment_breakdown": {
-        "news": 62,
-        "macro": 62
+        "news": 55,
+        "macro": 38
       },
       "base_fair_value": 1.08,
-      "sentiment_adjusted_fair_value": 1.12
+      "sentiment_adjusted_fair_value": 1.07
     },
     {
       "ticker": "AZN",
@@ -85,13 +85,13 @@
       "fcf_per_share": 3.6288194352854406,
       "ebitda_per_share": 13.720908683426005,
       "net_debt_per_share": 16.866788116911607,
-      "sentiment_index": 62.0,
+      "sentiment_index": 58.4,
       "sentiment_breakdown": {
-        "news": 62,
-        "macro": 62
+        "news": 72,
+        "macro": 38
       },
       "base_fair_value": 57.22,
-      "sentiment_adjusted_fair_value": 59.28
+      "sentiment_adjusted_fair_value": 58.66
     },
     {
       "ticker": "ULVR",
@@ -103,13 +103,13 @@
       "fcf_per_share": 3.1265571656799995,
       "ebitda_per_share": 5.050695242881731,
       "net_debt_per_share": 12.151667858854706,
-      "sentiment_index": 62.0,
+      "sentiment_index": 57.2,
       "sentiment_breakdown": {
-        "news": 62,
-        "macro": 62
+        "news": 70,
+        "macro": 38
       },
       "base_fair_value": 49.3,
-      "sentiment_adjusted_fair_value": 51.07
+      "sentiment_adjusted_fair_value": 50.36
     },
     {
       "ticker": "RIO",
@@ -121,13 +121,13 @@
       "fcf_per_share": 2.865517726870745,
       "ebitda_per_share": 18.259457017541713,
       "net_debt_per_share": 10.635608976279348,
-      "sentiment_index": 62.0,
+      "sentiment_index": 33.2,
       "sentiment_breakdown": {
-        "news": 62,
-        "macro": 62
+        "news": 30,
+        "macro": 38
       },
       "base_fair_value": 45.19,
-      "sentiment_adjusted_fair_value": 46.82
+      "sentiment_adjusted_fair_value": 42.91
     },
     {
       "ticker": "VOD",
@@ -139,13 +139,13 @@
       "fcf_per_share": 0.27603584563616934,
       "ebitda_per_share": 0.4065840852605433,
       "net_debt_per_share": 2.0666297715099335,
-      "sentiment_index": 62.0,
+      "sentiment_index": 47.6,
       "sentiment_breakdown": {
-        "news": 62,
-        "macro": 62
+        "news": 54,
+        "macro": 38
       },
       "base_fair_value": 4.35,
-      "sentiment_adjusted_fair_value": 4.51
+      "sentiment_adjusted_fair_value": 4.32
     }
   ]
 }
