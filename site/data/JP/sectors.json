@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-11-17 07:48 UTC",
+  "updated_at": "2026-11-17 15:26 UTC",
   "market": "JP",
   "index": "Nikkei 225",
-  "macro_theme": "Consumer demand signals dominate headlines",
-  "macro_score": 17,
-  "macro_explanation": "Broad-market headlines scored 17/100 by the model (bearish); this is the macro overlay.",
+  "macro_theme": "Rate-policy commentary dominates headlines",
+  "macro_score": 42,
+  "macro_explanation": "Broad-market headlines scored 42/100 by the model (balanced); this is the macro overlay.",
   "sectors": [
     {
       "name": "Consumer Discretionary",
-      "score": 55,
+      "score": 59,
       "label": "Neutral"
     },
     {
       "name": "Energy",
-      "score": 48,
-      "label": "Neutral"
+      "score": 60,
+      "label": "Bullish"
     },
     {
       "name": "Financials",
-      "score": 36,
-      "label": "Bearish"
+      "score": 53,
+      "label": "Neutral"
     },
     {
       "name": "Healthcare",
-      "score": 37,
-      "label": "Bearish"
+      "score": 63,
+      "label": "Bullish"
     },
     {
       "name": "Industrials",
-      "score": 46,
+      "score": 47,
       "label": "Neutral"
     },
     {
       "name": "Technology",
-      "score": 58,
+      "score": 49,
       "label": "Neutral"
     }
   ]

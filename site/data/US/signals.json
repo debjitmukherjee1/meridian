@@ -1,42 +1,22 @@
 {
-  "updated_at": "2026-11-17 07:48 UTC",
+  "updated_at": "2026-11-17 15:26 UTC",
   "market": "US",
-  "macro_theme": "Geopolitical conflict raises energy-sector risk",
+  "macro_theme": "Rate-policy commentary dominates headlines",
   "signals": [
     {
       "sector": "Consumer Discretionary",
-      "read": "Neutral",
-      "score": 48,
-      "event_type": "geopolitical_supply",
+      "read": "Bullish",
+      "score": 63,
+      "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "Price reductions on consumer electronics, notably Hisense\u2019s 27% cut on its 43\" QLED TV, are dampening discretionary spending and contributing to the sector\u2019s mixed sentiment.",
+          "text": "Strong retail sales and manufacturing momentum are driving a bullish outlook for the Consumer Discretionary sector.",
           "forecast": {
-            "low": 1.6,
-            "high": 3.6,
-            "direction": "-",
-            "text": "-1.6% to -3.6%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Nvidia\u2019s recent sell\u2011off and looming earnings have weighed on tech\u2011heavy discretionary stocks, adding volatility to the sector.",
-          "forecast": {
-            "low": 1.6,
-            "high": 3.6,
-            "direction": "-",
-            "text": "-1.6% to -3.6%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Tesla and SpaceX merger talks have split Wall Street, creating uncertainty that spills over into consumer discretionary equities.",
-          "forecast": {
-            "low": 1.6,
-            "high": 3.6,
-            "direction": "-",
-            "text": "-1.6% to -3.6%"
+            "low": 2.5,
+            "high": 5.7,
+            "direction": "+",
+            "text": "+2.5% to +5.7%"
           }
         }
       ]
@@ -44,37 +24,37 @@
     {
       "sector": "Consumer Staples",
       "read": "Neutral",
-      "score": 44,
-      "event_type": "geopolitical_supply",
+      "score": 50,
+      "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "The Consumer Staples sector is bearish mainly because Bernstein downgraded Pepsico amid North American concerns.",
+          "text": "Tyson Foods\u2019 earnings beat, coupled with a warning for dividend investors, has dampened sentiment in the Consumer Staples sector.",
           "forecast": {
-            "low": 1.1,
-            "high": 2.8,
-            "direction": "-",
-            "text": "-1.1% to -2.8%"
+            "low": 1.0,
+            "high": 2.0,
+            "direction": "+",
+            "text": "+1.0% to +2.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "Bernstein\u2019s downgrade of Pepsico stock rating on North America concerns",
+          "text": "The earnings beat masks underlying concerns for dividend sustainability, raising caution among income-focused investors.",
           "forecast": {
-            "low": 1.1,
-            "high": 2.8,
-            "direction": "-",
-            "text": "-1.1% to -2.8%"
+            "low": 1.0,
+            "high": 2.0,
+            "direction": "+",
+            "text": "+1.0% to +2.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "Pepsico shares crossing above the 200\u2011day moving average, indicating a technical rebound that complicates the bearish outlook",
+          "text": "The sector\u2019s mixed outlook is further influenced by broader market volatility following Nvidia\u2019s recent sell\u2011off.",
           "forecast": {
-            "low": 1.1,
-            "high": 2.8,
-            "direction": "-",
-            "text": "-1.1% to -2.8%"
+            "low": 1.0,
+            "high": 2.0,
+            "direction": "+",
+            "text": "+1.0% to +2.0%"
           }
         }
       ]
@@ -82,93 +62,123 @@
     {
       "sector": "Energy",
       "read": "Neutral",
-      "score": 44,
-      "event_type": "geopolitical_supply",
+      "score": 59,
+      "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "Oil prices have fallen, weakening the Energy sector amid geopolitical supply concerns.",
+          "text": "OPEC officials\u2019 meeting to review production capacity is boosting the Energy sector as oil prices remain elevated.",
           "forecast": {
-            "low": 4.5,
-            "high": 10.1,
-            "direction": "-",
-            "text": "-4.5% to -10.1%"
+            "low": 1.2,
+            "high": 2.9,
+            "direction": "+",
+            "text": "+1.2% to +2.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "Canadian CPI weakening has pressured oil prices down",
+          "text": "OPEC officials meet to discuss production capacity review",
           "forecast": {
-            "low": 4.5,
-            "high": 10.1,
-            "direction": "-",
-            "text": "-4.5% to -10.1%"
+            "low": 1.2,
+            "high": 2.9,
+            "direction": "+",
+            "text": "+1.2% to +2.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "Oil prices are falling across the board",
+          "text": "Oil prices stay elevated",
           "forecast": {
-            "low": 4.5,
-            "high": 10.1,
-            "direction": "-",
-            "text": "-4.5% to -10.1%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "USD/CAD is rising, supporting a weaker dollar that can depress commodity prices",
-          "forecast": {
-            "low": 4.5,
-            "high": 10.1,
-            "direction": "-",
-            "text": "-4.5% to -10.1%"
+            "low": 1.2,
+            "high": 2.9,
+            "direction": "+",
+            "text": "+1.2% to +2.9%"
           }
         }
       ]
     },
     {
       "sector": "Financials",
-      "read": "Bearish",
-      "score": 30,
-      "event_type": "geopolitical_supply",
+      "read": "Bullish",
+      "score": 65,
+      "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "No direct impact on the Financials sector can be inferred from the provided headlines.",
+          "text": "Rising interest rates are currently supporting the Financials sector, boosting earnings prospects for banks and payment companies.",
           "forecast": {
-            "low": 1.4,
-            "high": 4.2,
-            "direction": "-",
-            "text": "-1.4% to -4.2%"
+            "low": 2.6,
+            "high": 6.5,
+            "direction": "+",
+            "text": "+2.6% to +6.5%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Visa, Mastercard face possible trial, potentially increasing fee revenue for payment processors",
+          "forecast": {
+            "low": 2.6,
+            "high": 6.5,
+            "direction": "+",
+            "text": "+2.6% to +6.5%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Is Chase still down? The latest on bank tech issues, highlighting operational challenges that could affect bank profitability",
+          "forecast": {
+            "low": 2.6,
+            "high": 6.5,
+            "direction": "+",
+            "text": "+2.6% to +6.5%"
           }
         }
       ]
     },
     {
       "sector": "Healthcare",
-      "read": "Neutral",
-      "score": 44,
-      "event_type": "geopolitical_supply",
+      "read": "Bullish",
+      "score": 69,
+      "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "FDA rejection of ivonescimab BLA dampens confidence in the healthcare sector",
+          "text": "FDA\u2019s addition of a vision\u2011loss warning to Ozempic, Zepbound and other GLP\u20111 drugs is the primary driver of recent volatility in the Healthcare sector.",
           "forecast": {
-            "low": 0.6,
-            "high": 2.2,
-            "direction": "-",
-            "text": "-0.6% to -2.2%"
+            "low": 1.4,
+            "high": 3.4,
+            "direction": "+",
+            "text": "+1.4% to +3.4%"
           }
         },
         {
           "role": "supporting",
-          "text": "FDA\u2019s decision highlights the risk of missing survival data in drug approvals",
+          "text": "The warning may lead to reduced prescriptions and lower earnings expectations for GLP\u20111 manufacturers.",
           "forecast": {
-            "low": 0.6,
-            "high": 2.2,
-            "direction": "-",
-            "text": "-0.6% to -2.2%"
+            "low": 1.4,
+            "high": 3.4,
+            "direction": "+",
+            "text": "+1.4% to +3.4%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "It increases regulatory scrutiny and could prompt additional safety studies, raising costs for affected companies.",
+          "forecast": {
+            "low": 1.4,
+            "high": 3.4,
+            "direction": "+",
+            "text": "+1.4% to +3.4%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Investor sentiment toward the sector has tightened as the warning signals potential future liabilities for other GLP\u20111 and related drug makers.",
+          "forecast": {
+            "low": 1.4,
+            "high": 3.4,
+            "direction": "+",
+            "text": "+1.4% to +3.4%"
           }
         }
       ]
@@ -177,36 +187,36 @@
       "sector": "Technology",
       "read": "Bearish",
       "score": 36,
-      "event_type": "geopolitical_supply",
+      "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "Nvidia\u2019s legal risk warning over China AI access has triggered a sector-wide sell\u2011off, dragging the Technology index into a bearish stance.",
+          "text": "Nvidia\u2019s recent sell\u2011off and heightened national\u2011security scrutiny are dragging the Technology sector into a bearish stance.",
           "forecast": {
-            "low": 1.3,
-            "high": 3.8,
+            "low": 3.2,
+            "high": 7.7,
             "direction": "-",
-            "text": "-1.3% to -3.8%"
+            "text": "-3.2% to -7.7%"
           }
         },
         {
           "role": "supporting",
-          "text": "Nvidia\u2019s warning of legal risks tied to China AI access has spooked investors and led to a sharp decline in chip stocks.",
+          "text": "Nvidia\u2019s latest earnings uncertainty has left the broader tech market choppy, with the Nasdaq edging up only in a tentative open.",
           "forecast": {
-            "low": 1.3,
-            "high": 3.8,
+            "low": 3.2,
+            "high": 7.7,
             "direction": "-",
-            "text": "-1.3% to -3.8%"
+            "text": "-3.2% to -7.7%"
           }
         },
         {
           "role": "supporting",
-          "text": "The broader tech market is cooling, with Wall Street bleeding as Nvidia\u2019s performance dominates the narrative.",
+          "text": "The formation of a new National Security Committee following Jensen Huang\u2019s exit has amplified concerns over chip supply chain risks, further weighing on tech stocks.",
           "forecast": {
-            "low": 1.3,
-            "high": 3.8,
+            "low": 3.2,
+            "high": 7.7,
             "direction": "-",
-            "text": "-1.3% to -3.8%"
+            "text": "-3.2% to -7.7%"
           }
         }
       ]
