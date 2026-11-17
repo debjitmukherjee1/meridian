@@ -96,7 +96,7 @@ NEWS_QUERIES = {
         "Healthcare": '"pharma stocks" OR "Sun Pharma" OR "Nifty Pharma"',
     },
     "US": {
-        "Market": '"stock market" OR "S&P 500" OR "Wall Street" OR Nasdaq',
+        "Market": '"Wall Street" OR "S&P 500" OR "Dow Jones" OR Nasdaq OR "US stocks"',
         "Technology": 'Nvidia OR "AI stocks" OR "tech stocks" OR Microsoft OR Apple OR semiconductor',
         "Financials": '"bank stocks" OR JPMorgan OR Visa OR "financial stocks"',
         "Energy": '"oil prices" OR "energy stocks" OR ExxonMobil OR OPEC',

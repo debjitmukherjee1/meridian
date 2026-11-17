@@ -12,9 +12,10 @@ Changed 17-Nov-2026. What was wrong:
 Now:
   * Models are tried in order from config.GROQ_MODELS; a 404/400 on one moves
     to the next, so a future retirement degrades instead of breaking.
-  * The model scores each sector 0-100 from that sector's headlines AND gives
-    every headline a polarity from -5 to +5 (stored in "tone", which drives
-    the Positive/Negative badge on the site).
+  * The model gives every headline a polarity from -5 to +5 (stored in
+    "tone", which drives the Positive/Negative badge on the site). A sector's
+    0-100 score is the average polarity of its relevant headlines, mapped
+    linearly (50 + 10 x mean), so every score can be traced to headlines.
   * The macro overlay is the model's score for the market's broad headlines
     (the "Market" bucket), not a keyword.
   * If no model answers, this RAISES. A market with no real read keeps
@@ -125,7 +126,7 @@ def _score_bucket(market_name, sector, headlines):
         f"with exactly {len(headlines)} items."
     )
     obj = _chat(prompt)
-    score = max(0, min(100, int(round(float(obj.get("score", 50))))))
+    model_score = max(0, min(100, int(round(float(obj.get("score", 50))))))
     raw = obj.get("items") if isinstance(obj.get("items"), list) else []
     parsed = []
     for it in raw:
@@ -136,7 +137,19 @@ def _score_bucket(market_name, sector, headlines):
                 pol = 0.0
             note = it.get("note") if isinstance(it.get("note"), str) else ""
             parsed.append((pol, note))
-    return score, parsed
+    # The bucket score is BUILT from the per-headline polarities, not taken
+    # from the model's own overall number: on the first live run (17-Nov)
+    # gpt-oss-20b returned 62 for every US sector while scoring the Nvidia
+    # headlines -3 to -5. Headlines it judged irrelevant (polarity 0) are left
+    # out of the average. Polarity -5..+5 maps linearly to 0..100.
+    relevant = [pol for pol, _ in parsed if pol != 0]
+    if relevant:
+        score = int(round(50 + 10 * sum(relevant) / len(relevant)))
+    elif parsed:
+        score = 50                       # every headline judged irrelevant
+    else:
+        score = model_score              # model returned no per-headline reads
+    return max(0, min(100, score)), parsed
 
 
 def news_scores(market, news_items):
