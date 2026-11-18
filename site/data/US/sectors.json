@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-11-17 15:26 UTC",
+  "updated_at": "2026-11-18 14:59 UTC",
   "market": "US",
   "index": "S&P 500",
-  "macro_theme": "Rate-policy commentary dominates headlines",
+  "macro_theme": "Consumer demand signals dominate headlines",
   "macro_score": 55,
   "macro_explanation": "Broad-market headlines scored 55/100 by the model (balanced); this is the macro overlay.",
   "sectors": [
     {
       "name": "Consumer Discretionary",
-      "score": 63,
+      "score": 64,
       "label": "Bullish"
     },
     {
       "name": "Consumer Staples",
-      "score": 50,
-      "label": "Neutral"
+      "score": 60,
+      "label": "Bullish"
     },
     {
       "name": "Energy",
-      "score": 59,
+      "score": 41,
       "label": "Neutral"
     },
     {
       "name": "Financials",
-      "score": 65,
+      "score": 68,
       "label": "Bullish"
     },
     {
       "name": "Healthcare",
-      "score": 69,
-      "label": "Bullish"
+      "score": 47,
+      "label": "Neutral"
     },
     {
       "name": "Technology",
-      "score": 36,
-      "label": "Bearish"
+      "score": 62,
+      "label": "Bullish"
     }
   ]
 }

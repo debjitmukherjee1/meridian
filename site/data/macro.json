@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17 15:26 UTC",
+  "updated_at": "2026-11-18 14:59 UTC",
   "markets": {
     "IN": {
       "cpi": {
@@ -66,29 +66,29 @@
         "label": "Unemployment",
         "frequency": "annual",
         "unit": "%",
-        "source": "World Bank (SL.UEM.TOTL.ZS) [MOCK]",
+        "source": "World Bank (SL.UEM.TOTL.ZS)",
         "as_of": "2025",
-        "latest": 3.7,
+        "latest": 4.22,
         "series": [
           {
             "date": "2021",
-            "value": 5.36
+            "value": 6.38
           },
           {
             "date": "2022",
-            "value": 5.19
+            "value": 4.82
           },
           {
             "date": "2023",
-            "value": 4.8
+            "value": 4.17
           },
           {
             "date": "2024",
-            "value": 4.02
+            "value": 4.17
           },
           {
             "date": "2025",
-            "value": 3.7
+            "value": 4.22
           }
         ]
       },
@@ -113,13 +113,9 @@
         "frequency": "daily",
         "unit": "INR",
         "source": "Frankfurter (ECB reference rates)",
-        "as_of": "2026-11-17",
-        "latest": 93.48,
+        "as_of": "2026-11-18",
+        "latest": 93.44,
         "series": [
-          {
-            "date": "2025-11-17",
-            "value": 88.61
-          },
           {
             "date": "2025-11-18",
             "value": 88.56
@@ -1139,39 +1135,43 @@
           {
             "date": "2026-11-17",
             "value": 93.48
+          },
+          {
+            "date": "2026-11-18",
+            "value": 93.44
           }
         ]
       },
-      "narrative": "India: CPI inflation 2.4% (2025), real GDP growth 7.57% (2025), unemployment 3.7% (2025), policy rate 5.25% (2026-06-05). The currency stands at 93.48 (INR per USD, as of 2026-11-17)."
+      "narrative": "India: CPI inflation 2.4% (2025), real GDP growth 7.57% (2025), unemployment 4.22% (2025), policy rate 5.25% (2026-06-05). The currency stands at 93.44 (INR per USD, as of 2026-11-18)."
     },
     "US": {
       "cpi": {
         "label": "CPI Inflation (YoY)",
         "frequency": "annual",
         "unit": "%",
-        "source": "World Bank (FP.CPI.TOTL.ZG) [MOCK]",
-        "as_of": "2025",
-        "latest": 5.4,
+        "source": "World Bank (FP.CPI.TOTL.ZG)",
+        "as_of": "2024",
+        "latest": 2.95,
         "series": [
           {
+            "date": "2020",
+            "value": 1.23
+          },
+          {
             "date": "2021",
-            "value": 4.99
+            "value": 4.7
           },
           {
             "date": "2022",
-            "value": 5.35
+            "value": 8.0
           },
           {
             "date": "2023",
-            "value": 6.19
+            "value": 4.12
           },
           {
             "date": "2024",
-            "value": 5.96
-          },
-          {
-            "date": "2025",
-            "value": 5.4
+            "value": 2.95
           }
         ]
       },
@@ -1179,29 +1179,29 @@
         "label": "Real GDP Growth",
         "frequency": "annual",
         "unit": "%",
-        "source": "World Bank (NY.GDP.MKTP.KD.ZG) [MOCK]",
+        "source": "World Bank (NY.GDP.MKTP.KD.ZG)",
         "as_of": "2025",
-        "latest": 3.15,
+        "latest": 2.16,
         "series": [
           {
             "date": "2021",
-            "value": 2.91
+            "value": 6.15
           },
           {
             "date": "2022",
-            "value": 3.89
+            "value": 2.52
           },
           {
             "date": "2023",
-            "value": 4.86
+            "value": 2.93
           },
           {
             "date": "2024",
-            "value": 4.25
+            "value": 2.79
           },
           {
             "date": "2025",
-            "value": 3.15
+            "value": 2.16
           }
         ]
       },
@@ -1209,29 +1209,29 @@
         "label": "Unemployment",
         "frequency": "annual",
         "unit": "%",
-        "source": "World Bank (SL.UEM.TOTL.ZS) [MOCK]",
+        "source": "World Bank (SL.UEM.TOTL.ZS)",
         "as_of": "2025",
-        "latest": 9.39,
+        "latest": 4.2,
         "series": [
           {
             "date": "2021",
-            "value": 6.66
+            "value": 5.35
           },
           {
             "date": "2022",
-            "value": 6.89
+            "value": 3.65
           },
           {
             "date": "2023",
-            "value": 8.0
+            "value": 3.64
           },
           {
             "date": "2024",
-            "value": 8.49
+            "value": 4.02
           },
           {
             "date": "2025",
-            "value": 9.39
+            "value": 4.2
           }
         ]
       },
@@ -1495,7 +1495,7 @@
         "series": [],
         "note": "USD is Meridian's reference currency for this comparison; no vs-USD series applies."
       },
-      "narrative": "United States: CPI inflation 5.4% (2025), real GDP growth 3.15% (2025), unemployment 9.39% (2025), policy rate 3.88% (2026-10-01)."
+      "narrative": "United States: CPI inflation 2.95% (2024), real GDP growth 2.16% (2025), unemployment 4.2% (2025), policy rate 3.88% (2026-10-01)."
     },
     "UK": {
       "cpi": {
@@ -1609,13 +1609,9 @@
         "frequency": "daily",
         "unit": "USD",
         "source": "Frankfurter (ECB reference rates)",
-        "as_of": "2026-11-17",
-        "latest": 1.3191,
+        "as_of": "2026-11-18",
+        "latest": 1.3168,
         "series": [
-          {
-            "date": "2025-11-17",
-            "value": 1.3181
-          },
           {
             "date": "2025-11-18",
             "value": 1.3139
@@ -2635,10 +2631,14 @@
           {
             "date": "2026-11-17",
             "value": 1.3191
+          },
+          {
+            "date": "2026-11-18",
+            "value": 1.3168
           }
         ]
       },
-      "narrative": "United Kingdom: CPI inflation 3.88% (2025), real GDP growth 1.39% (2025), unemployment 4.75% (2025), policy rate 3.75% (2026-06-18). The currency stands at 1.3191 (USD per GBP, as of 2026-11-17)."
+      "narrative": "United Kingdom: CPI inflation 3.88% (2025), real GDP growth 1.39% (2025), unemployment 4.75% (2025), policy rate 3.75% (2026-06-18). The currency stands at 1.3168 (USD per GBP, as of 2026-11-18)."
     },
     "JP": {
       "cpi": {
@@ -2705,29 +2705,29 @@
         "label": "Unemployment",
         "frequency": "annual",
         "unit": "%",
-        "source": "World Bank (SL.UEM.TOTL.ZS) [MOCK]",
+        "source": "World Bank (SL.UEM.TOTL.ZS)",
         "as_of": "2025",
-        "latest": 4.39,
+        "latest": 2.45,
         "series": [
           {
             "date": "2021",
-            "value": 4.66
+            "value": 2.81
           },
           {
             "date": "2022",
-            "value": 4.41
+            "value": 2.61
           },
           {
             "date": "2023",
-            "value": 3.27
+            "value": 2.6
           },
           {
             "date": "2024",
-            "value": 3.6
+            "value": 2.5
           },
           {
             "date": "2025",
-            "value": 4.39
+            "value": 2.45
           }
         ]
       },
@@ -2745,20 +2745,16 @@
             "value": 1.0
           }
         ],
-        "note": "Manual, as of 2026-06-16 \u2014 FRED fetch failed (FRED IRSTCB01JPM156N latest observation is 1082d old (2023-12-01) -- treating as stale). Policy rate, raised 25bp to 1.00% (7\u20131 vote) on 2026-06-16 \u2014 highest since 1995."
+        "note": "Manual, as of 2026-06-16 \u2014 FRED fetch failed (FRED IRSTCB01JPM156N latest observation is 1083d old (2023-12-01) -- treating as stale). Policy rate, raised 25bp to 1.00% (7\u20131 vote) on 2026-06-16 \u2014 highest since 1995."
       },
       "fx": {
         "label": "JPY per USD",
         "frequency": "daily",
         "unit": "JPY",
         "source": "Frankfurter (ECB reference rates)",
-        "as_of": "2026-11-17",
-        "latest": 159.3,
+        "as_of": "2026-11-18",
+        "latest": 159.42,
         "series": [
-          {
-            "date": "2025-11-17",
-            "value": 154.9
-          },
           {
             "date": "2025-11-18",
             "value": 155.25
@@ -3778,10 +3774,14 @@
           {
             "date": "2026-11-17",
             "value": 159.3
+          },
+          {
+            "date": "2026-11-18",
+            "value": 159.42
           }
         ]
       },
-      "narrative": "Japan: CPI inflation 3.17% (2025), real GDP growth 1.19% (2025), unemployment 4.39% (2025), policy rate 1.0% (2026-06-16). The currency stands at 159.3 (JPY per USD, as of 2026-11-17)."
+      "narrative": "Japan: CPI inflation 3.17% (2025), real GDP growth 1.19% (2025), unemployment 2.45% (2025), policy rate 1.0% (2026-06-16). The currency stands at 159.42 (JPY per USD, as of 2026-11-18)."
     }
   }
 }

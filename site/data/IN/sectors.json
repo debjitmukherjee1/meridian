@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-11-17 15:26 UTC",
+  "updated_at": "2026-11-18 14:59 UTC",
   "market": "IN",
   "index": "NIFTY 50",
-  "macro_theme": "Consumer demand signals dominate headlines",
-  "macro_score": 83,
-  "macro_explanation": "Broad-market headlines scored 83/100 by the model (bullish); this is the macro overlay.",
+  "macro_theme": "Geopolitical conflict raises energy-sector risk",
+  "macro_score": 52,
+  "macro_explanation": "Broad-market headlines scored 52/100 by the model (balanced); this is the macro overlay.",
   "sectors": [
     {
       "name": "Consumer Discretionary",
-      "score": 69,
+      "score": 66,
       "label": "Bullish"
     },
     {
       "name": "Consumer Staples",
-      "score": 82,
+      "score": 64,
       "label": "Bullish"
     },
     {
       "name": "Energy",
-      "score": 76,
-      "label": "Bullish"
+      "score": 54,
+      "label": "Neutral"
     },
     {
       "name": "Financials",
-      "score": 73,
+      "score": 67,
       "label": "Bullish"
     },
     {
       "name": "Healthcare",
-      "score": 80,
+      "score": 63,
       "label": "Bullish"
     },
     {
       "name": "Technology",
-      "score": 69,
-      "label": "Bullish"
+      "score": 51,
+      "label": "Neutral"
     }
   ]
 }

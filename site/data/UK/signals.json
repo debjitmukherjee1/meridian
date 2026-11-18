@@ -1,22 +1,42 @@
 {
-  "updated_at": "2026-11-17 15:26 UTC",
+  "updated_at": "2026-11-18 14:59 UTC",
   "market": "UK",
   "macro_theme": "Consumer demand signals dominate headlines",
   "signals": [
     {
       "sector": "Consumer Staples",
-      "read": "Bullish",
-      "score": 67,
+      "read": "Neutral",
+      "score": 54,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Unilever\u2019s appointment of Meghna Menon as Head of People Experience signals a potential boost in talent acquisition and operational efficiency for the consumer staples sector.",
+          "text": "Tesco\u2019s recent initiatives\u2014expanding into the West Kirby pub market and launching a holiday toy promotion\u2014are likely to provide modest upside to the Consumer Staples sector.",
           "forecast": {
-            "low": 1.3,
-            "high": 3.4,
+            "low": 1.1,
+            "high": 2.7,
             "direction": "+",
-            "text": "+1.3% to +3.4%"
+            "text": "+1.1% to +2.7%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Tesco\u2019s move into the pub sector could diversify its revenue streams and increase footfall for its retail operations.",
+          "forecast": {
+            "low": 1.1,
+            "high": 2.7,
+            "direction": "+",
+            "text": "+1.1% to +2.7%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "The holiday toy promotion is expected to boost seasonal sales and enhance customer engagement for Tesco\u2019s consumer staples offerings.",
+          "forecast": {
+            "low": 1.1,
+            "high": 2.7,
+            "direction": "+",
+            "text": "+1.1% to +2.7%"
           }
         }
       ]
@@ -24,37 +44,37 @@
     {
       "sector": "Energy",
       "read": "Neutral",
-      "score": 54,
+      "score": 48,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Regulatory uncertainty over North Sea oil production is weighing on the Energy sector.",
+          "text": "EnQuest\u2019s exit from the North Sea, driven by higher UK energy taxes, is tightening supply and contributing to a demand\u2011shock\u2011driven mixed outlook for the Energy sector.",
           "forecast": {
-            "low": 2.7,
-            "high": 6.5,
-            "direction": "+",
-            "text": "+2.7% to +6.5%"
+            "low": 2.6,
+            "high": 6.2,
+            "direction": "-",
+            "text": "-2.6% to -6.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "Rosebank oil field debate highlights ministerial division on future development",
+          "text": "EnQuest agrees North Sea disposal as UK energy taxes bite",
           "forecast": {
-            "low": 2.7,
-            "high": 6.5,
-            "direction": "+",
-            "text": "+2.7% to +6.5%"
+            "low": 2.6,
+            "high": 6.2,
+            "direction": "-",
+            "text": "-2.6% to -6.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "Norway Supreme Court invalidates North Sea oil and gas approvals, adding to regulatory risk",
+          "text": "Major oil and gas firm EnQuest pulls out of the North Sea",
           "forecast": {
-            "low": 2.7,
-            "high": 6.5,
-            "direction": "+",
-            "text": "+2.7% to +6.5%"
+            "low": 2.6,
+            "high": 6.2,
+            "direction": "-",
+            "text": "-2.6% to -6.2%"
           }
         }
       ]
@@ -62,47 +82,37 @@
     {
       "sector": "Financials",
       "read": "Bullish",
-      "score": 73,
+      "score": 63,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "The Financials sector is benefiting from a demand shock driven by a recent dip in the UK jobless rate, which is boosting consumer spending and lending activity.",
+          "text": "Strong growth expectations for a key FTSE 100 financial stock are driving bullish sentiment.",
           "forecast": {
-            "low": 2.2,
-            "high": 5.1,
+            "low": 1.9,
+            "high": 4.4,
             "direction": "+",
-            "text": "+2.2% to +5.1%"
+            "text": "+1.9% to +4.4%"
           }
         },
         {
           "role": "supporting",
-          "text": "Strong earnings outlook for Rightmove (RMV) lifting its growth target, signalling confidence in the retail and mortgage markets",
+          "text": "Prediction of an 87% climb for a beaten\u2011down growth stock signals a demand shock in the sector.",
           "forecast": {
-            "low": 2.2,
-            "high": 5.1,
+            "low": 1.9,
+            "high": 4.4,
             "direction": "+",
-            "text": "+2.2% to +5.1%"
+            "text": "+1.9% to +4.4%"
           }
         },
         {
           "role": "supporting",
-          "text": "Sage (SGE) partnering with Adyen and Mastercard, expanding its payment solutions and increasing revenue potential",
+          "text": "FTSE 100 round\u2011up highlights big profits and hefty dividends, reinforcing earnings momentum.",
           "forecast": {
-            "low": 2.2,
-            "high": 5.1,
+            "low": 1.9,
+            "high": 4.4,
             "direction": "+",
-            "text": "+2.2% to +5.1%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "HSBC\u2019s upgrade of Cisco to a Buy rating on strong results and attractive valuation, reflecting broader confidence in tech\u2011enabled financial services",
-          "forecast": {
-            "low": 2.2,
-            "high": 5.1,
-            "direction": "+",
-            "text": "+2.2% to +5.1%"
+            "text": "+1.9% to +4.4%"
           }
         }
       ]
@@ -110,37 +120,37 @@
     {
       "sector": "Healthcare",
       "read": "Bullish",
-      "score": 65,
+      "score": 71,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "AstraZeneca\u2019s collaboration with Strand Life Sciences is driving a demand shock in the healthcare sector.",
+          "text": "The Healthcare sector is being driven by a surge in demand for oncology treatments, primarily due to GSK\u2019s recent second lung cancer drug approval.",
           "forecast": {
-            "low": 1.3,
-            "high": 3.2,
+            "low": 1.4,
+            "high": 3.5,
             "direction": "+",
-            "text": "+1.3% to +3.2%"
+            "text": "+1.4% to +3.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "The partnership signals increased investment and product development, boosting future revenue prospects for the sector.",
+          "text": "GSK\u2019s approval of a second lung cancer drug is expected to boost sales and market penetration for oncology therapies.",
           "forecast": {
-            "low": 1.3,
-            "high": 3.2,
+            "low": 1.4,
+            "high": 3.5,
             "direction": "+",
-            "text": "+1.3% to +3.2%"
+            "text": "+1.4% to +3.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "The dip in the UK jobless rate supports a broader market rally, indirectly benefiting healthcare stocks.",
+          "text": "Convatec\u2019s appointment of a new CFO signals a strategic focus on expanding its chronic care plans, indicating growth in the chronic disease segment.",
           "forecast": {
-            "low": 1.3,
-            "high": 3.2,
+            "low": 1.4,
+            "high": 3.5,
             "direction": "+",
-            "text": "+1.3% to +3.2%"
+            "text": "+1.4% to +3.5%"
           }
         }
       ]
@@ -148,47 +158,47 @@
     {
       "sector": "Materials",
       "read": "Neutral",
-      "score": 58,
+      "score": 54,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Ferronickel supply disruption threatens material demand",
+          "text": "Metals prices are under pressure, dragging the Materials sector down.",
           "forecast": {
-            "low": 2.9,
-            "high": 6.4,
+            "low": 2.7,
+            "high": 5.9,
             "direction": "+",
-            "text": "+2.9% to +6.4%"
+            "text": "+2.7% to +5.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "Anglo American warned customers of possible ferronickel supply disruption if deal rejected",
+          "text": "UK CPI rose to 3.6%, tightening monetary policy and weighing on commodity demand.",
           "forecast": {
-            "low": 2.9,
-            "high": 6.4,
+            "low": 2.7,
+            "high": 5.9,
             "direction": "+",
-            "text": "+2.9% to +6.4%"
+            "text": "+2.7% to +5.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "The potential supply disruption could trigger a demand shock in the materials sector",
+          "text": "Metals slump is evident in FTSE 100 performance, reflecting broader sector weakness.",
           "forecast": {
-            "low": 2.9,
-            "high": 6.4,
+            "low": 2.7,
+            "high": 5.9,
             "direction": "+",
-            "text": "+2.9% to +6.4%"
+            "text": "+2.7% to +5.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "Supply chain uncertainty may impact downstream users of ferronickel",
+          "text": "Anglo American\u2019s nickel deal faces EU review, adding uncertainty to the metals supply chain.",
           "forecast": {
-            "low": 2.9,
-            "high": 6.4,
+            "low": 2.7,
+            "high": 5.9,
             "direction": "+",
-            "text": "+2.9% to +6.4%"
+            "text": "+2.7% to +5.9%"
           }
         }
       ]
@@ -196,47 +206,17 @@
     {
       "sector": "Technology",
       "read": "Bullish",
-      "score": 65,
+      "score": 75,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "The Technology sector is benefiting from a surge in semiconductor demand, spurred by U.S. chip curbs and strong earnings expectations.",
+          "text": "No direct impact on the Technology sector is evident from the provided headlines.",
           "forecast": {
-            "low": 2.6,
-            "high": 5.9,
+            "low": 3.0,
+            "high": 6.8,
             "direction": "+",
-            "text": "+2.6% to +5.9%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "U.S. chip curbs are driving up prices and boosting demand for UK chipmakers, reflected in the FTSE 100\u2019s performance.",
-          "forecast": {
-            "low": 2.6,
-            "high": 5.9,
-            "direction": "+",
-            "text": "+2.6% to +5.9%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Nvidia\u2019s upcoming results are heightening investor focus on the semiconductor space, lifting related tech stocks.",
-          "forecast": {
-            "low": 2.6,
-            "high": 5.9,
-            "direction": "+",
-            "text": "+2.6% to +5.9%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Strategic partnerships, such as Sage\u2019s collaboration with Adyen and Mastercard, signal broader tech ecosystem growth and investor confidence.",
-          "forecast": {
-            "low": 2.6,
-            "high": 5.9,
-            "direction": "+",
-            "text": "+2.6% to +5.9%"
+            "text": "+3.0% to +6.8%"
           }
         }
       ]

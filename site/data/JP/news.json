@@ -1,222 +1,258 @@
 {
-  "updated_at": "2026-11-17 15:26 UTC",
+  "updated_at": "2026-11-18 14:59 UTC",
   "market": "JP",
   "items": [
     {
-      "title": "Tokyo stocks fall on U.S. chip export controls, Nvidia earnings awaited",
+      "title": "APEC live: Banquet brings Trump and Putin, Xi and Takaichi together",
+      "source": "Nikkei Asia",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdGlETVZZQUNVaVpUZWhyaDlTRXJxVjM0N1hHSGtMbEY2ejJDU3ZOaFY5cEVxYUIxYU51SWh5N2ppcU15VXViZFlfdjh3ZE1oRXY1bnFOOE42d0p6NDZoS2xRRTJ2V1dWRE1xQXhjdFY1V1pVM25IR1ZRSC1Db003cjNiR0RJM2JNR3hsZTllQkxaYW5lYVhoZEMtckUycF9mZDRuZmFOanM0ZllzUXpsekNiWDNOLTZQUjgwc0ZSZ0k5SWE2X1E?oc=5",
+      "published": "2026-11-18 14:51 UTC",
+      "sector": "Market",
+      "tone": 2.0,
+      "note": "APEC banquet signals diplomatic optimism."
+    },
+    {
+      "title": "Nikkei Index Ends Higher, Boosted by AI-Related Stocks",
+      "source": "\u0635\u062d\u064a\u0641\u0629 \u0645\u0627\u0644",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0tdnd1cDVEb2E5VVE3bWwyWUtYbHMzdEd5YkhmUmR4UnBDNHRsRktla1JucTExcnhybFdnTVRsZlo4RXBlQzRCZ2lzbHR5OTFYbFczVExnTEJiVEdieDZKMGhGeVJJNFFXXzJF?oc=5",
+      "published": "2026-11-18 14:15 UTC",
+      "sector": "Market",
+      "tone": 3.0,
+      "note": "Nikkei gains driven by AI\u2011related stocks."
+    },
+    {
+      "title": "Tencent's $9.8bn capex pushes tech giant into net debt",
+      "source": "Nikkei Asia",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZ0x1cllncmJCZWVnMmt0NXJtVWQtWG1fczhIeWZxdy04UnJXVEp4UnlGYUk4M18yUjdqcnRhWlY5SUVURWxQYXFwVXExRFc4d2VTdzF6UlR3OGZrZHp0UjhKekhoUEtRcjh3d2tYNjQzeFVWWmJ3VF9uTjdncjNKZFNhU2hfUEhLbFEwLVlXM3pVWUc0OGRjUjJlOEdXdw?oc=5",
+      "published": "2026-11-18 10:42 UTC",
+      "sector": "Market",
+      "tone": 0.0,
+      "note": "Tencent capex not directly affecting Japanese market."
+    },
+    {
+      "title": "'All Chinese players' will rely on domestic chips eventually: Tencent",
+      "source": "Nikkei Asia",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRnQyV3RYcTc5QXN0cFN5WFpTWFd5bnVZUzN6bmZJM1VLNUlSak1BNmg3NE1DRl9sak1TeHkwemxqc2c1TDVqNTUxcEx0WTJuemlESndDN1IyMkhLOWQzYmhqN05mX2U5bE5KTFZOendjRzFOTTU5aFQzUk9MLW51bDBIOEFxY0w2Zkpudy1MX2YtcWRqZU5sVmVfWlZkemprbld2LUdtaENXR3BNWTlR?oc=5",
+      "published": "2026-11-18 10:42 UTC",
+      "sector": "Market",
+      "tone": 0.0,
+      "note": "Domestic chip reliance is China\u2011centric."
+    },
+    {
+      "title": "Tokyo stocks mixed on robust Nvidia earnings, risk-off amid AI uncertainty",
       "source": "\u6bce\u65e5\u65b0\u805e",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBmSHkxd1VTWjVYZEhqNWtjWlNmd0ZHVHhlSmp5QUlfSUNkUXdMRFBSSV9rbElvM0lEUDd2b1Jia1RWbzlNQUo0MGNmdE5LcGs4UzJ6V09WOXlJQ3VBZnVwdVJFY3U4TUtXcjJJS25VSmVRWG8?oc=5",
-      "published": "2026-11-17 14:18 UTC",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAwYW9WSDUwQkF5RDVIdTdRYnRCa3YtT2RwSk42WkVMTUoxTXpqd3kzYm4ydW1nb21hRnAycmVGdnZZRXdmeTA3dTNwMTFOazE0cnBIbnhpd1d6VGE1ZG5BWVF5OS1xQXU0eWh0dmRPdzZHY0E?oc=5",
+      "published": "2026-11-18 10:20 UTC",
       "sector": "Market",
-      "tone": 2.0,
-      "note": "US chip export controls weigh on tech stocks, but Nvidia earnings may lift sentiment."
+      "tone": -2.0,
+      "note": "Risk\u2011off sentiment amid AI uncertainty dampens Tokyo stocks."
     },
     {
-      "title": "Trump meets Quad leaders, says 4 nations agree on 'critical mineral deals'",
+      "title": "China shows vision of future in Shenzhen with plenty of red tape",
       "source": "Nikkei Asia",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWTBMOUZUNWhZMVIxMFJQUU1pX1ZXR09nclNhME1aMUItYkFaZlcxLVR4Z25ZNmJBT0R6S3pfNHJHVVBKa0FTMjg1STBaV2pfMEZ1QVBzLXBJcjNDVTIwQWpOVlkxNmY3LUVBM0w5N3oxS3p2cDU1NDNKX1Bsd0R0RFo0dHpjaGFoeHlVYjl5Q1NwX0NWY3Y5ZXBzYmxOMGFfeHQycGFjTGhTbDJmNFAxTFhjTWNCczdTbUF1Q19iRTc0QVBmWXYw?oc=5",
-      "published": "2026-11-17 13:45 UTC",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQUVJwdFNGS3Axb2FRRC1BLU9QS1FaQWp0N0huRW1ycGsyaWEwMlkwVnRUb09abzBKNWVWNHlmRk15a3c3TXhURk9JODNMTmpsRHJvdnoyTDdDdmhPMFA3aUlOcjh5bmx3VU1NaXhoRnZCa0VLVGhUOUkwQ051QmVCMGdhNmZuTG9CTGRkN3d5ZkVFWmk3N3B0bk03TXlMTUxYam5tYkswX2hud3hiVWI5VGNvZmc0aWlZc2JHamVLVlVYVnNF?oc=5",
+      "published": "2026-11-18 09:57 UTC",
       "sector": "Market",
       "tone": 0.0,
-      "note": "Quad meeting unrelated to Japan market."
+      "note": "China\u2019s future vision has limited impact on Japan."
     },
     {
-      "title": "Japan and South Korea sustain thaw ahead of key APEC gathering",
-      "source": "Nikkei Asia",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPc1g2X2I5RTYwS1ZWZUFFRHlzY1NJVV9rNzFMakY1N0RBc2ZwYWtNTjVJaXJCdG0yNHd4aGI4ckQ3WUJWSVdJQjBTNW9penpwVjFERkN3ak9qNWNhNTE0RFJTX1g0SWU2aHNiaFljTi1SQlhEZk1jNm5vWmNxOWtXMFBXTXFERmdlQ2dQRnRLaWN6WGpQS3pOS1dnc1NDZ1Rsc3hkV0wySnNmYXZqZExXVldtX0d2MjJRNHBN?oc=5",
-      "published": "2026-11-17 12:22 UTC",
-      "sector": "Market",
-      "tone": 2.0,
-      "note": "Japan-South Korea thaw boosts regional stability, supporting market confidence."
-    },
-    {
-      "title": "QUICK Monthly Survey: Nikkei 225 Forecast Shifts Downward for the First Time in Two Months as AI and Semiconductor Stocks Test Rebound",
-      "source": "\u682a\u5f0f\u4f1a\u793eQUICK",
-      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNSWt6R0FuMkc0T093d2JVOXpycERESEJpd0dxTE1pQ0pMdXBjdUhScmN2TzdFaHprbXQzOWRtNi1FblpzR2xnVFJjNmZhQVp4aG9jXzliRjJoMlJfSy1CcXpXZ2M3N2Zkc3R1c1pnclNJWUp6WWJMY0IwOTl6VUxmSUc2UWZUVmZBU193bzZaUzhfUWREcEZBNmFUbVpPTFpfcm1RZmZPcHZCMGZLVGlIU002bDV2dUdycFB6YTdqZVFNc0lLSGNIN1NqUGlJM09oR203dmVUWm9MYnRnMmoyYWlLTUMxYzJtdHRtaWs4cGxpZ0RNRnZVRjRRQ0RJX2VoN2dySHBXai1raE53OGtMb0ZVUnI4c0lvX0l3?oc=5",
-      "published": "2026-11-17 10:50 UTC",
-      "sector": "Market",
-      "tone": -3.0,
-      "note": "Nikkei forecast down, AI/semiconductor rebound falters, increasing bearish tone."
-    },
-    {
-      "title": "Macron pitches closer Malaysia ties to reduce reliance on US, China",
-      "source": "Nikkei Asia",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeU5waDdfaDA3UUhSSFc0OVZOaDFZUEd4VDlnYjY1aDNaMzVGQkFVelNwa25GelZmeHZQU0Rmd0ROTXdoRWZJSDVrNjRTanM0M3d6ZERJbUhWcW5lOUlFWjlQZlRuT21MNUFPcmUzejdUcGljR0FHM1VuMHd5RVV4ZWZSejlsN1ktX0hOejBuWmZkUXB0N1FSYUpyTEd5LXVuRHVqdWZNUjh1QzdDTlRDcFdaSzBVR0JWV2xuVmlveTg?oc=5",
-      "published": "2026-11-17 10:17 UTC",
-      "sector": "Market",
-      "tone": 0.0,
-      "note": "Macron-Malaysia talks not directly affecting Japan equities."
-    },
-    {
-      "title": "Nikkei 225 bear market deepens as volatility surges",
-      "source": "StoneX",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZ3V1YXotRXBiSFVaVnRucHE3Q1dtMU5tWmJsc1pMMEJkSHczVkZMZW1aVWdEd1lIbkQtUThkLVBXSzFoTnRRUjY4SDlyZnNnZlJWNHBfcjBRcUp1UXVDTEM0dkVFODhHUGlTZEFRZHI3UGRwX213Zjhyd0ZkQ2JGVzk4aE5JNXktd3ZiSF8yMUljZk5EUXc5eE9PMG5PVUdt?oc=5",
-      "published": "2026-11-17 09:45 UTC",
-      "sector": "Market",
-      "tone": -4.0,
-      "note": "Bear market deepens, volatility surges, strong negative impact on overall sentiment."
-    },
-    {
-      "title": "Sony Defeats $2.6 Billion Class-Action Lawsuit Over Claimed PlayStation Store Monopoly",
-      "source": "Kotaku",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZENmUDlNR3NTZUpjRzBEUjZzQ0Z2Wk01S3REVDVXTHpFN2ZrRDNDS1ZDVzNmWGN1ZjV1S2FLWGpYRkxTaDVyd0wyRWJwRmliVW95SzEyN0tYcDBhTVZuNVhVaUxHaU5ILWFpNXA3NGtPWDZkRURfenNaOGVxdXVRNnZ6ckxJMG1zNi16Nw?oc=5",
-      "published": "2026-11-17 15:16 UTC",
+      "title": "GTA 6 requires an update for PS5: Sony confirms the download is mandatory to play Grand Theft Auto VI",
+      "source": "Revista Merca2.0",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVllZYWljd2JpX01aWUU4ajd3R05TWmV2dzJlM3UwQ3MwZHNDMXlTbURQZHFYNDlla0NmTXUtcTd3SElsenVTR2JxZUFGLTRZXzhfZmlwTm1aR3NnQkxBaU92MXUyME5zTUMtRlQtTjNCcXdmU19RakhKRUlnUlAwb3E2NGJEeUNyME1aYUtCckl0OEtNSjc5RGdrRERVTWQyTDh6TW5ralVOcjl0Z0h5Y1F1RExFNnFKNUw1d3A1VXFSV2s?oc=5",
+      "published": "2026-11-18 14:57 UTC",
       "sector": "Technology",
       "tone": 2.0,
-      "note": "Sony wins lawsuit, boosting confidence in its legal resilience."
+      "note": "Mandatory update shows Sony\u2019s active support for PS5, boosting confidence in its hardware"
     },
     {
-      "title": "Sony releases PS5 security update a day before GTA 6 launch; patch follows hacker\u2019s claim about \u2026",
+      "title": "Sony Issues Official PS5 Firmware Update Warning, Confirms GTA 6 Requirement",
+      "source": "IGN",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOend1TWx6NkxLeTByTEJBalB4NW4ydHpvdUxzYnpSb3NETWM1Sk9sX190LUdfNGM2TC1MTUthNEJIV3A5STJJWXYyNTNmeDVsQjFYV3diT3kwczFoMEZmbHM0S1RBa3ppbmJoSXR3SGhQQTB4cFVSNjNQdy1ocmxNd0xUWE9pcjdRX2xvTVp6X3hDbjRUdzRxY3M5bkpUelQ0QVFHdnFhdmhRLWd1d3RfODBueV9kQTMxNHg3V19waHBHdw?oc=5",
+      "published": "2026-11-18 14:39 UTC",
+      "sector": "Technology",
+      "tone": 2.0,
+      "note": "Firmware update warning signals proactive security, reassuring investors about Sony\u2019s reliability"
+    },
+    {
+      "title": "T\u00fcrkiye probes Sony's PlayStation over unfair sales",
+      "source": "TRT World",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1MdXBHa2ZYVjdqWk1UWS1iampfNnJMZjdvQXJKSHAyUHRPNk1xb3R4LXVLTDJxckVDSU54ZTgxQ2xHbWNLMERqRDFXYXYtdllIRWRlNFVmTHY?oc=5",
+      "published": "2026-11-18 14:28 UTC",
+      "sector": "Technology",
+      "tone": 0.0,
+      "note": "Turkey probe unrelated to Japanese tech sector"
+    },
+    {
+      "title": "In October 2025, Japan's richest man Masayoshi Son 'raced' to fulfill his billions of dollar funding 'pro",
       "source": "The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQc3VBVnRsX3RDS1ZzdmN3OF9abThSQ1hXeVVzUmZJM2l0OHZBWlZleU5hUTJaZlJkdTU5YjJueUpLVXh6YU1mcGpnakhsbmstTUZ2dndRRzY3N1lhcHBZZkJ0QWg0aGxmYVhtVlFhdkQ1TnYtMDhiMVB1UGRtTUNmV1Z4bVh6Ri1JYTZIMF96SEpOSk9zVmNFRlY2ZzVwTmhUR3MybHFKbm1ZclQ5RlRmYXFoWEpfV21LNWkyVllhbnFkNGtZbXpMRjNjVnQ5eVBwSWdqa1Q5b25iQ21wMWdJMHdVTGhPVVotOGJwZk9UMGFDN2Z2SmZ6S0R5a21lT25oVXg1WtIBigJBVV95cUxPNmRjUXdNYTFudDZTQ1d6UWtYZjRVX1FoU3NnbHVXTE1vaUt4RVBtaWE1UlpNcXBXUFVTTkFFWTM4SGprV3NjU0JhaHIycHpJRm83bHRhcUdoeXFtaFplN2JRbTRmVzBTaldNaDYxemxCc0hhaG5QSWZSOFE4bkNObTd6M21uUVFHYjVKa01TTmxwRVprZnpMUDdUTm4wemhkNWNqaEFCdWdudE5vUzZUVWk5LUpUVm9acGEtZk1BMVVXS0ZFV0lYc0pvbUdMQzF6OEwwS1dzSGRTY2RibzJacnNiWjhWblZnQjIxbmhaSGVqZVFQRG83U2pNWU1ETkpkUGRDVmNRNFByZw?oc=5",
-      "published": "2026-11-17 15:11 UTC",
-      "sector": "Technology",
-      "tone": 1.0,
-      "note": "Security update shows proactive stance, slightly positive."
-    },
-    {
-      "title": "Sony To Squeeze Every Last Drop Out Of Spider-Man: Brand New Day By Putting It Back In Theaters",
-      "source": "Kotaku",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUXlJZzNWM2k0WGt5Z1ZvbV9nUnU4Snc3UHlNS1N3TThOMEMzWmJDcnhyQk8zYmxjSTE3dlBweXZScEJiTGRVQUdqV2pUWjhTMTd2TEhLU011RWV5VGhDV0Q5S25NWFV6MkRqeXhVTDdaZHIxVWtvMUZFc2NpbHpVVGVlQVhBRXE4M2NfSmhlQUttMUU?oc=5",
-      "published": "2026-11-17 15:00 UTC",
+      "url": "https://news.google.com/rss/articles/CBMiwwNBVV95cUxOa1lySFlYS0lMelNpUzNBU0Z2SjVlNENhYzczeUNZbzhTZ2pyUFhRN2FqOEpINUdMNlZjLUFDeFRXU1pCckM2cXAtZjhyek1Ld3VKdkwzZE90d0lFUHFRN2U0ZXNFSmEtUDhzcERKYTE5eXZvdUpFMXVfRDJWVWhDQVhHVW5MN3hFRmp3V2pEQmNRbzl1cG1yYVlEZ2FiYTJuVkoxaml2Nmd6RW80RVBzQkJYZFBvS0M3UU83eFlDQlZQRFpRbWtNUjVGNHpUQ2ZBaDkzbGt1NVpsc2JwQTBBNjZkQ3RVRDlRQ1Znb2F1cmpqX3RVTFdsZTAwU19qbU1xTmNwbFdUd2ptSFExdUJWYnZKZlg1Nmh1VjZaalVXUDhRcVJWRy1QMDR3alhnVm0yZjUtMDJWSmI1V0d4RU5vQ1NQZ3lmX0RtN2xrUnAzZzl0OGFrZTByU1NydWpMMkxaazZILUkwZkxIc25BU0NQdU5Mazhac1pXeEZ4cEVzNE5JSTIxMjZ4RERDVERQMDhqdFhmc3hVVW9YaTNab2JCN0NCelZydXZRZTk5ZmZqZ05KWmJSSFNpT2haTFlwUm5CcjBB0gHIA0FVX3lxTE1HekJoTWpvRDdKeHBkNkdmWkJQY3NQWEpKUDdRbGVaSE9rMC11YktleWtjWTRyMVE4dDVObm1MeVhKVElnc1pWYnpzTjRmTHdJVzFfUXpYNkZwdG5oSEc5V1pPQzZBLWIwQkRiZFVKTDlpMG9PVDlCWDhRNFZrRklMMzJjYVZWUVU2QmRPc1kybERvVXlpOFNNLXNONzNiRlQwNGEzU1JzSXEyY21UeFplci0zV2xacHMtRUFUZFNTemdvVWpPVVdPdGxDYVdpMEpVSnZxZDNDQmdxZEI1c1NzOHFiRW1VbklOZVBwUnpXMnVGN0ltWThfTkw2NlJYUjZSN20zeHQxUm1YRDRTdkhnVkxNNU9acmdhcWVaWEYyVEFMNGpOVDd6TGhDOUlqb0NGMHNia2NGaFdzT0tCLUJ4bm1kMzVIVmEtSURYd1BiTzhZOC1tM25rZm1iZy1jeUZsQTY5b2Q1NlN1cG1uZVQxdWtjM3JEZ2FkaXdkQllzM2kyWmczVTdTZWY0MFp3VUhHeDdnQ1Y0ZXR6OUFGX19ja2hBaEMyX09talhGOGZGUHNhcGdKcVdidkRDTDJac3dTYmhVOW5rRw?oc=5",
+      "published": "2026-11-18 14:21 UTC",
       "sector": "Technology",
       "tone": -1.0,
-      "note": "Releasing game in theaters may signal revenue pressure."
+      "note": "Masayoshi Son\u2019s rushed funding hints at potential liquidity concerns"
     },
     {
-      "title": "Sony defeats \u00a32 billion PlayStation class action",
-      "source": "ICLG",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBQajRSZmVIZjRUYzU5eVFTQS1DTTMyUnZCLUVyaVJyLTVPdDZfazJfb05qMHFWLTVKTWlac09KTThzWVhKWEJXSFdjWFlXVmZiOUFSN1QwSXpTUkVqN0p6Y2V2QWZkaEpSZ3VsckYycDdlLUxFU2w2V0ZB?oc=5",
-      "published": "2026-11-17 14:53 UTC",
-      "sector": "Technology",
-      "tone": 2.0,
-      "note": "Another lawsuit victory reinforces Sony\u2019s market position."
-    },
-    {
-      "title": "PlayStation users\u2019 \u00a32bn lawsuit against Sony thrown out by competition tribunal",
-      "source": "Herts Advertiser",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQmVWTUNrU3pQR2Y1ZTdxR2c1dGl4UTNDNmJ4dmN3UXZRWGtIUXR4eXQ2Y2czbTZxMFdxTC1PMjZaTUswc3FMOWFUck5IUk8zc2JjRmhFS09FN19UNWFWZXg4US1BZDBqWTVKNkt6UUZ2bzI2RmdtMnJLUTZyb3BjaDZqX2lwUFV0SFM5Vkk2U0dTNFViZEhGRG0tdndISXBiTHZ4S2M2SHJXN2ZoWFF5OHRlMkFqUQ?oc=5",
-      "published": "2026-11-17 14:52 UTC",
+      "title": "SoftBank Chose OpenAI Over 'Wonderful' Anthropic, Now Masayoshi Son Regrets Picking Only One: 'I Wish I H",
+      "source": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQY1g4UmxfVmZKTVRHa0thdDNnWGN5eXRvTUpvMGZ6VjFwMEk2OHFNeVdDUEMxemZnaHlYT2pNLXpQcFozSHRaTVNKaWFHb3pPZVJRaWN3VHUxUDdITjZMdkF5VFNkbDh4cmhfcUJCNTlVLTJ0LTBCem1UcC1hYnZ0X29BRk1LYWRVcEw4U1QxSFpjRDZUVnBuMXJVd1V6d2hUNHFzejI2NHNlQVZpWE95U1VkTGVvTkpqTnVaS0ZKdjNEZUhrNkFvVW1zQTRIczE5RDdHREVJOXNWcHZDdFNCaDlmQUc1RkdJcl8xcC1wTEtwa3IwVndTVHBKV29IRXJyWFo4Ug?oc=5",
+      "published": "2026-11-18 14:01 UTC",
       "sector": "Technology",
       "tone": -2.0,
-      "note": "Lawsuit dismissal indicates regulatory scrutiny, negative impact."
+      "note": "SoftBank\u2019s regret over AI partner choice signals strategic uncertainty"
     },
     {
-      "title": "Hon Hai to buy Sony's car camera module unit for $44.1M",
-      "source": "Dealroom",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVmJXcVRfQnJkMTVhdDRxSXhXTXlsZG91eG5aaUlnUnZXYzdSTnUzdUZRcnh0MGVWNXk0aGhTdFBRSWVRM3lNVWt4WFowX1FHblAxQ0ZtM29zU3ZrWnNLUHFqVUFVRzJISERXY052N1pSNTBXb240YTBHcGFkdkh0QWpmNkpmQlJZREVHeTFQSGR0UQ?oc=5",
-      "published": "2026-11-17 14:44 UTC",
+      "title": "You Can Save up to $160 on Headphones From Bose, Sony, and Apple With These Early Black Friday Deals",
+      "source": "Lifehacker",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPU0pmTjNMQUozN2ZfRnV0TWFJNTFqZk1iZjFjVjgwZVZEM3NmbW9zT0hsbzhYMTZGV0luMG1BT29XanNpZlk0RGZubFBJVHNZWm91RFFzd0pZOTVXb21WaVJkWU9hTU9xaTBWLUZidW96OXFxc3ExOFhjU19oSndnQU5wYl9SVV9f?oc=5",
+      "published": "2026-11-18 14:00 UTC",
       "sector": "Technology",
       "tone": 0.0,
-      "note": "Car camera sale unrelated to core tech sector performance."
+      "note": "Headphone discount irrelevant to sector fundamentals"
     },
     {
-      "title": "US Dollar: Supported by rate expectations and energy moves \u2013 MUFG",
-      "source": "www.tmgm.com",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQN2EwamhBWUxKbnRZWm5kUmpHczdkdUJNejBDQUVSTGoxX0FaU3d1a3BreFlia1dnT2RKV1g3bVA4VE41eG9pLUNuOEpOLXREWXV0em1xaDdXT3NJaFN4YVVrQ1hiZEJFdEwxWEM1XzNrZWw2Ti1rX2UtOTJjZmlaN2VUcXhZV3N6TWxPOFljNktsaWRuYXJHMUE4dUlLMHZfbEx2QURVZFQ2ZjJjeFRISWNVX2FPOHJ0dlRicWh1Zl9Cdy00bEw0?oc=5",
-      "published": "2026-11-17 14:38 UTC",
-      "sector": "Financials",
-      "tone": 3.0,
-      "note": "MUFG\u2019s dollar support signals strong bank earnings."
-    },
-    {
-      "title": "RENOVA secures JPY 10.34 billion green loan from Japanese banks",
-      "source": "Solarbytes",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQbjZlWHBjVWJWZ21QdjhROVB0ZmVaZ1p2VmFWbUI3RnJHdnlhZmM0QXFETWVkWHE5SzFETDRpMkloVGR0c09jakNxaWY0ajVVMm5yMWtJdWZwV3cxdHZrOWZTMEo5QXNUdWQ5MTlEZnYxWjQ4YXZmR3B2X1dDZXl1YkthMlZNTHhkNkR4QXhVVTg3aFJKNlBYQlpGUjZieFUwWUpRaE1Kam5RUzdFWEZvaGtDUm9WSUY1RFVDd09nOA?oc=5",
-      "published": "2026-11-17 14:22 UTC",
+      "title": "Euro: Oil and US yields pose downside risks against Dollar \u2013 MUFG",
+      "source": "FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSHRXc1pOTkJ0cEtwWFdQX0hKamRUTktVSzg4b0tRNnowMHN4cWVzVjJhOVp1dDJSQXg2dUI3YkJST29MYU9NN2JPZXVTSkdPelhBODRIUFV5Z0hJX1hsRC1nTmx5ZnMtVmc4ZWJ2amxzbWtadEZiY2Nzemd5N3pQNGQxb0ZDdTFvazhzYmwxQWNBazkxaXhwblB0TWpSU2NGU0pxTGZKNHk?oc=5",
+      "published": "2026-11-18 14:06 UTC",
       "sector": "Financials",
       "tone": 2.0,
-      "note": "Green loan boosts banks\u2019 sustainable finance profile."
+      "note": "Positive outlook on MUFG amid global market risks."
     },
     {
-      "title": "US Dollar: How are rate expectations and energy moves providing support? \u2013 MUFG",
-      "source": "www.tmgm.com",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPTnRjSkNCR0hMbXJWbFBLRGhibUxpNDFsYUk3cDJmbFBhbGRZU3lnQVFoTEl5c2xmZVZkX2FrSG5VYmE1Q3RZeXFtRkUtNU9KUlZJd2wzcTFXcV9iU0F1cHJ6c3NQMkJMYmF4Mzl0QXVMMTU0TnRCNGV4d1hZT0c5NVQzdWt1bWFUS3BjQkt3aTZfb092X3EteEdualBFOExTNFE1VS1FU0hVN00tdnJ0WHBQN0p2eXRVRjJ3SzBzSnU2R2tob1Q5QUFPVQ?oc=5",
-      "published": "2026-11-17 14:21 UTC",
+      "title": "US Dollar: Limited upside as hikes priced \u2013 MUFG",
+      "source": "FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcGxIMWpPM2ZBNFVsejVOTVQ5ZUI0YUZOTGlob3hkcWFMT2Z6anJkVml3ckQ0STlDaGZvVGNzampXZlYzdmZITzRhOGR0YnA0U0pXbGdlZkdJbXc2WEVrZUJUM2RMNkpyYWRDU2RyLVJxcExLeXk5dlF3REljYkxLVDNJMzB1SlZnVVNjYmtpaGdlZw?oc=5",
+      "published": "2026-11-18 12:56 UTC",
       "sector": "Financials",
-      "tone": 3.0,
-      "note": "Repeated MUFG dollar outlook reinforces bullish view."
+      "tone": 1.0,
+      "note": "Limited upside for dollar suggests stable currency environment."
     },
     {
-      "title": "Mitsubishi UFJ Financial Group down 3.75% on Tuesday",
-      "source": "Global Banking & Finance Review",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRzA2dDRXbEw2X3pqb09sZVBacUlKX1ROMkM2UE0zQlVLV2doWHFxTUNjZ0hYSktfblJkMTM1TGdKYTV4alRxT0JjemcwSDhBLWFmakRVem0tZUhqbW96Y3Q0UHpnTWdpRkpxSUFuWXVDMHF2cXUtamdsM0phNkhHc3ZPNGc5QkxWZGR2YjJXa01reUpHTTBrVFF3aw?oc=5",
-      "published": "2026-11-17 13:32 UTC",
+      "title": "Customer Data Leaked at Two MUFG Group Firms; Unauthorized Access to KARTE Exposes 60,000 Securities Account Numbers",
+      "source": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1DQnd1NGJaYTZua0V2czZNMm16Z1BSRjc4OFBHbC05d2gzQU1RSDBSbFhNVVk2SHZQLW9PUVBHZkxiYlFYcWpoZ09vV1R4UGRqMHNYVl9INnluZHNzbXVYSVJiWjBwZ0RFRWk4V056ZHM5N0xfd1E?oc=5",
+      "published": "2026-11-18 12:55 UTC",
       "sector": "Financials",
       "tone": -4.0,
-      "note": "MUFJ share drop reflects short\u2011term market pressure."
+      "note": "Data breach damages MUFG\u2019s reputation and client trust."
     },
     {
-      "title": "British Pound: Labour data wobble but BoE support seen \u2013 MUFG",
-      "source": "FXStreet",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQeU51WF93ZDVQNzN6aTFieFdvSGhRZzZlQnlqc2otZ29saElYYy1EYU1ya3lPTHVnaHdyaE1NM3hhVU5YZG1Ud0YxRlZacE9keHdDNDhZZVRfcVltM0l6OEZoYVBfWUQ0NjBKUVh4ZEhvQnNJSzBpTjhBWFNjZzNnc2ExS3dXOEl6R181bTN0UjA2ajdRUkM0cElJWXJkT1NNakdn?oc=5",
-      "published": "2026-11-17 11:33 UTC",
+      "title": "Yen Needs Three More Bank of Japan Hikes to Guarantee a Recovery",
+      "source": "Pound Sterling Live",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZ3lzbUZjLVluX3YyNzF2TXZZZHFJUVRNcWxPRkpZLTFvZ1pRbjBmN09mVW5oUDB0dlhKT2lBXzNVc0hMUE5iZ05LSC1YWGlpNGZkR0hCUXo3YVo4MjFwcFIyVmowOW9iZmpCUHVwU1dIT0htOVRiS2xoZjlDTnRmdTNWUUVNeFprRXh4aXViLW9QaThHMW9BbUc4dDlqUFpJa3FrMjNyVVk?oc=5",
+      "published": "2026-11-18 12:07 UTC",
       "sector": "Financials",
-      "tone": 0.0,
-      "note": "Pound data unrelated to Japanese financials."
-    },
-    {
-      "title": "FILE PHOTO: FILE PHOTO: Bank of Japan Governor Kazuo Ueda attends a press conference after a BOJ policy meeting in Tokyo",
-      "source": "The Daily News | Texas' Oldest Newspaper",
-      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPT1RHNTVOSE9EZ19FQzJFeGlWc3FoNHRWTXpqV1lPT2l2N0lGWTItZFdQazB1bWVLQnZka014ZzhidldyUGt4X09GdFIxczI2SXdJcTRrMkJXX3U4U2NxcE9wN2RQYlg5aEJhMllzV1d3dEtZQ01xb2xHWjktOGxmRDc4VTctaG1XelVDY2YyS0hmc2FMWnQ4NzVzZUIxV2Niem4zQ0NHVlhKTGZPNWNwSkI1cTVMZUV4SV8xaURfUjUwQ2pIdEFMdGlIeWZRZWlwMWpKM05rT3E0MllGSGtqbTV5UUEzSlBIT0xoSHhsWDd2YXJkUUZpczVLNmFiN2VXNnFOVU12cnBUTUY4dFlrSw?oc=5",
-      "published": "2026-11-17 11:18 UTC",
-      "sector": "Financials",
-      "tone": 1.0,
-      "note": "BOJ governor\u2019s remarks hint at stable policy environment."
-    },
-    {
-      "title": "Corey Heim to drive No. 67 Toyota for 23XI Racing in 2027",
-      "source": "NASCAR.com",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcEI1OTg4RkVma3NDanJPd2xZTS15QXlSckhsRjVJS2M4Zjd3VGdJcFVVLXlaeXlvNXp4bEloaDNBNWFrQVZoZlgyUzAwakdUYW1qcFV6UjRkVzZobjlQS09SNlJYb2k2RnJWMHJGMFpKNlJuZDJlZlhYY251UGY0RVVnM2xfS2xOWnE3bkk2czJabWMtRU9mdmhiTVZ5WTY5QnRzSWU1Ulp5UQ?oc=5",
-      "published": "2026-11-17 15:11 UTC",
-      "sector": "Consumer Discretionary",
-      "tone": 2.0,
-      "note": "Toyota\u2019s new racing driver signals brand excitement, boosting consumer interest."
-    },
-    {
-      "title": "1994 Toyota Chaser Tourer V Live on Cars & Bids",
-      "source": "Motorious",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPanNqWGhTUmw2b0JMVzFTRC04amFUSWthbzVpS2RTbndsZjNSQjJJX1ZxTFVvdlhNendHYVFLYTFZUFVvdVRCdEdsWWJaZ3ROS3Z4cjMzNkN4SWdtSjZ2LXpTVUljdUFfbDI4UkdtUE1mSnRLeGtSOFVQZGhnMHltQWpBYmp4cTROUzhSeDJn?oc=5",
-      "published": "2026-11-17 15:03 UTC",
-      "sector": "Consumer Discretionary",
-      "tone": 0.0,
-      "note": "Classic car auction, no direct impact on current consumer discretionary outlook."
-    },
-    {
-      "title": "2027 Toyota Tundra and Sequoia First Drive: Smarter Towing, Better Tech, New Trailhunter",
-      "source": "GreenCars",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNeVBhUk9iTGZiSEo0VzA3UmJuNFMtUTJKa2VaVTZNakh3TjdwX3Y0MWVJUHpBN2JQZWlzUFhhVExFRlhJdDNTUGthQzZMS1hsYk5SVTJOdnRiUlprbFBYQW9qMHMzamVfRnFCdV95Y1RpLTQ3eG5sVGpKZkpRV1RHbV9CLVlDdm5GbFZob2lEOFdseG5rNEg5aUZkZmg5V0RZMVd3bjZVdVhpSldBT1RtX1pZdUIweHBJczNTbGV6RWFjTE1SN0E?oc=5",
-      "published": "2026-11-17 15:00 UTC",
-      "sector": "Consumer Discretionary",
       "tone": 3.0,
-      "note": "New Tundra and Sequoia models suggest strong product pipeline, encouraging sales."
+      "note": "BOJ hikes expected to strengthen yen, benefiting domestic banks."
     },
     {
-      "title": "Toyota's GRMN Corolla Is Fantastic, But The Regular One Makes A Strong Case",
-      "source": "CarScoops",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWlhPVFlwYlNYMTU2RjNUWVhDbHhCQUo1VUVMUzlHVGtoZ29XU2VpQTVVaXVHcWpOMWdTTTY1Qm5TcDludWxSMVpuaTQwTlhHYy11c18zSUxlNDN4ZmpjMkZtQmdYUmU1bGh3SGlXbE40UnEtdUdqaDVTY0ExVjRPZElmWHM?oc=5",
-      "published": "2026-11-17 15:00 UTC",
-      "sector": "Consumer Discretionary",
-      "tone": 1.0,
-      "note": "Positive review of GRMN Corolla highlights performance, but regular model\u2019s appeal keeps demand steady."
+      "title": "Watch MUFG: Reverse Yankees Are About 20% of Europe Corporates",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTU9rUmZsSVVGWVEtS3NNdmVZNDJCOGtuMW5ILUtFSEU0NHBEWTExeEVrSkpKT0lLZ2l1WUVEQlJXYmlJclgteUhYeUhSVTFacThJUXRBNF9LWGphc1RxSXZNbEdDeDhiMEFZUjN3STZJTUF5dXBpanRSdzhuZThWS3FNeHFvNDljNTdMSVMxeTFUZ1FNR2Nod0RROC0yX0tRU241QjZ5Q3lDenpraHc?oc=5",
+      "published": "2026-11-18 12:01 UTC",
+      "sector": "Financials",
+      "tone": 2.0,
+      "note": "Reverse Yankees boost MUFG\u2019s European exposure, supporting earnings."
     },
     {
-      "title": "Toyota defends approach over GR GT3 after Stephane Ratel voiced concerns",
-      "source": "Motorsport.com",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdHk3NzRSM3hfRWpNN1l2c1paU3VqSnNmYUNzM3NaYkRXaEstN1ViNUhWUnI3LVZST1RHWVlSdDYyTUU1RzJzY2JCNlpQdVJtZ3NxNGs5Y3E4cS1CUkZwNkhWalNzOWVOa3RiU1BSTi1mZVB0WGppb2NrOWZTTG40aGdhclZhZlBYd2k3bFZxUEFMejdDR3VnWHFJLUFCSEdvczBGd2NzbllfczN2aUJnZHNmYXJpT29lMU5F?oc=5",
-      "published": "2026-11-17 14:57 UTC",
-      "sector": "Consumer Discretionary",
-      "tone": 0.0,
-      "note": "Technical defense of GR GT3 is niche, not affecting broader consumer sentiment."
+      "title": "MUFG Capital Analytics Named Among Top Workplaces in Dallas-Fort Worth for the Third Consecutive Year",
+      "source": "The Manila Times",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPMjZMamg2MUNXRkt5anQxdVV1T1hQemFIRWViQXVWWVZpVzhtd3hhVkx6X19QbkhHb2ZGWjF4ZnBKelJYaDl3QjhoSXhTUHFsQllBazVKWE5tVFZWSjFvdjZJT3p0Q1FvcmdLelB0TU5EZk9Xb2RQcFpvU2lPR2VWbUJ2V29NYVUtUmJwREYtbS1DOXN2ekVNLXVNcnh1OGMwWEhlajNkSkdENmRDMVVvNk1CcDJmanVMckJWVGthNHd6ckhYVXF6WDZIbGY2WFlwY1R2SGU3UUEtcEoxdk1UeVRfblVMVmFHUnNKU0VnVTdLQ0JSNkZuM21tRE9SRDhpQjl5eWR30gGLAkFVX3lxTE56N2ctamE1dUl2TUJYOHF5OHFEZVp1bllOaXVWOVRxWVVjUmFnVHNpLWpVZk0zYWdyUERjQlphSzZ0U080V2JtakJLQkRFVG5wck1BU01VVGJEQ1FMdVZielpfY3EzcVRPTUhoZnI2NHVRdERyREV6NmxrdFNJc0ZneHEweWxFTGtaYnZDSXkzb2xEQVFUZ041UXJ1OERCQkVXNjctV0Q5cjM0TDlxa0FIT0piTWRsc3ZGRm5MQmNGSEpUNU1YRUoyVzJld001cWtqSWRCS1NhWlN0VmlxWEVLTUpkVktyd2hPMUZlb1h6WXhQazUtRWlPa3ZiMW9oVk9ZNGlNWXN3aGtsUQ?oc=5",
+      "published": "2026-11-18 11:48 UTC",
+      "sector": "Financials",
+      "tone": 4.0,
+      "note": "Recognition as top workplace enhances MUFG\u2019s talent attraction."
     },
     {
-      "title": "Toyota's Tiny New Scion Could Make Simple Cars Cool Again",
-      "source": "CarScoops",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZ1h0NmxJcmhLaHBKMDIteTV4ZVFKa3B1TEs3cjQ5YlB6RzR5VVJzRWl1a0tMdmFfelFiWkwyaGFNMVhrRnhJRjFfVVN4dWJQWmFrWnBaV3pQcUU5dkVGalNxMmI4MWlsT0lCRDJORi1HSjZKV2JuMXcxS2dOb0l3V2pVNA?oc=5",
-      "published": "2026-11-17 14:55 UTC",
+      "title": "2027 Toyota Tundra First-Drive Review: Here\u2019s What Toyota Fixed and What It Didn\u2019t",
+      "source": "The Drive",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORXlEVEM5dHlQaXYtaWlrZnB5MnRPZDdMUmpmWWVkcHpWdGhTNFJlVzhVYVhIV3JuVXJXdFlfcjExQTFlOWFDeHpBRnJNc21oOXJZS0oya1AtblBYUDJUTHAxTWdSZExINnBiTFVpUFdPUlhHbEdENFQzWEl2R00wMklhOXFVblRNUHk5SW9VN3poT29nT0VENGdsSm54VWFiZGFESF9IbF8yU1FwTEpDMGdCN2V0MWM?oc=5",
+      "published": "2026-11-18 15:00 UTC",
       "sector": "Consumer Discretionary",
       "tone": 2.0,
-      "note": "Scion\u2019s simple design could attract budget-conscious buyers, supporting discretionary spending."
+      "note": "Toyota Tundra review highlights fixes, suggesting improvement in product quality."
+    },
+    {
+      "title": "NPD: Man tries to buy $39k car with fake check from overseas girlfriend he's never met",
+      "source": "KFDM",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTl9hcy0wNldNSjhhaHBWMV9FQVdUUkpHT3RMVTE2LTlnallmMlJQQkJoMUhqVzlCby1qOWhJOTBYSEZaSkpHZmhiYU85MWVrYjZpTXNuZlJYMVNadGxjX3Z2d1B6QjdONzB2cFpDX1lXUk1aVzRjUXdJTzJpU0hTVGVRTFZsSllob1lwbVVIenlBWGFOZkJFRVgycGtaOHhEZDVmX185WDI0YVBUclMzdg?oc=5",
+      "published": "2026-11-18 14:58 UTC",
+      "sector": "Consumer Discretionary",
+      "tone": 0.0,
+      "note": "Fake check incident unrelated to consumer discretionary."
+    },
+    {
+      "title": "STJ maintains Honda and dealership responsible for airbag failure that left driver in vegetative state",
+      "source": "Jurinews",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOQ2ljTDY5OFhGbnFEV0xHZndvQU9OcHUtUWFWdkx4a19MXzVscFN5ZmNrVFl1WkM2dFIxaG56TnYzUy1KVEM5Mm5GdjhHbFc5M1hHdUdZMEFBQXlla2d3V0VqYm51TW1CQmtVTzY3bjdrYmMwWHB4dDJkTzlqdVRKUndsenFUTGotOUloeXI0TXNpWFN2bHNFOWZTUlNFWEZ5MzRaT1FvRHhuQkNFRTRvN2hKX1RtTVNVOWctbHdqa3JrQ19wWHVZM0RfZzlqakdnMkFjSW01bC0xcC1LV2NYYg?oc=5",
+      "published": "2026-11-18 14:51 UTC",
+      "sector": "Consumer Discretionary",
+      "tone": -3.0,
+      "note": "Airbag failure recall damages brand reputation and safety perception."
+    },
+    {
+      "title": "The Longest-Lasting Midsize SUV In 2026 Isn't A Lexus, Per iSeeCars",
+      "source": "SlashGear",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTXVnN2UzRHktNi1DeGVsZnF0elFxRHR5TGJObTQ2RXZvM2ozTzhsb3ltRzYyQnBjZWNfSW9GN1ZXZzd0U185WVJBclJRS2NBY0h5TE1yZkJuMnp2MzRwRUVqRmtWNU5WTWR6NkFRdTZVbmFfMDFEakNObEVQeXVMcmFJSTc?oc=5",
+      "published": "2026-11-18 14:45 UTC",
+      "sector": "Consumer Discretionary",
+      "tone": 0.0,
+      "note": "SUV longevity study not directly tied to Japanese market."
+    },
+    {
+      "title": "Toyota Recalls 62,000 Tundra Pickups Because a Camshaft Could Snap While Driving",
+      "source": "Men's Journal",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSWdtZ3J6dzJ2UldYaGVrSW96LUdiMHNmMF9qcVdpZDRqa214bmEzYjJwcFZBMVRObTlsd1R5eU5ucDJ2RXA3ZWV5bkZEX2tPeDJwV2g2OGhXSFpZSWVkQVdiYldMQlo0SnFyZWNwbzhDVHZRb2pNcWpNanh1d1RZTw?oc=5",
+      "published": "2026-11-18 14:36 UTC",
+      "sector": "Consumer Discretionary",
+      "tone": -4.0,
+      "note": "Recall of 62,000 pickups signals significant safety issue, hurting consumer trust."
+    },
+    {
+      "title": "I Drove the 2026 Toyota C-HR, Here\u2019s My Honest Review",
+      "source": "Autoblog",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdTRMREgtdEp5c3pzQVFNWWhJSndYQ0dDc2NVb0s2aFFBOWJadmJRNjI1NHFpWHhHeHhabE0wT0ZmQmlua2V3U3JKQWFRejRnbkpPVHI5bWM5ZVU0UFJKRnlQZ0dRTjRRSTZheG5MdVhScXVEeGZueHUyVk1PQmpzdV9GSEN4WWtEV3NBeg?oc=5",
+      "published": "2026-11-18 14:31 UTC",
+      "sector": "Consumer Discretionary",
+      "tone": 1.0,
+      "note": "Positive review of Toyota C-HR boosts brand image and sales prospects."
+    },
+    {
+      "title": "Takeda Launches Orzeyful Orexin Agonist for US Narcolepsy",
+      "source": "Zenopa",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSkppa2IxQzFzMWI4VXVIV2RuTDdvVlk3VEtfNGFjYmZWQW5Kd2ZmcW1IcmdkSkgzOFdGeHpPTGtWWWxDdDNZQ3E0bnJ5aWl6alJmQmRoT1NDem56b0hONUZQckliVkpJcTZGckNtN0pKLXJKMXgtbk4tbnN0QWF6SkhCUHl2RnNCdnFzUQ?oc=5",
+      "published": "2026-11-17 23:16 UTC",
+      "sector": "Healthcare",
+      "tone": 3.0,
+      "note": "New US launch signals strong growth potential."
+    },
+    {
+      "title": "Takeda launches Orzeyful, first orexin agonist for narcolepsy type 1",
+      "source": "Managed Healthcare Executive",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTVhoSkowNndGT0ZORWVmUjRPMTlGY2xZQUpvX0FhYk5rTU1xQlVpOHFFWDBtRUx5dHJ4MC1JX1duZkZ2RVFVWlAwbGloeERJZVAtNDA5LUJRa244RHBnVjJ3dU1TNjg4NTVWdlJxdzJUU0JIbHZlVmlVeFZWWmZTTnBqZl9COFlxQi1CbDNBbzM5RkVHdjh3ZlZ2WGQwQ3VWSC0zNTJZVi1PN3l1UTRvUw?oc=5",
+      "published": "2026-11-17 21:00 UTC",
+      "sector": "Healthcare",
+      "tone": 3.0,
+      "note": "First orexin agonist shows product pipeline expansion."
+    },
+    {
+      "title": "Takeda Pharmaceutical Company: Three launches start a new growth cohort, with pipeline depth and scaling key to future growth",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxQLXY5MER5SUtCUWJFaDcwc0ExOXFKNUJ6QWFXUUdLd3c3SU5tdU5ZSkNRdmV3a0ZrSnd2YThkNWxodUdlZGF6QmxlOEVXVGJKWlh3RFVFajZhYkhqZ1RKdmJqVDhueEg0ZUc1RzRrdjlYWVpaZnU0c0x3UG92RmVGWENpZ3lOck5fdUNlbFdad3htdjF5N0toWWpQR0V5SGxPTFR5cW9YOWpFcDVtbVdsRTZWRmlzeUNlMDBva1pNSWlxQXJWVmhGaWp5dW5IU3l5ZXBzOFlQdlVtVW8tVEpIQzFmM1JGLWVRb3l6eGJNcTFOYzI3UTJuamg4OWZBV1VjR2dva3VQYmdiNlJGXzUxOXpfa1pNUVlTUWhnUkFBd2hSWEZHVmR2UEtubjVjbE9QS2haUw?oc=5",
+      "published": "2026-11-17 18:22 UTC",
+      "sector": "Healthcare",
+      "tone": 2.0,
+      "note": "Growth cohort highlights pipeline depth and scaling."
+    },
+    {
+      "title": "Takeda at Jefferies Global Healthcare Conference: growth plan beyond entyvio",
+      "source": "Investing.com Nigeria",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOQ2RaMzdPelZnM25ibHRoZjgzMmVnZlZCMXdxaWFTTXVLUlgxSFZkOVZRMThib2EyQWFJcXVGTzdPOHZ5cjB3OUNiU2VwOHVIMHBTVmZMTl81OXdUaUF3SXhVZVFsZUVaTjU1Q2RGRUgtWGUteWtoYmQ2Y3dnZjRnUkhtZ284NTNPNjlHX3FzRWdjbVdUeF9hSmh0UjZWVUdOWFlwNUNBY3hubm9NSzdQMkRMa21vZS1Jbmlod3F4ZFlrWjdJSUVkY3BhbGZWZTFodXc?oc=5",
+      "published": "2026-11-17 18:06 UTC",
+      "sector": "Healthcare",
+      "tone": 2.0,
+      "note": "Conference presentation signals future growth beyond key drug."
     },
     {
       "title": "Takeda stock: BofA raises target to USD 26.70",
@@ -224,8 +260,8 @@
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNEh4NUFrbEc3WlFZUXRZb1Zic3l1T1BHTG8tQWhKWUQxdUxPQkxWOXFnd2hDZ1BENTItdnpDc1FWYlVGSkthMHljemZXSXVIUDNQVmN1dlpFZG11LWp5MGRMb2VGbWVTR1NVbFcwZjFodkRYMlp4T0RFa2t6ekNFckF1TjJQU0tHRnV0Sjc0S0dxbGJhTjFHNGI0V2lZQjNEV1V1eTM5Tkc4NkE?oc=5",
       "published": "2026-11-17 14:25 UTC",
       "sector": "Healthcare",
-      "tone": 3.0,
-      "note": "BofA raises target price, signals strong earnings outlook."
+      "tone": 4.0,
+      "note": "Bank of America raises target, boosting investor confidence."
     },
     {
       "title": "Takeda stock: Bank of America reiterates Buy rating",
@@ -233,152 +269,116 @@
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOamd6djBCZ1V0VmdVYjdKUjZoVmhqX1l2ekxMQU5keHkxYWlscWpsYVhnMHNfZHAtdDFodmx3azZjZTF4Um5kLV9wQ2s3QmdiUXdQSlIxV1lReTZMQnB3OVJjOWVmMHA3SVlHaUl0SVBrMTFXUWtQZnUyYmdHUGQxRDNYMVoybklIaTVfOUcySEdZSF9jSXJkWkNDc1Zaa1FXWndIRTVvWmVtZXBXTlprUGdSUQ?oc=5",
       "published": "2026-11-17 08:22 UTC",
       "sector": "Healthcare",
-      "tone": 3.0,
-      "note": "Bank of America maintains Buy, reinforcing confidence in Takeda."
-    },
-    {
-      "title": "Takeda and Zuellig Pharma Partner to Expand Medicine Access Across Three Southeast Asian Markets",
-      "source": "BioPharma APAC",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQMTRWVkdxWlhoV3FaZ3h5dndvTjlLUi02VU8yWFptOTNCSFU3MU03NUxBQ1NkR1YxVHh2MWdOUk5QUGxRZ0MtbjJENDVMTEFCVTgwVzZzRUstNjlBbG5FVzNKWEVmbEtjQjI2YUJSVzBUYy1idVYzQzV3elhzM2dZenJPQy1TU2hQN0tKSmpkYkpzZUhaSjFrenY2NkpFeTZnTlpQT2FDYzZ2QzVmOEplc1VubmMtSFNDR3hEeTRCdVFwNW5RaFhhaUpDSzc2R3ZqVTBVRkZaRQ?oc=5",
-      "published": "2026-11-17 08:15 UTC",
-      "sector": "Healthcare",
-      "tone": 2.0,
-      "note": "Partnership expands market reach, boosting revenue potential."
-    },
-    {
-      "title": "\"Three Reasons Why Korea Cannot Beat Japan\": Japanese Media Offers Harsh Criticism, with Some Points Worth Heeding",
-      "source": "\uc2a4\ud0c0\ub274\uc2a4",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5FWVNyckRxQXQwMDFDMF9GNFNGTHJqQy1vSEdZNUNXZFJkUmF2WkQ5eTdmcF90SVZocEdOX2gwWWQtWXUwNmZxQ2kwaVFUNEtHZ3hFTXNsVlhSRWpRTnBZUzU3TTdJT1dCMkNpYlhrMVFUb0dtTmpBWU13?oc=5",
-      "published": "2026-11-17 07:00 UTC",
-      "sector": "Healthcare",
-      "tone": 0.0,
-      "note": "Media criticism of Korea unrelated to Japanese healthcare."
-    },
-    {
-      "title": "Japan's NTT Docomo Hit by Third Network Outage This Month; Communications Minister Takeda Calls It 'Deeply Regrettable,' Demands Root-Cause Probe",
-      "source": "BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5QZTFWVnRGN2lDWnh5a0VpUURSd2NzWEw0VVRTOEdabFRsZldpa1d0UmdZTDdKX3BNRDRpajNxbEtHSVdrUVBucXZhaXdlNHdxMTFDbktHSWNrSlFzRnR3a3o3ZTZZek1rZEQxSUQ0MkxBUU9TcUE?oc=5",
-      "published": "2026-11-17 03:36 UTC",
-      "sector": "Healthcare",
-      "tone": 0.0,
-      "note": "NTT Docomo outage unrelated to healthcare sector."
-    },
-    {
-      "title": "Kobe Beef Hamburg Steaks at This Price? What Makes Takeda\u2019s Hamburg Steak Restaurant in Himeji Special",
-      "source": "Kiss PRESS(\u30ad\u30c3\u30b9\u30d7\u30ec\u30b9)",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9BN2JyWE8yLWRITkdHRnVTUHZkeDZLZ3FOTURxc2pNN2FzeE1ZcG81YXpIZ2w0Wk9XRnRQUHpoa0xZRlJQYkE3MlNaSy0xM2w4?oc=5",
-      "published": "2026-11-17 02:59 UTC",
-      "sector": "Healthcare",
-      "tone": 0.0,
-      "note": "Restaurant promotion irrelevant to healthcare industry."
-    },
-    {
-      "title": "Hitachi and Bell announce ADT collaboration",
-      "source": "Equipment Journal",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPS21fLV9INjhaYXhUUXlPSVVhM21kaWswZGRHYWVqamtUcGh0Y2EyS0ZiR3htbm9sSVhlRmwxb0ZEU2dKNko3R253bUNtanp6VnhCTzhSQl9qTXFhUzhsMzZWMS1MdVJMeEtMbTBfOThCZTdHeEVnQ0dmeW9sVks3M3B1OERxdnkwVjBnWHFtTzNEVG9sU3AtbzcwQdIBoAFBVV95cUxQN0toTnJGZ0dLMGlzQ1B0U1YzWE5LcUQyWkZ4akNCbGFUME01UEU1NTI1ZzdtZ1FsYWxGanFXdWxrNldrZTFqM0RuX3Q2SFlaeHRBemlNX1I2M0dkWVVzcE05RWptZzAzczJoZzBLYm53SkFkVUVMc0JmQUtYb09faDhyT250aXg0X3kyb3pYdUMwSmRmQlF6WEg1WFFUU1gy?oc=5",
-      "published": "2026-11-17 09:29 UTC",
-      "sector": "Industrials",
-      "tone": 3.0,
-      "note": "Hitachi\u2019s ADT partnership signals tech-driven industrial growth."
-    },
-    {
-      "title": "Pima County Economic Development Visits MHIRJ Aviation Group",
-      "source": "Real Estate Daily News",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdGVSUnF5b0M3MFd2alluQlVNMDZ2ajl0RGxsa2dzV0x3N3ZEQnVsc3dFX0wtQjBIWDVuV2U4djlsX25fblVEWUNNV0hMMjdqaGdKTERBSEs0eFhSNDlURU5xSlFkV1huM1RWU3VONFZfR3QzdDV3WW1tVHRBM0pzbmVKZ25GQ1VnQ3N3MldUd19jY3JabTRHRHBpU2swb1hIaW8xNDJlczBxVVlhTGdB?oc=5",
-      "published": "2026-11-17 07:15 UTC",
-      "sector": "Industrials",
-      "tone": 0.0,
-      "note": "Pima County visit unrelated to Japanese industrial performance."
-    },
-    {
-      "title": "Japan's Supercomputer 'Fugaku' Halted by Hack... Fears of Corporate Research Data Leaks",
-      "source": "\ud30c\uc774\ub0b8\uc15c\ub274\uc2a4",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBObUYwRWdmeW53VDV6eFdBVG90OUwwbTV3Z2NIRlAwRGVrNTlZTklEWUl6TGI5dzVlbFZzT1U0dkh0eElyQVM4UGswSVpnNXYyOHBCZ2RPcUw?oc=5",
-      "published": "2026-11-17 06:45 UTC",
-      "sector": "Industrials",
-      "tone": -4.0,
-      "note": "Fugaku hack raises security concerns for Japanese industrial R&D."
-    },
-    {
-      "title": "Mitsubishi Shipbuilding acquires certification from WinGD for MAmmoSS\u00ae ammonia fuel handling system",
-      "source": "Cyprus Shipping News",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZ21hcVFyb3R4WUhNSklFdGo2dy1wQUEzdUdvSFNWRTE4Y0N5c0tRVlIxUGpZeUFuekdGaGZ6d0JVWVFzckwwZUdXeXd4TjZZZ0IzUmpvTG5PTEJORkMzNVlUUFpray1GQW1walhfV2lBWVE0V2QzREJ3NU5PNUx1MHcwR1A0LTJLSUZjYms4OFJMOVI0MDlwLTltTE1GTWhzMDQxTkNHZS1RdGE3TlFpa3RkZThjWEVTeGFpSFZZb09QTkYtbzEyMll3dGVDNXpfc1JGRFpKRmg?oc=5",
-      "published": "2026-11-17 03:31 UTC",
-      "sector": "Industrials",
-      "tone": 2.0,
-      "note": "Mitsubishi certification boosts credibility of ammonia fuel handling."
-    },
-    {
-      "title": "Japan's Supercomputer 'Fugaku' Hacked Too... Fears of Confidential Data Leaks at Toyota, Honda and Mitsubishi",
-      "source": "\uc544\uc2dc\uc544\uacbd\uc81c",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5jQjhhdkZuNEZEc09LeTI1STVNMUFKdkF6REVEMVpLM3FPeUw5Tk05UlAwYTBLQzBLSlRvSUtvS2tUMDZmb2k4M2ZaX0ZzOVRqWjBkQnFGb1NCZGxwWl9YX2RjOWE?oc=5",
-      "published": "2026-11-17 01:52 UTC",
-      "sector": "Industrials",
-      "tone": -4.0,
-      "note": "Repeated Fugaku hack deepens fears of data leaks in key manufacturers."
-    },
-    {
-      "title": "Vibration Dampers Market To 2035: Seismic Retrofitting and Automotive Demand Drive Growth - News and Statistics",
-      "source": "IndexBox",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSTl5ZE95QVBydjVNQW5DVjNsZF9TNzNYZUE1REpDcHctd0w0cnA4ZzJqeGlTM19ldUFWbjJObTNWNm5KRXBWQWV3U1FaYzBWUTNoRUpkbG9aeE1oSkhPelFSbjgyTUdna2g0RzhMWEFibUxJenJ5c3ZFV3k5NDhNN3lyZ2ZTd2ZoWDloUFZJYUI2bjBkblF3VTlMOGNpdTFqZkQ5SlFWWGE0UGpUYld3U1o1blhwVFJEQTZuQjRpZ3dNT244cGw4aUVlWjEwMzBf?oc=5",
-      "published": "2026-11-16 23:31 UTC",
-      "sector": "Industrials",
-      "tone": 3.0,
-      "note": "Vibration dampers market growth supports industrial and automotive sectors."
-    },
-    {
-      "title": "UP World LNG Shipping Index Snaps Four-Week Losing Streak - News and Statistics",
-      "source": "IndexBox",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaEttYk9Wa1NfckxTMklyYllYQkoxRlVJaFVmNW5ZeHBEdmVBMksya1hoQ3YtUDdkNlNiMURVelZzOXdaTnhLQ2lnZmhQUFFXMmtpMWczd201QnJ0a3dOVXJnMENRalNJbndQcVZWZ0NQRHdyY0FfX21wY3BzMWFLVTZ2YkJHd2dLYlM4?oc=5",
-      "published": "2026-11-17 13:51 UTC",
-      "sector": "Energy",
-      "tone": 2.0,
-      "note": "LNG shipping rebound signals demand growth."
-    },
-    {
-      "title": "Goldman Sachs: TTF Gas Prices Could Reach 150 EUR/MWh in Q1 2027 - News and Statistics",
-      "source": "IndexBox",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdktpcmdXejUxWkNuN1F4a2x0Nl96em5OTXVicVgzNnQxOVkyOV9reFZpLUhvbjVyRkdTU3M1T1MwUzZiWEVuZ1pDQzRDelY2dVhKZEhsOTFSYzhydnFZWDl5RDVMLVNSQkpUeUdYZ3FrOEwtRW8wRFR0NmJrZHk4bkM2azlGTC1BWGRZNjRDRVhfSTBrNjZ6d1VlbmNSRVFvSXRkbU5uVnI?oc=5",
-      "published": "2026-11-17 13:30 UTC",
-      "sector": "Energy",
-      "tone": 3.0,
-      "note": "TTF gas price rise boosts natural gas earnings."
-    },
-    {
-      "title": "Japan's Inpex lifts 2026 profit forecast 7.8% to record JPY550bn",
-      "source": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNanRXbW0zUDNGVGdUNkdPeWhjQThYdG9ibmg3WGFtWVJuRkhyWVBzRlRiaXVwN3RuOUxfcnZLWjJ0TE5wWFF5R082WlVfdzFYemV4d09wdlg3NWtJUjI1emVhQTdXTmFod3lqWEpUQmhiWjdXemZHaFRPSTNmWnpjOHFHQUlrR01LcE1TTmZkUktLUUFOVmJvOWdZeC1nczRRa1hYOGphTUdERjlscngxSDNJbVZ5bDJnSjBQMA?oc=5",
-      "published": "2026-11-17 13:24 UTC",
-      "sector": "Energy",
       "tone": 4.0,
-      "note": "Inpex profit hike reflects strong upstream outlook."
+      "note": "Buy rating reinforces positive outlook for the company."
     },
     {
-      "title": "MAIRE Nextchem Acquires Chart Industries LNG Technologies for USD 220M - News and Statistics",
-      "source": "IndexBox",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMnMyWnVYeWhGMGhrZ3dMNzN6Z05xVWtySS1HNlBpbFJESnc0YjBkSER2Snp6WWQ5ZDBvbUxBaEZHX2lVVDR3MkJ3NXNsRW9DRy1EcjB1aGZjeWNxTDRvdHNoekwydTU4d20tdnJaMG96ZW9INUJrdjViTXVvMTc5MzVCa3JkbS1NU3V0TjNKb0c4UU9LMjRqUzR5bklBUDBlX1didVZDVWk3Z2x5WFRXbXpRcnppVFFIVlE?oc=5",
-      "published": "2026-11-17 11:00 UTC",
+      "title": "Today In Aviation History: First flight of the Mitsubishi Ki-83",
+      "source": "Vintage Aviation News",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZW1hV1ZETDQzeFktUEVXTVNKN3BjVjhZdmt4U3BrdVpiLXNYZU5aTDgtOEU2RmRfME54UEpMY293WUlURjdPczcxdjhGT3JaazFQcTFSYXI0ald3aVFDTnFqY1NPdnhfaHBKNWRhS1NsUUxOd3BMelhrOF91V1piYlhyS2RULTU0RkJCcFR2ZEQyNU5JUnJHbnJDRjF6R2JabkNPMEJKdGpzckI2LXdWT2UzM25KSHM?oc=5",
+      "published": "2026-11-18 14:04 UTC",
+      "sector": "Industrials",
+      "tone": 2.0,
+      "note": "Historical aviation milestone signals continued aerospace innovation."
+    },
+    {
+      "title": "Hitachi excavators at Designer Image: lessons on long\u2011reach earthworks for contractors",
+      "source": "Geomechanics.io",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZmE1MzlpYWVRV3dHTVFmdFAxYkpMTGF6TWhwZnZXLWxjMElQajNnM0oyMWViWDZWWnlWXzhsbWp5aFBHcnl6Y3FLNk9zWHFZd21wMkdyQm9iUFkyV0QtMVpGdzEwVlJ3RjFobkFocFlGanpDUFk4Skx5LWxENGI4YldsZm5jZEJXc0NpZDREb1AtSWhCMDlHVEFRc0plUTliUTNqUms5WEVLRmZFY3dsZnVOZ01FTGtpbVdCMXZjNm53MDA?oc=5",
+      "published": "2026-11-18 12:31 UTC",
+      "sector": "Industrials",
+      "tone": 3.0,
+      "note": "Hitachi\u2019s earthworks tech boosts contractor efficiency and demand."
+    },
+    {
+      "title": "Yomiuri: Japan Accelerates Development of Ships Powered by Ammonia, Hydrogen",
+      "source": "MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNSDRLN09DT3paZUx3YU1PNmRuZTYzV3Fub3d0a3FQN3ptQlY3MTZSbGFVbVdlWDV2dWJ0WEg0Z1NnRmNnOWdWMGJNbldaTmJUNFhFUnpQOWpwVVJIdUg3Mmk2NWlPcml1aE9ZQXFaTmRtR3NRd05EZU1iUGE1Qjdvc1ZpMVQyMHdyZjdqTDYtTS1JY01vcmFocjlvUVBqNy1MbS1wV1lDaFRnbG1qVTQwTnpEXzFSWXJlbHRsbHVmcVB2Sl9DZTBPRWRuWTdUdWM?oc=5",
+      "published": "2026-11-18 11:09 UTC",
+      "sector": "Industrials",
+      "tone": 4.0,
+      "note": "Ammonia and hydrogen ship development positions Japan as green maritime leader."
+    },
+    {
+      "title": "Mitsubishi Electric Signs Global Comprehensive Agreement with Salesforce; AI Auto-Updates Deal Information from Meeting Minutes",
+      "source": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1LcTVpbndNTnlxemcyY3c0ZVVUYm1ubjY3MGxIcE9PaEpqdmFydnRFSHc3aXlHMGhpOXVEVVFZd3Y4d01JUjRSb1hOTVI4VTVaaXRrbEJTekJGNkhXb1F1STZRYWlnYjVOSDVZSnB3QTRGdU5McFE?oc=5",
+      "published": "2026-11-18 10:25 UTC",
+      "sector": "Industrials",
+      "tone": 3.0,
+      "note": "Mitsubishi Electric\u2019s AI partnership expands digital transformation."
+    },
+    {
+      "title": "MHI and SAKURA internet to build Japan's sovereign AI infrastructure",
+      "source": "ET Datacenters",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPQ3lGRlB2MVNsWDNvOWtPSVNHS3JxbldwT19zcE9RWEFUcEJMV3B2T2xRdTdZQ09FdG8yYzRmU0xQM002ZV9iMG9PNDdjUEFlY3BkNktvcThtWjAtczZVUE53RHdfSTMxVnNLeFBDcTVzc0p2NU9Pal9qMTh1a1N6YWJ5RVRaZzUwU3BEZFdXRTdSTk1icXRFRGFzejBVZERaMzFUWUJCRkt1Y1l2UmpyMFBUem9POXdVaHEtcWlscmpWUDA0YWM0bW8tVGJUV0xnc1o3V1dXSkNockVzY3NaZ2s1RzFoWXFlZzg1ZHFB0gHyAUFVX3lxTFBzME0tcHJ1c2VmamxfWE1saGZLZlp2Z1V4Z2RrdG9TcHpJc0c0WEVhX2RpSlUxWE16NHhLdWdkdlFEU2RuNGo4QnpiT093cWppUm80YWpET2phWGJKbzNqTmlxOTVmOURmMngxLTREdE45UUJjeHc2MFFwdFJyaWp3TWExaWlYOFRZZ1F4UkdiU0FjaHNqS0ZyT2k1dUpzQWZINEJpVVMtZ2JLUVhoUHRXTEw4MkZ1aFVkN3VIZVZVeGRYWTkySGptNlVvQ2k1TzFobUVfRXhDZ0RQdndXOHpEZVV2ZFpLb1lCSk9uQktBUExB?oc=5",
+      "published": "2026-11-18 09:57 UTC",
+      "sector": "Industrials",
+      "tone": 5.0,
+      "note": "Sovereign AI infrastructure builds long-term industrial resilience."
+    },
+    {
+      "title": "2020 Hitachi ZX490LCH-6 For Sale in Summerville, SC",
+      "source": "Construction Equipment Guide",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSkUxSlViQ2YtVUhxV2d5eENZZVZSVUhXWW5fc1F1WTBPYXRjUlZGbTRjVTV4UTZoQUpuWFhsVS0yR1VhZDBqM3U3QzZCVWhld3pXTDJEY2pOMU9TZC1wU1hDal9JTU45RXJ1NVVqc2ZaVXV6dDA2VUVnNUtNdnFFWGJBZGJ5MmUtYmJ6aTVyUF9IYnRHN1hCMnFPQ01DUnNs?oc=5",
+      "published": "2026-11-18 09:20 UTC",
+      "sector": "Industrials",
+      "tone": 0.0,
+      "note": "Used equipment sale unrelated to current industrial outlook."
+    },
+    {
+      "title": "Japan hails longstanding cooperation with Oman",
+      "source": "Times of Oman",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQUtvX04xbUEwc1phT0hoSWVhRXJnRDEtR1JqUGItXzdIUGduWUZ6NTVJTC10RmRpVGhwb002T0FKZk9ZajRKYkE3WEZnRjlOWl83cUxhcnAxWngzM2RPWUZzZk9JRTliSFptNGlUbkYzbDJCdzFvVzB0N2NEMGVfMW1WVGJnbVU4TEVHZGVB?oc=5",
+      "published": "2026-11-18 14:30 UTC",
+      "sector": "Energy",
+      "tone": 2.0,
+      "note": "Japan's praise for Oman cooperation signals stable energy ties."
+    },
+    {
+      "title": "LNG Canada Phase Two Draws Closer",
+      "source": "EnergyNow",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA0cW5qRkpPTWZIdzFadDNkT3QzMkI5WVczalBWaEdPMGVwaFMxNHZCazZNTi1ZQllkeVhlUXNydXZfRjlneTdrZTdPVVc5QW81Z3B4RjdLLUpKWWdQaWFHTWp1UzVvNGFXRnN5TkFHTUs?oc=5",
+      "published": "2026-11-18 12:00 UTC",
       "sector": "Energy",
       "tone": 3.0,
-      "note": "LNG tech acquisition enhances supply chain value."
+      "note": "LNG Canada Phase Two boost indicates growing LNG demand."
     },
     {
-      "title": "Asia Hopes Democrats Can Provide Relief From Trump\u2019s Iran War, Tariffs: Russell",
-      "source": "EnergyNow.com",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQkxtUVNlU2Y5TzBYNEhtRjlQMmUwVXloNTBSOG1td0QwZnRvWkI4N2lTa0VKYk1Oc2lfMDdVekhmWTNHcmxwVFZoemJLUV9ONnZjXzNhczBDM0pzSFNmRWtqbTRoOW04M2JTNHJ2b3JGWnExRnpTbzI0am1Zb3ROTnlBV1NUa0REME9fSE40b3l5cTRzRXkyNEZGSlZndXF5S3ZVWlpMaXB0clE?oc=5",
-      "published": "2026-11-17 09:07 UTC",
+      "title": "SBM Offshore, Saipem Secure Longtail Contracts from ExxonMobil in Guyana - News and Statistics",
+      "source": "IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSVF5VjFiRDg0V2hWeHdCU1EtaGotSkc2OTN5QzZMN0gyazUxdEhnd2ZTNVFmM2F6M0Z5d2ZCbFZ0dnB2TG52alJyanVyNlRsV1cyOTFEMUpIQTVxTm9xSHM4el84NVJ0WDVBZTgxMndIcE12X1JScWczUXh5aE1zNm9HUEIzeVl5eWdrQUFyd3NtanY4VHJEOE9DMnBBSE5VZ1dOeTYxYWVlOUtwVFRRZ2NON3d5b2lxbGN6MW9CTElBTTB0?oc=5",
+      "published": "2026-11-18 11:00 UTC",
+      "sector": "Energy",
+      "tone": 2.0,
+      "note": "Longtail contracts in Guyana suggest positive offshore prospects."
+    },
+    {
+      "title": "Adura Begins Jackdaw Gas Production in North Sea Following October Approval - News and Statistics",
+      "source": "IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdEl2QlVHajY5OTlDVlg5cmVJVkY2RzFUZWZDVFhFeDdXS0x6MGRLejdhQ0lYbktHcVRxdGFyclhLS3NMVU9uMl9ZT2VVMkp2WTI2Ri1KcXpDTlJKUldLelRtazk1R2dwR3dWWHIwOEphT3F0Nm90Q29wMHE0dXlra3NsYmphem83bjNhd0JLMVNsS1M0ZG1qRTYxdy14c2hkYnR4ZWw2TEJwTzQteFFBMmQ4R2N4R0U?oc=5",
+      "published": "2026-11-18 10:30 UTC",
+      "sector": "Energy",
+      "tone": 1.0,
+      "note": "North Sea gas production starts, modestly positive for supply."
+    },
+    {
+      "title": "Platts to amend calculation for global LNG arbitrage matrix",
+      "source": "S&P Global",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOUFE5YVF3Ry1UUl9RcE1XLV9abmM0QXFwaXdDOXJLRl91NmJJeFNsTFlNbk5aTVd1UnM0ZVNDc05LWl9Cb1hIYlh2RG91Y01vdXp3TWc2dDFpY2RxR0hwUGt3TE9rakZBTmJ2Z3FVQXllSm94THFjdmk3eU0xX2ZwaW9obFJrcHgxWm9iam1DU1NtemlXNlVyVTNwMjk3OUR0Vi1rNWEwS3hab1lqUEwyWXRra2QyWVJXMHhYRFJRZkxGWGhaZjVGMWY2Nl8yLXlMTVBEVGpSRnIxQmhWWng5aXotSFZZVmdz?oc=5",
+      "published": "2026-11-18 10:28 UTC",
       "sector": "Energy",
       "tone": 0.0,
-      "note": "Political headline unrelated to energy."
+      "note": "Platts calculation change is neutral for sector outlook."
     },
     {
-      "title": "AVDV: Macro Factors May Pressure International Small-Caps",
-      "source": "Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxORGdOUmN5TXVlUUhjVEFyNTZjUFpIaVpQZEsyNk15Z3VQdkNyM29KX3U3R0JUWXNNM3Z0ZDNkM0oxY2FYSTh0OFU3U1BtVFUxeURESXU4ODVKVDV4Wks1WkFrYlFYVHlpNWsxUnExTDR1TGRjUDNRZmlPSVBsWWEzSWVjdlJmS0MtcThYUTBMWU1aajl2bFo2UHNzY1RIdw?oc=5",
-      "published": "2026-11-17 06:54 UTC",
+      "title": "Japan's December electricity bills fall for first time in four months on government subsidies; standard household to pay \u00a59,563, gas bills keep rising",
+      "source": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1mdFFNbk1fWWZ4YXVNMEZ2WS1DV28tRXZGN2lfd3pNMVhDU0dOSzZSbXZxdUVXZi03ZUJiRXVKMFFuMkVTX3FzcFlVMnFJaEdvSW5fRzJhSXlqak12Q3pwenZhNFZaUkNLSVhxNE82M3l0eEd3OWc?oc=5",
+      "published": "2026-11-18 10:25 UTC",
       "sector": "Energy",
-      "tone": -1.0,
-      "note": "Macro pressure may dampen small-cap energy stocks."
+      "tone": -2.0,
+      "note": "Rising gas bills despite subsidies dampen consumer sentiment."
     }
   ]
 }
