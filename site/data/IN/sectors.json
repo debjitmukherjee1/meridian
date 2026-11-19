@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-11-18 14:59 UTC",
+  "updated_at": "2026-11-19 15:09 UTC",
   "market": "IN",
   "index": "NIFTY 50",
-  "macro_theme": "Geopolitical conflict raises energy-sector risk",
-  "macro_score": 52,
-  "macro_explanation": "Broad-market headlines scored 52/100 by the model (balanced); this is the macro overlay.",
+  "macro_theme": "Rate-policy commentary dominates headlines",
+  "macro_score": 86,
+  "macro_explanation": "Broad-market headlines scored 86/100 by the model (bullish); this is the macro overlay.",
   "sectors": [
     {
       "name": "Consumer Discretionary",
-      "score": 66,
+      "score": 84,
       "label": "Bullish"
     },
     {
       "name": "Consumer Staples",
-      "score": 64,
+      "score": 72,
       "label": "Bullish"
     },
     {
       "name": "Energy",
-      "score": 54,
-      "label": "Neutral"
+      "score": 78,
+      "label": "Bullish"
     },
     {
       "name": "Financials",
-      "score": 67,
+      "score": 70,
       "label": "Bullish"
     },
     {
       "name": "Healthcare",
-      "score": 63,
+      "score": 73,
       "label": "Bullish"
     },
     {
       "name": "Technology",
-      "score": 51,
+      "score": 45,
       "label": "Neutral"
     }
   ]

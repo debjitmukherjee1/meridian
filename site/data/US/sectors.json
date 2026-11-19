@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-11-18 14:59 UTC",
+  "updated_at": "2026-11-19 15:09 UTC",
   "market": "US",
   "index": "S&P 500",
   "macro_theme": "Consumer demand signals dominate headlines",
-  "macro_score": 55,
-  "macro_explanation": "Broad-market headlines scored 55/100 by the model (balanced); this is the macro overlay.",
+  "macro_score": 60,
+  "macro_explanation": "Broad-market headlines scored 60/100 by the model (bullish); this is the macro overlay.",
   "sectors": [
     {
       "name": "Consumer Discretionary",
-      "score": 64,
+      "score": 73,
       "label": "Bullish"
     },
     {
       "name": "Consumer Staples",
-      "score": 60,
+      "score": 61,
       "label": "Bullish"
     },
     {
       "name": "Energy",
-      "score": 41,
-      "label": "Neutral"
+      "score": 72,
+      "label": "Bullish"
     },
     {
       "name": "Financials",
-      "score": 68,
-      "label": "Bullish"
-    },
-    {
-      "name": "Healthcare",
-      "score": 47,
+      "score": 46,
       "label": "Neutral"
     },
     {
-      "name": "Technology",
-      "score": 62,
+      "name": "Healthcare",
+      "score": 72,
       "label": "Bullish"
+    },
+    {
+      "name": "Technology",
+      "score": 59,
+      "label": "Neutral"
     }
   ]
 }

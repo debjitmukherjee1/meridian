@@ -1,52 +1,52 @@
 {
-  "updated_at": "2026-11-18 14:59 UTC",
+  "updated_at": "2026-11-19 15:09 UTC",
   "market": "IN",
-  "macro_theme": "Geopolitical conflict raises energy-sector risk",
+  "macro_theme": "Rate-policy commentary dominates headlines",
   "signals": [
     {
       "sector": "Consumer Discretionary",
       "read": "Bullish",
-      "score": 66,
-      "event_type": "geopolitical_supply",
+      "score": 84,
+      "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "Tata Motors\u2019 launch of a commercial vehicle distribution network in Syria expands its supply chain and opens new Middle East markets for the Consumer Discretionary sector.",
+          "text": "The Consumer Discretionary sector is buoyed by a strong auto\u2011sector rally.",
           "forecast": {
-            "low": 2.0,
-            "high": 4.6,
+            "low": 3.4,
+            "high": 7.6,
             "direction": "+",
-            "text": "+2.0% to +4.6%"
+            "text": "+3.4% to +7.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Tata Motors partners with Ghassan Aboud Automotive to establish a local distributor, enhancing regional logistics.",
+          "text": "Auto stocks surge as easing commodity prices boost outlook",
           "forecast": {
-            "low": 2.0,
-            "high": 4.6,
+            "low": 3.4,
+            "high": 7.6,
             "direction": "+",
-            "text": "+2.0% to +4.6%"
+            "text": "+3.4% to +7.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "The move gives the company access to a growing Middle East market, potentially boosting sales and revenue streams.",
+          "text": "Auto and banks power a 1,000\u2011point Sensex rally, lifting the broader market",
           "forecast": {
-            "low": 2.0,
-            "high": 4.6,
+            "low": 3.4,
+            "high": 7.6,
             "direction": "+",
-            "text": "+2.0% to +4.6%"
+            "text": "+3.4% to +7.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "It increases production capacity and supply flexibility, mitigating geopolitical supply risks for the sector.",
+          "text": "Nifty and Sensex gains are driven by auto\u2011sector strength, reinforcing the sector\u2019s bullish sentiment",
           "forecast": {
-            "low": 2.0,
-            "high": 4.6,
+            "low": 3.4,
+            "high": 7.6,
             "direction": "+",
-            "text": "+2.0% to +4.6%"
+            "text": "+3.4% to +7.6%"
           }
         }
       ]
@@ -54,85 +54,85 @@
     {
       "sector": "Consumer Staples",
       "read": "Bullish",
-      "score": 64,
-      "event_type": "geopolitical_supply",
+      "score": 72,
+      "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "Geopolitical control of palm oil supply is driving higher FMCG prices in India, boosting the Consumer Staples sector.",
+          "text": "Consumer Staples gains are driven by a surge in FMCG sales volume, supporting the sector\u2019s bullish outlook.",
           "forecast": {
-            "low": 1.3,
-            "high": 3.2,
+            "low": 1.4,
+            "high": 2.9,
             "direction": "+",
-            "text": "+1.3% to +3.2%"
+            "text": "+1.4% to +2.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "India\u2019s palm oil control directly influences FMCG pricing, creating a supply\u2011side lift.",
+          "text": "FMCG companies are selling more units, boosting revenue streams even as earnings per share decline.",
           "forecast": {
-            "low": 1.3,
-            "high": 3.2,
+            "low": 1.4,
+            "high": 2.9,
             "direction": "+",
-            "text": "+1.3% to +3.2%"
+            "text": "+1.4% to +2.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "FMCG firms are balancing profitability with health\u2011driven trends, adding complexity to the sector\u2019s outlook.",
+          "text": "The broader market rally, led by auto and banking stocks, lifts the index and lifts consumer staples exposure.",
           "forecast": {
-            "low": 1.3,
-            "high": 3.2,
+            "low": 1.4,
+            "high": 2.9,
             "direction": "+",
-            "text": "+1.3% to +3.2%"
+            "text": "+1.4% to +2.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "The sector\u2019s bullish sentiment (64/100) reflects confidence in this supply\u2011driven price support.",
+          "text": "Nifty Bank\u2019s record high and Sensex\u2019s 1,000\u2011point rally provide a supportive macro backdrop for the sector.",
           "forecast": {
-            "low": 1.3,
-            "high": 3.2,
+            "low": 1.4,
+            "high": 2.9,
             "direction": "+",
-            "text": "+1.3% to +3.2%"
+            "text": "+1.4% to +2.9%"
           }
         }
       ]
     },
     {
       "sector": "Energy",
-      "read": "Neutral",
-      "score": 54,
-      "event_type": "geopolitical_supply",
+      "read": "Bullish",
+      "score": 78,
+      "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "The Energy sector is being weighed down by a geopolitical supply event that has dampened market sentiment.",
+          "text": "India\u2019s emergence as a key player in the world oil market, amid OPEC\u2019s weakening grip, is the primary driver of the Energy sector\u2019s bullish sentiment.",
           "forecast": {
-            "low": 4.3,
-            "high": 9.7,
+            "low": 1.6,
+            "high": 3.9,
             "direction": "+",
-            "text": "+4.3% to +9.7%"
+            "text": "+1.6% to +3.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "The sector\u2019s mixed outlook (54/100) reflects uncertainty over supply disruptions, which has led to a broader market retreat as seen in the Sensex and Nifty declines.",
+          "text": "OPEC\u2019s diminishing influence on global oil supply dynamics is creating a more favorable environment for Indian oil producers.",
           "forecast": {
-            "low": 4.3,
-            "high": 9.7,
+            "low": 1.6,
+            "high": 3.9,
             "direction": "+",
-            "text": "+4.3% to +9.7%"
+            "text": "+1.6% to +3.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "The easing of crude oil prices, mirrored by rising India bonds, signals a potential rebound in energy demand, adding complexity to the sector\u2019s trajectory.",
+          "text": "India\u2019s increased oil production and strategic positioning in global markets are boosting confidence in domestic energy stocks.",
           "forecast": {
-            "low": 4.3,
-            "high": 9.7,
+            "low": 1.6,
+            "high": 3.9,
             "direction": "+",
-            "text": "+4.3% to +9.7%"
+            "text": "+1.6% to +3.9%"
           }
         }
       ]
@@ -140,47 +140,47 @@
     {
       "sector": "Financials",
       "read": "Bullish",
-      "score": 67,
-      "event_type": "geopolitical_supply",
+      "score": 70,
+      "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "Geopolitical supply event boosts the Financials sector sentiment.",
+          "text": "The Financials sector is buoyed by a record\u2011high performance of the NIFTY Bank index, reflecting strong bank earnings and investor confidence.",
           "forecast": {
-            "low": 1.3,
-            "high": 4.0,
+            "low": 2.8,
+            "high": 7.0,
             "direction": "+",
-            "text": "+1.3% to +4.0%"
+            "text": "+2.8% to +7.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "Goldman Sachs upgrades India to overweight, targeting Nifty 28,500 by end 2027",
+          "text": "NIFTY Bank crosses the 63,000 mark for the first time, driving a broad\u2011based rally in the sector.",
           "forecast": {
-            "low": 1.3,
-            "high": 4.0,
+            "low": 2.8,
+            "high": 7.0,
             "direction": "+",
-            "text": "+1.3% to +4.0%"
+            "text": "+2.8% to +7.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "Foreign investor compliance updates (FATCA, CRS, KYC) may attract capital inflows",
+          "text": "Auto and bank stocks jointly contributed to a 1,000\u2011point Sensex rally, underscoring the sector\u2019s momentum.",
           "forecast": {
-            "low": 1.3,
-            "high": 4.0,
+            "low": 2.8,
+            "high": 7.0,
             "direction": "+",
-            "text": "+1.3% to +4.0%"
+            "text": "+2.8% to +7.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "Profit booking has caused market retreats but the sector remains bullish",
+          "text": "The Bombay High Court\u2019s questioning of ICICI Bank\u2019s authority in a \u20b93,250 crore loan case has sparked renewed scrutiny, adding complexity to the sector\u2019s outlook.",
           "forecast": {
-            "low": 1.3,
-            "high": 4.0,
+            "low": 2.8,
+            "high": 7.0,
             "direction": "+",
-            "text": "+1.3% to +4.0%"
+            "text": "+2.8% to +7.0%"
           }
         }
       ]
@@ -188,37 +188,17 @@
     {
       "sector": "Healthcare",
       "read": "Bullish",
-      "score": 63,
-      "event_type": "geopolitical_supply",
+      "score": 73,
+      "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "Geopolitical supply event is driving a bullish sentiment in the Healthcare sector.",
+          "text": "Healthcare sector remains unchanged as the broader market rally is driven primarily by banks and auto stocks.",
           "forecast": {
-            "low": 0.6,
-            "high": 2.5,
+            "low": 1.5,
+            "high": 3.6,
             "direction": "+",
-            "text": "+0.6% to +2.5%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Goldman Sachs upgrades India to overweight, signalling confidence in the broader market, which supports Healthcare exposure.",
-          "forecast": {
-            "low": 0.6,
-            "high": 2.5,
-            "direction": "+",
-            "text": "+0.6% to +2.5%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Kotak\u2019s new Nifty Pharma Index Fund highlights long\u2011term investment potential in India\u2019s pharmaceutical industry.",
-          "forecast": {
-            "low": 0.6,
-            "high": 2.5,
-            "direction": "+",
-            "text": "+0.6% to +2.5%"
+            "text": "+1.5% to +3.6%"
           }
         }
       ]
@@ -226,47 +206,17 @@
     {
       "sector": "Technology",
       "read": "Neutral",
-      "score": 51,
-      "event_type": "geopolitical_supply",
+      "score": 45,
+      "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "Geopolitical supply disruptions are driving sector volatility, leading to mixed sentiment.",
+          "text": "Technology sector remains bearish as higher rates weigh on growth prospects.",
           "forecast": {
-            "low": 1.0,
-            "high": 3.1,
-            "direction": "+",
-            "text": "+1.0% to +3.1%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Sensex and Nifty retreats from 9\u2011month highs as investors book profits amid uncertainty.",
-          "forecast": {
-            "low": 1.0,
-            "high": 3.1,
-            "direction": "+",
-            "text": "+1.0% to +3.1%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Major IT stocks such as Infosys and TCS have seen significant price declines, reflecting sector\u2011specific pressure.",
-          "forecast": {
-            "low": 1.0,
-            "high": 3.1,
-            "direction": "+",
-            "text": "+1.0% to +3.1%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Regulatory compliance updates (FATCA, CRS, KYC) add to investor caution and market volatility.",
-          "forecast": {
-            "low": 1.0,
-            "high": 3.1,
-            "direction": "+",
-            "text": "+1.0% to +3.1%"
+            "low": 2.8,
+            "high": 6.6,
+            "direction": "-",
+            "text": "-2.8% to -6.6%"
           }
         }
       ]

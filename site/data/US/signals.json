@@ -1,52 +1,52 @@
 {
-  "updated_at": "2026-11-18 14:59 UTC",
+  "updated_at": "2026-11-19 15:09 UTC",
   "market": "US",
   "macro_theme": "Consumer demand signals dominate headlines",
   "signals": [
     {
       "sector": "Consumer Discretionary",
       "read": "Bullish",
-      "score": 64,
+      "score": 73,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "AI\u2011driven demand surge is lifting the Consumer Discretionary sector",
+          "text": "The surge in AI trade, sparked by Anthropic\u2019s IPO and Nvidia\u2019s CEO return, has lifted consumer discretionary stocks.",
           "forecast": {
-            "low": 3.2,
-            "high": 7.0,
+            "low": 3.6,
+            "high": 8.0,
             "direction": "+",
-            "text": "+3.2% to +7.0%"
+            "text": "+3.6% to +8.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "S&P\u202f500 and Nasdaq opened higher as Nvidia\u2019s upbeat earnings eased AI\u2011related jitters",
+          "text": "Anthropic\u2019s $81\u202fbillion Nasdaq debut has re\u2011energised AI\u2011related trading, boosting demand for consumer tech products.",
           "forecast": {
-            "low": 3.2,
-            "high": 7.0,
+            "low": 3.6,
+            "high": 8.0,
             "direction": "+",
-            "text": "+3.2% to +7.0%"
+            "text": "+3.6% to +8.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "Nvidia\u2019s strong earnings report is a key catalyst for broader AI\u2011related optimism",
+          "text": "Nvidia\u2019s CEO Jensen Huang\u2019s return signals renewed confidence in AI\u2011driven consumer electronics.",
           "forecast": {
-            "low": 3.2,
-            "high": 7.0,
+            "low": 3.6,
+            "high": 8.0,
             "direction": "+",
-            "text": "+3.2% to +7.0%"
+            "text": "+3.6% to +8.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "AI stocks\u2019 rally is reflected in the sector\u2019s overall positive sentiment",
+          "text": "Meta\u2019s rising short interest after its Q3 earnings reflects heightened volatility but also potential upside for consumer\u2011tech exposure.",
           "forecast": {
-            "low": 3.2,
-            "high": 7.0,
+            "low": 3.6,
+            "high": 8.0,
             "direction": "+",
-            "text": "+3.2% to +7.0%"
+            "text": "+3.6% to +8.0%"
           }
         }
       ]
@@ -54,12 +54,12 @@
     {
       "sector": "Consumer Staples",
       "read": "Bullish",
-      "score": 60,
+      "score": 61,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Consumer staples demand surge driven by positive earnings outlook and favorable consumer sentiment.",
+          "text": "Institutional and retail investors are driving a surge in high\u2011yield consumer staples stocks, boosting the sector's bullish sentiment.",
           "forecast": {
             "low": 1.2,
             "high": 3.0,
@@ -69,7 +69,7 @@
         },
         {
           "role": "supporting",
-          "text": "Wells\u202fFargo\u2019s upbeat forecast for Procter\u202f&\u202fGamble boosts confidence in household staples.",
+          "text": "Large institutional purchase of Procter & Gamble shares signals confidence in staple demand",
           "forecast": {
             "low": 1.2,
             "high": 3.0,
@@ -79,17 +79,7 @@
         },
         {
           "role": "supporting",
-          "text": "Coca\u2011Cola\u2019s valuation advantage over Monster Beverage signals a shift toward premium beverages.",
-          "forecast": {
-            "low": 1.2,
-            "high": 3.0,
-            "direction": "+",
-            "text": "+1.2% to +3.0%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Strong earnings from Nvidia easing AI jitters lifts overall market, supporting consumer staples.",
+          "text": "Retiree-focused investment guidance highlights consumer staples as attractive high\u2011yield options",
           "forecast": {
             "low": 1.2,
             "high": 3.0,
@@ -101,192 +91,182 @@
     },
     {
       "sector": "Energy",
-      "read": "Neutral",
-      "score": 41,
+      "read": "Bullish",
+      "score": 72,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "The Energy sector is bearish due to a demand shock, reflected in falling crude prices and muted investor sentiment.",
+          "text": "Oil prices have risen sharply due to tanker attacks in the Strait of Hormuz, boosting the Energy sector.",
           "forecast": {
-            "low": 2.9,
-            "high": 7.1,
-            "direction": "-",
-            "text": "-2.9% to -7.1%"
+            "low": 3.6,
+            "high": 8.6,
+            "direction": "+",
+            "text": "+3.6% to +8.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "OPEC\u2019s call for fossil fuels at COP31 signals limited supply growth amid demand concerns.",
+          "text": "Supply concerns from the Strait of Hormuz attacks heighten market volatility.",
           "forecast": {
-            "low": 2.9,
-            "high": 7.1,
-            "direction": "-",
-            "text": "-2.9% to -7.1%"
+            "low": 3.6,
+            "high": 8.6,
+            "direction": "+",
+            "text": "+3.6% to +8.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Canada\u2019s crude oil prices fell despite Middle East unrest, underscoring weak demand pressure.",
+          "text": "Geopolitical tensions in the region are tightening supply expectations.",
           "forecast": {
-            "low": 2.9,
-            "high": 7.1,
-            "direction": "-",
-            "text": "-2.9% to -7.1%"
+            "low": 3.6,
+            "high": 8.6,
+            "direction": "+",
+            "text": "+3.6% to +8.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Large-cap U.S. energy stocks trading well above model fair value suggest overvaluation amid the downturn.",
+          "text": "The demand shock event has amplified the bullish sentiment in the sector.",
           "forecast": {
-            "low": 2.9,
-            "high": 7.1,
-            "direction": "-",
-            "text": "-2.9% to -7.1%"
+            "low": 3.6,
+            "high": 8.6,
+            "direction": "+",
+            "text": "+3.6% to +8.6%"
           }
         }
       ]
     },
     {
       "sector": "Financials",
-      "read": "Bullish",
-      "score": 68,
+      "read": "Neutral",
+      "score": 46,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "AI\u2011driven demand surge for financial technology services is propelling the Financials sector higher",
+          "text": "AI\u2011driven trading activity has temporarily lifted financials, offsetting concerns from recent data\u2011breach and intelligence\u2011system outages.",
           "forecast": {
-            "low": 2.0,
-            "high": 4.8,
-            "direction": "+",
-            "text": "+2.0% to +4.8%"
+            "low": 1.6,
+            "high": 3.8,
+            "direction": "-",
+            "text": "-1.6% to -3.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "Nvidia\u2019s upbeat earnings and easing AI jitters are lifting AI\u2011related financial tech demand",
+          "text": "The Anthropic IPO and related AI trade rally have increased market liquidity and trading volumes for financial institutions.",
           "forecast": {
-            "low": 2.0,
-            "high": 4.8,
-            "direction": "+",
-            "text": "+2.0% to +4.8%"
+            "low": 1.6,
+            "high": 3.8,
+            "direction": "-",
+            "text": "-1.6% to -3.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "Large\u2011cap U.S. stocks trading well above model fair value signal a valuation premium for financial tech exposure",
+          "text": "Jensen Huang\u2019s return as Nvidia CEO has broadened tech exposure, benefiting banks that provide financing to semiconductor firms.",
           "forecast": {
-            "low": 2.0,
-            "high": 4.8,
-            "direction": "+",
-            "text": "+2.0% to +4.8%"
+            "low": 1.6,
+            "high": 3.8,
+            "direction": "-",
+            "text": "-1.6% to -3.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "JPMorgan\u2019s new CFO appointment reflects confidence in the sector\u2019s growth trajectory",
+          "text": "The JPMorgan data\u2011breach scare and intelligence\u2011system outage have raised risk\u2011management concerns, dampening sentiment for some financial stocks.",
           "forecast": {
-            "low": 2.0,
-            "high": 4.8,
-            "direction": "+",
-            "text": "+2.0% to +4.8%"
+            "low": 1.6,
+            "high": 3.8,
+            "direction": "-",
+            "text": "-1.6% to -3.8%"
           }
         }
       ]
     },
     {
       "sector": "Healthcare",
-      "read": "Neutral",
-      "score": 47,
+      "read": "Bullish",
+      "score": 72,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "FDA\u2019s decision to withdraw Salerno\u2019s liquid cholesterol drug approval has dampened demand for that product, weighing on the healthcare sector\u2019s earnings outlook.",
+          "text": "Starna\u2019s $2.6\u202fbn partnership with Pfizer to target autoimmune diseases is the primary demand\u2011shock driver propelling the Healthcare sector higher.",
           "forecast": {
-            "low": 1.1,
-            "high": 2.7,
-            "direction": "-",
-            "text": "-1.1% to -2.7%"
+            "low": 1.4,
+            "high": 3.6,
+            "direction": "+",
+            "text": "+1.4% to +3.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "The FDA\u2019s removal of the drug approval directly reduces sales for Salerno\u2019s cholesterol therapy.",
+          "text": "The approval of Caplyta for bipolar mania adds to the sector\u2019s growth prospects.",
           "forecast": {
-            "low": 1.1,
-            "high": 2.7,
-            "direction": "-",
-            "text": "-1.1% to -2.7%"
+            "low": 1.4,
+            "high": 3.6,
+            "direction": "+",
+            "text": "+1.4% to +3.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "The withdrawal signals heightened regulatory scrutiny, potentially increasing compliance costs for other pharma companies.",
+          "text": "The broader AI trade rally, highlighted by Anthropic\u2019s IPO, is lifting investor sentiment across technology\u2011adjacent healthcare stocks.",
           "forecast": {
-            "low": 1.1,
-            "high": 2.7,
-            "direction": "-",
-            "text": "-1.1% to -2.7%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "The sector\u2019s mixed sentiment is further influenced by broader market volatility driven by AI stock movements and Nvidia\u2019s earnings, which affect investor confidence in healthcare equities.",
-          "forecast": {
-            "low": 1.1,
-            "high": 2.7,
-            "direction": "-",
-            "text": "-1.1% to -2.7%"
+            "low": 1.4,
+            "high": 3.6,
+            "direction": "+",
+            "text": "+1.4% to +3.6%"
           }
         }
       ]
     },
     {
       "sector": "Technology",
-      "read": "Bullish",
-      "score": 62,
+      "read": "Neutral",
+      "score": 59,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "AI\u2011driven demand for semiconductor and cloud services is propelling the Technology sector higher.",
+          "text": "The Technology sector is being buoyed by a surge in AI trade following Anthropic\u2019s high\u2011profile IPO, which has lifted Nasdaq and reinforced investor confidence in AI\u2011related stocks.",
           "forecast": {
-            "low": 2.5,
-            "high": 5.6,
+            "low": 2.4,
+            "high": 5.3,
             "direction": "+",
-            "text": "+2.5% to +5.6%"
+            "text": "+2.4% to +5.3%"
           }
         },
         {
           "role": "supporting",
-          "text": "Nvidia\u2019s upbeat earnings and growth outlook are easing AI\u2011related jitters and boosting investor confidence.",
+          "text": "Nasdaq opened above 1% as the Anthropic IPO pricing bolstered AI trade, driving broader market gains.",
           "forecast": {
-            "low": 2.5,
-            "high": 5.6,
+            "low": 2.4,
+            "high": 5.3,
             "direction": "+",
-            "text": "+2.5% to +5.6%"
+            "text": "+2.4% to +5.3%"
           }
         },
         {
           "role": "supporting",
-          "text": "AI stocks remain steadier after Nvidia\u2019s positive outlook, reflecting sustained demand.",
+          "text": "Nvidia\u2019s CEO Jensen Huang\u2019s return signals renewed leadership strength in the AI chip space, adding momentum to the sector.",
           "forecast": {
-            "low": 2.5,
-            "high": 5.6,
+            "low": 2.4,
+            "high": 5.3,
             "direction": "+",
-            "text": "+2.5% to +5.6%"
+            "text": "+2.4% to +5.3%"
           }
         },
         {
           "role": "supporting",
-          "text": "Large\u2011cap U.S. technology stocks are trading well above model fair value, indicating premium valuation for AI exposure.",
+          "text": "Meta\u2019s increased short interest after its Q3 earnings report adds a layer of volatility that could amplify sector swings if the AI narrative continues to dominate.",
           "forecast": {
-            "low": 2.5,
-            "high": 5.6,
+            "low": 2.4,
+            "high": 5.3,
             "direction": "+",
-            "text": "+2.5% to +5.6%"
+            "text": "+2.4% to +5.3%"
           }
         }
       ]

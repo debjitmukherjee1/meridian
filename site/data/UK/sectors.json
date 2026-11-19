@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-11-18 14:59 UTC",
+  "updated_at": "2026-11-19 15:09 UTC",
   "market": "UK",
   "index": "FTSE 100",
   "macro_theme": "Consumer demand signals dominate headlines",
-  "macro_score": 67,
-  "macro_explanation": "Broad-market headlines scored 67/100 by the model (bullish); this is the macro overlay.",
+  "macro_score": 27,
+  "macro_explanation": "Broad-market headlines scored 27/100 by the model (bearish); this is the macro overlay.",
   "sectors": [
     {
       "name": "Consumer Staples",
-      "score": 54,
+      "score": 47,
       "label": "Neutral"
     },
     {
@@ -18,23 +18,23 @@
     },
     {
       "name": "Financials",
-      "score": 63,
-      "label": "Bullish"
-    },
-    {
-      "name": "Healthcare",
-      "score": 71,
-      "label": "Bullish"
-    },
-    {
-      "name": "Materials",
       "score": 54,
       "label": "Neutral"
     },
     {
+      "name": "Healthcare",
+      "score": 56,
+      "label": "Neutral"
+    },
+    {
+      "name": "Materials",
+      "score": 46,
+      "label": "Neutral"
+    },
+    {
       "name": "Technology",
-      "score": 75,
-      "label": "Bullish"
+      "score": 40,
+      "label": "Bearish"
     }
   ]
 }
