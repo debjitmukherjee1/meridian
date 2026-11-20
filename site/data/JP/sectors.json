@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-11-19 15:09 UTC",
+  "updated_at": "2026-11-20 06:48 UTC",
   "market": "JP",
   "index": "Nikkei 225",
-  "macro_theme": "Geopolitical conflict raises energy-sector risk",
-  "macro_score": 70,
-  "macro_explanation": "Broad-market headlines scored 70/100 by the model (bullish); this is the macro overlay.",
+  "macro_theme": "Rate-policy commentary dominates headlines",
+  "macro_score": 5,
+  "macro_explanation": "Broad-market headlines scored 5/100 by the model (bearish); this is the macro overlay.",
   "sectors": [
     {
       "name": "Consumer Discretionary",
-      "score": 66,
-      "label": "Bullish"
+      "score": 30,
+      "label": "Bearish"
     },
     {
       "name": "Energy",
-      "score": 65,
-      "label": "Bullish"
+      "score": 5,
+      "label": "Bearish"
     },
     {
       "name": "Financials",
-      "score": 66,
-      "label": "Bullish"
+      "score": 40,
+      "label": "Bearish"
     },
     {
       "name": "Healthcare",
-      "score": 76,
-      "label": "Bullish"
+      "score": 44,
+      "label": "Neutral"
     },
     {
       "name": "Industrials",
-      "score": 74,
-      "label": "Bullish"
+      "score": 5,
+      "label": "Bearish"
     },
     {
       "name": "Technology",
-      "score": 61,
-      "label": "Bullish"
+      "score": 25,
+      "label": "Bearish"
     }
   ]
 }

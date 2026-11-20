@@ -1,384 +1,384 @@
 {
-  "updated_at": "2026-11-19 15:09 UTC",
+  "updated_at": "2026-11-20 06:48 UTC",
   "market": "US",
   "items": [
-    {
-      "title": "Nasdaq rises over 1% at open as Anthropic IPO pricing bolsters AI trade",
-      "source": "WTVB",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcDZjc0hENS1pM2ZYOGlLZDdWZWR0WEt2SUZZdGNNd21sR0RjZXExUF9sV3o2eGRJV05QSHkzRk9SQ1BIUWU3SDZ6MUYzajlnRVlyZXlRNFIyTEFuR0tQbTkwXy1xVmFuWUIzckFsRjhpT21HZXo5c0NqbEl6N2JNSDBwWmhJeTUxNGJieHBiZWVjV3lBUEtMcUxwUnNQVmdHeDJr?oc=5",
-      "published": "2026-11-19 15:09 UTC",
-      "sector": "Market",
-      "tone": 3.0,
-      "note": "AI IPO boosts tech optimism."
-    },
     {
       "title": "Jensen Huang Breaks Silence, Signals Willingness to Return as Nvidia CEO",
       "source": "WSJ",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5QczVTbUQzdjZ0WHN0QjYwRXJidGl2YmJzeFVVOGhEV0FoZHp3QkJ1dng1REtUS21Qa2lYSGdUejlhbGtfNzlQT1V6Zm45NDltc2hKeEowZ3NtcHdsaUNvN2ttTTJXWUgzNkF3SGZUUjdFX1FiRHc?oc=5",
-      "published": "2026-11-19 15:01 UTC",
+      "published": "2026-11-20 06:44 UTC",
       "sector": "Market",
-      "tone": 4.0,
-      "note": "Nvidia CEO return signals strength."
+      "tone": 2.0,
+      "note": "Nvidia CEO return signals tech optimism."
     },
     {
-      "title": "Meta Short Interest Climbs After Q3 Earnings Report",
+      "title": "VivoSim Labs (VIVS) Stock Jumps 21% After Hours: What\u2019s Driving the Move",
       "source": "Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdDhDQjBvUjdtdV95ajdUZ0lab2IwWGF5Mi1Gc2NGdUx0c2pHNHlFNFNfOUFhWno3ZFlCMGVXaWdVLW5Xb0tTUHNGbzlaN3N5S3VpcFRNX3ZDSWVFQ3ZMWUJLRnpvQmFCbTNGNEZJVFNGckJGQ2I3azFMaFN6WFhBOVljVWs2MkVlbmozYUc5Rzk4M01rTlYxbUNPMEJGazVjbEJuTHJhMjc0MkprOXU5NDNhQjFnZU90?oc=5",
-      "published": "2026-11-19 15:00 UTC",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOGpQaHdzRm1vbHdQdHFaZzczT3QwV20zSFp2cEY5cFFQSXR3c2QwRWhEOTc5eTRqZE0zRWNfdTY3N21SNVBXRE5NRHhpYzRaSUJsZEpjeWFBOTNQa2NRVjBod2daRG9zQWlFcDVodk5oYlBteXZaVEtueVh6ekx0cTBjMklGdlhMVG1iMlVwSmJYQlBzd0lDYjEzV004VWdOdVI5bDBnZjhqbHRudG5sejBXX0x2a1VwaFE?oc=5",
+      "published": "2026-11-20 06:33 UTC",
+      "sector": "Market",
+      "tone": 3.0,
+      "note": "VivoSim jump shows investor confidence."
+    },
+    {
+      "title": "Dow Jones Top Company Headlines at 1 AM ET: Anthropic's Mega IPO Lives Up to Wall Street Hype but Fails to Revive AI Trade | California ...",
+      "source": "Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZVpoUXRPTnpscmw4MlhLRGxvbG9NVy1Td1RyR1BFbjR2N2dHQjh5QmhWWEVKRTlvWFNRVVpmUGF2Tl9LZFpDbnV0UkRaaWJPYzd0LUhySnFZdlVyVFphSTYyYUNZa09FS1MxY09FRkM1U1FQaV9CUnVUUERmS2g4VklmOWFuQ3FDM2FTOU5TdnNtUndGSFdjX0JfTmE?oc=5",
+      "published": "2026-11-20 06:05 UTC",
       "sector": "Market",
       "tone": -2.0,
-      "note": "Meta short interest indicates weakness."
+      "note": "Anthropic IPO hype fails to boost AI trade."
     },
     {
-      "title": "Anthropic IPO Sends U.S. Stocks Higher as AI Trade Reawakens",
-      "source": "Briefs Finance",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVGF5akI4QUlOT0hNUjdNck5zMmREY0llVERYZVNLYm5scGtSVTdYMjVRNlliS3lKSy1KWF9ZbkxfTTR5LWZ2NFJMVUJLaUJfNmd6MGtZanJZNktRdHpQeElYMDQ4S1JYM2pueXhfMHJ6bm84WjJSa2tQWFRlZnpLZkd1WVB5MmJza2Y1NnVHa0s?oc=5",
-      "published": "2026-11-19 14:58 UTC",
-      "sector": "Market",
-      "tone": 3.0,
-      "note": "Anthropic IPO lifts market."
-    },
-    {
-      "title": "At Anthropic\u2019s $81 Billion Nasdaq Debut, Dario Amodei Spoke About His Father",
-      "source": "Open Magazine",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOamxUV0NIZlVQTk82Ui1kanljMDkzNjdtXzEzdHozREpKcVBWazVvcmlDaU9JdmdPSlJDSDFNUUc2NXlDSzhfUFFSMDd4UlhNcEduUzFaNV9lZENGTk9zQVcwd2ZxSjRLcmxLRmtUdVhsR2M0d21lLXhkTXJ0bUNnVnA1QV8xTnpsbWhDc3FxSDBVVDdOYXNTZWpRTW1zU21xWGhPdGtrbU9LOTA?oc=5",
-      "published": "2026-11-19 14:57 UTC",
+      "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "source": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZUZBUktmQ1gyNmZnWXNoX29BOGR4ZHhITmltX0pwMVJudmtWWUlJTC1SeUNQVjN4eV9fOHMxNzBXSG1JdzRLdTFjRUZ4U2pKaFhYbXdIbUhKcVlxOFljU3YwX29GMm54YVZLcktGUDhsV0pYZ0xySDd2SUM1RTFVQmlWUlY5eHowY3N0aktaVjlkVGpsN0o5UWlGVkRlcjlYZFRlS2ZNU3V4S3JTeDlrLU9LeDdFYVU?oc=5",
+      "published": "2026-11-20 06:05 UTC",
       "sector": "Market",
       "tone": 0.0,
-      "note": "Founder remark irrelevant."
+      "note": "Opening question reflects uncertainty."
     },
     {
-      "title": "Classified U.S. Intelligence System Is Down, U.S. Officials Say",
-      "source": "WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNT0p2RUJfQVdQZEV0djYteFk3V3BXWjJQeDM0bUlmN0ItTlRZWjBPcHlicnB6a2syYWxoOXctVGJYb01hZTBFTzRjSTQ0NlRoUGFOZnhYNFY3amxwZjV1anc0RHJpa2JYU2d3cWgtQTAwQzJWSWFQeFZHMk5ZS1Y5aWNqY0Y3TmNjWDZGVEhGWThZMjBYX09hR1pmRlVQcTlxUnJ5RnRFandlYm5FeDdfMmZLRl9BLV9XblZzSGlDZU9mUQ?oc=5",
-      "published": "2026-11-19 14:53 UTC",
+      "title": "Asian Stocks Set to Fall as AI Enthusiasm Fades: Markets Wrap",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUE9Bem9kWjBIcUtfa0xHOW0yQm1mV3A0VFVFZlh4X0hvWjlmckZSTDNGWlB1NGtzWFkyTTVSc0tNNW9tbUxGNURvNExmRTdTYnJyTTJtUGd1dkEyZklWR2xOSkphQ2s1d0NjZE9CRDc4SWtreWJxbDVoOFFnM2toQldLUHR5VUZFTDk4bDBXaWdodTh1?oc=5",
+      "published": "2026-11-20 06:02 UTC",
       "sector": "Market",
       "tone": -3.0,
-      "note": "Intelligence outage raises risk concerns."
+      "note": "Asian stocks expected to fall dampens sentiment."
     },
     {
-      "title": "Jensen Huang Stepped Away From Nvidia. The Stock Has Crashed. Instead of Rushing to Buy the Dip, Here Are 2 AI Stocks Down More Than 15% to Buy Instead.",
-      "source": "The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPVTRrXzFkMGxUS0dQc0N4MVZyWlNab0FSM0VyNXZCQXoyV25zTWU2dlB6bEJrZ2hYeTBxVEdEUUpvQWthSFcwcWVTb0ljRl9yNVc1WVdZTFB0YXhoLVRaWVI0azlNWUhPZFVyOU12V2xCRUJtUGtpNW5pRE14T2xNS2g4Z2lSdGlTaDAtYzV2WE55ZnVfaGo1TGFsSDl3YVdNUTNsY0hnZ0FtejZ2Z1dsUE9PNmVqVmlqZFNNQmpsdTJWMTFOekpxVVpsZmtleC1Kb1pPSF9zQS1Nd2lWeGtid0ZaaS1xWC1vZUlxT0hWTE1jNGliaVluOWFSeU9qTXlGRGQ5bmFhQ2IzdDI3VWpURlhrYVE5cFc4SFE?oc=5",
-      "published": "2026-11-19 15:07 UTC",
+      "title": "Anthropic Chooses Nasdaq... IPO Fundraising 10 Times That of NYSE",
+      "source": "news.sbs.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1QWkx1bFdZdUpvZWMxb2xHMXVuZlM5ZVF0ZUk4Q0dVclBJSjFoZm9wWVFwUEtwOFEtUGpMSUtSdFNHZ05McFNycHJqQlpyNU13YWlUNXJYbFZOWTRZN2ZIQTBjMlEyZjg4WWdBeTJR?oc=5",
+      "published": "2026-11-20 05:57 UTC",
+      "sector": "Market",
+      "tone": 2.0,
+      "note": "Anthropic choosing Nasdaq signals strong IPO interest."
+    },
+    {
+      "title": "Tech stocks fall after Anthropic IPO",
+      "source": "Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeFI2NEJCRHRJS3oxQnpSc2hUclVhRzQ4TGQxRVFYbEhRWS1tdGdHMlUtR1JtWDRtdERaTEo4M1F5c2kxOUZQODJMUHdUbVNIV2wxX0ZHR2ltVkVRcW83MVVzSXpoYV9wS3I2RkdUOGtITm9lNDBjRkJlakZ0ektISDNHZzY?oc=5",
+      "published": "2026-11-20 06:22 UTC",
       "sector": "Technology",
       "tone": -3.0,
-      "note": "Nvidia leadership exit signals uncertainty for AI chip market."
+      "note": "Tech shares drop post-Anthropic IPO."
     },
     {
-      "title": "Historic Apple Shed in southern Colorado sets opening date",
-      "source": "Colorado Springs Gazette",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN3hiTUJSaWdtbVc5TnQxQ2RIWjFPRUVsQ1NBVndlT1h2a2t3aUlpamlJUGUzaUp0eGlkQUU1RjNVTV8tc1RpZk5kS0dhOVNhbHBwYWUyTFhCQnlaOGljZE1YTS11Vl9rUlhsZWQ0ZkJpTGQ1LWlzY0E3OThCRVI5MG9qdTNsWHNWY0E3S2haVDJWNmxK?oc=5",
-      "published": "2026-11-19 15:04 UTC",
-      "sector": "Technology",
-      "tone": 0.0,
-      "note": "Apple shed unrelated to tech sector performance."
-    },
-    {
-      "title": "Microsoft Expands Windows Autopatch With Recovery, Reporting, and Update Controls",
-      "source": "Petri IT Knowledgebase",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE40MUIzeTBtVTFCWDZlMkNNQkZIWTd3OHE3c3dnT0FpNk5GMnkyWUoyR0tmRUV4NFR6NFlUQUNqOWUzT3ZEWDBHQkNHU0Y3MElQQS1KSTZfaDNrQkU3amk0TjRSOW1SRGhKRWVLTlZXQmxZZw?oc=5",
-      "published": "2026-11-19 15:03 UTC",
-      "sector": "Technology",
-      "tone": 2.0,
-      "note": "Microsoft Windows updates improve user experience, boosting confidence."
-    },
-    {
-      "title": "Why Micron, Intel and other AI stocks are getting a lift on Thursday",
-      "source": "MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWEhhTnU4WlVySDlWdzRGTHlaZlg1U1ZMd19LRk1tcUd3b25qTmVuekxNbDBXQ044dEpzRGZwcG85dlUtZGJNSTk2bHI1UDNXS1BnQWE1bmw0WEE3ZUh0UEdQV1JnU0wya2J3OFlxVmh2Xzc4M2V3X05femQzcGJ6VS1pd01OS0ZIbV9BdzlJc09Za0xBZFY5aDE3VlNLRXp2V1YzdUgxR2ZxLUYzLWl3?oc=5",
-      "published": "2026-11-19 14:52 UTC",
+      "title": "CryptoStar And 2 Other Canadian AI Stocks To Own",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxON1p4OTlfRjlNLWFqLUFqa1BPd3BNejF5V1FFSUJmQ0pqazliWktOR3N6OFA1OFR4cGd0bENQckFKZUVhQjdqeWNYa21hWkFxYWxaUldBYUJNNjRScEQtY0F4Tl9nUXEwMkNwZmxJYjRVNG9LRmtVeTI3T1pwRjZlNHZkUVJIbVltLUc0S1ZtdWgweThDbHU4ejZR?oc=5",
+      "published": "2026-11-20 06:12 UTC",
       "sector": "Technology",
       "tone": 3.0,
-      "note": "AI stocks getting lift, positive momentum for sector."
+      "note": "Canadian AI stocks seen as attractive buys."
     },
     {
-      "title": "UK tribunal confirms government order demanding access to Apple data",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQenZpeUVpaFZLYklnRUUyX1M2WUFiLUE1VFNSQmZLWHdmaDB2a2Q1WXBOeDliUExJbzZ0eVFPLVJ2ekNKRVhBSFVSRXo4d2RxRG1XMjAzTkI3SjNmRGFGMVptQXQ4UFI3VklnanpvaEpXQnlYN0RxMHJXVGpXNWJMZnZDRWFRX0ZGQWNJT2xIdl9OUlpMci1FVUdMYnRORktIQjR4WmdGWWpUTnFBclBqbkdCYTZvMnNIY3FpN1RSdEFiQ2Rm?oc=5",
-      "published": "2026-11-19 14:51 UTC",
+      "title": "KOSPI, KOSDAQ Plunge 5%, Circuit Breakers Activated",
+      "source": "\uc870\uc120\uc77c\ubcf4",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUkZya1psXzdPT1d4Q0NvZFdzTDFrS0YwMnEtVW9QZGRUYVJUcWpyZUF0bVRRTzMxWFk2RkFJbmcxazZPb0Zmc3d1SmRPcjFPN0dkZGlULXZ6UkdiM0s2SWF5QnhfR1NmMWxvQVRBMUZVaUhxZFgtb0NWRWR4d1l5a2J4Rm1EXzFlSFM0WTRR?oc=5",
+      "published": "2026-11-20 05:54 UTC",
       "sector": "Technology",
       "tone": 0.0,
-      "note": "UK tribunal issue unrelated to US tech sector."
+      "note": "Korean market move unrelated to US tech."
     },
     {
-      "title": "Apple MacBook Pro 14-Inch (2026, M6) Review: If This Is Mini-LED's Swan Song, It's a Good One",
-      "source": "PCMag",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE85eTU5c3VmWFFwZ3FaTU5mQmkxdXB3MDQyNGJCMDNEbjFrM3h1UXdlWWE1Tk90Qi1GQTZpcHNvUmY5WFBCSGVBUlhVNWJoYXB4c1g4TXRTQTZTakFsUkcwQ3BGVXRld1pKVjhYdnNyWF8?oc=5",
-      "published": "2026-11-19 14:51 UTC",
+      "title": "3 Undervalued Tech Stocks With P E Under 19",
+      "source": "Yahoo! Finance Canada",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQTI4Nkl2RnQ4X3JBYklGc3Awdy00YmdDclJNc0ZBZUN6eDVyRFkxZmFGSFB3U3NnR25JZmRCNW5CdktMQlRVSEZ4bTlrV2lYNEZ2SVJxcWhWMU9LR2NOWWNIMENTU1pjbEY0MU5iV0hmZnpldlJpdy1PeXBnWHF0dHRR?oc=5",
+      "published": "2026-11-20 05:44 UTC",
       "sector": "Technology",
-      "tone": 1.0,
-      "note": "MacBook review highlights product innovation, modest bullish signal."
+      "tone": 4.0,
+      "note": "Three undervalued tech stocks offer value."
     },
     {
-      "title": "JPMorgan says hackers reached marketing data held by its vendors, possibly including customer names and emails",
-      "source": "MLQ.ai",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNVTVENnpFSER3bWRDUUVnSm9IalppSVpOSVUwajZMOEJfaHdUdV9ER1FSaWNXV0ViSDE3NWFXWFBqbkpZcDhMTFpuTWMxVlhKbWc1aEtLWWRCVFBqaHptV2lnRWcybXRodGZITGIyV29TNU1VRDVWUWVwb1VLMWNLbVN1LW45ZWtQSGRudWhpRlRBTjc5MzdoX1Y1dVBFWWlseExrMzFGNk1aQ2JuNTNkOTZGQlE3c19OYzVySHJ1ZEFGQ3JfOE1nUXp3?oc=5",
-      "published": "2026-11-19 14:58 UTC",
+      "title": "Asian Chip Stocks Slide as Anthropic IPO Fails to Dispel AI Woes",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMFc2aVFVeVA4TFl6NmFpVE5ZakdYNlpvbXFSUFR2bE5wNTVUSWdNa2FabzNTM3M0cXQ2ME5vcDgtYU1KV3VQSEZIaTlLM2NLWFJZU243NHBYNXNGMnBGcjVhMjZ1MFd6a2hmejBRVmpmSWd6TndFUnNHeEtuUWQ5Skx4aGJHdDUySjhwYWxmdzhqWWlZTkZNRkNyYUJ0T2c1U0laTWtIZXJiSzZkem96QWNOZUlCUQ?oc=5",
+      "published": "2026-11-20 05:43 UTC",
+      "sector": "Technology",
+      "tone": -2.0,
+      "note": "Asian chip stocks slide after AI doubts."
+    },
+    {
+      "title": "Nasdaq Index: Tech Stocks Give Back Gains After Anthropic IPO",
+      "source": "FXEmpire",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdGw5XzhtZFVrSnZ3eXBpRm5iX3RRU0hzT1NOQ2VtaFdraDFXblYzQVNXM3ZJaFhsWENEd0lVZzZWaEwwWk92elFlX3ptbExSSC1wZVZyVWFYZEttb2FYRktTN3QtSVpfNnZTOVRJVlp1dVFGOW9YX3c4dE1FNDFodDhiT0ZEWmZPQTVOS0pRckd3UzhRdno5LVd3ejVNYWRKVzZnZ05kMG5OWEhudzZYeQ?oc=5",
+      "published": "2026-11-20 05:17 UTC",
+      "sector": "Technology",
+      "tone": -2.0,
+      "note": "Nasdaq tech gains reversed post-IPO."
+    },
+    {
+      "title": "SBI, PNB, 3 other PSBs zoom up to 27% in Nov; here's what tech analysts say",
+      "source": "Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPT2FfaS1oa1pCVG1OTFhTd29Ob3V2ZE5MUHVJc1FkdzlNV0hiZXJza0NBRjliQ3lsMFBtWTVmU2JHUXAzOW9BTUdrNFlKTnliSlpZSDMyeFJrUGRoRkFpWmVpY0h1cl9xcUF6QjB3TjZrNzBzU09Gb1FSRmtWcUlza1pldHRKZUc3TGJIM21FVktDYUVNNEFEUzNZYkFCcHotWGd4bndUSDlFTURUeUV1RWREV0NKdXo2eXU1eFJRTFdJLWtmOHBoVkxkWTBzcmo3OVBxX0JOTGp1YmZxOHliQWt3Z3Y?oc=5",
+      "published": "2026-11-20 05:58 UTC",
       "sector": "Financials",
+      "tone": 2.0,
+      "note": "US banks expected to benefit from higher rates."
+    },
+    {
+      "title": "Australian Bank Stocks That Could Hold Up Better If Inflation Stays Sticky",
+      "source": "Simply Wall St",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOb2lVOHNBNExuMUt4c3Q3SDdhcy1leW9DWUlKeGpRSzJPV0RxYlBmMWFidEFnbTA1cWRFMkpvRVhUSkFSY2licmFjNWM1NGJvTnlEQ3NZWVMxV0ZrQWwtcWJsdHdra3VIMUVaOTg1c1pKTlZHSFExSE11d2VfcXpCdUZJQVZuRlhDazZneEdHSmFZQURWZkRsR1gtQWx5aS0tT0JfcF82TTJKbGhJM2YzNE9DQkROcEpHeUlRR25vZFJJUGpkdVNVbF9zYUNUckVxbDRz0gHYAUFVX3lxTE9VX2p6LTV4b0NpWkN3VDU0d1JwdzdLNldGbGhacHh2dlRfY0F6azk5OXRKLXo4b1J6U0VrcG5LcGk5Z3dQS0xGUGdueGlBekVZeWZLbWR0S3JVNkZ4N1lFS20wNlVERVlrSjVDeDJnMFp6dXMtWlgtT3ZpcjRSVTIzME14dl9nZTdBZF9tbW5QOENwOWM3bkE5alIxZVdEQ0lJSWVHVEtvb0p5Z0h4eFlZWDlCelVSYTlUNmdzZjcwb01rVmNLVkwwZkNReDBKTmNtTFE3czRFWA?oc=5",
+      "published": "2026-11-20 05:17 UTC",
+      "sector": "Financials",
+      "tone": 0.0,
+      "note": "Australian banks context not directly US."
+    },
+    {
+      "title": "3 Japanese Bank Stocks Sensitive To Bank Of Japan Rate Moves",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcl9ZcUVQNG5GNzFmU09qRFc1cXcwVlRhZU9INjJTbEdwRHVxaURpSW9LRkN2ZFBaMnc0UmotYWoyaGNuMjNoUVl1djFOQzlEeTJ2SWdiSzFQdy1sdF85aEN0SkFkXzNlWXNqek1GOHlCbVNQWlU4TjNnd1ZTMW9uSDRQcmp2MlR0d1JhdlkySVlRaXNxNUtza2RQMkJVUQ?oc=5",
+      "published": "2026-11-20 04:31 UTC",
+      "sector": "Financials",
+      "tone": 0.0,
+      "note": "Japanese banks not US."
+    },
+    {
+      "title": "HDFC Bank to SBI: Motilal picks 5 bank stocks, sees private earnings growing 2x faster",
+      "source": "The Financial Express",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPdC01dHZteTBKNVRYenRwSllud09QNy14dElyQkkyVjJwYWpQdWxfWUw5bWh0Q29GYUhHNFY4T3NVYlNPMGZZUUhpNnRQLWFidVpGWjZsRmVYY1BkWmsteVJvSk1ZN1kxaW5wamJWa0s1akQ4aUlfSFE1NWpkd05XRHg1YlI4bjBzcjVidlZPc1ctQmtxN1o0UVNpYzVtOXg1QmxtaUw1bzlPRDdta0J4ajk3S29MQXl5clk1cW1BWGpXMVNrcGVoQWYxbUI3QdIB1AFBVV95cUxNcFFybFU2Z2I5QUVjSEI0NGNPYkc1Z3daZEhiLVdCODhnb3pfN3N2eW9SdExOdHFiWnJLd1BONUZBSDJTaDV4N0ZPT3AyU2tGcnlQek9la0hqQVQtcEFoNmh2b19sRXZCU2xNV3JrdzlBM2FvS1J3YVRXT1ZEaFF1aGtpY1BNNG1Iem9remJJSWlqVjVvVy1uS3hlNkZpdHVZdEk0Vy1RQ3d1YVlzNV9PRTBMeUk0Wm5pZ0NidUpDaDZoOUZvLWFLZXkzZGZGSU15ODFTSQ?oc=5",
+      "published": "2026-11-20 04:10 UTC",
+      "sector": "Financials",
+      "tone": 3.0,
+      "note": "Private US banks projected to double earnings."
+    },
+    {
+      "title": "3 US Bank Stocks Built For Higher Interest Rates",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQYjc4MHdpbzFKWmZFT1Zqanh4bWNnc2QxM3V2ejdmY25QVV9SUXJYbnhkazBJVFdsMExrbGFJeERxY0pqektZdGlFMl83QlVrdGRMcUZ3a0lRN0JOUFZTNkRqdEdvcm0zTlFKdnNMb21Sa2hRekVfRFRCTk9iNk1QRjJkbzZPRU5DbFRINlREUW0?oc=5",
+      "published": "2026-11-20 01:12 UTC",
+      "sector": "Financials",
+      "tone": 4.0,
+      "note": "US banks positioned for rate hikes."
+    },
+    {
+      "title": "3 US Bank Stocks Retail Investors Are Watching As Fed Rate Hikes Add Pressure",
+      "source": "Simply Wall St",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQN0lpdFdIMWhzZG1hWlFtU3MwaEIwRnZPR183VkJuUFUwTmx3NGFHR3dzdmR4QkpnVHBBN1BZNXVxMWMtWWVPUjVDTzZNbDEyU3ptMk5WZHR4RklVZkU5N2xXUXh2dzhSa2sxaUJaLU9nc2RoUDZ2VUc3eE9CS2lHM0dEUU9ORHNqZEp2NU1jZXFSMHRIZ0I5X0dYMnJqaWo2OHRxU2F1Q3c5VU4tM0dOaHdBR24zZFV4aUpsSjk2TVlYbUFpeXQ5SmJ30gHPAUFVX3lxTE9tcnRueFN3ZThNSlNuQksyZXhQd0JxSUVKNnVvNDAwUlFHR0NDdm5COEVRSm5jUVVUM1dnNzE3VzZvMmZ5LVE5a0VXVkt2MmRXaWtDUmlPM1daNWJXRnpHbEsyMlFmQjNid0xyS1RST2hRbndYa3cwanUwaWRxN0pyQ1FCb0JicVpDX19IRl9XVkRWQjhDbGlleVB6b3VfSGFnMUtSN0JrSHcydVBFTXRUY3RTQjRVTHBvRklYMkRfMHZ2S19ZSm9lY3NkYVVhWQ?oc=5",
+      "published": "2026-11-20 00:19 UTC",
+      "sector": "Financials",
+      "tone": 3.0,
+      "note": "Retail investors eye US banks amid Fed hikes."
+    },
+    {
+      "title": "OPEC defends fossil fuels at COP31 as climate negotiations expose divisions over energy transition",
+      "source": "Africa Sustainability Matters",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQWXRMZ1pObGttTlZtM0lxZmNlZEJJSWRDbGVzTERWV0JYZGhFRElJbFZZanZ1M1lWd3BDY1RsdGdCNDdGOEt1QTdMSVFoU1BQYkNDcGw1OTV0MzBjYnlXUkdvakZaQjg0UUlLX2Z2MWJrQ2xSM3BuSVFEcER2OUFocEhsUDhLbkNQdUpjQ2preU5PSzhuREdEc3R2Wi01ZUV2enZBa20xUlpHZlJVODZPM1FmS0p1Tk9MZUNwRHUtVE1CZ2lSbGZ0NmhKU29TSjFyY0xBZ0lB?oc=5",
+      "published": "2026-11-20 06:10 UTC",
+      "sector": "Energy",
+      "tone": 3.0,
+      "note": "OPEC supports fossil fuels, boosting confidence in traditional energy"
+    },
+    {
+      "title": "Oil prices gain as Houthi attacks on Riyadh raise supply concerns",
+      "source": "Investify",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUjVwOW1TdjBvQWViZVJSY0NacFNqR3dKYnktVUVqM1RVSXlLclpUNFRteFJEZjNRRGNBdVdQSjA5eUpNLUdPa0w4bHEzdl96dGNKWE56VlgzTTh1TWltSkdEeXJkeWN1bmtVNzV3TXlXRmZEMVMxcDRIYVNwVXN4cGFwRnFGNXI3WDVoTzFKX1c1RXh0VXdQRVNOWE51bEpjRzBQWkRGZjhUdURZ?oc=5",
+      "published": "2026-11-20 05:53 UTC",
+      "sector": "Energy",
+      "tone": 4.0,
+      "note": "Houthi attacks raise supply fears, lifting oil prices"
+    },
+    {
+      "title": "Oil Prices Rebound as Houthi Attacks Reignite Middle East Supply Fears",
+      "source": "Crude Oil Prices Today | OilPrice.com",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNN3c3d19RVHF5TTRSYjJabTdKMkJ6dUtYZURXaEtvR0xsX2d1ZndtUVlrLVUwWVFJNDY4bHZtNnU4QTB2OWdJZDZ2Qjk3Y2NpZHA0WFpiT3psNWwzOXpDMEk4cjNTSTI4cGU2VG9QamlSNmxGNC1UWXFub2FKWlVEQ0pqZHhTa3ZjY1JMYWpPOWlBQVVBMTh5M0EtQWx0M3JMWmplUk12MVp5cTR1ZUV0M3FRLUN2THJZWG5kdi1kNjY1VjdS0gHKAUFVX3lxTE8wblM4Q1UtRjQ4Z3FUUlNUMHBMQTNaVWtMaGxZU1J5SzRibVVZUjUyMTkxUGtaMEppNE1SazFkN1hwSEJ2aW5LY01oSXF1bmhlMF9JcndJWERpUG9neVNJN3dLdEp5ZVFFWXNwWHNBN0EwdUdRMGViaWZUdUtQamdLbkR5MVZfZGk5ZnQ0N2JwUUlEdHhOcE43R0RoT3VjTGhqQ0dONHE5UGZtb2hHek9fOXdXWkw4UmlVSWtiVnVDMkN0QWpzRFFNRGc?oc=5",
+      "published": "2026-11-20 05:51 UTC",
+      "sector": "Energy",
+      "tone": 4.0,
+      "note": "Rebound from attacks fuels higher oil demand expectations"
+    },
+    {
+      "title": "3 Canadian Renewable Energy Stocks With Revenue Growth Up To 15%",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQalI0UUZ3TTRPR2w3OWdvQUJxM3FZZnZMR2tKa0VLSGF0bUNtZ0hCRzVNUVlIRUFTbFJGVFZ2LUhqSUU3YjFyOHEwaTl2SHc4U1k3V3B6VUN5czk5WjVPZkNUOVJzVHFnbmdBOWxfZGZ2Zl9mNkJBS1ZwVlBIcTlkTWhGYWgtTXRfaXR1T01UZVZrNlVFOGc?oc=5",
+      "published": "2026-11-20 05:18 UTC",
+      "sector": "Energy",
+      "tone": 0.0,
+      "note": "Renewable stocks unrelated to U.S. energy sector sentiment"
+    },
+    {
+      "title": "Oil prices rise as M.East tensions persist; set for third week in red",
+      "source": "Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQLU80UGNhdm5UZmx0RjZrZmVDQlhOcW9Cc2ZUQXEwLVp6emQxTVFLLW55YmxCSVpBZnNLVnVJM3o2VmQxX1hkcjNUVkNXQUt5M3ZXZFFhMUxOekZ5TjMtU2xJNnRyYXNlVkUzUDZ2a0l0YXNmTUk1UE1TTEFoX3RzekVQWFdRSE9pTVpRREJ4VzBaWFJ5S2IyczloZVZFZnpIRnRtUFgxWXJZcjlPQWpkUTRrYXU1V1VzZGRXYllUOWc?oc=5",
+      "published": "2026-11-20 05:08 UTC",
+      "sector": "Energy",
+      "tone": 4.0,
+      "note": "Middle East tensions keep oil prices elevated"
+    },
+    {
+      "title": "Oil Prices Up - 19/11/26",
+      "source": "Armenpress",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5tYkpidGtCOXkxTWtWVnM2TVAzSEl4TXFrQVVCZXg3M2dUVU1TQU01ZS14UDhnV3ZWS0NOUmZyYjlwQWNJOEk2eDg0UVZVdVhUWWfSAVdBVV95cUxQN1M5ZnBES3FlckQ2VXpuNjY5NzRDNUdXY1hTTjN6QTdwakxPMUlhcEVyd1JDV2xoV1luV0Ftd2ZyaERpTkhZNnppazNTQUpvRWw4OWZqX1k?oc=5",
+      "published": "2026-11-20 04:49 UTC",
+      "sector": "Energy",
+      "tone": 3.0,
+      "note": "Recent price rise signals continued bullish momentum"
+    },
+    {
+      "title": "US retail sales showcase underlying strength despite cost-of-living crunch",
+      "source": "The Daily Star",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQR3E3dDhlYnhManFvN24yVHhCQmNDbUdHSEZ3YVF1dk85M0FoNWtZNUNQdkROamM0Z0lJQmJUUHJfVWI3UGJNUlRwZEdjR1lrZUViYVVmZktnZkFwdFA2My1tSm1iTnFadDdjRnJqOVFwMTBxNmc1d0lyNG40TlpHLVRKUExNRC1aTDNmWHpFRkdXN0N1dnNlYlowQkZuRXVWTDZaLWltMWhYNzNUMU5ndHZFVUpEYlQwM18telVjNA?oc=5",
+      "published": "2026-11-20 05:59 UTC",
+      "sector": "Consumer Discretionary",
+      "tone": 3.0,
+      "note": "US retail sales show underlying strength, supporting consumer spending."
+    },
+    {
+      "title": "British Pound bounces off YTD low vs retreating USD, ahead of UK Retail sales",
+      "source": "FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPeEsydy0xSzBOMjNUTTBXR1RLb1pQUkl3SVF6aVBuSkdQUkprTXhkV3ZhaEVLNVY3U1dHODZZdnpyaEhtdUZNUG1teW51dG5YbklPNDQwQkNfWjVZanlMNzZWRFFrd2VvaWs1dDdZS2JGMU1QYk9kUjd5MFU5bVJySW5SY29tN0NtQTNmcWNEUm1ad2V1SkdLcDdETFA1UEpWSFB3eF90NXhyNnNDYzlyemJlaDd5UDV6MGpz?oc=5",
+      "published": "2026-11-20 05:23 UTC",
+      "sector": "Consumer Discretionary",
+      "tone": 0.0,
+      "note": "Currency movement unrelated to US consumer discretionary."
+    },
+    {
+      "title": "Forecourt retailers diversify as rising fuel costs reshape consumer spending",
+      "source": "IOL",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPY19Lb3BlbW9tVDBQR1dTaFRrX3ZlaHI0NHNmZUVGWVRDVjdzQ3BEdkd3M3E2OHMwWTY2NFRGRWxrNEFCRzBsNjQ5ZktTUVpMbUhsdk1iU1loX1FmZ2VGN25YWEppNXU5aGUzTTA1X0oxeXcyYkFEOFFWVUhOYm9yRTVMYXg2elJJOGh2a3VnOWVZUnJJc3NyR0YzRHN1OTVxM1U3OExkQzZ6ODlnOW5LRFVSb0JHQQ?oc=5",
+      "published": "2026-11-20 04:47 UTC",
+      "sector": "Consumer Discretionary",
+      "tone": 2.0,
+      "note": "Forecourt retailers diversify, mitigating fuel cost impact on consumer spending."
+    },
+    {
+      "title": "Amazon Stock (AMZN) Falls 3.9% After Anthropic IPO Debut (Nov 19)",
+      "source": "Gotrade",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOejFaODVKV0NVTXhtWFRJTjNhVmh5SFhiRl85T3VIYm1hUWZJeUF4RENfNFlQc2NLN2NBUFROSk9aRE8wN3dsdUNrTFJHR0h2NDZGTTczNld3NVRsRlBYY1lldHYxckZnODF5TTZHRm12Qk5RNThEVWxhZWVFYlpNbQ?oc=5",
+      "published": "2026-11-20 04:45 UTC",
+      "sector": "Consumer Discretionary",
       "tone": -3.0,
-      "note": "Data breach threatens client trust and regulatory scrutiny."
+      "note": "Amazon stock drop signals investor concern over AI competition."
     },
     {
-      "title": "Form 424B2 JPMORGAN CHASE & CO",
-      "source": "StreetInsider",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOVdlaGJCTGVROE1XLUhId2VtN3RsQmVCR1gwTUd0cjlHUEVLdExPdWJxell3d2Mwb00zcUVLSjRMbmhLdjFGTGhHLXdUMEFNc0tMWDBXZUg1UmxPcTRnemtLTkNfUjhyV1dwTGJXaXczVTZqRGdTLVFHR3B6U0tHNmR2cVNKNDZzbTV2MXZ4MlRUVUhvT091eGpR?oc=5",
-      "published": "2026-11-19 14:52 UTC",
-      "sector": "Financials",
+      "title": "British Pound declines below 1.3100 ahead of UK Retail Sales data",
+      "source": "FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTV9EZzdGMGdFSWstYi11eF8tS1FqdEI2OW5QRzdZRjFUU1FlZG5FOXY0MUY3S0g3bzljdkRpM2F0a2dvUW91U0dxRHRKR0FLWDdCS2p2YU1OLVUtNkM3OGpORlJQamZqSzNsTVJlNExiRjZWR0xnT25CZ1VmUjR1NFRKemJRcE9hX2hQMDBFVzQ1ZmVzZmp0QXFkYkM1ZG1uT3JRektoVXV6TVk?oc=5",
+      "published": "2026-11-20 02:07 UTC",
+      "sector": "Consumer Discretionary",
       "tone": 0.0,
-      "note": "Form 424B2 filing is procedural, no clear market impact."
+      "note": "Pound movement has no direct effect on US sector."
     },
     {
-      "title": "Hackers Leak Data on Thousands of JPMorgan\u2019s Richest Customers",
-      "source": "Newsweek",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNW40cFJ5QWRIbXkzWEtRd0pnMk9xQzRrMzVmeDhjanhUN3F2RUo2bWh0UC0zMGpfTFlFcm9EeEpYWlRnU2t4aVZ1Z2V0cEtMbk1qM2lZTzJ2OTQzdHMtLUFHaDRVc0x0aVdKUUVuaDZUOVhRV1lkMkVGNGR3ckdxd0ZiVDc5Q0ZGbDlsLWJLVTAyQQ?oc=5",
-      "published": "2026-11-19 14:41 UTC",
-      "sector": "Financials",
-      "tone": -3.0,
-      "note": "Leak of wealthy clients\u2019 data raises reputational and legal risks."
+      "title": "The Big Four Recession Indicators: Real Retail Sales",
+      "source": "Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQUowMFJvY1JCVndoSWFMcXBreXZRU0pCUjhEQmRpOXByVEdnVXJaVEFFMi04M2tucGoybTV0SkVfcXZ3bDlBdUhzOS1Qd3ctNS1manAyM19SWHNqNHF2VXh6VG1CSEJHWEViaDNTdjNIa3E1cVNDY01VWXZ5LXhHVVEwb3plU3p6ajhKMnVqMFhwdw?oc=5",
+      "published": "2026-11-20 00:50 UTC",
+      "sector": "Consumer Discretionary",
+      "tone": -2.0,
+      "note": "Recession indicators warn of potential slowdown in retail sales."
     },
     {
-      "title": "Form 424B3 JPMORGAN CHASE & CO",
-      "source": "StreetInsider",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNTZaWHZ6NnVkcE83c0Z3dmdleDdDdGdRZ1dBeEtYY3dxeGE2V25uWUt4TlZDM0VDdFFUYmZSY0kwRElsME15Wk5KZ0hWMF8xQngyRUdpQ3p5ZFlIc0ZiRkdXMFJUM3o5dUtKMDNSam1rWFd0djk4STQ5LXFic3J0cWVPSEVlS0MyaTM1TXB2UDRseHp4Y05xZ0ln?oc=5",
-      "published": "2026-11-19 14:39 UTC",
-      "sector": "Financials",
-      "tone": 0.0,
-      "note": "Form 424B3 filing is routine, no direct sentiment shift."
-    },
-    {
-      "title": "Bulgaria Passes 6-Month Presence Rule for Permanent Residents, Exempts Golden Visa Investors",
-      "source": "IMI Daily",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWnpuczI2dVctdzM4a0IwSTZ2WllXTWtoX3RNem5NUUtXbnJ2amZla0VVamFaQnVtR2NQZzEwd1FsTDBUSmxJMXBIbjNnRDZzN09kRmp2VUNQdFdaN29yQ0VtcGpuRUdySlZqNGViVEN0T2dqUUVqODV5SlgwNUJMVjU0Y3BiNHNlcE1zRnhKRzNLc2VPenVfWjh3X2tkQ21EU09CZ1RuTQ?oc=5",
-      "published": "2026-11-19 14:36 UTC",
-      "sector": "Financials",
-      "tone": 0.0,
-      "note": "Bulgaria policy unrelated to U.S. financial sector."
-    },
-    {
-      "title": "J.P. Morgan Asset Management Launches JPMorgan All Country Research Enhanced Equity ETF (JALL) on NYSE Arca",
-      "source": "PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPVEJUWTJIdVgtZ0V3Tm5ZNmg3VEFkd25YcU1vNGROZ0VtTElCLUlYTTlSWU43NUE2czBjYU9MbEFGd0NCUThfUnZiS3QtQXliUUZncEQ3a3d3S2wtM3ZtMG5ETnZDbzNxcTNZLXB6LU9KblNKenZuR2phQlpiV09fbU5oVTN4MmRIVmtXMU1ZVGRQRm5tVlpXa0VraGs5V2ZSUzlqbURqZDRFbkdvdTNNRGdFV1lkWU1idVI4bUtfRzZEbUJpQ0xrNTk4RXJ6TGM5VVJUMDFSX2xfUHVOWVYtUVRsTXFRVmRnb2JuQVJaSG0?oc=5",
-      "published": "2026-11-19 14:30 UTC",
-      "sector": "Financials",
+      "title": "Costco (COST) Saw Emergency Supply Sales Surge After Tech Outages",
+      "source": "Simply Wall St",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQbnpyT1o4UUhkYkloUHBqWGNwWUh4TG1KeWludVFIMVc4ODBOVW1RMmdNd19lNEM1alZneVNTLUNTeEIwalhPRTdWc2NySXd3dy1kRXpHclBLSWI3SnBWdXRxQVBmTTRyNTF4a0R4M0RjcG5EVWtrNmtQMGdIZ3dneWJxVFZnZkplZTF2M0FUY2ZvRl9NMXBVQ2RzT3U4U09zTG5HSkJWdlctV3dtbFU5TGJaOHluaGk0bUh1dDFibDhUWU5IXzQxQkppcktNemtPLW13dldiWE9xek5WUFHSAeMBQVVfeXFMTVdlMnZNcHloQ2lRWElESDViSHAzNmZQYkZSSjdsZDAzTkt6ZkpPQ0NZVWk2cGVhS21YODQzRnZnc0hOUlh5Y3BpTFc5UElpMkZ4QkU1d0hDOVhJUHVaLXhGdUFaYUxRY1h3TXpfT1VQUmFvb09LUWZIRWxlNEhqRzlpV3NVeEdTdlhIcXVwdXpua2FMcWFvWHBBdURwT0dEZTNGeG5mZExHandDc3NDcHViWFRRSU9haUdkeGxFZzJFWGlhOTVYOVJ2dlZnZmRqdEo5bnUyWVduSF9meUR3ZEl2Z3c?oc=5",
+      "published": "2026-11-20 05:16 UTC",
+      "sector": "Consumer Staples",
       "tone": 2.0,
-      "note": "New ETF expands investment options, signals growth."
+      "note": "Costco sales surge signals strong consumer demand."
     },
     {
-      "title": "Canada Commodities: Oil Prices Rise as Tanker Attacks in Strait of Hormuz Heighten Supply Concerns",
-      "source": "www.marketscreener.com",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxORkljb3ROWVdTZ2kzN3ZtZzJwUEN4MGFkOEFsb1dqXzJCckYtN0Z2MENYRGdiN19tYWR0OXJwbWZvRVlRRURSOVpfbWhQTWs1OHdrVUc2c0paeXNoR0dnbmVnd1pIMk5lNzlnSUl6eWpQZEwzVEhsYkg3dFN1eXdLSjJlLV9QSTBaSEp5SEpkSTNWN29iZXVadkszWnNuMlZseEpDSUNkeUNFbGFaWXNJSllsSlYwb0hZYkRPTS1TaFhQTUgzQ2FFbGxNdklsY1dtOE5CVkQ3SFJMRDdlWVpZcUpGSFo?oc=5",
-      "published": "2026-11-19 15:01 UTC",
-      "sector": "Energy",
-      "tone": 3.0,
-      "note": "Supply fears push oil prices higher."
-    },
-    {
-      "title": "Turning climate ambition into action",
-      "source": "ExxonMobil",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE96anJwa21fRTdlNUFXQWlPTGlEV1pQZ3BhbUdjUDhaVGZucE45RXNGNW1QVVRVVkRWTTV3OUNKVE9kdjJnS0x0RUxvV2JzSGl2bnRveWJFbmVXMFJON0IycERtR0lJbFdxMnFmcmkxUm10SFp2Zm1SeQ?oc=5",
-      "published": "2026-11-19 14:55 UTC",
-      "sector": "Energy",
-      "tone": 0.0,
-      "note": "Climate focus may curb future demand."
-    },
-    {
-      "title": "Oil prices gain amid fears of renewed violence between U.S. and Iran By Investing.com",
-      "source": "Investing.com South Africa",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORzJReE5abXgyeHJkNjI2aTI4SnZYZ2xOcDFmX0dJdjlTT3V2bmd5RTlDSUhodjhLS2dqZG5vRnR5MU5tenBvWVBBa3RJdHJhV1NxWXktdFdnal8xZUJtWV9aa2p1cTFBSlhxb0ttLUNUWVFYMGVOUFZPS2xFQ3ZtSzVaLU00VXYtWF9ONlZGdHd1ZU9CS3FZZm11elJGQngxOEpFdmM3YUlHQVhSQ3dyaVFEMUpsY1JWT2xvMkhn?oc=5",
-      "published": "2026-11-19 14:41 UTC",
-      "sector": "Energy",
-      "tone": 3.0,
-      "note": "Geopolitical tension lifts oil prices."
-    },
-    {
-      "title": "183,059 ExxonMobil Corporation $XOM Shares Bought by Private Advisor Group LLC",
-      "source": "MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWjE5RGZoV1VvUHhsMWdHZkx1T2ZjV3FFdXNjRXNKRU1EcWZYXzNjMGlaUWlNYnNHZktMUmg1X1MzMXlsb2FhUDJTTVNiY3R1N3Y2ZVVWRnYzQ0JTTnFZaUJ5WHJQMmRETVhlSThSTG5mNXNUNXl1ZUhCSWZvZ1JvQVFUMDFNaXlhUXFBR3RJYno1UFhONkpsQm5PX09uaFA2Y3VxcmJydnUxVEpwMVpnRHczczFJUk5mS1NzRXdsNXNKSjBTVWpjOURVVXQ3TjdFLVlr?oc=5",
-      "published": "2026-11-19 14:35 UTC",
-      "sector": "Energy",
-      "tone": 2.0,
-      "note": "Large institutional buy signals confidence."
-    },
-    {
-      "title": "Oman signs $400m gas deal with Energy Oman, ExxonMobil, paving way for multibillion-dollar project",
-      "source": "Arab News",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxORlg1cXoxWHdMUmhtb1h6bkJmU29VWFc1R2lfU2gwTi1CM2s1Y3EwWTQ5bHl0dGlHWGFCcm1yN191WDZJdlNteTdneTIyMkJYTGJLYzNTbHJtbnNfYXdxSDdFemRtcVp5RGo5bFV6NUdKbF9KdEpBbjN1ZXF3Y19qSUZpN3ZlQUZpRTJONnZ2VHB0cVVqd2xMbzlXaVRDY3laVHQ4MWIyQU9taHpyemRNQmFSRllxbTJxLV9EaGZTT3AyOW54ZEo5enpVcDYtdVNfTDFj?oc=5",
-      "published": "2026-11-19 14:30 UTC",
-      "sector": "Energy",
-      "tone": 4.0,
-      "note": "New gas project boosts sector outlook."
-    },
-    {
-      "title": "ExxonMobil Egypt Backs 84 Young Entrepreneurs at INJAZ Al-Arab Competition",
-      "source": "Egypt Oil & Gas",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVTJBbFh3bW5XbmlFSHBld3Vud01XbDFiWDJoWm54bzlIQXVEeE44TkduZnVXQ0hTVHE3WWRjUFRUbWcxbGprVEtlS1lRQ1kyemJnOFB3aUdoSldQcnhaZjJmanFxZXp1WGNpbmEyV1dramh4WlNaVnhJT1FnREFxVTMteEZmei10eGxaRFZTY29vQVFNeXBPQXZYRlMwcm53ME4yd2lqcXk?oc=5",
-      "published": "2026-11-19 14:24 UTC",
-      "sector": "Energy",
-      "tone": 0.0,
-      "note": "Corporate social responsibility, no direct impact."
-    },
-    {
-      "title": "He'll Be Back ... for Christmas. Arnold Schwarzenegger Lifts Amazon as the Week's Best Campaign",
-      "source": "Muse by Clio",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUjJrc1NsYzVJWENybklrVDc4emVNQndNaW1fUWpsR05VNW1OcFdhb3hWX2NMZ3hUaVhXQmNhLWhnOGRIc2dOTzcwVHRDUEMtai1La3BVSjlLN1ZUX0JaS0ZaZzgxVzJvM2dMeXpCTE5zZ0pHdDdkT1dlWkpvZl82ZGgyQkZmNlZTU1E5WjFZY3ZzZnYzSXU5b1Ffc1pIbVhrOEFUaEhqbkljUzdNRTQ3MWRrdHVSc3BxcFJkc2xEVjBzOHM?oc=5",
-      "published": "2026-11-19 15:09 UTC",
-      "sector": "Consumer Discretionary",
-      "tone": 3.0,
-      "note": "Amazon\u2019s campaign boosts consumer excitement."
-    },
-    {
-      "title": "Drug trafficking, illegal mining threaten Indigenous communities in Peru's Amazon",
-      "source": "Anadolu Ajans\u0131",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORDF3NkNoZG8wU0s2aHVKSU8yLXQ5VTNQamJxRkJZTDZNSUE4Q0dyZ3o5cEpDamhhOWN6TXJMWE5SdkhlcnBidmFvRTFJczFUNVU5cXhvai1lSFYtcS03eEF2cUJHa25HX0R4em9ITnRCQW1KNVVqcGlEbTZxbjRURnFoNEExeXZpeW9HMVQ4d0xEVzFDQmtKamZaNlJXWGhXZ2MwcDZmc3RsMW1HWWtBdFA4R19TaVZkUkZRWjF3?oc=5",
-      "published": "2026-11-19 15:05 UTC",
-      "sector": "Consumer Discretionary",
-      "tone": 0.0,
-      "note": "Indigenous issue unrelated to sector."
-    },
-    {
-      "title": "All four MTG Nauctis commander deck strategies revealed by Amazon",
-      "source": "www.wargamer.com",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBqcmtBVWlBLS1ydGV4RGtCV3hMbVVhcTJuUlRkVGtmV2ZUV3oyaWpfMTZEcEliQ0NaSlo1eXR6Rktra2ZwOVl4S3dPLTFuYzc3eVh0SVF6X1JJR2I3TUlmdkd1RkRKbmxpSHlLLUpoeUdVS2N0NDYtR2Z1azM?oc=5",
-      "published": "2026-11-19 15:05 UTC",
-      "sector": "Consumer Discretionary",
-      "tone": 0.0,
-      "note": "MTG deck strategy irrelevant."
-    },
-    {
-      "title": "Can Amazon's Ad Revenue Growth Continue to Underpin the Stock's Value?",
-      "source": "Zacks Investment Research",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcUc5UUx1VWY4MTVsdG1iMkVpOTVxQXVPbkhDM255LVdZTVd6Vk9PZU1DWEI0WGtXWG01dTJuQ3BIYU9XMjR4RUdiajRPTTJsV0FxNF9Md2UzUW5oNjRHLUVZZUpyTlJ4QWNyTHh0cGJiWFdwVDhDOE9BVGtBOGxqemVTZlBwMUh1MzhaQ0F2dnNEMl9WSE5STmRNVTI3ZHJraExsNTI3bTRrTmVH?oc=5",
-      "published": "2026-11-19 15:03 UTC",
-      "sector": "Consumer Discretionary",
-      "tone": 2.0,
-      "note": "Ad revenue growth supports Amazon\u2019s value."
-    },
-    {
-      "title": "DeWalt's No.1 Bestselling Hammer Drill Is Nearly 50% Off Thanks to Amazon's Black Friday Sale",
-      "source": "Men's Journal",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNX1cwdTQwNDE2YWREU1Z4WW4zVTdwd3lfbkZSYURGMEwtZHlqeWUwNXNqTnU3UWpKT05IR3JXN2JKVTNtNWFMZERmNk41OVduakxIdlJJcUV4c0toZmk5MVA4NnJGZ3lEWlBFWTFsZW1WUnJmdGtCMTgyRkpkbEVtOXhrN3JtbFp5cktKdnhZSUhPajVkd1U4?oc=5",
-      "published": "2026-11-19 15:02 UTC",
-      "sector": "Consumer Discretionary",
-      "tone": 4.0,
-      "note": "Black Friday sale drives consumer spending."
-    },
-    {
-      "title": "The best Black Friday coffee maker and espresso machine deals on Amazon worth waking up for",
-      "source": "Digital Trends",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPazFiOHFKa0sweFlFS19Xbm9tNld2LWVaRkRKWTZvazhKWUJoSWQ2WTVJd01DVFhtMElGNEJ1ZzdOaTM0UExHM29JbTgycUFqaURJSlNPR29RVEZ5enBlWTJWa1dmdXNNazJ4N2tXdVNwdFNOYTZQYjJyLXp3MTU3ejhjUGlqdzBTSVJ3c0FCdVdoNXBtbXhfT1FtdDJ0czRGMDJ2SDhCeWZwem1DNHF1Vi04ekU1NmdrX1BPOHZhZE43dmNzNXc?oc=5",
-      "published": "2026-11-19 15:01 UTC",
-      "sector": "Consumer Discretionary",
-      "tone": 4.0,
-      "note": "Great deals attract shoppers, boosting sales."
-    },
-    {
-      "title": "4 High-Yield Consumer Staples Stocks Retirees Should Buy Before December",
-      "source": "24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcGJLMnBuTmE5UExFbFYydkRHSXozNklmUDE1d2hiOTlyMGN4MXJ1R3RZMGljNENtcVhaR3c4dlJyQnlHYWlGTXBoNzRNUmFPck9iTDF6MzNzUzZDRHRLblM5TTl2UkR6YTc0cmxZTGNsOTNwc1J0NVJCWGJmcGo2RjlETXRYVTFjamlmS3Brdm05b2x2cFRSVGlSLWFMT3VpU0c5c1RVYWpDd2JOSk1zemxDckRfS1E?oc=5",
-      "published": "2026-11-19 14:40 UTC",
+      "title": "Berkshire's Coca-Cola Stake Now Pays $848 Million a Year as Abel Keeps Buffett's Bet",
+      "source": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE11RjVjeXpvVGUwdU9NQVQxbC0tYWN4OF9WU2tBVTRyQmk0Qll1bmhNbnFoQ0dNSm9tYUQwVmZNbW5iYlU1Y3hRWXRnaWcwZzVVaVhmbFNLUERVMGg0UnNBZXZOMjhaLW01RGR5b0kzTEFzRmhwOFE?oc=5",
+      "published": "2026-11-19 20:05 UTC",
       "sector": "Consumer Staples",
       "tone": 3.0,
-      "note": "High-yield staples attract retirees, boosting confidence."
+      "note": "Berkshire\u2019s Coca\u2011Cola stake yields high returns, boosting confidence."
     },
     {
-      "title": "156,170 Procter & Gamble Company (The) $PG Shares Bought by Private Advisor Group LLC",
-      "source": "MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQcDNIaVRNZ0g2LUZoUWR1R0V1YWFtbVFrUUMtb2xKcUFlVVcydU9zQzRzN2NEdWpZLWxnMkUxRjJwamNVaU9EZ3FudGRSRXhKbmV1OUMzeWIzOFBycW1raUVWY0RjajJrM3oySWNzeTVYS2ZIN3RiUnZrd1c3MjVTNy1JWTF4aGlBV0NZS1BKLXRUbUdiVXA5eTlNYS1IWjEtZ3dJMHQwVXA4a1A1NER2Q1Z3a2NzQU13YjR6Mm5YTGxpeElyRWRfQ0xMS2EteHN5T3JVdWNMMA?oc=5",
-      "published": "2026-11-19 14:35 UTC",
-      "sector": "Consumer Staples",
-      "tone": 1.0,
-      "note": "Large institutional buy signals positive outlook."
-    },
-    {
-      "title": "PepsiCo Romania and Rezolv Energy sign a 10-year virtual power purchase agreement (vPPA)",
-      "source": "The Diplomat Bucharest",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQa2xoZXNjOVBLMFQtd2xIX183aVZOa1JlRFlUc1dqbmFRSWxqaU9aZmNoQWRSaFNFQlFpXzUxVGVnMmtzNU4wcV9pSXpLNE5hQWZRYzlhYUwwOUEyLUsyYnZ6Nmt4V3NBQWFoc21MZGZNd2V2aHFmU25aajA4RnZJZXd4WmJiVC1aRzRPeTVsbi1nLWpXdFFCOC1zdGVsb09PT0VEWFVwZUZmSGpuZUpFZlBiVVFpZUlha2Q5bm9faDVLblE?oc=5",
-      "published": "2026-11-19 14:28 UTC",
-      "sector": "Consumer Staples",
-      "tone": 0.0,
-      "note": "Energy agreement unrelated to consumer staples."
-    },
-    {
-      "title": "153,538 Procter & Gamble Company (The) $PG Shares Bought by Ieq Capital LLC",
-      "source": "MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWnhFWjFYUmVSQlRqUmV4ZUJqMjkyeFBQaWpZNmcxRnlMazZ3N3NHUy1XeFRXaTBrOHI5Y0NXSGFHN19JdzljTlhjTm9pV2hPRldVVmNrT1B0d0VvY3JrSTduR3F5TG9YaTRCdHdYYWhrREFFZzVJMWNmYktLUlp1UWZFcmhCRHJ5MWlMQlYxanZJbENZeE9BMWp4YXNJaHRVaGEwRllGUmN2TmxydG44MnNHaVFfcjMzRVRWVHNBcEs5NWNxXy02ckFn?oc=5",
-      "published": "2026-11-19 13:51 UTC",
-      "sector": "Consumer Staples",
-      "tone": 1.0,
-      "note": "Another institutional purchase supports sector."
-    },
-    {
-      "title": "PepsiCo, Inc. $PEP Stock: Voya Investment Management LLC Reduces Position",
-      "source": "MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNbzlnUzE4SHVuWElNaVRwTWpUV29fUFZxVHhER2ZYd1FrTDdDZ2RlV3drU3ZYdGwyUnZjWnZsNHl0RDRWNlo2a0xMaG1EdF9tRG9EMlVFX0VORnFEeGRYWHB4VTg0bDlEQUtYSFBVYkdac0VQbFV4dlNvU0dWMGk1WDkyODFuekxaRzYwS3ZsRjh4X3E3ZFZwaHVFcmRiWFB0bVRfTjRwa082NGcxcktxd1RBbnh4ejNOSEhTYmlBM1RuZG1FODBZaDV3?oc=5",
-      "published": "2026-11-19 13:40 UTC",
+      "title": "PepsiCo shares fall over 2% as selling pressure persists despite dividend hike",
+      "source": "Traders Union",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdW4xNVgzT0ZLb0JVd0ZUaVoyNGI4b043OF9uZE5FV3djcGVkaW5NUGdYdFJ4c29zUVMwTVczT0FncFBQb0lCdmlsaldtTDJ1N05Xc0xqMllfMEJKTXVNZ1dWTWpiYWJyeXA1bWRpZlhKak9EcS1waFlyb2tkU0pSQWZBNmI2cUZ6cXlv?oc=5",
+      "published": "2026-11-19 16:42 UTC",
       "sector": "Consumer Staples",
       "tone": -2.0,
-      "note": "Position cut indicates some concern."
+      "note": "PepsiCo share drop reflects ongoing selling pressure."
     },
     {
-      "title": "Want Reliable Retirement Income? Invest in These 3 Dow Jones Passive Income Dividend Stocks",
-      "source": "24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxORUtYbW1kZjk2U1ZVdHh5cmhOTHdiOTF3bjdYa1FLTUN4VFdsa1JHcXV4alp0alN5c2w1bmdCNjV2ZzJILWtjVUd5dVpZTmM5b1BEMkVacFhPZkhIT0VSWkFxZWozTlVNdmJXbTdtMzFPMFNnWkJFOVZ1N0tiNjBIQ1dYczZadUlwSk1INFZvSDBxSXNiWVBHQWQ5ZnNINnNnZmx0RmhZeG5CNUN4N2VjY1I2MERBME53dTd1aUk4MnZjZldDbUhUUGIxZ19ndUk?oc=5",
-      "published": "2026-11-19 13:18 UTC",
+      "title": "Berkshire's $1.3B Coca-Cola stake now yields $8...",
+      "source": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbzhSWnZmNmZhRW41Ym00M3MxX0thS3dxU3Nzb25SZGpqN3Zia2ppZ1g0aG8wMUdrV0VUdTZrYkpyR2ZycHY3aV9oVFFCSXc0UE9SeDZ3RnRwYUo2WVFYaEFSOEY2NW9wUHlnRnF0SGc4WEpmVlhHZnh6Nm1ZM3k4T3VQRVkwYzB0dzA0?oc=5",
+      "published": "2026-11-19 16:32 UTC",
       "sector": "Consumer Staples",
       "tone": 3.0,
-      "note": "Passive income focus highlights staples as safe choice."
+      "note": "Berkshire\u2019s stake yields $8B, indicating robust cash flow."
     },
     {
-      "title": "sNDA Submitted: Caplyta for the Treatment of Bipolar Mania",
-      "source": "Psychiatric Times",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUmo2M1ZBMGExdGRPRHcwQ3Exa0w3bVZnTG5iVWpzOUhvNHdweUdWWmdaQTh4Wkh6SEJSUjlTSmJxQTh5dVBxelV2bmVpLXNZQ0xvdU4tRDcybkR5Q2dfdmdqdVdMZE95eGllWl9RQjdKMjJ2NUV3emZIcV9oWlVqb0Y2TkNuQVhUaE9jWEhxOENGQWgzeEd5Y2xZVQ?oc=5",
-      "published": "2026-11-19 14:59 UTC",
+      "title": "Coca-Cola Shares Slide Over Three Percent in New York Trading : \uae30\uc5c5\uc8fc\uc2dd\uc815\ubcf4 : JKN",
+      "source": "\uc7ac\uacbd\uc77c\ubcf4",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5BaWtBQjhIN2VJR04zbFp2YlJTdDF0eHczR3pxX2pSY0cyOFhZdG02WFJ2QlNnTUVKRUlQdmV0V1djekdWaW92bHhqV2NmVzNoc0xleVBCSm95UVh6dk9pNVNR?oc=5",
+      "published": "2026-11-19 16:13 UTC",
+      "sector": "Consumer Staples",
+      "tone": -3.0,
+      "note": "Coca\u2011Cola shares slide, showing valuation concerns."
+    },
+    {
+      "title": "Coca-Cola shares fall on valuation concerns",
+      "source": "StreetInsider",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdlZiSlhVOUVkM1dmOXN1WlN6U0o0WXdPa1BvYnpXeVBRNE9mRUFtNjlJZWo3aUJUWXd3cHRSNzBDVzhpbVc3Mi1md0lQV3ZBNmU0aXJHUW9ZbS1rVVpJaUd0dG5LRTVFVUFiNU5uM2JtMFFRVWlDUndlRlg1SHY0QWZuYWpCLTE5Y0JEdFpqQ2YyRlNwZXVSRlZTMm5JQQ?oc=5",
+      "published": "2026-11-19 15:26 UTC",
+      "sector": "Consumer Staples",
+      "tone": -3.0,
+      "note": "Coca\u2011Cola shares fall due to valuation worries."
+    },
+    {
+      "title": "Max Healthcare, Apollo Hospitals, other healthcare stocks surge over 5% despite volatile market; what\u2019s behind the surge?",
+      "source": "Upstox",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNZmlaWVdaeEFlYlVNN1NXeXhwV2lBN1RLVUQ3LUZtb2t2ekQyaml3eWhRMzdQQ1R1NFNxX0Q2UE9lSzRXRFpDT214M0xmdlhFekdhLV9xTVNXOEFwc19DUzAzRnlvbV9UZjJvNkh4bFdYcUpPN3B3eWp1QzJKYzIteTNqUnQwNFB2b2QxQmpFcW5TcXJkTTRZY3dYNGxJa1RMZ1FQSHJjak1MUDB2WGxiS296bV93elRrOFdESk94eGh6ZHpfVExDQ2Q4amI1WlJxZ3Rhbm5BZW1FbHM2bWdCLVlLOTh5cHpKX09RN1drX1F0YU9abElPVjlnOHByOEtWZ2o4bDZB?oc=5",
+      "published": "2026-11-20 05:37 UTC",
       "sector": "Healthcare",
       "tone": 3.0,
-      "note": "New bipolar treatment expands therapeutic pipeline."
+      "note": "Strong gains in multiple U.S. healthcare stocks signal positive momentum."
     },
     {
-      "title": "Starna secures $2.6bn partnership with Pfizer to target autoimmune diseases",
-      "source": "BioXconomy",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTlRPRU9fOTEydzJhMFkxd1REUXBxOThFZmo5eE1Ta3FEWFZkZlpLWWdmRHFUdG1ZUUEtX0xYZWVmS3NEb1luUlRQTzNncDVyTFlsdHdhcFY1YmVXeExISFZGenRqR01Ca2JxRzBGa3dTNl82WWFyRlR0M0RxQlhpUHd4eDJ5TTFMNDRnZU9WMlg3aktqRWt2MkVlcGs3bnZXYkc4NGJKdGFGN0NWUFo0OW9B?oc=5",
-      "published": "2026-11-19 14:44 UTC",
-      "sector": "Healthcare",
-      "tone": 4.0,
-      "note": "Large partnership boosts autoimmune drug prospects."
-    },
-    {
-      "title": "Crush Dynamics secures FDA GRAS response for fermented grape ingredient",
-      "source": "Food Ingredients First",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxORVc3cXZyb2JJNHZyY25wT2F1blByVURiZ3luY09ZTlcwWll5eUVJYWJWOUJRcUxpVmx1NWVzeGhSQnJZNFhLbUNfZDNRQk1XZGdzYWFpWmRobVV2TmpUZUxjNU5lU2hWUWlTMlljb1BEckdoNEhwVDNRbmhtZXZNWWJ3?oc=5",
-      "published": "2026-11-19 14:41 UTC",
+      "title": "Apollo Hospitals, Aster or Molbio \u2014 which is a better bet as healthcare stocks rally up to 4% despite D-Street weakness?",
+      "source": "Livemint",
+      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPV3FHeFJkS3pCVHZJWkJJMGpUSlJtQkkyMFpyWG5mbFpzbWZRTnRLaVRzVTQ1d2JmbTJLSjR0THQzMlhlTWV1eHNuLU14bkJVSGh6RVk1MFZBUDN1SHByUl9GbUd5X01OR3g0RTZDaE1ZY015QUx3aURsUVZZdkhPeFRwaHFrYlVlb2VUdGR0MGV6aEpQRS1UUjNHYmVpcFVvb1lUai1BZ0JSdV9PY2RrQ3UwakUxUlVlSWhGNklJaGtIMmkxOWVZNHBwVWw1VFZsWEpkcThsX3o1bzdDUVE2NmVzX2l2MjREUTBFNEtfaWZBYXFIbUQ1YVctSS1CWHNlYS1oNzBabkxDU213UGxPLU9KY9IBmAJBVV95cUxQcEswVXFxeGlubGtSRU8yNGs5Y0NRMGR4c1NhbGhpWV80N1pGN2xVNmdsS1VPRlJxVy1vNWljSVZfSzc2dUxLTnFhc0g4cE9xOTk5eEJHRHI5bkt5bk03MWdwdlN2Q1d1X2ZKZHNMUm00endLZmFzS190cHA4b0EzdVpTellfQ3ZQTGtnOEpmMVRfcm5KeWlSUUQ1WE92Q2VZdEZiSVRTRFBxUDQ5QTNKbU90ZXJyOWZERF81UkhLSWdKUUJLUktJX0l6M2N4ajNKUWZUYk4teDZiRDVBZ2FKTGhSbXVyV3hWMGxYVkM3VlFHblJwd0ppMUZVMmhpVDVyQ3EwRWhpQ3dhbDZrRDZMZmUyeVEwYUhM?oc=5",
+      "published": "2026-11-20 05:28 UTC",
       "sector": "Healthcare",
       "tone": 2.0,
-      "note": "GRAS approval supports ingredient use in foods."
+      "note": "Comparative analysis boosts optimism despite broader market weakness."
     },
     {
-      "title": "FDA clears Medtronic Hugo robotic system for US general surgery procedures",
-      "source": "CASRAI",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5RZWs3TkpoZHNsM2E0a2dwcDRhREthNll0cUlIMkF4cEN4bWNlVjVwWUsxY24tUzd0WVVFNWpsNWRqQWtDUHBKYnc0NExQN0llT1gwVHVhYUhabWFVZE9kaWJSU0VmQm0ySjQzd29CalAzOHVsWEV5LUJn?oc=5",
-      "published": "2026-11-19 14:40 UTC",
-      "sector": "Healthcare",
-      "tone": 3.0,
-      "note": "Robotic system clearance expands surgical options."
-    },
-    {
-      "title": "Can New Products and Acquisitions Revive Pfizer's Growth Story?",
-      "source": "Zacks Investment Research",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVHlkb3UydzVsUWN1a1VwMWpKX200blROMWtKajdlLUh6WE9zM01fV0dGb1pIbDVhS2paMlc0NjNqMDhncFV0ckd2M2JvbzZDZXIwekZ1c0VtbDZaUXJ1M3dkcWYxaktHOFhpb3dWTVo2WDJzcWdaaXNybENIUGtReUZ6SnJXR3VseHV1dGpLN3AxYWdCX2hjVldoOHh0cWxQck5wWQ?oc=5",
-      "published": "2026-11-19 14:34 UTC",
+      "title": "Medexus Pharmaceuticals And 2 Other Canadian Biotech Stocks To Watch",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORlFZMjlqVVBZZGozNUN4c2FFMDJRWjRBcnpPbVVwZjFZMDJOVmZiUmhEeFdUUFRFTng2cVZoZ3VqdzlObDdzME5sQ0JXdnhiZmF4RWZ1Qm1hVGR2QWFmRV82SndBRm1UdVFPbFpUbnpzREREbFJRUThOZWV0X2ZWNE9tR2pOeFBuTFR4U2xLQzVTZ0JRQTNuamt4dDlyellwUXpN?oc=5",
+      "published": "2026-11-19 22:11 UTC",
       "sector": "Healthcare",
       "tone": 0.0,
-      "note": "Uncertain whether new products will drive growth."
+      "note": "Canadian biotech focus not directly U.S. healthcare."
     },
     {
-      "title": "Sanofi secures first FDA approval to treat neurological symptoms in rare metabolic disease",
-      "source": "BioSpace",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNkRmSGoxOENoVUtsLWtFLWNxcHYzakFRTkJoNDVySUljY2U2N25SdU1fYkVlbl94aE1BbTBKeEtGQkVjaVoyUXFTOFBReDcxdDl4Z2JTdktHTW1oVGtEbEhVSVYtTzkzeUZfQjBiblZBY2lvMDhwSkVFRmlFRFFpWWZaTm1HdnYyMjA0WlpzVXI1elMtRURGZXVjNUVBM2UxZ21VbDQ5bWNHTzVBWjZjYkZLOHAxZ0wwSm1V?oc=5",
-      "published": "2026-11-19 14:25 UTC",
+      "title": "Cathie Wood Loads Up on AI and Biotech Stocks, Cuts One EV Holding",
+      "source": "TipRanks",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNHZGZmZSTHZGWVhVZUdpWmxza1VSTHpQbkU1NUoxQnl6MHROTjlhUFl6ZWliSktDYThWVXY3SDNyWjBzd2J6NE1PZTJuS0R0b19tZWk2ajFBSGhOd250T0RXM0dIZWdqRXd2N2tGSnExblZrSm05U2RqZ2hoV2tIUWV0ZXFqQjJrUXNLYUs4S2tHRlpBTE1JclY0UQ?oc=5",
+      "published": "2026-11-19 21:14 UTC",
       "sector": "Healthcare",
-      "tone": 3.0,
-      "note": "First approval for rare disease boosts portfolio."
+      "tone": 1.0,
+      "note": "Cathie Wood\u2019s AI/biotech tilt hints at selective bullishness."
+    },
+    {
+      "title": "PolyNovo And 2 Other Australian Healthcare Stocks To Watch",
+      "source": "Yahoo Finance Australia",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdUYtbmcyb3RSVWtPaVdOX1pYSWRqcjRVWDlGb0UxOE5Wdk9YVFBXMEtXY0E5MGNnd3RsVUdWcG4wUm80eU4tbktpOGdSclE4UDM1amlDNEdSNGVjUWdBcUM4QnA1LVlwbEpWbEdkM3preUNUNGVHa25sNGFGeVRVdEoyRmNSM1Y5X0lwVXZ0cVY?oc=5",
+      "published": "2026-11-19 21:14 UTC",
+      "sector": "Healthcare",
+      "tone": 0.0,
+      "note": "Australian stocks irrelevant to U.S. healthcare."
+    },
+    {
+      "title": "Healthcare Stocks Slid As Biotech Headlines Spooked Traders",
+      "source": "Finimize",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQ1hfLU1kdjd0WWRTbmRGTXNzc1pCU0lvSWptaUgxRS1JQjhqajVMMjJaQ0M5VXFZWTJ6eUVlQ3p3TDRxQzlseWVuM0plcE9walNQeGhBT3JxWWE4MDdEY1pEVUh6eDZ4cFlOVTNIOEZfTWdpMDlxUUVZUkdVbGpWSV9rdTdIN09BcmRtVlktU2xpQQ?oc=5",
+      "published": "2026-11-19 21:10 UTC",
+      "sector": "Healthcare",
+      "tone": -2.0,
+      "note": "Negative biotech headlines dampen overall sector sentiment."
     }
   ]
 }

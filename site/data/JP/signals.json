@@ -1,232 +1,282 @@
 {
-  "updated_at": "2026-11-19 15:09 UTC",
+  "updated_at": "2026-11-20 06:48 UTC",
   "market": "JP",
-  "macro_theme": "Geopolitical conflict raises energy-sector risk",
+  "macro_theme": "Rate-policy commentary dominates headlines",
   "signals": [
     {
       "sector": "Consumer Discretionary",
-      "read": "Bullish",
-      "score": 66,
-      "event_type": "geopolitical_supply",
+      "read": "Bearish",
+      "score": 30,
+      "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "Improved steel supply for auto manufacturing boosts the Consumer Discretionary sector.",
+          "text": "Consumer discretionary is bearish mainly because AI concerns are driving significant losses in Japanese stocks, which are a key component of the sector.",
           "forecast": {
-            "low": 2.0,
-            "high": 4.6,
-            "direction": "+",
-            "text": "+2.0% to +4.6%"
+            "low": 2.8,
+            "high": 6.3,
+            "direction": "-",
+            "text": "-2.8% to -6.3%"
           }
         },
         {
           "role": "supporting",
-          "text": "Steelworkers union USW\u2019s tentative labor pact with U.S. Steel is expected to ease steel supply constraints for automotive makers.",
+          "text": "Nikkei falls over 5% amid AI fears, dragging down tech and consumer discretionary stocks.",
           "forecast": {
-            "low": 2.0,
-            "high": 4.6,
-            "direction": "+",
-            "text": "+2.0% to +4.6%"
+            "low": 2.8,
+            "high": 6.3,
+            "direction": "-",
+            "text": "-2.8% to -6.3%"
           }
         },
         {
           "role": "supporting",
-          "text": "Robots built a custom Toyota Tacoma body in three weeks, indicating higher production efficiency and lower lead times for vehicle assembly.",
+          "text": "Japanese automakers are entering a third consecutive year of global sales decline, weakening the sector\u2019s earnings outlook.",
           "forecast": {
-            "low": 2.0,
-            "high": 4.6,
-            "direction": "+",
-            "text": "+2.0% to +4.6%"
+            "low": 2.8,
+            "high": 6.3,
+            "direction": "-",
+            "text": "-2.8% to -6.3%"
           }
         },
         {
           "role": "supporting",
-          "text": "Toyota\u2019s sustainability report highlights progress toward 2026 goals, reinforcing investor confidence in the auto segment of Consumer Discretionary.",
+          "text": "Yen buying pressure consolidates the dollar\u2011yen lower 159 range, adding currency headwinds to Japanese exporters.",
           "forecast": {
-            "low": 2.0,
-            "high": 4.6,
-            "direction": "+",
-            "text": "+2.0% to +4.6%"
+            "low": 2.8,
+            "high": 6.3,
+            "direction": "-",
+            "text": "-2.8% to -6.3%"
           }
         }
       ]
     },
     {
       "sector": "Energy",
-      "read": "Bullish",
-      "score": 65,
-      "event_type": "geopolitical_supply",
+      "read": "Bearish",
+      "score": 5,
+      "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "The Energy sector gains momentum from the new Ichthys LNG contract, bolstering supply prospects.",
+          "text": "The Energy sector remains bearish as rising rates and a weak yen continue to weigh on commodity demand and earnings.",
           "forecast": {
-            "low": 5.2,
-            "high": 11.7,
-            "direction": "+",
-            "text": "+5.2% to +11.7%"
+            "low": 1.9,
+            "high": 4.8,
+            "direction": "-",
+            "text": "-1.9% to -4.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "Baker Hughes and McDermott\u2019s acquisition of the Ichthys LNG project expands LNG production capacity.",
+          "text": "AI concerns are driving a broad tech sell\u2011off, reducing overall market liquidity and pressuring energy stocks.",
           "forecast": {
-            "low": 5.2,
-            "high": 11.7,
-            "direction": "+",
-            "text": "+5.2% to +11.7%"
+            "low": 1.9,
+            "high": 4.8,
+            "direction": "-",
+            "text": "-1.9% to -4.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "Germany\u2019s decision to limit Canadian LNG imports signals a shift in regional demand, potentially raising prices for other suppliers.",
+          "text": "The yen\u2019s buying dominance and consolidation near the 159 level are tightening the currency, which can dampen export\u2011heavy energy companies\u2019 profitability.",
           "forecast": {
-            "low": 5.2,
-            "high": 11.7,
-            "direction": "+",
-            "text": "+5.2% to +11.7%"
+            "low": 1.9,
+            "high": 4.8,
+            "direction": "-",
+            "text": "-1.9% to -4.8%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Inflation peaks in Japan are prompting tighter monetary policy, further supporting higher rates that weigh on the Energy sector.",
+          "forecast": {
+            "low": 1.9,
+            "high": 4.8,
+            "direction": "-",
+            "text": "-1.9% to -4.8%"
           }
         }
       ]
     },
     {
       "sector": "Financials",
-      "read": "Bullish",
-      "score": 66,
-      "event_type": "geopolitical_supply",
+      "read": "Bearish",
+      "score": 40,
+      "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "The Myanmar ICJ ruling on the Rohingya genocide has spurred heightened demand for financial services in the region, boosting the Financials sector.",
+          "text": "The Financials sector is pressured by the Bank of Japan\u2019s rate moves, reflected in the decline of key Japanese bank stocks and the broader Nikkei index.",
           "forecast": {
-            "low": 1.3,
-            "high": 4.0,
-            "direction": "+",
-            "text": "+1.3% to +4.0%"
+            "low": 2.4,
+            "high": 6.0,
+            "direction": "-",
+            "text": "-2.4% to -6.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "The USW tentative labor pact with U.S. Steel is likely to increase financing needs for the steel industry, supporting financial institutions\u2019 loan portfolios.",
+          "text": "Japanese bank stocks sensitive to BOJ rate moves",
           "forecast": {
-            "low": 1.3,
-            "high": 4.0,
-            "direction": "+",
-            "text": "+1.3% to +4.0%"
+            "low": 2.4,
+            "high": 6.0,
+            "direction": "-",
+            "text": "-2.4% to -6.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "MUFG\u2019s launch of a sustainable finance initiative for APAC building decarbonization is expected to drive green bond issuance and related financial services.",
+          "text": "Nikkei falls over 5% amid AI concerns, dragging financials",
           "forecast": {
-            "low": 1.3,
-            "high": 4.0,
-            "direction": "+",
-            "text": "+1.3% to +4.0%"
+            "low": 2.4,
+            "high": 6.0,
+            "direction": "-",
+            "text": "-2.4% to -6.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "Heitman, NANKAI and MUFG Finance & Leasing\u2019s acquisition of a multifamily portfolio in Osaka signals robust real\u2011estate financing activity in Japan.",
+          "text": "Mitsubishi UFJ Financial Group shares break below 200\u2011day moving average",
           "forecast": {
-            "low": 1.3,
-            "high": 4.0,
-            "direction": "+",
-            "text": "+1.3% to +4.0%"
+            "low": 2.4,
+            "high": 6.0,
+            "direction": "-",
+            "text": "-2.4% to -6.0%"
           }
         }
       ]
     },
     {
       "sector": "Healthcare",
-      "read": "Bullish",
-      "score": 76,
-      "event_type": "geopolitical_supply",
+      "read": "Neutral",
+      "score": 44,
+      "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "Geopolitical supply dynamics are driving a bullish outlook for the Healthcare sector.",
+          "text": "AI concerns driving a sharp decline in the Nikkei index, which is weighing on the Japanese healthcare sector.",
           "forecast": {
-            "low": 0.8,
-            "high": 3.0,
-            "direction": "+",
-            "text": "+0.8% to +3.0%"
+            "low": 1.1,
+            "high": 2.8,
+            "direction": "-",
+            "text": "-1.1% to -2.8%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "The Nikkei fell over 5% amid AI fears, indicating broader market stress that impacts healthcare stocks.",
+          "forecast": {
+            "low": 1.1,
+            "high": 2.8,
+            "direction": "-",
+            "text": "-1.1% to -2.8%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Yen buying pressure has consolidated the Dollar\u2011Yen in the lower 159 range, supporting the Nikkei decline.",
+          "forecast": {
+            "low": 1.1,
+            "high": 2.8,
+            "direction": "-",
+            "text": "-1.1% to -2.8%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Takeda\u2019s stock, despite its ORZEYFUL launch, remains under pressure as the overall market sentiment turns bearish.",
+          "forecast": {
+            "low": 1.1,
+            "high": 2.8,
+            "direction": "-",
+            "text": "-1.1% to -2.8%"
           }
         }
       ]
     },
     {
       "sector": "Industrials",
-      "read": "Bullish",
-      "score": 74,
-      "event_type": "geopolitical_supply",
+      "read": "Bearish",
+      "score": 5,
+      "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "The tentative labor pact between the Steelworkers Union of the United States (USW) and U.S. Steel is expected to secure a stable supply of steel, supporting the Industrials sector\u2019s bullish outlook.",
+          "text": "AI concerns driving a sharp decline in Japanese industrial stocks, dragging the broader Industrials sector into a bearish stance.",
           "forecast": {
-            "low": 2.2,
-            "high": 5.9,
-            "direction": "+",
-            "text": "+2.2% to +5.9%"
+            "low": 2.8,
+            "high": 6.6,
+            "direction": "-",
+            "text": "-2.8% to -6.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Mitsubishi Heavy and Sakura Internet\u2019s memorandum of understanding to build sovereign AI infrastructure in Japan signals increased demand for industrial equipment and services.",
+          "text": "Japanese stocks tumble as AI fears deepen, with the Nikkei falling over 5% amid concerns about AI impacts on productivity and profitability.",
           "forecast": {
-            "low": 2.2,
-            "high": 5.9,
-            "direction": "+",
-            "text": "+2.2% to +5.9%"
+            "low": 2.8,
+            "high": 6.6,
+            "direction": "-",
+            "text": "-2.8% to -6.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "The inclusion of modular data centers in the Mitsubishi Heavy\u2013Sakura Internet MOU highlights a growing need for advanced manufacturing and infrastructure within the sector.",
+          "text": "The Nikkei stock index extends losses further, down more than 5% as AI concerns weigh on industrial companies.",
           "forecast": {
-            "low": 2.2,
-            "high": 5.9,
-            "direction": "+",
-            "text": "+2.2% to +5.9%"
+            "low": 2.8,
+            "high": 6.6,
+            "direction": "-",
+            "text": "-2.8% to -6.6%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Dollar\u2011Yen consolidates in the lower 159 range, with Yen buying dominating, further weakening Japanese industrials in a rate\u2011sensitive environment.",
+          "forecast": {
+            "low": 2.8,
+            "high": 6.6,
+            "direction": "-",
+            "text": "-2.8% to -6.6%"
           }
         }
       ]
     },
     {
       "sector": "Technology",
-      "read": "Bullish",
-      "score": 61,
-      "event_type": "geopolitical_supply",
+      "read": "Bearish",
+      "score": 25,
+      "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "Alibaba\u2019s cloud services boost sales, driving the Technology sector higher.",
+          "text": "AI concerns are driving a broad sell\u2011off in the technology sector, leading to significant losses in Japanese tech stocks.",
           "forecast": {
-            "low": 1.2,
-            "high": 3.7,
-            "direction": "+",
-            "text": "+1.2% to +3.7%"
+            "low": 3.8,
+            "high": 9.0,
+            "direction": "-",
+            "text": "-3.8% to -9.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "Alibaba trains next\u2011gen AI model on its own chips amid tighter U.S. curbs, reinforcing its AI and cloud momentum.",
+          "text": "Nikkei stock index fell over 5% amid AI fears, dropping 3,000 points.",
           "forecast": {
-            "low": 1.2,
-            "high": 3.7,
-            "direction": "+",
-            "text": "+1.2% to +3.7%"
+            "low": 3.8,
+            "high": 9.0,
+            "direction": "-",
+            "text": "-3.8% to -9.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "Sony\u2019s $112 price cut on the WH\u20111000XM6 headphones signals a consumer\u2011tech price\u2011push that supports broader tech demand.",
+          "text": "SoftBank shares plunged 16% as the AI sell\u2011off spread across the sector.",
           "forecast": {
-            "low": 1.2,
-            "high": 3.7,
-            "direction": "+",
-            "text": "+1.2% to +3.7%"
+            "low": 3.8,
+            "high": 9.0,
+            "direction": "-",
+            "text": "-3.8% to -9.0%"
           }
         }
       ]

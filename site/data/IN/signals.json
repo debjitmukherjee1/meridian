@@ -1,52 +1,52 @@
 {
-  "updated_at": "2026-11-19 15:09 UTC",
+  "updated_at": "2026-11-20 06:48 UTC",
   "market": "IN",
-  "macro_theme": "Rate-policy commentary dominates headlines",
+  "macro_theme": "Regulatory scrutiny dominates today's headlines",
   "signals": [
     {
       "sector": "Consumer Discretionary",
       "read": "Bullish",
-      "score": 84,
-      "event_type": "rates",
+      "score": 65,
+      "event_type": "regulatory",
       "drivers": [
         {
           "role": "main",
-          "text": "The Consumer Discretionary sector is buoyed by a strong auto\u2011sector rally.",
+          "text": "Banks and auto stocks are driving the Consumer Discretionary sector\u2019s bullish sentiment.",
           "forecast": {
-            "low": 3.4,
-            "high": 7.6,
+            "low": 1.3,
+            "high": 3.9,
             "direction": "+",
-            "text": "+3.4% to +7.6%"
+            "text": "+1.3% to +3.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "Auto stocks surge as easing commodity prices boost outlook",
+          "text": "Rupee breaches $93\u2011mark as FPIs pump $12\u202fbillion into Indian stocks, boosting domestic equity demand.",
           "forecast": {
-            "low": 3.4,
-            "high": 7.6,
+            "low": 1.3,
+            "high": 3.9,
             "direction": "+",
-            "text": "+3.4% to +7.6%"
+            "text": "+1.3% to +3.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "Auto and banks power a 1,000\u2011point Sensex rally, lifting the broader market",
+          "text": "Sensex and Nifty surged over 1% as banks hit record highs, lifting the broader market.",
           "forecast": {
-            "low": 3.4,
-            "high": 7.6,
+            "low": 1.3,
+            "high": 3.9,
             "direction": "+",
-            "text": "+3.4% to +7.6%"
+            "text": "+1.3% to +3.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "Nifty and Sensex gains are driven by auto\u2011sector strength, reinforcing the sector\u2019s bullish sentiment",
+          "text": "Auto stocks, highlighted by Tata Motors\u2019 performance, are contributing to the sector\u2019s rally.",
           "forecast": {
-            "low": 3.4,
-            "high": 7.6,
+            "low": 1.3,
+            "high": 3.9,
             "direction": "+",
-            "text": "+3.4% to +7.6%"
+            "text": "+1.3% to +3.9%"
           }
         }
       ]
@@ -54,47 +54,17 @@
     {
       "sector": "Consumer Staples",
       "read": "Bullish",
-      "score": 72,
-      "event_type": "rates",
+      "score": 62,
+      "event_type": "regulatory",
       "drivers": [
         {
           "role": "main",
-          "text": "Consumer Staples gains are driven by a surge in FMCG sales volume, supporting the sector\u2019s bullish outlook.",
+          "text": "",
           "forecast": {
-            "low": 1.4,
-            "high": 2.9,
+            "low": 1.2,
+            "high": 3.1,
             "direction": "+",
-            "text": "+1.4% to +2.9%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "FMCG companies are selling more units, boosting revenue streams even as earnings per share decline.",
-          "forecast": {
-            "low": 1.4,
-            "high": 2.9,
-            "direction": "+",
-            "text": "+1.4% to +2.9%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "The broader market rally, led by auto and banking stocks, lifts the index and lifts consumer staples exposure.",
-          "forecast": {
-            "low": 1.4,
-            "high": 2.9,
-            "direction": "+",
-            "text": "+1.4% to +2.9%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Nifty Bank\u2019s record high and Sensex\u2019s 1,000\u2011point rally provide a supportive macro backdrop for the sector.",
-          "forecast": {
-            "low": 1.4,
-            "high": 2.9,
-            "direction": "+",
-            "text": "+1.4% to +2.9%"
+            "text": "+1.2% to +3.1%"
           }
         }
       ]
@@ -102,37 +72,17 @@
     {
       "sector": "Energy",
       "read": "Bullish",
-      "score": 78,
-      "event_type": "rates",
+      "score": 63,
+      "event_type": "regulatory",
       "drivers": [
         {
           "role": "main",
-          "text": "India\u2019s emergence as a key player in the world oil market, amid OPEC\u2019s weakening grip, is the primary driver of the Energy sector\u2019s bullish sentiment.",
+          "text": "No clear sector-specific catalyst identified in the headlines.",
           "forecast": {
-            "low": 1.6,
-            "high": 3.9,
+            "low": 1.9,
+            "high": 5.0,
             "direction": "+",
-            "text": "+1.6% to +3.9%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "OPEC\u2019s diminishing influence on global oil supply dynamics is creating a more favorable environment for Indian oil producers.",
-          "forecast": {
-            "low": 1.6,
-            "high": 3.9,
-            "direction": "+",
-            "text": "+1.6% to +3.9%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "India\u2019s increased oil production and strategic positioning in global markets are boosting confidence in domestic energy stocks.",
-          "forecast": {
-            "low": 1.6,
-            "high": 3.9,
-            "direction": "+",
-            "text": "+1.6% to +3.9%"
+            "text": "+1.9% to +5.0%"
           }
         }
       ]
@@ -140,83 +90,83 @@
     {
       "sector": "Financials",
       "read": "Bullish",
-      "score": 70,
-      "event_type": "rates",
+      "score": 66,
+      "event_type": "regulatory",
       "drivers": [
         {
           "role": "main",
-          "text": "The Financials sector is buoyed by a record\u2011high performance of the NIFTY Bank index, reflecting strong bank earnings and investor confidence.",
+          "text": "No clear regulatory event impacting the Financials sector is evident from the provided headlines.",
           "forecast": {
-            "low": 2.8,
-            "high": 7.0,
+            "low": 2.0,
+            "high": 5.9,
             "direction": "+",
-            "text": "+2.8% to +7.0%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "NIFTY Bank crosses the 63,000 mark for the first time, driving a broad\u2011based rally in the sector.",
-          "forecast": {
-            "low": 2.8,
-            "high": 7.0,
-            "direction": "+",
-            "text": "+2.8% to +7.0%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Auto and bank stocks jointly contributed to a 1,000\u2011point Sensex rally, underscoring the sector\u2019s momentum.",
-          "forecast": {
-            "low": 2.8,
-            "high": 7.0,
-            "direction": "+",
-            "text": "+2.8% to +7.0%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "The Bombay High Court\u2019s questioning of ICICI Bank\u2019s authority in a \u20b93,250 crore loan case has sparked renewed scrutiny, adding complexity to the sector\u2019s outlook.",
-          "forecast": {
-            "low": 2.8,
-            "high": 7.0,
-            "direction": "+",
-            "text": "+2.8% to +7.0%"
+            "text": "+2.0% to +5.9%"
           }
         }
       ]
     },
     {
       "sector": "Healthcare",
-      "read": "Bullish",
-      "score": 73,
-      "event_type": "rates",
+      "read": "Neutral",
+      "score": 57,
+      "event_type": "regulatory",
       "drivers": [
         {
           "role": "main",
-          "text": "Healthcare sector remains unchanged as the broader market rally is driven primarily by banks and auto stocks.",
+          "text": "No clear regulatory event affecting the Healthcare sector is reflected in the provided headlines.",
           "forecast": {
-            "low": 1.5,
-            "high": 3.6,
+            "low": 2.3,
+            "high": 5.7,
             "direction": "+",
-            "text": "+1.5% to +3.6%"
+            "text": "+2.3% to +5.7%"
           }
         }
       ]
     },
     {
       "sector": "Technology",
-      "read": "Neutral",
-      "score": 45,
-      "event_type": "rates",
+      "read": "Bullish",
+      "score": 68,
+      "event_type": "regulatory",
       "drivers": [
         {
           "role": "main",
-          "text": "Technology sector remains bearish as higher rates weigh on growth prospects.",
+          "text": "Indian IT stocks buck global AI\u2011theme selloff, driving a bullish sentiment in the Technology sector",
           "forecast": {
-            "low": 2.8,
-            "high": 6.6,
-            "direction": "-",
-            "text": "-2.8% to -6.6%"
+            "low": 2.7,
+            "high": 6.8,
+            "direction": "+",
+            "text": "+2.7% to +6.8%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Infosys, TCS, and HCL Technologies lead gains in the sector",
+          "forecast": {
+            "low": 2.7,
+            "high": 6.8,
+            "direction": "+",
+            "text": "+2.7% to +6.8%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Nifty IT index jumps 2% amid the rally",
+          "forecast": {
+            "low": 2.7,
+            "high": 6.8,
+            "direction": "+",
+            "text": "+2.7% to +6.8%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Global AI\u2011theme selloff has lifted Indian IT stocks relative to peers",
+          "forecast": {
+            "low": 2.7,
+            "high": 6.8,
+            "direction": "+",
+            "text": "+2.7% to +6.8%"
           }
         }
       ]

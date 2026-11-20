@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-11-19 15:09 UTC",
+  "updated_at": "2026-11-20 06:48 UTC",
   "market": "IN",
   "index": "NIFTY 50",
-  "macro_theme": "Rate-policy commentary dominates headlines",
-  "macro_score": 86,
-  "macro_explanation": "Broad-market headlines scored 86/100 by the model (bullish); this is the macro overlay.",
+  "macro_theme": "Regulatory scrutiny dominates today's headlines",
+  "macro_score": 46,
+  "macro_explanation": "Broad-market headlines scored 46/100 by the model (balanced); this is the macro overlay.",
   "sectors": [
     {
       "name": "Consumer Discretionary",
-      "score": 84,
+      "score": 65,
       "label": "Bullish"
     },
     {
       "name": "Consumer Staples",
-      "score": 72,
+      "score": 62,
       "label": "Bullish"
     },
     {
       "name": "Energy",
-      "score": 78,
+      "score": 63,
       "label": "Bullish"
     },
     {
       "name": "Financials",
-      "score": 70,
+      "score": 66,
       "label": "Bullish"
     },
     {
       "name": "Healthcare",
-      "score": 73,
-      "label": "Bullish"
+      "score": 57,
+      "label": "Neutral"
     },
     {
       "name": "Technology",
-      "score": 45,
-      "label": "Neutral"
+      "score": 68,
+      "label": "Bullish"
     }
   ]
 }
