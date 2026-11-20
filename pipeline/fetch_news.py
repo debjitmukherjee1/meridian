@@ -77,6 +77,23 @@ def _dominant_event_theme(items):
     return EVENT_THEME_LABEL[best] if counts[best] > 0 else "Mixed macro signals; no single theme dominates"
 
 
+# Stock-pick listicles and evergreen explainers are not news about a sector's
+# mood; the model scores them as mildly positive ("3 Undervalued Tech Stocks"),
+# which propped US Technology up on 20-Nov while the real headlines were
+# negative. They are dropped before scoring.
+_LISTICLE = re.compile(
+    r"^\s*(\d+|three|four|five|six|seven|eight|nine|ten)\s+"
+    r"([a-z&'-]+\s+){0,4}(stocks?|shares|picks|etfs?|funds|names|reasons|things|ways)\b"
+    r"|\bstocks? to (buy|own|watch|hold)\b|\b(should you|is it time to) buy\b"
+    r"|\btop \d+\b|\bbest .{0,25}stocks?\b|\bmillionaire|\bforever\b"
+    r"|\bindex today\b|\blive (updates|blog)\b",
+    re.I)
+
+
+def is_listicle(title):
+    return bool(_LISTICLE.search(title))
+
+
 def _clean_title(title):
     # Google News appends " - Publisher"; keep the publisher separately.
     if " - " in title:
@@ -160,7 +177,7 @@ def fetch_all(market):
         kept = 0
         for f in found:
             key = f["title"].lower()[:80]
-            if key in seen or not f["title"]:
+            if key in seen or not f["title"] or is_listicle(f["title"]):
                 continue
             seen.add(key)
             f.pop("_dt", None)
