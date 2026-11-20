@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-11-20 06:58 UTC",
+  "updated_at": "2026-11-20 14:49 UTC",
   "market": "IN",
   "index": "NIFTY 50",
-  "macro_theme": "Regulatory scrutiny dominates today's headlines",
-  "macro_score": 48,
-  "macro_explanation": "Broad-market headlines scored 48/100 by the model (balanced); this is the macro overlay.",
+  "macro_theme": "Mixed macro signals; no single theme dominates",
+  "macro_score": 78,
+  "macro_explanation": "Broad-market headlines scored 78/100 by the model (bullish); this is the macro overlay.",
   "sectors": [
     {
       "name": "Consumer Discretionary",
-      "score": 66,
+      "score": 82,
       "label": "Bullish"
     },
     {
       "name": "Consumer Staples",
-      "score": 64,
+      "score": 76,
       "label": "Bullish"
     },
     {
       "name": "Energy",
-      "score": 73,
+      "score": 76,
       "label": "Bullish"
     },
     {
       "name": "Financials",
-      "score": 66,
+      "score": 82,
       "label": "Bullish"
     },
     {
       "name": "Healthcare",
-      "score": 59,
-      "label": "Neutral"
+      "score": 76,
+      "label": "Bullish"
     },
     {
       "name": "Technology",
-      "score": 64,
+      "score": 78,
       "label": "Bullish"
     }
   ]

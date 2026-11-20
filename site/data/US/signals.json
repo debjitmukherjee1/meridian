@@ -1,156 +1,196 @@
 {
-  "updated_at": "2026-11-20 06:58 UTC",
+  "updated_at": "2026-11-20 14:49 UTC",
   "market": "US",
   "macro_theme": "Geopolitical conflict raises energy-sector risk",
   "signals": [
     {
       "sector": "Consumer Discretionary",
       "read": "Neutral",
-      "score": 46,
+      "score": 52,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Mixed sentiment in Consumer Discretionary stems from a clash between underlying retail sales strength and heightened volatility in the AI\u2011driven tech segment.",
+          "text": "Retail sales growth is offset by a tech\u2011driven sell\u2011off, leaving the Consumer Discretionary sector in a mixed stance.",
           "forecast": {
             "low": 1.6,
-            "high": 3.8,
-            "direction": "-",
-            "text": "-1.6% to -3.8%"
+            "high": 3.6,
+            "direction": "+",
+            "text": "+1.6% to +3.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "US retail sales data show resilience amid cost\u2011of\u2011living pressures, bolstering consumer confidence.",
+          "text": "Retail sales rose 0.8% in September, supporting discretionary demand.",
           "forecast": {
             "low": 1.6,
-            "high": 3.8,
-            "direction": "-",
-            "text": "-1.6% to -3.8%"
+            "high": 3.6,
+            "direction": "+",
+            "text": "+1.6% to +3.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "The AI sector\u2019s turbulence\u2014spurred by Nvidia\u2019s SEC probe and the mixed reception of Anthropic\u2019s IPO\u2014creates uncertainty for discretionary spending.",
+          "text": "The Nasdaq decline, driven by a 9% fall in Anthropic shares, signals broader tech weakness.",
           "forecast": {
             "low": 1.6,
-            "high": 3.8,
-            "direction": "-",
-            "text": "-1.6% to -3.8%"
+            "high": 3.6,
+            "direction": "+",
+            "text": "+1.6% to +3.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Overall market sentiment remains cautious, reflected in the S&P 500\u2019s challenging 2026 trajectory and broader tech pullback.",
+          "text": "The VIX at 29.74 indicates heightened market volatility, adding uncertainty for discretionary stocks.",
           "forecast": {
             "low": 1.6,
-            "high": 3.8,
-            "direction": "-",
-            "text": "-1.6% to -3.8%"
+            "high": 3.6,
+            "direction": "+",
+            "text": "+1.6% to +3.6%"
           }
         }
       ]
     },
     {
       "sector": "Consumer Staples",
-      "read": "Bearish",
-      "score": 36,
+      "read": "Neutral",
+      "score": 50,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Emergency supply disruptions from recent tech outages are driving a bearish outlook for the Consumer Staples sector.",
+          "text": "Rising WTI crude prices are pushing up input costs for consumer staples companies, weighing on the sector\u2019s outlook.",
           "forecast": {
-            "low": 1.3,
-            "high": 3.2,
-            "direction": "-",
-            "text": "-1.3% to -3.2%"
+            "low": 1.0,
+            "high": 2.5,
+            "direction": "+",
+            "text": "+1.0% to +2.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "Costco\u2019s emergency sales surge highlights the immediate impact of supply chain interruptions on staple goods demand.",
+          "text": "The VIX is elevated at 29.74, indicating heightened market volatility that can amplify earnings uncertainty for staples firms.",
           "forecast": {
-            "low": 1.3,
-            "high": 3.2,
-            "direction": "-",
-            "text": "-1.3% to -3.2%"
+            "low": 1.0,
+            "high": 2.5,
+            "direction": "+",
+            "text": "+1.0% to +2.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "The broader tech outage has exposed vulnerabilities in the distribution network, increasing uncertainty for staple producers and distributors.",
+          "text": "US 10\u2011year Treasury yields are near 5%, tightening financing conditions and adding pressure to profit margins.",
           "forecast": {
-            "low": 1.3,
-            "high": 3.2,
-            "direction": "-",
-            "text": "-1.3% to -3.2%"
+            "low": 1.0,
+            "high": 2.5,
+            "direction": "+",
+            "text": "+1.0% to +2.5%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "The broader tech sell\u2011off and falling Nasdaq are dragging down market sentiment, indirectly affecting staples stocks through reduced consumer spending confidence.",
+          "forecast": {
+            "low": 1.0,
+            "high": 2.5,
+            "direction": "+",
+            "text": "+1.0% to +2.5%"
           }
         }
       ]
     },
     {
       "sector": "Energy",
-      "read": "Neutral",
-      "score": 44,
+      "read": "Bearish",
+      "score": 33,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Oil prices are easing, contributing to the bearish sentiment in the Energy sector.",
+          "text": "Oil futures rise amid Middle East shipping risks, driving a bearish outlook for the Energy sector.",
           "forecast": {
-            "low": 4.5,
-            "high": 10.1,
+            "low": 5.4,
+            "high": 12.1,
             "direction": "-",
-            "text": "-4.5% to -10.1%"
+            "text": "-5.4% to -12.1%"
           }
         },
         {
           "role": "supporting",
-          "text": "OPEC\u2019s defense of fossil fuels at COP31 underscores continued supply pressure amid climate negotiations.",
+          "text": "Oil prices are decreasing, yet futures are climbing due to persistent shipping concerns in the Middle East",
           "forecast": {
-            "low": 4.5,
-            "high": 10.1,
+            "low": 5.4,
+            "high": 12.1,
             "direction": "-",
-            "text": "-4.5% to -10.1%"
+            "text": "-5.4% to -12.1%"
           }
         },
         {
           "role": "supporting",
-          "text": "The anticipated decline in oil prices reflects broader geopolitical supply dynamics affecting the sector.",
+          "text": "The VIX stands at 29.74, indicating heightened market volatility that weighs on energy equities",
           "forecast": {
-            "low": 4.5,
-            "high": 10.1,
+            "low": 5.4,
+            "high": 12.1,
             "direction": "-",
-            "text": "-4.5% to -10.1%"
+            "text": "-5.4% to -12.1%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Tech sell-offs and broader market declines are contributing to a negative sentiment for the sector",
+          "forecast": {
+            "low": 5.4,
+            "high": 12.1,
+            "direction": "-",
+            "text": "-5.4% to -12.1%"
           }
         }
       ]
     },
     {
       "sector": "Financials",
-      "read": "Bearish",
-      "score": 28,
+      "read": "Neutral",
+      "score": 53,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Deposit insurance is expected to lift U.S. community bank stocks, providing a modest counterweight to the broader bearish sentiment in the Financials sector.",
+          "text": "The rise in WTI crude prices has weighed on the Financials sector, contributing to its mixed sentiment.",
           "forecast": {
-            "low": 1.4,
-            "high": 4.3,
-            "direction": "-",
-            "text": "-1.4% to -4.3%"
+            "low": 1.1,
+            "high": 3.2,
+            "direction": "+",
+            "text": "+1.1% to +3.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "Deposit insurance could lift these 3 U.S. Community Bank Stocks",
+          "text": "The 1% fall in Nasdaq, driven by AI trade volatility and the decline of Anthropic, has increased market uncertainty reflected in the VIX at 29.74.",
           "forecast": {
-            "low": 1.4,
-            "high": 4.3,
-            "direction": "-",
-            "text": "-1.4% to -4.3%"
+            "low": 1.1,
+            "high": 3.2,
+            "direction": "+",
+            "text": "+1.1% to +3.2%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "The ongoing tech sell\u2011off and the 9% drop in Anthropic\u2019s stock have added pressure on financial institutions that are sensitive to market swings.",
+          "forecast": {
+            "low": 1.1,
+            "high": 3.2,
+            "direction": "+",
+            "text": "+1.1% to +3.2%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "The WTI price of $82.63 signals higher energy costs, which can compress margins for banks and insurers involved in commodity financing.",
+          "forecast": {
+            "low": 1.1,
+            "high": 3.2,
+            "direction": "+",
+            "text": "+1.1% to +3.2%"
           }
         }
       ]
@@ -158,37 +198,37 @@
     {
       "sector": "Healthcare",
       "read": "Neutral",
-      "score": 43,
+      "score": 49,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Healthcare stocks are experiencing a surge, with several names rising over 5% amid market volatility.",
+          "text": "Healthcare stocks surged over 5% amid a broader market rally, driven by institutional buying and positive earnings outlooks.",
           "forecast": {
-            "low": 0.6,
-            "high": 2.3,
+            "low": 0.5,
+            "high": 2.0,
             "direction": "-",
-            "text": "-0.6% to -2.3%"
+            "text": "-0.5% to -2.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "Max Healthcare and Apollo Hospitals have both surged more than 5% despite broader market swings.",
+          "text": "Banking, IT, and Healthcare stocks led the market rally, indicating sector-wide strength.",
           "forecast": {
-            "low": 0.6,
-            "high": 2.3,
+            "low": 0.5,
+            "high": 2.0,
             "direction": "-",
-            "text": "-0.6% to -2.3%"
+            "text": "-0.5% to -2.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "Analysts are comparing Apollo Hospitals, Aster, and Molbio as potential picks as the healthcare sector rallies up to 4% amid D\u2011Street weakness.",
+          "text": "Max Healthcare and Apollo Hospitals were among the top performers, suggesting investor confidence in hospital operators.",
           "forecast": {
-            "low": 0.6,
-            "high": 2.3,
+            "low": 0.5,
+            "high": 2.0,
             "direction": "-",
-            "text": "-0.6% to -2.3%"
+            "text": "-0.5% to -2.0%"
           }
         }
       ]
@@ -196,47 +236,47 @@
     {
       "sector": "Technology",
       "read": "Bearish",
-      "score": 26,
+      "score": 19,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "AI sector volatility, driven by fading enthusiasm and regulatory scrutiny, is weighing on the Technology sector.",
+          "text": "The Technology sector is bearish mainly because AI stocks, led by Anthropic, have sharply declined, dragging the Nasdaq down.",
           "forecast": {
-            "low": 1.5,
-            "high": 4.4,
+            "low": 1.6,
+            "high": 4.9,
             "direction": "-",
-            "text": "-1.5% to -4.4%"
+            "text": "-1.6% to -4.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "Anthropic\u2019s IPO and subsequent sell\u2011off have eroded gains in tech stocks",
+          "text": "Anthropic\u2019s share price fell 9% and its IPO gain failed to lift AI stocks, contributing to a 2.25% Nasdaq slide.",
           "forecast": {
-            "low": 1.5,
-            "high": 4.4,
+            "low": 1.6,
+            "high": 4.9,
             "direction": "-",
-            "text": "-1.5% to -4.4%"
+            "text": "-1.6% to -4.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "The SEC probe into Nvidia following CEO Jensen Huang\u2019s departure adds uncertainty",
+          "text": "AI stocks have lost over 50% in the last five months, underscoring a broader sell\u2011off in the sector.",
           "forecast": {
-            "low": 1.5,
-            "high": 4.4,
+            "low": 1.6,
+            "high": 4.9,
             "direction": "-",
-            "text": "-1.5% to -4.4%"
+            "text": "-1.6% to -4.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "General market softness, reflected in falling Asian indices and a weak S&P 500 outlook, amplifies the tech sell\u2011off",
+          "text": "The VIX rose to 29.74, indicating heightened market volatility that has pressured tech valuations.",
           "forecast": {
-            "low": 1.5,
-            "high": 4.4,
+            "low": 1.6,
+            "high": 4.9,
             "direction": "-",
-            "text": "-1.5% to -4.4%"
+            "text": "-1.6% to -4.9%"
           }
         }
       ]
