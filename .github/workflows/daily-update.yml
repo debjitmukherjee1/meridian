@@ -45,13 +45,11 @@ jobs:
         run: pip install -r pipeline/requirements.txt
 
       - name: Run pipeline
-        # If one market genuinely errors (not an external-API hiccup -- those
-        # already degrade to mock data inside the pipeline -- but an actual
-        # bug), run_all.py exits non-zero so this step is flagged. Without
-        # continue-on-error that would skip the commit/deploy steps below and
-        # silently keep the WHOLE site stale over one bad market; this way
-        # whatever markets did succeed still ship, and the flagged step in
-        # the Actions run is what surfaces the failure.
+        # If a market fails (news or scoring unavailable, or a bug), run_all.py
+        # keeps that market's previous data and exits non-zero. continue-on-
+        # error lets the markets that DID succeed still commit and deploy; the
+        # last step of this job then fails the run, so it shows red.
+        id: pipeline
         continue-on-error: true
         env:
           GROQ_KEY: ${{ secrets.GROQ_KEY }}
@@ -85,3 +83,13 @@ jobs:
 
       - id: deployment
         uses: actions/deploy-pages@v5
+
+      # continue-on-error above marks the whole run green even when a market
+      # failed (it hid a broken scorer for three months, Aug-Nov 2026). This
+      # step runs after the deploy, so good markets still ship, then turns the
+      # run red and names the problem.
+      - name: Fail the run if any market failed to refresh
+        if: steps.pipeline.outcome == 'failure'
+        run: |
+          echo "::error title=Meridian refresh incomplete::One or more markets failed and kept their previous data. See the 'Run pipeline' step log."
+          exit 1
