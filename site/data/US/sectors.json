@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-11-20 06:48 UTC",
+  "updated_at": "2026-11-20 06:58 UTC",
   "market": "US",
   "index": "S&P 500",
-  "macro_theme": "Rate-policy commentary dominates headlines",
-  "macro_score": 54,
-  "macro_explanation": "Broad-market headlines scored 54/100 by the model (balanced); this is the macro overlay.",
+  "macro_theme": "Geopolitical conflict raises energy-sector risk",
+  "macro_score": 24,
+  "macro_explanation": "Broad-market headlines scored 24/100 by the model (bearish); this is the macro overlay.",
   "sectors": [
     {
       "name": "Consumer Discretionary",
-      "score": 52,
+      "score": 46,
       "label": "Neutral"
     },
     {
       "name": "Consumer Staples",
-      "score": 52,
-      "label": "Neutral"
+      "score": 36,
+      "label": "Bearish"
     },
     {
       "name": "Energy",
-      "score": 73,
-      "label": "Bullish"
+      "score": 44,
+      "label": "Neutral"
     },
     {
       "name": "Financials",
-      "score": 70,
-      "label": "Bullish"
+      "score": 28,
+      "label": "Bearish"
     },
     {
       "name": "Healthcare",
-      "score": 58,
+      "score": 43,
       "label": "Neutral"
     },
     {
       "name": "Technology",
-      "score": 52,
-      "label": "Neutral"
+      "score": 26,
+      "label": "Bearish"
     }
   ]
 }

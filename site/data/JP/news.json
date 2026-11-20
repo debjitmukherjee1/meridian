@@ -1,15 +1,24 @@
 {
-  "updated_at": "2026-11-20 06:48 UTC",
+  "updated_at": "2026-11-20 06:58 UTC",
   "market": "JP",
   "items": [
     {
+      "title": "Japan's government under fire for using conspiracy YouTuber in PR",
+      "source": "Nikkei Asia",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQ1VsalFSZFpoWnNCWVhaMjhQWWFjNmhJcFA5MDV1ckVPOTRpeGp1SVVOODRoU2gtV0NlNmJEekJvVXZwdW5TLVF1UFNKNTQ2UjduWlY3R01qRVczQk40YlQzcnZoeWZnMHRaNFpZSVJjeFFJWTJvZnNOWlZ4VlJtcm9Yb2JfNVNSVWg1VVhkbU9DOGttOThOZGFocUVnejQ?oc=5",
+      "published": "2026-11-20 06:52 UTC",
+      "sector": "Market",
+      "tone": -2.0,
+      "note": "Government PR scandal dampens confidence."
+    },
+    {
       "title": "Japanese Stocks Tumble As Tech Jitters Continue, Inflation Peaks",
-      "source": "www.marketscreener.com",
+      "source": "marketscreener.com",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNejc5VHFiUjZYWnpHQW9SUkhhNUlSb3pDb3VMOE5qdU5IcUxjZG5oTmNLSDdyRDBvQjRlRTRPYlpfWVYwNVA3WVc2Ml9GdWpiaVZTVU9Qb3NpcEEzZXpkQTZtTm96YWpiakFTZkd5NXdmbzJweFRrQkVFbU8zd0pzSzZzbEh4YlFWeU1ZY2Z5VWNCcDVvbVNGRkRxU1VzdjJ3Vy1URGdmWUVoZElYdzh6WUNUNUZ0LU0?oc=5",
       "published": "2026-11-20 06:46 UTC",
       "sector": "Market",
-      "tone": -4.0,
-      "note": "Tech jitters and inflation peak drive sell\u2011off."
+      "tone": -3.0,
+      "note": "Tech jitters and inflation peak trigger sell\u2011offs."
     },
     {
       "title": "Nepal's Shah to meet Modi for Indian flood aid and connectivity",
@@ -26,8 +35,8 @@
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdWlZekdhOV9pVTR2NGN2S2prNU5UWk1NUFJ6TUQ0Y3FBeHMtVTItSldMSGJmOERtQVNLRDZ6VnFTcVZWRVhTVkJrRURYTE1aM2ZQeklOZE1KUy0zYUxSQTNxSWlEWnBVcFI3b09xU1prbHg0Z2l6NnVfS0VuSnVfcENrTWVVTXV0MlEwbUN1SjVVNUd4eGpZTTlTbUtEcDc1?oc=5",
       "published": "2026-11-20 06:11 UTC",
       "sector": "Market",
-      "tone": -5.0,
-      "note": "AI fears deepen, causing sharp Nikkei decline."
+      "tone": -2.0,
+      "note": "AI fears deepen, hurting tech stocks."
     },
     {
       "title": "Editor's Choice: Xi, Trump and Putin's grand diplomatic theater leaves Asia on the sidelines",
@@ -36,7 +45,7 @@
       "published": "2026-11-20 06:02 UTC",
       "sector": "Market",
       "tone": 0.0,
-      "note": "Geopolitical drama not affecting Japan directly."
+      "note": "Irrelevant to Japanese market."
     },
     {
       "title": "BREAKING NEWS: Nikkei stock index extends losses further, down over 5% amid AI concerns",
@@ -44,17 +53,8 @@
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5UWG9WejZwNXI3TEh0Zll1X1RMd1huSGdYbHRXOGxyTzB6ZVdqSFJON00wVXhMeEFmanRiSGN5bWhSVXNCbzBFV0h5aS11TGJIR0FROXFIT2xiZw?oc=5",
       "published": "2026-11-20 05:47 UTC",
       "sector": "Market",
-      "tone": -5.0,
-      "note": "Nikkei extends losses over 5% amid AI concerns."
-    },
-    {
-      "title": "Dollar-Yen Consolidates in Lower 159 Range; Yen Buying Dominates as Nikkei Falls 3,000 Points",
-      "source": "BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBEY19pXzBNQzNhOHZpTjE0UmhCUFVjWlQzUXBvUHhocE9YWU83Yk5fY1l4djZCOVp6dHBUcERJbUUxZlp3dlN0TVNqUHBuZ0ZYa1VZaFNVWVk0Y05PeVEwd3BTN0lMbEI1QUR0RnlzNTVFR3JkOEE?oc=5",
-      "published": "2026-11-20 05:35 UTC",
-      "sector": "Market",
       "tone": -4.0,
-      "note": "Yen buying and Nikkei drop signal bearish sentiment."
+      "note": "Nikkei drops 5% amid AI concerns, heavy sell\u2011off."
     },
     {
       "title": "Sony shares rise as PlayStation accounts for around 75% of GTA 6 sales",
@@ -63,16 +63,7 @@
       "published": "2026-11-20 04:53 UTC",
       "sector": "Technology",
       "tone": 3.0,
-      "note": "Sony shares rise on strong PlayStation sales, boosting tech outlook."
-    },
-    {
-      "title": "SoftBank shares crash 16% as AI sell-off spreads",
-      "source": "NewsBytes",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPM1JLTlNCMEMtcmxUV3NVMndrdlJlbE5CcU1wczBUSjl2VVBFVnJzU0J3M3Y1Ry1xZ2lQV3BEN21FY3E0R3UwTm5WZkRpa2lFN3d6dzJ4QVN2UG53WmNhOEhkVngzbWFHWlpxR0U5UlY5d3pWeTdPcXNpQUx3dklFQmNud3I5RFhESzNJSUNHSXBXTGFsNERCbkQ0TQ?oc=5",
-      "published": "2026-11-20 04:35 UTC",
-      "sector": "Technology",
-      "tone": -5.0,
-      "note": "SoftBank shares crash amid AI sell\u2011off, signaling tech weakness."
+      "note": "Sony shares rise, strong PlayStation sales boost tech outlook."
     },
     {
       "title": "SoftBank shares slump 15% as AI worries drown Asian chipmaker stocks",
@@ -80,8 +71,8 @@
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaV81aFZybVVtcFJqZ0FEMFhidWlOWHN3allIMTlDcjZ4UEVhaWQ2TncxWDQwSnd6ZHlHUDM0YnZBOXh3OWVzd2ZSdGlVbmtCak11ck50eGEyZ29DaHpvS1Y2c0Z6ZFY1a290UlRxM0RtRlhRSEtFZ0lUX004NG5mbWczd2tLQjB6amVkOXpjNEtRbWVHaF8tTVlQZjFjdTdWN281eGU4d0RaMFBIemhwVjZB0gG3AUFVX3lxTE1rU2VmVXVzbWpvNlNiN0t2X08tNHRZbHVCYzFIaWtEbjhDSnpLOXE1U1ZsQms0VGJfQ2s3RzNCeHpLQkU1amRmdFJGdDNQbWhaNng4NnV2a1ZhaFV4c0UzLS0ySmRTa29TcE5CNm03MjUtTU1HNTQ5YkY3cS05LWJzNWNZMU9BOU16WU1iM2VyTGVkaGlvanRPTTFpRUx0RUFsSG9ZbU5pc0g0TTJXZjRQZktPTXJjRQ?oc=5",
       "published": "2026-11-20 02:20 UTC",
       "sector": "Technology",
-      "tone": -5.0,
-      "note": "SoftBank slump continues, reflecting broader AI concerns in tech."
+      "tone": -4.0,
+      "note": "SoftBank slump reflects AI concerns, hurting tech sentiment."
     },
     {
       "title": "SoftBank shares plunge 16.16% after Anthropic debut, $64.6bn OpenAI stake",
@@ -90,7 +81,7 @@
       "published": "2026-11-20 01:29 UTC",
       "sector": "Technology",
       "tone": -5.0,
-      "note": "SoftBank plunge after Anthropic debut, indicating AI risk for tech firms."
+      "note": "SoftBank plunge after Anthropic debut signals deep AI worries."
     },
     {
       "title": "GTA VI sells 17 million copies, generates $1.65 billion as Take-Two, Microsoft and Sony shares rise | Hindustan Times",
@@ -98,8 +89,8 @@
       "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPOTRfT2ZjcGhJcXJ2eG9LdlRuVkRrTGYwV1BkT0ctR1MxNXhGXzNBV1Vsb2FvUnZKOGc4c0NYeDV2Mk1EMzZ3UlNqdXdDbW9DblRBT19rVTNMdGFPTWFpbE9Sb296alR3NXY4OGlvWVR2N0NzbGdSODc5RDVNTmQxU2V1VThJQWQ1SWwtOTh6blNNcnY2SUhBWXpaVnlWU2hickV0M0FjT0QteVRGV2NvNjdJal9FcUR5N2JCVUpYSEx1NjFSV3JvRlhoWVpKbEE4NEhzUDhmbm1YQ0hlTFpXclBydU40SU13UEZQNkswVVZ1TTJuM1ZqbzV4NNIBgAJBVV95cUxQVjlIaVhjMVNXUVNJNEdJeklnd3Y0eFJMSERFTks5U0gtSUdxd2hGYTNqdktfVWI2RGZpeVZ0TkZfSjFCZDUwTkd1RnZTeTQtd1luTzRLWTgyNDNlLVYwQmdMdXFXYUtOX2ZBNmh5cFY1QVlVVXUtUGVKOVZ2WUZKVmlobFZaczlPRU5XYmpiMk51cnZCN0IzVjE5a3lweklvUU9hZEhVRE5XYVd1Ym1FQ1NzNUxERXFlb2E2bGtBcGoxdV9xbnlEQmllNl91M1FuZkN6U1NlSjVPUERUdXpwZmlNY21NTzA0M2hyMUVxUEZXNmduSmtkTGVSdTRYODIz?oc=5",
       "published": "2026-11-19 13:46 UTC",
       "sector": "Technology",
-      "tone": 2.0,
-      "note": "GTA VI sales lift Sony, Microsoft, boosting tech sentiment."
+      "tone": 3.0,
+      "note": "GTA VI sales lift Sony, Microsoft, boosting tech sector."
     },
     {
       "title": "PlayStation Takes 75% of GTA VI Launch Sales, Sony Shares Jump Nearly 3%",
@@ -108,16 +99,16 @@
       "published": "2026-11-19 10:50 UTC",
       "sector": "Technology",
       "tone": 3.0,
-      "note": "PlayStation dominates GTA VI launch, driving Sony\u2019s tech stock higher."
+      "note": "PlayStation dominates GTA VI launch, lifting Sony shares."
     },
     {
-      "title": "3 Japanese Bank Stocks Sensitive To Bank Of Japan Rate Moves",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcl9ZcUVQNG5GNzFmU09qRFc1cXcwVlRhZU9INjJTbEdwRHVxaURpSW9LRkN2ZFBaMnc0UmotYWoyaGNuMjNoUVl1djFOQzlEeTJ2SWdiSzFQdy1sdF85aEN0SkFkXzNlWXNqek1GOHlCbVNQWlU4TjNnd1ZTMW9uSDRQcmp2MlR0d1JhdlkySVlRaXNxNUtza2RQMkJVUQ?oc=5",
-      "published": "2026-11-20 04:31 UTC",
-      "sector": "Financials",
-      "tone": 2.0,
-      "note": "Banks benefit from rate hikes, boosting earnings."
+      "title": "'GTA VI' Launch Boosts Sony Shares Globally Despite Muted Japan Demand",
+      "source": "https://www.businesstimes-bd.com/",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9JWGkweHdaQkVURmprMGllay00WXVJd1BlODhxTGJNaHR5RlNvT25CNFB2X01KTG1hWnFDaGVwS0JsREYwVGZSMHJxY21YTjlJaWM1R0JaVUZMZ2tEUFpSVU9fYzhUZXQtYjlF?oc=5",
+      "published": "2026-11-19 09:41 UTC",
+      "sector": "Technology",
+      "tone": 0.0,
+      "note": "Global demand muted in Japan, neutral for tech sentiment."
     },
     {
       "title": "Mitsubishi UFJ Financial Group (NYSE:MUFG) Shares Break Below 200-Day Moving Average - Time to Sell?",
@@ -125,17 +116,8 @@
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNY1pNVUJXbFN1NDZ3MkJCUkFtbURkSExHSWw5Z2tyeGt5VFp3N29JSUY0ZkM2VElVVXRodHo2X0xxMWdSRlBfZldnQ2V5UU1IRE5QMzJhRkNsaXRCU2s0eGVPVVdVLUJzWlEzaUthalVDUXpBb3BLaWV4TzR1WE5jZTd1bW1sNXI1eDRnYVNUVHV3dkdoZTZXRm5kT0hrdVhVdVdBZ19Za0tJcGhNd2ptdnpGZVJSaTJUWW5Jcjd1RHNzM2RmclBmQ0tZeDNWWkFQT2JHYXdnZ2JNRDZWMk5ScEN2T1h4Y2VHejcw?oc=5",
       "published": "2026-11-19 08:42 UTC",
       "sector": "Financials",
-      "tone": -3.0,
-      "note": "MUFG falling below 200\u2011day MA signals weakness."
-    },
-    {
-      "title": "3 Japanese Bank Stocks For Income As BOJ Rate Hikes Lift Margins",
-      "source": "Simply Wall St",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTWtucVQ2U2NCN2VPSUVIT0htU3NuNkNmaVZKZVh0eXZQaHpyY1VNZGR1OV9VMHNRcU1sZkFaSVo4d0xKZ1F6MTRnYnRFN2llWFZWTXpieHhIMFF5WWNLYnVxekVIR0F1eVZmWWVSdjJfakZ3V0tHR2hJOE9sbXBxUGdtQzd0NmVUWGJZbkNldy1HOEFVcFBuN3JCR2FuaHZMdThLcjJoeUMyQ1FKcXNWaUNnLXRXS2c3amZ5ODRtYVF0NEFORHowdVIxWF9rYmPSAc8BQVVfeXFMT01rbnFUNlNjQjdlT0lFSE9IbVNzbjZDZmlWSmVYdHl2UGh6cmNVTWRkdTlfVTBzUXFNbGZBWklaOHdMSmdRejE0Z2J0RTdpZVhWVk16Ynh4SDBReVljS2J1cXpFSEdBdXlWZlllUnYyX2pGd1dLR0doSThPbG1wcVBnbUM3dDZlVFhiWW5DZXctRzhBVXBQbjdyQkdhbmh2THU4S3IyaHlDMkNRSnFzVmlDZy10V0tnN2pmeTg0bWFRdDRBTkR6MHVSMVhfa2Jj?oc=5",
-      "published": "2026-11-18 08:14 UTC",
-      "sector": "Financials",
-      "tone": 5.0,
-      "note": "Rate hikes lift margins, making income attractive."
+      "tone": 2.0,
+      "note": "MUFG shares falling below 200\u2011day MA signals short\u2011term weakness but long\u2011term fundamentals remain solid."
     },
     {
       "title": "Japanese Automakers' Global Sales Set to Fall for Third Straight Year ... Gasoline Car Sales Plunge in China",
@@ -144,7 +126,7 @@
       "published": "2026-11-20 02:26 UTC",
       "sector": "Consumer Discretionary",
       "tone": -3.0,
-      "note": "Global sales decline signals weak demand."
+      "note": "Global sales decline signals weak demand for cars."
     },
     {
       "title": "Japanese automakers brace for 3rd year of global sales decline",
@@ -153,7 +135,7 @@
       "published": "2026-11-19 21:18 UTC",
       "sector": "Consumer Discretionary",
       "tone": -3.0,
-      "note": "Repeated sales drop indicates ongoing downturn."
+      "note": "Continued sales drop confirms downward trend."
     },
     {
       "title": "Japan industry group says automakers to standardize some parts",
@@ -161,8 +143,8 @@
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOc0tqSXdDYjZrTW1wbFJDenpTQlRKOUE2Q0p6THZqc1d3Y2RmWGZrc2pwakt2S1hjRjRSZFV3dUU4NFhkczZSYzB0V25aLTdpb05UbVI4ZDF5TnJMb3FxbDNQam9pVGhPaUkwMlozU3ItVTBMMVhZQUVucnY4NFk0QjZZQjVVWG04OWJlZXlLNUtfZ3c2LVpIcnRFN1FGb3E5SmxJWEl4OXhobk5FeHY4TXlQY3VIbXdHNHpkaVhGUGptMDRQUGJuZmZSTzNDZw?oc=5",
       "published": "2026-11-19 20:45 UTC",
       "sector": "Consumer Discretionary",
-      "tone": 2.0,
-      "note": "Standardization may reduce costs, improving margins."
+      "tone": 1.0,
+      "note": "Standardizing parts may reduce costs, improving margins."
     },
     {
       "title": "Chinese EVs test Japan's hybrid stronghold",
@@ -171,7 +153,7 @@
       "published": "2026-11-19 13:00 UTC",
       "sector": "Consumer Discretionary",
       "tone": -2.0,
-      "note": "Chinese EVs threaten hybrid dominance, eroding market share."
+      "note": "Chinese EVs threaten Japan's hybrid dominance, adding competitive pressure."
     },
     {
       "title": "Yomiuri: Japanese Automakers Set to Standardize Steel, Resin, Wire Harnesses",
@@ -179,8 +161,8 @@
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPaEdTRmtwNldmMVUxVi1fNXRocEtrZnA3MGYyd2VzQk9yNUNwZDBTRjQ5ZDNfTjBXMFR6SlhfT3lkWlZDWFhYYmQtLWI0Z0piWEljTExnYmtjRkNFeG9WN3BRQ2Q3dFE1NEtDOWJFTm1ROFRjOUZ4aGMyM29Zd0NveGlwWFU1cXBCZjYtaW1NREFSU0VTVmpIN2hlQm5tX09xaDBiSXA2dFdBRlNZbFk2RjBIdno3WjlBb19WZnBrQzFWVEQzaUx2bkQwaUJidw?oc=5",
       "published": "2026-11-19 11:05 UTC",
       "sector": "Consumer Discretionary",
-      "tone": 2.0,
-      "note": "Steel, resin, wire harness standardization cuts expenses."
+      "tone": 1.0,
+      "note": "Standardization of steel, resin, wire harnesses boosts efficiency."
     },
     {
       "title": "Toyota, Nissan, Honda back Japan plan to standardize parts, lower costs",
@@ -189,16 +171,16 @@
       "published": "2026-11-19 08:14 UTC",
       "sector": "Consumer Discretionary",
       "tone": 2.0,
-      "note": "Major automakers backing plan boosts confidence in cost savings."
+      "note": "Major automakers backing standardization signals confidence in cost savings."
     },
     {
       "title": "Takeda (TSE:4502) Stock May Look Reasonable Despite Its ORZEYFUL Launch",
       "source": "Bing News",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6affee1812be40b8858c2d6dde6d8e46&url=https%3a%2f%2ffinance.yahoo.com%2fhealthcare%2farticles%2ftakeda-tse-4502-stock-may-181656317.html&c=10080016652064733742&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6afff0666d68466687a7991d541b472d&url=https%3a%2f%2ffinance.yahoo.com%2fhealthcare%2farticles%2ftakeda-tse-4502-stock-may-181656317.html&c=10080016652064733742&mkt=en-us",
       "published": "2026-11-19 10:16 UTC",
       "sector": "Healthcare",
       "tone": 2.0,
-      "note": "Takeda\u2019s new drug launch boosts confidence in Japan\u2019s healthcare innovation."
+      "note": "Takeda\u2019s new drug launch boosts confidence in Japan\u2019s pharma pipeline."
     }
   ]
 }

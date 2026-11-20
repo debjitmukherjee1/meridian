@@ -1,166 +1,156 @@
 {
-  "updated_at": "2026-11-20 06:48 UTC",
+  "updated_at": "2026-11-20 06:58 UTC",
   "market": "US",
-  "macro_theme": "Rate-policy commentary dominates headlines",
+  "macro_theme": "Geopolitical conflict raises energy-sector risk",
   "signals": [
     {
       "sector": "Consumer Discretionary",
       "read": "Neutral",
-      "score": 52,
-      "event_type": "rates",
+      "score": 46,
+      "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "The Consumer Discretionary sector remains mixed as AI\u2011related volatility and a looming rates event weigh on sentiment.",
+          "text": "Mixed sentiment in Consumer Discretionary stems from a clash between underlying retail sales strength and heightened volatility in the AI\u2011driven tech segment.",
           "forecast": {
-            "low": 2.1,
-            "high": 4.7,
-            "direction": "+",
-            "text": "+2.1% to +4.7%"
+            "low": 1.6,
+            "high": 3.8,
+            "direction": "-",
+            "text": "-1.6% to -3.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "AI enthusiasm waning has pressured tech\u2011heavy discretionary stocks, as seen in the dip of Asian markets and mixed AI IPO outcomes.",
+          "text": "US retail sales data show resilience amid cost\u2011of\u2011living pressures, bolstering consumer confidence.",
           "forecast": {
-            "low": 2.1,
-            "high": 4.7,
-            "direction": "+",
-            "text": "+2.1% to +4.7%"
+            "low": 1.6,
+            "high": 3.8,
+            "direction": "-",
+            "text": "-1.6% to -3.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "The high\u2011profile return of Jensen Huang as Nvidia CEO has amplified expectations for AI\u2011driven consumer tech, adding uncertainty to the sector.",
+          "text": "The AI sector\u2019s turbulence\u2014spurred by Nvidia\u2019s SEC probe and the mixed reception of Anthropic\u2019s IPO\u2014creates uncertainty for discretionary spending.",
           "forecast": {
-            "low": 2.1,
-            "high": 4.7,
-            "direction": "+",
-            "text": "+2.1% to +4.7%"
+            "low": 1.6,
+            "high": 3.8,
+            "direction": "-",
+            "text": "-1.6% to -3.8%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Overall market sentiment remains cautious, reflected in the S&P 500\u2019s challenging 2026 trajectory and broader tech pullback.",
+          "forecast": {
+            "low": 1.6,
+            "high": 3.8,
+            "direction": "-",
+            "text": "-1.6% to -3.8%"
           }
         }
       ]
     },
     {
       "sector": "Consumer Staples",
-      "read": "Neutral",
-      "score": 52,
-      "event_type": "rates",
+      "read": "Bearish",
+      "score": 36,
+      "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Consumer staples stocks receive a modest lift from increased demand at Costco and strong earnings from Coca\u2011Cola.",
+          "text": "Emergency supply disruptions from recent tech outages are driving a bearish outlook for the Consumer Staples sector.",
           "forecast": {
-            "low": 1.0,
-            "high": 2.1,
-            "direction": "+",
-            "text": "+1.0% to +2.1%"
+            "low": 1.3,
+            "high": 3.2,
+            "direction": "-",
+            "text": "-1.3% to -3.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "Costco\u2019s emergency supply sales surged after tech outages, boosting its revenue.",
+          "text": "Costco\u2019s emergency sales surge highlights the immediate impact of supply chain interruptions on staple goods demand.",
           "forecast": {
-            "low": 1.0,
-            "high": 2.1,
-            "direction": "+",
-            "text": "+1.0% to +2.1%"
+            "low": 1.3,
+            "high": 3.2,
+            "direction": "-",
+            "text": "-1.3% to -3.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "Berkshire Hathaway\u2019s Coca\u2011Cola stake continues to generate $848\u202fmillion in annual dividends, underscoring the brand\u2019s robust cash flow.",
+          "text": "The broader tech outage has exposed vulnerabilities in the distribution network, increasing uncertainty for staple producers and distributors.",
           "forecast": {
-            "low": 1.0,
-            "high": 2.1,
-            "direction": "+",
-            "text": "+1.0% to +2.1%"
+            "low": 1.3,
+            "high": 3.2,
+            "direction": "-",
+            "text": "-1.3% to -3.2%"
           }
         }
       ]
     },
     {
       "sector": "Energy",
-      "read": "Bullish",
-      "score": 73,
-      "event_type": "rates",
+      "read": "Neutral",
+      "score": 44,
+      "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Energy sector gains momentum as OPEC\u2019s defense of fossil fuels at COP31 and Houthi attacks on Riyadh heighten supply concerns, driving oil prices higher.",
+          "text": "Oil prices are easing, contributing to the bearish sentiment in the Energy sector.",
           "forecast": {
-            "low": 1.5,
-            "high": 3.6,
-            "direction": "+",
-            "text": "+1.5% to +3.6%"
+            "low": 4.5,
+            "high": 10.1,
+            "direction": "-",
+            "text": "-4.5% to -10.1%"
           }
         },
         {
           "role": "supporting",
-          "text": "OPEC\u2019s stance at COP31 reinforces fossil fuel demand amid climate negotiations",
+          "text": "OPEC\u2019s defense of fossil fuels at COP31 underscores continued supply pressure amid climate negotiations.",
           "forecast": {
-            "low": 1.5,
-            "high": 3.6,
-            "direction": "+",
-            "text": "+1.5% to +3.6%"
+            "low": 4.5,
+            "high": 10.1,
+            "direction": "-",
+            "text": "-4.5% to -10.1%"
           }
         },
         {
           "role": "supporting",
-          "text": "Houthi attacks on Riyadh raise supply risk, boosting oil prices",
+          "text": "The anticipated decline in oil prices reflects broader geopolitical supply dynamics affecting the sector.",
           "forecast": {
-            "low": 1.5,
-            "high": 3.6,
-            "direction": "+",
-            "text": "+1.5% to +3.6%"
+            "low": 4.5,
+            "high": 10.1,
+            "direction": "-",
+            "text": "-4.5% to -10.1%"
           }
         }
       ]
     },
     {
       "sector": "Financials",
-      "read": "Bullish",
-      "score": 70,
-      "event_type": "rates",
+      "read": "Bearish",
+      "score": 28,
+      "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Rising interest rates are boosting financials earnings prospects.",
+          "text": "Deposit insurance is expected to lift U.S. community bank stocks, providing a modest counterweight to the broader bearish sentiment in the Financials sector.",
           "forecast": {
-            "low": 2.8,
-            "high": 7.0,
-            "direction": "+",
-            "text": "+2.8% to +7.0%"
+            "low": 1.4,
+            "high": 4.3,
+            "direction": "-",
+            "text": "-1.4% to -4.3%"
           }
         },
         {
           "role": "supporting",
-          "text": "AI-driven demand for tech lending is increasing credit activity for banks.",
+          "text": "Deposit insurance could lift these 3 U.S. Community Bank Stocks",
           "forecast": {
-            "low": 2.8,
-            "high": 7.0,
-            "direction": "+",
-            "text": "+2.8% to +7.0%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "The recent AI IPOs and Nvidia leadership changes are driving higher valuations for financial tech platforms.",
-          "forecast": {
-            "low": 2.8,
-            "high": 7.0,
-            "direction": "+",
-            "text": "+2.8% to +7.0%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Australian bank stocks are showing resilience, suggesting a broader sectoral strength amid sticky inflation.",
-          "forecast": {
-            "low": 2.8,
-            "high": 7.0,
-            "direction": "+",
-            "text": "+2.8% to +7.0%"
+            "low": 1.4,
+            "high": 4.3,
+            "direction": "-",
+            "text": "-1.4% to -4.3%"
           }
         }
       ]
@@ -168,85 +158,85 @@
     {
       "sector": "Healthcare",
       "read": "Neutral",
-      "score": 58,
-      "event_type": "rates",
+      "score": 43,
+      "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Healthcare stocks surged over 5% amid a broader sector rally, driven by strong performance from key players such as Max Healthcare and Apollo Hospitals.",
+          "text": "Healthcare stocks are experiencing a surge, with several names rising over 5% amid market volatility.",
           "forecast": {
-            "low": 1.2,
-            "high": 2.9,
-            "direction": "+",
-            "text": "+1.2% to +2.9%"
+            "low": 0.6,
+            "high": 2.3,
+            "direction": "-",
+            "text": "-0.6% to -2.3%"
           }
         },
         {
           "role": "supporting",
-          "text": "Max Healthcare and Apollo Hospitals led the rally, posting gains that outpaced the broader market volatility.",
+          "text": "Max Healthcare and Apollo Hospitals have both surged more than 5% despite broader market swings.",
           "forecast": {
-            "low": 1.2,
-            "high": 2.9,
-            "direction": "+",
-            "text": "+1.2% to +2.9%"
+            "low": 0.6,
+            "high": 2.3,
+            "direction": "-",
+            "text": "-0.6% to -2.3%"
           }
         },
         {
           "role": "supporting",
-          "text": "The sector\u2019s rally extended to other names, with several stocks rising up to 4% despite weakness in D-Street indices.",
+          "text": "Analysts are comparing Apollo Hospitals, Aster, and Molbio as potential picks as the healthcare sector rallies up to 4% amid D\u2011Street weakness.",
           "forecast": {
-            "low": 1.2,
-            "high": 2.9,
-            "direction": "+",
-            "text": "+1.2% to +2.9%"
+            "low": 0.6,
+            "high": 2.3,
+            "direction": "-",
+            "text": "-0.6% to -2.3%"
           }
         }
       ]
     },
     {
       "sector": "Technology",
-      "read": "Neutral",
-      "score": 52,
-      "event_type": "rates",
+      "read": "Bearish",
+      "score": 26,
+      "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "The Technology sector remains mixed as leadership shifts at Nvidia and a surge in AI IPO activity, particularly Anthropic\u2019s Nasdaq listing, offset by broader market uncertainty.",
+          "text": "AI sector volatility, driven by fading enthusiasm and regulatory scrutiny, is weighing on the Technology sector.",
           "forecast": {
-            "low": 2.6,
-            "high": 6.2,
-            "direction": "+",
-            "text": "+2.6% to +6.2%"
+            "low": 1.5,
+            "high": 4.4,
+            "direction": "-",
+            "text": "-1.5% to -4.4%"
           }
         },
         {
           "role": "supporting",
-          "text": "Nvidia CEO Jensen Huang\u2019s return signals potential upside amid leadership stability.",
+          "text": "Anthropic\u2019s IPO and subsequent sell\u2011off have eroded gains in tech stocks",
           "forecast": {
-            "low": 2.6,
-            "high": 6.2,
-            "direction": "+",
-            "text": "+2.6% to +6.2%"
+            "low": 1.5,
+            "high": 4.4,
+            "direction": "-",
+            "text": "-1.5% to -4.4%"
           }
         },
         {
           "role": "supporting",
-          "text": "Anthropic\u2019s Nasdaq IPO, raising ten times more than NYSE, fuels AI enthusiasm but also heightens volatility.",
+          "text": "The SEC probe into Nvidia following CEO Jensen Huang\u2019s departure adds uncertainty",
           "forecast": {
-            "low": 2.6,
-            "high": 6.2,
-            "direction": "+",
-            "text": "+2.6% to +6.2%"
+            "low": 1.5,
+            "high": 4.4,
+            "direction": "-",
+            "text": "-1.5% to -4.4%"
           }
         },
         {
           "role": "supporting",
-          "text": "VivoSim Labs\u2019 21% after\u2011hours jump reflects sector\u2011specific gains that contrast with overall mixed sentiment.",
+          "text": "General market softness, reflected in falling Asian indices and a weak S&P 500 outlook, amplifies the tech sell\u2011off",
           "forecast": {
-            "low": 2.6,
-            "high": 6.2,
-            "direction": "+",
-            "text": "+2.6% to +6.2%"
+            "low": 1.5,
+            "high": 4.4,
+            "direction": "-",
+            "text": "-1.5% to -4.4%"
           }
         }
       ]

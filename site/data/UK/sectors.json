@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20 06:48 UTC",
+  "updated_at": "2026-11-20 06:58 UTC",
   "market": "UK",
   "index": "FTSE 100",
   "macro_theme": "Rate-policy commentary dominates headlines",
@@ -13,27 +13,27 @@
     },
     {
       "name": "Energy",
-      "score": 53,
+      "score": 47,
       "label": "Neutral"
     },
     {
       "name": "Financials",
-      "score": 46,
-      "label": "Neutral"
+      "score": 38,
+      "label": "Bearish"
     },
     {
       "name": "Healthcare",
-      "score": 65,
+      "score": 62,
       "label": "Bullish"
     },
     {
       "name": "Materials",
-      "score": 46,
+      "score": 42,
       "label": "Neutral"
     },
     {
       "name": "Technology",
-      "score": 47,
+      "score": 44,
       "label": "Neutral"
     }
   ]

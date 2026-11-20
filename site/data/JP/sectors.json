@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-11-20 06:48 UTC",
+  "updated_at": "2026-11-20 06:58 UTC",
   "market": "JP",
   "index": "Nikkei 225",
   "macro_theme": "Rate-policy commentary dominates headlines",
-  "macro_score": 5,
-  "macro_explanation": "Broad-market headlines scored 5/100 by the model (bearish); this is the macro overlay.",
+  "macro_score": 22,
+  "macro_explanation": "Broad-market headlines scored 22/100 by the model (bearish); this is the macro overlay.",
   "sectors": [
     {
       "name": "Consumer Discretionary",
-      "score": 30,
+      "score": 35,
       "label": "Bearish"
     },
     {
       "name": "Energy",
-      "score": 5,
+      "score": 22,
       "label": "Bearish"
     },
     {
       "name": "Financials",
-      "score": 40,
-      "label": "Bearish"
+      "score": 51,
+      "label": "Neutral"
     },
     {
       "name": "Healthcare",
-      "score": 44,
+      "score": 51,
       "label": "Neutral"
     },
     {
       "name": "Industrials",
-      "score": 5,
+      "score": 22,
       "label": "Bearish"
     },
     {
       "name": "Technology",
-      "score": 25,
+      "score": 39,
       "label": "Bearish"
     }
   ]

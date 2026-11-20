@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20 06:48 UTC",
+  "updated_at": "2026-11-20 06:58 UTC",
   "market": "UK",
   "macro_theme": "Rate-policy commentary dominates headlines",
   "signals": [
@@ -11,7 +11,7 @@
       "drivers": [
         {
           "role": "main",
-          "text": "The Consumer Staples sector is bearish due to a broad risk\u2011off move triggered by the rates event and the negative spillover from Anthropic\u2019s debut, which has weighed on key staples names like Unilever.",
+          "text": "The Consumer Staples sector is falling as a risk\u2011off reaction to the AI market shakeout and broader market sell\u2011off.",
           "forecast": {
             "low": 1.4,
             "high": 2.8,
@@ -21,7 +21,7 @@
         },
         {
           "role": "supporting",
-          "text": "The FTSE 100\u2019s six\u2011week low reflects a risk\u2011off sentiment that has pressured staples stocks.",
+          "text": "Anthropic\u2019s debut triggered a broad tech sell\u2011off, pulling down the FTSE 100 and weighing on consumer staples stocks.",
           "forecast": {
             "low": 1.4,
             "high": 2.8,
@@ -31,7 +31,7 @@
         },
         {
           "role": "supporting",
-          "text": "Anthropic\u2019s debut day saw SAP and drugmakers fall, signalling broader market weakness that has impacted consumer staples.",
+          "text": "The FTSE 100 hit a six\u2011week low in a broad risk\u2011off move, reflecting negative sentiment across the market.",
           "forecast": {
             "low": 1.4,
             "high": 2.8,
@@ -41,7 +41,7 @@
         },
         {
           "role": "supporting",
-          "text": "Unilever\u2019s technical analysis shows downward momentum and support pressure, underscoring the sector\u2019s weak stance.",
+          "text": "The sector\u2019s bearish sentiment (29/100) is amplified by the overall market decline driven by AI\u2011related volatility.",
           "forecast": {
             "low": 1.4,
             "high": 2.8,
@@ -54,95 +54,85 @@
     {
       "sector": "Energy",
       "read": "Neutral",
-      "score": 53,
+      "score": 47,
       "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "Oil price rise and the volatile debut of AI firm Anthropic have driven a mixed outlook for the Energy sector.",
+          "text": "Oil price gains are the primary driver lifting the Energy sector amid a broader risk\u2011off environment.",
           "forecast": {
             "low": 1.1,
             "high": 2.7,
-            "direction": "+",
-            "text": "+1.1% to +2.7%"
+            "direction": "-",
+            "text": "-1.1% to -2.7%"
           }
         },
         {
           "role": "supporting",
-          "text": "Oil prices have risen, boosting energy earnings prospects.",
+          "text": "The market\u2019s risk\u2011off move, reflected in the FTSE 100 hitting a six\u2011week low, has pressured energy stocks.",
           "forecast": {
             "low": 1.1,
             "high": 2.7,
-            "direction": "+",
-            "text": "+1.1% to +2.7%"
+            "direction": "-",
+            "text": "-1.1% to -2.7%"
           }
         },
         {
           "role": "supporting",
-          "text": "The market debut of Anthropic has added volatility to tech and energy stocks.",
+          "text": "Anthropic\u2019s market debut has added volatility, contributing to a mixed sentiment across sectors.",
           "forecast": {
             "low": 1.1,
             "high": 2.7,
-            "direction": "+",
-            "text": "+1.1% to +2.7%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Speculation about an AI bubble has weighed on investor sentiment.",
-          "forecast": {
-            "low": 1.1,
-            "high": 2.7,
-            "direction": "+",
-            "text": "+1.1% to +2.7%"
+            "direction": "-",
+            "text": "-1.1% to -2.7%"
           }
         }
       ]
     },
     {
       "sector": "Financials",
-      "read": "Neutral",
-      "score": 46,
+      "read": "Bearish",
+      "score": 38,
       "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "Mixed sentiment in the Financials sector is driven by AI\u2011related volatility and a broader risk\u2011off environment.",
+          "text": "AI\u2011related volatility and a risk\u2011off market sentiment are driving a decline in the Financials sector.",
           "forecast": {
-            "low": 2.2,
-            "high": 5.4,
+            "low": 2.5,
+            "high": 6.2,
             "direction": "-",
-            "text": "-2.2% to -5.4%"
+            "text": "-2.5% to -6.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "The debut of Anthropic triggered a sell\u2011off in tech and drugmakers, contributing to a 1% decline in European stocks.",
+          "text": "Anthropic\u2019s debut triggered a broad sell\u2011off, with European stocks falling and FTSE 100 hitting a six\u2011week low.",
           "forecast": {
-            "low": 2.2,
-            "high": 5.4,
+            "low": 2.5,
+            "high": 6.2,
             "direction": "-",
-            "text": "-2.2% to -5.4%"
+            "text": "-2.5% to -6.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "The FTSE 100 hit a six\u2011week low amid a risk\u2011off move, weighing on financials.",
+          "text": "The market\u2019s risk\u2011off stance, reflected in the FTSE 100\u2019s decline, has weighed on financial stocks.",
           "forecast": {
-            "low": 2.2,
-            "high": 5.4,
+            "low": 2.5,
+            "high": 6.2,
             "direction": "-",
-            "text": "-2.2% to -5.4%"
+            "text": "-2.5% to -6.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "British investors have allocated a quarter of their assets to UK stocks, indicating a cautious yet significant exposure to the sector.",
+          "text": "Concerns over an impending AI bubble burst have added to negative sentiment toward the sector.",
           "forecast": {
-            "low": 2.2,
-            "high": 5.4,
+            "low": 2.5,
+            "high": 6.2,
             "direction": "-",
-            "text": "-2.2% to -5.4%"
+            "text": "-2.5% to -6.2%"
           }
         }
       ]
@@ -150,47 +140,47 @@
     {
       "sector": "Healthcare",
       "read": "Bullish",
-      "score": 65,
+      "score": 62,
       "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "The Healthcare sector remains bullish, driven primarily by the recent rates event.",
+          "text": "The Healthcare sector\u2019s bullish sentiment is primarily driven by the recent rates event, which has lifted investor confidence in the sector.",
           "forecast": {
-            "low": 1.3,
-            "high": 3.2,
+            "low": 1.2,
+            "high": 3.1,
             "direction": "+",
-            "text": "+1.3% to +3.2%"
+            "text": "+1.2% to +3.1%"
           }
         },
         {
           "role": "supporting",
-          "text": "Anthropic\u2019s debut has triggered a risk\u2011off move, weighing on drugmakers and dampening broader market sentiment.",
+          "text": "The risk\u2011off move that pushed the FTSE 100 to a six\u2011week low has disproportionately impacted drugmakers, creating a short\u2011term sell\u2011off within the sector.",
           "forecast": {
-            "low": 1.3,
-            "high": 3.2,
+            "low": 1.2,
+            "high": 3.1,
             "direction": "+",
-            "text": "+1.3% to +3.2%"
+            "text": "+1.2% to +3.1%"
           }
         },
         {
           "role": "supporting",
-          "text": "The AI bubble narrative, highlighted by Panmure Liberum\u2019s call to buy FTSE 100, adds a speculative lift to the sector.",
+          "text": "Anthropic\u2019s debut has heightened AI\u2011related volatility, leading to a broader decline in tech and pharmaceutical stocks, which could offset some of the rates\u2011driven upside.",
           "forecast": {
-            "low": 1.3,
-            "high": 3.2,
+            "low": 1.2,
+            "high": 3.1,
             "direction": "+",
-            "text": "+1.3% to +3.2%"
+            "text": "+1.2% to +3.1%"
           }
         },
         {
           "role": "supporting",
-          "text": "GSK shares are consolidating near the GBX1,809 support level, indicating short\u2011term technical stability for the sector.",
+          "text": "GSK shares are consolidating near the GBX1,809 support level, indicating that the sector\u2019s rally may face short\u2011term technical resistance.",
           "forecast": {
-            "low": 1.3,
-            "high": 3.2,
+            "low": 1.2,
+            "high": 3.1,
             "direction": "+",
-            "text": "+1.3% to +3.2%"
+            "text": "+1.2% to +3.1%"
           }
         }
       ]
@@ -198,37 +188,47 @@
     {
       "sector": "Materials",
       "read": "Neutral",
-      "score": 46,
+      "score": 42,
       "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "Risk\u2011off sentiment and AI\u2011related market volatility are weighing on the Materials sector, leading to a mixed outlook.",
+          "text": "The Materials sector is falling as a broad risk\u2011off move, amplified by a sharp sell\u2011off in AI\u2011related stocks and a plunge in gold prices.",
           "forecast": {
-            "low": 1.6,
-            "high": 3.8,
+            "low": 1.7,
+            "high": 4.1,
             "direction": "-",
-            "text": "-1.6% to -3.8%"
+            "text": "-1.7% to -4.1%"
           }
         },
         {
           "role": "supporting",
-          "text": "Gold price decline has pressured mining stocks, contributing to sector weakness.",
+          "text": "The AI bubble burst, with major AI names like Anthropic dragging down tech and spill\u2011over into related sectors.",
           "forecast": {
-            "low": 1.6,
-            "high": 3.8,
+            "low": 1.7,
+            "high": 4.1,
             "direction": "-",
-            "text": "-1.6% to -3.8%"
+            "text": "-1.7% to -4.1%"
           }
         },
         {
           "role": "supporting",
-          "text": "The AI market turbulence, highlighted by Anthropic\u2019s debut, has increased uncertainty across the broader market, indirectly affecting materials exposure.",
+          "text": "Gold fell sharply, dragging mining stocks and other materials equities lower.",
           "forecast": {
-            "low": 1.6,
-            "high": 3.8,
+            "low": 1.7,
+            "high": 4.1,
             "direction": "-",
-            "text": "-1.6% to -3.8%"
+            "text": "-1.7% to -4.1%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "A broad risk\u2011off sentiment pushed the FTSE 100 to a six\u2011week low, weighing on the sector overall.",
+          "forecast": {
+            "low": 1.7,
+            "high": 4.1,
+            "direction": "-",
+            "text": "-1.7% to -4.1%"
           }
         }
       ]
@@ -236,47 +236,37 @@
     {
       "sector": "Technology",
       "read": "Neutral",
-      "score": 47,
+      "score": 44,
       "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "The Technology sector is mixed as the debut of Anthropic has spurred volatility, with risk\u2011off sentiment weighing on most tech names while a few, like ASML, benefit from the shift.",
+          "text": "The Technology sector is under pressure mainly because the recent rates event has triggered a broader risk\u2011off sentiment, leading to a decline in tech valuations.",
           "forecast": {
-            "low": 2.7,
-            "high": 6.4,
+            "low": 2.8,
+            "high": 6.7,
             "direction": "-",
-            "text": "-2.7% to -6.4%"
+            "text": "-2.8% to -6.7%"
           }
         },
         {
           "role": "supporting",
-          "text": "The FTSE 100 hit a six\u2011week low in a broad risk\u2011off move, reflecting negative sentiment across tech stocks.",
+          "text": "Anthropic\u2019s debut has rattled global markets, causing a sell\u2011off in AI\u2011related stocks such as SAP and drugmakers, which weigh on the sector\u2019s performance.",
           "forecast": {
-            "low": 2.7,
-            "high": 6.4,
+            "low": 2.8,
+            "high": 6.7,
             "direction": "-",
-            "text": "-2.7% to -6.4%"
+            "text": "-2.8% to -6.7%"
           }
         },
         {
           "role": "supporting",
-          "text": "SAP and other drugmakers fell on Anthropic\u2019s debut day, underscoring the sector\u2019s sensitivity to AI\u2011related news.",
+          "text": "The perception of an impending AI bubble burst has dampened investor enthusiasm for tech equities, further contributing to the bearish outlook.",
           "forecast": {
-            "low": 2.7,
-            "high": 6.4,
+            "low": 2.8,
+            "high": 6.7,
             "direction": "-",
-            "text": "-2.7% to -6.4%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "ASML gained on the day, showing that not all tech stocks are dragged down by the same factors.",
-          "forecast": {
-            "low": 2.7,
-            "high": 6.4,
-            "direction": "-",
-            "text": "-2.7% to -6.4%"
+            "text": "-2.8% to -6.7%"
           }
         }
       ]

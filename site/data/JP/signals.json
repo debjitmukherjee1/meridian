@@ -1,52 +1,52 @@
 {
-  "updated_at": "2026-11-20 06:48 UTC",
+  "updated_at": "2026-11-20 06:58 UTC",
   "market": "JP",
   "macro_theme": "Rate-policy commentary dominates headlines",
   "signals": [
     {
       "sector": "Consumer Discretionary",
       "read": "Bearish",
-      "score": 30,
+      "score": 35,
       "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "Consumer discretionary is bearish mainly because AI concerns are driving significant losses in Japanese stocks, which are a key component of the sector.",
+          "text": "AI\u2011related concerns are driving a sharp decline in Japanese automakers\u2019 global sales, weighing heavily on the Consumer Discretionary sector.",
           "forecast": {
-            "low": 2.8,
-            "high": 6.3,
+            "low": 2.6,
+            "high": 5.9,
             "direction": "-",
-            "text": "-2.8% to -6.3%"
+            "text": "-2.6% to -5.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "Nikkei falls over 5% amid AI fears, dragging down tech and consumer discretionary stocks.",
+          "text": "Nikkei swings harder than Nasdaq as AI fears deepen, reflecting broader market anxiety.",
           "forecast": {
-            "low": 2.8,
-            "high": 6.3,
+            "low": 2.6,
+            "high": 5.9,
             "direction": "-",
-            "text": "-2.8% to -6.3%"
+            "text": "-2.6% to -5.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "Japanese automakers are entering a third consecutive year of global sales decline, weakening the sector\u2019s earnings outlook.",
+          "text": "Japanese automakers brace for a third consecutive year of global sales decline, signalling weak demand.",
           "forecast": {
-            "low": 2.8,
-            "high": 6.3,
+            "low": 2.6,
+            "high": 5.9,
             "direction": "-",
-            "text": "-2.8% to -6.3%"
+            "text": "-2.6% to -5.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "Yen buying pressure consolidates the dollar\u2011yen lower 159 range, adding currency headwinds to Japanese exporters.",
+          "text": "Gasoline car sales plunge in China, a key export market for Japanese automakers, further dampening revenue prospects.",
           "forecast": {
-            "low": 2.8,
-            "high": 6.3,
+            "low": 2.6,
+            "high": 5.9,
             "direction": "-",
-            "text": "-2.8% to -6.3%"
+            "text": "-2.6% to -5.9%"
           }
         }
       ]
@@ -54,95 +54,85 @@
     {
       "sector": "Energy",
       "read": "Bearish",
-      "score": 5,
+      "score": 22,
       "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "The Energy sector remains bearish as rising rates and a weak yen continue to weigh on commodity demand and earnings.",
+          "text": "The Energy sector remains bearish as a broader market selloff driven by AI fears and tech jitters outweighs any sector\u2011specific catalysts.",
           "forecast": {
-            "low": 1.9,
-            "high": 4.8,
+            "low": 1.6,
+            "high": 3.9,
             "direction": "-",
-            "text": "-1.9% to -4.8%"
+            "text": "-1.6% to -3.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "AI concerns are driving a broad tech sell\u2011off, reducing overall market liquidity and pressuring energy stocks.",
+          "text": "Japanese tech stocks tumble amid AI concerns, dragging the Nikkei lower",
           "forecast": {
-            "low": 1.9,
-            "high": 4.8,
+            "low": 1.6,
+            "high": 3.9,
             "direction": "-",
-            "text": "-1.9% to -4.8%"
+            "text": "-1.6% to -3.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "The yen\u2019s buying dominance and consolidation near the 159 level are tightening the currency, which can dampen export\u2011heavy energy companies\u2019 profitability.",
+          "text": "Inflation peaks add pressure on rates, further weighing on energy valuations",
           "forecast": {
-            "low": 1.9,
-            "high": 4.8,
+            "low": 1.6,
+            "high": 3.9,
             "direction": "-",
-            "text": "-1.9% to -4.8%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Inflation peaks in Japan are prompting tighter monetary policy, further supporting higher rates that weigh on the Energy sector.",
-          "forecast": {
-            "low": 1.9,
-            "high": 4.8,
-            "direction": "-",
-            "text": "-1.9% to -4.8%"
+            "text": "-1.6% to -3.9%"
           }
         }
       ]
     },
     {
       "sector": "Financials",
-      "read": "Bearish",
-      "score": 40,
+      "read": "Neutral",
+      "score": 51,
       "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "The Financials sector is pressured by the Bank of Japan\u2019s rate moves, reflected in the decline of key Japanese bank stocks and the broader Nikkei index.",
+          "text": "Nikkei\u2019s decline, driven by AI\u2011related concerns, is weighing on the Financials sector.",
           "forecast": {
-            "low": 2.4,
-            "high": 6.0,
-            "direction": "-",
-            "text": "-2.4% to -6.0%"
+            "low": 2.0,
+            "high": 5.1,
+            "direction": "+",
+            "text": "+2.0% to +5.1%"
           }
         },
         {
           "role": "supporting",
-          "text": "Japanese bank stocks sensitive to BOJ rate moves",
+          "text": "AI fears deepen, prompting broader market sell\u2011off",
           "forecast": {
-            "low": 2.4,
-            "high": 6.0,
-            "direction": "-",
-            "text": "-2.4% to -6.0%"
+            "low": 2.0,
+            "high": 5.1,
+            "direction": "+",
+            "text": "+2.0% to +5.1%"
           }
         },
         {
           "role": "supporting",
-          "text": "Nikkei falls over 5% amid AI concerns, dragging financials",
+          "text": "Japanese tech jitters and inflation peaks add to volatility",
           "forecast": {
-            "low": 2.4,
-            "high": 6.0,
-            "direction": "-",
-            "text": "-2.4% to -6.0%"
+            "low": 2.0,
+            "high": 5.1,
+            "direction": "+",
+            "text": "+2.0% to +5.1%"
           }
         },
         {
           "role": "supporting",
-          "text": "Mitsubishi UFJ Financial Group shares break below 200\u2011day moving average",
+          "text": "Mitsubishi UFJ Financial Group\u2019s share price falling below its 200\u2011day moving average signals weakness in the banking segment",
           "forecast": {
-            "low": 2.4,
-            "high": 6.0,
-            "direction": "-",
-            "text": "-2.4% to -6.0%"
+            "low": 2.0,
+            "high": 5.1,
+            "direction": "+",
+            "text": "+2.0% to +5.1%"
           }
         }
       ]
@@ -150,47 +140,37 @@
     {
       "sector": "Healthcare",
       "read": "Neutral",
-      "score": 44,
+      "score": 51,
       "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "AI concerns driving a sharp decline in the Nikkei index, which is weighing on the Japanese healthcare sector.",
+          "text": "Takeda\u2019s recent launch of ORZEYFUL provides a modest lift to the Healthcare sector amid broader market volatility.",
           "forecast": {
-            "low": 1.1,
-            "high": 2.8,
-            "direction": "-",
-            "text": "-1.1% to -2.8%"
+            "low": 1.0,
+            "high": 2.5,
+            "direction": "+",
+            "text": "+1.0% to +2.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "The Nikkei fell over 5% amid AI fears, indicating broader market stress that impacts healthcare stocks.",
+          "text": "Nikkei\u2019s sharp decline over 5% amid AI concerns has weighed on Japanese stocks, including healthcare names.",
           "forecast": {
-            "low": 1.1,
-            "high": 2.8,
-            "direction": "-",
-            "text": "-1.1% to -2.8%"
+            "low": 1.0,
+            "high": 2.5,
+            "direction": "+",
+            "text": "+1.0% to +2.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "Yen buying pressure has consolidated the Dollar\u2011Yen in the lower 159 range, supporting the Nikkei decline.",
+          "text": "Japanese stocks tumbled as tech jitters continued and inflation peaked, adding pressure to the sector.",
           "forecast": {
-            "low": 1.1,
-            "high": 2.8,
-            "direction": "-",
-            "text": "-1.1% to -2.8%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Takeda\u2019s stock, despite its ORZEYFUL launch, remains under pressure as the overall market sentiment turns bearish.",
-          "forecast": {
-            "low": 1.1,
-            "high": 2.8,
-            "direction": "-",
-            "text": "-1.1% to -2.8%"
+            "low": 1.0,
+            "high": 2.5,
+            "direction": "+",
+            "text": "+1.0% to +2.5%"
           }
         }
       ]
@@ -198,47 +178,47 @@
     {
       "sector": "Industrials",
       "read": "Bearish",
-      "score": 5,
+      "score": 22,
       "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "AI concerns driving a sharp decline in Japanese industrial stocks, dragging the broader Industrials sector into a bearish stance.",
+          "text": "AI concerns driving a sharp decline in the Nikkei, weighing heavily on the Industrials sector.",
           "forecast": {
-            "low": 2.8,
-            "high": 6.6,
+            "low": 2.3,
+            "high": 5.5,
             "direction": "-",
-            "text": "-2.8% to -6.6%"
+            "text": "-2.3% to -5.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "Japanese stocks tumble as AI fears deepen, with the Nikkei falling over 5% amid concerns about AI impacts on productivity and profitability.",
+          "text": "Japanese stocks tumble as tech jitters continue and inflation peaks, adding pressure on industrial companies.",
           "forecast": {
-            "low": 2.8,
-            "high": 6.6,
+            "low": 2.3,
+            "high": 5.5,
             "direction": "-",
-            "text": "-2.8% to -6.6%"
+            "text": "-2.3% to -5.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "The Nikkei stock index extends losses further, down more than 5% as AI concerns weigh on industrial companies.",
+          "text": "Nikkei swings harder than Nasdaq amid deepening AI fears, signaling broader market anxiety.",
           "forecast": {
-            "low": 2.8,
-            "high": 6.6,
+            "low": 2.3,
+            "high": 5.5,
             "direction": "-",
-            "text": "-2.8% to -6.6%"
+            "text": "-2.3% to -5.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "Dollar\u2011Yen consolidates in the lower 159 range, with Yen buying dominating, further weakening Japanese industrials in a rate\u2011sensitive environment.",
+          "text": "The sector\u2019s bearish sentiment (22/100) reflects the compounded impact of these macro\u2011market shocks.",
           "forecast": {
-            "low": 2.8,
-            "high": 6.6,
+            "low": 2.3,
+            "high": 5.5,
             "direction": "-",
-            "text": "-2.8% to -6.6%"
+            "text": "-2.3% to -5.5%"
           }
         }
       ]
@@ -246,37 +226,47 @@
     {
       "sector": "Technology",
       "read": "Bearish",
-      "score": 25,
+      "score": 39,
       "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "AI concerns are driving a broad sell\u2011off in the technology sector, leading to significant losses in Japanese tech stocks.",
+          "text": "AI concerns are driving a sharp decline in Japanese technology stocks, pushing the Nikkei tech index into significant losses.",
           "forecast": {
-            "low": 3.8,
-            "high": 9.0,
+            "low": 3.0,
+            "high": 7.3,
             "direction": "-",
-            "text": "-3.8% to -9.0%"
+            "text": "-3.0% to -7.3%"
           }
         },
         {
           "role": "supporting",
-          "text": "Nikkei stock index fell over 5% amid AI fears, dropping 3,000 points.",
+          "text": "Nikkei swings harder than Nasdaq as AI fears deepen",
           "forecast": {
-            "low": 3.8,
-            "high": 9.0,
+            "low": 3.0,
+            "high": 7.3,
             "direction": "-",
-            "text": "-3.8% to -9.0%"
+            "text": "-3.0% to -7.3%"
           }
         },
         {
           "role": "supporting",
-          "text": "SoftBank shares plunged 16% as the AI sell\u2011off spread across the sector.",
+          "text": "BREAKING NEWS: Nikkei stock index extends losses further, down over 5% amid AI concerns",
           "forecast": {
-            "low": 3.8,
-            "high": 9.0,
+            "low": 3.0,
+            "high": 7.3,
             "direction": "-",
-            "text": "-3.8% to -9.0%"
+            "text": "-3.0% to -7.3%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "SoftBank shares slump 15% as AI worries drown Asian chipmaker stocks",
+          "forecast": {
+            "low": 3.0,
+            "high": 7.3,
+            "direction": "-",
+            "text": "-3.0% to -7.3%"
           }
         }
       ]
