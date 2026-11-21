@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-11-20 14:49 UTC",
+  "updated_at": "2026-11-21 14:06 UTC",
   "market": "UK",
   "index": "FTSE 100",
   "macro_theme": "Rate-policy commentary dominates headlines",
-  "macro_score": 18,
-  "macro_explanation": "Broad-market headlines scored 18/100 by the model (bearish); this is the macro overlay.",
+  "macro_score": 68,
+  "macro_explanation": "Broad-market headlines scored 68/100 by the model (bullish); this is the macro overlay.",
   "sectors": [
     {
       "name": "Consumer Staples",
-      "score": 19,
-      "label": "Bearish"
-    },
-    {
-      "name": "Energy",
-      "score": 52,
-      "label": "Neutral"
-    },
-    {
-      "name": "Financials",
       "score": 36,
       "label": "Bearish"
     },
     {
-      "name": "Healthcare",
-      "score": 40,
+      "name": "Energy",
+      "score": 48,
       "label": "Neutral"
     },
     {
-      "name": "Materials",
-      "score": 28,
+      "name": "Financials",
+      "score": 39,
       "label": "Bearish"
     },
     {
+      "name": "Healthcare",
+      "score": 68,
+      "label": "Bullish"
+    },
+    {
+      "name": "Materials",
+      "score": 52,
+      "label": "Neutral"
+    },
+    {
       "name": "Technology",
-      "score": 23,
-      "label": "Bearish"
+      "score": 53,
+      "label": "Neutral"
     }
   ]
 }

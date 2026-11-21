@@ -1,42 +1,52 @@
 {
-  "updated_at": "2026-11-20 14:49 UTC",
+  "updated_at": "2026-11-21 14:06 UTC",
   "market": "IN",
   "macro_theme": "Mixed macro signals; no single theme dominates",
   "signals": [
     {
       "sector": "Consumer Discretionary",
       "read": "Bullish",
-      "score": 82,
+      "score": 87,
       "event_type": "default",
       "drivers": [
         {
           "role": "main",
-          "text": "Record foreign inflows of Rs\u202f1.22\u202flakh crore into Indian equities are propelling the Consumer Discretionary sector higher.",
+          "text": "Strong foreign inflows and a rally in auto stocks are propelling the Consumer Discretionary sector higher.",
           "forecast": {
-            "low": 2.5,
-            "high": 5.7,
+            "low": 2.6,
+            "high": 6.1,
             "direction": "+",
-            "text": "+2.5% to +5.7%"
+            "text": "+2.6% to +6.1%"
           }
         },
         {
           "role": "supporting",
-          "text": "Bank stocks and other sectors lifting the market, boosting sentiment for discretionary names.",
+          "text": "Foreign investors poured a record Rs\u202f1.22\u202flakh crore into Indian equities in November, the highest monthly inflow ever.",
           "forecast": {
-            "low": 2.5,
-            "high": 5.7,
+            "low": 2.6,
+            "high": 6.1,
             "direction": "+",
-            "text": "+2.5% to +5.7%"
+            "text": "+2.6% to +6.1%"
           }
         },
         {
           "role": "supporting",
-          "text": "The rupee\u2019s rise to a seven\u2011month high is supporting domestic consumer spending and corporate earnings.",
+          "text": "Auto stocks led the Nifty 50 rally, with Eicher Motors rising 4.66% and Sensex jumping 990 points to cross 83,000.",
           "forecast": {
-            "low": 2.5,
-            "high": 5.7,
+            "low": 2.6,
+            "high": 6.1,
             "direction": "+",
-            "text": "+2.5% to +5.7%"
+            "text": "+2.6% to +6.1%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Easing crude oil prices are expected to support the rally in the coming week, further buoying the sector.",
+          "forecast": {
+            "low": 2.6,
+            "high": 6.1,
+            "direction": "+",
+            "text": "+2.6% to +6.1%"
           }
         }
       ]
@@ -44,47 +54,47 @@
     {
       "sector": "Consumer Staples",
       "read": "Bullish",
-      "score": 76,
+      "score": 80,
       "event_type": "default",
       "drivers": [
         {
           "role": "main",
-          "text": "Record foreign inflows and a strong rupee are driving a bullish sentiment in the Consumer Staples sector.",
+          "text": "Record FII inflows into Indian equities are propelling the Consumer Staples sector higher.",
           "forecast": {
             "low": 0.8,
-            "high": 3.0,
+            "high": 3.2,
             "direction": "+",
-            "text": "+0.8% to +3.0%"
+            "text": "+0.8% to +3.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "FPIs invested a record Rs\u202f1.22\u202flakh crore in Indian equities in November, boosting demand for staples stocks.",
+          "text": "Foreign investors poured a record Rs\u202f1.22\u202flakh crore into Indian equities in November, the highest monthly inflow ever.",
           "forecast": {
             "low": 0.8,
-            "high": 3.0,
+            "high": 3.2,
             "direction": "+",
-            "text": "+0.8% to +3.0%"
+            "text": "+0.8% to +3.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "The rupee climbed to a seven\u2011month high, reducing import costs for consumer goods companies.",
+          "text": "The Indian stock market has extended a four\u2011week rally, with Sensex and Nifty hitting nine\u2011month highs, supporting sector momentum.",
           "forecast": {
             "low": 0.8,
-            "high": 3.0,
+            "high": 3.2,
             "direction": "+",
-            "text": "+0.8% to +3.0%"
+            "text": "+0.8% to +3.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "Nifty FMCG index rose 2.09% to 48,564.25, reflecting robust performance of staples stocks.",
+          "text": "Easing crude oil prices are expected to lift the broader market, benefiting consumer staples companies.",
           "forecast": {
             "low": 0.8,
-            "high": 3.0,
+            "high": 3.2,
             "direction": "+",
-            "text": "+0.8% to +3.0%"
+            "text": "+0.8% to +3.2%"
           }
         }
       ]
@@ -97,7 +107,7 @@
       "drivers": [
         {
           "role": "main",
-          "text": "Record foreign portfolio inflows and a broad market rally are lifting the Energy sector.",
+          "text": "Easing crude oil prices are driving a bullish sentiment in the Energy sector.",
           "forecast": {
             "low": 2.3,
             "high": 5.3,
@@ -107,7 +117,7 @@
         },
         {
           "role": "supporting",
-          "text": "Foreign investors poured Rs\u202f1.22\u202flakh crore into Indian equities in November, boosting sector valuations.",
+          "text": "Record foreign inflows of Rs 1.22 lakh crore into Indian equities are boosting overall market sentiment, indirectly supporting energy stocks.",
           "forecast": {
             "low": 2.3,
             "high": 5.3,
@@ -117,17 +127,7 @@
         },
         {
           "role": "supporting",
-          "text": "The Sensex surged 898 points and Nifty reclaimed 25,800, reflecting a strong overall market backdrop.",
-          "forecast": {
-            "low": 2.3,
-            "high": 5.3,
-            "direction": "+",
-            "text": "+2.3% to +5.3%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "The rupee climbed to a seven\u2011month high, improving export competitiveness for energy producers.",
+          "text": "The Indian stock market\u2019s four\u2011week rally, with Sensex and Nifty hitting nine\u2011month highs, is lifting energy sector shares as part of the broader equity rally.",
           "forecast": {
             "low": 2.3,
             "high": 5.3,
@@ -140,47 +140,47 @@
     {
       "sector": "Financials",
       "read": "Bullish",
-      "score": 82,
+      "score": 89,
       "event_type": "default",
       "drivers": [
         {
           "role": "main",
-          "text": "Record foreign inflows and a rally in bank stocks are driving the Financials sector\u2019s bullish sentiment.",
+          "text": "The Financials sector is buoyed by record foreign institutional inflows and strong bank stock performance amid a broader market rally.",
           "forecast": {
-            "low": 1.6,
-            "high": 4.1,
+            "low": 1.8,
+            "high": 4.5,
             "direction": "+",
-            "text": "+1.6% to +4.1%"
+            "text": "+1.8% to +4.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "FPIs invested a record Rs\u202f1.22\u202flakh crore in Indian equities in November",
+          "text": "Foreign investors poured a record Rs\u202f1.22\u202flakh crore into Indian equities in November, the highest monthly inflow ever.",
           "forecast": {
-            "low": 1.6,
-            "high": 4.1,
+            "low": 1.8,
+            "high": 4.5,
             "direction": "+",
-            "text": "+1.6% to +4.1%"
+            "text": "+1.8% to +4.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "Bank stocks are lifting the market, with Bank Nifty reaching a fresh record",
+          "text": "Bank stocks led the rally, driving the Sensex and Nifty to nine\u2011month highs.",
           "forecast": {
-            "low": 1.6,
-            "high": 4.1,
+            "low": 1.8,
+            "high": 4.5,
             "direction": "+",
-            "text": "+1.6% to +4.1%"
+            "text": "+1.8% to +4.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "The rupee\u2019s climb to a seven\u2011month high is supporting overall market momentum",
+          "text": "Easing crude oil prices are supporting the overall market sentiment",
           "forecast": {
-            "low": 1.6,
-            "high": 4.1,
+            "low": 1.8,
+            "high": 4.5,
             "direction": "+",
-            "text": "+1.6% to +4.1%"
+            "text": "+1.8% to +4.5%"
           }
         }
       ]
@@ -188,47 +188,47 @@
     {
       "sector": "Healthcare",
       "read": "Bullish",
-      "score": 76,
+      "score": 84,
       "event_type": "default",
       "drivers": [
         {
           "role": "main",
-          "text": "Record foreign inflows into Indian equities are propelling the healthcare sector higher.",
+          "text": "The Healthcare sector is buoyed by record foreign inflows and a rally in pharma stocks amid a broader market uptrend.",
           "forecast": {
-            "low": 1.5,
-            "high": 3.8,
+            "low": 1.7,
+            "high": 4.2,
             "direction": "+",
-            "text": "+1.5% to +3.8%"
+            "text": "+1.7% to +4.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "Foreign portfolio investors poured a record Rs\u202f1.22\u202flakh crore into Indian equities in November, lifting healthcare stocks.",
+          "text": "Foreign investors poured a record Rs\u202f1.22\u202flakh crore into Indian equities in November, lifting the index and supporting sectoral gains.",
           "forecast": {
-            "low": 1.5,
-            "high": 3.8,
+            "low": 1.7,
+            "high": 4.2,
             "direction": "+",
-            "text": "+1.5% to +3.8%"
+            "text": "+1.7% to +4.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "The rupee\u2019s rise to a seven\u2011month high has made Indian equities more attractive to foreign investors, supporting sector gains.",
+          "text": "Easing crude oil prices are expected to lift the market, providing a tailwind for the Healthcare sector.",
           "forecast": {
-            "low": 1.5,
-            "high": 3.8,
+            "low": 1.7,
+            "high": 4.2,
             "direction": "+",
-            "text": "+1.5% to +3.8%"
+            "text": "+1.7% to +4.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "Max Healthcare and Apollo Hospitals surged over 5% amid the inflow wave, underscoring the sector\u2019s momentum.",
+          "text": "Pharma stocks dominated trading, reinforcing the sector\u2019s positive momentum.",
           "forecast": {
-            "low": 1.5,
-            "high": 3.8,
+            "low": 1.7,
+            "high": 4.2,
             "direction": "+",
-            "text": "+1.5% to +3.8%"
+            "text": "+1.7% to +4.2%"
           }
         }
       ]
@@ -236,37 +236,47 @@
     {
       "sector": "Technology",
       "read": "Bullish",
-      "score": 78,
+      "score": 91,
       "event_type": "default",
       "drivers": [
         {
           "role": "main",
-          "text": "Record foreign inflows of Rs\u202f1.22\u202flakh crore into Indian equities are propelling the Technology sector higher.",
+          "text": "Record foreign inflows and a sustained four\u2011week rally are propelling the Technology sector higher.",
           "forecast": {
-            "low": 2.3,
-            "high": 5.5,
+            "low": 2.7,
+            "high": 6.4,
             "direction": "+",
-            "text": "+2.3% to +5.5%"
+            "text": "+2.7% to +6.4%"
           }
         },
         {
           "role": "supporting",
-          "text": "Nifty IT index rose 1.6% in early trade after a three\u2011day decline, indicating renewed strength in tech stocks.",
+          "text": "Foreign investors poured a record Rs\u202f1.22\u202flakh crore into Indian equities in November, boosting overall market sentiment.",
           "forecast": {
-            "low": 2.3,
-            "high": 5.5,
+            "low": 2.7,
+            "high": 6.4,
             "direction": "+",
-            "text": "+2.3% to +5.5%"
+            "text": "+2.7% to +6.4%"
           }
         },
         {
           "role": "supporting",
-          "text": "Tata Consultancy Services (TCS) was among the early Sensex gainers, reflecting investor confidence in IT companies.",
+          "text": "Easing crude oil prices are supporting a broader market rally, which benefits technology stocks.",
           "forecast": {
-            "low": 2.3,
-            "high": 5.5,
+            "low": 2.7,
+            "high": 6.4,
             "direction": "+",
-            "text": "+2.3% to +5.5%"
+            "text": "+2.7% to +6.4%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "The market outlook for the coming week remains positive",
+          "forecast": {
+            "low": 2.7,
+            "high": 6.4,
+            "direction": "+",
+            "text": "+2.7% to +6.4%"
           }
         }
       ]

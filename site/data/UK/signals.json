@@ -1,42 +1,42 @@
 {
-  "updated_at": "2026-11-20 14:49 UTC",
+  "updated_at": "2026-11-21 14:06 UTC",
   "market": "UK",
   "macro_theme": "Rate-policy commentary dominates headlines",
   "signals": [
     {
       "sector": "Consumer Staples",
       "read": "Bearish",
-      "score": 19,
+      "score": 36,
       "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "Consumer Staples is being dragged down by a broad market sell\u2011off, with banks and energy stocks pulling the FTSE 100 lower.",
+          "text": "Regulatory and tariff pressures are weighing on the Consumer Staples sector, contributing to its bearish sentiment.",
           "forecast": {
-            "low": 1.6,
-            "high": 3.2,
+            "low": 1.3,
+            "high": 2.6,
             "direction": "-",
-            "text": "-1.6% to -3.2%"
+            "text": "-1.3% to -2.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "The tech and metals rout has weakened the index, reducing overall investor confidence.",
+          "text": "Court\u2019s ban on green labels could hit Unilever\u2019s packaging and marketing costs.",
           "forecast": {
-            "low": 1.6,
-            "high": 3.2,
+            "low": 1.3,
+            "high": 2.6,
             "direction": "-",
-            "text": "-1.6% to -3.2%"
+            "text": "-1.3% to -2.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Global risk\u2011off sentiment has led to a sell\u2011off in banks and energy shares, which in turn pressures the broader market.",
+          "text": "India\u2019s scotch tariff shock threatens Diageo\u2019s export revenue and pricing power.",
           "forecast": {
-            "low": 1.6,
-            "high": 3.2,
+            "low": 1.3,
+            "high": 2.6,
             "direction": "-",
-            "text": "-1.6% to -3.2%"
+            "text": "-1.3% to -2.6%"
           }
         }
       ]
@@ -44,37 +44,37 @@
     {
       "sector": "Energy",
       "read": "Neutral",
-      "score": 52,
+      "score": 48,
       "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "Energy shares dragged the FTSE 100 down amid a global risk\u2011off mood triggered by a rates event.",
+          "text": "The Energy sector\u2019s mixed sentiment (48/100) is primarily driven by the recent rates event.",
           "forecast": {
             "low": 1.0,
             "high": 2.6,
-            "direction": "+",
-            "text": "+1.0% to +2.6%"
+            "direction": "-",
+            "text": "-1.0% to -2.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Banks and energy stocks led the losses, pulling the index lower.",
+          "text": "Global selloff weighing on banks and miners may indirectly pressure energy-linked financing and commodity demand.",
           "forecast": {
             "low": 1.0,
             "high": 2.6,
-            "direction": "+",
-            "text": "+1.0% to +2.6%"
+            "direction": "-",
+            "text": "-1.0% to -2.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "The broader tech and mining rout compounded the sell\u2011off, leaving energy exposed to the negative sentiment.",
+          "text": "Tech and related stocks battered in the global selloff could reduce overall market confidence, affecting energy equities.",
           "forecast": {
             "low": 1.0,
             "high": 2.6,
-            "direction": "+",
-            "text": "+1.0% to +2.6%"
+            "direction": "-",
+            "text": "-1.0% to -2.6%"
           }
         }
       ]
@@ -82,151 +82,121 @@
     {
       "sector": "Financials",
       "read": "Bearish",
-      "score": 36,
+      "score": 39,
       "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "Banks and energy shares dragging caused the Financials sector to decline.",
+          "text": "The Financials sector remains bearish primarily due to the impact of the recent rates event.",
           "forecast": {
-            "low": 2.6,
-            "high": 6.4,
+            "low": 2.4,
+            "high": 6.1,
             "direction": "-",
-            "text": "-2.6% to -6.4%"
+            "text": "-2.4% to -6.1%"
           }
         },
         {
           "role": "supporting",
-          "text": "Tech and metals rout pressured the FTSE 100, adding to the sell\u2011off in financials.",
+          "text": "Multiple FTSE 100 banks and insurers are accelerating share buybacks, signalling a focus on shareholder returns amid higher borrowing costs.",
           "forecast": {
-            "low": 2.6,
-            "high": 6.4,
+            "low": 2.4,
+            "high": 6.1,
             "direction": "-",
-            "text": "-2.6% to -6.4%"
+            "text": "-2.4% to -6.1%"
           }
         },
         {
           "role": "supporting",
-          "text": "Global risk\u2011off sentiment led to a broader slide in banks and energy, weighing on the sector.",
+          "text": "Halma\u2019s interim dividend hike and Hiscox\u2019s continued share repurchases reflect a strategy to maintain investor confidence despite a tougher rate environment.",
           "forecast": {
-            "low": 2.6,
-            "high": 6.4,
+            "low": 2.4,
+            "high": 6.1,
             "direction": "-",
-            "text": "-2.6% to -6.4%"
+            "text": "-2.4% to -6.1%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "The sector\u2019s overall sentiment is dampened by the broader macro backdrop of rising rates, which pressures profitability and valuation multiples.",
+          "forecast": {
+            "low": 2.4,
+            "high": 6.1,
+            "direction": "-",
+            "text": "-2.4% to -6.1%"
           }
         }
       ]
     },
     {
       "sector": "Healthcare",
-      "read": "Neutral",
-      "score": 40,
+      "read": "Bullish",
+      "score": 68,
       "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "The Healthcare sector is pressured by a broader market sell\u2011off, particularly in banks and energy, which has dampened investor appetite for non\u2011essential sectors.",
+          "text": "No direct impact on the Healthcare sector from the provided headlines.",
           "forecast": {
-            "low": 1.2,
-            "high": 3.0,
-            "direction": "-",
-            "text": "-1.2% to -3.0%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "The sector\u2019s bearish sentiment is amplified by the global risk\u2011off mood that has dragged down banks and energy shares, key components of the FTSE 100.",
-          "forecast": {
-            "low": 1.2,
-            "high": 3.0,
-            "direction": "-",
-            "text": "-1.2% to -3.0%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "The recent 5% decline in the FTSE 100 reflects a technology sell\u2011off that has spilled over into other sectors, including Healthcare, reducing overall market confidence.",
-          "forecast": {
-            "low": 1.2,
-            "high": 3.0,
-            "direction": "-",
-            "text": "-1.2% to -3.0%"
+            "low": 1.4,
+            "high": 3.4,
+            "direction": "+",
+            "text": "+1.4% to +3.4%"
           }
         }
       ]
     },
     {
       "sector": "Materials",
-      "read": "Bearish",
-      "score": 28,
+      "read": "Neutral",
+      "score": 52,
       "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "The Materials sector is under pressure mainly due to a global technology sell\u2011off that has triggered a metals rout.",
+          "text": "Glencore Plc\u2019s stock price movement is the primary driver affecting the Materials sector.",
           "forecast": {
-            "low": 2.2,
-            "high": 5.0,
-            "direction": "-",
-            "text": "-2.2% to -5.0%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Patrice Motsepe\u2019s $200\u202fmillion loss highlights the vulnerability of mining shares to broader market declines.",
-          "forecast": {
-            "low": 2.2,
-            "high": 5.0,
-            "direction": "-",
-            "text": "-2.2% to -5.0%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "The FTSE 100\u2019s 5\u202f% drop reflects a risk\u2011off mood that has dragged banks and energy shares, further weighing on the sector.",
-          "forecast": {
-            "low": 2.2,
-            "high": 5.0,
-            "direction": "-",
-            "text": "-2.2% to -5.0%"
+            "low": 1.6,
+            "high": 3.6,
+            "direction": "+",
+            "text": "+1.6% to +3.6%"
           }
         }
       ]
     },
     {
       "sector": "Technology",
-      "read": "Bearish",
-      "score": 23,
+      "read": "Neutral",
+      "score": 53,
       "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "The Technology sector is under pressure from a global tech sell\u2011off and a looming AI bubble burst, driving a bearish sentiment of 23/100.",
+          "text": "The Technology sector remains mixed, largely due to the impact of the recent rates event.",
           "forecast": {
-            "low": 3.9,
-            "high": 9.2,
-            "direction": "-",
-            "text": "-3.9% to -9.2%"
+            "low": 2.7,
+            "high": 6.4,
+            "direction": "+",
+            "text": "+2.7% to +6.4%"
           }
         },
         {
           "role": "supporting",
-          "text": "FTSE 100 fell 5% as global technology sell\u2011off hit London markets",
+          "text": "The sector\u2019s sentiment is dampened by the broader market reaction to rising interest rates, which has weighed on growth expectations.",
           "forecast": {
-            "low": 3.9,
-            "high": 9.2,
-            "direction": "-",
-            "text": "-3.9% to -9.2%"
+            "low": 2.7,
+            "high": 6.4,
+            "direction": "+",
+            "text": "+2.7% to +6.4%"
           }
         },
         {
           "role": "supporting",
-          "text": "UK stocks are seen as a \"best hiding place\" as the AI bubble nears burst, indicating heightened risk aversion toward tech",
+          "text": "Share buyback activity and dividend increases in other FTSE 100 companies reflect a broader shift toward shareholder returns amid a tightening monetary environment.",
           "forecast": {
-            "low": 3.9,
-            "high": 9.2,
-            "direction": "-",
-            "text": "-3.9% to -9.2%"
+            "low": 2.7,
+            "high": 6.4,
+            "direction": "+",
+            "text": "+2.7% to +6.4%"
           }
         }
       ]

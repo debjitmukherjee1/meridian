@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-11-20 14:49 UTC",
+  "updated_at": "2026-11-21 14:06 UTC",
   "market": "US",
   "index": "S&P 500",
-  "macro_theme": "Geopolitical conflict raises energy-sector risk",
-  "macro_score": 20,
-  "macro_explanation": "Broad-market headlines scored 20/100 by the model (bearish); this is the macro overlay.",
+  "macro_theme": "Consumer demand signals dominate headlines",
+  "macro_score": 50,
+  "macro_explanation": "Broad-market headlines scored 50/100 by the model (balanced); this is the macro overlay.",
   "sectors": [
     {
       "name": "Consumer Discretionary",
-      "score": 52,
-      "label": "Neutral"
+      "score": 69,
+      "label": "Bullish"
     },
     {
       "name": "Consumer Staples",
-      "score": 50,
-      "label": "Neutral"
+      "score": 63,
+      "label": "Bullish"
     },
     {
       "name": "Energy",
-      "score": 33,
-      "label": "Bearish"
+      "score": 41,
+      "label": "Neutral"
     },
     {
       "name": "Financials",
-      "score": 53,
-      "label": "Neutral"
+      "score": 35,
+      "label": "Bearish"
     },
     {
       "name": "Healthcare",
-      "score": 49,
-      "label": "Neutral"
+      "score": 61,
+      "label": "Bullish"
     },
     {
       "name": "Technology",
-      "score": 19,
+      "score": 29,
       "label": "Bearish"
     }
   ]

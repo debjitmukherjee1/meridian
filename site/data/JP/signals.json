@@ -1,90 +1,50 @@
 {
-  "updated_at": "2026-11-20 14:49 UTC",
+  "updated_at": "2026-11-21 14:06 UTC",
   "market": "JP",
-  "macro_theme": "Rate-policy commentary dominates headlines",
+  "macro_theme": "Consumer demand signals dominate headlines",
   "signals": [
     {
       "sector": "Consumer Discretionary",
-      "read": "Bearish",
-      "score": 20,
-      "event_type": "rates",
+      "read": "Neutral",
+      "score": 42,
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "AI\u2011related concerns and declining automotive sales are dragging down Japan\u2019s consumer discretionary sector.",
+          "text": "Recall of 1.6\u202fmillion vehicles over Takata airbag rupture risk dampens consumer demand for automotive products.",
           "forecast": {
-            "low": 3.2,
-            "high": 7.2,
+            "low": 2.9,
+            "high": 6.4,
             "direction": "-",
-            "text": "-3.2% to -7.2%"
+            "text": "-2.9% to -6.4%"
           }
         },
         {
           "role": "supporting",
-          "text": "AI uncertainty is eroding confidence in tech and chip stocks, contributing to a 5% Nikkei decline.",
+          "text": "Commercial car imports widen consumer choice, increasing competition for domestic automakers.",
           "forecast": {
-            "low": 3.2,
-            "high": 7.2,
+            "low": 2.9,
+            "high": 6.4,
             "direction": "-",
-            "text": "-3.2% to -7.2%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Automakers are experiencing a third consecutive year of falling sales as China gains market share, weakening the sector\u2019s earnings outlook.",
-          "forecast": {
-            "low": 3.2,
-            "high": 7.2,
-            "direction": "-",
-            "text": "-3.2% to -7.2%"
+            "text": "-2.9% to -6.4%"
           }
         }
       ]
     },
     {
       "sector": "Energy",
-      "read": "Bearish",
-      "score": 24,
-      "event_type": "rates",
+      "read": "Neutral",
+      "score": 47,
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "AI\u2011related concerns triggered a broad market sell\u2011off that indirectly pressured the Energy sector.",
+          "text": "No direct impact on the Energy sector from the provided headlines.",
           "forecast": {
-            "low": 1.5,
-            "high": 3.8,
+            "low": 2.7,
+            "high": 6.4,
             "direction": "-",
-            "text": "-1.5% to -3.8%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "AI uncertainty has heightened volatility across Japanese stocks, dampening investor confidence.",
-          "forecast": {
-            "low": 1.5,
-            "high": 3.8,
-            "direction": "-",
-            "text": "-1.5% to -3.8%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Cooling enthusiasm for AI has led to significant losses in tech and chip stocks, pulling down the market.",
-          "forecast": {
-            "low": 1.5,
-            "high": 3.8,
-            "direction": "-",
-            "text": "-1.5% to -3.8%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "The overall negative sentiment from AI\u2011related news has compounded the bearish stance on Energy amid a rates event.",
-          "forecast": {
-            "low": 1.5,
-            "high": 3.8,
-            "direction": "-",
-            "text": "-1.5% to -3.8%"
+            "text": "-2.7% to -6.4%"
           }
         }
       ]
@@ -92,143 +52,133 @@
     {
       "sector": "Financials",
       "read": "Bearish",
-      "score": 25,
-      "event_type": "rates",
+      "score": 34,
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "AI concerns and anticipated rate hikes are jointly weighing on Japanese financials, leading to a sharp decline in the Nikkei and a slide in bank shares.",
+          "text": "Bank shares in the Financials sector are declining as tighter monetary policy dampens demand for loans and investment banking services.",
           "forecast": {
-            "low": 3.0,
-            "high": 7.5,
+            "low": 2.0,
+            "high": 4.6,
             "direction": "-",
-            "text": "-3.0% to -7.5%"
+            "text": "-2.0% to -4.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "AI uncertainty has caused significant losses in tech and chip stocks, dragging the Nikkei down 5%",
+          "text": "Mitsubishi UFJ Financial Group shares fell 4.9% amid concerns over higher rates",
           "forecast": {
-            "low": 3.0,
-            "high": 7.5,
+            "low": 2.0,
+            "high": 4.6,
             "direction": "-",
-            "text": "-3.0% to -7.5%"
+            "text": "-2.0% to -4.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Ueda\u2019s vow of further rate rises has pressured bank shares, including Mitsubishi UFJ, pushing them below key moving averages",
+          "text": "Japan's bank shares slid even as Ueda pledged further rate hikes",
           "forecast": {
-            "low": 3.0,
-            "high": 7.5,
+            "low": 2.0,
+            "high": 4.6,
             "direction": "-",
-            "text": "-3.0% to -7.5%"
+            "text": "-2.0% to -4.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Tokyo stocks remain volatile as investors grapple with both AI and monetary policy risks",
+          "text": "The sector faces a broader demand shock from a tightening global economic outlook",
           "forecast": {
-            "low": 3.0,
-            "high": 7.5,
+            "low": 2.0,
+            "high": 4.6,
             "direction": "-",
-            "text": "-3.0% to -7.5%"
+            "text": "-2.0% to -4.6%"
           }
         }
       ]
     },
     {
       "sector": "Healthcare",
-      "read": "Neutral",
-      "score": 52,
-      "event_type": "rates",
+      "read": "Bullish",
+      "score": 61,
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "AI concerns and a forthcoming rates event are weighing on the Japanese market, leaving the Healthcare sector largely neutral while tech and chip stocks suffer.",
+          "text": "Takeda\u2019s launch of ORZEYFUL is driving a bullish sentiment in the Healthcare sector.",
           "forecast": {
-            "low": 1.0,
-            "high": 2.6,
+            "low": 1.2,
+            "high": 3.0,
             "direction": "+",
-            "text": "+1.0% to +2.6%"
+            "text": "+1.2% to +3.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "Takeda\u2019s ORZEYFUL launch may provide a modest lift for the Healthcare sector",
+          "text": "The new oncology drug is expected to meet unmet patient needs, boosting demand for advanced therapies.",
           "forecast": {
-            "low": 1.0,
-            "high": 2.6,
+            "low": 1.2,
+            "high": 3.0,
             "direction": "+",
-            "text": "+1.0% to +2.6%"
+            "text": "+1.2% to +3.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "AI uncertainty is driving volatility in Tokyo stocks, indirectly affecting sector sentiment",
+          "text": "Takeda\u2019s strong pipeline and recent clinical successes are likely to attract additional investment into the sector.",
           "forecast": {
-            "low": 1.0,
-            "high": 2.6,
+            "low": 1.2,
+            "high": 3.0,
             "direction": "+",
-            "text": "+1.0% to +2.6%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "The upcoming rates event is a key backdrop for the mixed sentiment in Healthcare",
-          "forecast": {
-            "low": 1.0,
-            "high": 2.6,
-            "direction": "+",
-            "text": "+1.0% to +2.6%"
+            "text": "+1.2% to +3.0%"
           }
         }
       ]
     },
     {
       "sector": "Industrials",
-      "read": "Bearish",
-      "score": 24,
-      "event_type": "rates",
+      "read": "Neutral",
+      "score": 47,
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "AI concerns and cooling enthusiasm for AI are driving a sharp decline in Japanese tech and chip stocks, weighing on the Industrials sector.",
+          "text": "Climate talks may lead to stricter emissions regulations, impacting industrial manufacturing",
           "forecast": {
-            "low": 2.3,
-            "high": 5.3,
+            "low": 2.1,
+            "high": 4.8,
             "direction": "-",
-            "text": "-2.3% to -5.3%"
+            "text": "-2.1% to -4.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "Nikkei drops 5% amid losses linked to cooling enthusiasm for AI",
+          "text": "Japan stamp maker\u2019s entry into AI could accelerate automation in industrial production",
           "forecast": {
-            "low": 2.3,
-            "high": 5.3,
+            "low": 2.1,
+            "high": 4.8,
             "direction": "-",
-            "text": "-2.3% to -5.3%"
+            "text": "-2.1% to -4.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "AI uncertainty is keeping Tokyo stocks volatile and contributing to lower tech and chip shares",
+          "text": "UN talks on regulating autonomous weapons could influence defense manufacturing, a subset of industrials",
           "forecast": {
-            "low": 2.3,
-            "high": 5.3,
+            "low": 2.1,
+            "high": 4.8,
             "direction": "-",
-            "text": "-2.3% to -5.3%"
+            "text": "-2.1% to -4.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "Chip concerns are a key factor in the broader market sell\u2011off",
+          "text": "The focus on global warming may drive demand for green industrial technologies",
           "forecast": {
-            "low": 2.3,
-            "high": 5.3,
+            "low": 2.1,
+            "high": 4.8,
             "direction": "-",
-            "text": "-2.3% to -5.3%"
+            "text": "-2.1% to -4.8%"
           }
         }
       ]
@@ -236,47 +186,47 @@
     {
       "sector": "Technology",
       "read": "Bearish",
-      "score": 10,
-      "event_type": "rates",
+      "score": 29,
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "AI\u2011related concerns and cooling enthusiasm for AI have driven a 5% drop in the Nikkei 225, weighing heavily on the Technology sector.",
+          "text": "Investor concerns over AI exposure drive a sharp sell\u2011off in the Technology sector.",
           "forecast": {
-            "low": 4.5,
-            "high": 10.8,
+            "low": 2.8,
+            "high": 6.4,
             "direction": "-",
-            "text": "-4.5% to -10.8%"
+            "text": "-2.8% to -6.4%"
           }
         },
         {
           "role": "supporting",
-          "text": "SoftBank shares fell 14.5%, the biggest one\u2011day decline in two years, reflecting broader AI market uncertainty.",
+          "text": "SoftBank shares retreat as investors rethink the price of AI exposure",
           "forecast": {
-            "low": 4.5,
-            "high": 10.8,
+            "low": 2.8,
+            "high": 6.4,
             "direction": "-",
-            "text": "-4.5% to -10.8%"
+            "text": "-2.8% to -6.4%"
           }
         },
         {
           "role": "supporting",
-          "text": "Nikkei 225 losses were linked to losses in AI and chip stocks, indicating sector\u2011specific weakness.",
+          "text": "SoftBank shares crash 14.5%, the biggest 1\u2011day fall in 2 years, following Anthropic\u2019s strong IPO debut failure to revive AI trade",
           "forecast": {
-            "low": 4.5,
-            "high": 10.8,
+            "low": 2.8,
+            "high": 6.4,
             "direction": "-",
-            "text": "-4.5% to -10.8%"
+            "text": "-2.8% to -6.4%"
           }
         },
         {
           "role": "supporting",
-          "text": "Tokyo stocks are expected to remain volatile next week amid ongoing AI uncertainty, suggesting continued pressure on tech equities.",
+          "text": "The AI\u2011related demand shock is amplified by the broader market\u2019s reassessment of AI\u2011heavy valuations",
           "forecast": {
-            "low": 4.5,
-            "high": 10.8,
+            "low": 2.8,
+            "high": 6.4,
             "direction": "-",
-            "text": "-4.5% to -10.8%"
+            "text": "-2.8% to -6.4%"
           }
         }
       ]
