@@ -42,8 +42,8 @@ try:
 except ImportError:
     requests = None
 
-GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
-GROQ_MODEL = "llama-3.1-8b-instant"
+# Groq calls go through score_sentiment._chat (config.GROQ_MODELS). The old
+# hard-coded llama-3.1-8b-instant was shut down on 16-Aug-2026.
 
 
 def _retry(fn, attempts=3, backoff=(1, 2)):
@@ -278,12 +278,8 @@ def _groq_macro_narrative(market, data):
         f"figures paint -- inflation trend, growth momentum, labor-market slack, policy stance. "
         f'Return JSON exactly like: {{"narrative": "..."}}'
     )
-    body = {"model": GROQ_MODEL, "messages": [{"role": "user", "content": prompt}],
-            "response_format": {"type": "json_object"}}
-    r = requests.post(GROQ_URL, headers={"Authorization": f"Bearer {config.GROQ_KEY}"},
-                       json=body, timeout=30)
-    r.raise_for_status()
-    obj = json.loads(r.json()["choices"][0]["message"]["content"])
+    import score_sentiment  # shared caller: current model list, rate-limit retries
+    obj = score_sentiment._chat(prompt)
     text = obj.get("narrative")
     if not isinstance(text, str) or not text.strip():
         raise RuntimeError("empty/invalid narrative from Groq")

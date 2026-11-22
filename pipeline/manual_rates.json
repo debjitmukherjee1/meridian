@@ -1,31 +1,31 @@
 {
   "_comment": "Manual central-bank policy-rate fallback, read by fetch_macro.py. Used ALWAYS for IN (no reliable FRED series exists for RBI's repo rate) and as a fallback for US/UK/JP if FRED_KEY is unset or the FRED call fails. Update after each central-bank meeting; two-source-check before editing.",
   "IN": {
-    "rate_pct": 5.25,
-    "as_of": "2026-06-05",
+    "rate_pct": 5.5,
+    "as_of": "2026-10-07",
     "source": "RBI Monetary Policy Committee",
-    "source_url": "https://www.rbi.org.in/scripts/annualpolicy.aspx",
-    "note": "Repo rate, held at 5.25% (unchanged since the 2025-12-05 cut from 5.50%). Next MPC meeting: 2026-08-03/05."
+    "source_url": "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63742",
+    "note": "Repo rate raised 25bp to 5.50% (unanimous) at the 5-7 Oct 2026 MPC; stance changed to calibrated tightening."
   },
   "US": {
-    "rate_pct": 3.625,
-    "as_of": "2026-06-17",
+    "rate_pct": 3.875,
+    "as_of": "2026-10-28",
     "source": "Federal Reserve (FOMC)",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
-    "note": "Midpoint of the FOMC's target range, held at 3.50%–3.75% since the 2026-06-17 meeting."
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+    "note": "Midpoint of the 3.75%-4.00% target range: raised 25bp on 2026-09-16, held 10-2 on 2026-10-28. Next meeting 8-9 Dec 2026."
   },
   "UK": {
-    "rate_pct": 3.75,
-    "as_of": "2026-06-18",
+    "rate_pct": 4.0,
+    "as_of": "2026-11-05",
     "source": "Bank of England (MPC)",
-    "source_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/june-2026",
-    "note": "Bank Rate, held at 3.75% (7–2 vote) at the meeting ending 2026-06-17, announced 2026-06-18."
+    "source_url": "https://www.bankofengland.co.uk/monetary-policy-report/2026/November-2026",
+    "note": "Bank Rate raised 25bp to 4.00% (8-1; one vote for 4.25%) at the meeting ending 2026-11-04, announced 2026-11-05. Next announcement 17 Dec 2026."
   },
   "JP": {
-    "rate_pct": 1.00,
-    "as_of": "2026-06-16",
+    "rate_pct": 1.25,
+    "as_of": "2026-10-30",
     "source": "Bank of Japan",
-    "source_url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260616a.pdf",
-    "note": "Policy rate, raised 25bp to 1.00% (7–1 vote) on 2026-06-16 — highest since 1995."
+    "source_url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918a.pdf",
+    "note": "Policy rate raised to 1.25% on 2026-09-18; held 8-1 on 2026-10-30. Next meeting 17-18 Dec 2026."
   }
 }
