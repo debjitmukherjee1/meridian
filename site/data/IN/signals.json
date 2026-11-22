@@ -1,80 +1,70 @@
 {
-  "updated_at": "2026-11-22 07:17 UTC",
+  "updated_at": "2026-11-22 13:57 UTC",
   "market": "IN",
-  "macro_theme": "Rate-policy commentary dominates headlines",
+  "macro_theme": "Mixed macro signals; no single theme dominates",
   "signals": [
     {
       "sector": "Consumer Discretionary",
       "read": "Bullish",
-      "score": 66,
-      "event_type": "rates",
+      "score": 62,
+      "event_type": "default",
       "drivers": [
         {
           "role": "main",
-          "text": "Record auto retail sales in September, up 31.82% YoY, provide a significant boost to the Consumer Discretionary sector.",
+          "text": "Maruti Suzuki\u2019s 0.31% price hike on select models signals rising cost pressures that could compress margins for the Consumer Discretionary sector.",
           "forecast": {
-            "low": 2.6,
-            "high": 5.9,
+            "low": 1.9,
+            "high": 4.3,
             "direction": "+",
-            "text": "+2.6% to +5.9%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "FPI buying in Indian markets is shifting away from AI-related stocks, increasing exposure to consumer discretionary names.",
-          "forecast": {
-            "low": 2.6,
-            "high": 5.9,
-            "direction": "+",
-            "text": "+2.6% to +5.9%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "FIIs poured a record Rs\u202f1.12\u202flakh crore into Indian markets as the banking rally lifted overall market sentiment.",
-          "forecast": {
-            "low": 2.6,
-            "high": 5.9,
-            "direction": "+",
-            "text": "+2.6% to +5.9%"
+            "text": "+1.9% to +4.3%"
           }
         }
       ]
     },
     {
       "sector": "Consumer Staples",
-      "read": "Bullish",
-      "score": 61,
-      "event_type": "rates",
+      "read": "Neutral",
+      "score": 56,
+      "event_type": "default",
       "drivers": [
         {
           "role": "main",
-          "text": "FII inflows into Indian equities are boosting the Consumer Staples sector.",
+          "text": "Consumer Staples gains driven by strong FII inflows and a banking sector rally that lifted overall market sentiment.",
           "forecast": {
-            "low": 1.2,
-            "high": 2.4,
+            "low": 0.6,
+            "high": 2.2,
             "direction": "+",
-            "text": "+1.2% to +2.4%"
+            "text": "+0.6% to +2.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "Banking rally has attracted record FII buying, lifting overall market sentiment.",
+          "text": "Record FII inflows of Rs\u202f1.12\u202flakh crore into Indian equity markets",
           "forecast": {
-            "low": 1.2,
-            "high": 2.4,
+            "low": 0.6,
+            "high": 2.2,
             "direction": "+",
-            "text": "+1.2% to +2.4%"
+            "text": "+0.6% to +2.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "Equity LTCG tax abolition is expected to increase FPI inflows and mutual fund investments, benefiting defensive sectors like Consumer Staples.",
+          "text": "Banking sector rally boosting market momentum",
           "forecast": {
-            "low": 1.2,
-            "high": 2.4,
+            "low": 0.6,
+            "high": 2.2,
             "direction": "+",
-            "text": "+1.2% to +2.4%"
+            "text": "+0.6% to +2.2%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Nifty\u202f50 reaching a nine\u2011month high as foreign buying lifts stocks",
+          "forecast": {
+            "low": 0.6,
+            "high": 2.2,
+            "direction": "+",
+            "text": "+0.6% to +2.2%"
           }
         }
       ]
@@ -82,47 +72,47 @@
     {
       "sector": "Energy",
       "read": "Bullish",
-      "score": 64,
-      "event_type": "rates",
+      "score": 62,
+      "event_type": "default",
       "drivers": [
         {
           "role": "main",
-          "text": "Higher interest rates are supporting the Energy sector as they lift commodity prices and attract investor inflows.",
+          "text": "The Energy sector is benefiting from a surge in crude oil prices and favorable global demand trends.",
           "forecast": {
-            "low": 1.3,
-            "high": 3.2,
+            "low": 1.9,
+            "high": 4.3,
             "direction": "+",
-            "text": "+1.3% to +3.2%"
+            "text": "+1.9% to +4.3%"
           }
         },
         {
           "role": "supporting",
-          "text": "US inflation data could prompt rate hikes, which historically boost energy demand and prices.",
+          "text": "Crude oil price increases are driving higher earnings expectations for energy companies.",
           "forecast": {
-            "low": 1.3,
-            "high": 3.2,
+            "low": 1.9,
+            "high": 4.3,
             "direction": "+",
-            "text": "+1.3% to +3.2%"
+            "text": "+1.9% to +4.3%"
           }
         },
         {
           "role": "supporting",
-          "text": "Record FII buying into Indian markets, including energy stocks, signals strong capital inflows.",
+          "text": "Global macro\u2011economic trends are supporting demand for energy, boosting sector sentiment.",
           "forecast": {
-            "low": 1.3,
-            "high": 3.2,
+            "low": 1.9,
+            "high": 4.3,
             "direction": "+",
-            "text": "+1.3% to +3.2%"
+            "text": "+1.9% to +4.3%"
           }
         },
         {
           "role": "supporting",
-          "text": "Jefferies\u2019 upgrade of India allocation reflects growing confidence in Indian equities, benefiting the Energy sector.",
+          "text": "Foreign portfolio inflows are allocating capital into energy equities, reinforcing the bullish outlook.",
           "forecast": {
-            "low": 1.3,
-            "high": 3.2,
+            "low": 1.9,
+            "high": 4.3,
             "direction": "+",
-            "text": "+1.3% to +3.2%"
+            "text": "+1.9% to +4.3%"
           }
         }
       ]
@@ -130,37 +120,37 @@
     {
       "sector": "Financials",
       "read": "Bullish",
-      "score": 72,
-      "event_type": "rates",
+      "score": 63,
+      "event_type": "default",
       "drivers": [
         {
           "role": "main",
-          "text": "FII inflows and a banking rally are propelling the Financials sector higher.",
+          "text": "Record FII inflows of Rs\u202f1.12\u202flakh crore into banking stocks are driving a bullish sentiment in the Financials sector.",
           "forecast": {
-            "low": 2.9,
-            "high": 7.2,
+            "low": 1.3,
+            "high": 3.1,
             "direction": "+",
-            "text": "+2.9% to +7.2%"
+            "text": "+1.3% to +3.1%"
           }
         },
         {
           "role": "supporting",
-          "text": "Record FII buying of Rs\u202f1.12\u202flakh crore as banking stocks lead the rally",
+          "text": "Banking rally has lifted the Nifty and attracted foreign buying, pushing the Nifty 50 to a nine\u2011month high.",
           "forecast": {
-            "low": 2.9,
-            "high": 7.2,
+            "low": 1.3,
+            "high": 3.1,
             "direction": "+",
-            "text": "+2.9% to +7.2%"
+            "text": "+1.3% to +3.1%"
           }
         },
         {
           "role": "supporting",
-          "text": "Nifty and Sensex closing at nine\u2011month highs, driven largely by bank shares",
+          "text": "Foreign portfolio inflows are supporting the sector\u2019s momentum amid a holiday\u2011shortened week.",
           "forecast": {
-            "low": 2.9,
-            "high": 7.2,
+            "low": 1.3,
+            "high": 3.1,
             "direction": "+",
-            "text": "+2.9% to +7.2%"
+            "text": "+1.3% to +3.1%"
           }
         }
       ]
@@ -168,17 +158,47 @@
     {
       "sector": "Healthcare",
       "read": "Bullish",
-      "score": 69,
-      "event_type": "rates",
+      "score": 62,
+      "event_type": "default",
       "drivers": [
         {
           "role": "main",
-          "text": "No significant impact identified.",
+          "text": "Healthcare sector gains as pharma stocks lead the market rally.",
           "forecast": {
-            "low": 1.4,
-            "high": 3.4,
+            "low": 1.2,
+            "high": 3.1,
             "direction": "+",
-            "text": "+1.4% to +3.4%"
+            "text": "+1.2% to +3.1%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Foreign institutional investors pour record inflows, boosting overall market sentiment.",
+          "forecast": {
+            "low": 1.2,
+            "high": 3.1,
+            "direction": "+",
+            "text": "+1.2% to +3.1%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Banking sector rally lifts investor confidence, supporting broader equity gains.",
+          "forecast": {
+            "low": 1.2,
+            "high": 3.1,
+            "direction": "+",
+            "text": "+1.2% to +3.1%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Nifty 50 reaches nine\u2011month high, reflecting strong foreign buying across sectors, including healthcare.",
+          "forecast": {
+            "low": 1.2,
+            "high": 3.1,
+            "direction": "+",
+            "text": "+1.2% to +3.1%"
           }
         }
       ]
@@ -186,37 +206,47 @@
     {
       "sector": "Technology",
       "read": "Bullish",
-      "score": 66,
-      "event_type": "rates",
+      "score": 65,
+      "event_type": "default",
       "drivers": [
         {
           "role": "main",
-          "text": "FII inflows and a banking rally are driving the Technology sector higher amid a bullish sentiment.",
+          "text": "India\u2019s anti\u2011AI stance is boosting the Technology sector\u2019s bullish sentiment.",
           "forecast": {
-            "low": 3.3,
-            "high": 7.9,
+            "low": 2.0,
+            "high": 4.5,
             "direction": "+",
-            "text": "+3.3% to +7.9%"
+            "text": "+2.0% to +4.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "AI sell\u2011off has tempered gains, adding complexity to the sector\u2019s outlook.",
+          "text": "Record FII inflows of Rs\u202f1.12\u202flakh crore are lifting the broader market, including tech stocks.",
           "forecast": {
-            "low": 3.3,
-            "high": 7.9,
+            "low": 2.0,
+            "high": 4.5,
             "direction": "+",
-            "text": "+3.3% to +7.9%"
+            "text": "+2.0% to +4.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "Equity LTCG tax abolition could spur additional FPI inflows into IT stocks.",
+          "text": "Nifty 50\u2019s nine\u2011month high, driven by foreign buying, lifts the technology index.",
           "forecast": {
-            "low": 3.3,
-            "high": 7.9,
+            "low": 2.0,
+            "high": 4.5,
             "direction": "+",
-            "text": "+3.3% to +7.9%"
+            "text": "+2.0% to +4.5%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Banking rally and flat market opening with financial shares dragging provide a supportive backdrop for tech gains.",
+          "forecast": {
+            "low": 2.0,
+            "high": 4.5,
+            "direction": "+",
+            "text": "+2.0% to +4.5%"
           }
         }
       ]

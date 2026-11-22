@@ -1,22 +1,52 @@
 {
-  "updated_at": "2026-11-22 07:17 UTC",
+  "updated_at": "2026-11-22 13:57 UTC",
   "market": "UK",
-  "macro_theme": "Regulatory scrutiny dominates today's headlines",
+  "macro_theme": "Mixed macro signals; no single theme dominates",
   "signals": [
     {
       "sector": "Consumer Staples",
       "read": "Neutral",
-      "score": 51,
-      "event_type": "regulatory",
+      "score": 50,
+      "event_type": "default",
       "drivers": [
         {
           "role": "main",
-          "text": "The court\u2019s ban on green labels could be a game changer for Unilever, adding regulatory uncertainty to the Consumer Staples sector.",
+          "text": "The Consumer Staples sector is being weighed down by a broader market sell\u2011off and weak UK retail data, while a modest lift in gold prices supports some peers.",
           "forecast": {
-            "low": 1.0,
-            "high": 2.5,
+            "low": 0.5,
+            "high": 2.0,
             "direction": "+",
-            "text": "+1.0% to +2.5%"
+            "text": "+0.5% to +2.0%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Metals and tech rout dragging the FTSE 100 lower, impacting related staples stocks",
+          "forecast": {
+            "low": 0.5,
+            "high": 2.0,
+            "direction": "+",
+            "text": "+0.5% to +2.0%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Positive UK retail data fails to rescue the index, signalling weak consumer demand",
+          "forecast": {
+            "low": 0.5,
+            "high": 2.0,
+            "direction": "+",
+            "text": "+0.5% to +2.0%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Geopolitical tensions (UK\u2011EU deal, US\u2011Iran) contributing to market volatility",
+          "forecast": {
+            "low": 0.5,
+            "high": 2.0,
+            "direction": "+",
+            "text": "+0.5% to +2.0%"
           }
         }
       ]
@@ -24,47 +54,47 @@
     {
       "sector": "Energy",
       "read": "Neutral",
-      "score": 50,
-      "event_type": "regulatory",
+      "score": 40,
+      "event_type": "default",
       "drivers": [
         {
           "role": "main",
-          "text": "Regulatory changes in the UK and European offshore energy markets are reshaping company strategies, prompting shifts in asset ownership and operational focus.",
+          "text": "The Energy sector remains bearish as a broader market selloff drags down miners and energy stocks.",
           "forecast": {
-            "low": 1.5,
-            "high": 4.0,
-            "direction": "+",
-            "text": "+1.5% to +4.0%"
+            "low": 1.8,
+            "high": 4.2,
+            "direction": "-",
+            "text": "-1.8% to -4.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "Shell\u2019s transfer of its North West Shelf LNG stake to ADNOC reflects new regulatory pressures on LNG infrastructure ownership.",
+          "text": "FTSE 100 falls amid the new UK\u2011EU deal and US\u2011Iran tensions, weighing on energy shares",
           "forecast": {
-            "low": 1.5,
-            "high": 4.0,
-            "direction": "+",
-            "text": "+1.5% to +4.0%"
+            "low": 1.8,
+            "high": 4.2,
+            "direction": "-",
+            "text": "-1.8% to -4.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "Pensana\u2019s progress on Longonjo milestones indicates a strategic pivot to meet evolving environmental and licensing requirements.",
+          "text": "European stocks are down, reflecting a continent\u2011wide selloff that includes energy companies",
           "forecast": {
-            "low": 1.5,
-            "high": 4.0,
-            "direction": "+",
-            "text": "+1.5% to +4.0%"
+            "low": 1.8,
+            "high": 4.2,
+            "direction": "-",
+            "text": "-1.8% to -4.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "Serica Energy\u2019s new rig contract with Beacon Pacific underscores the need for flexible, compliant offshore operations amid tightening regulations.",
+          "text": "UK stocks sink as a global selloff weighs on banks and miners, further depressing the sector",
           "forecast": {
-            "low": 1.5,
-            "high": 4.0,
-            "direction": "+",
-            "text": "+1.5% to +4.0%"
+            "low": 1.8,
+            "high": 4.2,
+            "direction": "-",
+            "text": "-1.8% to -4.2%"
           }
         }
       ]
@@ -72,65 +102,65 @@
     {
       "sector": "Financials",
       "read": "Neutral",
-      "score": 51,
-      "event_type": "regulatory",
+      "score": 46,
+      "event_type": "default",
       "drivers": [
         {
           "role": "main",
-          "text": "HSBC Holdings PLC shares fell 4.0%, reflecting regulatory scrutiny and investor concern over its financial performance.",
+          "text": "The Financials sector is weighed down by a broad FTSE 100 decline, largely driven by a rout in metals and technology stocks that has dragged down the index.",
           "forecast": {
-            "low": 1.5,
-            "high": 4.6,
-            "direction": "+",
-            "text": "+1.5% to +4.6%"
+            "low": 1.1,
+            "high": 2.7,
+            "direction": "-",
+            "text": "-1.1% to -2.7%"
           }
         },
         {
           "role": "supporting",
-          "text": "Regulatory scrutiny of HSBC\u2019s operations has heightened risk perception among investors.",
+          "text": "Uncertainty surrounding the new UK\u2011EU deal has added pressure to the market.",
           "forecast": {
-            "low": 1.5,
-            "high": 4.6,
-            "direction": "+",
-            "text": "+1.5% to +4.6%"
+            "low": 1.1,
+            "high": 2.7,
+            "direction": "-",
+            "text": "-1.1% to -2.7%"
           }
         },
         {
           "role": "supporting",
-          "text": "Market volatility in the UK financial sector has amplified the impact of the fall.",
+          "text": "Tensions between the US and Iran have heightened geopolitical risk, contributing to the sell\u2011off.",
           "forecast": {
-            "low": 1.5,
-            "high": 4.6,
-            "direction": "+",
-            "text": "+1.5% to +4.6%"
+            "low": 1.1,
+            "high": 2.7,
+            "direction": "-",
+            "text": "-1.1% to -2.7%"
           }
         },
         {
           "role": "supporting",
-          "text": "Investor sentiment has been dampened by broader concerns over the banking sector\u2019s resilience.",
+          "text": "A general European stock sell\u2011off has compounded the downward momentum in the FTSE 100.",
           "forecast": {
-            "low": 1.5,
-            "high": 4.6,
-            "direction": "+",
-            "text": "+1.5% to +4.6%"
+            "low": 1.1,
+            "high": 2.7,
+            "direction": "-",
+            "text": "-1.1% to -2.7%"
           }
         }
       ]
     },
     {
       "sector": "Healthcare",
-      "read": "Bullish",
-      "score": 67,
-      "event_type": "regulatory",
+      "read": "Bearish",
+      "score": 36,
+      "event_type": "default",
       "drivers": [
         {
           "role": "main",
-          "text": "",
+          "text": "The Healthcare sector remains bearish, driven primarily by the default event.",
           "forecast": {
-            "low": 2.7,
-            "high": 6.7,
-            "direction": "+",
-            "text": "+2.7% to +6.7%"
+            "low": 1.3,
+            "high": 3.2,
+            "direction": "-",
+            "text": "-1.3% to -3.2%"
           }
         }
       ]
@@ -138,47 +168,37 @@
     {
       "sector": "Materials",
       "read": "Neutral",
-      "score": 57,
-      "event_type": "regulatory",
+      "score": 40,
+      "event_type": "default",
       "drivers": [
         {
           "role": "main",
-          "text": "Shell\u2019s transfer of its North West Shelf LNG stake to ADNOC strengthens LNG infrastructure, supporting the materials sector\u2019s bullish outlook.",
+          "text": "Glencore\u2019s 28% share price collapse has weighed heavily on the Materials sector, reinforcing its bearish stance.",
           "forecast": {
-            "low": 1.7,
-            "high": 4.0,
-            "direction": "+",
-            "text": "+1.7% to +4.0%"
+            "low": 1.8,
+            "high": 4.8,
+            "direction": "-",
+            "text": "-1.8% to -4.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "Pensana\u2019s progress at Longonjo signals continued investment in mining assets.",
+          "text": "Gold price gains have been insufficient to offset the negative sentiment from Glencore\u2019s sharp decline.",
           "forecast": {
-            "low": 1.7,
-            "high": 4.0,
-            "direction": "+",
-            "text": "+1.7% to +4.0%"
+            "low": 1.8,
+            "high": 4.8,
+            "direction": "-",
+            "text": "-1.8% to -4.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "Serica Energy\u2019s new Beacon Pacific rig contract indicates expanding offshore drilling activity.",
+          "text": "The broader FTSE 100 slide, driven by global tensions and weak retail data, has compounded pressure on metals stocks.",
           "forecast": {
-            "low": 1.7,
-            "high": 4.0,
-            "direction": "+",
-            "text": "+1.7% to +4.0%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Sunrise Energy Metals\u2019 valuation debate highlights investor interest in metal production stocks.",
-          "forecast": {
-            "low": 1.7,
-            "high": 4.0,
-            "direction": "+",
-            "text": "+1.7% to +4.0%"
+            "low": 1.8,
+            "high": 4.8,
+            "direction": "-",
+            "text": "-1.8% to -4.8%"
           }
         }
       ]
@@ -186,17 +206,47 @@
     {
       "sector": "Technology",
       "read": "Neutral",
-      "score": 52,
-      "event_type": "regulatory",
+      "score": 49,
+      "event_type": "default",
       "drivers": [
         {
           "role": "main",
-          "text": "No technology sector headlines were provided, so there is no direct impact on the Technology sector from the supplied news.",
+          "text": "Technology stocks were dragged lower by a broader market sell\u2011off amid geopolitical tensions and weak retail data.",
           "forecast": {
-            "low": 2.1,
-            "high": 5.2,
-            "direction": "+",
-            "text": "+2.1% to +5.2%"
+            "low": 1.5,
+            "high": 3.6,
+            "direction": "-",
+            "text": "-1.5% to -3.6%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Metals and tech rout after weak UK retail data failed to rescue the FTSE 100.",
+          "forecast": {
+            "low": 1.5,
+            "high": 3.6,
+            "direction": "-",
+            "text": "-1.5% to -3.6%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "FTSE 100 fell amid the new UK\u2011EU deal and US\u2011Iran tensions, pulling tech shares down.",
+          "forecast": {
+            "low": 1.5,
+            "high": 3.6,
+            "direction": "-",
+            "text": "-1.5% to -3.6%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "European stocks sold off, adding pressure to the London market and its technology constituents.",
+          "forecast": {
+            "low": 1.5,
+            "high": 3.6,
+            "direction": "-",
+            "text": "-1.5% to -3.6%"
           }
         }
       ]

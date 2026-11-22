@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-11-22 07:17 UTC",
+  "updated_at": "2026-11-22 13:57 UTC",
   "market": "JP",
   "index": "Nikkei 225",
   "macro_theme": "Geopolitical conflict raises energy-sector risk",
-  "macro_score": 52,
-  "macro_explanation": "Broad-market headlines scored 52/100 by the model (balanced); this is the macro overlay.",
+  "macro_score": 50,
+  "macro_explanation": "Broad-market headlines scored 50/100 by the model (balanced); this is the macro overlay.",
   "sectors": [
     {
       "name": "Consumer Discretionary",
-      "score": 45,
+      "score": 43,
       "label": "Neutral"
     },
     {
       "name": "Energy",
-      "score": 51,
+      "score": 50,
       "label": "Neutral"
     },
     {
@@ -23,17 +23,17 @@
     },
     {
       "name": "Healthcare",
-      "score": 57,
+      "score": 50,
       "label": "Neutral"
     },
     {
       "name": "Industrials",
-      "score": 52,
+      "score": 50,
       "label": "Neutral"
     },
     {
       "name": "Technology",
-      "score": 30,
+      "score": 36,
       "label": "Bearish"
     }
   ]

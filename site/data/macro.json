@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22 07:17 UTC",
+  "updated_at": "2026-11-22 13:57 UTC",
   "markets": {
     "IN": {
       "cpi": {
@@ -1279,7 +1279,7 @@
           }
         ]
       },
-      "narrative": "India\u2019s inflation remains above the RBI\u2019s 4% target at 5.57% YoY, while the economy is still expanding strongly at 8.1% real GDP growth in Q2 2026. Labor\u2011market slack is moderate with unemployment at 4.9%, and the RBI has tightened policy, raising the repo rate by 25 basis points to 5.50% on 5\u20117\u202fOct\u202f2026, signalling a calibrated tightening stance. The rupee trades at 92.68 per dollar as of 20\u202fNov\u202f2026, reflecting a relatively stable currency position."
+      "narrative": "Inflation remains above the RBI\u2019s 4% target at 5.57% YoY, while growth is robust at 8.1% in Q2 2026, indicating a strong economic engine. Labor\u2011market slack is moderate with unemployment at 4.9%, and the RBI has tightened policy, raising the repo rate by 25 basis points to 5.50% on 5\u20117\u202fOct\u202f2026, signalling a calibrated tightening stance. The currency is trading at 92.68 INR per USD as of 20\u202fNov\u202f2026, reflecting a relatively stable exchange rate."
     },
     "US": {
       "cpi": {
@@ -1797,7 +1797,7 @@
         "series": [],
         "note": "USD is Meridian's reference currency for this comparison; no vs-USD series applies."
       },
-      "narrative": "Inflation remains moderate at 3.74% YoY, while real GDP growth is healthy at 2.07% in Q3 2026, indicating solid economic momentum. The labor market is tight with unemployment at 4.1% as of October 2026, showing limited slack. The Fed has raised its policy rate from 3.75% in September to 3.88% in October, signalling a tightening stance."
+      "narrative": "Inflation remains above the 2% target at 3.74% YoY, while real GDP growth is modestly positive at 2.07% in Q3 2026, indicating a still\u2011expanding economy. The labor market is tight, with unemployment at 4.1% in October 2026, suggesting limited slack. The Fed has raised its policy rate from 3.75% in September to 3.88% in October, signalling a tightening stance to curb inflation."
     },
     "UK": {
       "cpi": {
@@ -3101,7 +3101,7 @@
           }
         ]
       },
-      "narrative": "Inflation remains modest at 3.6% year\u2011on\u2011year, while real GDP grew 1.94% in Q3, indicating a healthy but not robust expansion. Unemployment sits at 4.6%, suggesting a tight labour market with limited slack. The Bank of England has raised the policy rate by 25 basis points to 4.00% at its latest meeting, signalling a tightening stance as it prepares for the next announcement on 17\u202fDec\u202f2026."
+      "narrative": "Inflation remains modest at 3.6% YoY, while real GDP grew 1.94% in Q3, indicating a healthy but not robust expansion. Unemployment sits at 4.6%, suggesting a tight labour market with limited slack. The Bank of England has raised the policy rate by 25 basis points to 4.00%, signalling a tightening stance as it moves toward the next announcement on 17\u202fDec\u202f2026."
     },
     "JP": {
       "cpi": {
@@ -4329,7 +4329,7 @@
           }
         ]
       },
-      "narrative": "Inflation remains above the target at 3.17% YoY, while real GDP growth is modest at 1.16% in Q3 2026, indicating a sluggish but positive momentum. The labor market is tight with unemployment at 2.4% as of September 2026, suggesting limited slack. The policy stance is hawkish: the central bank raised the policy rate to 1.25% on 2026\u201109\u201118 and held it on 2026\u201110\u201130, with the next meeting scheduled for mid\u2011December 2026. The yen trades at 158.64 per dollar as of 2026\u201111\u201120."
+      "narrative": "Inflation remains above the target at 3.17% YoY, while real GDP growth is modest at 1.16% in Q3 2026, indicating a sluggish but positive momentum. The labor market is tight with unemployment at 2.4% as of September 2026, suggesting limited slack. The policy stance is hawkish: the central bank raised the policy rate to 1.25% on 2026\u201109\u201118 and held it at 1.25% on 2026\u201110\u201130, with the next meeting scheduled for mid\u2011December 2026."
     }
   }
 }

@@ -1,60 +1,78 @@
 {
-  "updated_at": "2026-11-22 07:17 UTC",
+  "updated_at": "2026-11-22 13:57 UTC",
   "market": "JP",
   "items": [
+    {
+      "title": "Nikkei Asia: TSMC holds chip shipments as U.S. rules cover 14nm and 16nm nodes",
+      "source": "Mezha.net",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMHVDV3pYTVNqZGJIU2l5UzFwaldlakpFTHdqYWp4LTVBY0hFLUZZUExQVFdYMy0zSDYyNW5sUnd4S2c3M1RBWWRkOVE5ZUxRcmdVT2l2Z0hGbHAyenBMa29qZUxwaUZmMFhkLVdHOXM2cDVQdENtSXN3bTNEbm13d093?oc=5",
+      "published": "2026-11-22 13:38 UTC",
+      "sector": "Market",
+      "tone": 1.0,
+      "note": "TSMC shipment hold signals strong demand, modestly positive."
+    },
+    {
+      "title": "OSE Nikkei 225 Futures (DEC6) Price Trend Today | Quotes & News",
+      "source": "Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxPODdZMlJyZjJFdF9hblFlWHFiUFg2ZU1Na080OUIxN1hjb09HXzJpSDg0SzBNbzRNYjV5eU1GWlNFYTRsQkFjSXg2aTQ1TWIwVDRPWGIzSEJLX1owSHZfVGZZbVVDVzJLZEM1UXVEaG9wamFURDg4NEpCcFZCNURteXpNRktJbl9nYWZ0bWRSZnJEYWd0NnBxWk93cExwN01HdUtlLTJHUTB4V2FraVFnMm9ZQktZY3czeFBFU3NQZWpKMUFQQVQ1SlY2bjVhOU5aRHFaRmQ4WTRPOEl4QVpaVkFkaXZvTGtrbE14bmFadTQ5THVwU2kycG1yS0dKa1p2eGNQWVpvVXVfZk5wNnpKdldYaUVYOHNIZXFfNTMxZ1NRX1d0NDY1ZVVTcnhENVlfd2VEU3lsTQ?oc=5",
+      "published": "2026-11-22 11:40 UTC",
+      "sector": "Market",
+      "tone": 0.0,
+      "note": "Futures trend neutral, no clear direction."
+    },
+    {
+      "title": "What Nikkei Asia missed about Cambodia\u2019s scam crackdown",
+      "source": "Khmer Times",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaWNaa05VUm1nTmw0dkxHangzMV85OU01aXpqODVSa0J4dDh5b2o2MmxfRGV1d2h5a2JfSF83NjFKOU94anpPTjB1N0JfQWhqZWh4M1NZYkdMR0I0aUN0OWtKSWs2MGVGOF96MlpaN1dPQjFoSGw2Q1B4S2V6OENlbUlEdXlDcnNPY3ZXWElEdmQ4TG9EV2RCeUpn?oc=5",
+      "published": "2026-11-22 11:37 UTC",
+      "sector": "Market",
+      "tone": 0.0,
+      "note": "Cambodia scam crackdown unrelated to Japan market."
+    },
+    {
+      "title": "Corporate Japan races to revive rare-earth supply chain amid China curbs",
+      "source": "Nikkei Asia",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNYkI5QjY3SHBtOHNiT0FaY21DSDRqa3BqWHU5c3REQTE5d2RHNjFVSGFfTm9LZV95Yld0M1lnckdjSE1vZ2FKYXNDM2FoZ0k1LUpGVUhwazdqSzB1bUxtam5jSWt2S0xSbDkyVlpmT2J5NjNsUFhMckdDTmJJUkNyZEM5M0xBZXQzUUNTdnVXOHlPUUx6QWFRN3VkVnhjUWtlVF9RSjBpNmdiSkZ4NGZGR0RSUTJWQQ?oc=5",
+      "published": "2026-11-22 10:06 UTC",
+      "sector": "Market",
+      "tone": 3.0,
+      "note": "Rare\u2011earth supply revival boosts Japan\u2019s industrial prospects."
+    },
+    {
+      "title": "Nikkei swings harder than Nasdaq as AI fears deepen",
+      "source": "StoneX",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdWlZekdhOV9pVTR2NGN2S2prNU5UWk1NUFJ6TUQ0Y3FBeHMtVTItSldMSGJmOERtQVNLRDZ6VnFTcVZWRVhTVkJrRURYTE1aM2ZQeklOZE1KUy0zYUxSQTNxSWlEWnBVcFI3b09xU1prbHg0Z2l6NnVfS0VuSnVfcENrTWVVTXV0MlEwbUN1SjVVNUd4eGpZTTlTbUtEcDc1?oc=5",
+      "published": "2026-11-22 08:03 UTC",
+      "sector": "Market",
+      "tone": -4.0,
+      "note": "AI fears deepen, causing Nikkei to swing harder than Nasdaq."
+    },
     {
       "title": "Laos 'least-developed' status shift, Tata meeting, Taiwan local elections",
       "source": "Nikkei Asia",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOclFKZ3c5NTJ6eG9kUl8yWkJRcVhJcWpDR3plSmxhaHlRSzNvd21Nb2xEMmpEZEpGYjI4cXlweDdRQzJjTFdfTE1aWDY3Vng0Tm5ncjdMOHZURElFWl9DQTE5QzhYd1dyMUVBVkxpdlFHcklzR2pDc0RrbnpOYmd0dGtUNldqVEVYU3FpdkhqenJ4Y25EWGRuMjA1eGhibURrQXdjMzlEWkVyc2Rwd0M4SWNGUXJjbG1oczJPemRB?oc=5",
       "published": "2026-11-22 06:34 UTC",
       "sector": "Market",
-      "tone": 2.0,
-      "note": "Japan's expansion strategy signals growth optimism."
-    },
-    {
-      "title": "World Bank's India poverty estimates questioned over scale of gains",
-      "source": "Nikkei Asia",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWk9RcjZTdTNPa2s1MnVJLVRfTG1jRFRvd3ROZ0o2TmZrdTFPNWM2RkRac3JxdVNEWnJ3MERrQXd3MEtVVWkyVHpFdEdWd0lNaXh6SE1mZXk4QTkwX080cDQ4QmlTdlFPbFhuVzdEM3VLLXNkZWRocVliUG5MV1prRVlGeFUxN3ItOEQ1RThMSVZMUHJLRXZINnNBdTNzaVJWQl9jLUZrRnpkMmVBbnpn?oc=5",
-      "published": "2026-11-22 04:26 UTC",
-      "sector": "Market",
       "tone": 0.0,
-      "note": "India poverty estimates unrelated to Japan market."
+      "note": "Laos status shift irrelevant to Japan equities."
     },
     {
-      "title": "The ramen lectures: Japan company tries new expansion strategy",
-      "source": "Nikkei Asia",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPODVvWVpoNlUyUEFqUGQ5VmYtSUFXbHowSXl4c3lQbGlVOER4aFhLUzVIamtheEtLZjI0MnNnTTZGOUVsT3BEem93WldyVXE2b2E1cU9wQVlZZGdsUWRFT0g2eDZCN0stSjlyU3VySTJyOGRPLVZaTGRjTkt3MVRYYjY1b1FoREduMTBodEdRYWs4YzFnRDNLeklBVnRGUjNfbHhDZVQyODN1SEhs?oc=5",
-      "published": "2026-11-22 03:18 UTC",
-      "sector": "Market",
-      "tone": 0.0,
-      "note": "Laos status shift and Tata meeting have no direct impact on Japan."
+      "title": "Masayoshi Son Faces $109 Billion SoftBank Sell-Off as Anthropic IPO Overshadows OpenAI Bet",
+      "source": "Hokanews",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1vOF8wWFkzU010c2t5RFBRNm1QOXBRSVBCUlVBZGNrVzRNS094dWdBcjFsNVZjUlRQRG1ac0N4UW11WmtiSk5ZbEhTWW5QUlpEaUxRb2ZneEV5bG9HRGNNVE4xUWI1dHJyaUxoUklkUFdvd1pzc3lYSg?oc=5",
+      "published": "2026-11-22 03:49 UTC",
+      "sector": "Technology",
+      "tone": -4.0,
+      "note": "SoftBank sell\u2011off signals AI risk"
     },
     {
-      "title": "North Korea postpones 2027 Pyongyang International Marathon",
-      "source": "Nikkei Asia",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOc05WU0luR3ZrTmlScTRUQkI5SmNaOTdtbmtwOHZFX0NHdHF0YnZpclFqcXJMaHZIeWlGeFFmd1JxSi1kQzVBMHNOM1R3ZGJweUVsbnhOUmh1Nk9pMVRDV3BoT2N6aGhmVDlVTXFfWVVXVFJBSzJVQURtT1VuSTYyOHdDeWlzZDQySzRlR1RBV2kwUWJ2bDZ0cFhzcHpHNXV5SHR6U2hxTE9oWkNmUnI0Vm92dlM?oc=5",
-      "published": "2026-11-22 03:08 UTC",
-      "sector": "Market",
-      "tone": 0.0,
-      "note": "North Korea marathon postponement is peripheral."
-    },
-    {
-      "title": "AP TOPIX Maryland USC Football",
-      "source": "Bluefield Daily Telegraph",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQU5LWG9SU09rVWdXQUV5LU0xMnIxYVE3cENKOXFmODNkVDZzMF9LMDdrTm96WWRTTk9XVGg5b0dwVGpIWkFkN0xOV254aFo5ZVZiVml3bnBob2pCY2lLV2hnbm1WWHd2LVYtT3BFdEVKUkZGREVPUnNFcm1KbFZQSGQ5V1pxbGt5XzRkdS1fUE5YNm9SZGFWZ2NGc1FLR01PZXB2SFFkTUd5REFYYi1FSWhmUTVfdVBLYVdkOHRhUWtpcGJxb2c?oc=5",
-      "published": "2026-11-22 03:00 UTC",
-      "sector": "Market",
-      "tone": 0.0,
-      "note": "AP TOPIX Maryland USC Football irrelevant to Japan equities."
-    },
-    {
-      "title": "China slams US ban on its telecoms' access to American phone numbers",
-      "source": "Nikkei Asia",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNYlMtNjhEVnBVTFZBaG9xbXhBOWdVcGtSMXJwaTJ3cXNoU3hYVWRSZktvOW1fYmtGWi0yc1JoZkdHbGN1dElURU1IbDQ4ZmFITERkQ09ydEkxLUc1eHFCemk4d1ZZNjdJc1ctcUc0RmdPczI2aHBia1laRzlOT2FzeEhLeVNDYlN6MDZOX0xxRVNGeHFmbE1hN2xfQzhzSUlOeW95LXpLQ1dsbEN5NjY5d3ZtSWlRcG5SZjctZkJXZUZLUHN4TFdUVk03VURjRURHSEo5U0hjd0lYUQ?oc=5",
-      "published": "2026-11-22 02:44 UTC",
-      "sector": "Market",
-      "tone": -1.0,
-      "note": "China's telecom ban may raise regional trade tensions."
+      "title": "SoftBank's AI Ambitions Hit a Valuation Reckoning as Shares Slide 16%",
+      "source": "ad-hoc-news.de",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQM1NwTkN5MkQtd0dDeU8xREl5TVZlSlpNU1ZTX2NKQlFYOFpsLWRuZ3J0U2pvbVVIbDRnNHM2ajcwT0dJeTE5VmNnREZDY1FvaWs1VEJUZHpQS1M2SVZDUnpyWHhpdjYtdTdObVlycF9CVlA1QXhreE1BN3ZTN2ZmR3RieUp1aDVKUHBxSVhrUURtMUNKbFhQV3lMX3VlXzVhU09JRU5leTBMZ0NwNktxOVdvOWZ1bk9ROThkT0NZSGk5MUlMeWRqUTB4cUJ3WWhubk5sQkhJRQ?oc=5",
+      "published": "2026-11-22 01:51 UTC",
+      "sector": "Technology",
+      "tone": -3.0,
+      "note": "Valuation hit shows AI overvaluation"
     },
     {
       "title": "SoftBank Shares Plunge 14.48% as Anthropic IPO Triggers Wider Asian AI Stock Sell-Off",
@@ -62,8 +80,26 @@
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPeUcwcHVqR1hQelZWQlR1Wl9Wc1Jfc2FrYktFTXl3aGtSb2hxeVR2ZmNEaFZGOVN1b1l0SjdPcEc1WTdHWEh6UVAtRFpWaDhMYy0xcDlfRllWcVoyS1hXc2xDZlVGdXk1NDFjZVpIXzktbzFqaVNiTjIwa1NydzVvSnlnNUhHbmdqc0JaWjFBUGdSRUJKQm9KUkx1WlQ2c3NDeHAxcVZPZG5uVDNnZkE?oc=5",
       "published": "2026-11-21 14:49 UTC",
       "sector": "Technology",
-      "tone": -5.0,
-      "note": "SoftBank plunge signals AI sector weakness."
+      "tone": -4.0,
+      "note": "Wider AI sell\u2011off dampens tech confidence"
+    },
+    {
+      "title": "SoftBank's Anthropic Admission and Shelved SK hynix Ambition Cap a Bruising Session",
+      "source": "ad-hoc-news.de",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQUkFEYVNWQ25TQVFENHhMb2diVS1zMy03Y3NiWjRpTEtJYklfWnVCQi01TEZpYXhvY3NxSkYwM0JFMUhEOTlfNVpPS1NtbjRyVUtwQmdUOW5YUzhTeGxkOENlSkFtOWF4WFA0MndCZ0xfV0ttUURINC1sN2ZDY1V4VkNPcDdUdTZzanVLa0JzdG1jaDRoejdOdE9mVGhWOFFLWkRnRFhjWGRBcllKVUVXVUd0YnJ5ZDJIRlVBZlBIbHYzV1dSaHdLVFhiUlRfU1puNW5wQjdFS3R3cm9pSFd2bVBDX0R5QnB2b3Vv?oc=5",
+      "published": "2026-11-21 13:11 UTC",
+      "sector": "Technology",
+      "tone": -3.0,
+      "note": "Mixed AI exposure hurts SoftBank"
+    },
+    {
+      "title": "Sony Group Corporation (SONY) stock price, news, quote and history",
+      "source": "Yahoo Finance Australia",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5KcmRsSjJySFlmdC1pNmtQQTFYUFgzSnF1ZVBlTl8yUUx6cHZnMjd0R2J3YmhSMUk5M1huLVFyYlZLT3g5VGwyOG1zMER1UjdMaGc?oc=5",
+      "published": "2026-11-21 06:11 UTC",
+      "sector": "Technology",
+      "tone": 0.0,
+      "note": "Sony unrelated to tech sentiment"
     },
     {
       "title": "SoftBank Shares Retreat as Investors Rethink the Price of AI Exposure",
@@ -71,44 +107,8 @@
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdGdnRnltT2ZKS3NSNUlRR05iRnhsTTZTb3d5YmVIX2R6VjhfY3NUOWJ6Vm1qSmdfeDNxMWpZZVIxdlVkS2RJU1VmZ1N1anhDMV90U0txaGNucWZncmg2c1dJanc1aDJzOUZoaGZSYjNIOWZuNFQ5YTBtOWlwTVRobTI0dkhqRldOUURSRlFxNVJtZzQtbmVVdWJ0ZWVjdE5waHZacWVsUDBmODgwYlJQVWc1MVBPZC1TaWdvTE10MDIzcW9oczliOFMxV3ctY2NmLXVabWUxdFU?oc=5",
       "published": "2026-11-20 17:01 UTC",
       "sector": "Technology",
-      "tone": -4.0,
-      "note": "Investors doubt AI valuation, hurting tech stocks."
-    },
-    {
-      "title": "SoftBank shares crash 14.5%, biggest 1-day fall in 2 years: Why Anthropic's strong IPO debut failed to revive AI trade",
-      "source": "Livemint",
-      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPSGZmVnNEVTBXTEZkSWw2aG55YXM3Rk5lNS1rSVFOalJEbWNBbHlSaGdncUlXX1BnN2M2NE41T1BLbGplMWV2WkpxTVFhWlpqaEJUcWg4c2o0amVUV0ViMlVqQ3U1UGtFcTV1YzNiU3JKa2Yxa0RHbGNaMHE5MTVjUHFzZDUzc3BseVJ6VXlTNmFTaDhrYV8tUEdHdEY2bWR0LXpkOUFrckZXSzVUTVQ5M1hCdHFIVV9ZZGdSc0xOVFNROG5nMGU2bmR3QmFRUXFvekg3TTFvMGtITDBtVVF4bF9aUUVFMVRoX1JqWHQzMHh5OTNLdkZENHZHdGpTcFlZVHk1TG5QYS1hYUdMOEZqZ3hn0gGXAkFVX3lxTE1qNkxQbHV6dUMyMVFWOXNqLS1KWVA4T19hcDdyTjlaenZyaklIQk1uVXRPSmlFWVZtbkZ4VmVVbGxJd3VGMEpmZGRRZHRaV1dQZnkybmVlbnltamlZY2lJc20xTEY4U09udnRyLUtmemtMOEI3LVlBeWN4ZmZ6QkpTdWJkS0VFdGRSVklkNTZCTzhqaFFKazZBUE9GZEJWQVgtRVBjdy1jd01CVm9HbE80eTZzblIwd3A1dzRCdGFORGhqNUMtb0w0aEh6TEJoMVNwSXl5RU1wMkd4NVRPMk5CN0dWQjl3QTRSY0VzTlo1MTJvRHUxX1JSck0wRkdvRVVHTHFjRkxHZ3E5c1NlbTRpT1BlbjJrSQ?oc=5",
-      "published": "2026-11-20 12:54 UTC",
-      "sector": "Technology",
-      "tone": -5.0,
-      "note": "Largest 1\u2011day fall reflects deep tech sell\u2011off."
-    },
-    {
-      "title": "Masayoshi Son's Big OpenAI Bet Faces a New Test as SoftBank Shares Crash",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQV1pVb0pabTI4UXo1bVNHMmI5SXA2V05NZm1FaU5oMVJxYWdzdTJCbmFhZmlKVDQ4S1kxb21RZFZQZ2syOFUzemhWWkVTeG9HdmlPQVlkTG9qY3BRdTY4SEFQckdlWWItdFlNYV84Y016S0pkNUFEcEkxSGlidzhYWTFwZ1hnSXcxbTd5dWFMU3Z0NmRHam95cw?oc=5",
-      "published": "2026-11-20 11:21 UTC",
-      "sector": "Technology",
-      "tone": -4.0,
-      "note": "Son\u2019s bet under scrutiny, dampening tech optimism."
-    },
-    {
-      "title": "SoftBank Shares Plunge 14.48 Percent in Asian Tech Sell-Off",
-      "source": "Limapagi",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBfQnVmZHN4YlJSMUl3aGhOUEl6RGpYQ0NReXVBaXhBNFkycHNIY0dSbGNENEYzcVg1WXpBWHZrdXdJcEtPUDF6TlJuNjZ1enp4SlN5VjVLR0Nfdng3cEpqU3NGdFR2SG5Eb1JiYU1n?oc=5",
-      "published": "2026-11-20 11:05 UTC",
-      "sector": "Technology",
-      "tone": -5.0,
-      "note": "Asian tech sell\u2011off confirms bearish trend."
-    },
-    {
-      "title": "SoftBank shares slump 15% as AI worries drown Asian chipmaker stocks",
-      "source": "IndiaIPO",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbEhJdlNWbHAyLW03dTF6S2lFMlV6TllfTXRHelpwakRKanVhQkhhVm1LYUtPenYyWHlEcVMxVU9PMUNrWUlFdUp0b19hc0RIVDdEM3k5M2lQM0l2bG81cG51ZzVVc0drR01oaGl5RTZHZkNEblF0S3JuTFlyQ1pUdkstWFNVQjJUODczWm9JSkhfc2FOMDAzR2tFT01EZkRPNUxYTllB?oc=5",
-      "published": "2026-11-20 07:35 UTC",
-      "sector": "Technology",
-      "tone": -5.0,
-      "note": "AI fears sink chipmakers, amplifying tech decline."
+      "tone": -2.0,
+      "note": "AI exposure reconsidered, mild bearish"
     },
     {
       "title": "Mitsubishi UFJ Financial Group Inc (MUFG) Shares Fall 4.9% -- Wh",
@@ -117,16 +117,25 @@
       "published": "2026-11-20 23:04 UTC",
       "sector": "Financials",
       "tone": -3.0,
-      "note": "MUFG shares fell 4.9%, indicating negative sentiment for the sector."
+      "note": "MUFG shares fall 4.9%, showing investor concern for the sector."
     },
     {
-      "title": "Japan's bank shares slide even as Ueda vows more rate rises",
-      "source": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNV25nZHpBdGZKelU5Z28yWEhSeGx0V0NWSHZ2VDdfWW9GOEcweTNUTDlfdFFlSmxkRUlOQ2dGUW82UWNtb19ZODZaT24tV2xBVzdMenUxQk4wRXpTYnJ6SExZLW04MnZ3ajcyOXJLcmZTX3FHaVAzVkZzSGM4Y3hkbmxJS2JVOFFwU2hOLVFhQUkzbmlkTVktLW5lWXJGWi02Vmt3MEZ2SS02emI2SmRrZHp3cHpCaGc?oc=5",
-      "published": "2026-11-20 09:29 UTC",
-      "sector": "Financials",
-      "tone": -2.0,
-      "note": "Bank shares slid despite rate hikes, reflecting broader market uncertainty."
+      "title": "Anthropic researchers warn that AI will cause widespread permanent unemployment, and the labor market is beginning to slow down recruitment of young people.",
+      "source": "Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNTy0zcGpWVVRKb3FKUmlYaDdpbkV4blhtYUNHRndONy1Pai1JdlVYdjBqb2N2ZklodXYtQ0wzYi1yYVpVLWlrLXlRdUNNOEZyTlFZNUNVaXRGZGZkYVdjN0p4R2RlbHMxTGp1YXZRYUJFQ3F5VUlBdTZPM2RBTWpBcTNyTDBDS08zVS1FZi05YVR2TnhRaWhjeUM4TFdVRW5JWXI2cS1jaU05MFdJSFBub203VG9NZ0haMWhScjZ6eDFuRERFVl9nUHhzYlRUWHU4d2FXVi1XQ0FUblpmaEhFZ3lMeHpsbjNM?oc=5",
+      "published": "2026-11-22 10:21 UTC",
+      "sector": "Consumer Discretionary",
+      "tone": -3.0,
+      "note": "AI unemployment fears dampen consumer spending."
+    },
+    {
+      "title": "A major turning point for Japanese automakers in responding to Chinese cars.",
+      "source": "Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSW1CcjRaVk1rQUFrNkI0cUg4ZmVpWlNSdDdKWWZRWG9FRl9TRVhtdjZJczdvVF9YY2hIck5PZndFSXJZZmdBZjlfZTBodkJWUmd2ZUlLZkhPcGM2bzZ1ZDFSZFVHcTI3UGNjQXJfWktyeVNvb0lIYnN0M1JjanJsSTA5QmgyREJRSEV1TTl2V0ZBS0c4clJPbHZsbVQ?oc=5",
+      "published": "2026-11-22 06:24 UTC",
+      "sector": "Consumer Discretionary",
+      "tone": 1.0,
+      "note": "Automakers adapting to Chinese competition could spur innovation."
     },
     {
       "title": "Honda and Toyota recall 1.6 million vehicles over a dangerous component | \u0423\u041d\u041d",
@@ -135,16 +144,7 @@
       "published": "2026-11-22 03:12 UTC",
       "sector": "Consumer Discretionary",
       "tone": -4.0,
-      "note": "Massive recall signals quality issues."
-    },
-    {
-      "title": "Honda and Toyota recall 1.6 million vehicles over a dangerous component",
-      "source": "\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOY1IyY2ctTDBJMjBRcllSdmZsdnd5cldOZlJacEpERWd0VVc1WlAyOXBxaS1nQTdtWXZpdUVsaE93Ukxib2VxU2JtSm0yZXJfTmU2S2JkTllYRU1ROU5HNXFORjJXOUxoUnpTZGZlaWlSaG5hazNISURjMmFiTWRybHktSVI2aVEzdTZ1Vk5xOWtNQWlqMjdCLdIBlwFBVV95cUxQUzZUNG5GVm9QV1lJanQyR3pTQkd1cG50UlkzeVRXZHdsM2UzRGRWVk5UOFA0Q2tVMDZ4eUwwN2JXVjBHMm1Ma0VHSGRPWTY2YWhWOFoxNjBJY3o3aXBCRkdNTjZCZ1V2T0R2OERxbWw1b3hQcWVYWGhVaFUtV3FqT191T2FCcklTUUFjWVVFRXBYTWRRRjlJ?oc=5",
-      "published": "2026-11-22 02:55 UTC",
-      "sector": "Consumer Discretionary",
-      "tone": -4.0,
-      "note": "Duplicate recall confirms widespread defect."
+      "note": "Massive recall erodes brand trust and costs."
     },
     {
       "title": "Toyota And Nissan Admit Their American-Made Vehicles Aren't Up To Japanese Standards",
@@ -153,7 +153,7 @@
       "published": "2026-11-21 19:13 UTC",
       "sector": "Consumer Discretionary",
       "tone": -3.0,
-      "note": "Non\u2011Japanese standards raise safety concerns."
+      "note": "Quality complaints hurt reputation and sales."
     },
     {
       "title": "Six Japanese Automakers Pledge Additional THB 134 Billion Investment in Thailand After Government Sets 35% Import Tax",
@@ -162,16 +162,7 @@
       "published": "2026-11-21 18:55 UTC",
       "sector": "Consumer Discretionary",
       "tone": 3.0,
-      "note": "New investment boosts production capacity."
-    },
-    {
-      "title": "Toyota, Nissan and Honda Team Up to Cut Costs With Shared Parts Standards",
-      "source": "CediRates",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQ1BhNl94eU1uQWNUdHJwNmtUbXpmN0pIbUR4ZnlzVUNKODNfN3JEMjRuZlNEbXBYS3poNWcySmsyTE9weGZqVHRyZmMzSmxnNWl4WVJXVEN2bHVzZ0VBQ0gyblF5NU5mOEFDaVRlLTRVdVhtWHpGWllFeVdfMDE2c29XWU54cjFUZzQ4ZC1xQ0syZ3kxSUYxcDR3OFdTTVlj?oc=5",
-      "published": "2026-11-21 09:06 UTC",
-      "sector": "Consumer Discretionary",
-      "tone": 4.0,
-      "note": "Shared parts reduce costs, improving margins."
+      "note": "Large Thai investment signals growth optimism."
     },
     {
       "title": "Honda, Toyota recall 1.6m vehicles over Takata airbag rupture risk",
@@ -180,25 +171,16 @@
       "published": "2026-11-21 03:01 UTC",
       "sector": "Consumer Discretionary",
       "tone": -4.0,
-      "note": "Additional recall highlights persistent safety risk."
-    },
-    {
-      "title": "Takeda (TSE:4502) Stock May Look Reasonable Despite Its ORZEYFUL Launch",
-      "source": "Bing News",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0297bbc7334da684050bef450dcbb0&url=https%3a%2f%2ffinance.yahoo.com%2fhealthcare%2farticles%2ftakeda-tse-4502-stock-may-181656317.html&c=10080016652064733742&mkt=en-us",
-      "published": "2026-11-19 10:16 UTC",
-      "sector": "Healthcare",
-      "tone": 3.0,
-      "note": "Takeda\u2019s ORZEYFUL launch signals strong innovation, boosting sector sentiment."
+      "note": "Repeated recalls highlight safety and quality issues."
     },
     {
       "title": "[Supply and Demand Analysis] Mitsubishi Corporation (8058) \u2014 Why the stock price doesn't rise despite a 1 trillion yen share buyback",
       "source": "Bing News",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0297c076de4a3c9baaec7f4caf9f76&url=https%3a%2f%2fnote.com%2fglad_fish3272%2fn%2fn6103267d3a47%3fhl%3den&c=1859866198025509219&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b02f5c3f55c465aa564e68f0fcb0fd3&url=https%3a%2f%2fnote.com%2fglad_fish3272%2fn%2fn6103267d3a47%3fhl%3den&c=1859866198025509219&mkt=en-us",
       "published": "2026-11-19 23:49 UTC",
       "sector": "Energy",
       "tone": 0.0,
-      "note": "Headline irrelevant to Energy sector."
+      "note": "Share buyback not boosting price, neutral impact."
     }
   ]
 }

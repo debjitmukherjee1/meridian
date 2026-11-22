@@ -1,52 +1,52 @@
 {
-  "updated_at": "2026-11-22 07:17 UTC",
+  "updated_at": "2026-11-22 13:57 UTC",
   "market": "US",
-  "macro_theme": "Rate-policy commentary dominates headlines",
+  "macro_theme": "Consumer demand signals dominate headlines",
   "signals": [
     {
       "sector": "Consumer Discretionary",
-      "read": "Neutral",
-      "score": 49,
-      "event_type": "rates",
+      "read": "Bullish",
+      "score": 63,
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "The Consumer Discretionary sector remains mixed as a broad market sell\u2011off, driven by a sharp Nasdaq rout and tech\u2011heavy losses, dampens overall sentiment.",
+          "text": "The Consumer Discretionary sector is buoyed by a demand shock that has lifted consumer spending and retail sales.",
           "forecast": {
-            "low": 2.0,
-            "high": 4.6,
-            "direction": "-",
-            "text": "-2.0% to -4.6%"
+            "low": 3.1,
+            "high": 6.9,
+            "direction": "+",
+            "text": "+3.1% to +6.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "The Nasdaq\u2019s 5.28% single\u2011day drop and Nvidia\u2011led tech rout weigh on discretionary stocks, pulling the sector toward a neutral stance.",
+          "text": "Costco\u2019s 84.1\u202fmillion member households signal a deepening competitive moat, reinforcing retail resilience.",
           "forecast": {
-            "low": 2.0,
-            "high": 4.6,
-            "direction": "-",
-            "text": "-2.0% to -4.6%"
+            "low": 3.1,
+            "high": 6.9,
+            "direction": "+",
+            "text": "+3.1% to +6.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "Strong first\u2011day retail sales of GTA VI ($3.79\u202fbillion) provide a bright spot for the gaming sub\u2011sector, offsetting some of the broader weakness.",
+          "text": "Take\u2011Two Interactive\u2019s GTA\u202fVI launch generated $3.79\u202fbillion in launch revenue, underscoring strong entertainment demand.",
           "forecast": {
-            "low": 2.0,
-            "high": 4.6,
-            "direction": "-",
-            "text": "-2.0% to -4.6%"
+            "low": 3.1,
+            "high": 6.9,
+            "direction": "+",
+            "text": "+3.1% to +6.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "Anthropic\u2019s record IPO and subsequent Nasdaq listing rule concerns add volatility to tech\u2011related discretionary companies, complicating the sector\u2019s outlook.",
+          "text": "Industry analysis highlights that rising consumer spending is a key driver behind the sector\u2019s bullish sentiment.",
           "forecast": {
-            "low": 2.0,
-            "high": 4.6,
-            "direction": "-",
-            "text": "-2.0% to -4.6%"
+            "low": 3.1,
+            "high": 6.9,
+            "direction": "+",
+            "text": "+3.1% to +6.9%"
           }
         }
       ]
@@ -54,47 +54,37 @@
     {
       "sector": "Consumer Staples",
       "read": "Neutral",
-      "score": 48,
-      "event_type": "rates",
+      "score": 58,
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "The Consumer Staples sector\u2019s mixed sentiment is driven by a sharp decline in tech stocks that offsets gains in staples.",
+          "text": "Costco\u2019s expanding member base is driving a surge in demand for consumer staples, underpinning the sector\u2019s bullish outlook.",
           "forecast": {
-            "low": 1.0,
-            "high": 2.1,
-            "direction": "-",
-            "text": "-1.0% to -2.1%"
+            "low": 1.2,
+            "high": 2.9,
+            "direction": "+",
+            "text": "+1.2% to +2.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "Tech sector selloff, including Nvidia and broader Nasdaq losses, has pressured the index.",
+          "text": "Amazon\u2019s recent stock decline may ease competitive pressure on staples retailers, supporting higher sales volumes.",
           "forecast": {
-            "low": 1.0,
-            "high": 2.1,
-            "direction": "-",
-            "text": "-1.0% to -2.1%"
+            "low": 1.2,
+            "high": 2.9,
+            "direction": "+",
+            "text": "+1.2% to +2.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "AI-related stocks suffered significant losses, further dampening market breadth.",
+          "text": "PepsiCo\u2019s Q3 preview signals potential growth in beverage demand, adding further upside to the sector.",
           "forecast": {
-            "low": 1.0,
-            "high": 2.1,
-            "direction": "-",
-            "text": "-1.0% to -2.1%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Consumer staples stocks, exemplified by Coca\u2011Cola\u2019s strong performance, have been winners, providing a counterbalance.",
-          "forecast": {
-            "low": 1.0,
-            "high": 2.1,
-            "direction": "-",
-            "text": "-1.0% to -2.1%"
+            "low": 1.2,
+            "high": 2.9,
+            "direction": "+",
+            "text": "+1.2% to +2.9%"
           }
         }
       ]
@@ -102,37 +92,37 @@
     {
       "sector": "Energy",
       "read": "Bearish",
-      "score": 28,
-      "event_type": "rates",
+      "score": 40,
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Oil price volatility continues to weigh on the Energy sector.",
+          "text": "The Energy sector is under pressure as a demand shock is expected to push gasoline and oil prices lower, weakening earnings prospects.",
           "forecast": {
-            "low": 1.4,
-            "high": 3.6,
+            "low": 3.0,
+            "high": 7.2,
             "direction": "-",
-            "text": "-1.4% to -3.6%"
+            "text": "-3.0% to -7.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "Crude oil prices are highlighted as a key market trigger for the week ahead.",
+          "text": "Gasoline and oil prices may continue to decrease",
           "forecast": {
-            "low": 1.4,
-            "high": 3.6,
+            "low": 3.0,
+            "high": 7.2,
             "direction": "-",
-            "text": "-1.4% to -3.6%"
+            "text": "-3.0% to -7.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "The new normal for oil prices is being analyzed, indicating ongoing uncertainty in the sector.",
+          "text": "Week ahead: crude oil prices and FIIs activity are key market triggers to watch",
           "forecast": {
-            "low": 1.4,
-            "high": 3.6,
+            "low": 3.0,
+            "high": 7.2,
             "direction": "-",
-            "text": "-1.4% to -3.6%"
+            "text": "-3.0% to -7.2%"
           }
         }
       ]
@@ -140,47 +130,37 @@
     {
       "sector": "Financials",
       "read": "Neutral",
-      "score": 49,
-      "event_type": "rates",
+      "score": 56,
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Higher interest rates are boosting U.S. financial stocks while dragging broader equity markets.",
+          "text": "Bank stocks rally is the primary driver of the Financials sector\u2019s bullish sentiment.",
           "forecast": {
-            "low": 2.0,
-            "high": 5.1,
-            "direction": "-",
-            "text": "-2.0% to -5.1%"
+            "low": 1.7,
+            "high": 3.9,
+            "direction": "+",
+            "text": "+1.7% to +3.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "Three U.S. financial stocks are positioned to benefit from higher rates",
+          "text": "Sensex and Nifty ended the week at nine\u2011month highs as bank stocks led the rally.",
           "forecast": {
-            "low": 2.0,
-            "high": 5.1,
-            "direction": "-",
-            "text": "-2.0% to -5.1%"
+            "low": 1.7,
+            "high": 3.9,
+            "direction": "+",
+            "text": "+1.7% to +3.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "The S&P 500 fell 3.7% and the Nasdaq composite turned negative for the year, reflecting rate\u2011sensitive sentiment",
+          "text": "Bank stocks are expected to continue the upward momentum in the coming days.",
           "forecast": {
-            "low": 2.0,
-            "high": 5.1,
-            "direction": "-",
-            "text": "-2.0% to -5.1%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "The Nasdaq\u2019s decline, driven by tech routs, has pressured the broader market, indirectly supporting rate\u2011friendly financials",
-          "forecast": {
-            "low": 2.0,
-            "high": 5.1,
-            "direction": "-",
-            "text": "-2.0% to -5.1%"
+            "low": 1.7,
+            "high": 3.9,
+            "direction": "+",
+            "text": "+1.7% to +3.9%"
           }
         }
       ]
@@ -188,85 +168,85 @@
     {
       "sector": "Healthcare",
       "read": "Neutral",
-      "score": 48,
-      "event_type": "rates",
+      "score": 58,
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Analysts\u2019 bullish outlook on leading healthcare names is the primary driver of the sector\u2019s modest positive sentiment.",
+          "text": "Sustained demand shock is driving a bullish outlook for the Healthcare sector, reflected in continued earnings growth and investor confidence.",
           "forecast": {
-            "low": 1.0,
-            "high": 2.6,
-            "direction": "-",
-            "text": "-1.0% to -2.6%"
+            "low": 1.2,
+            "high": 2.9,
+            "direction": "+",
+            "text": "+1.2% to +2.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "Analysts are bullish on top healthcare stocks such as Solid Biosciences (SLDB) and Eli Lilly & Co (LLY).",
+          "text": "Abbott\u2019s 54\u2011year record of dividend increases signals strong cash flow and investor confidence in the sector.",
           "forecast": {
-            "low": 1.0,
-            "high": 2.6,
-            "direction": "-",
-            "text": "-1.0% to -2.6%"
+            "low": 1.2,
+            "high": 2.9,
+            "direction": "+",
+            "text": "+1.2% to +2.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "AI trading agents are following healthcare stocks across global markets, adding buying pressure.",
+          "text": "Analysts remain bullish on key healthcare names such as Solid Biosciences and Eli Lilly, underscoring confidence in the sector\u2019s earnings resilience.",
           "forecast": {
-            "low": 1.0,
-            "high": 2.6,
-            "direction": "-",
-            "text": "-1.0% to -2.6%"
+            "low": 1.2,
+            "high": 2.9,
+            "direction": "+",
+            "text": "+1.2% to +2.9%"
           }
         }
       ]
     },
     {
       "sector": "Technology",
-      "read": "Bearish",
-      "score": 31,
-      "event_type": "rates",
+      "read": "Neutral",
+      "score": 41,
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "The Technology sector is bearish as the Nasdaq composite\u2019s sharp decline, driven by a rout of AI and semiconductor stocks and heightened listing rule risks, erodes market confidence.",
+          "text": "Demand shock from the Nasdaq crash and the wipe\u2011out of Chinese AI stocks has eroded technology valuations.",
           "forecast": {
-            "low": 3.4,
-            "high": 8.3,
+            "low": 2.4,
+            "high": 5.3,
             "direction": "-",
-            "text": "-3.4% to -8.3%"
+            "text": "-2.4% to -5.3%"
           }
         },
         {
           "role": "supporting",
-          "text": "Nasdaq\u2019s tougher listing rules place Interactive Strength at high risk of suspension and delisting, adding regulatory pressure on the sector.",
+          "text": "The Nasdaq fell 5%, triggering a broad sell\u2011off in tech names such as Amazon and SOXX.",
           "forecast": {
-            "low": 3.4,
-            "high": 8.3,
+            "low": 2.4,
+            "high": 5.3,
             "direction": "-",
-            "text": "-3.4% to -8.3%"
+            "text": "-2.4% to -5.3%"
           }
         },
         {
           "role": "supporting",
-          "text": "China AI stocks lost $1.7 trillion after U.S. restrictions, signaling global regulatory headwinds for AI companies.",
+          "text": "$1.7 trillion was wiped off Chinese AI\u2011tech stocks, underscoring a sharp decline in AI demand.",
           "forecast": {
-            "low": 3.4,
-            "high": 8.3,
+            "low": 2.4,
+            "high": 5.3,
             "direction": "-",
-            "text": "-3.4% to -8.3%"
+            "text": "-2.4% to -5.3%"
           }
         },
         {
           "role": "supporting",
-          "text": "Anthropic\u2019s record $93.5\u202fbillion IPO was followed by a sharp market plunge, illustrating the volatility of high\u2011profile tech IPOs.",
+          "text": "SOXX and DRAM ETFs fell between 35.6% and 51.9% from their highs, reflecting sector\u2011wide weakness.",
           "forecast": {
-            "low": 3.4,
-            "high": 8.3,
+            "low": 2.4,
+            "high": 5.3,
             "direction": "-",
-            "text": "-3.4% to -8.3%"
+            "text": "-2.4% to -5.3%"
           }
         }
       ]
