@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-11-22 07:09 UTC",
+  "updated_at": "2026-11-22 07:17 UTC",
   "market": "UK",
   "index": "FTSE 100",
   "macro_theme": "Regulatory scrutiny dominates today's headlines",
-  "macro_score": 66,
-  "macro_explanation": "Broad-market headlines scored 66/100 by the model (bullish); this is the macro overlay.",
+  "macro_score": 67,
+  "macro_explanation": "Broad-market headlines scored 67/100 by the model (bullish); this is the macro overlay.",
   "sectors": [
     {
       "name": "Consumer Staples",
-      "score": 58,
+      "score": 51,
       "label": "Neutral"
     },
     {
       "name": "Energy",
-      "score": 56,
+      "score": 50,
       "label": "Neutral"
     },
     {
       "name": "Financials",
-      "score": 58,
+      "score": 51,
       "label": "Neutral"
     },
     {
       "name": "Healthcare",
-      "score": 66,
+      "score": 67,
       "label": "Bullish"
     },
     {
       "name": "Materials",
-      "score": 52,
+      "score": 57,
       "label": "Neutral"
     },
     {
       "name": "Technology",
-      "score": 55,
+      "score": 52,
       "label": "Neutral"
     }
   ]

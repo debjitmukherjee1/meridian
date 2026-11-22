@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-11-22 07:09 UTC",
+  "updated_at": "2026-11-22 07:17 UTC",
   "market": "UK",
   "macro_theme": "Regulatory scrutiny dominates today's headlines",
   "signals": [
     {
       "sector": "Consumer Staples",
       "read": "Neutral",
-      "score": 58,
+      "score": 51,
       "event_type": "regulatory",
       "drivers": [
         {
           "role": "main",
-          "text": "The court\u2019s ban on green labels is poised to lift Unilever\u2019s prospects, driving a bullish sentiment in the Consumer Staples sector.",
+          "text": "The court\u2019s ban on green labels could be a game changer for Unilever, adding regulatory uncertainty to the Consumer Staples sector.",
           "forecast": {
-            "low": 1.2,
-            "high": 2.9,
+            "low": 1.0,
+            "high": 2.5,
             "direction": "+",
-            "text": "+1.2% to +2.9%"
+            "text": "+1.0% to +2.5%"
           }
         }
       ]
@@ -24,47 +24,47 @@
     {
       "sector": "Energy",
       "read": "Neutral",
-      "score": 56,
+      "score": 50,
       "event_type": "regulatory",
       "drivers": [
         {
           "role": "main",
-          "text": "Positive operational progress and contract wins across several UK energy companies are driving the sector\u2019s bullish sentiment.",
+          "text": "Regulatory changes in the UK and European offshore energy markets are reshaping company strategies, prompting shifts in asset ownership and operational focus.",
           "forecast": {
-            "low": 1.7,
-            "high": 4.5,
+            "low": 1.5,
+            "high": 4.0,
             "direction": "+",
-            "text": "+1.7% to +4.5%"
+            "text": "+1.5% to +4.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "Serica Energy\u2019s new Beacon Pacific rig contract signals expanding offshore activity.",
+          "text": "Shell\u2019s transfer of its North West Shelf LNG stake to ADNOC reflects new regulatory pressures on LNG infrastructure ownership.",
           "forecast": {
-            "low": 1.7,
-            "high": 4.5,
+            "low": 1.5,
+            "high": 4.0,
             "direction": "+",
-            "text": "+1.7% to +4.5%"
+            "text": "+1.5% to +4.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "Pensana\u2019s milestone progress at Longonjo indicates continued investment momentum.",
+          "text": "Pensana\u2019s progress on Longonjo milestones indicates a strategic pivot to meet evolving environmental and licensing requirements.",
           "forecast": {
-            "low": 1.7,
-            "high": 4.5,
+            "low": 1.5,
+            "high": 4.0,
             "direction": "+",
-            "text": "+1.7% to +4.5%"
+            "text": "+1.5% to +4.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "Genel Energy\u2019s Capricorn proposal advancement reflects ongoing project development confidence.",
+          "text": "Serica Energy\u2019s new rig contract with Beacon Pacific underscores the need for flexible, compliant offshore operations amid tightening regulations.",
           "forecast": {
-            "low": 1.7,
-            "high": 4.5,
+            "low": 1.5,
+            "high": 4.0,
             "direction": "+",
-            "text": "+1.7% to +4.5%"
+            "text": "+1.5% to +4.0%"
           }
         }
       ]
@@ -72,47 +72,47 @@
     {
       "sector": "Financials",
       "read": "Neutral",
-      "score": 58,
+      "score": 51,
       "event_type": "regulatory",
       "drivers": [
         {
           "role": "main",
-          "text": "A recent regulatory event has lifted sentiment across the Financials sector.",
+          "text": "HSBC Holdings PLC shares fell 4.0%, reflecting regulatory scrutiny and investor concern over its financial performance.",
           "forecast": {
-            "low": 1.7,
-            "high": 5.2,
+            "low": 1.5,
+            "high": 4.6,
             "direction": "+",
-            "text": "+1.7% to +5.2%"
+            "text": "+1.5% to +4.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Pensana (LSE:PRE) reports progress on its Longonjo project, indicating operational momentum.",
+          "text": "Regulatory scrutiny of HSBC\u2019s operations has heightened risk perception among investors.",
           "forecast": {
-            "low": 1.7,
-            "high": 5.2,
+            "low": 1.5,
+            "high": 4.6,
             "direction": "+",
-            "text": "+1.7% to +5.2%"
+            "text": "+1.5% to +4.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Genel Energy (LSE:GENL) advances its Capricorn proposal, suggesting potential upside for shareholders.",
+          "text": "Market volatility in the UK financial sector has amplified the impact of the fall.",
           "forecast": {
-            "low": 1.7,
-            "high": 5.2,
+            "low": 1.5,
+            "high": 4.6,
             "direction": "+",
-            "text": "+1.7% to +5.2%"
+            "text": "+1.5% to +4.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Serica Energy (LSE:SQZ) signs a Beacon Pacific rig contract, adding to the sector\u2019s earnings prospects.",
+          "text": "Investor sentiment has been dampened by broader concerns over the banking sector\u2019s resilience.",
           "forecast": {
-            "low": 1.7,
-            "high": 5.2,
+            "low": 1.5,
+            "high": 4.6,
             "direction": "+",
-            "text": "+1.7% to +5.2%"
+            "text": "+1.5% to +4.6%"
           }
         }
       ]
@@ -120,17 +120,17 @@
     {
       "sector": "Healthcare",
       "read": "Bullish",
-      "score": 66,
+      "score": 67,
       "event_type": "regulatory",
       "drivers": [
         {
           "role": "main",
           "text": "",
           "forecast": {
-            "low": 2.6,
-            "high": 6.6,
+            "low": 2.7,
+            "high": 6.7,
             "direction": "+",
-            "text": "+2.6% to +6.6%"
+            "text": "+2.7% to +6.7%"
           }
         }
       ]
@@ -138,47 +138,47 @@
     {
       "sector": "Materials",
       "read": "Neutral",
-      "score": 52,
+      "score": 57,
       "event_type": "regulatory",
       "drivers": [
         {
           "role": "main",
-          "text": "Mixed sentiment in the Materials sector reflects a patchwork of company-specific developments rather than a unified market trend.",
+          "text": "Shell\u2019s transfer of its North West Shelf LNG stake to ADNOC strengthens LNG infrastructure, supporting the materials sector\u2019s bullish outlook.",
           "forecast": {
-            "low": 1.6,
-            "high": 3.6,
+            "low": 1.7,
+            "high": 4.0,
             "direction": "+",
-            "text": "+1.6% to +3.6%"
+            "text": "+1.7% to +4.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "Pensana\u2019s progress at Longonjo signals potential upside for the mining segment.",
+          "text": "Pensana\u2019s progress at Longonjo signals continued investment in mining assets.",
           "forecast": {
-            "low": 1.6,
-            "high": 3.6,
+            "low": 1.7,
+            "high": 4.0,
             "direction": "+",
-            "text": "+1.6% to +3.6%"
+            "text": "+1.7% to +4.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "Genel Energy\u2019s Capricorn proposal indicates continued investment activity in exploration.",
+          "text": "Serica Energy\u2019s new Beacon Pacific rig contract indicates expanding offshore drilling activity.",
           "forecast": {
-            "low": 1.6,
-            "high": 3.6,
+            "low": 1.7,
+            "high": 4.0,
             "direction": "+",
-            "text": "+1.6% to +3.6%"
+            "text": "+1.7% to +4.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "Serica Energy\u2019s new rig contract with Beacon Pacific highlights ongoing operational expansion in the sector.",
+          "text": "Sunrise Energy Metals\u2019 valuation debate highlights investor interest in metal production stocks.",
           "forecast": {
-            "low": 1.6,
-            "high": 3.6,
+            "low": 1.7,
+            "high": 4.0,
             "direction": "+",
-            "text": "+1.6% to +3.6%"
+            "text": "+1.7% to +4.0%"
           }
         }
       ]
@@ -186,17 +186,17 @@
     {
       "sector": "Technology",
       "read": "Neutral",
-      "score": 55,
+      "score": 52,
       "event_type": "regulatory",
       "drivers": [
         {
           "role": "main",
-          "text": "No direct impact on the Technology sector from the provided headlines.",
+          "text": "No technology sector headlines were provided, so there is no direct impact on the Technology sector from the supplied news.",
           "forecast": {
-            "low": 2.2,
-            "high": 5.5,
+            "low": 2.1,
+            "high": 5.2,
             "direction": "+",
-            "text": "+2.2% to +5.5%"
+            "text": "+2.1% to +5.2%"
           }
         }
       ]

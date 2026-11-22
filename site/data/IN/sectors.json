@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-11-22 07:09 UTC",
+  "updated_at": "2026-11-22 07:17 UTC",
   "market": "IN",
   "index": "NIFTY 50",
   "macro_theme": "Rate-policy commentary dominates headlines",
-  "macro_score": 72,
-  "macro_explanation": "Broad-market headlines scored 72/100 by the model (bullish); this is the macro overlay.",
+  "macro_score": 71,
+  "macro_explanation": "Broad-market headlines scored 71/100 by the model (bullish); this is the macro overlay.",
   "sectors": [
     {
       "name": "Consumer Discretionary",
-      "score": 72,
+      "score": 66,
       "label": "Bullish"
     },
     {
@@ -18,7 +18,7 @@
     },
     {
       "name": "Energy",
-      "score": 65,
+      "score": 64,
       "label": "Bullish"
     },
     {
@@ -28,12 +28,12 @@
     },
     {
       "name": "Healthcare",
-      "score": 66,
+      "score": 69,
       "label": "Bullish"
     },
     {
       "name": "Technology",
-      "score": 74,
+      "score": 66,
       "label": "Bullish"
     }
   ]

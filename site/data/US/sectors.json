@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22 07:09 UTC",
+  "updated_at": "2026-11-22 07:17 UTC",
   "market": "US",
   "index": "S&P 500",
   "macro_theme": "Rate-policy commentary dominates headlines",
@@ -8,32 +8,32 @@
   "sectors": [
     {
       "name": "Consumer Discretionary",
-      "score": 46,
+      "score": 49,
       "label": "Neutral"
     },
     {
       "name": "Consumer Staples",
-      "score": 51,
+      "score": 48,
       "label": "Neutral"
     },
     {
       "name": "Energy",
-      "score": 32,
+      "score": 28,
       "label": "Bearish"
     },
     {
       "name": "Financials",
-      "score": 43,
+      "score": 49,
       "label": "Neutral"
     },
     {
       "name": "Healthcare",
-      "score": 47,
+      "score": 48,
       "label": "Neutral"
     },
     {
       "name": "Technology",
-      "score": 27,
+      "score": 31,
       "label": "Bearish"
     }
   ]

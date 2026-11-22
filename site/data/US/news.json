@@ -1,7 +1,25 @@
 {
-  "updated_at": "2026-11-22 07:09 UTC",
+  "updated_at": "2026-11-22 07:17 UTC",
   "market": "US",
   "items": [
+    {
+      "title": "Israeli Spy Chief Pressed for Renewed Iran Strikes During U.S. Visit",
+      "source": "WSJ",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOR2poV3JYSVEtZHRZTmlXWXNpcUR6VEVZUnZEY01xeTB0WlhhMUVvTngyM1YwMHRieTY0R0lnMjhsWEJwa2lsY1RvNkluUXlKQ0dlZXlwR2VSdV9OSGE0RVZsNUJSTkRheno5NGJnbG1TRk9waG1CMFhCV3FadzgtbmlsQzAwd0dfZHRRMkZMWkpXcmVmMG9neVhtZUxkMUlka2tVdTdNbjRhcm5TZmY2dWw4SUs?oc=5",
+      "published": "2026-11-22 07:11 UTC",
+      "sector": "Market",
+      "tone": -3.0,
+      "note": "Geopolitical tension raises risk appetite."
+    },
+    {
+      "title": "Ross Gerber Urges Patience on Anthropic Stock - Anthropic (NASDAQ:ANT)",
+      "source": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOLTF6X0Z0VmU4eFBNWGh4NlhDX2VzODFSNXZtZVJHWEZ3NTI0ejYzamFWNDZSV240ZHhIVDhKdEVGakVpYUYxWFA4d19KYkZfQmM3RVBJR1hUajZpQTdLY1BaQ0Q0b29BYm5YUzd4RmhqdXVCRzBUQnIwa1FxNm1LeWgySWM5Q05rd2wzcVpYSWZWdU4zME9zMzRvMHZXQmlXU1RJWi1ab0lMNGN0VWNmcnVIQzFWaE0?oc=5",
+      "published": "2026-11-22 07:07 UTC",
+      "sector": "Market",
+      "tone": 0.0,
+      "note": "Company-specific, no market impact."
+    },
     {
       "title": "S&P 500 sinks 3.7% and the Nasdaq composite goes negative for the year",
       "source": "ktnv.com",
@@ -9,7 +27,16 @@
       "published": "2026-11-22 06:56 UTC",
       "sector": "Market",
       "tone": -5.0,
-      "note": "S&P 500 plunge signals deep market weakness."
+      "note": "Major index decline signals market weakness."
+    },
+    {
+      "title": "Nasdaq\u2019s Tougher Listing Rules Put Interactive Strength at High Risk of Suspension and Delisting",
+      "source": "The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQRmZjbHI1LWY4RlotV0J2V1VuaUdwTE5idmpMQ3BlTWpiVnJTVkx3RE50Y3FBQmtkNmlsem1DUzdZQ0ZpVUowT1NjcW51RU1WWlgzdk5ubWxTaVRfY01RRTMtWU9EUHdfV1Vvb3kydzRjMXNZY28wMkVBaUVWMjRlOFlDQlpwNWRXOFNiMEUyRlZhLVlBaUl2R0dCMHpncEMyQW42NVpPTUowcmpDVUhfemd0b0g1UmpkS2hRVFVGUF9aam1xa2kyRUc3THAtVmpUb3BodkZSYTRZRU5OS3NjaUVpaGh2Z2FCWDlHaWVqWTQxdnRhNEFrQnJRZXFHeEpKWXcyQVFMRQ?oc=5",
+      "published": "2026-11-22 06:28 UTC",
+      "sector": "Market",
+      "tone": -4.0,
+      "note": "Listing rule risk hurts tech sector confidence."
     },
     {
       "title": "Anthropic's $93.5 Billion IPO Marks Record Debut, Then US Stocks Plunge; Nasdaq Drops 5.28% in a Single Day, Erasing Year-to-Date Gains",
@@ -18,7 +45,7 @@
       "published": "2026-11-22 06:25 UTC",
       "sector": "Market",
       "tone": -5.0,
-      "note": "Anthropic IPO failure triggers Nasdaq collapse."
+      "note": "IPO success followed by market plunge."
     },
     {
       "title": "Nasdaq Index: Nvidia Leads Tech Stock Rout as Nasdaq Nears Bear Market",
@@ -27,34 +54,7 @@
       "published": "2026-11-22 06:12 UTC",
       "sector": "Market",
       "tone": -4.0,
-      "note": "Tech rout led by Nvidia pushes Nasdaq toward bear territory."
-    },
-    {
-      "title": "Nasdaq\u2019s Tougher Listing Rules Put Interactive Strength at High Risk of Suspension and Delisting",
-      "source": "The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQRmZjbHI1LWY4RlotV0J2V1VuaUdwTE5idmpMQ3BlTWpiVnJTVkx3RE50Y3FBQmtkNmlsem1DUzdZQ0ZpVUowT1NjcW51RU1WWlgzdk5ubWxTaVRfY01RRTMtWU9EUHdfV1Vvb3kydzRjMXNZY28wMkVBaUVWMjRlOFlDQlpwNWRXOFNiMEUyRlZhLVlBaUl2R0dCMHpncEMyQW42NVpPTUowcmpDVUhfemd0b0g1UmpkS2hRVFVGUF9aam1xa2kyRUc3THAtVmpUb3BodkZSYTRZRU5OS3NjaUVpaGh2Z2FCWDlHaWVqWTQxdnRhNEFrQnJRZXFHeEpKWXcyQVFMRQ?oc=5",
-      "published": "2026-11-22 06:11 UTC",
-      "sector": "Market",
-      "tone": -3.0,
-      "note": "Listing rule tightening threatens major tech stability."
-    },
-    {
-      "title": "Ukraine Is Racing to Keep Its Booming Defense Industry From Stalling",
-      "source": "WSJ",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOUllLRmxobEp4dElCMVJrTnhoTjVjc3p3YTd1blNlR2YyZUUzRWlOelNZb0JVeWVxR3hkXzhWLU51eEU0N1E1NVhhRXJPM09KLVVzRDVXRmp0YUJnby1WZXZ2QVBfaUl6ckVTSnJ6RE1WRDhVRlVpb3FTZnJKQ19CUjR3ZjJCUmR2cnNrNTY1MkN5RGV2VlByc1FlZ0dPSnBUZVNrS2dn?oc=5",
-      "published": "2026-11-22 05:27 UTC",
-      "sector": "Market",
-      "tone": 0.0,
-      "note": "Ukraine defense focus unrelated to US equity sentiment."
-    },
-    {
-      "title": "US Stocks' Sixth Straight Loss Echoes 2018 Playbook as Goldman Sachs Warns of Liquidity Contraction Risk",
-      "source": "BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5YV3N0NGFyX1Q0dXlXcG90U2xvRTFNVWgxTlV5N3JybFl3c1JFVUgwdFdKdGdvWkRrTzlvUFlqQ0c4bFhBMUJiWUhNYUtUdWM2Rk43eTFCam9vYWk3WGEwNVlHZmVqOVVJVVM3Q0xIMFVaQWtkRUE?oc=5",
-      "published": "2026-11-22 05:25 UTC",
-      "sector": "Market",
-      "tone": -4.0,
-      "note": "Goldman warns liquidity squeeze, echoing past downturns."
+      "note": "Tech rout erodes Nasdaq performance."
     },
     {
       "title": "China AI stocks lose $1.7 trillion after U.S. restrictions",
@@ -63,7 +63,7 @@
       "published": "2026-11-22 06:46 UTC",
       "sector": "Technology",
       "tone": -3.0,
-      "note": "China AI selloff signals global tech weakness."
+      "note": "China AI selloff signals global pressure on tech"
     },
     {
       "title": "Jensen Huang Resignation: 3 AI Stocks, Flash Sale Claim",
@@ -72,7 +72,7 @@
       "published": "2026-11-22 06:22 UTC",
       "sector": "Technology",
       "tone": -4.0,
-      "note": "CEO resignation hints at internal turmoil."
+      "note": "CEO resignation hints at internal turmoil in AI"
     },
     {
       "title": "KOSPI Breaks Below 4,900 as AI Bubble Fears Halve Chip Stocks; Brokerages Call It 'Oversold'",
@@ -81,7 +81,7 @@
       "published": "2026-11-22 05:35 UTC",
       "sector": "Technology",
       "tone": -2.0,
-      "note": "KOSPI drop reflects chip sector fears."
+      "note": "KOSPI dip reflects chip market weakness"
     },
     {
       "title": "Bitcoin heads for longest weekly losing streak since 2022 as holders chase AI stocks",
@@ -90,7 +90,7 @@
       "published": "2026-11-22 05:24 UTC",
       "sector": "Technology",
       "tone": -1.0,
-      "note": "Bitcoin decline shows shift to tech."
+      "note": "Bitcoin decline shows shift to tech assets"
     },
     {
       "title": "Where Will Nvidia Stock Be in 20 Years? The Answer Might Surprise You.",
@@ -98,8 +98,8 @@
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNU1lEQmc3OVpiRkN4Y1VUMDcxSzMxUlQ3eDRHSUk2OFFEYUQtdzlNdnlITTc4eEt2RXlPd1g3YnNsQldlb0V4U0sxZkExSVpLUDlXdm45c3ZNZHRGaUR2aE9NeWc3YW9wNGlickhyTlZfeklyOVVnZ0lYSTFBazUwVmRjWHY4YVZVblJmUTM4XzlKMnhPU3p4Ry01blZfWHV0bkFtU0FKS2NBWS1fd1RBaw?oc=5",
       "published": "2026-11-22 05:00 UTC",
       "sector": "Technology",
-      "tone": 0.0,
-      "note": "Future valuation speculation, neutral."
+      "tone": 3.0,
+      "note": "Long-term Nvidia outlook suggests resilience"
     },
     {
       "title": "China\u2019s AI stocks lose $1.7 trillion as tech selloff deepens",
@@ -108,7 +108,7 @@
       "published": "2026-11-22 01:13 UTC",
       "sector": "Technology",
       "tone": -3.0,
-      "note": "Repeated China AI losses reinforce bearish tone."
+      "note": "Repeated China AI losses reinforce bearish sentiment"
     },
     {
       "title": "Sensex, Nifty end week at nine-month highs as bank stocks lead rally",
@@ -117,7 +117,7 @@
       "published": "2026-11-22 02:59 UTC",
       "sector": "Financials",
       "tone": 2.0,
-      "note": "Bank stocks leading rally suggests positive outlook for financials."
+      "note": "Bank stocks leading rally signals optimism for financials."
     },
     {
       "title": "3 U.S. Financial Stocks Built For Higher Interest Rates",
@@ -126,7 +126,7 @@
       "published": "2026-11-21 19:06 UTC",
       "sector": "Financials",
       "tone": 3.0,
-      "note": "Stocks built for higher rates indicate potential gains."
+      "note": "Stocks built for higher rates suggest positive outlook."
     },
     {
       "title": "Bank Stocks To Follow Now - November 21st",
@@ -135,7 +135,7 @@
       "published": "2026-11-21 17:17 UTC",
       "sector": "Financials",
       "tone": 2.0,
-      "note": "Bank stocks expected to follow signals optimism."
+      "note": "Bank stocks to follow indicates continued strength."
     },
     {
       "title": "Promising Financial Stocks To Keep An Eye On - November 21st",
@@ -144,7 +144,7 @@
       "published": "2026-11-21 17:17 UTC",
       "sector": "Financials",
       "tone": 2.0,
-      "note": "Promising stocks highlight growth opportunities."
+      "note": "Promising stocks highlight potential gains."
     },
     {
       "title": "What Is Net Interest Margin? 2 Bank Stocks Where It's Rising",
@@ -152,17 +152,17 @@
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQmhxRFFoQTNxNENXOUhDYWFkSVBLcUpTeWY0ODZ5X0h6TFZINVpGUkZmWUFqVWlYUW1ObmVMb3pBWWlueERxTWdkaWtwTjNabXlqblc3SUtpYnNTSFFSdmtkc2tWeE90OHdNSUNMYWVXU2dxdUM3ejZtNTlaVENtWkJkSjcxRjBrY2FCdF9aei1QS3V3bERzQVc0Y2FkS01SYTJXQw?oc=5",
       "published": "2026-11-21 11:00 UTC",
       "sector": "Financials",
-      "tone": 1.0,
-      "note": "Rising net interest margin shows improving profitability."
+      "tone": 3.0,
+      "note": "Rising net interest margin boosts bank profitability."
     },
     {
-      "title": "US bank stocks have their worst week since April 2025 as Goldman and Morgan Stanley drop more than 13%",
-      "source": "CEO Economy",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBuQVotQXpuUFE2MFNlY2U5cDZaSWhyRnZpT0xqSEk2Zi1hQXpEaFJHcklyZlFlQVJTbVRUVWU0eTdoNWhjQmdsQWlOTWRsQWRBR0xUUllvMDhsaGEwY1UxZm11RndrNEU2NENLQ0RhOGttSlJzVDdqTWlR?oc=5",
-      "published": "2026-11-20 23:40 UTC",
+      "title": "Sensex, Nifty extend winning streak to 3rd session led by auto, financial stocks",
+      "source": "DD News",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQUN2bEJSeXAzWGs5dEQtZFBkeHNxaUJGUmJ0c2RmbWVmZ2oxMUNWRmVZejBnRmFyRGRDY0tJdndUVXl1aFduNS1ob0EybFg4clpjNGlrS3FTblRFYlcxSnBVdDRQaXlMRlpacmZlNTl5UGd3eGN2d2xpVjZ2Nk5nZUN4OHVXUTBPcXVEQUZTelJDdTNYMEFiQWRreHM0TFFkc1JmMmZuVQ?oc=5",
+      "published": "2026-11-21 06:09 UTC",
       "sector": "Financials",
-      "tone": -4.0,
-      "note": "Worst week for banks signals significant downside risk."
+      "tone": 2.0,
+      "note": "Winning streak driven by auto, financial stocks shows sector momentum."
     },
     {
       "title": "Week ahead: NIFTY monthly expiry, crude oil prices and FIIs activity among key market triggers to watch",
@@ -170,8 +170,8 @@
       "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOa18zM1lDbGk0SHhyWVE3eFRKRVlRMTdhZG41cWhTbTZFc2h3b3IzaUFaQjhhZjlxT3QwRmZPQ2xZRDJQQWp6YzloTnpZYjB1enRsSGlxTkdhaElTTmI3S01UWTRDTG9haXlPMDY2aVlfazZhaW1rRkUydzBfa19xbWt4S1J5dHNpeDh0R1h6ajlzTmJualJoWjFrcjdKcjdSSy1DZ0l4YlhpT0pkVHpWQy1UeGxYOW51R0k1RmtlNlk0bmZuZkNDUUV6d1VsazJYWGptNjM1dDM1X2RjT1MyNjFVZUJVeFd0Mk11ZWNaTVY1Qy16?oc=5",
       "published": "2026-11-22 07:03 UTC",
       "sector": "Energy",
-      "tone": 2.0,
-      "note": "Oil price drops suggest lower revenue, but market triggers may offset"
+      "tone": 0.0,
+      "note": "Oil price focus suggests potential downside."
     },
     {
       "title": "The Seven Charts That Explain the New Normal for Oil Prices",
@@ -179,8 +179,8 @@
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQS1yamN3ZV90S1NLcS16OE5Tb3BCNVgyRmJxMktsTHlJLS1Ldlp1UjQ0VWdaNUhNMmpoY0ZwYmF4R013c0ZPUjRYTjJJTFhRVmxWM2s0ME5xVU96UlpWWExXQmVJU3hmUmlIRXoxeFRzVHZqZ0lWM2hONWp0bEttUVpFSkw?oc=5",
       "published": "2026-11-22 06:27 UTC",
       "sector": "Energy",
-      "tone": 3.0,
-      "note": "Charts indicate new normal, implying stable long-term demand"
+      "tone": 0.0,
+      "note": "Charts indicate ongoing volatility."
     },
     {
       "title": "Gasoline and oil prices today, November 22nd: Week of deep drop in world oil prices",
@@ -188,8 +188,8 @@
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZEJKVElHVTZ5QVdpV3Y1TFdzdDNxQlYweEdsZGN2M0stcS1xZXhHNTVsWFQwUzA4emNfZjRMWFpEdmRWV3l1X2liVnRfNl9CSDRMLVN5cnBFQ0pxYi1CWGxzQy1YUlBFMUl1c2FwNHRsa1JJRk9YeDRxdDIwNEtKMlNnZVBjZ0JhSUpMdjZSRy1VMGs4c2MyZW1Ebk03VWNreXBxSm9Hbi1JWEU?oc=5",
       "published": "2026-11-22 05:00 UTC",
       "sector": "Energy",
-      "tone": -4.0,
-      "note": "Deep drop in world oil prices signals weak demand"
+      "tone": -3.0,
+      "note": "World oil prices falling sharply."
     },
     {
       "title": "Retail gasoline prices today, November 22",
@@ -197,8 +197,8 @@
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQTnhLbm5GSVJ1V2lON3ZZSjBtNWxBTXdQYzZvNGV0Nk1oRHFJNkQxWEJNemozMnotaEFzM0lzMDZjZnBFZHF4TWxNZ2R3SGJ2blVCM3o4dkdEcGo4TkEtWDk4U3ZKUUpNSDdTMWtvV2E5RFN0NVZoUmtfcFh4UnBrSzE0VWJUdw?oc=5",
       "published": "2026-11-22 03:15 UTC",
       "sector": "Energy",
-      "tone": -3.0,
-      "note": "Retail gasoline prices falling, hurting margins"
+      "tone": 0.0,
+      "note": "No price change indicated."
     },
     {
       "title": "Easing oil prices fail to lift PSX",
@@ -207,7 +207,7 @@
       "published": "2026-11-22 02:26 UTC",
       "sector": "Energy",
       "tone": -2.0,
-      "note": "Easing oil prices fail to lift PSX, indicating weak sentiment"
+      "note": "Oil price easing not boosting markets."
     },
     {
       "title": "Gasoline and diesel prices today, November 22nd: Global and domestic prices both experience a week of decline.",
@@ -215,8 +215,8 @@
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcmJPaGMyQlRQbElqM0ZuY1RDU190TEo5ekVFUTlMck9HMDJad0ZUeUNmUUxwd3FFREdQY3BHamlRYWZZUFZETV9vdE9wbmx1QVZVUjh2YWhNeGxaYjdKVUZ2aVhodFJoQndab0x4Mm9NMk40Z2ctd2FoeGlyR3k3WGlFR2tDRGdmUDJudGI4SXkxd19Fc1I0TGFsalpkZ2pI?oc=5",
       "published": "2026-11-22 02:04 UTC",
       "sector": "Energy",
-      "tone": -4.0,
-      "note": "Global and domestic price decline signals bearish outlook"
+      "tone": -3.0,
+      "note": "Global and domestic fuel prices dropping."
     },
     {
       "title": "Take-Two Estimates GTA VI Hit $3.79 Billion in Day-One Retail Sales",
@@ -225,7 +225,7 @@
       "published": "2026-11-22 06:13 UTC",
       "sector": "Consumer Discretionary",
       "tone": 5.0,
-      "note": "GTA VI day\u2011one sales hit $3.79B, boosting gaming revenue."
+      "note": "Record-breaking launch boosts gaming sector confidence."
     },
     {
       "title": "\u201cGrand Theft Auto VI\u201d generated $3.79 billion in retail sales on its first day Thursday, Rockstar Games said. Before its release, the game had sold almost half as much as the best-selling album in recorded music history, Michael Jackson\u2019s \u201cThriller.\u201d https://wapo.",
@@ -234,7 +234,7 @@
       "published": "2026-11-22 05:00 UTC",
       "sector": "Consumer Discretionary",
       "tone": 5.0,
-      "note": "Rockstar confirms $3.79B sales, signaling strong consumer demand."
+      "note": "Huge first-day sales signal strong consumer appetite for entertainment."
     },
     {
       "title": "US stocks slide on chip selloff; UK and Canadian retail sales strengthen",
@@ -242,8 +242,8 @@
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeUFqXzdGM2wyd1Q3aWZoV19EbG9YUVZNRElfTXprYlB1akFjZU54dDJPT0ZfMjQwaTlYd0hfQk5feVJ0aWFvMFhfU0xwaXdkVkdMS3pWZUNCYWpvZksyLUFaTk1nVVRDMG82Y1pmbEtMaEp1RWtZbW0ydThGM3hRb0FlSi1Gdm5CWW1mMzVmZVUybUdHZlh6X0NjWVRhLTU5YlNXTV9BdjN2dUZ5WXNrM21uMGt5ajM3bWc?oc=5",
       "published": "2026-11-22 03:39 UTC",
       "sector": "Consumer Discretionary",
-      "tone": 0.0,
-      "note": "Mixed US market slide vs. foreign retail strength, unclear impact."
+      "tone": -2.0,
+      "note": "Chip selloff dampens broader tech, indirectly affecting discretionary spending."
     },
     {
       "title": "Ho Chi Minh City retail sales exceed VND60 trillion amid year-end push",
@@ -252,7 +252,7 @@
       "published": "2026-11-22 03:05 UTC",
       "sector": "Consumer Discretionary",
       "tone": 0.0,
-      "note": "Ho Chi Minh City sales data irrelevant to US sector."
+      "note": "Vietnam retail data irrelevant to U.S. consumer discretionary."
     },
     {
       "title": "Ho Chi Minh City retail sales exceed VND 60 trillion amid year-end push",
@@ -261,16 +261,16 @@
       "published": "2026-11-22 03:05 UTC",
       "sector": "Consumer Discretionary",
       "tone": 0.0,
-      "note": "Duplicate irrelevant headline."
+      "note": "Duplicate headline, no U.S. relevance."
     },
     {
-      "title": "Shoppers stockpile emergency food as Be Ready warning boosts retail sales | The Independent - newspaper",
-      "source": "Magzter",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNzBpN05sMWg3aUxzTFZrTjJ5WDRsOU1kcWY2TE5YemJRUGJxR3F0ZGN6RElHN05CVTFuSVhPSUFhYUV0ZnE5VHphQ0ZhTjdOOWVyV2hKT2V4QWtEcWFCYmQzMDY3d01YUzNGTG0yVHdvT1RxX2dsRnJWaFVsSVl2RlJKQ2NQNmh1RloyOVFReGEteEZaSm53d3gxcUVtWUJKYzhQS0FUak8wNUZRTnNwX1A4THhGS083aGJqaGMwdFZtU09RWFJldExpQQ?oc=5",
-      "published": "2026-11-22 02:27 UTC",
+      "title": "US Consumers Are Holding Up Against Inflation Going Into Holiday Season",
+      "source": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVzdHalZYY2s3bHVEeENKX0g4T0M4WWxHV3lacDRlejl2b2E5VWNPd1AxbXhaaUVyNXBFLWlYZFlKTk93R3QzeFdVazI3ajljUFVLYnFpb1VVQmNrVlNvYTIyajhxM1JBbjYxTkhJMkhObEJGSVdRdmZDVzItblZFd1A4NHZaWTZiZWdFVVc4REI2RGF5UjlGWndXeDFha2k0MWdqRkE4X1ozQ1h5N0ZxZmVVTVFldC1VRi1keUdBQQ?oc=5",
+      "published": "2026-11-21 21:00 UTC",
       "sector": "Consumer Discretionary",
-      "tone": -3.0,
-      "note": "Emergency food stockpiling signals consumer anxiety, hurting discretionary spending."
+      "tone": 3.0,
+      "note": "Consumers holding up against inflation supports discretionary spending."
     },
     {
       "title": "Coca-Cola shares rise 35% in a year, showing st...",
@@ -278,8 +278,8 @@
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1HUXd4WjNYT1MyTFlpbWJsTWJXM3JTRmo1Z2pJVlZOYVRwa3dRN3pQN2VvQkV1MW9wYkpBSzY0TGM2R2lQRl9rUEVBQVQwbVhQdnVWMFdDa2xtOExRMHFWQzdYLTVTbEhqcV9fQTF3dXNMTVNZS0c3UQ?oc=5",
       "published": "2026-11-20 23:15 UTC",
       "sector": "Consumer Staples",
-      "tone": 5.0,
-      "note": "Coca-Cola\u2019s 35% rise signals strong consumer staples performance."
+      "tone": 3.0,
+      "note": "Coca-Cola\u2019s 35% year\u2011to\u2011date rise signals strong consumer demand."
     },
     {
       "title": "Consumer Staples Stocks Are Winners as AI Faces Scorching Losses",
@@ -288,7 +288,7 @@
       "published": "2026-11-20 17:32 UTC",
       "sector": "Consumer Staples",
       "tone": 4.0,
-      "note": "Sector wins amid AI losses boost confidence in staples."
+      "note": "Consumer Staples outperforming AI losses boosts sector confidence."
     },
     {
       "title": "Mapping the Market: Coca Cola shares appear due for a dip, but rally still alive",
@@ -296,8 +296,8 @@
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSFJIdjJZSWM0QnBFNG83aV9YU1pGclpwS1RQazRGM2FrYzFpUG1ocVE2M2Frd2ZicXlldlVMbWFjRENJR3RNU0FPMkJ4TXNvRC1CZ1VOZnZlY1dtMlVDRmZHRGxUZWdWMmNtOUJwZlFjdm9icktvNUJFMzc3eUZRemxn?oc=5",
       "published": "2026-11-20 11:05 UTC",
       "sector": "Consumer Staples",
-      "tone": 2.0,
-      "note": "Potential dip noted, but overall rally suggests resilience."
+      "tone": 1.0,
+      "note": "Coca-Cola may dip, but overall rally remains positive."
     },
     {
       "title": "European shares on track for steepest weekly drop since March",
@@ -306,7 +306,7 @@
       "published": "2026-11-20 10:49 UTC",
       "sector": "Consumer Staples",
       "tone": 0.0,
-      "note": "European share decline unrelated to U.S. consumer staples."
+      "note": "European share decline unrelated to U.S. Consumer Staples."
     },
     {
       "title": "Analysts Are Bullish on Top Healthcare Stocks: Solid Biosciences (SLDB), Eli Lilly & Co (LLY)",
@@ -315,7 +315,7 @@
       "published": "2026-11-21 12:53 UTC",
       "sector": "Healthcare",
       "tone": 3.0,
-      "note": "Analysts bullish on top healthcare stocks, indicating strong investor confidence."
+      "note": "Analysts bullish on top healthcare stocks."
     },
     {
       "title": "AI Trading Agents Follow Clean Technology and Healthcare Stocks Across Global Markets (ENPH, SEDG, FSLR, NEE, BE)",
@@ -324,7 +324,7 @@
       "published": "2026-11-21 07:01 UTC",
       "sector": "Healthcare",
       "tone": 1.0,
-      "note": "AI agents following healthcare stocks suggests mild positive interest."
+      "note": "AI agents target healthcare, indicating mild optimism."
     },
     {
       "title": "META_TITLE_SECTORS",
@@ -333,7 +333,7 @@
       "published": "2026-11-21 06:27 UTC",
       "sector": "Healthcare",
       "tone": 0.0,
-      "note": "Meta title sector headline irrelevant to sentiment."
+      "note": "Title unrelated to healthcare."
     },
     {
       "title": "Sector Update: Healthcare Stocks Rise Late Afternoon",
@@ -341,8 +341,8 @@
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWVdsNnpRM0lOaUhFcFBNRVprakJpWWpUVk1mOXlHLXdTVlVTZHFpSnVpU3AycXRCX21fNEVqT2VvYWhLUDZZZXg2WXVPUWZodHE2NWJuUUlxZ25QVkNwU2tTeThiYUJyalY4QTdFX2UxZ05BNkFuc01ZV1MyUTljZGJkNzN3ejFndmI0LVlYM2syOTRVM1VfMGtDdw?oc=5",
       "published": "2026-11-20 23:46 UTC",
       "sector": "Healthcare",
-      "tone": 2.0,
-      "note": "Sector update notes healthcare stocks rising, showing bullish momentum."
+      "tone": 4.0,
+      "note": "Healthcare stocks rising late afternoon."
     },
     {
       "title": "JPMorgan\u2019s Names Top Biotech Stocks",
@@ -351,7 +351,7 @@
       "published": "2026-11-20 18:32 UTC",
       "sector": "Healthcare",
       "tone": 3.0,
-      "note": "JPMorgan names top biotech stocks, reinforcing positive outlook."
+      "note": "JPMorgan names top biotech stocks."
     },
     {
       "title": "Textile, fuel, pharma stocks dominate trading",
@@ -359,8 +359,8 @@
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUURGRWpKWEtXUm5KNnYyX2toTjVIWVRlOTNnRFdyT1daREFuLTFSWlRrUmFxTXd2WUprWHpYNXEwX25Ia1l6a1FpWTJyOXNXVEdoSWx0OFB4c1pWeGxqdTFoQVFuaklza0w0ZHEyY1ZNSUN4SGxaUXEtQ3JxRGFfck4xX2VVdUNkTy1SVW5kWFA?oc=5",
       "published": "2026-11-20 18:00 UTC",
       "sector": "Healthcare",
-      "tone": 0.0,
-      "note": "Headline focuses on textile and fuel, pharma mention is peripheral, neutral."
+      "tone": 1.0,
+      "note": "Pharma stocks mentioned, slight positive tone."
     }
   ]
 }
