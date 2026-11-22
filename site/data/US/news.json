@@ -1,114 +1,159 @@
 {
-  "updated_at": "2026-11-21 14:06 UTC",
+  "updated_at": "2026-11-22 03:52 UTC",
   "market": "US",
   "items": [
     {
-      "title": "Novo Nordisk Stock: The AI Case Wall Street May Be Missing",
-      "source": "InvestorPlace",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMkc1alRIQnA4OFNLRjBFQWRFMzZ3NXROTG81cTNvTHJfUWJqbHVsSnVwSllUdmRLWnduNlIyR0s5TUhLc2FvaVFrU1B1TnVGLThIMDRyNzk2ZXBjb190OC0wMkN4eEhraFFJaFlGRnRRWEdqcGtvRGJudlVqb1Y0QjZNWTh2bFZZQnJvcUpLUTJVemtwaEZjTFJWejR1Y3J1RmpxZHNWRUpkY0I1dERib0lxdw?oc=5",
-      "published": "2026-11-21 13:55 UTC",
-      "sector": "Market",
-      "tone": 2.0,
-      "note": "Novo Nordisk\u2019s AI focus signals innovation, boosting market optimism."
-    },
-    {
-      "title": "The Dow Jones Did Something It Hasn\u2019t Done Since October 2008",
-      "source": "24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQa1M2aVdNMjY0RkJyWmRidGZRNlBuSWR6ZjNJb1RLalRCb3lqZmhtSm1La3NzeXlfRVlNdFBEc2ZLUlUwTUg4TTZtQ25LLUpsaFdMcWh0TEVhVHJad3JjV2dNMXhHOWFMd2pkTWpudldaeGFMQkc2RUNqamFHWHNGUk5reGlYdWNjMURHS1YyOXdpV0NjYVc5TWMyWVpyemRaS3NycVlndw?oc=5",
-      "published": "2026-11-21 13:53 UTC",
+      "title": "Prenetics: The Selloff Priced In The Spend, Not The Payback (NASDAQ:PRE)",
+      "source": "Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPaWw0LUpOVVc1WlFud3lfMzc1Ym54dEMtTlRSZzFua3hNZDNyTnRsOExHWGw3SDkyWHpLR1RiMXJHX0Fxc0ZtZnJUd1VkLWVLaGFXbXRxYk5CQ0o1NWRqZ1F5UGtwaGRKblRkRDNlVnp1Tk51LVZrejA0WnYzZ1Y0VTMwb3duY2Fud0RQUjU0aGtiUjNuby1ONkpDZV9YZkVqRjVCMDJXeTluX2FKREJiQjIyZGxYZ0dIX2NQdw?oc=5",
+      "published": "2026-11-22 03:47 UTC",
       "sector": "Market",
       "tone": -3.0,
-      "note": "Dow\u2019s rare move hints at potential volatility, dampening sentiment."
+      "note": "Prenetics selloff indicates weak earnings expectations."
     },
     {
-      "title": "Western Digital (NASDAQ:WDC) Shows High Growth and Improving Fundamentals",
-      "source": "ChartMill",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVGhOOFdWbmgyZHZxaU1faHhMSGo1b2IyREZxVkhBc0xQeUt4MlctT3hsbGdEeHFrWEtUNmxDWFNBT1ZkenpaSzM3eW9OQ1A4SmJUZ3ZidnpnVHM4Tks3bXctaEFIblg5QW9yeWlHYWJwS3FVYXVoU0lQdjJYNVpuT1dCXzJ1aV9QaVo4V0tuSWpGbkVvRVdlRHZIYWY2LXJGcTVvS203Qy1aYS12c3lZTVJ6X25acWFrdl90V0ln?oc=5",
-      "published": "2026-11-21 13:40 UTC",
+      "title": "Rivals Bleed As Apple (NASDAQ: AAPL) AI Agent Leak Rattles Anthropic (ANT) And Meta (NASDAQ: META)",
+      "source": "Foreign Policy Journal",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOOFJpUjVWU3pVeHNvZ0RudnJRN09mekVLTGZUT3BZeHg1OXNvdTBoak1YUFQ5TkY2anFNR2FfdmtoMnNoek5iZGI3TnJWcVBfMTY5N19TNXlSS3MxWUFLZ2d5YWdORTU3djV6UHUyR0JGelNlWlZlUzdLdEZZTjh6dDNFdHcxSUtoQnFtWENwOXpTRGRJZ0pwOHVYMEVmTWUtU3ZUM0NoOWJmRUxMWW11SHgzZFk3UENqTTFaWDMzTTFNTDNUM2hkSnVtUk1QUDdwQmRuZ1NB?oc=5",
+      "published": "2026-11-22 03:40 UTC",
       "sector": "Market",
-      "tone": 3.0,
-      "note": "Western Digital\u2019s growth and fundamentals lift overall market confidence."
+      "tone": -2.0,
+      "note": "Apple AI leak rattles competitors, hinting at broader tech uncertainty."
     },
     {
-      "title": "John Bogle\u2019s Retirement Portfolio Was So Simple, Wall Street Hated It",
-      "source": "24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPN3Ztc2VrdFNnWmNuTTk0aHBEeXg5YVM1YkpWR3ZDekIwVkh4aHdlVGUtQWtzRTg1ak1ENEV6dkNWc2lZSmR6TjIyWHBGa0JtMUtMbVVQbUJYbTM3T0FxNWs4cXY2cFJvaWw1UnFwZmJYaG9FbUF6ODRhYlRpLTQ2eG1aMUdJZzlHYTJMbmtFQ2lHZTRDUlZncFliamxJc1BJaVVjTEp1YVJxUVVIa3Q5dQ?oc=5",
-      "published": "2026-11-21 13:33 UTC",
+      "title": "S&P 500 drops more than 3% as semiconductor stocks lead market selloff",
+      "source": "www.equiti.com",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOOUYwQUZNMTc0ODR5eXlsdUhacFhUNXVlWGpkel9fRldXUlNUTU9CZXpKWjlZcTZJdkNBcEZ6bGdnRHBKVWgzbEJXT1NESHdneEp1ZU9vbThMVzcwaHZqXzlBUWFDemRUbHI4UWh0S2hpZ3k0WV81b2tGMW9IM0FXdkdWeW83T2t3RllTX25kQk0wbWtuYjJkWENia2RhZkltOTZqaUU5dlBFX0xteFJXSHUteHRGQ05XMlN2SDVIZUxmdw?oc=5",
+      "published": "2026-11-22 03:39 UTC",
+      "sector": "Market",
+      "tone": -4.0,
+      "note": "S&P 500 drop driven by semiconductor slump."
+    },
+    {
+      "title": "A mere rumor triggered a collapse in U.S. stocks.",
+      "source": "\u5bcc\u9014\u725b\u725b",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONjVvSEIwWHNLWlVWTzNrRmUtVWN2U1c4SnNxSXo0c2tkWXdVT0xPTWhfOTNpcmJrUVdSdGs4WHVoT0JSSzEyWThydkZaNjRvWE1SdXFOdjk1MU9JUVJzb0dudzROTm4tZmFNbko4dGk4V1NNTWU1MktaUHZaS1dqaXEwcHVrUHFLc2Y5UVIyck82R1k?oc=5",
+      "published": "2026-11-22 03:28 UTC",
+      "sector": "Market",
+      "tone": -5.0,
+      "note": "Rumor\u2011triggered collapse shows fragile market confidence."
+    },
+    {
+      "title": "Toto Wolff Backs Human Instinct Over Data As Microsoft (NASDAQ: MSFT) Powers Mercedes F1's AI Race Machine",
+      "source": "Foreign Policy Journal",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxON3N6V0FxUU51eUN6WkxrUjhNXzBnaVVQdlRySkM5ZUNrM0ZHcGs2WkRScXlXMmhOYU1ndTZSaUI1Ml92TFhfSnpwQnF0b21HT2NDdDlJVmFTQzY5S2UxNDY3QWd5OUJ5Q0xKQ2tQWjZDMF9xYWN6LVpHeVY3Z3ZReGRIT2lkQkNTVXJuVEVNb1NrY0FpNU93WlVvWTdNSlQzVzlkOS11WnNta3NpbGZkM1JSeWd6VVZiSjV3bjJrbTBDc09hQi1GVTFIVTdJS1M5TGtwVkgySjlJZlZISXlpQmh2SW5Kdw?oc=5",
+      "published": "2026-11-22 03:22 UTC",
       "sector": "Market",
       "tone": 0.0,
-      "note": "John Bogle\u2019s simple portfolio is a strategy, not a market indicator."
+      "note": "Mercedes AI comment unrelated to US market."
     },
     {
-      "title": "Seagate Technology Holdings (NASDAQ:STX): An Undervalued Value Stock With Strong Forward Earnings Power",
-      "source": "ChartMill",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxONXI5U0NVTmFCTGtycGlZR05yb1V6TWtPcGFBbTBVeW1HLXBCUFlJOE81OGJoUlc1VC1qaE52VlpaOHFOXzI2LXJBT3VGb0ZqQ2p6V3RDMUlRTWxMZmdEYUhxM1hhTXdMbGJ2TG00UGNVWHAxbXBvaUlGQzdxS2tLU0VwVHpsdGV5SUVvbS04ZGdBWXZSQW1HRE9lblpiZ2Rqc1NGWEhHUWlzX1lzMkpaaFR5U0FISllSRTRLVVRTb210MDFsSGx2dUtOZWVHNU10SXpWOFhaMW81Mm1vMjRQT29hM0c?oc=5",
-      "published": "2026-11-21 13:30 UTC",
+      "title": "Anthropic Sheds approximately $109 Billion in Market Value Two Days After Nasdaq Debut; Nasdaq Wipes Out $4 Trillion",
+      "source": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE50ekFnLVFhdTZHVm1qOUxTY3VrY2NfZXl3Qklobl9Hb1VQN0JfZEpMdm1wY294WlpDNm9YR2NZMzVzUTJsTFMyYi0zbjZTbE9mbE03LTdyY0t2Vnlic2RkT25tQkpuQzk4NFdvQkUyanNWUWVxd3c?oc=5",
+      "published": "2026-11-22 02:56 UTC",
       "sector": "Market",
-      "tone": 2.0,
-      "note": "Seagate\u2019s undervaluation and earnings power suggest upside potential."
+      "tone": -5.0,
+      "note": "Anthropic\u2019s massive loss and Nasdaq wipeout signal systemic tech risk."
     },
     {
-      "title": "Market Has Worst Week Since 2020. Look For These Absolute Losers.",
-      "source": "Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbGZqY3FoUjhCTGtSbnJQMmlMMlNQWGxuQ1UyR09vYVpCY2xHcU5la0pPb0FGbnkzZ3AwRThVNXdMcXk4cEZ4elRxd1VKVHRqTEdxUGtHeUZNS1RPQkVKdUpXeVJscjg1Qm1zUHpjMDlzYUQ5UUE0X3FVTzRqRC1FWVRGU0NXWUI0Rk1FWERnVWxkWEtRbTJNc3Nldms4emVsSF9yMU4xaDU4SWh6TDgydjJWa3ZYQ2pFaUp2TFhmdUh6cFU?oc=5",
-      "published": "2026-11-21 13:21 UTC",
-      "sector": "Market",
-      "tone": -4.0,
-      "note": "Worst week since 2020 signals broad market weakness, increasing bearishness."
-    },
-    {
-      "title": "AI Stocks Tumble, Permitting Reform Bill Clears Senate, Confusion Over Medicaid Cuts",
-      "source": "NPR",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOV3prNzRUcXZ1U001a1lwQ3ZvX3c3c0l4cmVVVmhxZW1IcEtKa21UamxnMW51VjhscjFzdGUxSm9wWUZKOS1DNTVCdm9TMmF5aVFwa3ppaWtpOTY0MXVwTWdlVkt6SV8xT29feVJDS29ka29jQ1h3aHh4QVFQT1dJS3VJVEVYYk82MkRxcTBiRE85YnpzTEp6cC1EdE8xQ0U2V3paR0hXY1lFZzNTa0lJSzNIV0lGLVBzVUtfRDB5ZnY4RUlsb3c?oc=5",
-      "published": "2026-11-21 13:49 UTC",
-      "sector": "Technology",
-      "tone": -3.0,
-      "note": "AI stocks tumble, indicating sector weakness."
-    },
-    {
-      "title": "Nvidia Stock Falls to $150 Per Share. Is It a Buy Now?",
-      "source": "The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZnBlVDFLTGxBQnRDYXJ5YTNuS1drVnhWVDh4N2o0aWlta1RyeXE1OGdmbVgzNU93OGcxWXNqR2k5X1VUOXN2SVdSc19FeExkcFNtU0hiZ0FOREhQVF9vdGp4Sm1PaURXWlBjdEJlU2s4LVFuWnJzS1A5ZjlNOEZsWTJvNGNWOTRJR2Z3T2sxQ25nV0VzTWhrQWFudFhrdw?oc=5",
-      "published": "2026-11-21 13:37 UTC",
+      "title": "Seohak Ants' Nvidia Loss Reaches 6 Trillion Won",
+      "source": "\uc870\uc120\uc77c\ubcf4",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNVNPbEVMazkyMklwMDRvTlFCNGhnT1FmY0pUYVAycXBKTmVtUVNvSzQwbExneUFPeDZjRWh6bFY2dWN3TmMxSjRFbTFDY0R2V3hJZ1pIMWp2Sm5xdXRmVHcwSjlnZWpmUHdyVDZpOW1HZDc0bUM5c2wtbV9MVmdtUFhpZWoxalM5M3JJb2Fn?oc=5",
+      "published": "2026-11-22 03:15 UTC",
       "sector": "Technology",
       "tone": -4.0,
-      "note": "Nvidia stock falls sharply, negative tech sentiment."
+      "note": "Nvidia loss signals deep tech sell\u2011off."
     },
     {
-      "title": "BlackRock Said Bitcoin Moves Against AI Stocks: Then Both Crashed Together",
-      "source": "24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRXgxNEYxNmR5Q2lGMXQwSGZCOTV5c0tXd0c1YlJqd0tGMlNfNTQ2eDk2UkJIbmZtZzliN2JCWWUyVnR6QTlOX05UcFdMWkFyRVB3T08yRHR3eDNjNS1zMXRfMTBUNjdjeEdqUXZWbGplRW9ONk1fUUl2TmVHRW9oQ2kxNTBaTUU2OFA1b01fSjVoZTRkMmxuV0lGMEFpVmlNUGVsZTRHS0RNTG9mSFZHNVBZSU04MVo1Q2ZiQ2Z5VV9MUE5OMU1iM1Z6XzE?oc=5",
-      "published": "2026-11-21 13:33 UTC",
-      "sector": "Technology",
-      "tone": -2.0,
-      "note": "Bitcoin moves against AI stocks, mixed signals."
-    },
-    {
-      "title": "NVIDIA stock crashes 42% in three weeks, gamers are watching closely",
-      "source": "VideoCardz.com",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQXzItNUQ3NTFtWU5DaHJqc2YzaVN0bVBWSDNvNXRtMzhfazZKRTRKcjlFV09OdkR6c2NGZzFLc2VMeFVMd3dEMV9BdVJNRUN1d2Q3V0lTeG9XWGluNV9XVDhFRFVfWFdsSmpmX0tnMjBDUU1CWVFCWXA0XzE2VXAxaG9MbHMzZjhjRHJwdXU4cEVBWGVqbXlVblZR?oc=5",
-      "published": "2026-11-21 13:31 UTC",
-      "sector": "Technology",
-      "tone": -4.0,
-      "note": "NVIDIA crash 42% shows tech sell\u2011off."
-    },
-    {
-      "title": "AI Stocks Crash as CoreWeave Loses 26% and Micron Plunges 24% in One Week",
-      "source": "Coinpaper",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcTJUZGZ3LXN1NjB0dFhab2xRX3JiZ0phbmhJbC1UNHhyUmxhTFAwdDk1ektGNXJhUm5jalZraDF0WTl2bmxHeXZObWxIZWZKc0FlbmpSMVRYSDBLaEhJX0lRNVlUd0pRMzctR3M2a3BhUmpFSm1PMy15d3lBc2ItdXdocmhBcktFdkdwSzE4UkNLTTRqSG5WazNMREItU2M4aVE?oc=5",
-      "published": "2026-11-21 13:22 UTC",
+      "title": "China\u2019s AI stocks lose $1.7 trillion as tech selloff deepens",
+      "source": "Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaFVZZTg2Mld1MHF0MHZ6dS11NDd5aFA1Y1BTeFNobEFCaGlvWFAzSVZBSkVxNlR6bDRNV3ZIeWVqTFNlSW5jVC0tZDlWVV9mNTdlLWJ0XzI4OGdSdGpEdGNiOWdHOWVpQk5JTVlWcm5OWkoyVmlZSXJLSDNRM0dHS1dNQzk1TmljZ3lNcW9nZ3dzdEUzZE45TWxsVnNHQWRna3NQNS1pb214dmdDdDBJY3NVY0U?oc=5",
+      "published": "2026-11-22 01:13 UTC",
       "sector": "Technology",
       "tone": -5.0,
-      "note": "CoreWeave and Micron plummet, severe tech downturn."
+      "note": "$1.7T AI stock wipeout shows market pain."
     },
     {
-      "title": "Joe Consorti Highlights Bitcoin and Gold as AI Stocks Face Sharp Sell-Off",
-      "source": "Kriptofoni",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1JdlRBa3A5UTg2aEdoRHR1dF8xMG9UdzJOQVBiTmdsN195dmFid1NqcEZzN3NCMHk3VEhLeG41R2M1emtxQ1paVldRdkFnaDIzandaZ1NEcEo4akRMZTV0VVlHV1ZtTUN0S2RWeEtJMGd3SmRNaGdLNmJaMjRHUQ?oc=5",
-      "published": "2026-11-21 12:35 UTC",
+      "title": "Nvidia Stock Has Crashed 48% and Now Trades at 15 Times Earnings, Its Cheapest in More Than a Decade and Cheaper Than Microsoft and Broadcom",
+      "source": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNdm1uMENOd0NEYlozb2NWdHBQeGFVOVFjYWpxb0hRS1FhRmZFZy16SlQxaWhuZnJtZC1wbXhiSERGNjE4Rjl2dXNqREI5cC1JdFlsOTFxb25uanJzalYyVWRtMnVLaHE1Mm9NQXJjUjhCS3BjVEdPaTBEcklKVVlDOEhNOTRUQkVCN3NYM0NWM0xhWVBlVm5PZVU5ekloQTR0clkzOUp0eUljck5wTm9mM1Q5ai01ZlZyV0VvUkJaTlR1S3FBdDZ2YWV2LUNudWpmazVsT2wwUFRHcHExQUFDT043UXJ3enVJSDAzbkFIbVhXTDFyTlllZXZodTdhRUpZUlczNUZ2dGU0YnRZb0kw?oc=5",
+      "published": "2026-11-22 00:47 UTC",
+      "sector": "Technology",
+      "tone": -5.0,
+      "note": "Nvidia crash to 15x earnings indicates overvaluation."
+    },
+    {
+      "title": "Bitcoin heads for longest weekly losing streak since 2022 as holders chase AI stocks",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNdWZheVVoWHlUcDVwcFRpUlF3WXhiNU5OOHItVmZ0WmRnRWpSZVY5YUExYmppakFESEQtdWJkNU1YQUdqd1RKWGtjeXAyOWt1bE1hQU5HVHcxall1bFZvM18xXzlPRk5pNFZoa1ZqZ1pITVBiQ0VqdWhFa0NpMHRVNldXVkFGdllyUG02dksxU0F2V2N6WFZqc3ZTZUtYdzVIVi02c1FVNFpMYXpWTElqZ2FVSmlzMEtrbkFHbmp2WklIYWxfYnJjamxwME9vTXZKZEdHUFdicW5CRXdnUE85alo5dw?oc=5",
+      "published": "2026-11-22 00:36 UTC",
       "sector": "Technology",
       "tone": -3.0,
-      "note": "Bitcoin and gold favored over AI, tech out of favor."
+      "note": "Bitcoin decline reflects shift to AI tech."
+    },
+    {
+      "title": "NVIDIA shares plunge nearly 48% from peak, returning to 2024 levels",
+      "source": "mobidevices.com",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5yZUJNYTN5SkJkLW5VdDQ1S0Z5UG8xR21QZlQ4em9jb3pITWFsVHFyMWdFcmVWN2dSTVlzYVRUOG1NQzhpVWQ0M3prckVaTU93Ti1hbTBKXzdlSGlBN193?oc=5",
+      "published": "2026-11-21 22:50 UTC",
+      "sector": "Technology",
+      "tone": -4.0,
+      "note": "Nvidia plunge back to 2024 levels signals weakness."
+    },
+    {
+      "title": "US AI chip curbs hit China tech stocks, spur self-sufficiency push",
+      "source": "The Daily Star",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZHBlLUtBSzd0bV82TVpwQ3BJVzZlbEJwVjJKdXFBenQ2dlUxaG94SndyNE81d2w3RmVESWhia0xWcV9jQlppVWNaYnprRU16ZFlqdmdMemhrZkp2M0RVbUdhYXg2TDFna3hJMkp6SGRiLTFqcU1BODl1QUtaTmZLQmFCY0dvbkxHSnRzZlZKano4Ynh5dm1zN1lXODZhdllzM2dBV2xndzY4TDdFUncwU2hpUHhCQXpDck5mTEtVaUFiRHRrWG8wWFJSbw?oc=5",
+      "published": "2026-11-21 22:46 UTC",
+      "sector": "Technology",
+      "tone": -3.0,
+      "note": "US AI chip curbs hurt China tech, dampening optimism."
+    },
+    {
+      "title": "Sensex, Nifty end week at nine-month highs as bank stocks lead rally",
+      "source": "Times of Oman",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUGRQM0FYMUhnaC05aXV4aEprWmJ4eHJUcGhaaEF6Rjg4VS1fa2Y0TkUtbTlRTzZXdk1PWWk5VGJTSnc4MlhXdWhabDNvd3RPQms4UC1WLUlTd1VqeVFldjhrZWZaZk04RDhaRVBIQXpXRVFCTVlWNnhDVUM1b01GUi04R0lHZG1QQ2d2enhRUllmLXFsVEhOOXNnb3NtMkdXYUY4bmp3YUl1Zw?oc=5",
+      "published": "2026-11-22 02:59 UTC",
+      "sector": "Financials",
+      "tone": 3.0,
+      "note": "Bank stocks lead rally, indicating positive outlook."
+    },
+    {
+      "title": "3 U.S. Financial Stocks Built For Higher Interest Rates",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQX0RjaktRR1R3RTFYVzRoQzRZeU5UMVFVN2ZhYXgwMTA3OHRmUkVDRUtNTi1GV3k4cS11d0NVb1pHek9rZW9HN0FYMkt4SDhnZmVaZWhfandIQlZnZzBJU1hJUjdUU1RfcVRBN2xRclN1a29yMzl2X2YtTHNSSVcySnlrV2FtYmpCU1dNb1VIYjdldy04QUE?oc=5",
+      "published": "2026-11-21 19:06 UTC",
+      "sector": "Financials",
+      "tone": 4.0,
+      "note": "Stocks built for higher rates suggest gains from rising interest."
+    },
+    {
+      "title": "Bank Stocks To Follow Now - November 21st",
+      "source": "MarketBeat",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMi0tYVEyaVZOWkNLMW4yWGZzM0dZQVp3YVNITDV2UC00YVZsSno5WlVwTjJxdU40UjdXdTVPUWVFV2hxcENvNFlHVTFQN3IwbXFVTnpwUzdwWXlVTVRjZ1dxRmtNNFJHVEFwYll2TU5PclpfZGpScnhNRnlONFVKXzU3bHZsaS1XRTlsajZVTkRPeUtVSGpxYUQ4MGNFazQ?oc=5",
+      "published": "2026-11-21 17:17 UTC",
+      "sector": "Financials",
+      "tone": 2.0,
+      "note": "Bank stocks expected to follow, modest optimism."
+    },
+    {
+      "title": "Promising Financial Stocks To Keep An Eye On - November 21st",
+      "source": "MarketBeat",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPX2JJMjhkRDI0YzlZR0VXLXNJMjExc3R0ZnNFaHZEU2h6bjZmbUpzQWJxNkJ1UlpPc0owcUhwak55RE9ZS3F2dUhhMEdsT2tsRGZYQlZGUkl4RGJMYU1IZ0V3SENiTkNYb1lQZ2NHWkdQOFF3ZXVBMW04RHUyWERLMnlGUHdTVjM0RmxvYkw2RFAzWWctRi1hNzUycWYxOFRWR21aNjk5bnVCTElnTmNIRUtNVHN5Vm9h?oc=5",
+      "published": "2026-11-21 17:17 UTC",
+      "sector": "Financials",
+      "tone": 2.0,
+      "note": "Promising stocks highlighted, mild bullish tone."
+    },
+    {
+      "title": "Analysts Are Bullish on Top Financial Stocks: Moody\u2019s (MCO), UniCredit SpA (UNCFF)",
+      "source": "The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOUFphd3puZE54RXZDWkpUaE5aRHZydWxsMENpOVh2Q2xkRmpLalFPS2JZc0JPX1pmR1VlX1lvV25za2dLajBtdnhZdHZCbkJEejRyNHdqbU16R2N2X1NDV09vWm9EN0lLa2VuQW5LTDhEaFlzaFdSS3h0VU11Zkd5SmQ4TmJ2SmhQY01NQ3Z0NnNkOTFxUUpEWldPTTY1QTRBYnpvNlVnaVVOMm1GZkthblV3SVp5TU5ORGFqRUJIQ0dCeWNzcDR5MFBnYWJrYl9SallxamlrUWU0bFJHTkN5RXd5eXZOdXZCVTVNTzNHaHI?oc=5",
+      "published": "2026-11-21 12:05 UTC",
+      "sector": "Financials",
+      "tone": 3.0,
+      "note": "Analysts bullish on top names, reinforcing positive sentiment."
     },
     {
       "title": "What Is Net Interest Margin? 2 Bank Stocks Where It's Rising",
@@ -117,160 +162,115 @@
       "published": "2026-11-21 11:00 UTC",
       "sector": "Financials",
       "tone": 2.0,
-      "note": "Net interest margin rise boosts bank earnings."
+      "note": "Rising net interest margin signals better profitability."
     },
     {
-      "title": "Sensex, Nifty end week at nine-month highs as bank stocks lead rally",
-      "source": "Big News Network.com",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNS28yUG8ySV9oY0x6LU5SUXZLQlRGTWFpTlVkRVhielV1anBzV29pQ3VhY3Vuay1lN3lXc1A0bGVqVXRFdkxUYTJLNHJJdjltOElZYVk4MnBXM1RrOUZHVzZmOUlCSjIyY2h1cGg1S2hfa3FadnhocWxyYjFSVWxyb01TU2ZmV1ZHU1FSTXNyQzItYW41bW1teWI5dlNBM0k4TERXNDRYQ0ZBMWN0TjdFZzlhMA?oc=5",
-      "published": "2026-11-21 10:12 UTC",
-      "sector": "Financials",
-      "tone": 1.0,
-      "note": "Indian rally hints global bank strength."
-    },
-    {
-      "title": "Big U.S. Bank Stocks Slide After Cyberattack Fears and AI Trade Reversal",
-      "source": "Briefs Finance",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNVVlDQWpYVURfVUhXZTlBS1lGRy1LSzFvaHd2Q3g3aGQwYlJQNnZWdHhiY3NyZnFsaDFBOURkZGNzUmN1dHd5VkNRcWtsVzNPbmt3UldOWXJtYnAyMkJNeVZKcnUtaXF5U2xsRS04MExzYWc4T0d5OFZlVjVzRmstcUoyUFhYNjFKdUNfMEN1MVBXZw?oc=5",
-      "published": "2026-11-20 23:16 UTC",
-      "sector": "Financials",
-      "tone": -5.0,
-      "note": "Cyberattack fears trigger sharp sell\u2011off."
-    },
-    {
-      "title": "Bank Stocks Set for Worst Week Since April 2025 as Rout Deepens",
-      "source": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVm5ITE41YzhZTjRBNEV0cEhMQVd6aElzZjJEWG9qLUxYRnc2TGtLWDI5di1wRzc0aWctbUJpbkZCemNoM3RtM3lORW9yWmhDNG9KUjZOVUstLVhsMzlCclVYWjFuNGNvXzJ4S2JsWmJkMGFHbl85Sm1EVTU1ZFV0Nlp2UlJZVm9KQkZEb19DNDdjT3FQMnRPYWkybVA2QmYxdHotTFVSdW5kNld3QTZnVmJHZFc?oc=5",
-      "published": "2026-11-20 21:12 UTC",
-      "sector": "Financials",
-      "tone": -5.0,
-      "note": "Worst week since 2025 signals deep rout."
-    },
-    {
-      "title": "Sector Update: Financial Stocks Decline Late Afternoon",
-      "source": "marketscreener.com",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPb0pIYVNoalYyczB3ZnpCc19LWmJ5MnRfN0tzV2hKNXBzRXdvMU1EbldsZ3VYUWN1clZzQXBkUXhacFFQYkVuQzZpM292SkpFbkd1d28ySnRINVhKSnI0YnVSeUQwM1RCSTVwbEdpckNSbzNkazh6T3pJa2trSENiZXhpSkstcnl6RGVIM2RJVU05X3JuMDgyS0tBcjB2S3p1bGFJT3ZmdHlkZw?oc=5",
-      "published": "2026-11-20 21:10 UTC",
-      "sector": "Financials",
-      "tone": -3.0,
-      "note": "Sector decline reflects broader weakness."
-    },
-    {
-      "title": "U.S. bank stocks are on pace for their worst week since April 2025",
-      "source": "Quartz",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1GMmpfR1hfNzV3bmpFNklZblhINTFoeHdIVUprTTRHS2pSNThnczRZWWc4WUlEdFlfX1BtWjNROWdmckRMbW5ET1FRTlVaN2RYSHJLRm9saG9iRng0d1BPSzV5bHF2QVduR0lkdFI2TktWdGM?oc=5",
-      "published": "2026-11-20 18:13 UTC",
-      "sector": "Financials",
-      "tone": -5.0,
-      "note": "U.S. banks on pace for record loss week."
-    },
-    {
-      "title": "UBS: Oil Prices Poised for Recovery Amid Declining Supplies and Sustained Chinese Demand",
-      "source": "\u0635\u062d\u064a\u0641\u0629 \u0645\u0627\u0644",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8tblEwNS1lR1ZwdHkwdVdXcUVyeDJNMjN1X1F6eDVQdS1HSDd6Nm95S3ZXbWhYSUMxQ2l4OVllNFNORzF5VzI0Q3V6aFF0b2JiM09md09QakxnMl9WZFFOR1hGV2dwcDREYWs0?oc=5",
-      "published": "2026-11-21 13:14 UTC",
+      "title": "Retail gasoline prices today, November 22",
+      "source": "Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQTnhLbm5GSVJ1V2lON3ZZSjBtNWxBTXdQYzZvNGV0Nk1oRHFJNkQxWEJNemozMnotaEFzM0lzMDZjZnBFZHF4TWxNZ2R3SGJ2blVCM3o4dkdEcGo4TkEtWDk4U3ZKUUpNSDdTMWtvV2E5RFN0NVZoUmtfcFh4UnBrSzE0VWJUdw?oc=5",
+      "published": "2026-11-22 03:15 UTC",
       "sector": "Energy",
-      "tone": 3.0,
-      "note": "UBS expects oil recovery due to supply cuts and Chinese demand."
+      "tone": 0.0,
+      "note": "Neutral headline, no direction indicated."
     },
     {
-      "title": "ILLINOIS BASIN CRUDE OIL PRICES DROP NEARLY $21 PER BARREL SINCE END OF OCTOBER",
-      "source": "www.wfiwradio.com",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYWZYRGF1czB5SHpaQ1c4dnBfMFZpSVpvTXQ5eHdfWlFGSVVHbHdhbWYwMFRlRXF0QWNBcksteFJfOXBSSmdWQ0tUeFRrN19PUFpLdzExZnFUak50WTBqRDUwX0w5bmgtdEd3bi1GUjdhb3d6MVdoekhJempqczdPbzZKVlgwTXV0MVg0ajJ6OUszMEQwanI5VURsTS1EaldtbDJIeF83OFU5ekI1Y25uNXFtNl82c2c?oc=5",
-      "published": "2026-11-21 12:44 UTC",
+      "title": "Easing oil prices fail to lift PSX",
+      "source": "Investify",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVzZHQ2xDS2ZhNGt4Ui1RdFVmX3RHcnVLSGNyZVd6Tm9SUnppdmQwYno1RzZ3N2hXbFlRMFpBSmdWOUhTQVZ3N0c5RUVpR0g0eWlZR2ZJQXRCUHlZV0JuT1dSWWRwUmtqdVpYYXR1WV9hYXAzZWdaUlNmbjZZNm94S2pQaw?oc=5",
+      "published": "2026-11-22 02:26 UTC",
+      "sector": "Energy",
+      "tone": -3.0,
+      "note": "Oil prices easing but not boosting the market, signals weak energy demand."
+    },
+    {
+      "title": "Gasoline and diesel prices today, November 22nd: Global and domestic prices both experience a week of decline.",
+      "source": "Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcmJPaGMyQlRQbElqM0ZuY1RDU190TEo5ekVFUTlMck9HMDJad0ZUeUNmUUxwd3FFREdQY3BHamlRYWZZUFZETV9vdE9wbmx1QVZVUjh2YWhNeGxaYjdKVUZ2aVhodFJoQndab0x4Mm9NMk40Z2ctd2FoeGlyR3k3WGlFR2tDRGdmUDJudGI4SXkxd19Fc1I0TGFsalpkZ2pI?oc=5",
+      "published": "2026-11-22 02:04 UTC",
       "sector": "Energy",
       "tone": -4.0,
-      "note": "Illinois Basin crude fell $21, indicating weak domestic supply."
+      "note": "Both global and domestic gasoline prices fell, hurting revenue outlook."
     },
     {
-      "title": "Goldman is out with its 2027 forecast for Brent oil prices",
-      "source": "Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMGlLOWJkZDAtY0drWGV5MjRhbkVqTDdFeXNGM3RYU0tIMG44M0o4d2JwaVlISHB5Y1FzTnVRQVZONVJGdDZfblh1eVFOQkJMMVQ5SmFNQXpBbzVPVkJEUTFhMk5QTlpna0lJbnlNU3hLclVxV2YweVBES3JSZEo0S2Q2UEItdkNBUDVCekhXaXVWYzlDRldPTkhQUExFbUhFMDlYQXo4QU02cjV4THYyMEdZaDc?oc=5",
-      "published": "2026-11-21 12:24 UTC",
+      "title": "Oil Prices fall 5% despite attacks on tankers, rising tensions",
+      "source": "Realnews Magazine",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTkdfbTBzVm9IUmpaRzZLcTVhaGlUZ01mSjR3SUZ0WVJvOVBnQk1INmRmT29PNUp5b21CVFhXYzh5YzRPTUhid25lT1ZIVDRUWXUwc0xhRVpuS0NibTRnbHk3anItMHk4S3ZsWmtQbk5KY1hpeENBZjFHWWpFcXJDbzlXdVpXOV84SzR5a1hUbXpReUgx?oc=5",
+      "published": "2026-11-22 01:26 UTC",
       "sector": "Energy",
-      "tone": 0.0,
-      "note": "Goldman\u2019s 2027 forecast not directly bullish or bearish."
+      "tone": -4.0,
+      "note": "Oil prices dropped 5% despite geopolitical tensions, showing market weakness."
     },
     {
-      "title": "Oil Prices Drop 5% For The Week As Supply Concerns Ease",
-      "source": "MarketForces Africa",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQLUt2R1VXdURlTzBXQjdnUTBpYjNxZWprLWhKWDJwdmlYdlp0dFBWTHNKVng4WS12REo2QkRzWG0zS1RBUVJPTHVpcVJXeVRrS0lsSTlFU2NRTFlVa042MU1XVUhFcVZyQ1AxMjBLbXplN01YbzlDUDVQQ1N2TC1NUkx0X05IMk51?oc=5",
-      "published": "2026-11-21 09:17 UTC",
+      "title": "Today's fuel prices (November 22): A week of decline in world oil prices.",
+      "source": "Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQX2tTSzgzZXAtNlZrYzlmOVNZWnpKZm9kTlVzWlJmR00zeGhhSWZVOEtoNTltZG9FenVKdlpUZFVIN3ZHMWExWUE3WERVR0pLcndtbzRVWnNaUUgxRnZGZUZ5WDNUcHRMdDJCRWp1cy1hQXMydE14VkhIcXNwOXlKdk1qUWdNWlZjdWdaNl9GdXg?oc=5",
+      "published": "2026-11-21 23:49 UTC",
       "sector": "Energy",
-      "tone": -3.0,
-      "note": "Oil prices dropped 5% as supply concerns eased, hurting sentiment."
+      "tone": -4.0,
+      "note": "Continued decline in fuel prices signals lower earnings for energy firms."
     },
     {
-      "title": "Enlight Renewable Energy And 2 Other Top Clean Energy Stocks",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPeFRxeDVkSkM0MVpEQlZ3bFgyUERLNHZrb3UtNzJ3Ynd2cllYYmdDWmlZZV9aM1ExSW5ONUpDd0lFLVdUUFdRVVowMW9wVFFBRlJKbWEtVEFJMXpsM3FBWFg3MVJ4QTN1RFo0NG5OaTZ1eHhEMVl0d1pjeDQ2aFlGenJPdXp2emZSODYyWXQwVVpjNnM?oc=5",
-      "published": "2026-11-21 09:11 UTC",
+      "title": "Iran Readies Blockade Run As Oil Prices Log Third Weekly Loss",
+      "source": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOa3pUQTVlN2JEekZ4dDhCZU9HUVJXSjh0S0dMd1lVNlQtRFVDblJzbVpveTZUUFJ0U3hCTDFOa294ZHRSUjBoSTlQdTlSYVNSOXNGc0QtLW1WWlI5X21JaUd0R0dyVGpOZkpvR2pMMGppZHpQU3JLcnpxNHpzT0M3dlgzSDMzNzRXYmpUNFdTejRqRTZqSjFqVkNpeWJ3TFBDc3JQN09uNmhPdUlQQU01bkJLMEw4SlFpQTFiMDhNZ05Ub1NlU0d2d3FXWC1kX0xMRllj?oc=5",
+      "published": "2026-11-21 20:46 UTC",
       "sector": "Energy",
-      "tone": 0.0,
-      "note": "Renewable energy stocks unrelated to traditional Energy sector."
+      "tone": -5.0,
+      "note": "Iran blockade threatens supply, driving prices down further."
     },
     {
-      "title": "Kuwaiti Oil Prices Decline USD 1.14 a Barrel",
-      "source": "Qatar news agency",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPeVh4ckZ6dFJOa2h3Q1Z4dVJ3TlBqdk5jcHN5U0NzU0FJbVdCcDlvVnFTaFdnVHl2eDF5LVRpa3V6T09wblRIX0s4cjMwRjVQcWJNVXliMlpWQ0tMcWlQUThmbDc0YnhHeW5tMmIycnFreFdKVFBSazliMnZnWVB2RnE0d3V5REtkOC04T2ZwM3B2azBtemc?oc=5",
-      "published": "2026-11-21 08:09 UTC",
-      "sector": "Energy",
-      "tone": -2.0,
-      "note": "Kuwaiti oil price decline signals weaker Middle East supply."
-    },
-    {
-      "title": "Grand Theft Auto VI smashes records with $3.79 billion in day-one retail sales",
-      "source": "BusinessLine",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOOUNCTHpxbGhGbkZOYmktQ1k1dkNxakh4S2FNOTI1dU82ZG0xM3l0Z0FVdGJXUDh2My1TWlZDT2FHNmQ4dk9oMnQweFl6QlYwMXZZNnVjb0d0VTRMd0U3NFUyZFVpNmNneldPYWJWdVpmbHROdVhvMG51RHVBQnlVWXZMdXlveEhTX0w5R1BPVDlGZTduVWRLWm41YlhTSDJnYl9UY2NFMXpuMklfRE85QTdWdmhxd2Uzc0pKNnZvV3QzM3RES0J0ZVVMdTI5SWd1WmU5VU9sTG9hb24zM3Zn0gHmAUFVX3lxTE5pUWFMWHVRVmw4bWluS2lHRnlHbnVuTWp0ZE16d053aVNtNVA4WnZzMllna1FCdEVXb2lmZGx6QWZWdmNjVG0zT2xkcmt0RGdsZDFUVU9SY0tKaGd1Rmh2UHNyR2tvZWdVYzVSUTlkQlFaeHRHZ01leEI5VnEzQUdMNGlianFGLTZXdnFpaE5idVVIRjVIZHNILTB2QlVBTjVFUzBzclhxdExhSTQzbnNiejdjb1BZNlpTd3RjTGNwdUY1NkN2ZVNmcThHeXBlWXRvOE5SWGRaSmJuQXdSaTU4cXlsSXh3?oc=5",
-      "published": "2026-11-21 12:38 UTC",
-      "sector": "Consumer Discretionary",
-      "tone": 4.0,
-      "note": "Record sales boost gaming sector"
-    },
-    {
-      "title": "GTA blows past highest grossing film ever",
-      "source": "Gold Coast Bulletin",
-      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOeWRTYXpCNlpEWEVKNmpaYkhSQnZTemR0RFhNX3ZOTFpudUw0OUZMWEVXRm1sSnlTUVFBMmV2Skxxc1hiZWhDSHlobkozZHM2QmNTZW9zd2dEN0lhZjlVY2pRR2FQOGp3NFVkUmstNExxeXFnT1NjS1U1bU1pdUxETUdUeGhPb1lzajNtak1FXzl4Z3hwVDg2S0oyMkVJaDRFSmlXb2QxTUJvekxDTzBaN3ZLMElOTl9QQnJPanhEZ0lvX0lnOFZFeVoxN3UzYmY1MHVmRl9UWm5XVUNjS0gtSTA2V0w0WFBDRHVONXplY3BfZ1YzR2V4Qy11T2hoR21VeXptME56bVRIcDluVkE?oc=5",
-      "published": "2026-11-21 12:30 UTC",
-      "sector": "Consumer Discretionary",
-      "tone": 3.0,
-      "note": "Film success indicates strong entertainment demand"
-    },
-    {
-      "title": "Grand Theft Auto VI smashes records with USD 3.79 bn in day-one retail sales",
-      "source": "Deccan Herald",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOQ081Z2gtRnpnMFhLa0tlV0NjZGx5VjBkWWZYcnp1bGdWdTNLc3Y5SVZqWW9VOUhzcnlZVG1BZXJFWmgyeWdlWlU4dlNkVjZ6TWJ5QUFEMmlYX25qaTN2N0RWMzJoczFuZ3djWEN2TnlwS2pwWU5BQ2dwQnJ2Nkg5dGZ4Nmh1R1Boa202Vk1fcWo0SGxtci1KeU9fbHRyMS1yWkVtSmFnYnN1bkpndDVCMk1DZmkxaEgyWGZHcEJ30gHLAUFVX3lxTE5RNmlVejhLWkZrZlhTT3V1ajg5bTNFOXZkQnRtTjBOOWVfWFN5LXgxX0ZGWlUzd0RJX2VqWjhwV2pXZ2FJcEp1Y0lFNS1RRGJDME9vYzZUQjViV1hUZ1JUMWZCbS1MMlhUb3FTbTdJSllfcF9VTXl0TzRyNlpZUUNiY09uVEttdUY3MElBd3lOVnJHQ2l5SlBZWmoxN1h6YUQ2LVktODZSMnl4SWtfQ1AzaC1fb3dvUW56cG9ZeU5kZVBwR1N0VzQzQVNz?oc=5",
-      "published": "2026-11-21 12:18 UTC",
-      "sector": "Consumer Discretionary",
-      "tone": 4.0,
-      "note": "Record sales boost gaming sector"
-    },
-    {
-      "title": "GTA 6\u2019s $3.79 Billion Launch: What Do Rockstar\u2019s Sales Figures Mean?",
-      "source": "Critical Hit",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTFFhQlptVUlGMG9tNjNadTJCRF9wZnBIVmpWNjQyWEl6NUxta3k1OHBtdlMwdEJCb2ZDM2xjZzlKTXMzQXlsa3dZbXNBSVNjaG9JZGp6OXNaMkRpVTNybGRpM1ZuV2VoUWF2d3JxMkh2aFl2MWVDVzRlN1Q2MzNFUURwdFNCMUJjNk1tRlF3?oc=5",
-      "published": "2026-11-21 09:29 UTC",
-      "sector": "Consumer Discretionary",
-      "tone": 3.0,
-      "note": "High launch shows consumer appetite"
-    },
-    {
-      "title": "International Business: Britain\u2019s retail sales beat forecasts",
-      "source": "Gulf Daily News (Bahrain)",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQNmdTR2pOZ09CX2xKODNxcUhGR1FCOHJxdjZSa2hvTGo4ZVMxVUhHaHJINUpKZ28yS1E2YXFoejRZZ1dNd0pnSXVJTGtUSUtQLVNDYkNmcFBLMXgtLVlxa05GczJGbE9SVm9zU2lJMjJsalBvT2tqTlBTQXNEenBydW94MGdGNWkxMHl2OFFTTk4?oc=5",
-      "published": "2026-11-21 08:41 UTC",
+      "title": "US stocks slide on chip selloff; UK and Canadian retail sales strengthen",
+      "source": "www.equiti.com",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeUFqXzdGM2wyd1Q3aWZoV19EbG9YUVZNRElfTXprYlB1akFjZU54dDJPT0ZfMjQwaTlYd0hfQk5feVJ0aWFvMFhfU0xwaXdkVkdMS3pWZUNCYWpvZksyLUFaTk1nVVRDMG82Y1pmbEtMaEp1RWtZbW0ydThGM3hRb0FlSi1Gdm5CWW1mMzVmZVUybUdHZlh6X0NjWVRhLTU5YlNXTV9BdjN2dUZ5WXNrM21uMGt5ajM3bWc?oc=5",
+      "published": "2026-11-22 03:39 UTC",
       "sector": "Consumer Discretionary",
       "tone": 2.0,
-      "note": "Retail sales beat forecasts"
+      "note": "Positive retail sales in UK/Canada lift optimism for US consumer discretionary."
+    },
+    {
+      "title": "US Consumers Are Holding Up Against Inflation Going Into Holiday Season",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVzdHalZYY2s3bHVEeENKX0g4T0M4WWxHV3lacDRlejl2b2E5VWNPd1AxbXhaaUVyNXBFLWlYZFlKTk93R3QzeFdVazI3ajljUFVLYnFpb1VVQmNrVlNvYTIyajhxM1JBbjYxTkhJMkhObEJGSVdRdmZDVzItblZFd1A4NHZaWTZiZWdFVVc4REI2RGF5UjlGWndXeDFha2k0MWdqRkE4X1ozQ1h5N0ZxZmVVTVFldC1VRi1keUdBQQ?oc=5",
+      "published": "2026-11-21 21:00 UTC",
+      "sector": "Consumer Discretionary",
+      "tone": 3.0,
+      "note": "US consumers holding up against inflation boosts confidence in discretionary spending."
+    },
+    {
+      "title": "Promising Retail Stocks To Consider - November 21st",
+      "source": "MarketBeat",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbThZOFhWSVlZTGItalhDdmpDRGdCVlZ4X1RwMTdXU19KNXVXTEg2NHdPblJCWUVfT0JhUmxHZUhpcmNpYmhpMXhEUkh6UHZzLXpNTkhodGMtUmVaZXk2S3kwZERHSHkzY2RlbWprUEZYSEtwRW84c2dKTURxVDE1SnRKNElLTkt5dGZCdE1wVWp1YV96S1pPY3UtU2ZhQW14OVNXTTRGNTRPcEQ5?oc=5",
+      "published": "2026-11-21 19:14 UTC",
+      "sector": "Consumer Discretionary",
+      "tone": 1.0,
+      "note": "Mixed signals; some retail stocks still underperforming."
+    },
+    {
+      "title": "Take-Two Says Grand Theft Auto VI Hits $3.79 Billion in First-Day Retail Sales: how 19 outlets framed it",
+      "source": "NewsCord",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQRWphaHhMVHlUTXJZb0lORV9sWVpHTU80MEhGSVRkQ2QwQmZJMS1wb3FnNW0xRGNkeDJWdnBBVWNOWnlWYXlhNHdVX3lNTGp3eFhWX3UtamVCRi03Rk42U05JeEVOZHozb21KcHJrV3B5ckJwU3c4eWdYbTgycVhkd3c4ZHVVUDVKYm9nalBRLTUxcG9IckQwX3k4M3NTcS1zRDFrZmxqRE50eEg1Sks0Y1J6bkluNEJ5SUw0TWxZenJhMC1udXg4TUlOcXNydGQ0a0EySmNDMzJzaUFaSk81WW5MblVld01BZld3UkZaUGhpanJNLVE?oc=5",
+      "published": "2026-11-21 19:06 UTC",
+      "sector": "Consumer Discretionary",
+      "tone": 4.0,
+      "note": "Strong first-day sales for a major game indicate robust discretionary demand."
     },
     {
       "title": "US Consumer Sentiment Improved, Even As Retail Stocks Diverged",
       "source": "Finimize",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTkM2VFF6ei03LTZ0S0MzTmVQY2JJN2JucUVoOFZrZXlPc2pwaTNZaGRQVmhsS21RWmNzZlZtVnYtWjY3MmxVX1FlQ1kzT0otRzlXbFd5STE0NDBnS0FFZVhzZjV4R0xJVkphZzRndnYya2NuSUJFT1lqTnR5SjJhdWh3a2ZKN2REWkdKLTdPX2JIM2g5?oc=5",
-      "published": "2026-11-21 06:11 UTC",
+      "published": "2026-11-21 18:51 UTC",
       "sector": "Consumer Discretionary",
-      "tone": 3.0,
-      "note": "Improved sentiment supports discretionary spending"
+      "tone": 2.0,
+      "note": "Improved sentiment despite stock divergence suggests overall positive outlook."
+    },
+    {
+      "title": "Canada Retail Sales YoY (Sep) Rises to 7.5%, CAD Pairs in Focus",
+      "source": "The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOSzRKbE00YnFhTGlSOXNQSEhUZDRybnZBYms2ZnZGcS10Q2kyYnVKOWdmb0Ixa3BVUVhKY3R6VWFYdkNEZDh2TGw1STBsMzVWVmwxbWpqTlRXNGJ0eE93RmdPOHFxWUk3cHU2MUViRDF0c3Y3WlF0M25GS0w1WDFIMnFuMDdfWGFLX0xFVGJIbTRsNEl5aWlGRnkyLWNjTTBYdzVfb0hFenlmbzg5a0hwa0ZPMUlMRVpJYzVEYk1XemxpM0RMLW5BVW9jdnAyU1RUQWI5QkQ0Zw?oc=5",
+      "published": "2026-11-21 13:56 UTC",
+      "sector": "Consumer Discretionary",
+      "tone": 0.0,
+      "note": "Canada retail data not directly relevant to US sector."
     },
     {
       "title": "Coca-Cola shares rise 35% in a year, showing st...",
@@ -288,16 +288,7 @@
       "published": "2026-11-20 17:32 UTC",
       "sector": "Consumer Staples",
       "tone": 4.0,
-      "note": "Consumer staples outperform AI losses, indicating resilience."
-    },
-    {
-      "title": "Is Coca Cola Femsa (KOF) Stock Outpacing Its Consumer Staples Peers This Year?",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWEdLV2E5VS14djU5Znludk9CTkRQZjFyMWNFdW1ueE1Bd1VyN1JCM2NFVGF2N3Z3dVBybUk4eHowc0tSc2xvalJWNnJaVlVMZm9XSWtaT0F3djNCcjdTTWs0Zng3UDJPeXlFOWZCeVRMOFpYamoxSUxLWno5dUdJdkZOOE94QXlyRTAzdUZsQXJEX0Jk?oc=5",
-      "published": "2026-11-20 13:40 UTC",
-      "sector": "Consumer Staples",
-      "tone": 2.0,
-      "note": "Coca-Cola Femsa\u2019s outperformance shows sector strength."
+      "note": "Consumer Staples outperform AI losses, boosting sector confidence."
     },
     {
       "title": "Mapping the Market: Coca Cola shares appear due for a dip, but rally still alive",
@@ -305,8 +296,8 @@
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSFJIdjJZSWM0QnBFNG83aV9YU1pGclpwS1RQazRGM2FrYzFpUG1ocVE2M2Frd2ZicXlldlVMbWFjRENJR3RNU0FPMkJ4TXNvRC1CZ1VOZnZlY1dtMlVDRmZHRGxUZWdWMmNtOUJwZlFjdm9icktvNUJFMzc3eUZRemxn?oc=5",
       "published": "2026-11-20 11:05 UTC",
       "sector": "Consumer Staples",
-      "tone": -1.0,
-      "note": "Potential dip suggests caution but rally remains."
+      "tone": 1.0,
+      "note": "Coca-Cola rally may dip but remains positive."
     },
     {
       "title": "European shares on track for steepest weekly drop since March",
@@ -315,7 +306,7 @@
       "published": "2026-11-20 10:49 UTC",
       "sector": "Consumer Staples",
       "tone": 0.0,
-      "note": "European shares drop unrelated to U.S. consumer staples."
+      "note": "European market move unrelated to U.S. Consumer Staples."
     },
     {
       "title": "Costco (COST) Saw Emergency Supply Sales Surge After Tech Outages",
@@ -324,7 +315,7 @@
       "published": "2026-11-20 05:16 UTC",
       "sector": "Consumer Staples",
       "tone": 3.0,
-      "note": "Costco\u2019s emergency sales boost reflects robust staples demand."
+      "note": "Costco\u2019s surge shows resilient supply chain and sales."
     },
     {
       "title": "Analysts Are Bullish on Top Healthcare Stocks: Solid Biosciences (SLDB), Eli Lilly & Co (LLY)",
@@ -333,7 +324,7 @@
       "published": "2026-11-21 12:53 UTC",
       "sector": "Healthcare",
       "tone": 3.0,
-      "note": "Bullish on top healthcare stocks, indicating positive sentiment."
+      "note": "Analysts bullish on top healthcare stocks."
     },
     {
       "title": "AI Trading Agents Follow Clean Technology and Healthcare Stocks Across Global Markets (ENPH, SEDG, FSLR, NEE, BE)",
@@ -342,16 +333,25 @@
       "published": "2026-11-21 07:01 UTC",
       "sector": "Healthcare",
       "tone": 0.0,
-      "note": "AI trading agents focus on clean tech, not healthcare."
+      "note": "AI agents focus on clean tech, not healthcare."
+    },
+    {
+      "title": "META_TITLE_SECTORS",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4tNkpoQkVWYXlUc0NpTE1DZW5PVDVHc0M2SjNVYVdwLTBVSk1nYzhQSlVpZzF2MmVKV3dTdjFNc0RiMTBpY1VZRm9Ic3dJYllwcG85X2pQSVIwUWpTUE5YcmkyeTNFMDR4YkVrbUxoRXdZcXRvTTdrTHZSS1Q?oc=5",
+      "published": "2026-11-21 03:12 UTC",
+      "sector": "Healthcare",
+      "tone": 0.0,
+      "note": "Sector title, no sentiment."
     },
     {
       "title": "Sector Update: Healthcare Stocks Rise Late Afternoon",
-      "source": "marketscreener.com",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQjFuX1J1ZUhmU28tTjB3dUZ4RElTbG5hOXUyT3F0Mi1KOUJtZ1lJTUEwTFczdXVKa3lQQ3hIbFVybjl6Ym1NRVBXb1pGeEI1N3VYdm1DNjlGd0dfU05pZVlCS3A5V2dCRVgyQVRCOGlCZXpvM0xPZE4xS0dnYV93T1duQmRpQTdRYUdTclNWUmZzX1hwYldIZEc5Y1JrcXR3OFB5SHM3QQ?oc=5",
-      "published": "2026-11-20 21:03 UTC",
+      "source": "Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWVdsNnpRM0lOaUhFcFBNRVprakJpWWpUVk1mOXlHLXdTVlVTZHFpSnVpU3AycXRCX21fNEVqT2VvYWhLUDZZZXg2WXVPUWZodHE2NWJuUUlxZ25QVkNwU2tTeThiYUJyalY4QTdFX2UxZ05BNkFuc01ZV1MyUTljZGJkNzN3ejFndmI0LVlYM2syOTRVM1VfMGtDdw?oc=5",
+      "published": "2026-11-20 23:46 UTC",
       "sector": "Healthcare",
       "tone": 2.0,
-      "note": "Healthcare stocks rise, showing moderate bullishness."
+      "note": "Healthcare stocks rise late afternoon."
     },
     {
       "title": "JPMorgan\u2019s Names Top Biotech Stocks",
@@ -360,7 +360,7 @@
       "published": "2026-11-20 18:32 UTC",
       "sector": "Healthcare",
       "tone": 3.0,
-      "note": "JPMorgan highlights top biotech, reinforcing bullish outlook."
+      "note": "JPMorgan names top biotech stocks."
     },
     {
       "title": "Textile, fuel, pharma stocks dominate trading",
@@ -369,16 +369,7 @@
       "published": "2026-11-20 18:00 UTC",
       "sector": "Healthcare",
       "tone": 0.0,
-      "note": "Textile, fuel, pharma mix irrelevant to overall healthcare sentiment."
-    },
-    {
-      "title": "Midday Movers: Gap Surges 12% While Tech and Biotech Stocks Slide",
-      "source": "Business Upturn",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWEFoMm9tQVNqUDZvaTQyaVFLalhORUZRdUw1TGhWSzVjOTg4aXRBdlVPejBGSEdQNDBMQm9wd3IyclhqNktJWFZ3NnZZdHdkd3pELW1HXzFsNlZwTWFZU194ZmdsVlEzWGdGMTgyRDgtTnh3NUdxeW9sUnBTWDdkQVdtNE1ObmZyYjRVTUVHMDNFcjFjRFFkOHBSMEk0NkhSOWhldDNZYW4xVlpYYW13aGF3?oc=5",
-      "published": "2026-11-20 17:25 UTC",
-      "sector": "Healthcare",
-      "tone": -1.0,
-      "note": "Gap surge unrelated; tech/biotech slide slightly bearish."
+      "note": "Textile, fuel, pharma mix, no clear healthcare bias."
     }
   ]
 }

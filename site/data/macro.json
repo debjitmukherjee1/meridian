@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21 14:06 UTC",
+  "updated_at": "2026-11-22 03:52 UTC",
   "markets": {
     "IN": {
       "cpi": {
@@ -97,16 +97,16 @@
         "frequency": "as announced",
         "unit": "%",
         "source": "RBI Monetary Policy Committee",
-        "source_url": "https://www.rbi.org.in/scripts/annualpolicy.aspx",
-        "as_of": "2026-06-05",
-        "latest": 5.25,
+        "source_url": "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63742",
+        "as_of": "2026-10-07",
+        "latest": 5.5,
         "series": [
           {
-            "date": "2026-06-05",
-            "value": 5.25
+            "date": "2026-10-07",
+            "value": 5.5
           }
         ],
-        "note": "Manual, as of 2026-06-05 \u2014 no reliable FRED series for this market. Repo rate, held at 5.25% (unchanged since the 2025-12-05 cut from 5.50%). Next MPC meeting: 2026-08-03/05."
+        "note": "Manual, as of 2026-10-07 \u2014 no reliable FRED series for this market. Repo rate raised 25bp to 5.50% (unanimous) at the 5-7 Oct 2026 MPC; stance changed to calibrated tightening."
       },
       "fx": {
         "label": "INR per USD",
@@ -1138,7 +1138,7 @@
           }
         ]
       },
-      "narrative": "India: CPI inflation 2.4% (2025), real GDP growth 7.57% (2025), unemployment 4.22% (2025), policy rate 5.25% (2026-06-05). The currency stands at 92.68 (INR per USD, as of 2026-11-20)."
+      "narrative": "India\u2019s economy is running at a solid growth rate of 7.57% while keeping inflation comfortably low at 2.4% YoY, indicating a stable price environment. The labor market remains tight with unemployment at 4.22%, and the central bank\u2019s policy rate of 5.5% reflects a cautious stance to support growth without stoking inflation, all against a relatively stable exchange rate of 92.68 INR per USD."
     },
     "US": {
       "cpi": {
@@ -1491,7 +1491,7 @@
         "series": [],
         "note": "USD is Meridian's reference currency for this comparison; no vs-USD series applies."
       },
-      "narrative": "United States: CPI inflation 2.95% (2024), real GDP growth 2.16% (2025), unemployment 4.2% (2025), policy rate 3.88% (2026-10-01)."
+      "narrative": "Inflation remains modest at 2.95% year\u2011over\u2011year, suggesting a stable price environment. Economic growth is solid at 2.16% and the labor market is tight with unemployment at 4.2%, while the central bank\u2019s policy rate sits at 3.88%, indicating a cautious but supportive stance."
     },
     "UK": {
       "cpi": {
@@ -1589,16 +1589,16 @@
         "frequency": "as announced",
         "unit": "%",
         "source": "Bank of England (MPC)",
-        "source_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/june-2026",
-        "as_of": "2026-06-18",
-        "latest": 3.75,
+        "source_url": "https://www.bankofengland.co.uk/monetary-policy-report/2026/November-2026",
+        "as_of": "2026-11-05",
+        "latest": 4.0,
         "series": [
           {
-            "date": "2026-06-18",
-            "value": 3.75
+            "date": "2026-11-05",
+            "value": 4.0
           }
         ],
-        "note": "Manual, as of 2026-06-18 \u2014 no reliable FRED series for this market. Bank Rate, held at 3.75% (7\u20132 vote) at the meeting ending 2026-06-17, announced 2026-06-18."
+        "note": "Manual, as of 2026-11-05 \u2014 no reliable FRED series for this market. Bank Rate raised 25bp to 4.00% (8-1; one vote for 4.25%) at the meeting ending 2026-11-04, announced 2026-11-05. Next announcement 17 Dec 2026."
       },
       "fx": {
         "label": "USD per GBP",
@@ -2630,7 +2630,7 @@
           }
         ]
       },
-      "narrative": "United Kingdom: CPI inflation 3.88% (2025), real GDP growth 1.39% (2025), unemployment 4.75% (2025), policy rate 3.75% (2026-06-18). The currency stands at 1.3125 (USD per GBP, as of 2026-11-20)."
+      "narrative": "Inflation remains moderate at 3.88% year\u2011on\u2011year, while real GDP growth of 1.39% indicates a modest expansion. Unemployment sits at 4.75%, suggesting a relatively tight labor market, and the central bank\u2019s policy rate of 4.0% reflects a cautious stance amid these conditions. The GBP trades at 1.3125 USD, indicating a stable but slightly weaker currency against the dollar."
     },
     "JP": {
       "cpi": {
@@ -2728,16 +2728,16 @@
         "frequency": "as announced",
         "unit": "%",
         "source": "Bank of Japan",
-        "source_url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260616a.pdf",
-        "as_of": "2026-06-16",
-        "latest": 1.0,
+        "source_url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918a.pdf",
+        "as_of": "2026-10-30",
+        "latest": 1.25,
         "series": [
           {
-            "date": "2026-06-16",
-            "value": 1.0
+            "date": "2026-10-30",
+            "value": 1.25
           }
         ],
-        "note": "Manual, as of 2026-06-16 \u2014 FRED fetch failed (FRED IRSTCB01JPM156N latest observation is 1086d old (2023-12-01) -- treating as stale). Policy rate, raised 25bp to 1.00% (7\u20131 vote) on 2026-06-16 \u2014 highest since 1995."
+        "note": "Manual, as of 2026-10-30 \u2014 FRED fetch failed (FRED IRSTCB01JPM156N latest observation is 1087d old (2023-12-01) -- treating as stale). Policy rate raised to 1.25% on 2026-09-18; held 8-1 on 2026-10-30. Next meeting 17-18 Dec 2026."
       },
       "fx": {
         "label": "JPY per USD",
@@ -3769,7 +3769,7 @@
           }
         ]
       },
-      "narrative": "Japan: CPI inflation 3.17% (2025), real GDP growth 1.19% (2025), unemployment 2.45% (2025), policy rate 1.0% (2026-06-16). The currency stands at 158.64 (JPY per USD, as of 2026-11-20)."
+      "narrative": "Japan\u2019s inflation is running at a modest 3.17% year\u2011on\u2011year, while real GDP growth is modestly positive at 1.19%, indicating a slow but steady expansion. The labor market remains tight with unemployment at 2.45%, and the central bank\u2019s policy rate of 1.25% reflects a cautious stance amid a relatively weak yen at 158.64 JPY per USD."
     }
   }
 }

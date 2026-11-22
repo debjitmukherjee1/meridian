@@ -1,32 +1,42 @@
 {
-  "updated_at": "2026-11-21 14:06 UTC",
+  "updated_at": "2026-11-22 03:52 UTC",
   "market": "JP",
-  "macro_theme": "Consumer demand signals dominate headlines",
+  "macro_theme": "Geopolitical conflict raises energy-sector risk",
   "signals": [
     {
       "sector": "Consumer Discretionary",
-      "read": "Neutral",
-      "score": 42,
-      "event_type": "demand_shock",
+      "read": "Bearish",
+      "score": 24,
+      "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Recall of 1.6\u202fmillion vehicles over Takata airbag rupture risk dampens consumer demand for automotive products.",
+          "text": "The recall of 1.6\u202fmillion vehicles by Honda and Toyota has dampened consumer confidence and disrupted supply chains in the Consumer Discretionary sector.",
           "forecast": {
-            "low": 2.9,
-            "high": 6.4,
+            "low": 2.3,
+            "high": 5.3,
             "direction": "-",
-            "text": "-2.9% to -6.4%"
+            "text": "-2.3% to -5.3%"
           }
         },
         {
           "role": "supporting",
-          "text": "Commercial car imports widen consumer choice, increasing competition for domestic automakers.",
+          "text": "The large-scale recall signals potential quality and safety concerns, prompting stricter regulatory scrutiny.",
           "forecast": {
-            "low": 2.9,
-            "high": 6.4,
+            "low": 2.3,
+            "high": 5.3,
             "direction": "-",
-            "text": "-2.9% to -6.4%"
+            "text": "-2.3% to -5.3%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Supply chain interruptions from component shortages are expected to delay production and increase costs.",
+          "forecast": {
+            "low": 2.3,
+            "high": 5.3,
+            "direction": "-",
+            "text": "-2.3% to -5.3%"
           }
         }
       ]
@@ -34,17 +44,17 @@
     {
       "sector": "Energy",
       "read": "Neutral",
-      "score": 47,
-      "event_type": "demand_shock",
+      "score": 53,
+      "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
           "text": "No direct impact on the Energy sector from the provided headlines.",
           "forecast": {
-            "low": 2.7,
-            "high": 6.4,
-            "direction": "-",
-            "text": "-2.7% to -6.4%"
+            "low": 4.2,
+            "high": 9.5,
+            "direction": "+",
+            "text": "+4.2% to +9.5%"
           }
         }
       ]
@@ -52,47 +62,37 @@
     {
       "sector": "Financials",
       "read": "Bearish",
-      "score": 34,
-      "event_type": "demand_shock",
+      "score": 35,
+      "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Bank shares in the Financials sector are declining as tighter monetary policy dampens demand for loans and investment banking services.",
+          "text": "Geopolitical tensions in East Asia are tightening supply chains and pressuring financial institutions, driving a bearish outlook for the Financials sector.",
           "forecast": {
-            "low": 2.0,
-            "high": 4.6,
+            "low": 1.3,
+            "high": 3.9,
             "direction": "-",
-            "text": "-2.0% to -4.6%"
+            "text": "-1.3% to -3.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "Mitsubishi UFJ Financial Group shares fell 4.9% amid concerns over higher rates",
+          "text": "Mitsubishi UFJ Financial Group shares fell 4.9% amid market concerns about regional instability.",
           "forecast": {
-            "low": 2.0,
-            "high": 4.6,
+            "low": 1.3,
+            "high": 3.9,
             "direction": "-",
-            "text": "-2.0% to -4.6%"
+            "text": "-1.3% to -3.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "Japan's bank shares slid even as Ueda pledged further rate hikes",
+          "text": "Japanese bank shares slid as the Bank of Japan\u2019s rate\u2011rise pledge heightened uncertainty over credit conditions.",
           "forecast": {
-            "low": 2.0,
-            "high": 4.6,
+            "low": 1.3,
+            "high": 3.9,
             "direction": "-",
-            "text": "-2.0% to -4.6%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "The sector faces a broader demand shock from a tightening global economic outlook",
-          "forecast": {
-            "low": 2.0,
-            "high": 4.6,
-            "direction": "-",
-            "text": "-2.0% to -4.6%"
+            "text": "-1.3% to -3.9%"
           }
         }
       ]
@@ -100,37 +100,27 @@
     {
       "sector": "Healthcare",
       "read": "Bullish",
-      "score": 61,
-      "event_type": "demand_shock",
+      "score": 65,
+      "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Takeda\u2019s launch of ORZEYFUL is driving a bullish sentiment in the Healthcare sector.",
+          "text": "Takeda\u2019s launch of ORZEYFUL is the primary catalyst driving the bullish sentiment in the Healthcare sector.",
           "forecast": {
-            "low": 1.2,
-            "high": 3.0,
+            "low": 0.7,
+            "high": 2.6,
             "direction": "+",
-            "text": "+1.2% to +3.0%"
+            "text": "+0.7% to +2.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "The new oncology drug is expected to meet unmet patient needs, boosting demand for advanced therapies.",
+          "text": "Takeda\u2019s introduction of ORZEYFUL, a new therapeutic product, is expected to boost the company\u2019s earnings and enhance the sector\u2019s growth prospects.",
           "forecast": {
-            "low": 1.2,
-            "high": 3.0,
+            "low": 0.7,
+            "high": 2.6,
             "direction": "+",
-            "text": "+1.2% to +3.0%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Takeda\u2019s strong pipeline and recent clinical successes are likely to attract additional investment into the sector.",
-          "forecast": {
-            "low": 1.2,
-            "high": 3.0,
-            "direction": "+",
-            "text": "+1.2% to +3.0%"
+            "text": "+0.7% to +2.6%"
           }
         }
       ]
@@ -138,47 +128,37 @@
     {
       "sector": "Industrials",
       "read": "Neutral",
-      "score": 47,
-      "event_type": "demand_shock",
+      "score": 57,
+      "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Climate talks may lead to stricter emissions regulations, impacting industrial manufacturing",
+          "text": "Geopolitical tensions between China and the U.S. are driving higher demand for defense and telecom infrastructure, boosting the Industrials sector.",
           "forecast": {
-            "low": 2.1,
-            "high": 4.8,
-            "direction": "-",
-            "text": "-2.1% to -4.8%"
+            "low": 1.7,
+            "high": 4.6,
+            "direction": "+",
+            "text": "+1.7% to +4.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Japan stamp maker\u2019s entry into AI could accelerate automation in industrial production",
+          "text": "AUKUS defense agreements are expected to increase orders for military equipment and related industrial components.",
           "forecast": {
-            "low": 2.1,
-            "high": 4.8,
-            "direction": "-",
-            "text": "-2.1% to -4.8%"
+            "low": 1.7,
+            "high": 4.6,
+            "direction": "+",
+            "text": "+1.7% to +4.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "UN talks on regulating autonomous weapons could influence defense manufacturing, a subset of industrials",
+          "text": "China\u2019s backlash against U.S. telecom restrictions is likely to spur domestic investment in telecom infrastructure and related industrial supplies.",
           "forecast": {
-            "low": 2.1,
-            "high": 4.8,
-            "direction": "-",
-            "text": "-2.1% to -4.8%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "The focus on global warming may drive demand for green industrial technologies",
-          "forecast": {
-            "low": 2.1,
-            "high": 4.8,
-            "direction": "-",
-            "text": "-2.1% to -4.8%"
+            "low": 1.7,
+            "high": 4.6,
+            "direction": "+",
+            "text": "+1.7% to +4.6%"
           }
         }
       ]
@@ -186,47 +166,37 @@
     {
       "sector": "Technology",
       "read": "Bearish",
-      "score": 29,
-      "event_type": "demand_shock",
+      "score": 25,
+      "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Investor concerns over AI exposure drive a sharp sell\u2011off in the Technology sector.",
+          "text": "The Technology sector is bearish primarily due to a sharp sell\u2011off in AI\u2011related stocks triggered by SoftBank\u2019s 14.48% plunge.",
           "forecast": {
-            "low": 2.8,
-            "high": 6.4,
+            "low": 1.5,
+            "high": 4.5,
             "direction": "-",
-            "text": "-2.8% to -6.4%"
+            "text": "-1.5% to -4.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "SoftBank shares retreat as investors rethink the price of AI exposure",
+          "text": "SoftBank shares fell 14.48% as the Anthropic IPO sparked a broader Asian AI stock sell\u2011off.",
           "forecast": {
-            "low": 2.8,
-            "high": 6.4,
+            "low": 1.5,
+            "high": 4.5,
             "direction": "-",
-            "text": "-2.8% to -6.4%"
+            "text": "-1.5% to -4.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "SoftBank shares crash 14.5%, the biggest 1\u2011day fall in 2 years, following Anthropic\u2019s strong IPO debut failure to revive AI trade",
+          "text": "Investors are rethinking the price of AI exposure, leading to wider sell\u2011off pressure on technology equities.",
           "forecast": {
-            "low": 2.8,
-            "high": 6.4,
+            "low": 1.5,
+            "high": 4.5,
             "direction": "-",
-            "text": "-2.8% to -6.4%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "The AI\u2011related demand shock is amplified by the broader market\u2019s reassessment of AI\u2011heavy valuations",
-          "forecast": {
-            "low": 2.8,
-            "high": 6.4,
-            "direction": "-",
-            "text": "-2.8% to -6.4%"
+            "text": "-1.5% to -4.5%"
           }
         }
       ]

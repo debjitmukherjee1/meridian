@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-11-21 14:06 UTC",
+  "updated_at": "2026-11-22 03:52 UTC",
   "market": "JP",
   "index": "Nikkei 225",
-  "macro_theme": "Consumer demand signals dominate headlines",
-  "macro_score": 47,
-  "macro_explanation": "Broad-market headlines scored 47/100 by the model (balanced); this is the macro overlay.",
+  "macro_theme": "Geopolitical conflict raises energy-sector risk",
+  "macro_score": 57,
+  "macro_explanation": "Broad-market headlines scored 57/100 by the model (balanced); this is the macro overlay.",
   "sectors": [
     {
       "name": "Consumer Discretionary",
-      "score": 42,
-      "label": "Neutral"
+      "score": 24,
+      "label": "Bearish"
     },
     {
       "name": "Energy",
-      "score": 47,
+      "score": 53,
       "label": "Neutral"
     },
     {
       "name": "Financials",
-      "score": 34,
+      "score": 35,
       "label": "Bearish"
     },
     {
       "name": "Healthcare",
-      "score": 61,
+      "score": 65,
       "label": "Bullish"
     },
     {
       "name": "Industrials",
-      "score": 47,
+      "score": 57,
       "label": "Neutral"
     },
     {
       "name": "Technology",
-      "score": 29,
+      "score": 25,
       "label": "Bearish"
     }
   ]
