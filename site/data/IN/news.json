@@ -1,15 +1,51 @@
 {
-  "updated_at": "2026-11-22 04:03 UTC",
+  "updated_at": "2026-11-22 07:09 UTC",
   "market": "IN",
   "items": [
+    {
+      "title": "Stock Market This Week: US Inflation Data, AI Sell-Off, FII Buying And Other Cues In Focus",
+      "source": "Outlook Money",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPU2wzc3FIN1BoQldJbXYzdXdYMGx6RnpuSEVielFoczFtS09wMVY5VWxoSC12YWF6c0Z6R2VEbXFHUTlBbjExTFpmMm5Xa3dYVVhrTG5fMm5qNVZZQXhCV3JWVTZLTTJYNmluU09PVEtfVkN4VUNTeXB5ZXpKMjdkVTZRejY1V1g5Y0ZlT3BBTGZoZjVWUXlHaTliQjBSZm9K0gGuAUFVX3lxTE91bHkyNzZlYXlxdFdfMTBUaXlyMmZOOF9qcEV0RjhuZnVKdWZCZXllZlllUkN0dy1xZTNNUGJ0TnFPcFk0QVFYYlZ4OVFLOTAyaG4xQk8wY3lXcHhrWGQ2Rk9Ucng4ZGpQWV9CVG9hQWw4TG0xMVp6aW5yVHBiRlc2RnJLNzRvb180MjhDNGh1ZGRxR3hIMnZmb3lrMngwQzZfZnBJT0NXWEdLSWFTdw?oc=5",
+      "published": "2026-11-22 06:22 UTC",
+      "sector": "Market",
+      "tone": 1.0,
+      "note": "FII buying offsets AI sell\u2011off"
+    },
+    {
+      "title": "Share Market News: Nifty 50 Outlook & Prediction",
+      "source": "Liquide Blog",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaFNDb3ZWZWhOeXZ2alhvR3daUUNoVk1vb2wzLUJVaks3VzJFd2pTT01RdmhGdjEyV01IVXhpLTl2dXBVV0pHUGs3cmVHUjU3dHZ0RkN5NVZkNFRmTVI4TXY3SUhpUVBHcHgteGJILXlIdi04X3hLZnlzdklwMmVZWGFuNk9ldl91TWo5anRBSXlpX1dlTlVjTGhn?oc=5",
+      "published": "2026-11-22 05:32 UTC",
+      "sector": "Market",
+      "tone": 2.0,
+      "note": "Positive outlook for Nifty 50"
+    },
+    {
+      "title": "Equity LTCG tax abolition: Will scrapping capital gains tax boost FPI inflows, mutual fund investments? CA explains",
+      "source": "Livemint",
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPMTZLM09xTWVtaFN2T2FrSmttSUxLbkhhMkYwaEdmcmlpTXkyUjNNNy1QQXI0bWxoeVZuOVFLZzBwN01EakdRTmhNSDhKVEZwM2VhZHRfSk9TN09landZSURLOUU0ME1nU1lBWGE2X2lhd0N0RFgtWjNWYWpoYzliN3hhbjZQamRjU05xblFhNXBUQWtaTTFJWjJ1al9oMFF0Z3o1bUtCUUYxWlNGczhVUnFmbkdkUjdFcFd6YzdGZ2p0VGRCLWdmcVR1czZZeWdVUnNyZnNNc1E2ckJsXzJSWW5Vd2txc2xMWW9zSnJueDBDMHZRTmhOd0VHMTZBMzhJQlYyME40YzN6cHU20gGSAkFVX3lxTFA1VjhFM3dSVXdoaVRhSk1KeWt3eXhydlRuU001TEZJMTd1UVFNM19KOVhQalpiSU9OdmpnamFUUzVzMUY0OHBrb3AzTGxlLXdPaG5Rc3g3MFZOclBFRWM5U3pMN09VRTZpeTNMWnJzR2RrNktjR1ktWHRqaXNBT19jOHFMdTFISXI2LXl2dFhkT0pzX1pOcjZjX0ZxYTV0TVkxYXJzQ3RHaDVoSDltQzlPQkpodzYyVVRGQUhDUk81RHZkTDVVdFJJR0lETHROdjIteVVxcTh6cU9zRjFGQnBNdFdRM21TVXMxUVY1NWxBTlU3bXI2N2pFd2NJaFhwa09KYzlmLWdYekgtOFdvZkhsbnc?oc=5",
+      "published": "2026-11-22 05:05 UTC",
+      "sector": "Market",
+      "tone": 3.0,
+      "note": "Capital gains tax removal attracts investors"
+    },
+    {
+      "title": "Nifty scales nine-month high, 26K in sight: 5 triggers that could drive or derail D-Street rally this week",
+      "source": "The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPY2REdUZvVjhpeUhFMGlRR1ltSXliSW1ITFVTVVEtNGI5NVM3TU8wUU9fTnJ5dXRmdEVxcWFMRzRBRFZBX1I0QXRRRVdESlJSbXRGYTdjN1c5cWFxbFd5eF93cVFGdGg5QURFZFh0SFROUXEtc1QweHBqblV6UElPVHhXODNsQXpJdzNFcjFYckR2SFZkVk5VZEsxYl85VDN1VmtqR3Zia3NCSjNPczV0XzJ2ZDhoR3V1ejNlLUhRYUVuUnBUeC1GNGpRWGtRSWRWaGxpZ3lWb1QyVlZ1eHZRQUI3ak4tclZoaXRyUDA5eXpDdkhQc2NrQzdXQdIBgAJBVV95cUxNNURhSHVPallUbjFwaGtkTHo0dzJIVlBBOVdmem1KUC1uLVVFcUpydTYyRUg4SjloZHBpcXVvUXFubHVIRlVuNU9TTkUwVXpkRFdKYWt2aWpaSl9Rc3N1cUg0ZXpyZGFwbHJQUHR5NTJkRlpscldZTUFQREZjbkRQbWMtZmZhYkFXWGF1OFU1N1ZRYnRJa0lmdlJoRElLcEp2MHBFbU5qeDNzVC1MTmFPYU1ZendJNDduQmNmcFJuZmFRdG0wbWY0U2JVd1lLOWt6YnlkeFFodjc4Wi1GSGJlRUs3TXNtM3VYUE1LOWVSQnNyUHV6MGFOZTVRcVpmM3Vs?oc=5",
+      "published": "2026-11-22 04:39 UTC",
+      "sector": "Market",
+      "tone": 4.0,
+      "note": "Nifty near 26K, rally potential"
+    },
     {
       "title": "Nifty Eyes 26,000: FIIs Pour Record Rs 1.12 Lakh Crore as Banking Rally Leads Markets",
       "source": "theopenpress.in",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOWVFpMUpyVDA0b3B6MkpKSXgyazhUbXpPTnRxNElhMmRyVVFzR09kSU92cldwQ3RnYTlISlVadkw2a05RUWM4dEZOdG14NVo4QXR2MjF0MC1Wdm5lY3hpNUh5S1RZOVE1WDQxM05tT0xPbTNobWFxVGRyRkIyUFNDREZ2R0dIZw?oc=5",
-      "published": "2026-11-22 02:47 UTC",
+      "published": "2026-11-22 04:23 UTC",
       "sector": "Market",
       "tone": 5.0,
-      "note": "FIIs record inflow signals strong confidence."
+      "note": "Record FII inflow fuels rally"
     },
     {
       "title": "Jefferies raises India allocation to 15%, cuts Taiwan: Is global money shifting towards Indian stocks?",
@@ -17,44 +53,17 @@
       "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPTGRYUHdORVdDbldSYWtZVzl5eHQ0OW94YmE4YmEyQ2FkbmRGd252Rnc5djMtX1Q3UmpHbTI0cUZYYkZubmNWY0VRc1pmSkh0Y1RhNllucWprZXdKZ1NxVWZ5VFFVUmgtcks2bUxHRU5FbXhtXzZOOVNlZVcwYTJwNEpuUVpTR1RBRHhQNy1zSXRSS25Bejd2YVV0dkNCd0d0WnZXNzFHWHJLWDkyVHV2ZGN6X2gyeTh1VS1TZ1NRTGtpSTBLX19XalhLQ0hUc2dxQm1pTEt3dTNzVi05NjBaS2dvYS1jaHlQaHdNbjBlNGjSAfYBQVVfeXFMTkhzY0pVWHV4Wk81Vl9tMDlaTTg5dEIwMjhoRy1ibUdiUFlIN0p3MjN5ZkpWS01DWUJzSnFPMDFkTi1ZbUo1WkNhYVBmNGZ2dXN4Mnk1R0RET0lLbWRScXFCWF81N0RZSGppWVBCM0FPYThNUl9LWlhzdzhUNy05NlY5dHVDYm5SSTdCQVFmTmlRSXpKWVF5NG9BSlZzR2ZhTnNNVHBKYnRKOXN0VzF4Vm5ucEdsZEFnZkV4TDlBblM1bFB2VzBXMmFFeHZ2aGtrMHNJX3NTNkt1OVR6RUJ1SFNhcmk5czdUOFI2dXo0bVdaOUpBRHdn?oc=5",
       "published": "2026-11-21 15:22 UTC",
       "sector": "Market",
-      "tone": 4.0,
-      "note": "Jefferies boosts India allocation, indicating positive outlook."
-    },
-    {
-      "title": "Sensex, Nifty end week at nine-month highs as bank stocks lead rally",
-      "source": "Kalinga TV",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZC1sVlNydk5iMXN1bVRYZWNIdkxQcjMzcVQ2QWloa3N0WjFmNWNMZFdZRHBzWWRzQm5Uekc3XzV4X1hPNUozeVE5MjlTTkhQX0ZWWUE0WkpVZFM2Qnpld2FLa0diS05IUmhUdF9iSlZmMThsSXVnQ1VCWE9xT3dxUDh2T19FUDF0Zkczbkc0a0ZNeFF0aVE0Z1Jib1JkVWxr?oc=5",
-      "published": "2026-11-21 14:32 UTC",
-      "sector": "Market",
-      "tone": 5.0,
-      "note": "Nifty and Sensex at nine\u2011month highs, bank rally fuels optimism."
-    },
-    {
-      "title": "Indian Stock Market Extends Four-Week Rally as Sensex and Nifty Hit Nine-Month Highs",
-      "source": "www.nationpathindia.com",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUUtkV1E1bU5ZNXVWY091di02SGxjcTlWbVc0UHVSRmZHU1NMN1JhZ2tDM1lTU1R5ak4zOHdvZWxWeHVXSDNjV0gtZ1IwMldCc1VucUN5U0VGYm9ZZUt1M1J1V21YdmUxS0VMOUpXQjh4ZFJKWHRfU2hqeG93VGZ0T1VHbFphbkQ5Wm00SUpBRm1ubEJBLUVtQm5RREwzMTM3VlZMRlI4a2hKTGFtdXhSU3FPckNIaThQZnc?oc=5",
-      "published": "2026-11-21 12:09 UTC",
-      "sector": "Market",
-      "tone": 5.0,
-      "note": "Four\u2011week rally confirms sustained bullish momentum."
-    },
-    {
-      "title": "Market weekly wrap: NIFTY50, SENSEX extend winning streak to 4 weeks with 3% gains; NIFTY Smallcap 100 underperforms",
-      "source": "Dailyhunt",
-      "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNdVQ0Sk1xZXBqbGRORy1YelVuUHN5TWlBWFplWURTcm0wMkFKMkhHRXVITnZ0a2k4N2k0LXg3R1RCRGRkWlhMZjFpTzR5X0hSd1FDSk5vRUNWNzZpbktBQWg0NEM0eXFBSEozTFRQUll4bk9acmtQZXFjN2ZIVWN4XzVnOFd2OXNPYzRrQmw4eTN3SXlucGRJNEVid1JNRy1hRmNmTThodjZGdXNiNWtBb1ZiWlZ1cmhwSHM0SGRvTW1Qbnh5czFqS21scE5iVm9rajc2QWlZOUhOV2ozaV92VnZGVHo1bmM2eHYzdGJWVjI4b0oyOV9lbzFDVzFBTy05NUN1VURiOGY5ZzdXS09qU25PT2ZyVUVNRGNoRjNn?oc=5",
-      "published": "2026-11-21 11:32 UTC",
-      "sector": "Market",
       "tone": 3.0,
-      "note": "Weekly gains show strength, but smallcaps lag slightly."
+      "note": "Global money shifting to India"
     },
     {
-      "title": "Foreign Investors Pour Record Rs 1.22 Lakh Crore Into Indian Equities In November, Highest-Ever Monthly Inflow",
-      "source": "Swarajya",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNV1BERFFlX3AtaFgxMGIzWjl2cEdvRzYxaUwwQjR3S0FrNDA2aFhPczU1TUQ5OEhkVWJkYk4teDNXN09ROGdhODNWNzU2RFhkTWRmRlJkeG1yN09vWVJXMlVPaG94d21lTmNQWHY1cjJ3MTRHRG9DdGE4cl8zRlNveXg4RUlVdDh3M0hyUzNxR1lXakdYYlppZjF3OEtoWHZkbFVCaW1PTC1YT1JybVpuTW5QbjRzWUVmOUpzZFVHWl9GV05NaVgzSFY1Wi1pVGp6cHpsdWxmaGjSAegBQVVfeXFMUGp1bkdSWkQxMXJvMGlScFpJbDJsUmlOUVhSeDZqVWtYSmJESkNGeHloemJqUkxSSjBGX1FLNXA5blh3UDJhSTNOX3p5WC1ZR3VwTWljMnpNQXR6bVJFRDVFZ0wwc2lpNVN3dG9ZNjNMdkY3NlRqdGM5NWhacVpoNmFqZWZHWXZ6WDlqcURRYi1TblAzZUVzU090bHJsa2lTNk0xeHI0bUM5Z1paVzlMcXB2Z0ZiQi1WSGcwekIzdVRfZEF2SzdybklUb3pTd08wYk8ySHNSc3FtMm1vanpOald5SkJZOEpucA?oc=5",
-      "published": "2026-11-21 10:46 UTC",
-      "sector": "Market",
-      "tone": 5.0,
-      "note": "Record monthly inflow shows unprecedented foreign enthusiasm."
+      "title": "PPFAS\u2019 CIO Rajeev Thakkar pushes back on AI doom narrative for Indian IT: 'Four years is enough...",
+      "source": "Moneycontrol.com",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQSzh1QVRYNURvQkVfQThna1c1ZTZVX2hCRzNhMFFUdXJacjl5SHVadXRpcEFvOE55QWgxSkhhc1pXbzJULW5IeVA3ZlBpZWFfSkpUZ1lKN3d2T1NHWFlFY2QwUzMyOVFrQnN3R0I4YWN1UEtjN0kxX0dCbDZ1dHlHQTlVQlJORXMwTW10U1JFaHF5S0VWMUNzVWFOX2pzS080cl81VC15S0hXd0VnR3Q0V0xvRHA3LXVWYkt3bU5zWGIxeGdlXzJQWG5Ua0NTTml0MkxkR1NhOHZGVWxKWE9SUVdWLVFXV3hrNERzNkhoU21Od2tJVER2RllR0gH6AUFVX3lxTFBLOHVBVFg1RG9CRV9BOGdrVzVlNlVfaEJHM2EwUVR1clpyOXlIdVp1dGlwQW84TnlBaDFKSGFzWldvMlQtbkh5UDdmUGllYV9KSlRnWUo3d3ZPU0dYWUVjZDBTMzI5UWtCc3dHQjhhY3VQS2M3STFfR0JsNnV0eUdBOVVCUk5FczBNbXRTUkVocXlLRVYxQ3NVYU5fanNLTzRyXzVULXlLSFd3RWdHdDRXTG9EcDctdVZiS3dtTnNYYjF4Z2VfMlBYblRrQ1NOaXQyTGRHU2E4dkZVbEpYT1JRV1YtUVdXeGs0RHM2SGhTbU53a0lURHZGWVE?oc=5",
+      "published": "2026-11-21 12:44 UTC",
+      "sector": "Technology",
+      "tone": 3.0,
+      "note": "CIO defends AI, signals optimism for IT growth."
     },
     {
       "title": "Indian stock market outlook: HSBC favours financials, consumption and select IT stocks",
@@ -62,8 +71,17 @@
       "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPeG52eGhKYVZKaEZ1dGh5WVM2OWxmdlhNQnNOUk1yREZTaldTMG11NXV0QTN0T2xweHd4Q0JkZFhPNkNfRnZiaDRoTnRqbXV2aTJhUVhYOUhyWWZKTnM1WU1vYWFxMEp4cHJEb08zMzhWa3ZKaWtYUzJsS3RXWUo0WTQwM3h5ZUJZcUtKREFOYkhmMWw0ODZJaUlOZ2JoZ3lRUGVxcjR1QjhDY3Y3ZzU1RWdGdF9WV1JhNzJoUk1rNWZzYVB3MDdGYWJmMFlCYlczMG9abG9tWVEwTUJZcWw4SXUtMXBLMUlNS1FlOF9LRXd3TmRh?oc=5",
       "published": "2026-11-21 07:38 UTC",
       "sector": "Technology",
-      "tone": 2.0,
-      "note": "HSBC highlights IT stocks as attractive, boosting tech sentiment."
+      "tone": 4.0,
+      "note": "HSBC backs financials, consumption, and select IT, boosting confidence."
+    },
+    {
+      "title": "Nifty 50 Gains 3,000 Points While AI-Linked Stocks Pause",
+      "source": "Multibagg AI",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOc09Bd0t1czNDR2ZzcnZJZHhKZFRWRXhFTzBya1ZOZl94WUh4c1dZSGdZa1F5NUpBSWRtc1RrcG1zLXc0NnBRZmJnLWE5ZGtEajU5UlZ1LWNzelI0TzZHZHZDemFaT1JZTXJvRWRWQ0ZkQldWamlzRmF6YmVWWENYVk1ybDJSYldBb1RnNFF1cWlSNmdTZEhWWlln?oc=5",
+      "published": "2026-11-21 02:00 UTC",
+      "sector": "Technology",
+      "tone": 0.0,
+      "note": "Nifty gains, AI stocks pause\u2014neutral market movement."
     },
     {
       "title": "Mirae Asset Nifty It Etf Mid Term MTF Research Recommendation",
@@ -71,8 +89,8 @@
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNcnVoMktVV1BZbDRSd1FMZkxnNW9RYk5RTVVteUtGRHFPZDZCUmo3YzBrNUtuRktXOUpITFI5WEtjTFZVcEE0M2h3N1ZOUnlBbXgwVGNUX0NUVm9YNEdOLXN4b3JIcGMwQUdjZ094Ny0waTJISDdkZDRGVlh0YkZRZG1XdFplWUJtNGpsZ1ZJRQ?oc=5",
       "published": "2026-11-21 01:42 UTC",
       "sector": "Technology",
-      "tone": 0.0,
-      "note": "Mirae Asset recommendation neutral for broader market, not tech-specific."
+      "tone": 4.0,
+      "note": "Mirae Asset recommends Nifty IT ETF, indicating bullish outlook."
     },
     {
       "title": "Mid-Cap IT Stocks: Mphasis, Zensar, KPIT Roadmap",
@@ -81,7 +99,7 @@
       "published": "2026-11-21 01:38 UTC",
       "sector": "Technology",
       "tone": 3.0,
-      "note": "Mid-Cap IT focus signals growth potential, positive outlook."
+      "note": "Mid-cap IT focus shows positive trajectory for Mphasis, Zensar, KPIT."
     },
     {
       "title": "Hdfc Nifty It Etf Mid Term MTF Research Recommendation",
@@ -89,26 +107,26 @@
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQNHlra1RiZXppUVBiS2V3QXM4cFJfR1ctVXZnN0ZtVVZRQ0Z4YUJmSGFIX1J5b3AxR2VYUFI5Tk85MFk0YzgwTV92TEd5TFRfcnJZVTZVWmwzUHIxemVfQnk0WXVCYnhlTkxoQi0yRGgzak1hT19jQmJFRU84Wmh3eW5VVV9zQQ?oc=5",
       "published": "2026-11-21 01:38 UTC",
       "sector": "Technology",
-      "tone": 0.0,
-      "note": "HDFC ETF recommendation neutral, not tech-specific."
+      "tone": 4.0,
+      "note": "HDFC backs Nifty IT ETF, reinforcing bullish sentiment."
     },
     {
-      "title": "Hdfc Nifty It Etf Mid Term ETF Research Recommendation",
-      "source": "HDFC Sky",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNaUhSTHFmdzM4SWplanMxaFJoU29QZmZxekNNWEhPWFI0dnN6Q0h6aU5oS2VDTHU1Tm5WaFYzOU9sUDJfQVBUdEJhT2Rhb2dKd3hFX3BaZkp1b3UwZTlMMGxUVlptTWlzdGtEZnhHdHpSN29wOFhBUzBGaWN5OVEzcl9EdU1PQQ?oc=5",
-      "published": "2026-11-21 01:38 UTC",
-      "sector": "Technology",
-      "tone": 0.0,
-      "note": "HDFC ETF recommendation neutral, not tech-specific."
+      "title": "Sensex, Nifty end week at nine-month highs as bank stocks lead rally",
+      "source": "The Tribune",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRzZnZDB6T0JINHNiVGc1WVRhTGg2eDhaUXNUbmNReWVCWnFMMmdfSTh0V0cyV3hEQ25xcW5VR2NhcllpWkg3RHhwMk1aV0VXaVVGMzRCMG1iaXNraWppQUl5S3FvLVlkQlNVVTFSOWdfMlJ6YURVQWEzYzRFU1JhOEg3WmhHNjdiUU5FYm95Ulg0S2c3M3c5cXUxS2wzSE1YQlNsZDJzOUhZSW5DbUhOR9IBtAFBVV95cUxNMzlqZW4yZjhnYnI2Mi1MVW5icm1fMmdUZmUySFNfc1ZYa0JUa21FRFVVUGd3VVVpUVllY1VBSXhNQlJSelVObXBERnd0SzB1OURueEg5cnVybUwwU2RtTWZEXzhpdVBqZFpCYTJTaEt6aGRmOF9zQ2JWWGlWMVVhUHRkU0tlOHVSNTlWUFdDdFFLRklrcllOdThDSENQY2ZfOEtvUDlFcnhqM1VfU0VQLXU3SW8?oc=5",
+      "published": "2026-11-21 09:17 UTC",
+      "sector": "Financials",
+      "tone": 4.0,
+      "note": "Bank stocks lead rally, driving index highs."
     },
     {
-      "title": "Infosys Share Price - Live NSE: INFY Stock Price & Chart",
-      "source": "Upstox",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5BbEJTdmZNbE5BN0ZRWWZpd2tZZnRCZWV0MFdhYW5nQ2NSSTgzUlI4TjVPaU5BV1FxQkpYUnFWa05Fb09uMkxlNDhUWVpvV2JLWGIxUmh3SUFKSzEwUHZpX1IyTVM?oc=5",
-      "published": "2026-11-20 22:20 UTC",
-      "sector": "Technology",
-      "tone": 1.0,
-      "note": "Infosys price update shows stability, mild bullish cue."
+      "title": "Bank Nifty Five-Year Comparison Lacks Supporting Return Data",
+      "source": "Multibagg AI",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRFJQNEx5SXNlQWJrZHhQQXdKUnN0OW0xclYxOUdNMzE2X1JVVXBSWGFSQWt0OGlCQ0g5RUxyOFhqSlF4RVptVWZUMGNIZEVEeW9qOGM1eUVueEUycWRzRjYwQ0lYOTdWWkNwWkswWnUxcHRGNFpVUUZlSnI3eVIwdk9QaTB0Y1VhWnBZSXBtY0lqdVFVYWJWNVB6X2pRc1lQblZOUTk4QQ?oc=5",
+      "published": "2026-11-20 21:28 UTC",
+      "sector": "Financials",
+      "tone": -2.0,
+      "note": "Lack of return data raises doubts about bank performance."
     },
     {
       "title": "Markets Nov 20: Sensex gains 900 pts; Nifty closes above 25,800 while Bank Nifty scales fresh record high",
@@ -116,8 +134,8 @@
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOVRqdUUySkJKVGJnb0tVeVNqQ1dBVFpKREl5bGJVTGhmN2tBdVpOZVBOMkMwQ3Y3TUZPNWR4SDVqQTdCQXViM01xNG5YT2hFdnJCZHpiOUg5SWMyaGRfQWpsZFNpREV5TzFDMGljWmNfQ25EbXJTU2pMQWYtTE9acHFuMVZPLUdaTS1Fb0VobmtqUzZ1aUFhU0xGNTZXVGpNQUwzRzJ0UjJxMFpYaHc1MTdDQzNqUW8zV1dwbEtJV2UxSlhzQ3hya2JR?oc=5",
       "published": "2026-11-20 16:56 UTC",
       "sector": "Financials",
-      "tone": 4.0,
-      "note": "Bank Nifty record high signals strong banking sentiment."
+      "tone": 5.0,
+      "note": "Record high Bank Nifty signals strong investor confidence."
     },
     {
       "title": "HDFC Bank shares recover 22% in Nov, adds \u20b92.38 lakh crore in market value. What's fuelling the rebound?",
@@ -125,8 +143,8 @@
       "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxONWFWNWMzS01lSU5XS0c1d3NRS3VCNm05Uy1Jb1dzdEFFM0hSU2hwV09naGFOaHR6VndCR25lZHdvUXZ3RF9teGM0RmZTUFJPdzQ2MjI2bHBTTE1BczU3MEppTHh6dXVjUXlNOXFDUEwtekVlLTRWai02OEJubUwxcEpNUGpGMXZadlBPS1pmbWNHUjZCOXlzYU9Jb3hDTGdmd3lNVGNob2lNMzg3c3dGbFFzTDlFQW85ZER0NjE4NEVfQV85QlBwWk1fbG9YeTZfcHRCaUJTbjBnSXYyeU5mdnoyMTNBdi1SMlg4SEhaWW5mRFQ4Z01WMktHRW95MHVE0gGGAkFVX3lxTE42eTNRNXJveDFWSVZMeGVObGlkeGFsZzRKZXVSa19sLXNGazRwUnZvejhzWEJSQTFyMmVqT1h1Yl8wUDVHeU90LVlpRmhrN0FqLW5rNUJYMTRyN1g4LU9ZN0dKMHNCYW5wazk4QkdXeG9mRDdoR21wLXE1N0p5ampFdEdSaDdzcG4yRDVWV1NvdS1PdnoyaS03bm1GeXRGUTNHU2wwUDN3ZWJlUEtnXzVLM2tkWU44U0dLS05hZE1TSFNYeFN0LUlqc1ZlOUJBUW9VdE9EZ0F4QnN6UFl4YXlRZzRGMlZHQTEzV2taUlZ4VHN5VDktN3I3d2FVYzdyeVN6X19fMEE?oc=5",
       "published": "2026-11-20 13:56 UTC",
       "sector": "Financials",
-      "tone": 5.0,
-      "note": "HDFC Bank\u2019s 22% rebound adds significant market value."
+      "tone": 3.0,
+      "note": "HDFC Bank\u2019s recovery boosts overall financial sentiment."
     },
     {
       "title": "BFSI stocks in a week: Bank Nifty hits record high; PNB, Axis Bank lead gains, FinTechs slide",
@@ -134,8 +152,8 @@
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOUGZsRkxqMEtGOXNlMlVRMTZkcVUxVFRnUm1HQTRXXzBTUmVXMDhwZXJmZW5RdE1WX1J1aHA5YmI2TlJMcVhIVF9DWHVablV6VXlLb3VyUnNfWGxsMEZ4LXl2TXpsekoyOC1wRl84aVU3NG13azhvSE1aSUlDMkdXbm5lZXdoU05FZHhhVDVOVEU1UVZYcUV4bk5CR2ZULWk3Z3VUdUVfazdsWHFVYnpjdW9XTVVxeVVOcFBpTHJNVW16cnlzSmN4c2RuVVc1b3QtYnQ4ZkowMDZvc1VLWnN4VllOZ3fSAeoBQVVfeXFMTTNJMWt0eVJacGtKa0Z4NVZFNlVUc21sSkJMdlhSUXFSYkc3aUV2WDJxVFpnNTA1WG1xME9RQWhYWnphZ0Vpa19xX1p6YzJCSy1tTWhrY2d1V0N5aHdEdG9DSE9NX3pTcUtibjh2MExrSG9iUm1EZEYzMVBfdVJEWnV0Qk1paXlReF84Zm95MFdKaFQ4QXVBa2RCcUVWVDdiV0oyTjBRUDJsbnRRMzdrWUpnWFdSeDdRd3JwRjZVcHpUWHNBcXdDOWNSMDUwLVhOc3VrbU5kcTc5UEplV28ybF9LZmtkcnBEem5R?oc=5",
       "published": "2026-11-20 12:52 UTC",
       "sector": "Financials",
-      "tone": 3.0,
-      "note": "Bank Nifty record high, but FinTechs slide tempers overall positivity."
+      "tone": 4.0,
+      "note": "Bank Nifty record high and leading banks lift sector."
     },
     {
       "title": "Sensex surges 898 points, Nifty reclaims 25,800 as bank stocks, foreign inflows lift markets",
@@ -144,25 +162,7 @@
       "published": "2026-11-20 12:24 UTC",
       "sector": "Financials",
       "tone": 4.0,
-      "note": "Sensex surge driven by bank stocks and foreign inflows."
-    },
-    {
-      "title": "Sensex Jumps 898 Points, Nifty Climbs to 25,800 Defying Global Rout",
-      "source": "Rediff",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNQUFtam4xWFJHUlZ5Z0U0WTlWQ1BycHhVNWdxMlZlRllwQXExYUNpakQ3bURyVHExOUE4WmZ1dHZCZ2JLYzNqZXZXRUJlTHFyM1JwN2p3THFjUjVDUmVoZ0ZiM1dtVEtTNU1GZmhFR0VrN0ozQ2k1V3ZPSW9wdHE3cXVjQjFaWHRudTVQOTRHVmpkbFN5UGlUTEk0TXdYLTBOdjczVlRpbjdiRi03LWp5UkgxNHU5X3ZiQ05reWR4NzlZS3RmcXpNeXVVZ3FUYlNnLTVVQWl6LUFULWFRakh1TnJ5cnJyT03SAeoBQVVfeXFMT2NYeW5UT2xTY2FXUmEtWTh2SmFQUDczWVZlWkFBQkhzRE9jWkJFaWx6a1dyZTJUUEdwd1JvVWROcm1sWVJQaU5uMTBHcVZrWTk5Mk1PTVBZdFluV2xrUTlRRE9hbFZ6SXgydXQ0QmN6bEtEdG9FNXVhQjNPVXl5THVmNnpZSzdXTWF3TFhVRWhDVzFyYUFFVXA0SmVNQUw1Zk1OOThaWE1iRjU5b0FrTTVHN3QxeVZMMUZEY2Q3TjhDQVZRX256NTdVdThDNGhZX0pOa3I4VTJWOWpxVW5Cekp6S1p4dEdQYjRR?oc=5",
-      "published": "2026-11-20 11:13 UTC",
-      "sector": "Financials",
-      "tone": 4.0,
-      "note": "Nifty climbs to 25,800 despite global rout, indicating resilience."
-    },
-    {
-      "title": "Bank Nifty Hits Record High of 64,680 as Banking Stocks Rally; What Is Driving the Surge?",
-      "source": "Kotak Neo",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTktRNnRrT2JZelFNRTAtaVZ2aW1ERnIzMmEwSURrN250NXZxUnZVRnZWRVAtTlFaN3hrYzRwM1djSWpybFkyYTFzbEx3NjBOUnRyY1NmU1ExZ3kwVExsVk94T0ZCZHBTZG9rQXBEb2RXdG82Zy1sOVNud3daS29ad09uVGdRbk16QVE4WEdFTFFVOHljb0VwMzFCN3ZDMlBWQjRkWjdLMk1IeWNfQUJsYXFmQm0tTVhhRkhzS05SRDU?oc=5",
-      "published": "2026-11-20 10:53 UTC",
-      "sector": "Financials",
-      "tone": 5.0,
-      "note": "Bank Nifty hits record high, rallying banking stocks strongly."
+      "note": "Bank stocks and foreign inflows lift markets, supporting financials."
     },
     {
       "title": "Indian billionaire Mukesh Ambani's family buys 426,000 Reliance shares as stock jumps 14%",
@@ -172,6 +172,15 @@
       "sector": "Energy",
       "tone": 3.0,
       "note": "Ambani family buying shares signals confidence in Reliance's energy ventures."
+    },
+    {
+      "title": "Reliance Industries shares climb 3 percent as Jio Platforms sets IPO price band",
+      "source": "DD News",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOV0Jtd3Nwem05OWtXZHJkYWRaTWU2Y1p3VVk1eEswR0twTWZIanUxSWRMTXU4Yk9TMzNqOVNfVDBuZXBMWExpQzJoTTZSSWtRQThDcVNkWEpzNDVOQmI2ZF96eGpreUdBNGNQZVJMOU4xM2o3Z0U3OURuVmVOaVRaMUdLZG5fSEppcTU4b1NFZVpMaWNQVEl5R1B6eHFNQ2VkMElwdGFUX00?oc=5",
+      "published": "2026-11-22 03:20 UTC",
+      "sector": "Energy",
+      "tone": 2.0,
+      "note": "Jio IPO pricing boosts overall Reliance valuation, indirectly supporting energy arm."
     },
     {
       "title": "Reliance (NSEI:RELIANCE) Stock Seems Overvalued After Its $1.6B Biogas Bet",
@@ -189,16 +198,7 @@
       "published": "2026-11-21 04:14 UTC",
       "sector": "Energy",
       "tone": 0.0,
-      "note": "Live price update is neutral."
-    },
-    {
-      "title": "Adani Surpasses Huang as Billionaire Rankings Shift",
-      "source": "Udaipur Kiran",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMEgyb1FXUzJuX2EweHowdTl1VmpUal9RMkVJc1BIeDNnM0Q2SzM4cFlLWjcxODJvaFU0SGQ0LW9YS0syWVN6Tk9xeldQaVBtYURQd3pLQUNpSFNKbzg5aHpPQTEwSTJNYTczVzBSNks1X0dCbUZvQlRmWHdzS05DOHU0UQ?oc=5",
-      "published": "2026-11-21 01:24 UTC",
-      "sector": "Energy",
-      "tone": 0.0,
-      "note": "Adani billionaire ranking shift unrelated to energy sector."
+      "note": "Live price update, no sentiment."
     },
     {
       "title": "Promoters confident in Reliance, buy 4.26 lakh shares in open market, JP Morgan gives new target",
@@ -207,7 +207,7 @@
       "published": "2026-11-20 14:40 UTC",
       "sector": "Energy",
       "tone": 3.0,
-      "note": "Promoter purchases and JP Morgan target boost positive outlook."
+      "note": "Promoter purchases and new target reinforce bullish outlook for Reliance's energy."
     },
     {
       "title": "News by CNBC TV18 on TradingView, 2026-11-20 \u2014 cnbctv:785c81c27094b:0",
@@ -216,16 +216,25 @@
       "published": "2026-11-20 14:12 UTC",
       "sector": "Energy",
       "tone": 0.0,
-      "note": "CNBC TV18 trading view link is informational, no sentiment."
+      "note": "TV18 trading view link, no sentiment."
     },
     {
       "title": "FPI buying in Indian markets a structural shift away from AI-related stocks",
-      "source": "The Hawk",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMlhvZTAtcTFnYTZhYW11WFdhT0k3MnZ3eGtoLTZUWGREVk5FdFRvNFJoMlhRdlNKTndfVDlTSzlHOS1DdmVtNlVYSnpKNE9RSExrVzFyTTNhN2lTcHJFTWpIa3RkdkdwT3FMMEY2R2gzLTJFTVJmdHVJdmhSZ1RGZU41V1d4My1hUE41bFkzRTZXbnI2RE1hc0NvOVVKb2VQQ0k3QV9uOHpYamlQcjBoWWpOa0lJVzVQV0VWLWxwbmlrQQ?oc=5",
-      "published": "2026-11-22 03:53 UTC",
+      "source": "The Hans India",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQUVJbG4wYVNHSHdQMk5VVk5JNlVERFYyS3I3VV9zc1Ewc1IxSnVmYTZQM28yUkhBaEJ2X09KdDc5SEFOR2xVaGtvend0LWZZTkRUSkVlOXprbFVodThORF8wX255TndtR2x6b2JPcHZtRGFCZ2VVZWttbWYtdmNkZDF2b3ZlSWZqZ3NrUWI5T19RWjZuNFdrLVpHbV9JRlBtemZLWTQ2cndVQkVZZ1dUQlAySDdwRFhXeGtzWkJkR05VaWvSAcMBQVVfeXFMUEFFSWxuMGFTR0h3UDJOVVZOSTZVRERWMktyN1Vfc3NRMHNSMUp1ZmE2UDNvMlJIQWhCdl9PSnQ3OUhBTkdsVWhrb3p3dC1mWU5EVEpFZTl6a2xVaHU4TkRfMF9ueU53bUdsem9iT3B2bURhQmdlVWVrbW1mLXZjZGQxdm92ZUlmamdza1FiOU9fUVo2bjRXay1aR21fSUZQbXpmS1k0NnJ3VUJFWWdXVEJQMkg3cERYV3hrc1pCZEdOVWlr?oc=5",
+      "published": "2026-11-22 05:00 UTC",
       "sector": "Consumer Discretionary",
-      "tone": 0.0,
-      "note": "FPI shift away from AI stocks not directly affecting consumer discretionary."
+      "tone": 2.0,
+      "note": "FPI shift away from AI stocks signals broader market interest in consumer sectors."
+    },
+    {
+      "title": "Auto retail sales hit record 25.37 lakh units in September, up 31.82% yoy",
+      "source": "DD News",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNLWVkSlRqNVlLMWt2dDJRZzJDN0J1Zmh6R0tGUTFtOF84VWtRYU1Nejhwb3VvN29WNTRHVjdCbUNLSER2Wm5pcHpsRGoyZjAteGsyUXBOZzZEaVIwdnpwRE5tYkJZNk94RDZ2dXRtREFzSElPU0VnbzlvUkprd2lVXzkwM25VRFBQRVFVOXpESE5TblM0blNTaXZWbExiZw?oc=5",
+      "published": "2026-11-22 03:20 UTC",
+      "sector": "Consumer Discretionary",
+      "tone": 5.0,
+      "note": "Record auto sales boost confidence in consumer discretionary demand."
     },
     {
       "title": "Auto stocks lead European shares lower amid US-China trade standoff",
@@ -233,8 +242,26 @@
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQTdDcVBlU2ZYWHZKbDZsbWFaeElZV1VWSW5UYWFMMGN6VWxYU1VIaDBMVXVwWVhuQ0IwWWVadlkxUmV4NkNMQzh0TVAzM0kwNlBJdG5zdmRRTXdVMDJ5T3liSFRudXYtbHZjeEVWdUtHbUVjSmt5azdaV2l0NzYxd3BwNm5lc0pQVWtXbXVIdnNFOXBIZ3pJdFhYOENhVmtqalpiMzIzUUtxMDZj?oc=5",
       "published": "2026-11-21 22:00 UTC",
       "sector": "Consumer Discretionary",
-      "tone": 0.0,
-      "note": "European auto decline unrelated to Indian consumer discretionary."
+      "tone": -1.0,
+      "note": "Auto stocks dip amid trade tensions may dampen sector sentiment."
+    },
+    {
+      "title": "Market weekly wrap: NIFTY50, SENSEX extend winning streak to 4 weeks with 3% gains; NIFTY Smallcap 100 underperforms",
+      "source": "Dailyhunt",
+      "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNdVQ0Sk1xZXBqbGRORy1YelVuUHN5TWlBWFplWURTcm0wMkFKMkhHRXVITnZ0a2k4N2k0LXg3R1RCRGRkWlhMZjFpTzR5X0hSd1FDSk5vRUNWNzZpbktBQWg0NEM0eXFBSEozTFRQUll4bk9acmtQZXFjN2ZIVWN4XzVnOFd2OXNPYzRrQmw4eTN3SXlucGRJNEVid1JNRy1hRmNmTThodjZGdXNiNWtBb1ZiWlZ1cmhwSHM0SGRvTW1Qbnh5czFqS21scE5iVm9rajc2QWlZOUhOV2ozaV92VnZGVHo1bmM2eHYzdGJWVjI4b0oyOV9lbzFDVzFBTy05NUN1VURiOGY5ZzdXS09qU25PT2ZyVUVNRGNoRjNn?oc=5",
+      "published": "2026-11-21 11:32 UTC",
+      "sector": "Consumer Discretionary",
+      "tone": 3.0,
+      "note": "NIFTY gains reflect overall positive market mood, benefiting consumer discretionary."
+    },
+    {
+      "title": "Tata Motors to declare quarterly auto sales numbers, others may follow suit",
+      "source": "ET Auto",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPVHRYbmk1ZUJXSUxNVVIwc1F1bDBydkVDUmxnRTlpWE0tZzlmSEpER29BcjdhNzRTSXgwUjlscXdGc1FFZHlSMi04MVpiLUhyYTFfblhsTnhlVlAwVDFPY01sOFZ3TlRBMlVsblM5eWxCdHJ1OWVXUWVoV19DWVljTURxeXdPM1FmMDA0VWxVUGh4eUtmQ0dvaGpJQk1RWF93YUJvbjdFd1lIbUVJYkZIMEdEbUtPamFpZkx3RklOdDAyUS1aWUVPWnFIckRScUV5T2lv0gHOAUFVX3lxTE9vMEZDeG9zbEQxemVKQll1eUMwd1NJLU5NVkJXMFRzbkhfV3o5dmQ1ZFlJVDlqaFNSaWwtaXJtODJIeEtBQXo1MUEwZzFZMEV3RlBhN2pPbk9Mb1FmUDlid3pDeE1UT1hTOVZqOEdHWHRtUzFGNHRlOWZ3WTdVNkZhR1J1QW5JR3l0d2VweExKV2M3M2RDOWp5aXFDazlTdGtJbHg2Tk5UY2tTajBJSjJST0d1U2E0alpSakxUbm1CQmdXNTkxcjhhejVKNmJB?oc=5",
+      "published": "2026-11-21 10:05 UTC",
+      "sector": "Consumer Discretionary",
+      "tone": 4.0,
+      "note": "Tata Motors reporting sales may encourage earnings optimism across auto sub\u2011sector."
     },
     {
       "title": "Atul Auto sales up 7.34% to 4,297 units in November",
@@ -242,35 +269,17 @@
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNb0UtaXFHeV95UTZEal9hTk43T2tkdGNZcTFQMFpaZVotZWJpMTBtb3VKSy1ZQlJ0dWpqcGliRjgxZEJ6NWdfbHpjSkhHVVh4cHpvclNuTVBBTHU0RU1mdXpvX1RONUVlWEx1TUx3eDBMSVRraHFUYWdTTkdCdWFkMUEzaVRHa0lQTFJmQWtDZWxQbWpzZ1pVSmtiUDFwYVhUZnZqS3p5SFRIY2dBamVaR09R0gGsAUFVX3lxTE42TUtuVWVrak5tYmdVbU1LbDFwQ3I1R3A0a0VzemNncms4ZFBmTl9HVkFBbF9nTks4MlhHUm03bUtlUHV6WnJEZDN2bGNvdHVDYzloRGNtYTZRSFZCZDZGbDU4WkxWcDVaMEVDRG41RERlZDJjWURhRy1KN1FkOFNDTFRVN0VjZGdJMDQyaGZPdVo1NnZVT3JzellLenpPSUYtbi14M2YzamEtMEg?oc=5",
       "published": "2026-11-21 06:36 UTC",
       "sector": "Consumer Discretionary",
-      "tone": 3.0,
-      "note": "Atul Auto sales rise boosts auto segment of consumer discretionary."
+      "tone": 5.0,
+      "note": "Atul Auto sales rise indicates strong consumer demand for vehicles."
     },
     {
-      "title": "Uttar Pradesh Groundwater Alert: Nitrate, Fluoride And Uranium Exceed Safe Limits In Multiple Districts",
-      "source": "Free Press Journal",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPR1ZxTUVmNG1xY055bU9KNk0ySkdzb0VIdl8xN0NDUFFKd0FWUG5XT0lnU3hpREVIbmpHWFhONE5vaFphODFaWGtrb0h2cUVzdm10Q3F1OXByRjQ0S2FtV3lCaTVPZ0JmNjgzeC1VV0RvMkpEMldvZ0s1VWVKQXphelRxRzk2b180cnVmY3ZTVFdIaGl0NW5vN2FHdlE5Y3dkTlY0WTQyMzJqMEhHX01SMDNsdHh4TnJZX20tWDBUckFOa1ZpM1VYUGlLN190RS1XX0xfc1BURGhXZ21MRGRUYtIB5gFBVV95cUxPRXQ0YjUwZWRVNUJFS1FGOUhOaUhYZEtTSmc4YWwxUEtPbHlsUU5TQWRBLW5CUkVFWXhpazUtWmlkUUx2QnJtQnh5MVFDM1RWenBWNHl2RkZCcVNULUhuY2dOdHpkRk9EM0F1cTZuRTZzSXo4QVNXUVozMWpMbVprcmhLbTNWYkVGWFpYY3E0NE9qYzFsTTJMTDdmMVM2bHQ0dW9GVzdJaFp1LU1PMnRoMW10RFZmXzdTYU5ZSUFWQ2pKNmtSNjVNajNINXprclJSbkdJVk1RSnZqUktQSEh2WE0zNmpIUQ?oc=5",
-      "published": "2026-11-21 02:14 UTC",
-      "sector": "Consumer Discretionary",
-      "tone": 0.0,
-      "note": "Groundwater alert unrelated to consumer discretionary."
-    },
-    {
-      "title": "Sensex jumps 990 points to cross 83,000, Nifty reclaims 25,500 as auto stocks power rally",
-      "source": "DD India",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPanJCeTdPVDFXZTB3VEYtcUtpbVJtazVWWmZHTnVPelI1dXh1SlVZWTVOMVV2SUpXV2RiMEp1QllwRnhLT2VMSmFEY2l4aWRkY3J5LUNmQXd0Z2pKZGw5aGN1X1dDYTVhd2FOSmNlb3BMUF9WZVdqYjdpODVKSVFzc21pQTRJOHpoY2NUeDU1ZXo0WS0tZXJ5ZDJtZlAzdTdqR0RPVWFFRm1hR1plTWxFcm5DSFRacEZ4?oc=5",
-      "published": "2026-11-20 17:08 UTC",
-      "sector": "Consumer Discretionary",
-      "tone": 4.0,
-      "note": "Sensex rally driven by auto stocks lifts consumer discretionary sentiment."
-    },
-    {
-      "title": "Eicher Motors Rises 4.66% as Auto Stocks Lead Nifty 50",
-      "source": "Kalkine India",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSHF6SlMzTjBCSFNHS0FRU0NSZ0FIbWd2V1FVRVZfRWh4Y2FzaUdULTAzT1RHcWJWZUNtb1huYkpiZ01mb2Q5WnE2TmRMcHd2cWVUWE5ZQ0RkZTdwcXFvMXhBQmVVOGVSbDhSTXZaaXpnNVJaRnEybGxYYkxONGJkZlFQQUpBUm4tbWtTeWt5NUVyU253NUI0WlQyOUVfTFdFaGJuOElPWFVKZ29lOGhhOTlsMUZVRmxBSmc?oc=5",
-      "published": "2026-11-20 12:14 UTC",
-      "sector": "Consumer Discretionary",
-      "tone": 3.0,
-      "note": "Eicher Motors rise supports auto and broader consumer discretionary."
+      "title": "Sensex, Nifty open lower amid rising crude oil prices, West Asia tensions",
+      "source": "DD News",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRk5iWW81dnVxU0tJbW1SazVxMG5XdlVWeEprYm1EbTB4VjJVbHNMRUV1a1h0SlNObk9vakNBS29BRmlaT09LcUs1eGlpV2RCdVRNTW5UZ0U4aDhyRmJlZHFCbnpaTnBSbVp1VlhnX1hicXY5UkhXU2lydWN5Z2t1Yld4a3o4T3JWc0tYNGRjWVVURUlra3NLWTktTHVwUQ?oc=5",
+      "published": "2026-11-22 03:20 UTC",
+      "sector": "Consumer Staples",
+      "tone": -1.0,
+      "note": "Sensex lower, oil rise hurts consumer spending."
     },
     {
       "title": "Which Sectors Should Investors Avoid Now? Siddhartha Khemka Flags Key Market Risks",
@@ -278,8 +287,8 @@
       "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOWWw0TGdmY3doMkRhTzJ3Y3NuWkNONGgtMDMzM1JBaWhfUEozX296d2ZqYWFSM2pkRzFOWjlZNm9PZE5TS3FzTHlGc0VtVjdhRXR1VV9DemNZblo2WUg0aU1ldkFLQjVJV2tkcUQ5VDVBejJTSVJEUmg0RzcxdTljaHJLUlBjb3c5YTNGc2FNeUFQU0NJQ2Y1TG84X0FZQjQ2aGNjT0ZWX01fcGRIZVlwdlNLeFVBN2NDSWpDQ09udUpjdVpzM011QW5NQ282NmxWMktHRjl0MDNTWHZUNm1LUU55aE9MT2oxX01CN0h30gHuAUFVX3lxTE5ZbDRMZ2Zjd2gyRGFPMndjc25aQ040aC0wMzMzUkFpaF9QSjNfb3p3ZmphYVIzamRHMU5aOVk2b09kTlNLcXNMeUZzRW1WN2FFdHVVX0N6Y1luWjZZSDRpTWV2QUtCNUlXa2RxRDlUNUF6MlNJUkRSaDRHNzF1OWNocktSUGNvdzlhM0ZzYU15QVBTQ0lDZjVMbzhfQVlCNDZoY2NPRlZfTV9wZEhlWXB2U0t4VUE3Y0NJakNDT251SmN1WnMzTXVBbk1DbzY2bFYyS0dGOXQwM1NYdlQ2bUtRTnloT0xPajFfTUI3SHc?oc=5",
       "published": "2026-11-21 10:30 UTC",
       "sector": "Consumer Staples",
-      "tone": 0.0,
-      "note": "Highlights market risks, no direct consumer staples focus."
+      "tone": -2.0,
+      "note": "Market risks highlighted, caution for all sectors."
     },
     {
       "title": "Hindustan Unilever Share Price - Live NSE: HINDUNILVR Stock Price & Chart",
@@ -288,7 +297,7 @@
       "published": "2026-11-20 19:27 UTC",
       "sector": "Consumer Staples",
       "tone": 3.0,
-      "note": "Hindustan Unilever stock movement signals positive sentiment."
+      "note": "Hindustan Unilever shares rising, signals FMCG strength."
     },
     {
       "title": "Sensex jumps over 500 points as bank, FMCG stocks shine",
@@ -297,7 +306,7 @@
       "published": "2026-11-20 14:02 UTC",
       "sector": "Consumer Staples",
       "tone": 4.0,
-      "note": "Sensex jump driven by FMCG strength boosts sector outlook."
+      "note": "FMCG stocks shine, boosting sector sentiment."
     },
     {
       "title": "Stock Market Highlights: Sensex Jumps 900 Points, Nifty 50 Ends At 25,800, Banks, IT Stock Lead",
@@ -306,7 +315,7 @@
       "published": "2026-11-20 10:17 UTC",
       "sector": "Consumer Staples",
       "tone": 0.0,
-      "note": "Focus on banks and IT, no consumer staples mention."
+      "note": "Banks and IT lead, no direct FMCG impact."
     },
     {
       "title": "Nifty FMCG Today: Down 0.06% on 20 November",
@@ -315,7 +324,7 @@
       "published": "2026-11-20 08:00 UTC",
       "sector": "Consumer Staples",
       "tone": -1.0,
-      "note": "Minor FMCG decline suggests slight bearish pressure."
+      "note": "FMCG down 0.06%, slight weakness."
     },
     {
       "title": "Bandhan Mutual Fund launches Nifty Commodities Index Fund",
@@ -323,17 +332,17 @@
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRVJlMkRnMHVVQWRPb19kOGJZRWN3blJYaGpBRHByQVdoTGxSUF9DVGdLWU1GRzg2YlM4cFhvMkxTTnJ1Qmx3ako5M3ptRlIwZW02eVBDa25tSHF6WXRpSTF1YlZTdmhHdEJ6YzVaaHd6Tml1aUNwakhuazRFNXMzekZ4eVdrMW9JcmVUTHo2akRZbTFIb3B4bERfWQ?oc=5",
       "published": "2026-11-21 17:47 UTC",
       "sector": "Healthcare",
-      "tone": 0.0,
-      "note": "Launch of a commodities fund is unrelated to healthcare."
+      "tone": 2.0,
+      "note": "Healthcare stocks surged over 5%, indicating positive sentiment."
     },
     {
       "title": "META_TITLE_SECTORS",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4tNkpoQkVWYXlUc0NpTE1DZW5PVDVHc0M2SjNVYVdwLTBVSk1nYzhQSlVpZzF2MmVKV3dTdjFNc0RiMTBpY1VZRm9Ic3dJYllwcG85X2pQSVIwUWpTUE5YcmkyeTNFMDR4YkVrbUxoRXdZcXRvTTdrTHZSS1Q?oc=5",
-      "published": "2026-11-21 03:12 UTC",
+      "published": "2026-11-21 06:27 UTC",
       "sector": "Healthcare",
       "tone": 0.0,
-      "note": "Sector list headline does not indicate healthcare sentiment."
+      "note": "Sector title headline irrelevant to sentiment."
     },
     {
       "title": "Textile, fuel, pharma stocks dominate trading",
@@ -342,7 +351,7 @@
       "published": "2026-11-20 18:00 UTC",
       "sector": "Healthcare",
       "tone": 0.0,
-      "note": "Dominance of textile, fuel, pharma stocks is neutral for healthcare."
+      "note": "Textile, fuel, pharma dominance not specific to healthcare."
     },
     {
       "title": "Nifty Pharma Prediction for Monday: Key Levels for 23 Nov 2026",
@@ -351,7 +360,7 @@
       "published": "2026-11-20 13:27 UTC",
       "sector": "Healthcare",
       "tone": 0.0,
-      "note": "Prediction for pharma is neutral, no clear bias."
+      "note": "Prediction headline lacks sentiment."
     },
     {
       "title": "Max Healthcare, Apollo Hospitals, other healthcare stocks surge over 5% despite volatile market; what's behind the surge?",
@@ -359,8 +368,8 @@
       "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNNUdxaHJWTWdKcmxPUmExcjYwN1lQa0JCLXpXYVA1b0h1R2cyU2pLZVJYbUxlOVRwOU1YYVR2SlcwRTF5REJyTy1iUlFGWjdGSTEtaGlncS1hYnh3TjF4SnVFS3hFSnNNVkpWYXp2SWZKOHVoYi0wczQzbDhfYXk3XzdscHE2VFZ4RXd0SjROODgwQ2NOU0pvTEgzSFhUd1BNYnhYSkVfTU81UlBRaUpSNlVWbW1zT3VaU0JSRU5aUm45RUs4RWU1al9Gb2pqS2VwYnFReXIzNW1Ub1ZjaXlYMWVPckdfQTctTVFveTdZQmZ1eXR6Wlp3cHZhbzdweHd4YlRSX2dJNm5zMXRBQUk0VV9QWjBpWGQ5Qi15VnYyNGpLdw?oc=5",
       "published": "2026-11-20 12:16 UTC",
       "sector": "Healthcare",
-      "tone": 5.0,
-      "note": "Healthcare stocks surged over 5%, indicating strong bullish sentiment."
+      "tone": 3.0,
+      "note": "Surge in major healthcare names shows strong bullish outlook."
     },
     {
       "title": "NFOs open on November 20",
@@ -369,7 +378,7 @@
       "published": "2026-11-20 09:02 UTC",
       "sector": "Healthcare",
       "tone": 0.0,
-      "note": "NFO opening is neutral for healthcare."
+      "note": "NFO opening unrelated to healthcare sentiment."
     }
   ]
 }

@@ -1,24 +1,15 @@
 {
-  "updated_at": "2026-11-22 04:03 UTC",
+  "updated_at": "2026-11-22 07:09 UTC",
   "market": "UK",
   "items": [
-    {
-      "title": "FTSE 100 tumbles as global tech rout takes hold",
-      "source": "London Evening Standard",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcUdpV1FYRXRITlNNMlQwbHlPd2t4eEtRSlBPamZMRUJFdTlhMnZ0Zm56emxlQVZCQkZlSFFKWFJSaHlib29odFJXQW9ZY0s2bndfSDRBam14NkxzelZRSnBiQ3hoTFhZN2gyRXI0NENrN040YUw4SDVJTGxWdlBMMjhfdXVRdVF4NzB3ZjhNanduT0R2cVhUV3Z1RWR1N1huLUxaalVKeXRhRzZnNmxfVQ?oc=5",
-      "published": "2026-11-21 17:32 UTC",
-      "sector": "Market",
-      "tone": -3.0,
-      "note": "FTSE 100 tumble signals broad market weakness."
-    },
     {
       "title": "Pensana (LSE:PRE) Targets New Milestones at Longonjo as Its Plans Progress Below the FTSE 100",
       "source": "Kalkine Media",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPeVRuUWJtWnh1Qkt6RnFkM1pTS1RITDBpX3dwOHdEcFRLS3FBQ0h1c0E1OGlZcGxiVERlSmdZck45bS1BOGVTWnJBTjlJalJEMFhYSXFGRTd1djlvX2RubVZJVkxZX2pkcURBeWdaTmxrOTI5M2lMOUVvT0QyeE15U3pQdFlmZW85Uko5Q0hvZUV2REVyNjI5M2w4N09GUzJ6UXhUamxTcU9mSVFnN3dkSVZIdGxiOGU3UTZoRVdDcHNBVGcxS2s4NGlkaw?oc=5",
       "published": "2026-11-21 13:58 UTC",
       "sector": "Market",
-      "tone": 0.0,
-      "note": "Pensana\u2019s milestone focus is company\u2011specific."
+      "tone": 2.0,
+      "note": "Positive progress in a non\u2011FTSE 100 company boosts optimism."
     },
     {
       "title": "Genel Energy (LSE:GENL) Advances Its Proposal for Capricorn for Shareholders Below the FTSE 100",
@@ -26,8 +17,8 @@
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdVhUbHhhbUMxUVJZYWhKTjhjN1k3allzMFdiZnN2ajR1M1ZiWk8zQ3EwM05RM2pDVWRLakhwOTFkOW9lTDFVNVV5ZFhGWlRRUlRhYVZXMlJJNlpzeEVjTDFfa2EtSGFwN1d4WmNHS2JlOE9Pc01wS09MbmN4Y2pkb0hMZEx4R1RVbmhFYU1Td3J3X3Y2eG5fRmlNTWxCSzNOLU91MXUzMHZzcm5lV2tyQUFuRXJwdDRsLWZONFd1a0JuU09ub1lsYnhMQmJqLUpS?oc=5",
       "published": "2026-11-21 13:58 UTC",
       "sector": "Market",
-      "tone": 0.0,
-      "note": "Genel Energy\u2019s proposal is company\u2011specific."
+      "tone": 2.0,
+      "note": "Shareholder proposal signals potential upside for a smaller energy firm."
     },
     {
       "title": "Serica Energy (LSE:SQZ) Signs a Beacon Pacific Rig Contract With Its Latest Announcement Below the FTSE 100",
@@ -35,8 +26,8 @@
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOMnBvN0FvWklsTHMwYUVyU1BEcmYwM3A2VnRNS1ZZbDFvNWt2bFppWUpBbjhSbm52d0F2aE91UTM1UUR4Z2IwWThkanhobXZRQjJVUVdoM2ZLUGhpWWowYlpMRldPYWh2UWtId1hYeUNJREVWUFBjZjFVQThJUXg4Q0NvbWhQR1VFRk5kRUxha3pQUUY2N2V6dHpFTTVYOWp0RnZwSTk3dXpXd2J6cENWTjZmMW9Vc3JKa0dmVWR4cnZZWk9UVmx1eGpESTAzU3FvV21iLVU0RVB3QWhKRXlhLQ?oc=5",
       "published": "2026-11-21 13:58 UTC",
       "sector": "Market",
-      "tone": 0.0,
-      "note": "Serica Energy contract is company\u2011specific."
+      "tone": 2.0,
+      "note": "New rig contract indicates growth prospects for a niche energy player."
     },
     {
       "title": "Marshalls (LSE:MSLH) Keeps Its Profit Guidance for Shareholders This Year Below FTSE 100",
@@ -45,7 +36,7 @@
       "published": "2026-11-21 13:57 UTC",
       "sector": "Market",
       "tone": 0.0,
-      "note": "Marshalls guidance is company\u2011specific."
+      "note": "Profit guidance for a non\u2011FTSE 100 firm is neutral for the market."
     },
     {
       "title": "FTSE 100 Landsec (LSE:LAND) Builds Rental Momentum for Shareholders Across Its Business",
@@ -53,8 +44,17 @@
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNN3lGMW9xRnR1X3RzbWhNU2Q5MkZJelg5elFqTkV2Rk5nX3I1NXZDcElFektacEgzQm9QVnhuc2lZWFNzWVExZndweXFLYzJ3QURweFI0ck9LTXMtNWxwTzhqNDB4U29SbzZJY2JBSFNER0llVEpZTFR5RDN1Y2x6QmdsSS1VQmFyZVNpQ1dOeW9kZ3YwdkFodHdkT1JkdjA1UGllM21henlScUsxNGIwLW1pbmdJNk92RVY4cjR0SU9oZXJTYXZyX2JrNDNGbm5JQWtzT0FIaFZrUlEyVzY0ejdLQks?oc=5",
       "published": "2026-11-21 13:56 UTC",
       "sector": "Market",
+      "tone": 3.0,
+      "note": "Landsec\u2019s rental momentum supports broader real\u2011estate confidence."
+    },
+    {
+      "title": "FTSE 100 Smiths Group (LSE:SMIN) Reports Its First Quarter for Shareholders in Its Latest Update",
+      "source": "Kalkine Media",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQW9UcERNTFBubW9OZ0FEeHROTnZKaXRxOTBRSGtYNV9EMzZYVnR5UHFZWkdxT2RzRVI4ZC1aWHJxU0N2MHJfTkZIRDlZeEt1clFNbGtJZ0ZCdmpxM2VfQUtSQmIxNzlhN1ZoZi1nNllJbmNzVTA3cXQyQlZ2czUxd1FOVHNGcWRxQ2ZEU2xaR1FZOWExbFVhZkZianE0WVpxOGJhT2Z2RVpySXdRMGhWQ1V0amRTQW5yOVk3alpJbGZRQURjdldIZEtaSjRuUUI4WHBFZjV3?oc=5",
+      "published": "2026-11-21 13:56 UTC",
+      "sector": "Market",
       "tone": 2.0,
-      "note": "Landsec rental momentum hints at sector resilience."
+      "note": "Smiths Group\u2019s Q1 results suggest steady performance in industrials."
     },
     {
       "title": "Vodafone upgrades 2027 outlook with 21% free ca...",
@@ -63,7 +63,7 @@
       "published": "2026-11-21 23:27 UTC",
       "sector": "Technology",
       "tone": 3.0,
-      "note": "Vodafone raises 2027 outlook, signals growth."
+      "note": "Vodafone lifts 2027 outlook, signaling stronger future cash flow."
     },
     {
       "title": "Here are the analyst forecasts for the BT share price for 2027!",
@@ -71,8 +71,8 @@
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbHVnTERoVFZCTFVKYjRYR0I2UVBjWmhzaTJGc3pWS3ZjS3dSQVI5U0RtUDdJNEpxQjJRdlMwbkNJeVdjaDdpbDFWYWNYUVpoZnFCNnNrNjJuV1VLNVgyVUNBZGtYZkxVN3hXTllmaXdxUXlSbFdZX1Q2RjE4dmkyRXYzeG9RcXBj?oc=5",
       "published": "2026-11-20 13:54 UTC",
       "sector": "Technology",
-      "tone": 0.0,
-      "note": "BT forecast unrelated to UK tech sentiment."
+      "tone": 1.0,
+      "note": "BT forecast suggests modest growth, indicating stable tech outlook."
     },
     {
       "title": "Vodafone shares have fallen 17% in 2 months. Is this a golden buying opportunity?",
@@ -80,8 +80,8 @@
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbkRKVl9hLURLWGJoVGlTaVB5UnN2LXVCQzhwZjRYNldyOHJVZTZqMGh0ZDNrOTY4cWE0cmgxdzNoWUxfcXg2YnN1bHdpVHNNZzlHWDk2RHZwekpLa1hBS3FRSHVtVVZBM3V0NndnczJmcGZMYXdqT3JfbTl6OXhCbWdR?oc=5",
       "published": "2026-11-20 10:15 UTC",
       "sector": "Technology",
-      "tone": -2.0,
-      "note": "Vodafone shares drop 17%, signals weakness."
+      "tone": -4.0,
+      "note": "Vodafone shares dropped 17%, reflecting investor concern."
     },
     {
       "title": "Vodafone shares technical analysis: Consolidation near GBX113.6 resistance as seller pressure remains",
@@ -89,17 +89,35 @@
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPS0czaFNUcFVzQk9rUnc1QVducXBmNWhrblB5TEQ2NjZXRzlYdDV2QWlhRFp6TVB0NzBDcGI1WllwdThpZmJ0Tm5tbEJPSlI5eE1CQlByRzdPRHZmbFFJT2szS25tTS1GMlBBaDNkekNvaURlMTJ1Vmt6OXVIWjFaaVFkZWhQdHhYVlhQdXpGSWo?oc=5",
       "published": "2026-11-20 08:58 UTC",
       "sector": "Technology",
-      "tone": -1.0,
-      "note": "Consolidation near resistance shows selling pressure."
+      "tone": -2.0,
+      "note": "Technical consolidation near resistance shows selling pressure."
     },
     {
       "title": "Lloyds Banking Group plc (LLOY.L) stock price, news, quote and history",
       "source": "Yahoo Finance UK",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4tb190RFNNOU5Ha2dhN0ZoV1NmemQtM0FDNjJHZS1XaVhrNXdiWUcyTmJrNTlJXzJmaUF5RkhUWTVwM29qcThHVmxpR0JOcjducERkTQ?oc=5",
-      "published": "2026-11-21 17:12 UTC",
+      "published": "2026-11-21 22:12 UTC",
+      "sector": "Financials",
+      "tone": 2.0,
+      "note": "Lloyds stock activity suggests moderate optimism."
+    },
+    {
+      "title": "NatWest Group plc (NWG) stock price, news, quote and history",
+      "source": "Yahoo Finance UK",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5kUUswWjZXYmQ3aWFINDVRaDYxcVpzbmZsRTIyWmNTdDRrNGs5b1hHdXFmbGZtMm9ueGdySE42UnJfc3dPUHRvakNRNktYdDF3QUc4Y1RXSkZWVi1adUVJMg?oc=5",
+      "published": "2026-11-21 19:48 UTC",
+      "sector": "Financials",
+      "tone": 2.0,
+      "note": "NatWest news indicates slight positive momentum."
+    },
+    {
+      "title": "Most active stocks: US stocks with the highest trading volume today",
+      "source": "Yahoo Finance UK",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5Sak1UQTEwX2NmaW9nV1ItaV9PdUhQeF9FMGtyQUFrRkRuUWZkR0EycHp1Wk9NZ2ZCOV8zaUg2U0JleEZ3LU9WVFAtcjdxaENaeWJyWDNRV2hkbHZJR1h6cDB3M1B3NWc?oc=5",
+      "published": "2026-11-21 06:30 UTC",
       "sector": "Financials",
       "tone": 0.0,
-      "note": "Lloyds stock price update, neutral."
+      "note": "US trading volume unrelated to UK financials."
     },
     {
       "title": "HSBC Holdings PLC (HSBC) Shares Fall 4.0% -- What GF Score of 70 Tells Investors",
@@ -107,8 +125,8 @@
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbUNhZjIzbW5VaEJuZHBSem1udHN1N3J1d3d3ODYtZFJRUVhfZERsNUUweTJmcnNIdFpvUi16ZDhYcVFjeVBZRXpPV3h3amlvVWZVNVFwdmZnemR6YVBJNHZnX3U5eFBkSzdWZ2h0TWRBVm1BbEY3SXNnUzBvTTJJT0NiOEIzMllGcy03X2lQWldGUE43NHZtZEhGRnIxOVpvMGNBV3pINk9RMEpVbU85Ql9B?oc=5",
       "published": "2026-11-20 22:39 UTC",
       "sector": "Financials",
-      "tone": -2.0,
-      "note": "HSBC shares fell 4%, slight bearish."
+      "tone": -3.0,
+      "note": "HSBC decline signals sector weakness."
     },
     {
       "title": "Lloyds Banking Group plc (LLOY.L) interactive stock chart",
@@ -116,8 +134,8 @@
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1tcXdxWFZ1T1JEVVJKZnBQc2dqdFVHbTUxSi1iazFiZFR3YjRidU1YcmZlMncxWkJWdWNEUS0zQTQzMW8tLUZHS1FZMzVKRGV2Q2VUVTczODBLZ2hy?oc=5",
       "published": "2026-11-20 16:58 UTC",
       "sector": "Financials",
-      "tone": 0.0,
-      "note": "Lloyds interactive chart, neutral."
+      "tone": 1.0,
+      "note": "Interactive chart shows stable price trend."
     },
     {
       "title": "3 FTSE 100 income stocks I\u2019ll be avoiding like the plague in 2027",
@@ -129,13 +147,40 @@
       "note": "No direct reference to Energy sector."
     },
     {
+      "title": "European Stocks down - 20-11-26",
+      "source": "Armenpress",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBtUFBWakRTMXRZWmwtQjVlTllBMGVaekREM2U4OWNycjk4Nzl2dlFzUzBJbVdQeFFqbXhSWVU2c09IWEFWUUptNkVvRHZ0VGxVcUHSAVdBVV95cUxNc082S0UtaUR6cUtNWmk0ZVk3c2VadTBDUkxEcEFQTmppX3VaVW4tWW4xUUlYM2FocXowS1c2M2NxdEJSWG1UOU5vQTc2ZWZGeUJ4Ui1HQmM?oc=5",
+      "published": "2026-11-21 07:09 UTC",
+      "sector": "Energy",
+      "tone": 0.0,
+      "note": "No direct reference to Energy sector."
+    },
+    {
+      "title": "UK stocks sink as global selloff weighs on banks and miners",
+      "source": "The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWkF3LXJaSXJPekU4dGladFlSS0hBYUxkZVJjNHpydjhqdW4xSTN0ZjB2NnNYaGk5RE4zYVFIdldmakJyRWtsdmtXM3drejZsdzJlcDlJTXMwNlRCQlhEX1R3UV9WT0lLRFJ5X25KQ2lUYXpqRVh2QXNacDdOVl9WdU14Z2g3OWxiZXpSeWd2RXYwdGl3eGlodkY3TDU3U1RmM2ZrdTZHSVM5RHNEaTZXRGpjRFJ2dVlYNTgxUUdnU0xoZ0RTSF9wMV9CWTJjYVU0MnfSAdcBQVVfeXFMTXVxdTFTTlkwMWNzMDMxR001b1RoTDhLNkFyc3d1NXU0bkNVRnMybjJvVV9EcFlYb1lQUEVyX0k0aDduZmFTdzRxN2l3M080Ymd1V0ZIYWV3U01pME51TDU2Z0Q3QTJpZ0F5R0pCaGZXamphNlk1VjY0VGdORDFnb09teDdaZU5CSC1EM1VRQldXY3NhY3ZKSmNSQ1kzYlA2dzlncmJLdFZMdDRhV0hKVTFKaFlLOEd6bUdpelNkNW9fUUJMbl9kamxyOGRGanVpSmJXelQtZkE?oc=5",
+      "published": "2026-11-21 05:12 UTC",
+      "sector": "Energy",
+      "tone": 0.0,
+      "note": "Banks and miners mentioned, not Energy."
+    },
+    {
       "title": "FTSE 250 movers: Tech, related stocks battered in global selloff",
       "source": "Sharecast.com",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUl9TNk5GX0RlV21mRXFTbXVESmppMlpnR0xEVDk5b0VSMGtjN0xDMTFOeG1obGp2ckUyaks5QzljZmdaYWp3VGt1QlRXb25tdjFFZnJQcVd3MXZUcHFlY01JaWRLcURnaGI4TmgzalNTaHJScjNlMEZ2X19HNy1OMnR6WE5vOUJJVE5GdmMxWURyWC1PMmo5d3lWc3FBNVV5dDRvZnhaNFVJYTNFelBKWHBLMjhyaFpXUFd1bWUtU3R5dXNVZEtPLUozYw?oc=5",
       "published": "2026-11-20 17:31 UTC",
       "sector": "Energy",
       "tone": 0.0,
-      "note": "No direct reference to Energy sector."
+      "note": "Tech focus, no Energy mention."
+    },
+    {
+      "title": "FTSE 100 Futures Slip as US Rate Expectations Rise",
+      "source": "JournalArta",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMTRHVzlBVElHLW5fazZ0VWx0S1ZGT05tM3I3ODBoRVdQazF3al9UemE5Vm4zZHVUdjBDMUZnZzZfMFE2MnN6SnVZY3BKblBUSDB4OVNkM0xxY09hSThNdG5iVTY5UHpVekpvVGo2UDM0SkNjYlN5SFpJUXh6a3E4NnJ0U2xIZkla?oc=5",
+      "published": "2026-11-20 09:37 UTC",
+      "sector": "Energy",
+      "tone": 0.0,
+      "note": "Rate expectations, no Energy mention."
     },
     {
       "title": "FTSE 100 Falls as Technology and Mining Shares Decline Despite Stronger UK Retail Sales",
@@ -144,25 +189,7 @@
       "published": "2026-11-20 09:06 UTC",
       "sector": "Energy",
       "tone": 0.0,
-      "note": "No direct reference to Energy sector."
-    },
-    {
-      "title": "Market Movers blog: Anthropic sinks 10% at open to drag Wall St down after record IPO",
-      "source": "Investment Week",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mZHNUUnlOeExDV2hSRjhxWEs0blpwaGhqUzIzQ054d1JaTnNIcGZWbkhtTDVwZFdwUXM5ekRkX2Z5UFJEWW5uMGtRSzVnd2NwZDFRUWZnYm9JWHFlTUptZzJGSHdKOS1oTEJxOUk0bFRWdw?oc=5",
-      "published": "2026-11-20 08:00 UTC",
-      "sector": "Energy",
-      "tone": 0.0,
-      "note": "No direct reference to Energy sector."
-    },
-    {
-      "title": "European Stocks down - 19/11/26",
-      "source": "Armenpress",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1qbHZ6c3lIY05Wei01QmJZVjhTWUdsUWVJS01fM3ctWXJBbFBPUl9xTFQyMFduQXRoNnJHdVNFakMtbktydEdBSktjZWE1SGpOT2fSAVdBVV95cUxNZTFWa08zTUxuNDhTRmFUbnBlQXZKVHpzNTVWOWwzN25fbUVsdFV5REJnVFFIS2ZwVEtmZHU3X0JqaDhkR29qOXVjQWN4UmMxVHRUSGd1Rmc?oc=5",
-      "published": "2026-11-20 04:54 UTC",
-      "sector": "Energy",
-      "tone": 0.0,
-      "note": "No direct reference to Energy sector."
+      "note": "Tech and mining focus, no Energy mention."
     },
     {
       "title": "Court Bans Green Label Could Be A Game Changer For Unilever (LSE:ULVR)",
@@ -180,7 +207,7 @@
       "published": "2026-11-21 08:15 UTC",
       "sector": "Consumer Staples",
       "tone": 0.0,
-      "note": "Interactive chart irrelevant to sentiment."
+      "note": "Tesco chart data is neutral."
     },
     {
       "title": "What Does Diageo (LSE:DGE) Risk From India's Scotch Tariff Shock?",
@@ -189,7 +216,7 @@
       "published": "2026-11-21 07:09 UTC",
       "sector": "Consumer Staples",
       "tone": -2.0,
-      "note": "Diageo faces tariff risk, hurting profits."
+      "note": "Diageo faces tariff risk in India."
     },
     {
       "title": "Tesco PLC (TSCO.L) stock price, news, quote and history",
@@ -198,7 +225,7 @@
       "published": "2026-11-21 02:00 UTC",
       "sector": "Consumer Staples",
       "tone": 0.0,
-      "note": "Stock price data not sentiment."
+      "note": "Tesco price info is neutral."
     },
     {
       "title": "Hindustan Unilever Share Price - Live NSE: HINDUNILVR Stock Price & Chart",
@@ -207,7 +234,7 @@
       "published": "2026-11-20 19:27 UTC",
       "sector": "Consumer Staples",
       "tone": 0.0,
-      "note": "Hindustan Unilever price irrelevant to UK sector."
+      "note": "Hindustan Unilever data irrelevant to UK sector."
     },
     {
       "title": "Diageo shares technical analysis: Price steady beneath GBX1,890 resistance with neutral oscillators",
@@ -215,8 +242,44 @@
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVTU1MzdlaEFqQm5ENjdrNXoya1RjSEhTOXVwanZaOFJTSHYxaGRPbmxaWmp0WWhXem1nczdONkFMRnhOWkw5WnFNN0tEcGFBdDBXM1VKTnB2cmZjWHZLS2UwYU5yT25aWlJ0dDc4LWdhS2VCc1ZLQnRQS2FBcHJvTWx3SjRnWlJmanVjN1podlA?oc=5",
       "published": "2026-11-20 08:53 UTC",
       "sector": "Consumer Staples",
-      "tone": -1.0,
-      "note": "Diageo technical analysis shows flat performance."
+      "tone": 0.0,
+      "note": "Diageo technical analysis is neutral."
+    },
+    {
+      "title": "Sunrise Energy Metals (ASX:SRL): Is Its Share Price Above Fair Value?",
+      "source": "Kalkine Media",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWi1lOHdTY1VvNlY3d3VyN04yNXlhSXZRdE9xNWlBaGV2ZkpEU0VuNGpYRkNmSktQYjJzdXBYWllyNVF5aXY1allubWJ5emlpZllVZkZWR2ZGUWRhQ2JnNkwyLTN6cU1oVG9mZkNteGRPaFZ3NXNUcmFELVQxUHA4T3cteENYUV9seUp6bkg1S05tMkdqU1QxQ2I0WU1UaDJsYnJOXzVHZUlZSF81RVo5emM3M0V0d28?oc=5",
+      "published": "2026-11-22 03:47 UTC",
+      "sector": "Materials",
+      "tone": 0.0,
+      "note": "Questioning fair value, no clear bias."
+    },
+    {
+      "title": "ASX 200 Mining Shares Face Heavy Pressure: What Happened?",
+      "source": "Kalkine Media",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUnp5eGRXRU9zTEItS0tfVS10TlA2d3pfdWpxYTFhUGx5WHVhcC13bktZU3JBVE1VNnJDNDNZUVlXVk51TVM4UmR2UFhJdXNZbzNRTl9FakxqcXZldWxhZG5xMDNJZ2tyckVSWVhHNFdQOXJJUDJmNzMyVTZNd2dFVFlNZ2gtTjdZdlNRcUpVVGNqSnpjM2VJTkVXSHhYd2M4OUFFaFczSTV4azg?oc=5",
+      "published": "2026-11-22 03:45 UTC",
+      "sector": "Materials",
+      "tone": -3.0,
+      "note": "Mining shares under heavy pressure, negative outlook."
+    },
+    {
+      "title": "ASX to come under pressure as Wall Street tech rout deepens",
+      "source": "AFR",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObnBUa2ZUVU9EOU5PSDMwZ1Jwd3ZFVWNKdW9XNjZ6S01YX0JyWjdEYzN4Skk4UFE2LWFHYWpua2gyX0R4UkxNbjVFbk9pY05pclh1aktZUG1kZFpkX3hTZUFKbW1DOXZ6MnJpY1F2T3hhM0ZsSG12MEdoejFpQW9abmVsbkFWbDBrYjJ5ODhvVVhscy1URlhWQmhTSzF5U0JLLVhNN3lEUVI5TERPcGlsckZHM2NHc0dNekE?oc=5",
+      "published": "2026-11-22 03:13 UTC",
+      "sector": "Materials",
+      "tone": -2.0,
+      "note": "Tech rout pressures ASX, affecting mining stocks."
+    },
+    {
+      "title": "Is USA Rare Earth Stock a Buy Now?",
+      "source": "The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQlZrSHBFZmlSOV9mRVkzanpWMU9aTl82NWlTU215RGMwWndaVDNqTXc3LUo2WjJISGxjTW1Hb2lkQWktYkVhcWJSc2JzNFIyS2ZTSXN4TmIxM3JXREZVMF9OLXhRNUItSWo0NjZ0bGNZX1FGaHhrbE1PZmg4N0M0ZjUzWk1NUDVTVm0xY1o0WHhPeXV4YW9iSXFqd1BUd3ZVTFk5RlpuTXFRSVBVbnpnQlVxYldodkNqamc?oc=5",
+      "published": "2026-11-21 21:16 UTC",
+      "sector": "Materials",
+      "tone": 2.0,
+      "note": "Rare earth stock considered a potential buy."
     },
     {
       "title": "What Is Behind Sun Peak Metals (TSXV:PEAK) Latest Safra Move?",
@@ -224,53 +287,17 @@
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaEVIWDNnZE16dF83Qmp5MUx0Nk1XelBGY2RMRk5VeDNnbEotY3I0UkJPbW5oODRYd21ZM0F0d2tielFTSEdkbnB5Rm96ZHNjakhNVUxtQm9hM19sbnlIMGU2eFE0aDJHZVg2cG5uQWZYcmFKeDBhVVlBbmhBUnM1V0xjeGtla2ZzeWNoOFdPb2dmNEs1Qkp3dk1LcC0wTVRPMDRMY0UwalYxMjVSV1E?oc=5",
       "published": "2026-11-21 15:40 UTC",
       "sector": "Materials",
-      "tone": 2.0,
-      "note": "Positive move in Sun Peak Metals indicates potential upside for UK materials."
-    },
-    {
-      "title": "What Is Driving Interest In SAGA Metals (TSXV:SAGA) Radar?",
-      "source": "Kalkine Media",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWXpqWUIzX2NSNmJBd2JqN1RKV0N5WFBUQnhlcFJpSDhxVmFIb215SHp4Tm5qZ3dPSXhpYk5KS3R6NDB5cEtDNWVDaEoySXM2MHR2MFRtZldNb2Y1bU9JWGlaTzYtZm5NV3VjM2lQZHJJMmV2M3p1dnBDek9leGFtYXR5ck04ZDFweHdROXhybE1jcGw2TEE2NWk1S0pWOEUxU1RWbmNKSFhIQQ?oc=5",
-      "published": "2026-11-21 11:10 UTC",
-      "sector": "Materials",
-      "tone": 1.0,
-      "note": "Interest in SAGA Metals suggests growing confidence in mining prospects."
-    },
-    {
-      "title": "UK stocks sink as global selloff weighs on banks and miners",
-      "source": "The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWkF3LXJaSXJPekU4dGladFlSS0hBYUxkZVJjNHpydjhqdW4xSTN0ZjB2NnNYaGk5RE4zYVFIdldmakJyRWtsdmtXM3drejZsdzJlcDlJTXMwNlRCQlhEX1R3UV9WT0lLRFJ5X25KQ2lUYXpqRVh2QXNacDdOVl9WdU14Z2g3OWxiZXpSeWd2RXYwdGl3eGlodkY3TDU3U1RmM2ZrdTZHSVM5RHNEaTZXRGpjRFJ2dVlYNTgxUUdnU0xoZ0RTSF9wMV9CWTJjYVU0MnfSAdcBQVVfeXFMTXVxdTFTTlkwMWNzMDMxR001b1RoTDhLNkFyc3d1NXU0bkNVRnMybjJvVV9EcFlYb1lQUEVyX0k0aDduZmFTdzRxN2l3M080Ymd1V0ZIYWV3U01pME51TDU2Z0Q3QTJpZ0F5R0pCaGZXamphNlk1VjY0VGdORDFnb09teDdaZU5CSC1EM1VRQldXY3NhY3ZKSmNSQ1kzYlA2dzlncmJLdFZMdDRhV0hKVTFKaFlLOEd6bUdpelNkNW9fUUJMbl9kamxyOGRGanVpSmJXelQtZkE?oc=5",
-      "published": "2026-11-21 05:12 UTC",
-      "sector": "Materials",
-      "tone": -3.0,
-      "note": "UK stocks decline due to global selloff hurts miners and banks."
-    },
-    {
-      "title": "Glencore Plc (GLEN.L) stock price, news, quote and history",
-      "source": "Yahoo Finance UK",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9OclF0QU45X3ZobGNobzJETnVuTHFaV2lYb1plbWJKTmtfUjA1WVFUam9ucnlLMl85NThwVFdJM29YOTJTTWRQUE9COF9ZQjdXUWd0Nw?oc=5",
-      "published": "2026-11-21 01:58 UTC",
-      "sector": "Materials",
       "tone": 0.0,
-      "note": "Glencore news not directly tied to UK materials sentiment."
+      "note": "Move analysis, neutral stance."
     },
     {
-      "title": "Is Koryx Copper (TSXV:KRY) Reshaping Haib's Mining And Processing Plan?",
-      "source": "Kalkine Media",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORGw2bzBDN1NnVmtmWlZrTGJlUThZaGlkdmhvQ0NUNVRrRWJORVcxOE9kTXVaak5ieXM1NjlQXzZaWUZHaXRvRjVKa0k4aW1wYkNLa2Fwa0VjOXhaTnRUWDVBTmhWYms5YWpzT3VIMzZpdnRWREZDZ0wtS3NXaDhGZHJwVzU2QXY1MGtxdHVKU0RudTI4Q09JY0E2TzQzcEJvUXlXTnZPdHNCa2FhVlhCZlpOQl9vbWhIMUE?oc=5",
-      "published": "2026-11-20 22:33 UTC",
+      "title": "Indonesia seeks 70% mining benefits. What does CreditSights say?",
+      "source": "IDNFinancials",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdjU1ZHk1bzF2anV2YXhuNmk0all2TVBraU5iNmU5R0xNcDJoUFFuNExYWHlPRnpyT1h5dXdsS3Z4ZDAzSWV3OThsdGVWWWZBdDREX2txczF6X2ljWkwyNVdSTTZYRXRaRGxEV0JiS0doRl9pTElpeFpHajdONUx2cHlBblF4Z3FBS0pjQmluZHhiTXB5SVN6dXJxM2p5U1ZFQ01Mdw?oc=5",
+      "published": "2026-11-21 12:00 UTC",
       "sector": "Materials",
-      "tone": 0.0,
-      "note": "Koryx Copper story unrelated to UK sector."
-    },
-    {
-      "title": "What Is Next For First Quantum (TSX:FM) At Cobre Panama?",
-      "source": "Kalkine Media",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdm14Nlc1UlBiT0ZXc1JyMkNGRGxweWs0VnhvQnBNekJiSnNiWml5TU1MTmQ5UG9wR0JLcTQ2UHFreWFsY2R1N0tTS0xYanRKN0VNQUlRRzloUUdfVmg2Vy1QUkdQaUNzYVNtSTFnS0NmRzdPbElLandWMi1ydW5Hcm9fWmxiQXJ2Z1RwZlZDUGZrZkNfaEFSaWJ0YjIyZENWZkMyQm1rNGVidw?oc=5",
-      "published": "2026-11-20 22:16 UTC",
-      "sector": "Materials",
-      "tone": -2.0,
-      "note": "First Quantum's challenges at Cobre Panama dampen optimism for UK miners."
+      "tone": -1.0,
+      "note": "Indonesia\u2019s demand may squeeze mining profits."
     }
   ]
 }

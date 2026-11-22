@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-11-22 04:03 UTC",
+  "updated_at": "2026-11-22 07:09 UTC",
   "market": "US",
   "index": "S&P 500",
-  "macro_theme": "Consumer demand signals dominate headlines",
-  "macro_score": 22,
-  "macro_explanation": "Broad-market headlines scored 22/100 by the model (bearish); this is the macro overlay.",
+  "macro_theme": "Rate-policy commentary dominates headlines",
+  "macro_score": 20,
+  "macro_explanation": "Broad-market headlines scored 20/100 by the model (bearish); this is the macro overlay.",
   "sectors": [
     {
       "name": "Consumer Discretionary",
-      "score": 53,
+      "score": 46,
       "label": "Neutral"
     },
     {
       "name": "Consumer Staples",
-      "score": 52,
+      "score": 51,
       "label": "Neutral"
     },
     {
@@ -23,17 +23,17 @@
     },
     {
       "name": "Financials",
-      "score": 58,
+      "score": 43,
       "label": "Neutral"
     },
     {
       "name": "Healthcare",
-      "score": 55,
+      "score": 47,
       "label": "Neutral"
     },
     {
       "name": "Technology",
-      "score": 20,
+      "score": 27,
       "label": "Bearish"
     }
   ]

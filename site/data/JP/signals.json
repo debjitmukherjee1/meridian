@@ -1,156 +1,146 @@
 {
-  "updated_at": "2026-11-22 04:03 UTC",
+  "updated_at": "2026-11-22 07:09 UTC",
   "market": "JP",
   "macro_theme": "Geopolitical conflict raises energy-sector risk",
   "signals": [
     {
       "sector": "Consumer Discretionary",
       "read": "Bearish",
-      "score": 24,
+      "score": 38,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "The Consumer Discretionary sector is negatively impacted by the recall of 1.6\u202fmillion vehicles from Honda and Toyota, which raises safety concerns and disrupts sales.",
+          "text": "The sector is hit by a large-scale vehicle recall, disrupting supply chains and production schedules for major automakers.",
           "forecast": {
-            "low": 2.3,
-            "high": 5.3,
+            "low": 1.9,
+            "high": 4.3,
             "direction": "-",
-            "text": "-2.3% to -5.3%"
+            "text": "-1.9% to -4.3%"
           }
         },
         {
           "role": "supporting",
-          "text": "The recall signals potential quality and supply chain issues that could erode consumer confidence in automotive brands.",
+          "text": "Recall of 1.6\u202fmillion vehicles by Honda and Toyota strains manufacturing capacity and inventory levels.",
           "forecast": {
-            "low": 2.3,
-            "high": 5.3,
+            "low": 1.9,
+            "high": 4.3,
             "direction": "-",
-            "text": "-2.3% to -5.3%"
+            "text": "-1.9% to -4.3%"
           }
         },
         {
           "role": "supporting",
-          "text": "Regulatory scrutiny and potential fines may increase operating costs for affected manufacturers.",
+          "text": "The safety component issue raises consumer confidence concerns, potentially dampening demand for discretionary auto purchases.",
           "forecast": {
-            "low": 2.3,
-            "high": 5.3,
+            "low": 1.9,
+            "high": 4.3,
             "direction": "-",
-            "text": "-2.3% to -5.3%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "The large volume of recalled vehicles could lead to temporary production halts, affecting overall sector earnings.",
-          "forecast": {
-            "low": 2.3,
-            "high": 5.3,
-            "direction": "-",
-            "text": "-2.3% to -5.3%"
+            "text": "-1.9% to -4.3%"
           }
         }
       ]
     },
     {
       "sector": "Energy",
-      "read": "Bearish",
-      "score": 38,
+      "read": "Neutral",
+      "score": 57,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "No discernible impact on the Energy sector can be derived from the provided headlines.",
+          "text": "No clear impact on the Energy sector from the provided headlines.",
           "forecast": {
-            "low": 5.0,
-            "high": 11.2,
-            "direction": "-",
-            "text": "-5.0% to -11.2%"
+            "low": 4.6,
+            "high": 10.3,
+            "direction": "+",
+            "text": "+4.6% to +10.3%"
           }
         }
       ]
     },
     {
       "sector": "Financials",
-      "read": "Bearish",
-      "score": 38,
+      "read": "Neutral",
+      "score": 41,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Geopolitical tensions surrounding North Korea are weighing on the Financials sector, contributing to its bearish stance.",
+          "text": "China\u2019s ban on U.S. telecoms\u2019 access to American phone numbers has intensified geopolitical tensions, weighing on the Financials sector.",
           "forecast": {
             "low": 1.2,
-            "high": 3.7,
+            "high": 3.5,
             "direction": "-",
-            "text": "-1.2% to -3.7%"
+            "text": "-1.2% to -3.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "Japan bank shares slide amid concerns over regional instability",
+          "text": "China\u2019s telecom ban signals heightened U.S.-China trade friction, impacting financial institutions involved in cross\u2011border services.",
           "forecast": {
             "low": 1.2,
-            "high": 3.7,
+            "high": 3.5,
             "direction": "-",
-            "text": "-1.2% to -3.7%"
+            "text": "-1.2% to -3.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "Mitsubishi UFJ Financial Group shares fell 4.9% reflecting market anxiety",
+          "text": "North Korea\u2019s postponement of the 2027 Pyongyang International Marathon reflects broader regional instability that can dampen investor confidence in the sector.",
           "forecast": {
             "low": 1.2,
-            "high": 3.7,
+            "high": 3.5,
             "direction": "-",
-            "text": "-1.2% to -3.7%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Bank of Japan Governor Ueda\u2019s commitment to further rate hikes adds pressure on financial stocks",
-          "forecast": {
-            "low": 1.2,
-            "high": 3.7,
-            "direction": "-",
-            "text": "-1.2% to -3.7%"
+            "text": "-1.2% to -3.5%"
           }
         }
       ]
     },
     {
       "sector": "Healthcare",
-      "read": "Bullish",
-      "score": 65,
+      "read": "Neutral",
+      "score": 57,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Takeda\u2019s launch of the new drug ORZEYFUL is the primary driver behind the Healthcare sector\u2019s bullish sentiment.",
+          "text": "Takeda\u2019s launch of the obesity drug ORZEYFUL is driving the bullish sentiment in the Healthcare sector.",
           "forecast": {
-            "low": 0.7,
-            "high": 2.6,
+            "low": 0.6,
+            "high": 2.3,
             "direction": "+",
-            "text": "+0.7% to +2.6%"
+            "text": "+0.6% to +2.3%"
           }
         },
         {
           "role": "supporting",
-          "text": "Takeda\u2019s strategic expansion into oncology with ORZEYFUL enhances its product pipeline and market positioning.",
+          "text": "The new product expands Takeda\u2019s portfolio into a high\u2011growth therapeutic area.",
           "forecast": {
-            "low": 0.7,
-            "high": 2.6,
+            "low": 0.6,
+            "high": 2.3,
             "direction": "+",
-            "text": "+0.7% to +2.6%"
+            "text": "+0.6% to +2.3%"
           }
         },
         {
           "role": "supporting",
-          "text": "The launch aligns with broader industry trends toward targeted therapies, boosting investor confidence in the sector.",
+          "text": "Positive early sales data suggest a strong market uptake.",
           "forecast": {
-            "low": 0.7,
-            "high": 2.6,
+            "low": 0.6,
+            "high": 2.3,
             "direction": "+",
-            "text": "+0.7% to +2.6%"
+            "text": "+0.6% to +2.3%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "The launch is expected to lift the company\u2019s earnings outlook, benefiting the broader sector.",
+          "forecast": {
+            "low": 0.6,
+            "high": 2.3,
+            "direction": "+",
+            "text": "+0.6% to +2.3%"
           }
         }
       ]
@@ -163,7 +153,7 @@
       "drivers": [
         {
           "role": "main",
-          "text": "Geopolitical tensions between the U.S. and China, coupled with AUKUS defense discussions, are driving higher demand for industrial defense and telecom infrastructure.",
+          "text": "China\u2019s ban on US telecoms\u2019 access to its phone numbers is driving demand for alternative supply\u2011chain solutions, boosting the industrials sector.",
           "forecast": {
             "low": 1.7,
             "high": 4.6,
@@ -173,7 +163,7 @@
         },
         {
           "role": "supporting",
-          "text": "AUKUS defense contracts are boosting orders for industrial manufacturers of defense equipment.",
+          "text": "Increased demand for telecom infrastructure and equipment as companies seek alternatives to Chinese networks.",
           "forecast": {
             "low": 1.7,
             "high": 4.6,
@@ -183,7 +173,17 @@
         },
         {
           "role": "supporting",
-          "text": "China\u2019s ban on U.S. telecoms access to American phone numbers is prompting domestic production of telecom infrastructure components.",
+          "text": "Shift toward domestic manufacturing of telecom components to mitigate geopolitical risks.",
+          "forecast": {
+            "low": 1.7,
+            "high": 4.6,
+            "direction": "+",
+            "text": "+1.7% to +4.6%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Potential for U.S. firms to invest in new supply\u2011chain partners, creating growth opportunities for industrial manufacturers.",
           "forecast": {
             "low": 1.7,
             "high": 4.6,
@@ -196,47 +196,37 @@
     {
       "sector": "Technology",
       "read": "Bearish",
-      "score": 25,
+      "score": 32,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "The Technology sector is under pressure from a supply\u2011chain disruption triggered by the U.S. ban on Chinese telecoms\u2019 access to American phone numbers.",
+          "text": "China\u2019s ban on U.S. telecoms\u2019 access to American phone numbers is tightening supply constraints, weighing on the technology sector.",
           "forecast": {
-            "low": 1.5,
-            "high": 4.5,
+            "low": 1.4,
+            "high": 4.1,
             "direction": "-",
-            "text": "-1.5% to -4.5%"
+            "text": "-1.4% to -4.1%"
           }
         },
         {
           "role": "supporting",
-          "text": "SoftBank shares plunged 14.48% as the Anthropic IPO sparked a broader sell\u2011off in Asian AI stocks, amplifying concerns about AI exposure.",
+          "text": "SoftBank shares plunged 14.48% as the Anthropic IPO triggered a wider Asian AI stock sell\u2011off.",
           "forecast": {
-            "low": 1.5,
-            "high": 4.5,
+            "low": 1.4,
+            "high": 4.1,
             "direction": "-",
-            "text": "-1.5% to -4.5%"
+            "text": "-1.4% to -4.1%"
           }
         },
         {
           "role": "supporting",
-          "text": "Investors are rethinking the cost of AI exposure, leading to a retreat in technology shares.",
+          "text": "SoftBank shares retreated as investors re\u2011think the price of AI exposure.",
           "forecast": {
-            "low": 1.5,
-            "high": 4.5,
+            "low": 1.4,
+            "high": 4.1,
             "direction": "-",
-            "text": "-1.5% to -4.5%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "The geopolitical tension surrounding the U.S. ban has heightened uncertainty over the availability of critical telecom components for technology firms.",
-          "forecast": {
-            "low": 1.5,
-            "high": 4.5,
-            "direction": "-",
-            "text": "-1.5% to -4.5%"
+            "text": "-1.4% to -4.1%"
           }
         }
       ]

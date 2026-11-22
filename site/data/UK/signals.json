@@ -1,42 +1,22 @@
 {
-  "updated_at": "2026-11-22 04:03 UTC",
+  "updated_at": "2026-11-22 07:09 UTC",
   "market": "UK",
   "macro_theme": "Regulatory scrutiny dominates today's headlines",
   "signals": [
     {
       "sector": "Consumer Staples",
       "read": "Neutral",
-      "score": 48,
+      "score": 58,
       "event_type": "regulatory",
       "drivers": [
         {
           "role": "main",
-          "text": "The sector\u2019s mixed sentiment is largely driven by the court\u2019s ban on green labels, which poses a regulatory risk for Unilever and other consumer staples firms.",
+          "text": "The court\u2019s ban on green labels is poised to lift Unilever\u2019s prospects, driving a bullish sentiment in the Consumer Staples sector.",
           "forecast": {
-            "low": 1.0,
-            "high": 2.6,
-            "direction": "-",
-            "text": "-1.0% to -2.6%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "The FTSE 100\u2019s tumble amid a global tech rout has weighed on broader market sentiment, indirectly affecting consumer staples stocks.",
-          "forecast": {
-            "low": 1.0,
-            "high": 2.6,
-            "direction": "-",
-            "text": "-1.0% to -2.6%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Unilever\u2019s exposure to the green label ban introduces uncertainty over future product compliance and potential cost increases.",
-          "forecast": {
-            "low": 1.0,
-            "high": 2.6,
-            "direction": "-",
-            "text": "-1.0% to -2.6%"
+            "low": 1.2,
+            "high": 2.9,
+            "direction": "+",
+            "text": "+1.2% to +2.9%"
           }
         }
       ]
@@ -44,93 +24,113 @@
     {
       "sector": "Energy",
       "read": "Neutral",
-      "score": 48,
+      "score": 56,
       "event_type": "regulatory",
       "drivers": [
         {
           "role": "main",
-          "text": "A global tech rout has dragged the FTSE 100 lower, indirectly weighing on the Energy sector\u2019s mixed sentiment.",
+          "text": "Positive operational progress and contract wins across several UK energy companies are driving the sector\u2019s bullish sentiment.",
           "forecast": {
-            "low": 1.6,
-            "high": 4.2,
-            "direction": "-",
-            "text": "-1.6% to -4.2%"
+            "low": 1.7,
+            "high": 4.5,
+            "direction": "+",
+            "text": "+1.7% to +4.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "FTSE 100 tumble as global tech rout takes hold",
+          "text": "Serica Energy\u2019s new Beacon Pacific rig contract signals expanding offshore activity.",
           "forecast": {
-            "low": 1.6,
-            "high": 4.2,
-            "direction": "-",
-            "text": "-1.6% to -4.2%"
+            "low": 1.7,
+            "high": 4.5,
+            "direction": "+",
+            "text": "+1.7% to +4.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "FTSE 250 movers: Tech, related stocks battered in global selloff",
+          "text": "Pensana\u2019s milestone progress at Longonjo indicates continued investment momentum.",
           "forecast": {
-            "low": 1.6,
-            "high": 4.2,
-            "direction": "-",
-            "text": "-1.6% to -4.2%"
+            "low": 1.7,
+            "high": 4.5,
+            "direction": "+",
+            "text": "+1.7% to +4.5%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Genel Energy\u2019s Capricorn proposal advancement reflects ongoing project development confidence.",
+          "forecast": {
+            "low": 1.7,
+            "high": 4.5,
+            "direction": "+",
+            "text": "+1.7% to +4.5%"
           }
         }
       ]
     },
     {
       "sector": "Financials",
-      "read": "Bearish",
-      "score": 36,
+      "read": "Neutral",
+      "score": 58,
       "event_type": "regulatory",
       "drivers": [
         {
           "role": "main",
-          "text": "Regulatory scrutiny of the banking sector is driving a broader sell\u2011off in the Financials sector.",
+          "text": "A recent regulatory event has lifted sentiment across the Financials sector.",
           "forecast": {
-            "low": 1.9,
-            "high": 5.8,
-            "direction": "-",
-            "text": "-1.9% to -5.8%"
+            "low": 1.7,
+            "high": 5.2,
+            "direction": "+",
+            "text": "+1.7% to +5.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "FTSE 100 tumble amid a global tech rout, weighing on financial stocks",
+          "text": "Pensana (LSE:PRE) reports progress on its Longonjo project, indicating operational momentum.",
           "forecast": {
-            "low": 1.9,
-            "high": 5.8,
-            "direction": "-",
-            "text": "-1.9% to -5.8%"
+            "low": 1.7,
+            "high": 5.2,
+            "direction": "+",
+            "text": "+1.7% to +5.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "HSBC shares fell 4.0%, reflecting investor concern over regulatory pressures",
+          "text": "Genel Energy (LSE:GENL) advances its Capricorn proposal, suggesting potential upside for shareholders.",
           "forecast": {
-            "low": 1.9,
-            "high": 5.8,
-            "direction": "-",
-            "text": "-1.9% to -5.8%"
+            "low": 1.7,
+            "high": 5.2,
+            "direction": "+",
+            "text": "+1.7% to +5.2%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Serica Energy (LSE:SQZ) signs a Beacon Pacific rig contract, adding to the sector\u2019s earnings prospects.",
+          "forecast": {
+            "low": 1.7,
+            "high": 5.2,
+            "direction": "+",
+            "text": "+1.7% to +5.2%"
           }
         }
       ]
     },
     {
       "sector": "Healthcare",
-      "read": "Neutral",
-      "score": 45,
+      "read": "Bullish",
+      "score": 66,
       "event_type": "regulatory",
       "drivers": [
         {
           "role": "main",
           "text": "",
           "forecast": {
-            "low": 2.2,
-            "high": 5.5,
-            "direction": "-",
-            "text": "-2.2% to -5.5%"
+            "low": 2.6,
+            "high": 6.6,
+            "direction": "+",
+            "text": "+2.6% to +6.6%"
           }
         }
       ]
@@ -138,47 +138,47 @@
     {
       "sector": "Materials",
       "read": "Neutral",
-      "score": 45,
+      "score": 52,
       "event_type": "regulatory",
       "drivers": [
         {
           "role": "main",
-          "text": "The Materials sector is being dragged down by the FTSE 100\u2019s tumble amid a global tech rout.",
+          "text": "Mixed sentiment in the Materials sector reflects a patchwork of company-specific developments rather than a unified market trend.",
           "forecast": {
-            "low": 1.7,
-            "high": 3.9,
-            "direction": "-",
-            "text": "-1.7% to -3.9%"
+            "low": 1.6,
+            "high": 3.6,
+            "direction": "+",
+            "text": "+1.6% to +3.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Pensana\u2019s progress at Longonjo is lagging behind the FTSE 100\u2019s decline.",
+          "text": "Pensana\u2019s progress at Longonjo signals potential upside for the mining segment.",
           "forecast": {
-            "low": 1.7,
-            "high": 3.9,
-            "direction": "-",
-            "text": "-1.7% to -3.9%"
+            "low": 1.6,
+            "high": 3.6,
+            "direction": "+",
+            "text": "+1.6% to +3.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Genel Energy\u2019s Capricorn proposal is advancing but still below the FTSE 100\u2019s performance.",
+          "text": "Genel Energy\u2019s Capricorn proposal indicates continued investment activity in exploration.",
           "forecast": {
-            "low": 1.7,
-            "high": 3.9,
-            "direction": "-",
-            "text": "-1.7% to -3.9%"
+            "low": 1.6,
+            "high": 3.6,
+            "direction": "+",
+            "text": "+1.6% to +3.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Serica Energy\u2019s new Beacon Pacific rig contract is announced, yet the overall market remains weak.",
+          "text": "Serica Energy\u2019s new rig contract with Beacon Pacific highlights ongoing operational expansion in the sector.",
           "forecast": {
-            "low": 1.7,
-            "high": 3.9,
-            "direction": "-",
-            "text": "-1.7% to -3.9%"
+            "low": 1.6,
+            "high": 3.6,
+            "direction": "+",
+            "text": "+1.6% to +3.6%"
           }
         }
       ]
@@ -186,37 +186,17 @@
     {
       "sector": "Technology",
       "read": "Neutral",
-      "score": 48,
+      "score": 55,
       "event_type": "regulatory",
       "drivers": [
         {
           "role": "main",
-          "text": "A global technology rout has driven the FTSE 100 to tumble, weighing on the Technology sector.",
+          "text": "No direct impact on the Technology sector from the provided headlines.",
           "forecast": {
-            "low": 2.1,
-            "high": 5.2,
-            "direction": "-",
-            "text": "-2.1% to -5.2%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "The FTSE 100\u2019s decline reflects a broader sell\u2011off in tech stocks amid heightened regulatory scrutiny.",
-          "forecast": {
-            "low": 2.1,
-            "high": 5.2,
-            "direction": "-",
-            "text": "-2.1% to -5.2%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Vodafone\u2019s 2027 outlook upgrade, while positive for telecoms, highlights sectoral optimism that contrasts with the overall tech sell\u2011off.",
-          "forecast": {
-            "low": 2.1,
-            "high": 5.2,
-            "direction": "-",
-            "text": "-2.1% to -5.2%"
+            "low": 2.2,
+            "high": 5.5,
+            "direction": "+",
+            "text": "+2.2% to +5.5%"
           }
         }
       ]
