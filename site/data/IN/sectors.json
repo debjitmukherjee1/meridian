@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-11-22 03:52 UTC",
+  "updated_at": "2026-11-22 03:58 UTC",
   "market": "IN",
   "index": "NIFTY 50",
   "macro_theme": "Mixed macro signals; no single theme dominates",
-  "macro_score": 82,
-  "macro_explanation": "Broad-market headlines scored 82/100 by the model (bullish); this is the macro overlay.",
+  "macro_score": 95,
+  "macro_explanation": "Broad-market headlines scored 95/100 by the model (bullish); this is the macro overlay.",
   "sectors": [
     {
       "name": "Consumer Discretionary",
-      "score": 75,
-      "label": "Bullish"
-    },
-    {
-      "name": "Consumer Staples",
-      "score": 69,
-      "label": "Bullish"
-    },
-    {
-      "name": "Energy",
-      "score": 71,
-      "label": "Bullish"
-    },
-    {
-      "name": "Financials",
-      "score": 76,
-      "label": "Bullish"
-    },
-    {
-      "name": "Healthcare",
       "score": 81,
       "label": "Bullish"
     },
     {
+      "name": "Consumer Staples",
+      "score": 68,
+      "label": "Bullish"
+    },
+    {
+      "name": "Energy",
+      "score": 76,
+      "label": "Bullish"
+    },
+    {
+      "name": "Financials",
+      "score": 87,
+      "label": "Bullish"
+    },
+    {
+      "name": "Healthcare",
+      "score": 98,
+      "label": "Bullish"
+    },
+    {
       "name": "Technology",
-      "score": 78,
+      "score": 91,
       "label": "Bullish"
     }
   ]

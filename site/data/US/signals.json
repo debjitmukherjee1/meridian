@@ -1,52 +1,52 @@
 {
-  "updated_at": "2026-11-22 03:52 UTC",
+  "updated_at": "2026-11-22 03:58 UTC",
   "market": "US",
   "macro_theme": "Consumer demand signals dominate headlines",
   "signals": [
     {
       "sector": "Consumer Discretionary",
       "read": "Neutral",
-      "score": 49,
+      "score": 50,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "The Consumer Discretionary sector is experiencing a mixed outlook largely due to a demand shock event.",
+          "text": "The Consumer Discretionary sector is being weighed down by a semiconductor selloff that is dragging down related tech and retail stocks.",
           "forecast": {
             "low": 2.5,
-            "high": 5.6,
-            "direction": "-",
-            "text": "-2.5% to -5.6%"
+            "high": 5.5,
+            "direction": "+",
+            "text": "+2.5% to +5.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "The semiconductor selloff has weighed on the broader market, impacting discretionary spending.",
+          "text": "The S&P 500\u2019s >3% drop was led by semiconductor stocks, directly impacting discretionary tech firms.",
           "forecast": {
             "low": 2.5,
-            "high": 5.6,
-            "direction": "-",
-            "text": "-2.5% to -5.6%"
+            "high": 5.5,
+            "direction": "+",
+            "text": "+2.5% to +5.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "Retail sales in the UK and Canada have strengthened, adding complexity to the sector\u2019s performance.",
+          "text": "UK and Canadian retail sales strengthening suggests some resilience in consumer spending, partially offsetting the selloff.",
           "forecast": {
             "low": 2.5,
-            "high": 5.6,
-            "direction": "-",
-            "text": "-2.5% to -5.6%"
+            "high": 5.5,
+            "direction": "+",
+            "text": "+2.5% to +5.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "US consumers are holding up against inflation heading into the holiday season, influencing discretionary demand.",
+          "text": "US consumers are holding up against inflation heading into the holiday season, indicating potential demand support for discretionary goods.",
           "forecast": {
             "low": 2.5,
-            "high": 5.6,
-            "direction": "-",
-            "text": "-2.5% to -5.6%"
+            "high": 5.5,
+            "direction": "+",
+            "text": "+2.5% to +5.5%"
           }
         }
       ]
@@ -54,47 +54,47 @@
     {
       "sector": "Consumer Staples",
       "read": "Neutral",
-      "score": 52,
+      "score": 49,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Consumer staples stocks are benefiting from a sharp decline in AI-driven tech stocks, which has lifted demand for essential goods.",
+          "text": "Demand shock from AI losses has lifted consumer staples, boosting the sector\u2019s performance.",
           "forecast": {
             "low": 1.0,
-            "high": 2.6,
-            "direction": "+",
-            "text": "+1.0% to +2.6%"
+            "high": 2.5,
+            "direction": "-",
+            "text": "-1.0% to -2.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "AI losses have weakened high-growth tech names, reducing overall market volatility and shifting investor focus to defensive staples.",
+          "text": "Coca\u2011Cola shares rose 35% in a year, underscoring strong consumer demand.",
           "forecast": {
             "low": 1.0,
-            "high": 2.6,
-            "direction": "+",
-            "text": "+1.0% to +2.6%"
+            "high": 2.5,
+            "direction": "-",
+            "text": "-1.0% to -2.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "The broader market selloff, triggered by semiconductor weakness and a rumor, has amplified the relative strength of consumer staples.",
+          "text": "AI setbacks have weakened tech stocks, reducing pressure on the broader market.",
           "forecast": {
             "low": 1.0,
-            "high": 2.6,
-            "direction": "+",
-            "text": "+1.0% to +2.6%"
+            "high": 2.5,
+            "direction": "-",
+            "text": "-1.0% to -2.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "The sector\u2019s resilience is further underscored by Coca\u2011Cola\u2019s significant year\u2011to\u2011date rally, reflecting sustained consumer demand.",
+          "text": "The S&P 500\u2019s 3% drop, led by semiconductor selloffs, has shifted investor focus toward defensive staples.",
           "forecast": {
             "low": 1.0,
-            "high": 2.6,
-            "direction": "+",
-            "text": "+1.0% to +2.6%"
+            "high": 2.5,
+            "direction": "-",
+            "text": "-1.0% to -2.5%"
           }
         }
       ]
@@ -102,75 +102,85 @@
     {
       "sector": "Energy",
       "read": "Bearish",
-      "score": 11,
+      "score": 26,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Demand shock from falling oil prices and weak gasoline demand drives bearish sentiment in the Energy sector.",
+          "text": "Oil prices have fallen sharply, undermining the Energy sector\u2019s outlook.",
           "forecast": {
-            "low": 4.5,
-            "high": 10.7,
+            "low": 3.7,
+            "high": 8.9,
             "direction": "-",
-            "text": "-4.5% to -10.7%"
+            "text": "-3.7% to -8.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "Retail gasoline prices remain high despite easing oil prices, dampening consumer fuel demand.",
+          "text": "Oil prices fell 5% despite attacks on tankers and rising tensions, indicating a demand shock.",
           "forecast": {
-            "low": 4.5,
-            "high": 10.7,
+            "low": 3.7,
+            "high": 8.9,
             "direction": "-",
-            "text": "-4.5% to -10.7%"
+            "text": "-3.7% to -8.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "Easing oil prices failed to lift the PSX Energy index, indicating limited market confidence in the sector.",
+          "text": "Easing oil prices failed to lift the Pakistan Stock Exchange (PSX), reflecting weak demand sentiment in emerging markets.",
           "forecast": {
-            "low": 4.5,
-            "high": 10.7,
+            "low": 3.7,
+            "high": 8.9,
             "direction": "-",
-            "text": "-4.5% to -10.7%"
+            "text": "-3.7% to -8.9%"
           }
         }
       ]
     },
     {
       "sector": "Financials",
-      "read": "Neutral",
-      "score": 51,
+      "read": "Bearish",
+      "score": 39,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Financials sector remains mixed as higher interest rates support some banks while broader market volatility from tech and semiconductor selloffs pressures others.",
+          "text": "Demand shock from the tech\u2011sector selloff has pressured the Financials sector.",
           "forecast": {
-            "low": 1.5,
-            "high": 3.6,
-            "direction": "+",
-            "text": "+1.5% to +3.6%"
+            "low": 1.8,
+            "high": 4.3,
+            "direction": "-",
+            "text": "-1.8% to -4.3%"
           }
         },
         {
           "role": "supporting",
-          "text": "Higher rates benefit banks, as highlighted by the 3 U.S. financial stocks built for higher interest rates.",
+          "text": "S&P\u202f500 fell over 3% as semiconductor stocks led the market selloff.",
           "forecast": {
-            "low": 1.5,
-            "high": 3.6,
-            "direction": "+",
-            "text": "+1.5% to +3.6%"
+            "low": 1.8,
+            "high": 4.3,
+            "direction": "-",
+            "text": "-1.8% to -4.3%"
           }
         },
         {
           "role": "supporting",
-          "text": "The S&P 500 drop of more than 3% driven by semiconductor stocks leads a market selloff, adding pressure on financials.",
+          "text": "Nasdaq wiped out $4\u202ftrillion and Anthropic shed $109\u202fbillion in market value shortly after its debut.",
           "forecast": {
-            "low": 1.5,
-            "high": 3.6,
-            "direction": "+",
-            "text": "+1.5% to +3.6%"
+            "low": 1.8,
+            "high": 4.3,
+            "direction": "-",
+            "text": "-1.8% to -4.3%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Market commentary highlighted a potential correction or bear market, adding to uncertainty for financials.",
+          "forecast": {
+            "low": 1.8,
+            "high": 4.3,
+            "direction": "-",
+            "text": "-1.8% to -4.3%"
           }
         }
       ]
@@ -178,47 +188,47 @@
     {
       "sector": "Healthcare",
       "read": "Neutral",
-      "score": 51,
+      "score": 49,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Demand shock from AI\u2011driven cost pressures and reduced patient spending has weighed on healthcare earnings.",
+          "text": "A demand shock event has caused mixed sentiment in the Healthcare sector.",
           "forecast": {
             "low": 1.0,
             "high": 2.5,
-            "direction": "+",
-            "text": "+1.0% to +2.5%"
+            "direction": "-",
+            "text": "-1.0% to -2.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "AI trading agents are favoring clean\u2011technology and healthcare stocks, creating a selective demand shift within the sector.",
+          "text": "The broader market selloff led by semiconductor stocks has increased volatility across all sectors, including Healthcare.",
           "forecast": {
             "low": 1.0,
             "high": 2.5,
-            "direction": "+",
-            "text": "+1.0% to +2.5%"
+            "direction": "-",
+            "text": "-1.0% to -2.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "The broader semiconductor selloff and market volatility have amplified uncertainty for healthcare companies reliant on tech\u2011enabled services.",
+          "text": "AI trading agents are shifting focus toward clean technology and Healthcare stocks, adding pressure on valuations.",
           "forecast": {
             "low": 1.0,
             "high": 2.5,
-            "direction": "+",
-            "text": "+1.0% to +2.5%"
+            "direction": "-",
+            "text": "-1.0% to -2.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "Analysts remain bullish on top healthcare names such as Solid Biosciences and Eli\u202fLilly, indicating pockets of resilience amid the overall mixed sentiment.",
+          "text": "Analysts remain bullish on top Healthcare names, but the overall market uncertainty tempers confidence in the sector.",
           "forecast": {
             "low": 1.0,
             "high": 2.5,
-            "direction": "+",
-            "text": "+1.0% to +2.5%"
+            "direction": "-",
+            "text": "-1.0% to -2.5%"
           }
         }
       ]
@@ -231,7 +241,7 @@
       "drivers": [
         {
           "role": "main",
-          "text": "The Technology sector\u2019s bearish sentiment is primarily driven by a demand shock reflected in a sharp selloff of AI and semiconductor stocks.",
+          "text": "The Technology sector is suffering a demand shock driven by a sharp selloff in AI and semiconductor stocks.",
           "forecast": {
             "low": 3.6,
             "high": 8.0,
@@ -241,7 +251,7 @@
         },
         {
           "role": "supporting",
-          "text": "The S&P 500\u2019s >3% drop was led by semiconductor stocks, indicating a broader technology demand decline.",
+          "text": "Semiconductor stocks led a 3%+ S&P 500 decline, amplifying the tech selloff.",
           "forecast": {
             "low": 3.6,
             "high": 8.0,
@@ -251,7 +261,7 @@
         },
         {
           "role": "supporting",
-          "text": "China\u2019s AI stocks lost $1.7 trillion, underscoring a global demand shock in AI-related technology.",
+          "text": "Leaks of Apple\u2019s AI agent rattled competitors Anthropic and Meta, eroding investor confidence.",
           "forecast": {
             "low": 3.6,
             "high": 8.0,
@@ -261,7 +271,7 @@
         },
         {
           "role": "supporting",
-          "text": "Anthropic\u2019s $109\u202fbillion market value wipe\u2011out after its Nasdaq debut highlights investor retreat from high\u2011growth tech names.",
+          "text": "China\u2019s AI stocks lost $1.7 trillion, deepening the global tech downturn.",
           "forecast": {
             "low": 3.6,
             "high": 8.0,
