@@ -403,7 +403,7 @@ const MACRO_INDICATORS = [
 ];
 
 function macroFreqLabel(freq) {
-  return { annual: "Annual", daily: "Daily", monthly: "Monthly",
+  return { annual: "Annual", daily: "Daily", monthly: "Monthly", quarterly: "Quarterly",
             "as announced": "As announced", "n/a": "N/A" }[freq] || freq;
 }
 function macroAsOfLabel(ind) {

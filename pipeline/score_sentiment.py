@@ -144,7 +144,12 @@ def _score_bucket(market_name, sector, headlines):
     # out of the average. Polarity -5..+5 maps linearly to 0..100.
     relevant = [pol for pol, _ in parsed if pol != 0]
     if relevant:
-        score = int(round(50 + 10 * sum(relevant) / len(relevant)))
+        # Shrink toward neutral: the average counts config.SENTIMENT_PRIOR_N
+        # imaginary neutral headlines, so a handful of one-sided headlines on
+        # a quiet day can't pin a sector near 0 or 100 (India Healthcare read
+        # 98 on 22-Nov). Six headlines all at +4 now read 80, not 90.
+        k = config.SENTIMENT_PRIOR_N
+        score = int(round(50 + 10 * sum(relevant) / (len(relevant) + k)))
     elif parsed:
         score = 50                       # every headline judged irrelevant
     else:
