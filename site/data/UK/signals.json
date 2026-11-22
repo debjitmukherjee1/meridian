@@ -1,42 +1,42 @@
 {
-  "updated_at": "2026-11-22 03:58 UTC",
+  "updated_at": "2026-11-22 04:03 UTC",
   "market": "UK",
   "macro_theme": "Regulatory scrutiny dominates today's headlines",
   "signals": [
     {
       "sector": "Consumer Staples",
-      "read": "Bearish",
-      "score": 37,
+      "read": "Neutral",
+      "score": 48,
       "event_type": "regulatory",
       "drivers": [
         {
           "role": "main",
-          "text": "The sector is bearish because a court ruling banning green labels threatens Unilever\u2019s sustainability claims and could trigger wider regulatory scrutiny.",
+          "text": "The sector\u2019s mixed sentiment is largely driven by the court\u2019s ban on green labels, which poses a regulatory risk for Unilever and other consumer staples firms.",
           "forecast": {
-            "low": 1.3,
-            "high": 3.1,
+            "low": 1.0,
+            "high": 2.6,
             "direction": "-",
-            "text": "-1.3% to -3.1%"
+            "text": "-1.0% to -2.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "The FTSE 100\u2019s decline on a global tech rout has added pressure to consumer staples stocks.",
+          "text": "The FTSE 100\u2019s tumble amid a global tech rout has weighed on broader market sentiment, indirectly affecting consumer staples stocks.",
           "forecast": {
-            "low": 1.3,
-            "high": 3.1,
+            "low": 1.0,
+            "high": 2.6,
             "direction": "-",
-            "text": "-1.3% to -3.1%"
+            "text": "-1.0% to -2.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Unilever\u2019s potential loss of green label status may force costly product redesigns and marketing adjustments.",
+          "text": "Unilever\u2019s exposure to the green label ban introduces uncertainty over future product compliance and potential cost increases.",
           "forecast": {
-            "low": 1.3,
-            "high": 3.1,
+            "low": 1.0,
+            "high": 2.6,
             "direction": "-",
-            "text": "-1.3% to -3.1%"
+            "text": "-1.0% to -2.6%"
           }
         }
       ]
@@ -44,73 +44,93 @@
     {
       "sector": "Energy",
       "read": "Neutral",
-      "score": 55,
+      "score": 48,
       "event_type": "regulatory",
       "drivers": [
         {
           "role": "main",
-          "text": "Energy sector bullish due to regulatory event",
+          "text": "A global tech rout has dragged the FTSE 100 lower, indirectly weighing on the Energy sector\u2019s mixed sentiment.",
           "forecast": {
-            "low": 1.7,
-            "high": 4.4,
-            "direction": "+",
-            "text": "+1.7% to +4.4%"
+            "low": 1.6,
+            "high": 4.2,
+            "direction": "-",
+            "text": "-1.6% to -4.2%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "FTSE 100 tumble as global tech rout takes hold",
+          "forecast": {
+            "low": 1.6,
+            "high": 4.2,
+            "direction": "-",
+            "text": "-1.6% to -4.2%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "FTSE 250 movers: Tech, related stocks battered in global selloff",
+          "forecast": {
+            "low": 1.6,
+            "high": 4.2,
+            "direction": "-",
+            "text": "-1.6% to -4.2%"
           }
         }
       ]
     },
     {
       "sector": "Financials",
-      "read": "Bullish",
-      "score": 61,
+      "read": "Bearish",
+      "score": 36,
       "event_type": "regulatory",
       "drivers": [
         {
           "role": "main",
-          "text": "HSBC\u2019s regulatory scrutiny, highlighted by its GF score of 70, is the primary driver of the Financials sector\u2019s bullish sentiment.",
+          "text": "Regulatory scrutiny of the banking sector is driving a broader sell\u2011off in the Financials sector.",
           "forecast": {
-            "low": 1.8,
-            "high": 5.5,
-            "direction": "+",
-            "text": "+1.8% to +5.5%"
+            "low": 1.9,
+            "high": 5.8,
+            "direction": "-",
+            "text": "-1.9% to -5.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "The FTSE 100\u2019s decline amid a global tech rout has pressured other sectors, but the Financials sector remains buoyant due to regulatory relief expectations for banks.",
+          "text": "FTSE 100 tumble amid a global tech rout, weighing on financial stocks",
           "forecast": {
-            "low": 1.8,
-            "high": 5.5,
-            "direction": "+",
-            "text": "+1.8% to +5.5%"
+            "low": 1.9,
+            "high": 5.8,
+            "direction": "-",
+            "text": "-1.9% to -5.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "HSBC\u2019s 4.0% share price decline reflects market reaction to regulatory concerns, reinforcing the sector\u2019s focus on compliance improvements.",
+          "text": "HSBC shares fell 4.0%, reflecting investor concern over regulatory pressures",
           "forecast": {
-            "low": 1.8,
-            "high": 5.5,
-            "direction": "+",
-            "text": "+1.8% to +5.5%"
+            "low": 1.9,
+            "high": 5.8,
+            "direction": "-",
+            "text": "-1.9% to -5.8%"
           }
         }
       ]
     },
     {
       "sector": "Healthcare",
-      "read": "Bullish",
-      "score": 62,
+      "read": "Neutral",
+      "score": 45,
       "event_type": "regulatory",
       "drivers": [
         {
           "role": "main",
-          "text": "No direct impact on the Healthcare sector from these headlines.",
+          "text": "",
           "forecast": {
-            "low": 2.5,
-            "high": 6.2,
-            "direction": "+",
-            "text": "+2.5% to +6.2%"
+            "low": 2.2,
+            "high": 5.5,
+            "direction": "-",
+            "text": "-2.2% to -5.5%"
           }
         }
       ]
@@ -118,37 +138,47 @@
     {
       "sector": "Materials",
       "read": "Neutral",
-      "score": 52,
+      "score": 45,
       "event_type": "regulatory",
       "drivers": [
         {
           "role": "main",
-          "text": "The Materials sector is being weighed down by a broader FTSE 100 decline driven by a global tech rout, which has dampened investor sentiment across the index.",
+          "text": "The Materials sector is being dragged down by the FTSE 100\u2019s tumble amid a global tech rout.",
           "forecast": {
-            "low": 1.6,
-            "high": 3.6,
-            "direction": "+",
-            "text": "+1.6% to +3.6%"
+            "low": 1.7,
+            "high": 3.9,
+            "direction": "-",
+            "text": "-1.7% to -3.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "Several materials names, such as Pensana, Genel Energy, Serica Energy, and Marshalls, have issued updates or guidance that remain below the FTSE 100, signalling cautious outlooks for the sector.",
+          "text": "Pensana\u2019s progress at Longonjo is lagging behind the FTSE 100\u2019s decline.",
           "forecast": {
-            "low": 1.6,
-            "high": 3.6,
-            "direction": "+",
-            "text": "+1.6% to +3.6%"
+            "low": 1.7,
+            "high": 3.9,
+            "direction": "-",
+            "text": "-1.7% to -3.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "The sector\u2019s mixed sentiment is further complicated by the fact that key materials companies are still navigating regulatory scrutiny, which has added uncertainty to their growth prospects.",
+          "text": "Genel Energy\u2019s Capricorn proposal is advancing but still below the FTSE 100\u2019s performance.",
           "forecast": {
-            "low": 1.6,
-            "high": 3.6,
-            "direction": "+",
-            "text": "+1.6% to +3.6%"
+            "low": 1.7,
+            "high": 3.9,
+            "direction": "-",
+            "text": "-1.7% to -3.9%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Serica Energy\u2019s new Beacon Pacific rig contract is announced, yet the overall market remains weak.",
+          "forecast": {
+            "low": 1.7,
+            "high": 3.9,
+            "direction": "-",
+            "text": "-1.7% to -3.9%"
           }
         }
       ]
@@ -156,27 +186,37 @@
     {
       "sector": "Technology",
       "read": "Neutral",
-      "score": 49,
+      "score": 48,
       "event_type": "regulatory",
       "drivers": [
         {
           "role": "main",
-          "text": "A global technology rout has driven the Technology sector into a mixed sentiment, reflected in the FTSE 100\u2019s decline.",
+          "text": "A global technology rout has driven the FTSE 100 to tumble, weighing on the Technology sector.",
           "forecast": {
-            "low": 2.0,
-            "high": 5.1,
+            "low": 2.1,
+            "high": 5.2,
             "direction": "-",
-            "text": "-2.0% to -5.1%"
+            "text": "-2.1% to -5.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "FTSE 100 tumble as global tech rout takes hold",
+          "text": "The FTSE 100\u2019s decline reflects a broader sell\u2011off in tech stocks amid heightened regulatory scrutiny.",
           "forecast": {
-            "low": 2.0,
-            "high": 5.1,
+            "low": 2.1,
+            "high": 5.2,
             "direction": "-",
-            "text": "-2.0% to -5.1%"
+            "text": "-2.1% to -5.2%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Vodafone\u2019s 2027 outlook upgrade, while positive for telecoms, highlights sectoral optimism that contrasts with the overall tech sell\u2011off.",
+          "forecast": {
+            "low": 2.1,
+            "high": 5.2,
+            "direction": "-",
+            "text": "-2.1% to -5.2%"
           }
         }
       ]

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22 03:58 UTC",
+  "updated_at": "2026-11-22 04:03 UTC",
   "market": "JP",
   "currency": "\u00a5",
   "companies": [
@@ -13,13 +13,13 @@
       "fcf_per_share": -259.22242500123764,
       "ebitda_per_share": 507.41090249097283,
       "net_debt_per_share": 2468.745866201704,
-      "sentiment_index": 46.8,
+      "sentiment_index": 24.0,
       "sentiment_breakdown": {
-        "news": 40,
+        "news": 2,
         "macro": 57
       },
       "base_fair_value": 3312.0,
-      "sentiment_adjusted_fair_value": 3280.2
+      "sentiment_adjusted_fair_value": 3053.66
     },
     {
       "ticker": "6758",
@@ -31,13 +31,13 @@
       "fcf_per_share": 395.0946554539517,
       "ebitda_per_share": 394.68202602688547,
       "net_debt_per_share": 13.300035053792179,
-      "sentiment_index": 30.6,
+      "sentiment_index": 24.6,
       "sentiment_breakdown": {
-        "news": 13,
+        "news": 3,
         "macro": 57
       },
       "base_fair_value": 4541.79,
-      "sentiment_adjusted_fair_value": 4277.46
+      "sentiment_adjusted_fair_value": 4195.71
     },
     {
       "ticker": "9984",
@@ -49,13 +49,13 @@
       "fcf_per_share": -180.72352184709945,
       "ebitda_per_share": 79.88655771267804,
       "net_debt_per_share": 4612.336070224197,
-      "sentiment_index": 30.6,
+      "sentiment_index": 24.6,
       "sentiment_breakdown": {
-        "news": 13,
+        "news": 3,
         "macro": 57
       },
       "base_fair_value": 3292.65,
-      "sentiment_adjusted_fair_value": 3101.02
+      "sentiment_adjusted_fair_value": 3041.75
     },
     {
       "ticker": "8306",
@@ -85,13 +85,13 @@
       "fcf_per_share": 104.32427755592016,
       "ebitda_per_share": 42.273633200623365,
       "net_debt_per_share": 204.74701752144784,
-      "sentiment_index": 30.6,
+      "sentiment_index": 24.6,
       "sentiment_breakdown": {
-        "news": 13,
+        "news": 3,
         "macro": 57
       },
       "base_fair_value": 690.45,
-      "sentiment_adjusted_fair_value": 650.27
+      "sentiment_adjusted_fair_value": 637.84
     },
     {
       "ticker": "4502",
@@ -139,13 +139,13 @@
       "fcf_per_share": 167.87656731100418,
       "ebitda_per_share": 268.8372227863573,
       "net_debt_per_share": 1380.457182121788,
-      "sentiment_index": 64.8,
+      "sentiment_index": 37.8,
       "sentiment_breakdown": {
-        "news": 70,
+        "news": 25,
         "macro": 57
       },
       "base_fair_value": 2647.28,
-      "sentiment_adjusted_fair_value": 2764.82
+      "sentiment_adjusted_fair_value": 2550.39
     }
   ]
 }

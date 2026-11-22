@@ -1,42 +1,42 @@
 {
-  "updated_at": "2026-11-22 03:58 UTC",
+  "updated_at": "2026-11-22 04:03 UTC",
   "market": "IN",
   "macro_theme": "Mixed macro signals; no single theme dominates",
   "signals": [
     {
       "sector": "Consumer Discretionary",
       "read": "Bullish",
-      "score": 81,
+      "score": 88,
       "event_type": "default",
       "drivers": [
         {
           "role": "main",
-          "text": "Foreign institutional inflows, driven by a banking rally, are boosting the Consumer Discretionary sector.",
+          "text": "Foreign institutional inflows, driven by a banking rally, are propelling the Consumer Discretionary sector higher.",
           "forecast": {
-            "low": 2.4,
-            "high": 5.7,
+            "low": 2.6,
+            "high": 6.2,
             "direction": "+",
-            "text": "+2.4% to +5.7%"
+            "text": "+2.6% to +6.2%"
           }
         },
         {
           "role": "supporting",
           "text": "Record FPI inflows into Indian equities signal a structural shift away from AI\u2011related stocks, benefiting discretionary names.",
           "forecast": {
-            "low": 2.4,
-            "high": 5.7,
+            "low": 2.6,
+            "high": 6.2,
             "direction": "+",
-            "text": "+2.4% to +5.7%"
+            "text": "+2.6% to +6.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "Banking sector gains are lifting overall market sentiment, supporting discretionary shares.",
+          "text": "Banking sector strength is lifting overall market sentiment, creating a favorable backdrop for consumer discretionary stocks.",
           "forecast": {
-            "low": 2.4,
-            "high": 5.7,
+            "low": 2.6,
+            "high": 6.2,
             "direction": "+",
-            "text": "+2.4% to +5.7%"
+            "text": "+2.6% to +6.2%"
           }
         }
       ]
@@ -44,47 +44,37 @@
     {
       "sector": "Consumer Staples",
       "read": "Bullish",
-      "score": 68,
+      "score": 80,
       "event_type": "default",
       "drivers": [
         {
           "role": "main",
-          "text": "Banking sector rally is driving a bullish sentiment in Consumer Staples.",
+          "text": "Consumer Staples gains are driven by a strong banking rally and record FII inflows into Indian equities.",
           "forecast": {
-            "low": 0.7,
-            "high": 2.7,
+            "low": 0.8,
+            "high": 3.2,
             "direction": "+",
-            "text": "+0.7% to +2.7%"
+            "text": "+0.8% to +3.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "Foreign institutional investors poured record Rs\u202f1.12\u202flakh crore into Indian equities, boosting overall market momentum.",
+          "text": "Bank stocks are leading the market rally, lifting the broader index.",
           "forecast": {
-            "low": 0.7,
-            "high": 2.7,
+            "low": 0.8,
+            "high": 3.2,
             "direction": "+",
-            "text": "+0.7% to +2.7%"
+            "text": "+0.8% to +3.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "Nifty and Sensex hit nine\u2011month highs, reflecting strong bank\u2011led market performance.",
+          "text": "Foreign investors poured a record Rs\u202f1.22\u202flakh crore into Indian equities in November, boosting market sentiment.",
           "forecast": {
-            "low": 0.7,
-            "high": 2.7,
+            "low": 0.8,
+            "high": 3.2,
             "direction": "+",
-            "text": "+0.7% to +2.7%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Jefferies increased its India allocation to 15%, signalling confidence in the broader equity market, including consumer staples.",
-          "forecast": {
-            "low": 0.7,
-            "high": 2.7,
-            "direction": "+",
-            "text": "+0.7% to +2.7%"
+            "text": "+0.8% to +3.2%"
           }
         }
       ]
@@ -97,7 +87,7 @@
       "drivers": [
         {
           "role": "main",
-          "text": "Reliance Industries\u2019 $1.6\u202fB biogas bet is likely to weigh on the Energy sector\u2019s valuation as investors reassess the company\u2019s exposure to renewable energy.",
+          "text": "Reliance Industries\u2019 $1.6\u202fB biogas investment is likely to lift the Energy sector\u2019s outlook by signalling a shift toward renewable energy within India\u2019s largest conglomerate.",
           "forecast": {
             "low": 2.3,
             "high": 5.3,
@@ -107,7 +97,7 @@
         },
         {
           "role": "supporting",
-          "text": "Foreign institutional inflows of Rs\u202f1.22\u202flakh crore into Indian equities are boosting overall market sentiment, potentially offsetting sector\u2011specific concerns.",
+          "text": "Record FII inflows of Rs\u202f1.22\u202flakh crore into Indian equities in November are boosting overall market sentiment, indirectly supporting energy stocks.",
           "forecast": {
             "low": 2.3,
             "high": 5.3,
@@ -117,7 +107,17 @@
         },
         {
           "role": "supporting",
-          "text": "The banking rally and record FIIs inflows are lifting the broader market, which could provide a cushion for Energy stocks despite the biogas bet\u2019s impact.",
+          "text": "The banking rally that lifted the Nifty and Sensex to nine\u2011month highs is reinforcing a broader bullish environment for the sector.",
+          "forecast": {
+            "low": 2.3,
+            "high": 5.3,
+            "direction": "+",
+            "text": "+2.3% to +5.3%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Reliance\u2019s share price jump of 14% after the biogas announcement is a direct positive catalyst for the Energy sector.\u201d",
           "forecast": {
             "low": 2.3,
             "high": 5.3,
@@ -130,47 +130,47 @@
     {
       "sector": "Financials",
       "read": "Bullish",
-      "score": 87,
+      "score": 93,
       "event_type": "default",
       "drivers": [
         {
           "role": "main",
           "text": "Banking rally is the primary driver of the bullish sentiment in the Financials sector.",
           "forecast": {
-            "low": 1.7,
-            "high": 4.3,
+            "low": 1.9,
+            "high": 4.6,
             "direction": "+",
-            "text": "+1.7% to +4.3%"
+            "text": "+1.9% to +4.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Record FII inflows of Rs\u202f1.12\u202flakh crore into Indian equities, fueling demand for financial stocks.",
+          "text": "Record FII inflows of Rs\u202f1.12\u202flakh crore into Indian equities, indicating strong foreign demand for financial stocks.",
           "forecast": {
-            "low": 1.7,
-            "high": 4.3,
+            "low": 1.9,
+            "high": 4.6,
             "direction": "+",
-            "text": "+1.7% to +4.3%"
+            "text": "+1.9% to +4.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Bank Nifty reaching a fresh record high, reflecting strong performance of major banks.",
+          "text": "Nifty and Sensex hitting nine\u2011month highs with bank stocks leading the rally, reflecting market confidence in the banking subsector.",
           "forecast": {
-            "low": 1.7,
-            "high": 4.3,
+            "low": 1.9,
+            "high": 4.6,
             "direction": "+",
-            "text": "+1.7% to +4.3%"
+            "text": "+1.9% to +4.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "HDFC Bank\u2019s 22% share price rebound adding \u20b92.38\u202flakh crore in market value, boosting the sector\u2019s valuation.",
+          "text": "HDFC Bank\u2019s 22% share price rebound and addition of \u20b92.38\u202flakh crore in market value, underscoring individual bank strength within the sector.",
           "forecast": {
-            "low": 1.7,
-            "high": 4.3,
+            "low": 1.9,
+            "high": 4.6,
             "direction": "+",
-            "text": "+1.7% to +4.3%"
+            "text": "+1.9% to +4.6%"
           }
         }
       ]
@@ -193,7 +193,7 @@
         },
         {
           "role": "supporting",
-          "text": "Foreign institutional investors poured a record Rs\u202f1.12\u202flakh crore into Indian equities, lifting overall market sentiment.",
+          "text": "Foreign Institutional Investors poured a record Rs\u202f1.12\u202flakh crore into Indian equities, boosting overall market sentiment.",
           "forecast": {
             "low": 2.0,
             "high": 4.9,
@@ -203,7 +203,7 @@
         },
         {
           "role": "supporting",
-          "text": "The banking sector\u2019s rally has lifted the broader market, creating a favorable backdrop for healthcare stocks.",
+          "text": "The banking sector\u2019s rally has lifted the broader market, indirectly supporting healthcare stocks.",
           "forecast": {
             "low": 2.0,
             "high": 4.9,
@@ -213,7 +213,7 @@
         },
         {
           "role": "supporting",
-          "text": "The Nifty and Sensex\u2019s nine\u2011month highs reflect a sustained bullish trend that benefits healthcare companies.\u201d",
+          "text": "Jefferies\u2019 decision to raise its India allocation to 15% signals growing confidence in Indian equities",
           "forecast": {
             "low": 2.0,
             "high": 4.9,
@@ -226,47 +226,47 @@
     {
       "sector": "Technology",
       "read": "Bullish",
-      "score": 91,
+      "score": 80,
       "event_type": "default",
       "drivers": [
         {
           "role": "main",
-          "text": "The Technology sector is benefiting from a strong overall market rally driven by record foreign institutional inflows and a banking sector surge, which is lifting investor sentiment toward tech stocks.",
+          "text": "Record FII inflows and a positive outlook for select IT stocks are driving the technology sector\u2019s bullish sentiment.",
           "forecast": {
-            "low": 2.7,
-            "high": 6.4,
+            "low": 2.4,
+            "high": 5.6,
             "direction": "+",
-            "text": "+2.7% to +6.4%"
+            "text": "+2.4% to +5.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Record FII inflows of Rs\u202f1.12\u20131.22 lakh crore into Indian equities are boosting equity valuations across sectors, including technology.",
+          "text": "Foreign investors poured a record Rs\u202f1.22\u202flakh crore into Indian equities in November, lifting overall market momentum",
           "forecast": {
-            "low": 2.7,
-            "high": 6.4,
+            "low": 2.4,
+            "high": 5.6,
             "direction": "+",
-            "text": "+2.7% to +6.4%"
+            "text": "+2.4% to +5.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "The banking rally, highlighted by Nifty and Sensex reaching nine\u2011month highs, is lifting risk appetite and supporting tech shares.",
+          "text": "HSBC has favoured financials, consumption and select IT stocks, signalling confidence in the sector",
           "forecast": {
-            "low": 2.7,
-            "high": 6.4,
+            "low": 2.4,
+            "high": 5.6,
             "direction": "+",
-            "text": "+2.7% to +6.4%"
+            "text": "+2.4% to +5.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "HSBC\u2019s positive outlook on select IT stocks signals institutional confidence in the technology subsector, reinforcing the bullish stance.",
+          "text": "Jefferies raised its India allocation to 15%, reflecting growing investor interest in Indian equities",
           "forecast": {
-            "low": 2.7,
-            "high": 6.4,
+            "low": 2.4,
+            "high": 5.6,
             "direction": "+",
-            "text": "+2.7% to +6.4%"
+            "text": "+2.4% to +5.6%"
           }
         }
       ]

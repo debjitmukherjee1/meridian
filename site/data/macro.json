@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22 03:58 UTC",
+  "updated_at": "2026-11-22 04:03 UTC",
   "markets": {
     "IN": {
       "cpi": {
@@ -1138,7 +1138,7 @@
           }
         ]
       },
-      "narrative": "India\u2019s economy is running at a solid growth rate of 7.57% while keeping inflation comfortably low at 2.4% YoY, indicating a stable price environment. The labor market remains tight with unemployment at 4.22%, and the central bank\u2019s policy rate of 5.5% reflects a cautious stance to support growth without stoking inflation. The currency is trading at 92.68 INR per USD, suggesting a moderately strong exchange rate backdrop."
+      "narrative": "India\u2019s economy is running at a solid growth pace of 7.57% while keeping inflation comfortably low at 2.4% YoY, indicating a well\u2011balanced macro environment. The labor market remains tight with unemployment at 4.22%, and the central bank\u2019s policy rate of 5.5% reflects a cautious stance to preserve price stability as the currency trades near 92.68 INR per USD."
     },
     "US": {
       "cpi": {
@@ -1491,7 +1491,7 @@
         "series": [],
         "note": "USD is Meridian's reference currency for this comparison; no vs-USD series applies."
       },
-      "narrative": "Inflation remains modest at 2.95% year\u2011over\u2011year, while real GDP growth is healthy at 2.16% and unemployment is low at 4.2%, indicating a solid labor market. The central bank\u2019s policy rate of 3.88% reflects a cautious stance aimed at sustaining growth while keeping inflation in check."
+      "narrative": "Inflation remains modest at 2.95% year\u2011over\u2011year, suggesting a stable price environment. Economic growth is solid at 2.16% and the labor market is tight with unemployment at 4.2%, while the central bank\u2019s policy rate sits at 3.88%, indicating a cautious but supportive stance."
     },
     "UK": {
       "cpi": {
@@ -2630,7 +2630,7 @@
           }
         ]
       },
-      "narrative": "Inflation remains modest at 3.88% year\u2011on\u2011year, while real GDP growth of 1.39% indicates a modest expansionary momentum. Unemployment sits at 4.75%, suggesting a relatively tight labor market, and the central bank\u2019s policy rate of 4.0% reflects a cautious stance amid these conditions. The pound trades at 1.3125 USD, indicating a stable but slightly weaker currency position."
+      "narrative": "Inflation remains moderate at 3.88% year\u2011on\u2011year, while real GDP growth of 1.39% indicates a modest expansion. Unemployment sits at 4.75%, suggesting a relatively tight labor market, and the central bank\u2019s policy rate of 4.0% reflects a cautious stance to keep inflation in check. The pound trades at 1.3125 USD, indicating a stable but slightly weaker currency against the dollar."
     },
     "JP": {
       "cpi": {
@@ -3769,7 +3769,7 @@
           }
         ]
       },
-      "narrative": "Japan\u2019s inflation remains above the 2% target, running at 3.17% year\u2011on\u2011year, while real GDP growth is modest at 1.19%. The labor market is tight with unemployment at 2.45%, and the central bank\u2019s policy rate sits at 1.25%, reflecting a cautious stance amid a relatively weak growth trajectory. The yen is trading around 158.64 per dollar, indicating a mild depreciation against the U.S. dollar."
+      "narrative": "Japan\u2019s inflation remains modestly above the 2% target, with a 3.17% year\u2011over\u2011year CPI, while real GDP growth of 1.19% indicates a modest expansionary momentum. The labor market is tight, with unemployment at 2.45%, and the Bank of Japan\u2019s policy rate sits at 1.25%, signalling a cautious stance amid a relatively stable yen at 158.64 per dollar."
     }
   }
 }

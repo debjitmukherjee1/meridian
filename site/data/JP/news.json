@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22 03:58 UTC",
+  "updated_at": "2026-11-22 04:03 UTC",
   "market": "JP",
   "items": [
     {
@@ -9,7 +9,7 @@
       "published": "2026-11-22 03:18 UTC",
       "sector": "Market",
       "tone": 2.0,
-      "note": "Japan company\u2019s expansion signals growth optimism."
+      "note": "Japan company\u2019s expansion hints at growth potential."
     },
     {
       "title": "North Korea postpones 2027 Pyongyang International Marathon",
@@ -18,7 +18,7 @@
       "published": "2026-11-22 03:08 UTC",
       "sector": "Market",
       "tone": 0.0,
-      "note": "North Korea event unrelated to Japanese market."
+      "note": "North Korea event unrelated to Japan market."
     },
     {
       "title": "AP TOPIX Maryland USC Football",
@@ -36,7 +36,7 @@
       "published": "2026-11-22 02:44 UTC",
       "sector": "Market",
       "tone": -1.0,
-      "note": "China\u2019s telecom ban may raise geopolitical risk."
+      "note": "China\u2019s telecom ban may pressure Japanese tech exports."
     },
     {
       "title": "Hello Kitty owner Sanrio bets on games to expand global reach",
@@ -45,7 +45,7 @@
       "published": "2026-11-22 02:09 UTC",
       "sector": "Market",
       "tone": 1.0,
-      "note": "Sanrio\u2019s gaming push could boost earnings."
+      "note": "Sanrio\u2019s gaming push could boost brand value."
     },
     {
       "title": "Australia criticizes US Congressional Budget Office over AUKUS comments",
@@ -54,7 +54,7 @@
       "published": "2026-11-22 01:19 UTC",
       "sector": "Market",
       "tone": 0.0,
-      "note": "Australia\u2019s criticism of US policy irrelevant to Japan."
+      "note": "Australia\u2019s AUKUS criticism unrelated to Japan."
     },
     {
       "title": "SoftBank Shares Plunge 14.48% as Anthropic IPO Triggers Wider Asian AI Stock Sell-Off",
@@ -62,8 +62,8 @@
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPeUcwcHVqR1hQelZWQlR1Wl9Wc1Jfc2FrYktFTXl3aGtSb2hxeVR2ZmNEaFZGOVN1b1l0SjdPcEc1WTdHWEh6UVAtRFpWaDhMYy0xcDlfRllWcVoyS1hXc2xDZlVGdXk1NDFjZVpIXzktbzFqaVNiTjIwa1NydzVvSnlnNUhHbmdqc0JaWjFBUGdSRUJKQm9KUkx1WlQ2c3NDeHAxcVZPZG5uVDNnZkE?oc=5",
       "published": "2026-11-21 14:49 UTC",
       "sector": "Technology",
-      "tone": -4.0,
-      "note": "SoftBank shares plunge, signaling a sharp sell\u2011off in AI\u2011related tech."
+      "tone": -5.0,
+      "note": "SoftBank shares plunge, signaling panic in AI exposure."
     },
     {
       "title": "SoftBank Shares Retreat as Investors Rethink the Price of AI Exposure",
@@ -71,8 +71,8 @@
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdGdnRnltT2ZKS3NSNUlRR05iRnhsTTZTb3d5YmVIX2R6VjhfY3NUOWJ6Vm1qSmdfeDNxMWpZZVIxdlVkS2RJU1VmZ1N1anhDMV90U0txaGNucWZncmg2c1dJanc1aDJzOUZoaGZSYjNIOWZuNFQ5YTBtOWlwTVRobTI0dkhqRldOUURSRlFxNVJtZzQtbmVVdWJ0ZWVjdE5waHZacWVsUDBmODgwYlJQVWc1MVBPZC1TaWdvTE10MDIzcW9oczliOFMxV3ctY2NmLXVabWUxdFU?oc=5",
       "published": "2026-11-20 17:01 UTC",
       "sector": "Technology",
-      "tone": -3.0,
-      "note": "Investors rethink AI exposure, indicating growing caution in tech."
+      "tone": -4.0,
+      "note": "Investors rethink AI price, indicating negative outlook."
     },
     {
       "title": "SoftBank shares crash 14.5%, biggest 1-day fall in 2 years: Why Anthropic's strong IPO debut failed to revive AI trade",
@@ -80,8 +80,8 @@
       "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPSGZmVnNEVTBXTEZkSWw2aG55YXM3Rk5lNS1rSVFOalJEbWNBbHlSaGdncUlXX1BnN2M2NE41T1BLbGplMWV2WkpxTVFhWlpqaEJUcWg4c2o0amVUV0ViMlVqQ3U1UGtFcTV1YzNiU3JKa2Yxa0RHbGNaMHE5MTVjUHFzZDUzc3BseVJ6VXlTNmFTaDhrYV8tUEdHdEY2bWR0LXpkOUFrckZXSzVUTVQ5M1hCdHFIVV9ZZGdSc0xOVFNROG5nMGU2bmR3QmFRUXFvekg3TTFvMGtITDBtVVF4bF9aUUVFMVRoX1JqWHQzMHh5OTNLdkZENHZHdGpTcFlZVHk1TG5QYS1hYUdMOEZqZ3hn0gGXAkFVX3lxTE1qNkxQbHV6dUMyMVFWOXNqLS1KWVA4T19hcDdyTjlaenZyaklIQk1uVXRPSmlFWVZtbkZ4VmVVbGxJd3VGMEpmZGRRZHRaV1dQZnkybmVlbnltamlZY2lJc20xTEY4U09udnRyLUtmemtMOEI3LVlBeWN4ZmZ6QkpTdWJkS0VFdGRSVklkNTZCTzhqaFFKazZBUE9GZEJWQVgtRVBjdy1jd01CVm9HbE80eTZzblIwd3A1dzRCdGFORGhqNUMtb0w0aEh6TEJoMVNwSXl5RU1wMkd4NVRPMk5CN0dWQjl3QTRSY0VzTlo1MTJvRHUxX1JSck0wRkdvRVVHTHFjRkxHZ3E5c1NlbTRpT1BlbjJrSQ?oc=5",
       "published": "2026-11-20 12:54 UTC",
       "sector": "Technology",
-      "tone": -4.0,
-      "note": "Largest 1\u2011day fall, reflecting deep fear in the tech sector."
+      "tone": -5.0,
+      "note": "Largest 1\u2011day fall, reflecting severe market distress."
     },
     {
       "title": "Masayoshi Son's Big OpenAI Bet Faces a New Test as SoftBank Shares Crash",
@@ -89,8 +89,8 @@
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQV1pVb0pabTI4UXo1bVNHMmI5SXA2V05NZm1FaU5oMVJxYWdzdTJCbmFhZmlKVDQ4S1kxb21RZFZQZ2syOFUzemhWWkVTeG9HdmlPQVlkTG9qY3BRdTY4SEFQckdlWWItdFlNYV84Y016S0pkNUFEcEkxSGlidzhYWTFwZ1hnSXcxbTd5dWFMU3Z0NmRHam95cw?oc=5",
       "published": "2026-11-20 11:21 UTC",
       "sector": "Technology",
-      "tone": -3.0,
-      "note": "Son\u2019s bet under scrutiny, dampening confidence in tech investments."
+      "tone": -4.0,
+      "note": "Son\u2019s bet under pressure, dampening confidence."
     },
     {
       "title": "SoftBank Shares Plunge 14.48 Percent in Asian Tech Sell-Off",
@@ -98,8 +98,8 @@
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBfQnVmZHN4YlJSMUl3aGhOUEl6RGpYQ0NReXVBaXhBNFkycHNIY0dSbGNENEYzcVg1WXpBWHZrdXdJcEtPUDF6TlJuNjZ1enp4SlN5VjVLR0Nfdng3cEpqU3NGdFR2SG5Eb1JiYU1n?oc=5",
       "published": "2026-11-20 11:05 UTC",
       "sector": "Technology",
-      "tone": -4.0,
-      "note": "Repeated plunge highlights sustained bearish sentiment."
+      "tone": -5.0,
+      "note": "Plunge tied to broader tech sell\u2011off, bearish."
     },
     {
       "title": "SoftBank shares slump 15% as AI worries drown Asian chipmaker stocks",
@@ -107,8 +107,8 @@
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbEhJdlNWbHAyLW03dTF6S2lFMlV6TllfTXRHelpwakRKanVhQkhhVm1LYUtPenYyWHlEcVMxVU9PMUNrWUlFdUp0b19hc0RIVDdEM3k5M2lQM0l2bG81cG51ZzVVc0drR01oaGl5RTZHZkNEblF0S3JuTFlyQ1pUdkstWFNVQjJUODczWm9JSkhfc2FOMDAzR2tFT01EZkRPNUxYTllB?oc=5",
       "published": "2026-11-20 07:35 UTC",
       "sector": "Technology",
-      "tone": -4.0,
-      "note": "AI worries drown chipmakers, underscoring sector-wide pessimism."
+      "tone": -5.0,
+      "note": "AI worries drown chipmakers, confirming negative sentiment."
     },
     {
       "title": "Mitsubishi UFJ Financial Group Inc (MUFG) Shares Fall 4.9% -- Wh",
@@ -117,7 +117,7 @@
       "published": "2026-11-20 23:04 UTC",
       "sector": "Financials",
       "tone": -3.0,
-      "note": "MUFG shares drop 4.9%, signaling weak investor confidence."
+      "note": "MUFG shares fell 4.9%, indicating negative sentiment for the sector."
     },
     {
       "title": "Japan's bank shares slide even as Ueda vows more rate rises",
@@ -126,7 +126,7 @@
       "published": "2026-11-20 09:29 UTC",
       "sector": "Financials",
       "tone": -2.0,
-      "note": "Bank shares slide despite rate hikes, indicating persistent sector concerns."
+      "note": "Bank shares slide despite Ueda\u2019s rate rise pledge, reflecting broader sector weakness."
     },
     {
       "title": "Honda and Toyota recall 1.6 million vehicles over a dangerous component | \u0423\u041d\u041d",
@@ -134,8 +134,8 @@
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZWpkbGpzUmFCR1NkeGg1RElEVWdsaDdsMEswRjhtTURiQVNCdU5meEo2OVhKaUdFMEt1bjNrZkVWZGR4cUNqd2UzTVhEdGtRZFZLbG0wSFlMaW5wSTJHNk9PcDNkMFZmWmlJMDBGdDc2cWFCbGlHdEQ2OWdPQXBtb0V1WjVhTkk?oc=5",
       "published": "2026-11-22 03:12 UTC",
       "sector": "Consumer Discretionary",
-      "tone": -3.0,
-      "note": "Massive recall signals quality issues, hurting brand confidence."
+      "tone": -5.0,
+      "note": "Massive recall signals safety issues, eroding brand trust."
     },
     {
       "title": "Honda and Toyota recall 1.6 million vehicles over a dangerous component",
@@ -143,8 +143,8 @@
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOY1IyY2ctTDBJMjBRcllSdmZsdnd5cldOZlJacEpERWd0VVc1WlAyOXBxaS1nQTdtWXZpdUVsaE93Ukxib2VxU2JtSm0yZXJfTmU2S2JkTllYRU1ROU5HNXFORjJXOUxoUnpTZGZlaWlSaG5hazNISURjMmFiTWRybHktSVI2aVEzdTZ1Vk5xOWtNQWlqMjdCLdIBlwFBVV95cUxQUzZUNG5GVm9QV1lJanQyR3pTQkd1cG50UlkzeVRXZHdsM2UzRGRWVk5UOFA0Q2tVMDZ4eUwwN2JXVjBHMm1Ma0VHSGRPWTY2YWhWOFoxNjBJY3o3aXBCRkdNTjZCZ1V2T0R2OERxbWw1b3hQcWVYWGhVaFUtV3FqT191T2FCcklTUUFjWVVFRXBYTWRRRjlJ?oc=5",
       "published": "2026-11-22 02:55 UTC",
       "sector": "Consumer Discretionary",
-      "tone": -3.0,
-      "note": "Duplicate recall headline reinforces negative perception."
+      "tone": -5.0,
+      "note": "Same recall, repeated negative impact."
     },
     {
       "title": "Toyota And Nissan Admit Their American-Made Vehicles Aren't Up To Japanese Standards",
@@ -153,7 +153,7 @@
       "published": "2026-11-21 19:13 UTC",
       "sector": "Consumer Discretionary",
       "tone": -4.0,
-      "note": "American-made cars not meeting standards highlights export quality concerns."
+      "note": "Non-compliance with standards damages reputation."
     },
     {
       "title": "Six Japanese Automakers Pledge Additional THB 134 Billion Investment in Thailand After Government Sets 35% Import Tax",
@@ -161,17 +161,8 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5lOGlqT2NNcks5Nlpvd0lRNVhobDhza2NIdjB4QUt6OUxPd0tVVjdRZDFaTDlXYUJaNkxJalMzYmNtQVZRaGR0SFN1WGFkblpwc1F3RkwzNXBKTy1QUlhlV1JlNmNLeEltMzlHaEYxWTJrMGtmcmc?oc=5",
       "published": "2026-11-21 18:55 UTC",
       "sector": "Consumer Discretionary",
-      "tone": 3.0,
-      "note": "Large investment in Thailand shows growth commitment."
-    },
-    {
-      "title": "Toyota, Nissan and Honda Team Up to Cut Costs With Shared Parts Standards",
-      "source": "CediRates",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQ1BhNl94eU1uQWNUdHJwNmtUbXpmN0pIbUR4ZnlzVUNKODNfN3JEMjRuZlNEbXBYS3poNWcySmsyTE9weGZqVHRyZmMzSmxnNWl4WVJXVEN2bHVzZ0VBQ0gyblF5NU5mOEFDaVRlLTRVdVhtWHpGWllFeVdfMDE2c29XWU54cjFUZzQ4ZC1xQ0syZ3kxSUYxcDR3OFdTTVlj?oc=5",
-      "published": "2026-11-21 09:06 UTC",
-      "sector": "Consumer Discretionary",
-      "tone": 4.0,
-      "note": "Shared parts standards cut costs, improving profitability."
+      "tone": 0.0,
+      "note": "Investment pledge unrelated to consumer discretionary."
     },
     {
       "title": "Honda, Toyota recall 1.6m vehicles over Takata airbag rupture risk",
@@ -179,26 +170,35 @@
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQUVfLWZUQWhvSjhPOHF6RWtSZ3dsOFBvWWkzMjA0aGNIQjFUOTZrbzR5WUVSQ2RPbVBtN0JnWmlTZVpaZkJFZkY2djE2bVNWdWFwMFRwVGIzakdOUUZuWlNha1hBcUZ3NTFwYlVaRHcyTEdfYkVuSHhjS1N1a3ppSm5qclpEWHBNUUVUNzNxajBPaVpkNFdwQ3E0d3RGQlhaLXROVTdRazJHMFRGMlZz?oc=5",
       "published": "2026-11-21 03:01 UTC",
       "sector": "Consumer Discretionary",
-      "tone": -3.0,
-      "note": "Takata airbag risk recall further erodes safety reputation."
+      "tone": -5.0,
+      "note": "Airbag risk recall further damages safety perception."
+    },
+    {
+      "title": "Hyundai, Honda feature US hybrids at auto show amid investment wave",
+      "source": "Nikkei Asia",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQV3JOX3BMMW9EYjZTekZmSzZVTHlqaVgxZ3I0dEtPQ2wzVHQyYWc4cnY0MTJFNEwyLTR5T3JrZjBBbEZqeVQ2WXVyU2tPc0FKMWRTQ05vNmNqNWJIT0g1dE9zbEtvLVE1MDBrM09tb3l6S09kQmlnTElKbFJvaHVrazI0T0lWMVV4c1pBRUJFSHlRZktsdFBndDYyZEVLR1BPZ1VPMWk1X2lETkd6bWM0cA?oc=5",
+      "published": "2026-11-20 17:56 UTC",
+      "sector": "Consumer Discretionary",
+      "tone": 0.0,
+      "note": "Hyundai feature unrelated to Japanese consumer discretionary."
     },
     {
       "title": "Takeda (TSE:4502) Stock May Look Reasonable Despite Its ORZEYFUL Launch",
       "source": "Bing News",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b02691d4fe643f9b34e883a8076c5fb&url=https%3a%2f%2ffinance.yahoo.com%2fhealthcare%2farticles%2ftakeda-tse-4502-stock-may-181656317.html&c=10080016652064733742&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b026a751ae3415589dbb0828401adff&url=https%3a%2f%2ffinance.yahoo.com%2fhealthcare%2farticles%2ftakeda-tse-4502-stock-may-181656317.html&c=10080016652064733742&mkt=en-us",
       "published": "2026-11-19 10:16 UTC",
       "sector": "Healthcare",
       "tone": 2.0,
-      "note": "Takeda\u2019s new drug launch boosts confidence in sector growth."
+      "note": "Takeda\u2019s new drug launch boosts confidence in Japan\u2019s healthcare innovation."
     },
     {
       "title": "[Supply and Demand Analysis] Mitsubishi Corporation (8058) \u2014 Why the stock price doesn't rise despite a 1 trillion yen share buyback",
       "source": "Bing News",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0269239daa4cddb724b60c3e5a78c7&url=https%3a%2f%2fnote.com%2fglad_fish3272%2fn%2fn6103267d3a47%3fhl%3den&c=1859866198025509219&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b026a7a024345308ea26e5c99cc9db9&url=https%3a%2f%2fnote.com%2fglad_fish3272%2fn%2fn6103267d3a47%3fhl%3den&c=1859866198025509219&mkt=en-us",
       "published": "2026-11-19 23:49 UTC",
       "sector": "Energy",
-      "tone": 2.0,
-      "note": "Share buyback signals confidence, but lack of price rise suggests market doubts."
+      "tone": 0.0,
+      "note": "Headline unrelated to Energy sector."
     }
   ]
 }
