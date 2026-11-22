@@ -88,6 +88,7 @@ def _manual_policy_rate(market, manual, reason):
         "as_of": m["as_of"], "latest": m["rate_pct"],
         "series": [{"date": m["as_of"], "value": m["rate_pct"]}],
         "note": note,
+        "last_move": m.get("note"),
     }
 
 
@@ -378,6 +379,18 @@ def _fred_series(series_id):
     return points
 
 
+def _series_move(series):
+    """Plain description of the latest change in a monthly policy-rate
+    series, so the narrative can say 'raised' or 'held' correctly."""
+    latest = series[-1]["value"]
+    for pt in reversed(series[:-1]):
+        if abs(pt["value"] - latest) >= 0.05:
+            verb = "rose" if latest > pt["value"] else "fell"
+            return (f"Rate {verb} from {pt['value']}% ({pt['date'][:7]}) to {latest}% "
+                    f"({series[-1]['date'][:7]}).")
+    return f"Rate unchanged at {latest}% across the last {len(series)} months."
+
+
 def _policy_rate(market, manual):
     series_id = config.FRED_POLICY_RATE_SERIES.get(market)
     if not series_id:
@@ -391,6 +404,7 @@ def _policy_rate(market, manual):
             "source": f"FRED ({series_id})",
             "as_of": series[-1]["date"], "latest": series[-1]["value"],
             "series": series,
+            "last_move": _series_move(series),
         }
     except Exception as e:
         print(f"[macro] {market} FRED policy rate failed ({e}); using manual fallback")
@@ -427,11 +441,15 @@ def _groq_macro_narrative(market, data):
         f"- Real GDP growth: {data['gdp_growth']['latest']}% (as of {data['gdp_growth']['as_of']})\n"
         f"- Unemployment: {data['unemployment']['latest']}% (as of {data['unemployment']['as_of']})\n"
         f"- Central-bank policy rate: {data['policy_rate']['latest']}% (as of {data['policy_rate']['as_of']})\n"
+        f"- Most recent policy action: {data['policy_rate'].get('last_move') or 'not given'}\n"
         f"{fx_line}\n\n"
         f"Write a 2-3 sentence plain-English 'macro read' describing the overall backdrop these "
         f"figures paint -- inflation trend, growth momentum, labor-market slack, policy stance. "
         f"The figures have different as-of dates; if one is more than a year older than the "
         f"others, say so rather than treating it as current. Ignore any figure shown as None. "
+        f"Describe the policy stance from the 'most recent policy action' line: say raised, cut "
+        f"or held as it states, and never say the rate was kept or held if that line says it was "
+        f"raised or cut. "
         f'Return JSON exactly like: {{"narrative": "..."}}'
     )
     import score_sentiment  # shared caller: current model list, rate-limit retries
