@@ -391,7 +391,44 @@ def _series_move(series):
     return f"Rate unchanged at {latest}% across the last {len(series)} months."
 
 
+def _fed_target_range():
+    """Midpoint of the FOMC target range from FRED's daily lower/upper bound
+    series. These step on the decision's effective date, so last_move names
+    the actual hike or cut (FEDFUNDS, the monthly average, made a 16-Sep
+    hike read as a September-to-October rise)."""
+    lo = {p["date"]: p["value"] for p in _fred_series("DFEDTARL")}
+    hi = {p["date"]: p["value"] for p in _fred_series("DFEDTARU")}
+    days = sorted(set(lo) & set(hi))
+    if not days:
+        raise RuntimeError("no overlapping DFEDTARL/DFEDTARU observations")
+    mids = [(d, round((lo[d] + hi[d]) / 2, 3)) for d in days]
+    # chart: last value of each month, plus the latest day
+    by_month = {}
+    for d, v in mids:
+        by_month[d[:7]] = (d, v)
+    series = [{"date": d, "value": v} for d, v in sorted(by_month.values())]
+    if series[-1]["date"] != mids[-1][0]:
+        series.append({"date": mids[-1][0], "value": mids[-1][1]})
+    d_last, v_last = mids[-1]
+    move = f"Target range unchanged at {lo[d_last]:.2f}%-{hi[d_last]:.2f}% over the period shown."
+    for (d0, v0), (d1, v1) in zip(reversed(mids[:-1]), reversed(mids[1:])):
+        if v1 != v0:
+            verb = "raised" if v1 > v0 else "cut"
+            move = (f"FOMC {verb} the target range to {lo[d1]:.2f}%-{hi[d1]:.2f}% "
+                    f"(effective {d1}); unchanged since.")
+            break
+    return {"label": "Policy Rate", "frequency": "as announced", "unit": "%",
+            "source": "FRED (DFEDTARL/DFEDTARU, FOMC target range midpoint)",
+            "as_of": d_last, "latest": v_last, "series": series[-60:],
+            "last_move": move}
+
+
 def _policy_rate(market, manual):
+    if market == "US" and config.FRED_KEY and not config.MOCK_MODE:
+        try:
+            return _fed_target_range()
+        except Exception as e:
+            print(f"[macro] US Fed target range failed ({e}); trying FEDFUNDS")
     series_id = config.FRED_POLICY_RATE_SERIES.get(market)
     if not series_id:
         return _manual_policy_rate(market, manual, "no reliable FRED series for this market")
@@ -428,6 +465,16 @@ def _fallback_narrative(market, data):
             f"{bit('unemployment', une)}, {bit('policy rate', pr)}.{fx_bit}")
 
 
+def _when(ind):
+    """Value plus its period for the prompt. Annual figures are flagged so
+    the narrative names the year instead of presenting them as current."""
+    if ind.get("latest") is None:
+        return "None (unavailable)"
+    if ind.get("frequency") == "annual":
+        return f"{ind['latest']}% (ANNUAL figure for {ind['as_of']}, not a recent month)"
+    return f"{ind['latest']}% (as of {ind['as_of']})"
+
+
 def _groq_macro_narrative(market, data):
     name = config.MARKETS[market]["name"]
     fx = data.get("fx", {})
@@ -437,9 +484,9 @@ def _groq_macro_narrative(market, data):
     prompt = (
         f"You are a macro analyst. Here is {name}'s current macro backdrop -- use ONLY these "
         f"figures, do not state any other numeric statistic and do not make a numeric forecast:\n"
-        f"- CPI inflation (YoY): {data['cpi']['latest']}% (as of {data['cpi']['as_of']})\n"
-        f"- Real GDP growth: {data['gdp_growth']['latest']}% (as of {data['gdp_growth']['as_of']})\n"
-        f"- Unemployment: {data['unemployment']['latest']}% (as of {data['unemployment']['as_of']})\n"
+        f"- CPI inflation (YoY): {_when(data['cpi'])}\n"
+        f"- Real GDP growth: {_when(data['gdp_growth'])}\n"
+        f"- Unemployment: {_when(data['unemployment'])}\n"
         f"- Central-bank policy rate: {data['policy_rate']['latest']}% (as of {data['policy_rate']['as_of']})\n"
         f"- Most recent policy action: {data['policy_rate'].get('last_move') or 'not given'}\n"
         f"{fx_line}\n\n"
@@ -447,6 +494,8 @@ def _groq_macro_narrative(market, data):
         f"figures paint -- inflation trend, growth momentum, labor-market slack, policy stance. "
         f"The figures have different as-of dates; if one is more than a year older than the "
         f"others, say so rather than treating it as current. Ignore any figure shown as None. "
+        f"Whenever you mention a figure marked ANNUAL, state its year in the same sentence "
+        f"(e.g. '3.2% in 2025'). "
         f"Describe the policy stance from the 'most recent policy action' line: say raised, cut "
         f"or held as it states, and never say the rate was kept or held if that line says it was "
         f"raised or cut. "
