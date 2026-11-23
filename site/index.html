@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
   <!-- Google tag (gtag.js) -->
+  <script src="js/vendor/purify.min.js?v=3.5.0"></script>
+  <script src="js/security.js?v=1"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-019N8X8CC8"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -10,6 +12,8 @@
     gtag('config', 'G-019N8X8CC8');
   </script>
   <meta charset="UTF-8" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-0KU8hvUS2MlSrhllRY68AFXq/Nvku+Wvxz0X9o0Z7Vo=' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://www.googletagmanager.com https://*.google-analytics.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; require-trusted-types-for 'script'; trusted-types default dompurify; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Meridian — Sentiment-Adjusted Valuation</title>
   <meta name="description" content="A market-research house that valuates companies through both classical finance and the prevailing sentiment of the market." />

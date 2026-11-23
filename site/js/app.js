@@ -168,9 +168,9 @@ function renderHeatmap() {
     cell.style.background = `linear-gradient(180deg, ${c}22, transparent)`;
     cell.style.borderColor = c;
     cell.innerHTML = `
-      <div class="sector-name">${s.name}</div>
+      <div class="sector-name">${escapeHtml(s.name)}</div>
       <div class="sector-score" style="color:${c}">${s.score}</div>
-      <div class="sector-sub" style="color:${c}">${s.label}</div>`;
+      <div class="sector-sub" style="color:${c}">${escapeHtml(s.label)}</div>`;
     el.appendChild(cell);
   });
   attachTiltAll("#heatmap .heat-cell");

@@ -1,0 +1,22 @@
+name: Security guard
+
+# Fails if any published page loses its Content-Security-Policy, Trusted Types
+# enforcement or the sanitizer bootstrap (see scripts/security_guard.py).
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Check every page
+        run: python3 scripts/security_guard.py "site"
