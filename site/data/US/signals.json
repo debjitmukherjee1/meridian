@@ -1,262 +1,252 @@
 {
-  "updated_at": "2026-11-23 04:45 UTC",
+  "updated_at": "2026-11-23 17:14 UTC",
   "market": "US",
-  "macro_theme": "Consumer demand signals dominate headlines",
+  "macro_theme": "Rate-policy commentary dominates headlines",
   "signals": [
     {
       "sector": "Consumer Discretionary",
-      "read": "Neutral",
-      "score": 48,
-      "event_type": "demand_shock",
+      "read": "Bullish",
+      "score": 69,
+      "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "Mixed sentiment in Consumer Discretionary is driven by uneven retail demand and AI\u2011related valuation pressures.",
+          "text": "Nvidia\u2019s unexpected return of CEO Jensen Huang has sparked a broad AI\u2011driven rally, lifting the Consumer Discretionary sector.",
           "forecast": {
-            "low": 2.6,
-            "high": 5.7,
-            "direction": "-",
-            "text": "-2.6% to -5.7%"
+            "low": 2.8,
+            "high": 6.2,
+            "direction": "+",
+            "text": "+2.8% to +6.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "Great Britain\u2019s retail sales rebound of 0.7% in October signals a modest demand uptick for discretionary goods.",
+          "text": "Retail names such as SharkNinja, Target and eBay have held up amid the market sell\u2011off, providing a defensive lift to the sector.",
           "forecast": {
-            "low": 2.6,
-            "high": 5.7,
-            "direction": "-",
-            "text": "-2.6% to -5.7%"
+            "low": 2.8,
+            "high": 6.2,
+            "direction": "+",
+            "text": "+2.8% to +6.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "South Africa\u2019s slowing retail sales growth indicates mounting consumer pressure and weaker demand in that market.",
+          "text": "Amazon\u2019s stock surge has added further upside momentum for consumer\u2011facing retailers.",
           "forecast": {
-            "low": 2.6,
-            "high": 5.7,
-            "direction": "-",
-            "text": "-2.6% to -5.7%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "The AI sell\u2011off, highlighted by concerns over Anthropic\u2019s debt and Nasdaq 100 valuation fears, is weighing on technology\u2011related discretionary stocks.",
-          "forecast": {
-            "low": 2.6,
-            "high": 5.7,
-            "direction": "-",
-            "text": "-2.6% to -5.7%"
+            "low": 2.8,
+            "high": 6.2,
+            "direction": "+",
+            "text": "+2.8% to +6.2%"
           }
         }
       ]
     },
     {
       "sector": "Consumer Staples",
-      "read": "Neutral",
-      "score": 53,
-      "event_type": "demand_shock",
+      "read": "Bullish",
+      "score": 65,
+      "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "Demand shock from shifting consumer preferences and supply\u2011chain disruptions is weighing on the Consumer Staples sector.",
+          "text": "The Consumer Staples sector remains bullish primarily due to a favorable rates environment.",
           "forecast": {
-            "low": 1.1,
-            "high": 2.7,
+            "low": 1.3,
+            "high": 2.6,
             "direction": "+",
-            "text": "+1.1% to +2.7%"
+            "text": "+1.3% to +2.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "AI sell\u2011off spreading to Asia has pressured related supply chains, affecting staples\u2019 input costs.",
+          "text": "Nvidia\u2019s strong performance and Jensen Huang\u2019s return have lifted the broader market, indirectly supporting consumer staples stocks.",
           "forecast": {
-            "low": 1.1,
-            "high": 2.7,
+            "low": 1.3,
+            "high": 2.6,
             "direction": "+",
-            "text": "+1.1% to +2.7%"
+            "text": "+1.3% to +2.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Lowered 2028 memory forecasts signal reduced tech spending, indirectly tightening capital allocation for staples\u2019 marketing and distribution.",
+          "text": "The EU antitrust probe into a Coca\u2011Cola bottler introduces short\u2011term uncertainty for the sector, but the overall positive sentiment outweighs it.",
           "forecast": {
-            "low": 1.1,
-            "high": 2.7,
+            "low": 1.3,
+            "high": 2.6,
             "direction": "+",
-            "text": "+1.1% to +2.7%"
+            "text": "+1.3% to +2.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Asian shares falling after the S&P 500 correction reflects broader market volatility that dampens consumer confidence and spending on staples.",
+          "text": "Volatility surges in the US stock indexes have prompted investors to seek the stability of consumer staples, reinforcing the bullish stance.",
           "forecast": {
-            "low": 1.1,
-            "high": 2.7,
+            "low": 1.3,
+            "high": 2.6,
             "direction": "+",
-            "text": "+1.1% to +2.7%"
+            "text": "+1.3% to +2.6%"
           }
         }
       ]
     },
     {
       "sector": "Energy",
-      "read": "Bearish",
-      "score": 29,
-      "event_type": "demand_shock",
+      "read": "Neutral",
+      "score": 58,
+      "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "Oil prices are falling, driving a bearish outlook for the Energy sector.",
+          "text": "Oil prices rise over an unexpected fall in US stocks, lifting the Energy sector.",
           "forecast": {
-            "low": 3.5,
-            "high": 8.5,
-            "direction": "-",
-            "text": "-3.5% to -8.5%"
+            "low": 1.2,
+            "high": 2.9,
+            "direction": "+",
+            "text": "+1.2% to +2.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "Global market sell\u2011off is pushing oil prices lower.",
+          "text": "Oil prices rise over unexpected fall in US stocks",
           "forecast": {
-            "low": 3.5,
-            "high": 8.5,
-            "direction": "-",
-            "text": "-3.5% to -8.5%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Rising security risks in the Gulf are adding uncertainty to supply.",
-          "forecast": {
-            "low": 3.5,
-            "high": 8.5,
-            "direction": "-",
-            "text": "-3.5% to -8.5%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Gulf suppliers are adapting, which may further ease oil prices in 2027.",
-          "forecast": {
-            "low": 3.5,
-            "high": 8.5,
-            "direction": "-",
-            "text": "-3.5% to -8.5%"
+            "low": 1.2,
+            "high": 2.9,
+            "direction": "+",
+            "text": "+1.2% to +2.9%"
           }
         }
       ]
     },
     {
       "sector": "Financials",
-      "read": "Neutral",
-      "score": 52,
-      "event_type": "demand_shock",
+      "read": "Bullish",
+      "score": 65,
+      "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "AI\u2011valuation concerns are weighing on the financials sector, contributing to its mixed sentiment.",
+          "text": "Nvidia\u2019s unexpected return has sparked an AI\u2011driven rally that lifts financials through increased demand for banking technology and a positive rates outlook.",
           "forecast": {
-            "low": 1.6,
-            "high": 3.6,
+            "low": 2.6,
+            "high": 6.5,
             "direction": "+",
-            "text": "+1.6% to +3.6%"
+            "text": "+2.6% to +6.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "AI sell\u2011off spreading to Asian markets is impacting banks\u2019 earnings outlook.",
+          "text": "AI bets are boosting demand for banking technology platforms, benefiting financials with higher revenue potential.",
           "forecast": {
-            "low": 1.6,
-            "high": 3.6,
+            "low": 2.6,
+            "high": 6.5,
             "direction": "+",
-            "text": "+1.6% to +3.6%"
+            "text": "+2.6% to +6.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "Bank stocks are highlighted for attention, indicating market focus on financial stability amid AI volatility.",
+          "text": "The recent rates event has improved bank profitability prospects, supporting a rebound in bank stocks.",
           "forecast": {
-            "low": 1.6,
-            "high": 3.6,
+            "low": 2.6,
+            "high": 6.5,
             "direction": "+",
-            "text": "+1.6% to +3.6%"
+            "text": "+2.6% to +6.5%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Brazilian bank stocks are gaining attention as rate and spending risks reshape returns, adding breadth to the sector\u2019s upside.",
+          "forecast": {
+            "low": 2.6,
+            "high": 6.5,
+            "direction": "+",
+            "text": "+2.6% to +6.5%"
           }
         }
       ]
     },
     {
       "sector": "Healthcare",
-      "read": "Neutral",
-      "score": 53,
-      "event_type": "demand_shock",
+      "read": "Bullish",
+      "score": 61,
+      "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "The Healthcare sector is being weighed down by a price freeze on Sigma Healthcare, which is expected to suppress earnings and investor sentiment.",
+          "text": "Pfizer\u2019s continued underperformance, with shares remaining 55% below their 2021 peak, is the primary drag on the Healthcare sector.",
           "forecast": {
-            "low": 1.1,
-            "high": 2.7,
+            "low": 1.2,
+            "high": 3.0,
             "direction": "+",
-            "text": "+1.1% to +2.7%"
+            "text": "+1.2% to +3.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "Neuren Pharmaceuticals\u2019 recent Japan partnership deal could provide a modest upside counterbalance to the sector\u2019s broader pressure.",
+          "text": "Pfizer shares remain 55% below 2021 highs despite drug revenue growth.",
           "forecast": {
-            "low": 1.1,
-            "high": 2.7,
+            "low": 1.2,
+            "high": 3.0,
             "direction": "+",
-            "text": "+1.1% to +2.7%"
+            "text": "+1.2% to +3.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "The broader AI sell\u2011off and market volatility in Asia are adding to uncertainty for healthcare stocks, potentially dampening demand for the sector\u2019s products.",
+          "text": "The sector\u2019s bullish sentiment is largely driven by a rates event rather than company-specific gains.",
           "forecast": {
-            "low": 1.1,
-            "high": 2.7,
+            "low": 1.2,
+            "high": 3.0,
             "direction": "+",
-            "text": "+1.1% to +2.7%"
+            "text": "+1.2% to +3.0%"
           }
         }
       ]
     },
     {
       "sector": "Technology",
-      "read": "Bearish",
-      "score": 33,
-      "event_type": "demand_shock",
+      "read": "Bullish",
+      "score": 80,
+      "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "The Technology sector is under pressure from a broad AI sell\u2011off that has pushed AI\u2011related stocks into new lows and triggered a sector\u2011wide decline.",
+          "text": "Nvidia\u2019s unexpected return of CEO Jensen Huang has propelled a sharp rally in the Technology sector, lifting the Nasdaq and S&P 500 and reinforcing bullish sentiment.",
           "forecast": {
-            "low": 2.7,
-            "high": 6.0,
-            "direction": "-",
-            "text": "-2.7% to -6.0%"
+            "low": 4.0,
+            "high": 9.6,
+            "direction": "+",
+            "text": "+4.0% to +9.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "AI valuation fears are spreading from the U.S. to Asia, leading to a 19\u2011month low in Hong Kong stocks and a sell\u2011off in Asian tech shares.",
+          "text": "The rally is driven by renewed investor confidence in Nvidia\u2019s AI leadership, reflected in a 5% jump in the Nasdaq and S&P 500.",
           "forecast": {
-            "low": 2.7,
-            "high": 6.0,
-            "direction": "-",
-            "text": "-2.7% to -6.0%"
+            "low": 4.0,
+            "high": 9.6,
+            "direction": "+",
+            "text": "+4.0% to +9.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Wall Street\u2019s negative sentiment toward AI debt, exemplified by expectations that Anthropic\u2019s debt will fall into junk territory, is adding to the bearish outlook for the sector.",
+          "text": "Nvidia\u2019s stock surge has alleviated concerns about an AI bubble, encouraging broader tech buying.",
           "forecast": {
-            "low": 2.7,
-            "high": 6.0,
-            "direction": "-",
-            "text": "-2.7% to -6.0%"
+            "low": 4.0,
+            "high": 9.6,
+            "direction": "+",
+            "text": "+4.0% to +9.6%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "The market\u2019s reaction to Huang\u2019s return underscores the sector\u2019s sensitivity to leadership signals and AI momentum.",
+          "forecast": {
+            "low": 4.0,
+            "high": 9.6,
+            "direction": "+",
+            "text": "+4.0% to +9.6%"
           }
         }
       ]
