@@ -139,23 +139,49 @@ def _google(query, market):
                                               "hl": loc["hl"], "gl": loc["gl"], "ceid": loc["ceid"]}))
 
 
+BING_MKT = {"IN": "en-IN", "US": "en-US", "UK": "en-GB", "JP": "en-US"}
+_google_failures = 0          # consecutive Google failures this run
+GOOGLE_BREAKER = 3            # after this many in a row, skip Google for the run
+
+
 def _bing(query, market):
-    # Bing's RSS ignores OR-syntax, so search the first term of the query,
-    # anchored to the market (e.g. "Nifty IT India stocks").
-    first = query.split(" OR ")[0].replace('"', "").strip()
-    hint = {"IN": "India", "US": "US", "UK": "UK", "JP": "Japan"}[market]
-    q = first if hint.lower() in first.lower() else f"{first} {hint}"
-    return _parse_rss(_get(BING_NEWS_RSS, {"q": f"{q} stocks", "format": "rss"}), "Bing News")
+    """Bing News RSS ignores OR-syntax, so search each OR-term on its own
+    (in the market's Bing edition) and merge. 23-Nov-2026: Google returned
+    503 for every query and a single first-term Bing search found only 3-4
+    UK/Japan headlines; per-term searching finds several times more."""
+    out, seen = [], set()
+    for term in [t.replace('"', "").strip() for t in query.split(" OR ")][:6]:
+        try:
+            items = _parse_rss(_get(BING_NEWS_RSS, {"q": term, "format": "rss",
+                                                    "setmkt": BING_MKT[market]}), "Bing News")
+        except Exception as e:
+            print(f"[news] {market} Bing failed for '{term[:30]}' ({e})")
+            continue
+        for it in items:
+            k = it["title"].lower()[:80]
+            if k not in seen:
+                seen.add(k)
+                it["_bing"] = True
+                out.append(it)
+        time.sleep(0.5)
+    return out
 
 
 def _rss(query, market):
-    """Google News first; Bing News if Google fails or returns nothing."""
-    try:
-        found = _google(query, market)
-        if found:
-            return found
-    except Exception as e:
-        print(f"[news] {market} Google failed for '{query[:40]}' ({e}); trying Bing")
+    """Google News first; Bing News if Google fails or returns nothing.
+    A run that sees GOOGLE_BREAKER Google failures in a row stops asking it
+    (otherwise 28 refused queries each wait out their retries)."""
+    global _google_failures
+    if _google_failures < GOOGLE_BREAKER:
+        try:
+            found = _google(query, market)
+            _google_failures = 0
+            if found:
+                return found
+        except Exception as e:
+            _google_failures += 1
+            note = "; skipping Google for the rest of this run" if _google_failures >= GOOGLE_BREAKER else ""
+            print(f"[news] {market} Google failed for '{query[:40]}' ({e}){note}")
     return _bing(query, market)
 
 
@@ -172,7 +198,9 @@ def fetch_all(market):
             continue
         finally:
             time.sleep(2.5)  # Google News throttles bursts
-        found = [f for f in found if f["_dt"] is None or f["_dt"] >= cutoff]
+        bing_cutoff = cutoff - timedelta(days=config.NEWS_BING_EXTRA_DAYS)
+        found = [f for f in found if f["_dt"] is None
+                 or f["_dt"] >= (bing_cutoff if f.get("_bing") else cutoff)]
         found.sort(key=lambda f: f["_dt"] or cutoff, reverse=True)
         kept = 0
         for f in found:
@@ -181,6 +209,7 @@ def fetch_all(market):
                 continue
             seen.add(key)
             f.pop("_dt", None)
+            f.pop("_bing", None)
             f["sector"] = sector
             f["tone"] = 0.0          # filled in by score_sentiment (model polarity)
             items.append(f)

@@ -79,6 +79,7 @@ SENTIMENT_WEIGHTS = {
 # market's own vocabulary (Nifty IT, FPIs, Sensex; Wall Street, S&P 500 ...).
 NEWS_LOOKBACK_DAYS = 2
 NEWS_PER_SECTOR = 6
+NEWS_BING_EXTRA_DAYS = 3   # Bing fallback dates run older than Google's
 NEWS_LOCALE = {
     "IN": {"hl": "en-IN", "gl": "IN", "ceid": "IN:en"},
     "US": {"hl": "en-US", "gl": "US", "ceid": "US:en"},
