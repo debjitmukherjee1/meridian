@@ -1,55 +1,65 @@
 {
-  "updated_at": "2026-11-23 04:32 UTC",
+  "updated_at": "2026-11-23 04:45 UTC",
   "market": "IN",
   "macro_theme": "Mixed macro signals; no single theme dominates",
   "signals": [
     {
       "sector": "Consumer Discretionary",
-      "read": "Neutral",
-      "score": 58,
+      "read": "Bullish",
+      "score": 72,
       "event_type": "default",
       "drivers": [
         {
           "role": "main",
-          "text": "The Consumer Discretionary sector is benefiting from a broad market rally, highlighted by the Sensex\u2019s 500\u2011point jump and strong IT gains, which lift discretionary spending and corporate earnings expectations.",
+          "text": "Record FPI inflows are propelling the Consumer Discretionary sector higher.",
           "forecast": {
-            "low": 1.7,
-            "high": 4.1,
+            "low": 2.2,
+            "high": 5.0,
             "direction": "+",
-            "text": "+1.7% to +4.1%"
+            "text": "+2.2% to +5.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "The rally is underpinned by a fall in Brent crude, reducing input costs for many consumer\u2011discretionary firms.",
+          "text": "Sustained foreign portfolio inflows are lifting overall market sentiment.",
           "forecast": {
-            "low": 1.7,
-            "high": 4.1,
+            "low": 2.2,
+            "high": 5.0,
             "direction": "+",
-            "text": "+1.7% to +4.1%"
+            "text": "+2.2% to +5.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "Index re\u2011jigs, such as Shriram Finance replacing Trent, are boosting investor confidence in the sector\u2019s composition.",
+          "text": "A stronger rupee is reducing import costs for consumer discretionary firms.",
           "forecast": {
-            "low": 1.7,
-            "high": 4.1,
+            "low": 2.2,
+            "high": 5.0,
             "direction": "+",
-            "text": "+1.7% to +4.1%"
+            "text": "+2.2% to +5.0%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "A notable auto stock surge indicates rising consumer spending in the sector.",
+          "forecast": {
+            "low": 2.2,
+            "high": 5.0,
+            "direction": "+",
+            "text": "+2.2% to +5.0%"
           }
         }
       ]
     },
     {
       "sector": "Consumer Staples",
-      "read": "Bullish",
+      "read": "Neutral",
       "score": 60,
       "event_type": "default",
       "drivers": [
         {
           "role": "main",
-          "text": "Consumer Staples sector gains as the broader market rallies and commodity prices fall, supporting a bullish outlook.",
+          "text": "FPI record inflow into Indian stocks is lifting the Consumer Staples sector.",
           "forecast": {
             "low": 0.6,
             "high": 2.4,
@@ -59,7 +69,7 @@
         },
         {
           "role": "supporting",
-          "text": "Sensex jumps 500\u2013502 points, lifting overall market sentiment",
+          "text": "Foreign investors pumped Rs\u202f1.18\u202flakh crore into Indian equities in November, boosting overall market sentiment.",
           "forecast": {
             "low": 0.6,
             "high": 2.4,
@@ -69,17 +79,7 @@
         },
         {
           "role": "supporting",
-          "text": "Nifty IT lead gains and early trade gains boost index performance",
-          "forecast": {
-            "low": 0.6,
-            "high": 2.4,
-            "direction": "+",
-            "text": "+0.6% to +2.4%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Brent crude falls, reducing input cost pressure for consumer staples",
+          "text": "The strong rupee supports domestic consumption and helps keep staple prices stable, benefiting the sector.",
           "forecast": {
             "low": 0.6,
             "high": 2.4,
@@ -97,7 +97,7 @@
       "drivers": [
         {
           "role": "main",
-          "text": "Energy sector gains driven by falling Brent crude prices and the inclusion of key energy stocks in major indices.",
+          "text": "Reliance Industries\u2019 $1.6\u202fbillion biogas bet is likely to weigh on the Energy sector\u2019s valuation.",
           "forecast": {
             "low": 1.7,
             "high": 4.1,
@@ -107,7 +107,7 @@
         },
         {
           "role": "supporting",
-          "text": "Brent crude prices dropped, boosting oil\u2011related equities",
+          "text": "FPI record inflow of Rs\u202f1.18\u202flakh crore into Indian stocks boosts overall market sentiment, indirectly supporting Energy shares.",
           "forecast": {
             "low": 1.7,
             "high": 4.1,
@@ -117,7 +117,7 @@
         },
         {
           "role": "supporting",
-          "text": "Adani Power, BHEL, and Suzlon were added to BSE indices, increasing sector exposure",
+          "text": "The strong rupee and sustained FPI buying lift the broader market, providing a backdrop that could offset sector\u2011specific concerns.",
           "forecast": {
             "low": 1.7,
             "high": 4.1,
@@ -129,48 +129,48 @@
     },
     {
       "sector": "Financials",
-      "read": "Bullish",
-      "score": 61,
+      "read": "Neutral",
+      "score": 56,
       "event_type": "default",
       "drivers": [
         {
           "role": "main",
-          "text": "The Financials sector is buoyed by a rally in the broader market, with the Sensex and Nifty 50 posting significant gains amid favorable global conditions.",
+          "text": "FPI inflows and a stronger rupee are driving a bullish outlook for the Financials sector.",
           "forecast": {
-            "low": 1.2,
-            "high": 3.0,
+            "low": 1.1,
+            "high": 2.8,
             "direction": "+",
-            "text": "+1.2% to +3.0%"
+            "text": "+1.1% to +2.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "Sensex jumps 500 points and Nifty crosses 25,950, reflecting a strong market rally",
+          "text": "Bank Nifty surged, with major banks posting gains, reflecting confidence in the banking subsector.",
           "forecast": {
-            "low": 1.2,
-            "high": 3.0,
+            "low": 1.1,
+            "high": 2.8,
             "direction": "+",
-            "text": "+1.2% to +3.0%"
+            "text": "+1.1% to +2.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "Brent crude falls, lifting commodity\u2011linked stocks and supporting the index",
+          "text": "Nifty IT index rose 1.62%, indicating broader market strength that benefits financial services.",
           "forecast": {
-            "low": 1.2,
-            "high": 3.0,
+            "low": 1.1,
+            "high": 2.8,
             "direction": "+",
-            "text": "+1.2% to +3.0%"
+            "text": "+1.1% to +2.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "Foreign institutional investors pour in record Rs\u202f1.12\u202flakh crore, adding liquidity to the market",
+          "text": "Sustained foreign portfolio inflows of Rs\u202f1.18\u202flakh crore into Indian stocks in November underpin the positive sentiment.",
           "forecast": {
-            "low": 1.2,
-            "high": 3.0,
+            "low": 1.1,
+            "high": 2.8,
             "direction": "+",
-            "text": "+1.2% to +3.0%"
+            "text": "+1.1% to +2.8%"
           }
         }
       ]
@@ -178,65 +178,85 @@
     {
       "sector": "Healthcare",
       "read": "Bullish",
-      "score": 60,
+      "score": 62,
       "event_type": "default",
       "drivers": [
         {
           "role": "main",
-          "text": "The Healthcare sector remains bullish as the broader market rally, driven by a Sensex jump and positive sentiment, lifts investor confidence and supports healthcare stocks.",
+          "text": "The Healthcare sector\u2019s bullish sentiment is primarily driven by sustained foreign portfolio inflows and a strengthening rupee, which have bolstered overall market confidence.",
           "forecast": {
             "low": 1.2,
-            "high": 3.0,
+            "high": 3.1,
             "direction": "+",
-            "text": "+1.2% to +3.0%"
+            "text": "+1.2% to +3.1%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "IT and Pharma stocks are leading the rally, providing a positive tailwind for healthcare equities.",
+          "forecast": {
+            "low": 1.2,
+            "high": 3.1,
+            "direction": "+",
+            "text": "+1.2% to +3.1%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Foreign investors pumped Rs\u202f1.18\u202flakh crore into Indian stocks in November, reinforcing sector momentum.",
+          "forecast": {
+            "low": 1.2,
+            "high": 3.1,
+            "direction": "+",
+            "text": "+1.2% to +3.1%"
           }
         }
       ]
     },
     {
       "sector": "Technology",
-      "read": "Neutral",
-      "score": 59,
+      "read": "Bullish",
+      "score": 69,
       "event_type": "default",
       "drivers": [
         {
           "role": "main",
-          "text": "The Technology sector benefits from the Nifty IT lead gains that helped push the Sensex and Nifty higher.",
+          "text": "The Technology sector benefits from sustained foreign portfolio inflows and a strengthening rupee, driving the Nifty IT index higher.",
           "forecast": {
-            "low": 1.8,
-            "high": 4.1,
+            "low": 2.1,
+            "high": 4.8,
             "direction": "+",
-            "text": "+1.8% to +4.1%"
+            "text": "+2.1% to +4.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "The Nifty IT segment\u2019s gains contributed to the overall market rally.",
+          "text": "Foreign investors pumped Rs\u202f1.18\u202flakh crore into Indian stocks in November, boosting tech exposure.",
           "forecast": {
-            "low": 1.8,
-            "high": 4.1,
+            "low": 2.1,
+            "high": 4.8,
             "direction": "+",
-            "text": "+1.8% to +4.1%"
+            "text": "+2.1% to +4.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "The Nifty Bank index hitting a historic high, led by HDFC Bank and SBI, added to the positive sentiment for technology stocks.",
+          "text": "The rupee\u2019s appreciation has lowered import costs for tech firms, supporting earnings.",
           "forecast": {
-            "low": 1.8,
-            "high": 4.1,
+            "low": 2.1,
+            "high": 4.8,
             "direction": "+",
-            "text": "+1.8% to +4.1%"
+            "text": "+2.1% to +4.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "Global volatility and falling Brent crude provided a backdrop that allowed technology stocks to perform well amid broader market swings.",
+          "text": "The Nifty IT index rose 1.62% as part of the broader market rally, reflecting investor confidence in the sector.",
           "forecast": {
-            "low": 1.8,
-            "high": 4.1,
+            "low": 2.1,
+            "high": 4.8,
             "direction": "+",
-            "text": "+1.8% to +4.1%"
+            "text": "+2.1% to +4.8%"
           }
         }
       ]

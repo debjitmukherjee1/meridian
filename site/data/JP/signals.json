@@ -1,52 +1,42 @@
 {
-  "updated_at": "2026-11-22 13:57 UTC",
+  "updated_at": "2026-11-23 04:45 UTC",
   "market": "JP",
   "macro_theme": "Geopolitical conflict raises energy-sector risk",
   "signals": [
     {
       "sector": "Consumer Discretionary",
       "read": "Neutral",
-      "score": 43,
+      "score": 45,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "China\u2019s curbs on rare\u2011earth exports are disrupting the supply chain for consumer discretionary products, weighing on the sector\u2019s outlook.",
+          "text": "Supply chain disruption from halted Nvidia server shipments to Southeast Asia is weighing on the Consumer Discretionary sector.",
           "forecast": {
             "low": 1.7,
-            "high": 4.0,
+            "high": 3.9,
             "direction": "-",
-            "text": "-1.7% to -4.0%"
+            "text": "-1.7% to -3.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "TSMC\u2019s hold on chip shipments under new U.S. rules limits availability of key components for electronics and automotive parts.",
+          "text": "Nikkei\u2019s 5% slide on the day of the shipment halt reflects broader market uncertainty.",
           "forecast": {
             "low": 1.7,
-            "high": 4.0,
+            "high": 3.9,
             "direction": "-",
-            "text": "-1.7% to -4.0%"
+            "text": "-1.7% to -3.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "AI fears deepening in the market are adding pressure on consumer discretionary earnings.",
+          "text": "The Tokyo IPO debut below offer price signals weaker investor appetite for discretionary stocks.",
           "forecast": {
             "low": 1.7,
-            "high": 4.0,
+            "high": 3.9,
             "direction": "-",
-            "text": "-1.7% to -4.0%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Labor market slowdown, highlighted by concerns over AI\u2011driven unemployment, is dampening consumer spending power.",
-          "forecast": {
-            "low": 1.7,
-            "high": 4.0,
-            "direction": "-",
-            "text": "-1.7% to -4.0%"
+            "text": "-1.7% to -3.9%"
           }
         }
       ]
@@ -54,65 +44,75 @@
     {
       "sector": "Energy",
       "read": "Neutral",
-      "score": 50,
+      "score": 41,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "No direct impact on the Energy sector from the provided headlines.",
+          "text": "The Energy sector is bearish due to the tightening of US\u2011India energy ties as New Delhi secures Venezuelan oil, signaling a potential supply disruption.",
           "forecast": {
-            "low": 4.0,
-            "high": 9.0,
-            "direction": "+",
-            "text": "+4.0% to +9.0%"
+            "low": 4.7,
+            "high": 10.6,
+            "direction": "-",
+            "text": "-4.7% to -10.6%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "The deal underscores heightened geopolitical risk around Venezuelan oil supplies.",
+          "forecast": {
+            "low": 4.7,
+            "high": 10.6,
+            "direction": "-",
+            "text": "-4.7% to -10.6%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "The US\u2011India partnership may limit alternative sourcing options, tightening market liquidity.",
+          "forecast": {
+            "low": 4.7,
+            "high": 10.6,
+            "direction": "-",
+            "text": "-4.7% to -10.6%"
           }
         }
       ]
     },
     {
       "sector": "Financials",
-      "read": "Neutral",
-      "score": 44,
+      "read": "Bearish",
+      "score": 38,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "China\u2019s curbs on rare\u2011earth exports are disrupting the supply chain, weighing on the Financials sector.",
+          "text": "Geopolitical supply event\u2014New Delhi\u2019s acquisition of Venezuelan oil\u2014has spurred oil\u2011price volatility, contributing to a bearish sentiment in the Financials sector.",
           "forecast": {
-            "low": 1.1,
-            "high": 3.4,
+            "low": 1.2,
+            "high": 3.7,
             "direction": "-",
-            "text": "-1.1% to -3.4%"
+            "text": "-1.2% to -3.7%"
           }
         },
         {
           "role": "supporting",
-          "text": "TSMC\u2019s decision to hold chip shipments amid U.S. rules on 14nm and 16nm nodes signals tightening semiconductor supply, affecting related financial services.",
+          "text": "Nikkei fell 5% as HiJoJo\u2019s $33M Tokyo IPO debuted below offer price, adding to market weakness.",
           "forecast": {
-            "low": 1.1,
-            "high": 3.4,
+            "low": 1.2,
+            "high": 3.7,
             "direction": "-",
-            "text": "-1.1% to -3.4%"
+            "text": "-1.2% to -3.7%"
           }
         },
         {
           "role": "supporting",
-          "text": "AI fears deepening in Nikkei swings suggest heightened market volatility, adding pressure on financial institutions.",
+          "text": "Nikkei and Kospi tumbled 4\u20115% amid broader market sell\u2011off, amplifying the negative environment for financials.",
           "forecast": {
-            "low": 1.1,
-            "high": 3.4,
+            "low": 1.2,
+            "high": 3.7,
             "direction": "-",
-            "text": "-1.1% to -3.4%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Mitsubishi UFJ Financial Group\u2019s 4.9% share decline reflects broader investor concern over supply\u2011chain risks and geopolitical tensions.",
-          "forecast": {
-            "low": 1.1,
-            "high": 3.4,
-            "direction": "-",
-            "text": "-1.1% to -3.4%"
+            "text": "-1.2% to -3.7%"
           }
         }
       ]
@@ -120,85 +120,65 @@
     {
       "sector": "Healthcare",
       "read": "Neutral",
-      "score": 50,
+      "score": 48,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "No direct impact on the Healthcare sector from these headlines.",
+          "text": "Japanese drugmakers are expected to see a 1.7% decline in domestic sales for fiscal 2026, weighing on the Healthcare sector.",
           "forecast": {
             "low": 0.5,
-            "high": 2.0,
-            "direction": "+",
-            "text": "+0.5% to +2.0%"
+            "high": 2.1,
+            "direction": "-",
+            "text": "-0.5% to -2.1%"
           }
         },
         {
           "role": "supporting",
-          "text": "AI fears may indirectly influence healthcare AI investment decisions.",
+          "text": "Takeda\u2019s upcoming ORZEYFUL launch may help offset the sales dip for the company",
           "forecast": {
             "low": 0.5,
-            "high": 2.0,
-            "direction": "+",
-            "text": "+0.5% to +2.0%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Rare\u2011earth supply chain disruptions could affect the production of high\u2011tech medical devices.",
-          "forecast": {
-            "low": 0.5,
-            "high": 2.0,
-            "direction": "+",
-            "text": "+0.5% to +2.0%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "The lack of healthcare\u2011specific news contributes to the sector\u2019s mixed sentiment.",
-          "forecast": {
-            "low": 0.5,
-            "high": 2.0,
-            "direction": "+",
-            "text": "+0.5% to +2.0%"
+            "high": 2.1,
+            "direction": "-",
+            "text": "-0.5% to -2.1%"
           }
         }
       ]
     },
     {
       "sector": "Industrials",
-      "read": "Neutral",
-      "score": 50,
+      "read": "Bearish",
+      "score": 38,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "China\u2019s curbs on rare\u2011earth exports are tightening the supply chain for industrial electronics, weighing on the Industrials sector.",
+          "text": "Geopolitical tensions over Venezuelan oil supply to India are dampening industrial demand and weighing on the sector.",
           "forecast": {
-            "low": 1.5,
-            "high": 4.0,
-            "direction": "+",
-            "text": "+1.5% to +4.0%"
+            "low": 1.9,
+            "high": 5.0,
+            "direction": "-",
+            "text": "-1.9% to -5.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "TSMC\u2019s decision to hold chip shipments under new U.S. rules highlights supply\u2011chain fragility for advanced manufacturing.",
+          "text": "US\u2011India energy ties tightening limits oil availability for Indian manufacturing, reducing production capacity.",
           "forecast": {
-            "low": 1.5,
-            "high": 4.0,
-            "direction": "+",
-            "text": "+1.5% to +4.0%"
+            "low": 1.9,
+            "high": 5.0,
+            "direction": "-",
+            "text": "-1.9% to -5.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "Growing AI concerns are amplifying demand for high\u2011performance chips, adding pressure on component availability.",
+          "text": "Nikkei\u2019s 5% slide signals broader market weakness that amplifies the bearish sentiment.",
           "forecast": {
-            "low": 1.5,
-            "high": 4.0,
-            "direction": "+",
-            "text": "+1.5% to +4.0%"
+            "low": 1.9,
+            "high": 5.0,
+            "direction": "-",
+            "text": "-1.9% to -5.0%"
           }
         }
       ]
@@ -206,47 +186,37 @@
     {
       "sector": "Technology",
       "read": "Bearish",
-      "score": 36,
+      "score": 30,
       "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "TSMC\u2019s halt of 14nm and 16nm chip shipments under new U.S. rules is the primary driver of the Technology sector\u2019s bearish sentiment.",
+          "text": "Supply chain disruptions from halted Nvidia server shipments to Southeast Asia are weighing on the Technology sector.",
           "forecast": {
-            "low": 1.3,
-            "high": 3.8,
+            "low": 1.4,
+            "high": 4.2,
             "direction": "-",
-            "text": "-1.3% to -3.8%"
+            "text": "-1.4% to -4.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "Corporate Japan\u2019s push to revive the rare\u2011earth supply chain amid China curbs adds pressure on semiconductor inputs.",
+          "text": "SoftBank shares slipping amid AI payback fears highlights broader sector risk appetite decline.",
           "forecast": {
-            "low": 1.3,
-            "high": 3.8,
+            "low": 1.4,
+            "high": 4.2,
             "direction": "-",
-            "text": "-1.3% to -3.8%"
+            "text": "-1.4% to -4.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "Widespread AI fears, reflected in Nikkei swings and Nasdaq weakness, dampen demand for high\u2011end chips.",
+          "text": "Nikkei\u2019s 5% slide on the day of the IPO debut underscores market sensitivity to supply\u2011chain news.",
           "forecast": {
-            "low": 1.3,
-            "high": 3.8,
+            "low": 1.4,
+            "high": 4.2,
             "direction": "-",
-            "text": "-1.3% to -3.8%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "SoftBank\u2019s valuation hit from its AI ambitions and the $109\u202fbillion sell\u2011off of its stake in SoftBank Holdings further weigh on tech valuations.",
-          "forecast": {
-            "low": 1.3,
-            "high": 3.8,
-            "direction": "-",
-            "text": "-1.3% to -3.8%"
+            "text": "-1.4% to -4.2%"
           }
         }
       ]

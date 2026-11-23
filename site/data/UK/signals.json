@@ -1,52 +1,22 @@
 {
-  "updated_at": "2026-11-22 13:57 UTC",
+  "updated_at": "2026-11-23 04:45 UTC",
   "market": "UK",
-  "macro_theme": "Mixed macro signals; no single theme dominates",
+  "macro_theme": "Regulatory scrutiny dominates today's headlines",
   "signals": [
     {
       "sector": "Consumer Staples",
       "read": "Neutral",
-      "score": 50,
-      "event_type": "default",
+      "score": 43,
+      "event_type": "regulatory",
       "drivers": [
         {
           "role": "main",
-          "text": "The Consumer Staples sector is being weighed down by a broader market sell\u2011off and weak UK retail data, while a modest lift in gold prices supports some peers.",
+          "text": "Regulatory scrutiny of Unilever is weighing on the Consumer Staples sector, contributing to its bearish sentiment.",
           "forecast": {
-            "low": 0.5,
-            "high": 2.0,
-            "direction": "+",
-            "text": "+0.5% to +2.0%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Metals and tech rout dragging the FTSE 100 lower, impacting related staples stocks",
-          "forecast": {
-            "low": 0.5,
-            "high": 2.0,
-            "direction": "+",
-            "text": "+0.5% to +2.0%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Positive UK retail data fails to rescue the index, signalling weak consumer demand",
-          "forecast": {
-            "low": 0.5,
-            "high": 2.0,
-            "direction": "+",
-            "text": "+0.5% to +2.0%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Geopolitical tensions (UK\u2011EU deal, US\u2011Iran) contributing to market volatility",
-          "forecast": {
-            "low": 0.5,
-            "high": 2.0,
-            "direction": "+",
-            "text": "+0.5% to +2.0%"
+            "low": 1.1,
+            "high": 2.9,
+            "direction": "-",
+            "text": "-1.1% to -2.9%"
           }
         }
       ]
@@ -54,47 +24,37 @@
     {
       "sector": "Energy",
       "read": "Neutral",
-      "score": 40,
-      "event_type": "default",
+      "score": 46,
+      "event_type": "regulatory",
       "drivers": [
         {
           "role": "main",
-          "text": "The Energy sector remains bearish as a broader market selloff drags down miners and energy stocks.",
+          "text": "The Energy sector remains mixed as broader market volatility and a pending regulatory event outweigh sector\u2011specific catalysts.",
           "forecast": {
-            "low": 1.8,
-            "high": 4.2,
+            "low": 1.6,
+            "high": 4.3,
             "direction": "-",
-            "text": "-1.8% to -4.2%"
+            "text": "-1.6% to -4.3%"
           }
         },
         {
           "role": "supporting",
-          "text": "FTSE 100 falls amid the new UK\u2011EU deal and US\u2011Iran tensions, weighing on energy shares",
+          "text": "Global selloff weighing on banks and miners has dampened overall market sentiment.",
           "forecast": {
-            "low": 1.8,
-            "high": 4.2,
+            "low": 1.6,
+            "high": 4.3,
             "direction": "-",
-            "text": "-1.8% to -4.2%"
+            "text": "-1.6% to -4.3%"
           }
         },
         {
           "role": "supporting",
-          "text": "European stocks are down, reflecting a continent\u2011wide selloff that includes energy companies",
+          "text": "The pending regulatory event introduces uncertainty that offsets any positive sector developments.",
           "forecast": {
-            "low": 1.8,
-            "high": 4.2,
+            "low": 1.6,
+            "high": 4.3,
             "direction": "-",
-            "text": "-1.8% to -4.2%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "UK stocks sink as a global selloff weighs on banks and miners, further depressing the sector",
-          "forecast": {
-            "low": 1.8,
-            "high": 4.2,
-            "direction": "-",
-            "text": "-1.8% to -4.2%"
+            "text": "-1.6% to -4.3%"
           }
         }
       ]
@@ -102,65 +62,75 @@
     {
       "sector": "Financials",
       "read": "Neutral",
-      "score": 46,
-      "event_type": "default",
+      "score": 49,
+      "event_type": "regulatory",
       "drivers": [
         {
           "role": "main",
-          "text": "The Financials sector is weighed down by a broad FTSE 100 decline, largely driven by a rout in metals and technology stocks that has dragged down the index.",
+          "text": "Global sell\u2011off pressure on banks and miners is dragging the Financials sector into a mixed outlook.",
           "forecast": {
-            "low": 1.1,
-            "high": 2.7,
+            "low": 1.5,
+            "high": 4.6,
             "direction": "-",
-            "text": "-1.1% to -2.7%"
+            "text": "-1.5% to -4.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Uncertainty surrounding the new UK\u2011EU deal has added pressure to the market.",
+          "text": "FTSE 100 giant\u2019s relocation to New York signals a shift in market focus, adding uncertainty for UK\u2011listed banks.",
           "forecast": {
-            "low": 1.1,
-            "high": 2.7,
+            "low": 1.5,
+            "high": 4.6,
             "direction": "-",
-            "text": "-1.1% to -2.7%"
+            "text": "-1.5% to -4.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Tensions between the US and Iran have heightened geopolitical risk, contributing to the sell\u2011off.",
+          "text": "The broader global sell\u2011off has weighed on UK stocks, directly impacting financial institutions\u2019 valuations.",
           "forecast": {
-            "low": 1.1,
-            "high": 2.7,
+            "low": 1.5,
+            "high": 4.6,
             "direction": "-",
-            "text": "-1.1% to -2.7%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "A general European stock sell\u2011off has compounded the downward momentum in the FTSE 100.",
-          "forecast": {
-            "low": 1.1,
-            "high": 2.7,
-            "direction": "-",
-            "text": "-1.1% to -2.7%"
+            "text": "-1.5% to -4.6%"
           }
         }
       ]
     },
     {
       "sector": "Healthcare",
-      "read": "Bearish",
-      "score": 36,
-      "event_type": "default",
+      "read": "Neutral",
+      "score": 53,
+      "event_type": "regulatory",
       "drivers": [
         {
           "role": "main",
-          "text": "The Healthcare sector remains bearish, driven primarily by the default event.",
+          "text": "FDA approval of Nelkarmi for lung cancer boosts the Healthcare sector",
           "forecast": {
-            "low": 1.3,
-            "high": 3.2,
-            "direction": "-",
-            "text": "-1.3% to -3.2%"
+            "low": 2.1,
+            "high": 5.3,
+            "direction": "+",
+            "text": "+2.1% to +5.3%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "GSK\u2019s stock may look reasonable on the fresh lung cancer approval",
+          "forecast": {
+            "low": 2.1,
+            "high": 5.3,
+            "direction": "+",
+            "text": "+2.1% to +5.3%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "GSK wins FDA approval for Nelkarmi, a key driver for the sector",
+          "forecast": {
+            "low": 2.1,
+            "high": 5.3,
+            "direction": "+",
+            "text": "+2.1% to +5.3%"
           }
         }
       ]
@@ -168,37 +138,37 @@
     {
       "sector": "Materials",
       "read": "Neutral",
-      "score": 40,
-      "event_type": "default",
+      "score": 52,
+      "event_type": "regulatory",
       "drivers": [
         {
           "role": "main",
-          "text": "Glencore\u2019s 28% share price collapse has weighed heavily on the Materials sector, reinforcing its bearish stance.",
+          "text": "Global selloff weighing on banks and miners is dragging the Materials sector down.",
           "forecast": {
-            "low": 1.8,
-            "high": 4.8,
-            "direction": "-",
-            "text": "-1.8% to -4.8%"
+            "low": 1.6,
+            "high": 3.6,
+            "direction": "+",
+            "text": "+1.6% to +3.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Gold price gains have been insufficient to offset the negative sentiment from Glencore\u2019s sharp decline.",
+          "text": "FTSE 100 giant\u2019s move to New York adds uncertainty to the UK market, amplifying pressure on miners.",
           "forecast": {
-            "low": 1.8,
-            "high": 4.8,
-            "direction": "-",
-            "text": "-1.8% to -4.8%"
+            "low": 1.6,
+            "high": 3.6,
+            "direction": "+",
+            "text": "+1.6% to +3.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "The broader FTSE 100 slide, driven by global tensions and weak retail data, has compounded pressure on metals stocks.",
+          "text": "The broader global selloff has already pushed UK stocks lower, directly impacting mining shares.",
           "forecast": {
-            "low": 1.8,
-            "high": 4.8,
-            "direction": "-",
-            "text": "-1.8% to -4.8%"
+            "low": 1.6,
+            "high": 3.6,
+            "direction": "+",
+            "text": "+1.6% to +3.6%"
           }
         }
       ]
@@ -206,47 +176,47 @@
     {
       "sector": "Technology",
       "read": "Neutral",
-      "score": 49,
-      "event_type": "default",
+      "score": 50,
+      "event_type": "regulatory",
       "drivers": [
         {
           "role": "main",
-          "text": "Technology stocks were dragged lower by a broader market sell\u2011off amid geopolitical tensions and weak retail data.",
+          "text": "Regulatory uncertainty keeps the technology sector sentiment mixed.",
           "forecast": {
-            "low": 1.5,
-            "high": 3.6,
-            "direction": "-",
-            "text": "-1.5% to -3.6%"
+            "low": 2.0,
+            "high": 5.0,
+            "direction": "+",
+            "text": "+2.0% to +5.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "Metals and tech rout after weak UK retail data failed to rescue the FTSE 100.",
+          "text": "The AI\u2011related investment question highlighted by the FTSE 100 AI bet adds complexity to the sector\u2019s outlook.",
           "forecast": {
-            "low": 1.5,
-            "high": 3.6,
-            "direction": "-",
-            "text": "-1.5% to -3.6%"
+            "low": 2.0,
+            "high": 5.0,
+            "direction": "+",
+            "text": "+2.0% to +5.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "FTSE 100 fell amid the new UK\u2011EU deal and US\u2011Iran tensions, pulling tech shares down.",
+          "text": "Vodafone\u2019s upgraded 2027 outlook signals potential upside for telecom\u2011related tech stocks.",
           "forecast": {
-            "low": 1.5,
-            "high": 3.6,
-            "direction": "-",
-            "text": "-1.5% to -3.6%"
+            "low": 2.0,
+            "high": 5.0,
+            "direction": "+",
+            "text": "+2.0% to +5.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "European stocks sold off, adding pressure to the London market and its technology constituents.",
+          "text": "The global selloff affecting banks and miners indirectly pressures the broader market, including technology shares.",
           "forecast": {
-            "low": 1.5,
-            "high": 3.6,
-            "direction": "-",
-            "text": "-1.5% to -3.6%"
+            "low": 2.0,
+            "high": 5.0,
+            "direction": "+",
+            "text": "+2.0% to +5.0%"
           }
         }
       ]

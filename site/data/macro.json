@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23 04:32 UTC",
+  "updated_at": "2026-11-23 04:45 UTC",
   "markets": {
     "IN": {
       "cpi": {
@@ -1279,7 +1279,7 @@
           }
         ]
       },
-      "narrative": "India\u2019s CPI inflation sits at 5.57% as of September 2026, indicating a moderate but still above\u2011target price rise. Real GDP grew 8.1% in Q2 2026, showing strong growth momentum, while unemployment remains low at 4.9% in October 2026, signalling tight labor markets. The RBI has raised the repo rate by 25 basis points to 5.50% on 5\u20117 October 2026, adopting a calibrated tightening stance, and the rupee trades at 92.68 per dollar as of 20 November 2026."
+      "narrative": "Inflation remains above the RBI\u2019s 4% target at 5.57% in September 2026, while the economy is still expanding strongly at 8.1% in Q2 2026. Labor\u2011market slack is moderate with unemployment at 4.9% in October 2026, and the RBI has tightened policy by raising the repo rate 25 basis points to 5.50% on 5\u20117 October 2026, signalling a calibrated tightening stance. The rupee trades at 92.68 per dollar as of 20 November 2026."
     },
     "US": {
       "cpi": {
@@ -1797,7 +1797,7 @@
         "series": [],
         "note": "USD is Meridian's reference currency for this comparison; no vs-USD series applies."
       },
-      "narrative": "Inflation remains elevated at 3.74% in 2026, while real GDP growth is modest at 2.07% in Q3 2026, indicating a slowing but still positive economic trajectory. Labor\u2011market slack is low, with unemployment at 4.1% in October 2026, suggesting a tight labor market. The Federal Reserve has raised the policy rate to a target range of 3.75%\u20114.00% in September 2026 and has held it steady since, reflecting a cautious stance amid persistent inflation."
+      "narrative": "Inflation remains moderate at 3.74% in 2026, while real GDP grew 2.07% in 2026\u2011Q3, indicating steady but not robust growth. The labor market is tight with unemployment at 4.1% in 2026, suggesting limited slack. The Fed has raised the target range to 3.75%\u20114.00% in September 2026 and has kept the policy rate at 3.875% as of November 2026, signalling a firm stance to support the economy."
     },
     "UK": {
       "cpi": {
@@ -3101,7 +3101,7 @@
           }
         ]
       },
-      "narrative": "Inflation is running at 3.6% year\u2011on\u2011year as of October 2026, indicating a modestly easing trend. Real GDP grew 1.94% in Q3 2026, showing moderate growth momentum, while unemployment sits at 4.6% as of August 2026, suggesting a tight but not overly slack labour market. The Bank of England has raised the policy rate by 25 basis points to 4.00% at the meeting ending 4 November 2026, signalling a tightening stance as it prepares for the next announcement on 17 December 2026. The GBP trades at 1.3125 USD per pound as of 20 November 2026."
+      "narrative": "Inflation is running at 3.6% year\u2011on\u2011year as of October 2026, indicating a modestly easing trend. Real GDP grew 1.94% in Q3 2026, showing moderate expansion, while the unemployment rate sits at 4.6% as of August 2026, suggesting a tight but not overheated labor market. The Bank of England has raised the policy rate by 25 basis points to 4.00% at the meeting ending 4 November 2026, signalling a cautious tightening stance as the next announcement is scheduled for 17 December 2026. The pound trades at 1.3125 USD per GBP as of 20 November 2026."
     },
     "JP": {
       "cpi": {
@@ -4329,7 +4329,7 @@
           }
         ]
       },
-      "narrative": "Inflation is running at 3.17% in 2025, indicating a moderate upward trend. Real GDP grew 1.16% in 2026\u2011Q3, showing modest growth momentum, while the labor market remains tight with unemployment at 2.4% as of September 2026. The central bank has raised the policy rate to 1.25% on 2026\u201109\u201118 and held it at 1.25% on 2026\u201110\u201130, signalling a cautious stance as the yen trades around 158.64 per dollar."
+      "narrative": "Inflation is running at 3.17% in 2025, indicating a moderate but persistent price rise. Real GDP grew 1.16% in 2026\u2011Q3, showing modest expansion, while the labor market remains tight with unemployment at 2.4% as of September 2026. The central bank has raised the policy rate to 1.25% on 2026\u201109\u201118 and held it on 2026\u201110\u201130, signalling a cautious stance as the yen trades around 158.64 per dollar."
     }
   }
 }

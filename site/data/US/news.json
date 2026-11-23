@@ -1,123 +1,357 @@
 {
-  "updated_at": "2026-11-23 04:32 UTC",
+  "updated_at": "2026-11-23 04:45 UTC",
   "market": "US",
   "items": [
     {
-      "title": "US AI stocks hit by 'perfect storm' sell-off",
-      "source": "Bing News",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b03c270c720451ebee4272d2eabb1e1&url=https%3a%2f%2fwww.msn.com%2fen-xl%2fmoney%2ftop-stocks%2fus-ai-stocks-hit-by-perfect-storm-sell-off%2far-AA2i0AJn&c=18173537367316512400&mkt=en-us",
-      "published": "2026-11-22 20:00 UTC",
+      "title": "Wall Street expects Anthropic\u2019s debt to land in junk territory",
+      "source": "Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9VV3c3WnNGVGpuc1B6Qm5WczlFaWYtdkNIY2gyVlN1LTlUSG8tX0hSREgzUG9sTDJ4RGhlSFJhcjBNaTNLQVpxbVh5OXUzYmRGMjFFYlFrQ3I4X0gyeVM5bmtYZzhDQmhKZUs5YzhwV2g?oc=5",
+      "published": "2026-11-23 04:38 UTC",
       "sector": "Market",
       "tone": -3.0,
-      "note": "AI sell\u2011off signals tech weakness, weighing on market confidence."
+      "note": "Anthropic debt worries signal broader tech risk."
     },
     {
-      "title": "Wall Street strategists see silver lining for stock market",
-      "source": "Bing News",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b03c270c720451ebee4272d2eabb1e1&url=https%3a%2f%2fwww.msn.com%2fen-us%2fmoney%2ftop-stocks%2fwall-street-strategists-see-silver-lining-for-stock-market%2far-AA2hZaFN&c=4513446282276574873&mkt=en-us",
-      "published": "2026-11-22 11:46 UTC",
+      "title": "Goldman Sachs lowers 2028 memory forecasts as Wall Street splits on Samsung and SK Hynix",
+      "source": "Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSzJCaEcteTU2SlFCVnQ1VXp6U21oRF91eXE3Ulc1eHU0QVlia1B0NmVKN1pfMTg4QVNPak5pcjQ4Mzh1SVZCTzNyVF80UVpEN1BFR1k1OFh5cm9lSnY2NzByeU53NGQwSU8yZ0E4VmxpRmJoS1RZS1oySUtWc1Nsbw?oc=5",
+      "published": "2026-11-23 04:31 UTC",
       "sector": "Market",
-      "tone": 3.0,
-      "note": "Strategists highlight growth prospects, boosting overall market optimism."
+      "tone": -1.0,
+      "note": "Lowered memory forecasts hint at semiconductor slowdown."
     },
     {
-      "title": "Worried about Nvidia? Buy this fantastic artificial intelligence (AI) stock instead",
-      "source": "Bing News",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b03c278d2c64fcc9286bb74e6572836&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fother%2fworried-about-nvidia-buy-this-fantastic-artificial-intelligence-ai-stock-instead%2far-AA2i046M&c=6775308586094935839&mkt=en-us",
-      "published": "2026-11-22 20:00 UTC",
+      "title": "Smith & Wesson: Buy The Share Gains, Wait For The Pullback (NASDAQ:SWBI)",
+      "source": "Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOa01WcklhMzdRVGNObVFZaG1KVWRMRnV1SVVYcXNiZmRIdVE1TWl4ay1IaU5ZdE5YNEZERWZfeFNwZU03Q0tqVnBGT0dndFRxSHViME1POXdTT1BrQzlrLWxGMzNrV3JIVmktN1ZlOFBZX0ZNWXd5TG5hX3lEdWNNRVNTNlMxTldlWFk3STJHMXp2b29DTVp5T0ZTVG44OUlE?oc=5",
+      "published": "2026-11-23 04:30 UTC",
+      "sector": "Market",
+      "tone": 0.0,
+      "note": "Smith & Wesson focus is company\u2011specific, not market\u2011wide."
+    },
+    {
+      "title": "Asian shares mostly fall after S&P 500 drops 3.7% into a correction",
+      "source": "News4JAX",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYndhbUp3T3VyVjhOc2VuYVUzY3ludWpEbEFfMzJGUWNHMV9EX1RzalIyMzRJQmdjUnplS3EyMkRhM1p3c1YwdGtiMDdyM1A0ZVd2b3o1QU9HTXo2X1lJd25HY1NNTkd4R204UHNtck5Cb1hjSkdjUW9NOTFjNVVNVDZ2b3ZEc09uekRxc3E5VldGc01SM0RXOUVGTHdnQ3l6RU82MDlYLTBNMXhGZzFN?oc=5",
+      "published": "2026-11-23 04:28 UTC",
+      "sector": "Market",
+      "tone": -4.0,
+      "note": "S&P 500 drop triggers regional sell\u2011off, signals market weakness."
+    },
+    {
+      "title": "Nasdaq 100: AI Valuation Fears Meet Thanksgiving Seasonality",
+      "source": "FOREX.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPX3pEcnJfQ1VpakhyQ1ZnQno5b1VITkxBRFJZbTVXNDRkQ0otLXZZNHQxZm8tRkFuNjdkWGRUYWhHLUtPWk5SNVhsRURlcGhNeV9uUkhDSnZqSjlyb0NpWF9TN0hYSFRZdFBRakk5ZFBKaEJoS0RIWXMxa3o1UXRRSUdmcWRCSmJUVGliNFlDRmIxQi12YnhKRDg1U2c2TzJKMkxmVjVuNF96d9IBtgFBVV95cUxOdzFGZDFUbXlzWXZCRkpqTGpnYnhPQ0hNaDd3X2kwY3B1S3I5RUJlZWk2N2g2d3JDZ3FhNUN2VmZoWG9URm9LZ0ZDczFaWmFKa0NXRFRCTEIxR1o4Y2tIMmU5Xy01SEllc1MxeTZGVkZ4Q1dYYV9nTVRzZUVpSmRVQ1JxMDJhYTFTamdGRktOeTlFMzdNVFBOc0ZZcVByUXNQTUhKSHNSenFWeXVVa2RGVzlFS1E5Zw?oc=5",
+      "published": "2026-11-23 04:21 UTC",
+      "sector": "Market",
+      "tone": -2.0,
+      "note": "AI fears dampen Nasdaq, offset by holiday optimism."
+    },
+    {
+      "title": "New 19-month low: Hong Kong stocks plunge as AI sell-off spreads to Asia",
+      "source": "South China Morning Post",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMmR0TXdKQ21IYS1mVVVLMXo5SG92Tm50WG4wSXAwUURmMlNBQWh6OTVucDVzQmZhNGhHWGlEc0xoOXhPZnk4SVZ0OGh6b293dVBnNFdPaEhKS2E2OG1HdWlubDdLTl9vOEFJYnlra1Z3QzZlOW85Z1lndXdWSnE4dXZtOFFlQTJ5bmpPby1MSGk2enRCV2l1VExNS2haSlY4Z0gwMGxRdUdFeTdocnljeEc1aHRjUQ?oc=5",
+      "published": "2026-11-23 04:20 UTC",
+      "sector": "Market",
+      "tone": -3.0,
+      "note": "Hong Kong AI sell\u2011off reflects global tech sentiment."
+    },
+    {
+      "title": "GPT-6.2 Astra Doubles Robot Task Success Rate; Physical AI Stocks in China Surge to Limit-Up",
+      "source": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9IZEZlYTVVWU11encxZEI3czRsbG5KTDVrZDI5Tm5zVGQyUHhvQUpSalpseTlUaHhndlNodlRMbGZ5U2h0cWk2cENFSldZNGtzU3hEam1fTU4xMTQ3TDJudXhBRTVHcDhkVFBjczZydmxYWmZzWGc?oc=5",
+      "published": "2026-11-23 04:35 UTC",
       "sector": "Technology",
-      "tone": 3.0,
-      "note": "Positive alternative to Nvidia, signals AI growth."
+      "tone": 2.0,
+      "note": "Positive AI progress boosts optimism."
     },
     {
-      "title": "Michael Burry on Nvidia Board? \u2018Big Short\u2019 Investor Jokes He\u2019d \u2018Volunteer\u2019 as NVDA Stock Sinks 40%",
-      "source": "Bing News",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b03c278d2c64fcc9286bb74e6572836&url=https%3a%2f%2ffinance.yahoo.com%2fmarkets%2fstocks%2farticles%2fmichael-burry-nvidia-board-big-031945302.html&c=7579606314796360195&mkt=en-us",
-      "published": "2026-11-22 16:00 UTC",
+      "title": "Asian Markets Extend Sell-Off As Tech Stocks Face Renewed Pressure",
+      "source": "BusinessToday Malaysia",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQ2Y5NHJDVm5ZbWQyZUFPUzhPR1A5V2lCZkJjekR2Sy1sNC1ZMWRjSTVvcGQxODdYQzFVUV9Ob2dmQ2JIbHU2QUtmX2ZQeGNxLTExYnliZlUtTU9ZaFBTc1Z3YUNKU2t6NU85NGdnb3RxeXpIQ185b2c5OTlVRFAtX1l4ZHlqbnJmd0EzVGRCX3ZyUnFHdmNiVlNJYXNQQWF6UlcxekFONVNlbVd1MGQ5Tg?oc=5",
+      "published": "2026-11-23 04:28 UTC",
       "sector": "Technology",
       "tone": -3.0,
-      "note": "Burry\u2019s joke signals doubt in Nvidia\u2019s future."
+      "note": "Global sell\u2011off pressures tech valuations."
     },
     {
-      "title": "Nvidia faces mounting pressure as US tech stocks enter bear market",
-      "source": "Bing News",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b03c278d2c64fcc9286bb74e6572836&url=https%3a%2f%2fwww.heise.de%2fen%2fnews%2fNvidia-faces-mounting-pressure-as-US-tech-stocks-enter-bear-market-11533863.html&c=661117352915918086&mkt=en-us",
-      "published": "2026-11-22 11:39 UTC",
+      "title": "U.S. AI Stocks Hit by 'Perfect Storm' Sell-Off",
+      "source": "\uc870\uc120\uc77c\ubcf4",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQmplajVhT3FMT1YzSmo2VkZZTG1MUlh1cHk1VFlDUTlGaldwR2tWV2x2dFVwU1AyWkFHemsxdUxmaWRzbVdDdVBLcHEwOFhPekN0Uld1LXJhVktfV1ZkWFpqdW9NTVhELV9PYmt2WTd2RDBxa0lHMVBMM0JjNlhNV2lvUDJwSmhvWFhrRXdR?oc=5",
+      "published": "2026-11-23 04:02 UTC",
       "sector": "Technology",
       "tone": -4.0,
-      "note": "Bear market pressure on tech stocks, negative outlook."
+      "note": "U.S. AI stocks hit by a perfect storm."
     },
     {
-      "title": "NVIDIA stock crashes 42% in three weeks, gamers are watching closely",
-      "source": "Bing News",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b03c278d2c64fcc9286bb74e6572836&url=https%3a%2f%2fvideocardz.com%2fnewz%2fnvidia-stock-crashes-42-in-three-weeks-gamers-are-watching-closely&c=13561053181373216807&mkt=en-us",
-      "published": "2026-11-21 05:31 UTC",
+      "title": "Taiwan uncertainty could put U.S. tech stocks like Apple and Nvidia at risk: PM",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNNTJfaHd4Zm9NQVJDVlFGYVY2YzJYQ1dLa1ltRmNXdE1pT1BSRFFNVkZJNXZTT2IxM2JoUDh0dGZtUlJ5eFR4cGhyaTUzSWI0WU5zdVV2THhKNkk0bENScFRDNl9zNjFsYWRSb2tGQ2s2TnhfT1hyZmtuaHBxTGJCNWN5bE5kTF9CdlBrM3hfYmlfZzkwV19Qc2ZYR2IxWUNQbFAw?oc=5",
+      "published": "2026-11-23 03:47 UTC",
       "sector": "Technology",
-      "tone": -4.0,
-      "note": "Nvidia\u2019s sharp decline worries gamers, tech investors."
+      "tone": -2.0,
+      "note": "Taiwan risk threatens key U.S. tech names."
     },
     {
-      "title": "US stock market crash: Nasdaq 100 logs worst week since 2020, S&P 500 slips into correction; Nvidia, Anthropic stocks tumble",
-      "source": "Bing News",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b03c278d2c64fcc9286bb74e6572836&url=https%3a%2f%2fwww.msn.com%2fen-in%2fnews%2fother%2fus-stock-market-crash-nasdaq-100-logs-worst-week-since-2020-s-p-500-slips-into-correction-nvidia-anthropic-stocks-tumble%2far-AA2hTwuy&c=8007898471625567810&mkt=en-us",
-      "published": "2026-11-20 18:16 UTC",
+      "title": "Why Is Gold Falling Alongside Tech Stocks? It Has Become the \"ATM\" of the Liquidity Crisis",
+      "source": "\u6df1\u6f6eTechFlow",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9hYXNLQ1dxNjRaclhQTUVGbU1td3BoY05EOU5wcUhnRnVfZ1JuajZjaTFkQVB4OVdHc3NzanVGY3hQaWFsZmZCbkhISWdqMXBMMEpScktjenlBRW9a?oc=5",
+      "published": "2026-11-23 03:47 UTC",
+      "sector": "Technology",
+      "tone": -1.0,
+      "note": "Gold decline signals liquidity strain, hurting tech."
+    },
+    {
+      "title": "AMD Stock Falls 13.2% as Chip Stocks Slide (Nov 20)",
+      "source": "Gotrade",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ZbVRhc3BzckxFVklDaUd4amxManVLUnBYZWF6SVpWWFV2eFcwalFFQXZjanBIS1NfT3BlVXdISHMta2NsVVdYQk9xa24xTDJUZEFKbUp4UGdEYW15VVMxcHBGXzhZSWJMUEhaWjAxR2ZDMV9pQVg4UnhNVQ?oc=5",
+      "published": "2026-11-23 03:45 UTC",
       "sector": "Technology",
       "tone": -5.0,
-      "note": "Major tech crash, Nvidia and Anthropic tumble."
+      "note": "AMD drop reflects broader chip slide."
     },
     {
-      "title": "US market sell-off: Nvidia to Anthropic, what\u2019s behind the brutal AI stock crash?",
-      "source": "Bing News",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b03c278d2c64fcc9286bb74e6572836&url=https%3a%2f%2fwww.financialexpress.com%2fmarket%2fglobal-markets%2fus-market-sell-off-nvidia-to-anthropic-whats-behind-the-brutal-ai-stock-crash%2f4390268%2f&c=4328480594623347765&mkt=en-us",
-      "published": "2026-11-20 17:49 UTC",
-      "sector": "Technology",
-      "tone": -4.0,
-      "note": "Sell\u2011off driven by AI stock volatility, negative sentiment."
+      "title": "Top Financial Stocks To Consider - November 22nd",
+      "source": "MarketBeat",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSWF1enVyazFEU29scXRkX2pxOEdZWEZtYmEzUzFLYk9JMldzQk5oeWthZGR3VlhxYkFRc3RrUXJBcHVmUkJtbGlrbkdQcXpFMmNWQ1h0OXBNaFUtNmo5Z0EwWlRyTFhFMzEzWXRVNzJnVzdwSWtaY3RwRmNiRERzS3NMTm8wcGo0dlVoLWpqX2tSbURxWUtJVFVHb3lBVS1EcU9DR2g5V1Q?oc=5",
+      "published": "2026-11-22 17:20 UTC",
+      "sector": "Financials",
+      "tone": 2.0,
+      "note": "Highlights top financial stocks, indicating positive outlook."
     },
     {
-      "title": "Dalal Street Week Ahead: US GDP, FIIs mood, oil prices, PMI flash numbers among 10 key factors to watch",
-      "source": "Bing News",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b03c28d9675470abc321f676bf5792d&url=https%3a%2f%2fwww.moneycontrol.com%2fnews%2fbusiness%2fmarkets%2fdalal-street-week-ahead-us-gdp-fiis-mood-oil-prices-pmi-flash-numbers-among-10-key-factors-to-watch-14086522.html&c=14440283805806826900&mkt=en-us",
-      "published": "2026-11-22 09:16 UTC",
+      "title": "Bank Stocks To Keep An Eye On - November 22nd",
+      "source": "MarketBeat",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWnlyTmJmNUxJa0ltTFZESWJyeldiWTN1UGItR2VYUzZyVFVVOHNVaVdVRzJtSlNaQ2RWYUdmVUNUMDRMNXQ5MUpXd0M2QW52MGlSeVRuSUwyT1JIMEVGdlpmX0hUdkpDaEFLRXllXzlzQjFrVmNpU1RQMVM1VTI5Y19RYWdaR1VrMV93dERMU3NqRVVvbjRaUkpoUVFmRkoxNjJQUw?oc=5",
+      "published": "2026-11-22 17:20 UTC",
+      "sector": "Financials",
+      "tone": 2.0,
+      "note": "Focus on bank stocks suggests optimism for banking sector."
+    },
+    {
+      "title": "Sensex, Nifty end week at nine-month highs as bank stocks lead rally | The Business Guardian - newspaper",
+      "source": "Magzter",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOaUtiSTZOb2lzVXQ3Z3llNlBRWkdRdkU3bC11T01zZ2ppdG03MXlETjdCRTdRTlh3bk5iVDRudEp0N2Fud1hPaGNxYUwwck1HaWxyWWhERGthcFRZbDdZSDJhR053OU9ZSW4xbE13cVNpOVN6MUI4RkoxNU5BN0NmMVdhTTR5Y3Z2VGhaN3BmRG1rMnRpR2NobHExTHFUQ3dNMXJDVDZPR1dmdmtTZEdFR004R3p5bEd3TmNDc09EWHgtcjRPMXVGZld3?oc=5",
+      "published": "2026-11-22 06:41 UTC",
+      "sector": "Financials",
+      "tone": 2.0,
+      "note": "Global market rally led by banks signals bullish sentiment."
+    },
+    {
+      "title": "Sensex, Nifty end week at nine-month highs as bank stocks lead rally",
+      "source": "Times of Oman",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUGRQM0FYMUhnaC05aXV4aEprWmJ4eHJUcGhaaEF6Rjg4VS1fa2Y0TkUtbTlRTzZXdk1PWWk5VGJTSnc4MlhXdWhabDNvd3RPQms4UC1WLUlTd1VqeVFldjhrZWZaZk04RDhaRVBIQXpXRVFCTVlWNnhDVUM1b01GUi04R0lHZG1QQ2d2enhRUllmLXFsVEhOOXNnb3NtMkdXYUY4bmp3YUl1Zw?oc=5",
+      "published": "2026-11-22 02:59 UTC",
+      "sector": "Financials",
+      "tone": 2.0,
+      "note": "Same as above, reinforcing positive view."
+    },
+    {
+      "title": "3 U.S. Financial Stocks Built For Higher Interest Rates",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQX0RjaktRR1R3RTFYVzRoQzRZeU5UMVFVN2ZhYXgwMTA3OHRmUkVDRUtNTi1GV3k4cS11d0NVb1pHek9rZW9HN0FYMkt4SDhnZmVaZWhfandIQlZnZzBJU1hJUjdUU1RfcVRBN2xRclN1a29yMzl2X2YtTHNSSVcySnlrV2FtYmpCU1dNb1VIYjdldy04QUE?oc=5",
+      "published": "2026-11-21 19:06 UTC",
+      "sector": "Financials",
+      "tone": 3.0,
+      "note": "Stocks built for higher rates imply benefits from rising interest environment."
+    },
+    {
+      "title": "Bank Stocks To Follow Now - November 21st",
+      "source": "MarketBeat",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMi0tYVEyaVZOWkNLMW4yWGZzM0dZQVp3YVNITDV2UC00YVZsSno5WlVwTjJxdU40UjdXdTVPUWVFV2hxcENvNFlHVTFQN3IwbXFVTnpwUzdwWXlVTVRjZ1dxRmtNNFJHVEFwYll2TU5PclpfZGpScnhNRnlONFVKXzU3bHZsaS1XRTlsajZVTkRPeUtVSGpxYUQ4MGNFazQ?oc=5",
+      "published": "2026-11-21 17:17 UTC",
+      "sector": "Financials",
+      "tone": 2.0,
+      "note": "Follow-up on bank stocks indicates continued confidence."
+    },
+    {
+      "title": "Goldman Sachs: Oil Prices to Ease in 2027 as Gulf Suppliers Adapt - News and Statistics",
+      "source": "IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeVFDeEkzb3YzaWdVY0NpRVozWVV6bHlaVVJ5c2FhdjR0SEhyWmJENUMxOElBZ3JSOVVrd09uNmdoRmJPOTlDNzdHRlFfN1JlaERmOHJFRUI3NC1nWHotcDVQZXFlQ0JsY3lBcTFnRWg5M2tBZ3BWbXhTd1lFSEU0WVRiMmZyd004Uk5GSUZmMHpXT1hYNDJGRmhTeVl6Y0RfdXE3ZlFJTGhRY1E?oc=5",
+      "published": "2026-11-23 04:20 UTC",
       "sector": "Energy",
-      "tone": 2.0,
-      "note": "Oil prices and PMI data suggest moderate upside for Energy, but GDP outlook tempers enthusiasm."
-    },
-    {
-      "title": "Amazon.com vs. Home Depot: Which Consumer Stock Is a Better Buy for 2027?",
-      "source": "Bing News",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b03c296fd6742dca0c39460d7b4b209&url=https%3a%2f%2ffinance.yahoo.com%2fmarkets%2fstocks%2farticles%2famazon-com-vs-home-depot-182411819.html&c=4627149286031930569&mkt=en-us",
-      "published": "2026-11-22 10:24 UTC",
-      "sector": "Consumer Discretionary",
-      "tone": 2.0,
-      "note": "Amazon\u2019s performance compared to Home Depot signals growth potential in consumer retail."
-    },
-    {
-      "title": "Stock Market Today, Nov. 20: Amazon Shares Slide on AI and Mega-Cap Tech Sell-Off",
-      "source": "Bing News",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b03c296fd6742dca0c39460d7b4b209&url=https%3a%2f%2ffinance.yahoo.com%2fmarkets%2fstocks%2farticles%2fstock-market-today-nov-20-225002397.html&c=8402374047053463009&mkt=en-us",
-      "published": "2026-11-20 14:49 UTC",
-      "sector": "Consumer Discretionary",
       "tone": -3.0,
-      "note": "Amazon shares slide amid AI concerns, indicating short\u2011term bearish sentiment."
+      "note": "Oil prices expected to ease, signaling lower demand."
     },
     {
-      "title": "Amazon Stock: What Wall Street\u2019s Latest Forecasts Say About Its Next Move",
-      "source": "Bing News",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b03c296fd6742dca0c39460d7b4b209&url=https%3a%2f%2f247wallst.com%2finvesting%2f2026%2f11%2f20%2famazon-stock-what-wall-streets-latest-forecasts-say-about-its-next-move%2f&c=18335065816514204560&mkt=en-us",
-      "published": "2026-11-20 09:03 UTC",
+      "title": "Oil Prices Extend Losses as Global Market Sell-Off Clashes with Rising Gulf Security Risks",
+      "source": "Sri Lanka Guardian",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdF91NXNrZk5jSkNwVFRsQU5OQ0ZyWHRkb2lFNTlVRUg2R01qWU1tNkFwUTJ3clRLT2llTnZsZzNsd3I1MXh6VklMYk8xWWhPTlRndEktUGY5amFXMGNGV2hKeXoyVjB5OHctU3plZGktVU44b1hUYTdkR2pJOEM0NVpINVRKVWI2UmhQcFQ4WkFseUs2anJUMFlEcFpEMDJfTFRwSDZCREp4TzRhN3ItUmk3SkY?oc=5",
+      "published": "2026-11-23 04:17 UTC",
+      "sector": "Energy",
+      "tone": -4.0,
+      "note": "Oil prices continue falling, hurting revenue."
+    },
+    {
+      "title": "Sensex, Nifty 50 open higher as foreign inflows, easing oil prices lift sentiment | Business News",
+      "source": "Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQcVpHTEt2SHpBTG80ZXdyRU5CbE42Y1dYckZhUzZxUVc2R184ei1EeWctR0pVa2FLZkxsOXJ0MjJZVUVpd3k2MXdRTUpGTkFhMjdxSmhTMlB1dnU2eUdFdDBlbU9zZE1zUXozZ1lOVWNkMmJ2QmpaNS1OS0FEbG5HRzg4Q1hRUGZDdnVPNXRaVDVIcWRaRk52MXJjZUVkSkdUYVo0ajlKNkFFeGYtM3ZaaVgzU0JyUkNuYWNZRVo0ZHVic2JJT3h0Um9CclhlUzFhQ3BMYWJHa9IB3AFBVV95cUxOc25hcU5mS0dtcHdTcFpBZEpaUkJCcmR2Ym1ObUtXSUplSXZwWWxJM1N2UGNfenNSdkFMenFQTjNNWjU0dFVXVnFsaExfbWVSUVgzWTNQTTVpTnNoT21IUlVlNFJNWnVJbERXM05SSklLeFFtbnozSTJ1X1NkMlV5ZnBGZmI2anRickFfRDNxY01tWV8ybC1XM3VIT0t1bW5xUWhlRlpNZklBWV9rb2lDWmlHeWUwcGUyQ3R0SHh6d2hMWTJwbXBaRS1Xc29KT1N5SEFSMVJzV1g4a3Np?oc=5",
+      "published": "2026-11-23 03:54 UTC",
+      "sector": "Energy",
+      "tone": -2.0,
+      "note": "Easing oil prices lift markets but hurt energy."
+    },
+    {
+      "title": "Indian stock markets open deep in green: Sensex rallies 500 points; Nifty up 80 points; oil prices remain s...",
+      "source": "Bhaskar English",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTVd3eFYzTnQ0MWF2Q08xamg0SDZwUzF5anZNYmQ3NXg3WlJwaldvR1ZOakRXVm9wSWV5dGtIcW55R3FRalJBU3FhbkJDS1ZjY2ZuVWh4dTZfQzQ5Um9pTkc3R253eVVkRlNqTzQzTDd0dEwxZjVveFJSa2RabWE5dEIwd0VFZEtrY0tkYmpTbEgtNmY1c3ctdnR1SHgxQnBLelRDNEJvT2xkSkozWXY5eWowaV9mY2p0Ylc2R0YtQUTSAcYBQVVfeXFMTjJ6VnBMS1pSeGd5c2NkZll1RVdLNTB3U1VKRmtSaUFoSXlxWmpVYUF6ZHB5NHVFdG5wcy1CTGdDMkp1SUtOcE1HcFdSdXUxVHlVWFdha3h1TlFUUXlNUWU2ZDdkOVlnWnBjakpZTFV1YmREc0JjVkZ3UW14NUdBcHF6M1EwVmc3c3N3bEJOWjIyQnVTR2lZay12LUZwTzNfZjAxS2FXSFJqNmtQRENWVTQwS3J0WjBPNmpLMzRTRl9pZDlfdTRB?oc=5",
+      "published": "2026-11-23 03:51 UTC",
+      "sector": "Energy",
+      "tone": 0.0,
+      "note": "Oil prices remain stable, no clear impact."
+    },
+    {
+      "title": "Gasoline and oil prices today, November 23: Simultaneously decrease",
+      "source": "Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVXVnbXQzaVFlNnJCWVZwWk9vNV91LWZOQWR3N3hvUm9TcERkOG4wbTJobkVyRWtPcjRjMXh6Y2NtUGdpc3VKcS1wcGQxNFBDR18tZllRV3JYa05QMWVQRlljQWtkd2pIZ0VScWZYaXVpMHVaRDBYSkRIelNkNzFHTFoxcDlMa0d3eXYzdFg5d2U?oc=5",
+      "published": "2026-11-23 03:49 UTC",
+      "sector": "Energy",
+      "tone": -3.0,
+      "note": "Gasoline and oil prices drop, hurting earnings."
+    },
+    {
+      "title": "Trump blames Democrats for $6 trillion stock market wipeout, calls oil prices \u2018a giant hoax\u2019",
+      "source": "\u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE93bFh5WktDOUFGQkxQOGNzU052UnB2WnI5U3h5Nm56dW1VUW9ETlRfMHF1M0xJcU5feER5bEpNcUhwUkpJMzlFVVEydGFtWDRHUnQw?oc=5",
+      "published": "2026-11-23 03:32 UTC",
+      "sector": "Energy",
+      "tone": -4.0,
+      "note": "Oil prices called a hoax, indicating negative sentiment."
+    },
+    {
+      "title": "Great Britain's retail sales rebound 0.7% in October",
+      "source": "Fibre2Fashion",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPaEgyRkhrRjkzSEVpbHVRbXhuckV5OTVvZ1dUcFk1WW5peVN2UGZLUEVoS05mSDlpZkZOVGk0aTEzMG5EYk1JS09uZ2xYd3JnUGlkQXlUTmprZVI2THJYNVppdl9IM0FaUHBBdFZZU3paVTQzZlhvUjJDUXBIWHFkNjQyS0JxX2xCUHVoeHh5dzdDblFTakUtTkVCY1Jmc2FZN0hadlVZOU5kejdFLWN4TGY1WFRDTUdpRTZQWkZiNUhzZXM?oc=5",
+      "published": "2026-11-23 04:02 UTC",
+      "sector": "Consumer Discretionary",
+      "tone": 0.0,
+      "note": "Great Britain's retail sales rebound, not directly US consumer discretionary."
+    },
+    {
+      "title": "South African retail sales growth slows as consumer pressure builds",
+      "source": "thenational.co.za",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTzAwLXBLTVlmc1BLWWtnZ2hiMW93MjZlWEowaHl3N0pCTzJ5Qk1zWkxHbXJmdF9UMS1FZGE5eWRaSGRwbmo2VXhxX3g0YUJXNE5JdmFid20tdkE4aEJUdDhldTBMb2FLSEU1Q2hZVkZOeEZHcnQzTXpvNDd4d0MteloyaVZaR2Q2WUpPd1QtaXNMNDZ0V3l1VnRiVWg0WlllRkQtckVQcnZZeVZpVi1z?oc=5",
+      "published": "2026-11-23 04:00 UTC",
+      "sector": "Consumer Discretionary",
+      "tone": 0.0,
+      "note": "South African retail sales slowdown, irrelevant to US sector."
+    },
+    {
+      "title": "NZ Retail Sales Surge 2.2% in Q3, Strongest Growth Since 2021",
+      "source": "Action Forex",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOY29vSHlSZXNBVUJvM1BUQ2RNVDJpY1Vvb2J3SHh1Tjk4T1JBbEg4eGdmRXFYajlLS0lOeHFBNkZkdkw1LV9zR2dOZDhodDZxSHB6cUVQT2ppamRuc2pDc0RHeEFxek9GZXJ2bmVwLVpfWlJEeUJBeDBoVWtqaG1UX3JMNlJMZHJRYW95ODJILWp1VUtETFBXamFvcDhwQVRmelRmbzRSQWFZWm5ZSnc?oc=5",
+      "published": "2026-11-23 03:16 UTC",
+      "sector": "Consumer Discretionary",
+      "tone": 0.0,
+      "note": "New Zealand retail surge, no US impact."
+    },
+    {
+      "title": "Surge in Ross, TJ Maxx and Marshalls Sales Raises Questions About Consumer Spending and the U.S. Economy",
+      "source": "Florida Daily",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYTFPVmdxU3hBalhCdmwzdG9rZTF2bDlLNHpOSVR5S3dGOHpmQWVObkc4VFhpVzFrbTRSZHF1a3h1d0RQeFZmZTY1TldJazBTSzZkYUppa3ZvX29DVzdLaE5hbDhlZ1EwUHpRT0FOTHNxLUZwWXlySTAzYlVXYktGekRpcG0xR05pT2pGSjNhNHE2dXlOME1rWWgtRlJvVlNlSzl1MmYtWVl1TnVKYTZsaTFaODFVY0ZsdVlsZmc3Z0wtcmNsaTNr?oc=5",
+      "published": "2026-11-23 02:26 UTC",
+      "sector": "Consumer Discretionary",
+      "tone": 3.0,
+      "note": "US retailers Ross, TJ Maxx, Marshalls sales surge signals strong consumer spending."
+    },
+    {
+      "title": "British Pound edges higher above 1.3100 on upbeat UK Retail Sales data, hawkish Fed bets fade | FXStreet",
+      "source": "\u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE92UVhKdEJqY05WS0tJdmZUSkwtZEFheVo3aGVGR3d2MXFqUnFHMXVDR0JncjZubEgtd3Rpc2VFUDYxeHRFM05HcHctLWpiLWhsWU5r?oc=5",
+      "published": "2026-11-23 02:06 UTC",
+      "sector": "Consumer Discretionary",
+      "tone": 0.0,
+      "note": "UK pound movement, unrelated to US consumer discretionary."
+    },
+    {
+      "title": "Retail sales jump strongly in September quarter",
+      "source": "RNZ",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSzQ3cXZQMmdwRWJCZDZXajlRZXZuaXJjQkxkaENUOGNOX3BHWTF1cGtnUzViaXdaR25jRzhkbGU2TXZWbW0yQ2tOV25odVotZVJha29MWEVzVmhZTkhFTWl3YnctU1QwUGh3VGg2SFRWcWhLWEJoMDhQVlhWbmdFOVNPSlZBQ1E1YjRWTlpaQjBaZTdoR1E?oc=5",
+      "published": "2026-11-23 01:23 UTC",
       "sector": "Consumer Discretionary",
       "tone": 1.0,
-      "note": "Wall Street forecasts suggest moderate upside for Amazon, hinting at bullish outlook."
+      "note": "Retail sales jump strongly in September quarter, modest positive for US discretionary."
     },
     {
-      "title": "Investors fled to healthcare stocks for safety. Now insurance and hospital shares are plunging.",
-      "source": "Bing News",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b03c2ac641f4cf6ad37dcac78dd94a3&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fother%2finvestors-fled-to-healthcare-stocks-for-safety-now-insurance-and-hospital-shares-are-plunging%2far-AA2hRtPp&c=7434561289477492919&mkt=en-us",
-      "published": "2026-11-20 07:53 UTC",
+      "title": "PepsiCo Q3 preview: Where next for PepsiCo shares?",
+      "source": "FOREX.com",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWHdpOXp6emtzNjJlaDNxZ2VQeDM5MmNvWWpid1BHNExrZng5bmx3R2NMZEN2WVVoT1JEdVZxY0JwY1llVEU4VDFta1BBUW93a2FVX3ctSVZvZTVSeDNtNTN1MnNlSG1UWmpQODVKbDJZeEZoUTQxa084UjFuM1FYSHozTUd3ZmQxSGJxQlZ3T2JzUGg3QTc0Wk5hYlBUT1U?oc=5",
+      "published": "2026-11-22 00:18 UTC",
+      "sector": "Consumer Staples",
+      "tone": 2.0,
+      "note": "PepsiCo Q3 preview signals growth potential for the sector."
+    },
+    {
+      "title": "Consumer Staples Stocks 2026: Defensive Rotation Guide",
+      "source": "Intellectia AI",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYkN3M09FQlRXT2xzM1Bfc2c3bmtVdnhMM001X0YyT05pcnZreHdBM0NoTWxLdEtJeEpmem13RG1abVpxRGFZTVZOUnRvZEE5VWNnT3FYemUxMHdaUFFmZFgtYmpCb0t1Y0xJdERxODN6a05ReGk5SFRkS2ZpV1RkN1Qzdk05Y29wa1hoUQ?oc=5",
+      "published": "2026-11-21 14:02 UTC",
+      "sector": "Consumer Staples",
+      "tone": 0.0,
+      "note": "General guide, no specific sentiment."
+    },
+    {
+      "title": "Coca-Cola shares rise 35% in a year, showing st...",
+      "source": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1kS2Y2RXJ2RTd0ZEZfclRBRzVCR0VUWmtzYk5iZzl3QzZuckZNS1QwRjBiZS1Qd1c4cjQ5R210VTRPZDVvTjZrRDdGYlBVZVVUTXZPZ0FlWGpMNXNDVXk4Q1JmQXhiN1VKeS1zc2dja0QwTm1PR2dtSm9B?oc=5",
+      "published": "2026-11-21 08:00 UTC",
+      "sector": "Consumer Staples",
+      "tone": 5.0,
+      "note": "Coca-Cola's 35% rise shows strong investor confidence."
+    },
+    {
+      "title": "Price Freeze: What Does a PBS Price Freeze Mean for ASX 100's Sigma Healthcare (ASX:SIG)?",
+      "source": "Kalkine Media",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPRjM5WU10a241amhza3o3ano5ZFJ1RjBOVVNDZ3Z5aEtpb3hmQjF0U3ZuSkgzQzFILURfcTFnaTZ2TFRnWnpPbEdOYk52UG92cFF0Y3dBcnhVTlNHaExwSndWbEUwRVhzMFlReHZmTXRLemVuc1pIV3RpeFphOS0wcmFieHlzTE53N0tEbExLRjBieXNDODVKcklEak8wcVBoNXlXNkV5X1RVcDVKV1dvdG5ZZWp2aVMwUXlqZUZ2VUtZcVJQYURuSg?oc=5",
+      "published": "2026-11-23 04:08 UTC",
+      "sector": "Healthcare",
+      "tone": 2.0,
+      "note": "Positive outlook on Sigma Healthcare due to price stability."
+    },
+    {
+      "title": "Neuren Pharmaceuticals (ASX:NEU) Shares in Focus: Why Does the ASX 200 Biotech's Japan Partnering Deal Matter Now?",
+      "source": "Kalkine Media",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOcjdwbDA3eUZmLUV2Qm5YMFZFOFhudnRpVms2ZVZxejJxVm5jSXlCOWRuOUY4N3RZZm1yTjl3VTNYaThncUtGN213cGJ0U2hBaXFUTFU3VEZxUWM3UEdpcGFrX1ZqWHFlVlVGSHhIMjNxcXF6a1Y3NjA1MWpqMGt2b1FNU0k1eUNaRW1pSUdtbkJURFgxR2hJMXF1OTJZQmhBay1Ydm1NOWZ3X2ZZa2d5VDhiRy1HSUlxTDEwbmV5QnlKTzFuSVdUMlhHbmZpcjhmUzRlVVUzVXBkRWVBVXA5UmhJc29Hckk5RUE?oc=5",
+      "published": "2026-11-23 00:12 UTC",
       "sector": "Healthcare",
       "tone": 3.0,
-      "note": "Investors flocking to healthcare for safety boosts overall sector sentiment."
+      "note": "Neuren's Japan partnership signals growth potential."
+    },
+    {
+      "title": "Fisher & Paykel Healthcare (ASX:FPH) Shares in Focus: What Does the Medtech Stock's Upcoming Interim Result Signal?",
+      "source": "Kalkine Media",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQdmZSUWY1R0NMN0NYNVo4eE4zT3lQZUxIeTJWMTdLbEdidHFGNTV3dFdiRTR0MnF5am5tY2JvTkQzQUViU0dDcVFJTEZfaHNQdGx4QVdaWU5STEFLRlNVNmF1cUs5TUROOGI4X2JJckhUZ0l5V2Rhd2NTejNyeHpCbWk4QVljcV9IcnhhRjFqWkhrRzNIc0N4NktWc1RhbzJ1MkpqVDRpLWtWTExvaHk5MEJFQ2FCczNZNmtSNlJsR09CLU5QUTFwS0I0UGZoSDZ2VnRqOGtzVHAxQ2F4QjFmNUFUaV9BcE1I?oc=5",
+      "published": "2026-11-23 00:11 UTC",
+      "sector": "Healthcare",
+      "tone": 1.0,
+      "note": "Fisher & Paykel's interim results hint at steady performance."
+    },
+    {
+      "title": "Cochlear (ASX:COH) Shares in Focus: Why Is the ASX 50 Healthcare Stock's Reaffirmed Earnings Guidance Drawing Attention?",
+      "source": "Kalkine Media",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQdjF4bUpjUTc3LTczVFpMYTAzdUViaENyTlN6NTJiS2hLSllfMllDSTNsYWtJUVhtNzlkTktlOUN3elZZc2toXzJraV9oX2lhOERRa19KNGlteWk1MTRZSDB3VE4tMXNqUGlkcHJEMnZuQXFzaWFxdzZ3X19IaTNlR3dRLTN0bnoxNnJXTHBKdm9kb01VS19TVlFVS2FuSk5aMWxtV0x5cXZWb2pLd3BPbUs4R1FLRjAxWlNZazkzeWFrUHVTeW9hMjZ0dUFNcmR3eWdKQmpHaFN4Mi0ydmh2U1A5NmFxZVppT2pqVEVZYXRodw?oc=5",
+      "published": "2026-11-23 00:10 UTC",
+      "sector": "Healthcare",
+      "tone": 2.0,
+      "note": "Cochlear's reaffirmed guidance boosts confidence."
+    },
+    {
+      "title": "CSL (ASX:CSL): What It Gains From Its Alentis Kidney Drug Pact",
+      "source": "Kalkine Media",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPU0I0cFlVRjVJWWw3Y1JEMkJtQnIyTUdqd21CNmpLSXRHSFVjbmZ2NWgxVXFDWXJoN1pSZlNtU3NsUGFjOFQ4RHJhWXgtSFBacHdJNE5KRnNxeHpFV2Z4TXF0TWZ3NnVDQzBYT1EwV0FkLUNCbXFHUXMxTGN5Vy1BeG5mTlFVQy1URGJLQnR6czFVLVRBWGQ4RGlMSXZGdGJTaHRkQnpRWQ?oc=5",
+      "published": "2026-11-23 00:03 UTC",
+      "sector": "Healthcare",
+      "tone": 4.0,
+      "note": "CSL's kidney drug pact offers strong revenue upside."
+    },
+    {
+      "title": "ASX 200 Biotech Telix (ASX:TLX) Shapes Its Radiopharma Growth Plan",
+      "source": "Kalkine Media",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOHFBY1FIeVF0azl5UGo1WWIyazl6OWJMSlNTTU1WeVhrYnRabDQ2b0tZazNGNGZvMk1ybzlmVXMyZVpkOXRBTmdVaFhZbnZ1OG05Q2JFSXN3bEVfbUJKOUNsV3dYRW5hMlhkTEo1OWRPNjlSaXBWeEdvYnl6RzRaYmJLZC1QTHlDR3Ffb05qSFNWX2hxdG1SOXliYnNaa0hKSHU5cVZrbzU0Vi1LaVE?oc=5",
+      "published": "2026-11-23 00:03 UTC",
+      "sector": "Healthcare",
+      "tone": 2.0,
+      "note": "Telix's radiopharma plan indicates expansion prospects."
     }
   ]
 }
