@@ -1,366 +1,123 @@
 {
-  "updated_at": "2026-11-22 13:57 UTC",
+  "updated_at": "2026-11-23 04:32 UTC",
   "market": "US",
   "items": [
     {
-      "title": "Amazon Stock Falls 4% as Nasdaq Crashes 5%: Is AMZN a Buy?",
-      "source": "Coinpaper",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSGR2Y01NTm9pWUx4Q2g1cllsVUUwdTd5Nk5MN3k1RzM2bWhBcDFtN0FFN09UTHgyMU5mQ3lfc1I0cXlVTnhBWjBiTDlKTmJ6WDg1d0YwV2lTVjY2VTlWQ3R5WFE3U3dsaUJoUVMyUFNUMVJ5VzBVTnVlV3lJa2dsVE1Oc0VUTThZbGc?oc=5",
-      "published": "2026-11-22 13:47 UTC",
+      "title": "US AI stocks hit by 'perfect storm' sell-off",
+      "source": "Bing News",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b03c270c720451ebee4272d2eabb1e1&url=https%3a%2f%2fwww.msn.com%2fen-xl%2fmoney%2ftop-stocks%2fus-ai-stocks-hit-by-perfect-storm-sell-off%2far-AA2i0AJn&c=18173537367316512400&mkt=en-us",
+      "published": "2026-11-22 20:00 UTC",
       "sector": "Market",
       "tone": -3.0,
-      "note": "Amazon drop and Nasdaq crash signal weakness"
+      "note": "AI sell\u2011off signals tech weakness, weighing on market confidence."
     },
     {
-      "title": "Keurig Dr Pepper: An Updated Assessment (Rating Downgrade)",
-      "source": "Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaG52Y1JLUTVTaGtCalk5SnNMRkdoS1htUXVHVFhpeTQ2V1dlS0JFRk94TW9yU3dHUVF3RXl4SnNIVWd6bnJWSTlUMmt4OFNOM2JzNjBJZDI4bS1yWUVUcHNIQmF6WS1IaFVKM2c1YUpERG1uc1dnQnZhZ2s1QkU1RUg1Q3lJV0JWUjRSZEY1S1ZXek96WWhqMzVDNjNLSUlXU2ZYaGFCSUJXdU94elVycVU1S0g0UQ?oc=5",
-      "published": "2026-11-22 13:45 UTC",
-      "sector": "Market",
-      "tone": -2.0,
-      "note": "Downgrade dampens sentiment"
-    },
-    {
-      "title": "Costco's (NASDAQ: COST) 84.1 Million Member Households Signal A Deepening Competitive Moat",
-      "source": "Foreign Policy Journal",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQcVBJTDExNnBvNWhFQjlxLXJnaGJoN1FaM1loV0hmVFJFYmRxbFFXQ0wzRHkxRGt1dnYwVkR1RTEwNDJhR3B5Uk9KYzdDTWZ2enFsV3JVUGY5MkRzUTdfV2JIRXZYcHNRaXpudWhmalRpMmRiTjg4TnhEcXB1ZHhZR1Y2LWtyYllRVS1HMGRNMFRwNlZ3N2NYc19XbHFYVm4tVDIxYXpacndPRWt1dVZQQ3FScmRhOFVOYlFmYnZzRVJCS1gyZ3NmTWVsTHkxamVC?oc=5",
-      "published": "2026-11-22 13:45 UTC",
+      "title": "Wall Street strategists see silver lining for stock market",
+      "source": "Bing News",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b03c270c720451ebee4272d2eabb1e1&url=https%3a%2f%2fwww.msn.com%2fen-us%2fmoney%2ftop-stocks%2fwall-street-strategists-see-silver-lining-for-stock-market%2far-AA2hZaFN&c=4513446282276574873&mkt=en-us",
+      "published": "2026-11-22 11:46 UTC",
       "sector": "Market",
       "tone": 3.0,
-      "note": "Costco moat strengthens confidence"
+      "note": "Strategists highlight growth prospects, boosting overall market optimism."
     },
     {
-      "title": "Amazon Urges NYC Customers to Oppose Mamdani-Backed Delivery Bill",
-      "source": "WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUlhuRl9IVHpKbEE1aE5EQ3RBb1lScFkyaktKUHpueW1KSi1EWGFYMEx4TU9oRm5RbzVkSkZ2aWhtZ0hxSkFlcjNFNjJjNHhHME9FNkp2ckNuS1FMMkNBYUZSemt1UTFpYmd6MEtLOTdXdDJwellWMGxFd0lnLXVsMHdiU2tvOWw1Qk9FV1d3c21IejNyT3ZRX1NPdmFyekV0enlHNkszSWVIQVM0dGFRUnh2dw?oc=5",
-      "published": "2026-11-22 13:23 UTC",
-      "sector": "Market",
-      "tone": 0.0,
-      "note": "Political stance unrelated"
-    },
-    {
-      "title": "Trump weighs in on Putin, Wall Street losses and data centers",
-      "source": "kens5.com",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPelF5QVFFSUFxeWRPbm9ZMHBaYjItaXZCMXg0WnpnN1BTS3c1dFRPdFpOS1Rra1Bpa2k1cDVITEFjUUthU21CcVRuWUR5Z0lPZnlkNVNXazNpd21mczl0OThmcjBWQ0lVRDRQbkNleTQ0REk0U1VjV2JOZVJGNE5RVC05SGEtTkxSQUJjS2F4RDhPRFFnbDgwRXdEVXlHbXlrUWloNWdvVFdubnExN3NSVlZ0aVhLQXJVZ0ZqMFVhTmx1Q1RnLXBlWnIyenFwS1JxdjhMV3lhUU9rU2FORUpWd0ZnVHdXbWFKTlhsZjMtOGRndE0?oc=5",
-      "published": "2026-11-22 13:15 UTC",
-      "sector": "Market",
-      "tone": -2.0,
-      "note": "Trump comments on losses add gloom"
-    },
-    {
-      "title": "SOXX and DRAM Are Down Between 35.6% and 51.9% From Their Highs. Here\u2019s an Even Better Growth Stock ETF to Buy During the Nasdaq Correction.",
-      "source": "The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNYTRtSjFKLWp0cWNvaVJiaHE1b29vTXBQNXdWYUpfbTFoVjR4TTlNNVowUXprRkV4MURDZXR2ZXFUWGYzV3gyUXlDckhNMDl0a0ZGQ2s4WHJ4Q2VIWEl6Q3VEMnM1NVVzdVhFT2pwQ1RtZDJGTS12UElacDRqdjNVZXlqdFhldkYwSHI5Nm0yUXc5aW9zeDVEdm5PTExuMndwR240bkJ4cF9kaFRDTEgxRWdvUnhFZDBIS1dLRWMycTNJeHludWZTNEtuZHpIUzFpQ2ZIeGllV1E2S3NqYnY3VFdUb3k4YUY1QXdaVWZ3b3RKa2F2SEU0Tk1uT2RMZHhYR0VNVlMzdU5hQUU?oc=5",
-      "published": "2026-11-22 13:15 UTC",
-      "sector": "Market",
-      "tone": -3.0,
-      "note": "Tech ETF decline signals risk"
-    },
-    {
-      "title": "About $1.7 Trillion Wiped Off Chinese AI Tech Stocks \u2014 \"Still 30-50% Overvalued\"",
-      "source": "BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90c0JsTTc2am9WcW41akJHMFUzelNvaGthb21nX2hlczlDOVhXS2dLcV9yUUtQMkx6SHl2ckk3Tk5RbXg4NFFUOEtmeHYxTGlVYTdXTVBHb1ZGUU5ySTUtM2cwS0RsSGxVMVdPRTdQY2ZZcFlYTmc?oc=5",
-      "published": "2026-11-22 12:35 UTC",
+      "title": "Worried about Nvidia? Buy this fantastic artificial intelligence (AI) stock instead",
+      "source": "Bing News",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b03c278d2c64fcc9286bb74e6572836&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fother%2fworried-about-nvidia-buy-this-fantastic-artificial-intelligence-ai-stock-instead%2far-AA2i046M&c=6775308586094935839&mkt=en-us",
+      "published": "2026-11-22 20:00 UTC",
       "sector": "Technology",
-      "tone": 2.0,
-      "note": "Positive AI outlook for 2027 boosts tech confidence."
+      "tone": 3.0,
+      "note": "Positive alternative to Nvidia, signals AI growth."
     },
     {
-      "title": "Investment Managers Constructive On AI, Tech Stocks In 2027",
-      "source": "Wealth Briefing",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdGUydlBPU3J5NE1NRTlpYk52ZThCRHdVbTN2S3VVOEp2UThoYWhlSjdEaXNHVkJTUDl5TTNtcHdGeXZ2RVB4c0wwVDhjLTk4OTd1R3hKZGNrWld0WTRUT1dNOXFBNnNlUWx2MHB0ejJwZkRZZ2xrc2JsU3JKZXNhZlFvaGdzVzEyektkam9pa25lenFYZ0pnX2xVbk9UYjJBOFd3QXhhOE56alY4NFE?oc=5",
-      "published": "2026-11-22 12:29 UTC",
+      "title": "Michael Burry on Nvidia Board? \u2018Big Short\u2019 Investor Jokes He\u2019d \u2018Volunteer\u2019 as NVDA Stock Sinks 40%",
+      "source": "Bing News",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b03c278d2c64fcc9286bb74e6572836&url=https%3a%2f%2ffinance.yahoo.com%2fmarkets%2fstocks%2farticles%2fmichael-burry-nvidia-board-big-031945302.html&c=7579606314796360195&mkt=en-us",
+      "published": "2026-11-22 16:00 UTC",
       "sector": "Technology",
       "tone": -3.0,
-      "note": "Massive wipeout of Chinese AI stocks signals valuation concerns."
+      "note": "Burry\u2019s joke signals doubt in Nvidia\u2019s future."
     },
     {
-      "title": "Chinese tech stocks, once seen as a potential challenger to the United States\u2019 dominance in artifici..",
-      "source": "\ub9e4\uc77c\uacbd\uc81c",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9UdzJCRGRWRkNTbUhPLW5YbEU0aGwtVE5sZ3E5QjViYVZLbDEyUUNOX1NGZkI1OHB2bi1VeDVyWDllUU5MdWd6WkF0QWdoeTA?oc=5",
-      "published": "2026-11-22 11:52 UTC",
-      "sector": "Technology",
-      "tone": -2.0,
-      "note": "Chinese tech seen as potential challenger, but still overvalued."
-    },
-    {
-      "title": "U.S. Stocks Extend Plunge as AI Boom Turns to Bust",
-      "source": "WSJ",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOY1h6VEhXUGRDcE9hX25QQllJOF9uSmhUNERBSVdBNjRkU0gyaGRySGN0MXVXZERzUmhmdXJIUms2cFJJU2ZvdkVjUlB0RjRxSTQ4RFBiYTV0T0MyUFB5cWw0RWtuZzZrQXFwLUJqb3VsZGhacHR0NF9wTVMwc0tYUW1obFhUNHNVX0JEQnFKX2pRc1RWRGsxVw?oc=5",
-      "published": "2026-11-22 11:24 UTC",
+      "title": "Nvidia faces mounting pressure as US tech stocks enter bear market",
+      "source": "Bing News",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b03c278d2c64fcc9286bb74e6572836&url=https%3a%2f%2fwww.heise.de%2fen%2fnews%2fNvidia-faces-mounting-pressure-as-US-tech-stocks-enter-bear-market-11533863.html&c=661117352915918086&mkt=en-us",
+      "published": "2026-11-22 11:39 UTC",
       "sector": "Technology",
       "tone": -4.0,
-      "note": "U.S. stocks plunge as AI boom turns to bust."
+      "note": "Bear market pressure on tech stocks, negative outlook."
     },
     {
-      "title": "Nvidia stock closes lower after company opens probe into CEO Jensen Huang - ABC News",
-      "source": "Breaking News, Latest News and Videos",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSGdCVXFUbVFHRGZpeE1wVjZ1ekhMRHh0aVZmSG5sZTl6Q1dSeUVwTFBsQ09iTlVHNURTT3M4b2ttTGRqU0xWQTlUcld5dG55Zlh6ay11NFY2VGQ0djc2NWliS1RSYnVqYWRyajRUZ0YtWWtVaDRxcHNJcjlCUGw3bGFFWDgyT2J5M2d3aGNtYldaZXpDTWdJdm9aTDPSAaIBQVVfeXFMT0Z3cEdFWWhNemxyYVlQWFJEQm8tYllLbm1MTzFZektNR0RKczg3b2U1NXNfVkYxWklzQUR6bHVqQ1IyaU9KWnZER3VLUlRITnFaU3VhRTR6alp4dUhOeXFKM3BUZG1XeTQ5WFBRUGtBYlBRY3F6dzhYSkZNX3RuUFZKS2RHN1Z5MlNsTjdKelk5Q2RmT1hwT2hqU1h5LS1kQzh3?oc=5",
-      "published": "2026-11-22 11:17 UTC",
+      "title": "NVIDIA stock crashes 42% in three weeks, gamers are watching closely",
+      "source": "Bing News",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b03c278d2c64fcc9286bb74e6572836&url=https%3a%2f%2fvideocardz.com%2fnewz%2fnvidia-stock-crashes-42-in-three-weeks-gamers-are-watching-closely&c=13561053181373216807&mkt=en-us",
+      "published": "2026-11-21 05:31 UTC",
       "sector": "Technology",
-      "tone": -1.0,
-      "note": "Nvidia probe into CEO adds uncertainty but not a sector-wide selloff."
-    },
-    {
-      "title": "The AI sell-off has investors on edge. 5 pros weigh in on whether to buy the dip \u2014 or skip.",
-      "source": "Business Insider",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUktOeEx5TGt0Wk9pZGRKOUdoa1VfVWV5WnlSOVZxeWxjZm5NR1dIdThReWoxT0pZWmRIa1UzRDdHYnRYTFBGTnN0SG9FMi1wNDlLeW1nbFRON3ppZS1QOUNtQzBLYmVUc0M3bDk1V3l6Q1JhRVlJUmkzM1R6LWpXYTJ6VjREeUpxMHJJOQ?oc=5",
-      "published": "2026-11-22 11:01 UTC",
-      "sector": "Technology",
-      "tone": 1.0,
-      "note": "Some investors see dip as buying opportunity, indicating mild optimism."
-    },
-    {
-      "title": "Sensex, Nifty end week at nine-month highs as bank stocks lead rally",
-      "source": "Times of Oman",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUGRQM0FYMUhnaC05aXV4aEprWmJ4eHJUcGhaaEF6Rjg4VS1fa2Y0TkUtbTlRTzZXdk1PWWk5VGJTSnc4MlhXdWhabDNvd3RPQms4UC1WLUlTd1VqeVFldjhrZWZaZk04RDhaRVBIQXpXRVFCTVlWNnhDVUM1b01GUi04R0lHZG1QQ2d2enhRUllmLXFsVEhOOXNnb3NtMkdXYUY4bmp3YUl1Zw?oc=5",
-      "published": "2026-11-22 02:59 UTC",
-      "sector": "Financials",
-      "tone": 2.0,
-      "note": "Bank stocks rally suggests positive outlook for financials."
-    },
-    {
-      "title": "Bank Stocks To Follow Now - November 21st",
-      "source": "MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMi0tYVEyaVZOWkNLMW4yWGZzM0dZQVp3YVNITDV2UC00YVZsSno5WlVwTjJxdU40UjdXdTVPUWVFV2hxcENvNFlHVTFQN3IwbXFVTnpwUzdwWXlVTVRjZ1dxRmtNNFJHVEFwYll2TU5PclpfZGpScnhNRnlONFVKXzU3bHZsaS1XRTlsajZVTkRPeUtVSGpxYUQ4MGNFazQ?oc=5",
-      "published": "2026-11-21 17:17 UTC",
-      "sector": "Financials",
-      "tone": 2.0,
-      "note": "Bank stocks expected to lead indicates bullish sentiment."
-    },
-    {
-      "title": "Promising Financial Stocks To Keep An Eye On - November 21st",
-      "source": "MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPX2JJMjhkRDI0YzlZR0VXLXNJMjExc3R0ZnNFaHZEU2h6bjZmbUpzQWJxNkJ1UlpPc0owcUhwak55RE9ZS3F2dUhhMEdsT2tsRGZYQlZGUkl4RGJMYU1IZ0V3SENiTkNYb1lQZ2NHWkdQOFF3ZXVBMW04RHUyWERLMnlGUHdTVjM0RmxvYkw2RFAzWWctRi1hNzUycWYxOFRWR21aNjk5bnVCTElnTmNIRUtNVHN5Vm9h?oc=5",
-      "published": "2026-11-21 17:17 UTC",
-      "sector": "Financials",
-      "tone": 2.0,
-      "note": "Promising financial stocks highlight potential gains."
-    },
-    {
-      "title": "Analysts Are Bullish on Top Financial Stocks: Moody\u2019s (MCO), UniCredit SpA (UNCFF)",
-      "source": "The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOUFphd3puZE54RXZDWkpUaE5aRHZydWxsMENpOVh2Q2xkRmpLalFPS2JZc0JPX1pmR1VlX1lvV25za2dLajBtdnhZdHZCbkJEejRyNHdqbU16R2N2X1NDV09vWm9EN0lLa2VuQW5LTDhEaFlzaFdSS3h0VU11Zkd5SmQ4TmJ2SmhQY01NQ3Z0NnNkOTFxUUpEWldPTTY1QTRBYnpvNlVnaVVOMm1GZkthblV3SVp5TU5ORGFqRUJIQ0dCeWNzcDR5MFBnYWJrYl9SallxamlrUWU0bFJHTkN5RXd5eXZOdXZCVTVNTzNHaHI?oc=5",
-      "published": "2026-11-21 12:05 UTC",
-      "sector": "Financials",
-      "tone": 3.0,
-      "note": "Bullish analysts on top financial stocks boost confidence."
-    },
-    {
-      "title": "What Is Net Interest Margin? 2 Bank Stocks Where It's Rising",
-      "source": "The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQmhxRFFoQTNxNENXOUhDYWFkSVBLcUpTeWY0ODZ5X0h6TFZINVpGUkZmWUFqVWlYUW1ObmVMb3pBWWlueERxTWdkaWtwTjNabXlqblc3SUtpYnNTSFFSdmtkc2tWeE90OHdNSUNMYWVXU2dxdUM3ejZtNTlaVENtWkJkSjcxRjBrY2FCdF9aei1QS3V3bERzQVc0Y2FkS01SYTJXQw?oc=5",
-      "published": "2026-11-21 11:00 UTC",
-      "sector": "Financials",
-      "tone": 2.0,
-      "note": "Rising net interest margin signals improving bank profitability."
-    },
-    {
-      "title": "Sensex, Nifty extend winning streak to 3rd session led by auto, financial stocks",
-      "source": "DD News",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQUN2bEJSeXAzWGs5dEQtZFBkeHNxaUJGUmJ0c2RmbWVmZ2oxMUNWRmVZejBnRmFyRGRDY0tJdndUVXl1aFduNS1ob0EybFg4clpjNGlrS3FTblRFYlcxSnBVdDRQaXlMRlpacmZlNTl5UGd3eGN2d2xpVjZ2Nk5nZUN4OHVXUTBPcXVEQUZTelJDdTNYMEFiQWRreHM0TFFkc1JmMmZuVQ?oc=5",
-      "published": "2026-11-21 06:09 UTC",
-      "sector": "Financials",
-      "tone": 2.0,
-      "note": "Winning streak led by financial stocks shows sector strength."
-    },
-    {
-      "title": "Week ahead: NIFTY monthly expiry, crude oil prices and FIIs activity among key market triggers to watch",
-      "source": "Dailyhunt",
-      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOaU1VWmVvMkZ6alRFRk9obE9Va3ZVRDhmMUxFNWYwSFIweW92WnozVjZKVl9MYXZlZnNJWFYyd2lYR1gyLW8zbDZidm5ncHFPelM5Z2Q2Y0RhaGpaOEhFdnVoekgxVUptdDc3eWV0dF9ldWRPUVpqTTJDSURJMm41OXpRUkhsUThYNUNSY3pGQ0RIdW4zVFJMWXJtYjhkM3lXYm40ZVE2LTFIXzhfWWtYdUNGMzdkMGtoUmZ4MUs2YmRZUDFVY3h4UGQ0OTVUTm1lQk9Pc2dxdE1LR0tXTDlzWkJwUTMxSVpseUZfYlhCbUJzcmxkOTNNcWQ2U2liUnM3a0gtcEViRkdQWUV3VHkw?oc=5",
-      "published": "2026-11-22 13:13 UTC",
-      "sector": "Energy",
-      "tone": 0.0,
-      "note": "Focus on NIFTY expiry, not US Energy."
-    },
-    {
-      "title": "Gasoline and oil prices may continue to decrease",
-      "source": "Laodong.vn",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNREY4QUlzR3hhQmw5RmZJWS1sUVREQmNEYkNQXzlJOC1YZG5kRHMwM0p1UFE3MFRiY2lWak1XWnQ0QzNsR0ZVMlB5Wkw1NThKVnlWS3ItZmpFZWZsZlRhc0RsRlgybXJ4c1A3R0d0bkFoRERxNDRGUVNuT2hUeXVmc2JOSzREWGFSTzE3NDd6OFc?oc=5",
-      "published": "2026-11-22 10:48 UTC",
-      "sector": "Energy",
-      "tone": -3.0,
-      "note": "Gasoline and oil prices may continue to decrease."
-    },
-    {
-      "title": "Retail gasoline and oil prices on November 22 at MIPEC system",
-      "source": "Laodong.vn",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPd3NRVGIyaHkzbEUtWlU2dWVjQWV2MWhweFJwNFlVbHdsT2RZcVZ2REc4TTN4M195dVkxRV9GWEw1VDNTUDNhQzBrME5MMGdvbmlMdFFlRXByWmVNY1RETjZfdkF3aU1XdkNkQlltNkFvU1dqNEJDUWZ5eFlJR2NaMXNKSEF0RUFxRS1YTXpUS0R4eVdEOFAw?oc=5",
-      "published": "2026-11-22 10:03 UTC",
-      "sector": "Energy",
-      "tone": -2.0,
-      "note": "Retail gasoline and oil prices drop, indicating weaker demand."
-    },
-    {
-      "title": "Organization of the Petroleum Exporting Countries (OPEC), African Continental Free Trade Area (AfCFTA) and Dangote Refinery Join South Sudanese Ministers on the South Sudan Oil & Power (SSOP) 2026 Keynote Stage",
-      "source": "Africa.com",
-      "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxOZHpETlVIQWhTNjVTb09qNlpORDEzNWZNX19YNU8zOHpLVkxxYTY4WnQyampBTFI3ZjFHb09Uck1pS05uVFJEUU9lOGZVZUJpb3p2QW5XY3FkQ29CMkllc0F0TU1nUHhfbDlLS2ZELVdwMmNvZlpHa2FObG1XLWsxZHhrZ1pzdDhnR1pkWGxma2tmTHpTbGlFMVpjYkhlQ0l4MjFBb0VYYWlFOEhQWWUtNlFDWVpubC1KeTBINUhXU081YVhIUHVKcE9HNU44bTIxTmJpNkdQajdXYjd1MmZFdU9NTVEzd3VxQTZFbTdBS3loOHlkTFhGbXFuSk9rdHNNUEtGbFVCb1JEMGd2YVhHQVNYZmh4Z3dEWF9lVi12a3Y1Q1lsZjVNRktxRGs4ZGx1WFdERVdGaTJhakRCZjJsSzQ5N2w?oc=5",
-      "published": "2026-11-22 08:59 UTC",
-      "sector": "Energy",
-      "tone": 0.0,
-      "note": "SSOP 2026 event unrelated to US Energy."
-    },
-    {
-      "title": "Oil Prices Fall For Third Straight Week Over Supply Glut",
-      "source": "WE News English",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOX3FwTW1mOUhGUTM3NVRVZFlYWThwMHhHNm5GVHNieTY3Q1VxM3dTN0QxVE1DZVM1aXlJclhJeTFGanVCNDF0Q0piMFZIYWtIdVczMmdoR1NmOXZscFNwaHZsUkxfRmkySXcydkpHZ0VTXzl1S0E1b1UzeFh6ZjlxaGNxWUFSeUo3N0w4?oc=5",
-      "published": "2026-11-22 08:35 UTC",
-      "sector": "Energy",
       "tone": -4.0,
-      "note": "Oil prices fall for third straight week, supply glut."
+      "note": "Nvidia\u2019s sharp decline worries gamers, tech investors."
     },
     {
-      "title": "Goldman Sachs Predicts Oil Prices to Reach $88 by 2027 (Brent)",
-      "source": "GuruFocus",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMlVLNHhJb2pyQUcyMUZyY3hZM1JTY09TUmZJU3ZSZWpVR0liZGx1OE1PWW1RMGJiTmFVUGZyUjJjMUV6VTJDYWZCakhWX3BMNVVkVU9WR2xtOG5NNTMtazI5M2VNX1B1UHhqTC1Qa2pTNFJHRGFDdXhQbU9IU2g1VFFDbGgwT3ljY2hFaVUtemUyTmJRYWhPUUVuQkdzdTQ?oc=5",
-      "published": "2026-11-22 07:41 UTC",
+      "title": "US stock market crash: Nasdaq 100 logs worst week since 2020, S&P 500 slips into correction; Nvidia, Anthropic stocks tumble",
+      "source": "Bing News",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b03c278d2c64fcc9286bb74e6572836&url=https%3a%2f%2fwww.msn.com%2fen-in%2fnews%2fother%2fus-stock-market-crash-nasdaq-100-logs-worst-week-since-2020-s-p-500-slips-into-correction-nvidia-anthropic-stocks-tumble%2far-AA2hTwuy&c=8007898471625567810&mkt=en-us",
+      "published": "2026-11-20 18:16 UTC",
+      "sector": "Technology",
+      "tone": -5.0,
+      "note": "Major tech crash, Nvidia and Anthropic tumble."
+    },
+    {
+      "title": "US market sell-off: Nvidia to Anthropic, what\u2019s behind the brutal AI stock crash?",
+      "source": "Bing News",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b03c278d2c64fcc9286bb74e6572836&url=https%3a%2f%2fwww.financialexpress.com%2fmarket%2fglobal-markets%2fus-market-sell-off-nvidia-to-anthropic-whats-behind-the-brutal-ai-stock-crash%2f4390268%2f&c=4328480594623347765&mkt=en-us",
+      "published": "2026-11-20 17:49 UTC",
+      "sector": "Technology",
+      "tone": -4.0,
+      "note": "Sell\u2011off driven by AI stock volatility, negative sentiment."
+    },
+    {
+      "title": "Dalal Street Week Ahead: US GDP, FIIs mood, oil prices, PMI flash numbers among 10 key factors to watch",
+      "source": "Bing News",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b03c28d9675470abc321f676bf5792d&url=https%3a%2f%2fwww.moneycontrol.com%2fnews%2fbusiness%2fmarkets%2fdalal-street-week-ahead-us-gdp-fiis-mood-oil-prices-pmi-flash-numbers-among-10-key-factors-to-watch-14086522.html&c=14440283805806826900&mkt=en-us",
+      "published": "2026-11-22 09:16 UTC",
       "sector": "Energy",
-      "tone": 3.0,
-      "note": "Goldman Sachs forecasts $88 Brent, suggesting future upside."
+      "tone": 2.0,
+      "note": "Oil prices and PMI data suggest moderate upside for Energy, but GDP outlook tempers enthusiasm."
     },
     {
-      "title": "Who keeps consumer spending going? | Tatiana Bailey",
-      "source": "Colorado Springs Gazette",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeENuRlE2T3Q4RHRFbjVPbENwekI2VVJ4YkM1bldLemVMejh5ZFNZSUhueXNaSmpZYnJtZV9jM19JaTluOE9JWGRCWV9EeDJ2eEJ1WWYyMGRHUkxSd1poVU54RmZpa3dGcWlCSzFVU3VIcHhyejZVWXhCamlFZ1hsUEtxZHdxU1k?oc=5",
-      "published": "2026-11-22 13:00 UTC",
+      "title": "Amazon.com vs. Home Depot: Which Consumer Stock Is a Better Buy for 2027?",
+      "source": "Bing News",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b03c296fd6742dca0c39460d7b4b209&url=https%3a%2f%2ffinance.yahoo.com%2fmarkets%2fstocks%2farticles%2famazon-com-vs-home-depot-182411819.html&c=4627149286031930569&mkt=en-us",
+      "published": "2026-11-22 10:24 UTC",
+      "sector": "Consumer Discretionary",
+      "tone": 2.0,
+      "note": "Amazon\u2019s performance compared to Home Depot signals growth potential in consumer retail."
+    },
+    {
+      "title": "Stock Market Today, Nov. 20: Amazon Shares Slide on AI and Mega-Cap Tech Sell-Off",
+      "source": "Bing News",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b03c296fd6742dca0c39460d7b4b209&url=https%3a%2f%2ffinance.yahoo.com%2fmarkets%2fstocks%2farticles%2fstock-market-today-nov-20-225002397.html&c=8402374047053463009&mkt=en-us",
+      "published": "2026-11-20 14:49 UTC",
+      "sector": "Consumer Discretionary",
+      "tone": -3.0,
+      "note": "Amazon shares slide amid AI concerns, indicating short\u2011term bearish sentiment."
+    },
+    {
+      "title": "Amazon Stock: What Wall Street\u2019s Latest Forecasts Say About Its Next Move",
+      "source": "Bing News",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b03c296fd6742dca0c39460d7b4b209&url=https%3a%2f%2f247wallst.com%2finvesting%2f2026%2f11%2f20%2famazon-stock-what-wall-streets-latest-forecasts-say-about-its-next-move%2f&c=18335065816514204560&mkt=en-us",
+      "published": "2026-11-20 09:03 UTC",
       "sector": "Consumer Discretionary",
       "tone": 1.0,
-      "note": "Questions consumer spending drivers, mildly positive outlook."
+      "note": "Wall Street forecasts suggest moderate upside for Amazon, hinting at bullish outlook."
     },
     {
-      "title": "Take-Two Interactive stock: GTA VI reports USD 3.79 billion launch",
-      "source": "ad-hoc-news.de",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUzhBQ3JrYnBWeHlSbHZGUlpEdVdXMmZfODdpQkc1NmhyMzR0YW9md2ZfR3JOdnNNN1NXekpqSWhFTExJQmlsY2Rrb1hhM01EaTJBTXNPY3hHTWVtT2FLeERZYXAyVC1SblJneFRSajRTZGFYczFXbkRPelY0SU1NSnJSc2RWUEFKSDVYNlFFMDFEbllVcGNRZzRYNDFhRzlwTVMwVDdacmR5NXpaaEF6MTI3Yk5fRTRVYlFUWk4tRllGNVBRRi1Z?oc=5",
-      "published": "2026-11-22 12:32 UTC",
-      "sector": "Consumer Discretionary",
-      "tone": 5.0,
-      "note": "Record GTA VI launch sales boost discretionary gaming demand."
-    },
-    {
-      "title": "Rockstar Says GTA VI Generated $3.79 Billion in Launch-Day Retail Sales",
-      "source": "findarticles.com",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTHhRM1Y1Zk5BSVE2a0cwTUtZaWV0eEVkVnp2UVBiTVROb0tPU3VfN3M2SEZiXzFGRTVqa1NfLVpqTF85Z21XZGkwc0g3eUc4UnNscGlKTTNmOC1xWmRaWjNpbEtRS0tPOTBrVmVFN3pvTm9uSEdadHNDUHQ3ZkZmTWJGdnVwaHRjcGc?oc=5",
-      "published": "2026-11-22 12:27 UTC",
-      "sector": "Consumer Discretionary",
-      "tone": 5.0,
-      "note": "Retail sales confirm strong consumer appetite for entertainment."
-    },
-    {
-      "title": "From 51st-floor court to under-bridge complex, China's sports boom is reshaping consumer spending",
-      "source": "VnExpress International",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOQk9Db3hrRFl0dHcxT2R2VVpzTGNjeXktbHR2cWtMQ0REY0NtQnNjV2w0QkIwR0RfWFdDd1dwNk10dGdGdUxBRE0xMGRvdW44MTVjS3pSYi1RSU1pUmhLc05wdW9kZG5WNGUwRXl1dW03eHRMalpCRGQyNmFxcDc3c0dPQkVLU1hzbU05UDN5b2hKUFNJSmV5aThVdl9UQkV2T1RxOU1GNlQwRjZJNzFSZFhDb3psNXlIMGNVZUtrY1dCd0dwZW8tTWhNbnRKMElkM08xS0gySnNJQ3B2aFE?oc=5",
-      "published": "2026-11-22 12:00 UTC",
-      "sector": "Consumer Discretionary",
-      "tone": 3.0,
-      "note": "China sports boom signals rising discretionary spending."
-    },
-    {
-      "title": "Take-Two Estimates GTA VI Hit $3.79 Billion in Day-One Retail Sales",
-      "source": "The Escapist",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSlJmTE9OWlZucEdMVUpXRXUtRzRWcjhVT09SSkprLW5wdV9Gc19UaWNNaEZSMEpYbF9adE5UZVgzZ29vRXdIRGJIOTZCR1d1S1B2WEItcEV5YmZ5Ml9jSGJ4Mk1FVTJUUHdFQ1lWazBTYkdTam0yUl9EdnRUV2NtRnpHWGtNNXlxRU9lR05iNGhLQ0VHbFQ4STdhNzJ4UDZCSkE?oc=5",
-      "published": "2026-11-22 11:21 UTC",
-      "sector": "Consumer Discretionary",
-      "tone": 5.0,
-      "note": "Day\u2011one sales reinforce gaming sector strength."
-    },
-    {
-      "title": "Jeff Bezos donated $198.9 million in Amazon stock in two days, including shares he's held since 1994",
-      "source": "Fortune",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSFFNbFZXU3NuZS1rNllqbjJTOUNaa1MzdzFXZUt1dlpuYl9UdWJ1S2swWktWcTZHMXIxUEw2U016Z1ByS3ZmX3RMczhNOERDcWVObkI2UU0xV3NLM3V2bTk5c2c5U19sMU1FMWFTU2hpYXV0ZDlOWk5sQlFTS1k4cExPME5heC0wRno3cmFvUW43N2lyT3NvcTQ5UQ?oc=5",
-      "published": "2026-11-22 11:20 UTC",
-      "sector": "Consumer Discretionary",
-      "tone": 4.0,
-      "note": "Bezos\u2019 stock donation signals confidence in consumer retail."
-    },
-    {
-      "title": "PepsiCo Q3 preview: Where next for PepsiCo shares?",
-      "source": "FOREX.com",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWHdpOXp6emtzNjJlaDNxZ2VQeDM5MmNvWWpid1BHNExrZng5bmx3R2NMZEN2WVVoT1JEdVZxY0JwY1llVEU4VDFta1BBUW93a2FVX3ctSVZvZTVSeDNtNTN1MnNlSG1UWmpQODVKbDJZeEZoUTQxa084UjFuM1FYSHozTUd3ZmQxSGJxQlZ3T2JzUGg3QTc0Wk5hYlBUT1U?oc=5",
-      "published": "2026-11-22 00:18 UTC",
-      "sector": "Consumer Staples",
-      "tone": 2.0,
-      "note": "PepsiCo Q3 preview signals potential upside for the sector."
-    },
-    {
-      "title": "Consumer Staples Stocks 2026: Defensive Rotation Guide",
-      "source": "Intellectia AI",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYkN3M09FQlRXT2xzM1Bfc2c3bmtVdnhMM001X0YyT05pcnZreHdBM0NoTWxLdEtJeEpmem13RG1abVpxRGFZTVZOUnRvZEE5VWNnT3FYemUxMHdaUFFmZFgtYmpCb0t1Y0xJdERxODN6a05ReGk5SFRkS2ZpV1RkN1Qzdk05Y29wa1hoUQ?oc=5",
-      "published": "2026-11-21 14:02 UTC",
-      "sector": "Consumer Staples",
-      "tone": 0.0,
-      "note": "Guide focuses on rotation strategy, not specific sentiment."
-    },
-    {
-      "title": "Coca-Cola shares rise 35% in a year, showing st...",
-      "source": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1HUXd4WjNYT1MyTFlpbWJsTWJXM3JTRmo1Z2pJVlZOYVRwa3dRN3pQN2VvQkV1MW9wYkpBSzY0TGM2R2lQRl9rUEVBQVQwbVhQdnVWMFdDa2xtOExRMHFWQzdYLTVTbEhqcV9fQTF3dXNMTVNZS0c3UQ?oc=5",
-      "published": "2026-11-20 23:15 UTC",
-      "sector": "Consumer Staples",
-      "tone": 5.0,
-      "note": "Coca-Cola\u2019s 35% rise showcases strong sector performance."
-    },
-    {
-      "title": "Consumer Staples Stocks Are Winners as AI Faces Scorching Losses",
-      "source": "Barron's",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPeW9leXkzc2VLYWtPZU1TQVpUUGZzQV92TGhUaHdsbVRhc2Y2Tk9rQnhuSjNUM0NKOWx1dVkwMHFmSU5IS0tDODRjYkotWlFZQmY4UmV2dVI4LWk1SDFHTTctVG8yX25VRDlBU21tUjBaR3BWcURSQXdWM2FQaTBsWDFoRQ?oc=5",
-      "published": "2026-11-20 17:32 UTC",
-      "sector": "Consumer Staples",
-      "tone": 3.0,
-      "note": "Consumer staples outperform AI losses, indicating defensive strength."
-    },
-    {
-      "title": "Abbott Has Raised Its Dividend for 54 Years. These 3 Healthcare Stocks Keep Paying More",
-      "source": "24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNbHlrdlZmVXY0VHotaFlXZDlkMzFYRzQ1OU5DdUlzT3dEcTQ2dDJib0xEY25IOWRKNldOSWUxVldJNXY0ZWtNQlVkUmtJN1pEYmlfcDk4UkpyOEZfekRDSDVmQ2VQRHROZjh0M2doZjZzb2Jyc3ptd3RWOFRVU3pJUXZXdjdlNEFac0VwSHdlTlV1WEdmbXBJTkhxa1dwVTBZdGFlMERXWGYyY1RTQUt2ZVQ0dms2clVPMVB4ZGFLT2pvNDBWR1FpWkFB?oc=5",
-      "published": "2026-11-22 13:07 UTC",
+      "title": "Investors fled to healthcare stocks for safety. Now insurance and hospital shares are plunging.",
+      "source": "Bing News",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b03c2ac641f4cf6ad37dcac78dd94a3&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fother%2finvestors-fled-to-healthcare-stocks-for-safety-now-insurance-and-hospital-shares-are-plunging%2far-AA2hRtPp&c=7434561289477492919&mkt=en-us",
+      "published": "2026-11-20 07:53 UTC",
       "sector": "Healthcare",
       "tone": 3.0,
-      "note": "Dividend hike signals strong cash flow and shareholder confidence."
-    },
-    {
-      "title": "Analysts Are Bullish on Top Healthcare Stocks: Solid Biosciences (SLDB), Eli Lilly & Co (LLY)",
-      "source": "The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOMFJPQjZQWDA3WGFBb2ZMU3cxcVQ4a1dScjBwWjhrcEtabXVpTWsyUjBPZUJpY3dkTzVMNFZJeEhydFFpQXlRWDIyelVUN01sM2p6ZWhvNGFFUVVOSE15aDFtT0RXZ1B4RkdROWpaS05iYnoxOXhkWWdCbFFiZzlZTjc2aS1JUEpOZ1FLN2VuSlhMWmRINGxZMF9sTFljRzVWUDZoOHBneWJLUm1HNkM3RDRXM3BVeUI0NnYwaWtpbEczdlNWdml1ajRRV3c5UnZaVkpCY3huVTUwQ0VyZjVXRDhVLVFrdG1kLVdNeTNFbEZzQ1c0b0hWeTctYnd4QQ?oc=5",
-      "published": "2026-11-21 12:53 UTC",
-      "sector": "Healthcare",
-      "tone": 4.0,
-      "note": "Bullish analyst coverage boosts positive perception of top healthcare names."
-    },
-    {
-      "title": "AI Trading Agents Follow Clean Technology and Healthcare Stocks Across Global Markets (ENPH, SEDG, FSLR, NEE, BE)",
-      "source": "PRLog",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNYk9IQTJfZXdGWFYyS3Y0M1BtTFlMV3R5MGJOYTlicFA2Q254RG9jMmpQRjhsQUF0NzZJTFNibjVKTXhud0FVanR1TndLN05oMTQ3X1ZpRGFEem9DazVMUEhLOW9qNWdfZ05zM1R5ODZkQ3ZmVTA4ZmJWT2NXSUZucHdvOWtQU19YWTR5WWE1NXpJblEwTmZXOFduMEJnUTUteExodHVJNkFGZEZRWmtJazVfU2FWRHVELXljcVI0bFVpZUcyQmFXNXBISjBMaHhwRzRodGdPSEVLd0E?oc=5",
-      "published": "2026-11-21 07:01 UTC",
-      "sector": "Healthcare",
-      "tone": 0.0,
-      "note": "AI trading focus on clean tech, not directly healthcare."
-    },
-    {
-      "title": "Sector Update: Healthcare Stocks Rise Late Afternoon",
-      "source": "Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWVdsNnpRM0lOaUhFcFBNRVprakJpWWpUVk1mOXlHLXdTVlVTZHFpSnVpU3AycXRCX21fNEVqT2VvYWhLUDZZZXg2WXVPUWZodHE2NWJuUUlxZ25QVkNwU2tTeThiYUJyalY4QTdFX2UxZ05BNkFuc01ZV1MyUTljZGJkNzN3ejFndmI0LVlYM2syOTRVM1VfMGtDdw?oc=5",
-      "published": "2026-11-20 23:46 UTC",
-      "sector": "Healthcare",
-      "tone": 2.0,
-      "note": "Late afternoon rise indicates moderate positive momentum."
-    },
-    {
-      "title": "JPMorgan\u2019s Names Top Biotech Stocks",
-      "source": "Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQi1pdzBjSm04Yjg5SnUwb2otd0xMd0wtSE5hWHR6U29IMW0wTS05OXg1R2d4TmJfc3g2VXhmbjhUUGNfZTFCSEkwaFIyYXFJTnltMzNfQTBzTEJNX1MwN0piOTg5SUtuYTBJZUtDSGE3WFI0N3ZmZEVpZjZFQ2hHaEwtZjRLMU1wRGJ4QUdicVQ0OGg5R3c?oc=5",
-      "published": "2026-11-20 18:32 UTC",
-      "sector": "Healthcare",
-      "tone": 3.0,
-      "note": "JPMorgan\u2019s top biotech picks reinforce sector optimism."
-    },
-    {
-      "title": "Textile, fuel, pharma stocks dominate trading",
-      "source": "New Age BD",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUURGRWpKWEtXUm5KNnYyX2toTjVIWVRlOTNnRFdyT1daREFuLTFSWlRrUmFxTXd2WUprWHpYNXEwX25Ia1l6a1FpWTJyOXNXVEdoSWx0OFB4c1pWeGxqdTFoQVFuaklza0w0ZHEyY1ZNSUN4SGxaUXEtQ3JxRGFfck4xX2VVdUNkTy1SVW5kWFA?oc=5",
-      "published": "2026-11-20 18:00 UTC",
-      "sector": "Healthcare",
-      "tone": 0.0,
-      "note": "Textile, fuel, pharma mix irrelevant to healthcare sentiment."
+      "note": "Investors flocking to healthcare for safety boosts overall sector sentiment."
     }
   ]
 }

@@ -1,52 +1,42 @@
 {
-  "updated_at": "2026-11-22 13:57 UTC",
+  "updated_at": "2026-11-23 04:32 UTC",
   "market": "US",
   "macro_theme": "Consumer demand signals dominate headlines",
   "signals": [
     {
       "sector": "Consumer Discretionary",
-      "read": "Bullish",
-      "score": 63,
+      "read": "Neutral",
+      "score": 50,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "The Consumer Discretionary sector is buoyed by a demand shock that has lifted consumer spending and retail sales.",
+          "text": "Amazon\u2019s slide amid an AI\u2011driven sell\u2011off dampens consumer discretionary sentiment.",
           "forecast": {
-            "low": 3.1,
-            "high": 6.9,
+            "low": 2.5,
+            "high": 5.5,
             "direction": "+",
-            "text": "+3.1% to +6.9%"
+            "text": "+2.5% to +5.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "Costco\u2019s 84.1\u202fmillion member households signal a deepening competitive moat, reinforcing retail resilience.",
+          "text": "The AI sell\u2011off has pulled down Amazon shares, a key consumer discretionary stock, contributing to a demand shock in the sector.",
           "forecast": {
-            "low": 3.1,
-            "high": 6.9,
+            "low": 2.5,
+            "high": 5.5,
             "direction": "+",
-            "text": "+3.1% to +6.9%"
+            "text": "+2.5% to +5.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "Take\u2011Two Interactive\u2019s GTA\u202fVI launch generated $3.79\u202fbillion in launch revenue, underscoring strong entertainment demand.",
+          "text": "Wall Street\u2019s comparison of Amazon to Home Depot highlights differing growth prospects, adding complexity to the sector\u2019s outlook.",
           "forecast": {
-            "low": 3.1,
-            "high": 6.9,
+            "low": 2.5,
+            "high": 5.5,
             "direction": "+",
-            "text": "+3.1% to +6.9%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Industry analysis highlights that rising consumer spending is a key driver behind the sector\u2019s bullish sentiment.",
-          "forecast": {
-            "low": 3.1,
-            "high": 6.9,
-            "direction": "+",
-            "text": "+3.1% to +6.9%"
+            "text": "+2.5% to +5.5%"
           }
         }
       ]
@@ -54,75 +44,85 @@
     {
       "sector": "Consumer Staples",
       "read": "Neutral",
-      "score": 58,
+      "score": 50,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Costco\u2019s expanding member base is driving a surge in demand for consumer staples, underpinning the sector\u2019s bullish outlook.",
+          "text": "Consumer Staples sector remains largely unchanged amid broader market volatility.",
           "forecast": {
-            "low": 1.2,
-            "high": 2.9,
+            "low": 1.0,
+            "high": 2.5,
             "direction": "+",
-            "text": "+1.2% to +2.9%"
+            "text": "+1.0% to +2.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "Amazon\u2019s recent stock decline may ease competitive pressure on staples retailers, supporting higher sales volumes.",
+          "text": "Limited exposure to AI sector reduces impact on the sector",
           "forecast": {
-            "low": 1.2,
-            "high": 2.9,
+            "low": 1.0,
+            "high": 2.5,
             "direction": "+",
-            "text": "+1.2% to +2.9%"
+            "text": "+1.0% to +2.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "PepsiCo\u2019s Q3 preview signals potential growth in beverage demand, adding further upside to the sector.",
+          "text": "Positive outlook from market silver lining boosts investor confidence",
           "forecast": {
-            "low": 1.2,
-            "high": 2.9,
+            "low": 1.0,
+            "high": 2.5,
             "direction": "+",
-            "text": "+1.2% to +2.9%"
+            "text": "+1.0% to +2.5%"
           }
         }
       ]
     },
     {
       "sector": "Energy",
-      "read": "Bearish",
-      "score": 40,
+      "read": "Neutral",
+      "score": 54,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "The Energy sector is under pressure as a demand shock is expected to push gasoline and oil prices lower, weakening earnings prospects.",
+          "text": "The Energy sector\u2019s mixed sentiment is primarily driven by a demand shock event.",
           "forecast": {
-            "low": 3.0,
-            "high": 7.2,
-            "direction": "-",
-            "text": "-3.0% to -7.2%"
+            "low": 2.7,
+            "high": 6.5,
+            "direction": "+",
+            "text": "+2.7% to +6.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "Gasoline and oil prices may continue to decrease",
+          "text": "Oil prices are a key factor influencing the sector\u2019s outlook.",
           "forecast": {
-            "low": 3.0,
-            "high": 7.2,
-            "direction": "-",
-            "text": "-3.0% to -7.2%"
+            "low": 2.7,
+            "high": 6.5,
+            "direction": "+",
+            "text": "+2.7% to +6.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "Week ahead: crude oil prices and FIIs activity are key market triggers to watch",
+          "text": "PMI flash numbers reflect broader economic activity that impacts energy demand.",
           "forecast": {
-            "low": 3.0,
-            "high": 7.2,
-            "direction": "-",
-            "text": "-3.0% to -7.2%"
+            "low": 2.7,
+            "high": 6.5,
+            "direction": "+",
+            "text": "+2.7% to +6.5%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "US GDP growth expectations are also influencing investor sentiment toward Energy stocks.",
+          "forecast": {
+            "low": 2.7,
+            "high": 6.5,
+            "direction": "+",
+            "text": "+2.7% to +6.5%"
           }
         }
       ]
@@ -130,37 +130,47 @@
     {
       "sector": "Financials",
       "read": "Neutral",
-      "score": 56,
+      "score": 50,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Bank stocks rally is the primary driver of the Financials sector\u2019s bullish sentiment.",
+          "text": "AI sell\u2011off dampens financials\u2019 earnings outlook while a broader market silver lining offers some relief.",
           "forecast": {
-            "low": 1.7,
-            "high": 3.9,
+            "low": 1.5,
+            "high": 3.5,
             "direction": "+",
-            "text": "+1.7% to +3.9%"
+            "text": "+1.5% to +3.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "Sensex and Nifty ended the week at nine\u2011month highs as bank stocks led the rally.",
+          "text": "Declining AI stocks reduce revenue for banks heavily exposed to tech lending",
           "forecast": {
-            "low": 1.7,
-            "high": 3.9,
+            "low": 1.5,
+            "high": 3.5,
             "direction": "+",
-            "text": "+1.7% to +3.9%"
+            "text": "+1.5% to +3.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "Bank stocks are expected to continue the upward momentum in the coming days.",
+          "text": "The market\u2019s silver lining signals potential upside in broader equity breadth",
           "forecast": {
-            "low": 1.7,
-            "high": 3.9,
+            "low": 1.5,
+            "high": 3.5,
             "direction": "+",
-            "text": "+1.7% to +3.9%"
+            "text": "+1.5% to +3.5%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Demand shock events are offsetting some of the negative sentiment in the sector",
+          "forecast": {
+            "low": 1.5,
+            "high": 3.5,
+            "direction": "+",
+            "text": "+1.5% to +3.5%"
           }
         }
       ]
@@ -168,85 +178,85 @@
     {
       "sector": "Healthcare",
       "read": "Neutral",
-      "score": 58,
+      "score": 49,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Sustained demand shock is driving a bullish outlook for the Healthcare sector, reflected in continued earnings growth and investor confidence.",
+          "text": "Demand shock from safety\u2011seeking investors is driving insurance and hospital shares to plunge, weighing on the overall healthcare sector sentiment.",
           "forecast": {
-            "low": 1.2,
-            "high": 2.9,
-            "direction": "+",
-            "text": "+1.2% to +2.9%"
+            "low": 1.0,
+            "high": 2.5,
+            "direction": "-",
+            "text": "-1.0% to -2.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "Abbott\u2019s 54\u2011year record of dividend increases signals strong cash flow and investor confidence in the sector.",
+          "text": "Investors flocked to healthcare for safety, creating a demand shock that has pressured insurance and hospital stocks.",
           "forecast": {
-            "low": 1.2,
-            "high": 2.9,
-            "direction": "+",
-            "text": "+1.2% to +2.9%"
+            "low": 1.0,
+            "high": 2.5,
+            "direction": "-",
+            "text": "-1.0% to -2.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "Analysts remain bullish on key healthcare names such as Solid Biosciences and Eli Lilly, underscoring confidence in the sector\u2019s earnings resilience.",
+          "text": "The resulting sell\u2011off in insurance and hospital shares is pulling down the sector\u2019s overall performance.",
           "forecast": {
-            "low": 1.2,
-            "high": 2.9,
-            "direction": "+",
-            "text": "+1.2% to +2.9%"
+            "low": 1.0,
+            "high": 2.5,
+            "direction": "-",
+            "text": "-1.0% to -2.5%"
           }
         }
       ]
     },
     {
       "sector": "Technology",
-      "read": "Neutral",
-      "score": 41,
+      "read": "Bearish",
+      "score": 37,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Demand shock from the Nasdaq crash and the wipe\u2011out of Chinese AI stocks has eroded technology valuations.",
+          "text": "The Technology sector is being dragged down by a sharp sell\u2011off in AI\u2011related stocks, particularly Nvidia, which has seen a 42% decline in three weeks.",
           "forecast": {
-            "low": 2.4,
-            "high": 5.3,
+            "low": 2.5,
+            "high": 5.7,
             "direction": "-",
-            "text": "-2.4% to -5.3%"
+            "text": "-2.5% to -5.7%"
           }
         },
         {
           "role": "supporting",
-          "text": "The Nasdaq fell 5%, triggering a broad sell\u2011off in tech names such as Amazon and SOXX.",
+          "text": "Nvidia\u2019s steep drop is part of a broader bear market for US tech stocks, with other AI names like Anthropic also tumbling.",
           "forecast": {
-            "low": 2.4,
-            "high": 5.3,
+            "low": 2.5,
+            "high": 5.7,
             "direction": "-",
-            "text": "-2.4% to -5.3%"
+            "text": "-2.5% to -5.7%"
           }
         },
         {
           "role": "supporting",
-          "text": "$1.7 trillion was wiped off Chinese AI\u2011tech stocks, underscoring a sharp decline in AI demand.",
+          "text": "The sell\u2011off has been amplified by a 'perfect storm' of negative sentiment and market-wide corrections, as noted by Wall Street strategists.",
           "forecast": {
-            "low": 2.4,
-            "high": 5.3,
+            "low": 2.5,
+            "high": 5.7,
             "direction": "-",
-            "text": "-2.4% to -5.3%"
+            "text": "-2.5% to -5.7%"
           }
         },
         {
           "role": "supporting",
-          "text": "SOXX and DRAM ETFs fell between 35.6% and 51.9% from their highs, reflecting sector\u2011wide weakness.",
+          "text": "The decline is further fueled by concerns over Nvidia\u2019s valuation and potential overreliance on AI demand, prompting investors to shift away from the sector.",
           "forecast": {
-            "low": 2.4,
-            "high": 5.3,
+            "low": 2.5,
+            "high": 5.7,
             "direction": "-",
-            "text": "-2.4% to -5.3%"
+            "text": "-2.5% to -5.7%"
           }
         }
       ]

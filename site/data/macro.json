@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22 13:57 UTC",
+  "updated_at": "2026-11-23 04:32 UTC",
   "markets": {
     "IN": {
       "cpi": {
@@ -1279,7 +1279,7 @@
           }
         ]
       },
-      "narrative": "Inflation remains above the RBI\u2019s 4% target at 5.57% YoY, while growth is robust at 8.1% in Q2 2026, indicating a strong economic engine. Labor\u2011market slack is moderate with unemployment at 4.9%, and the RBI has tightened policy, raising the repo rate by 25 basis points to 5.50% on 5\u20117\u202fOct\u202f2026, signalling a calibrated tightening stance. The currency is trading at 92.68 INR per USD as of 20\u202fNov\u202f2026, reflecting a relatively stable exchange rate."
+      "narrative": "India\u2019s CPI inflation sits at 5.57% as of September 2026, indicating a moderate but still above\u2011target price rise. Real GDP grew 8.1% in Q2 2026, showing strong growth momentum, while unemployment remains low at 4.9% in October 2026, signalling tight labor markets. The RBI has raised the repo rate by 25 basis points to 5.50% on 5\u20117 October 2026, adopting a calibrated tightening stance, and the rupee trades at 92.68 per dollar as of 20 November 2026."
     },
     "US": {
       "cpi": {
@@ -1538,254 +1538,254 @@
       },
       "policy_rate": {
         "label": "Policy Rate",
-        "frequency": "monthly",
+        "frequency": "as announced",
         "unit": "%",
-        "source": "FRED (FEDFUNDS)",
-        "as_of": "2026-10-01",
-        "latest": 3.88,
+        "source": "FRED (DFEDTARL/DFEDTARU, FOMC target range midpoint)",
+        "as_of": "2026-11-22",
+        "latest": 3.875,
         "series": [
           {
-            "date": "2021-11-01",
-            "value": 0.08
+            "date": "2021-12-31",
+            "value": 0.125
           },
           {
-            "date": "2021-12-01",
-            "value": 0.08
+            "date": "2022-01-31",
+            "value": 0.125
           },
           {
-            "date": "2022-01-01",
-            "value": 0.08
+            "date": "2022-02-28",
+            "value": 0.125
           },
           {
-            "date": "2022-02-01",
-            "value": 0.08
+            "date": "2022-03-31",
+            "value": 0.375
           },
           {
-            "date": "2022-03-01",
-            "value": 0.2
+            "date": "2022-04-30",
+            "value": 0.375
           },
           {
-            "date": "2022-04-01",
-            "value": 0.33
+            "date": "2022-05-31",
+            "value": 0.875
           },
           {
-            "date": "2022-05-01",
-            "value": 0.77
+            "date": "2022-06-30",
+            "value": 1.625
           },
           {
-            "date": "2022-06-01",
-            "value": 1.21
+            "date": "2022-07-31",
+            "value": 2.375
           },
           {
-            "date": "2022-07-01",
-            "value": 1.68
+            "date": "2022-08-31",
+            "value": 2.375
           },
           {
-            "date": "2022-08-01",
-            "value": 2.33
+            "date": "2022-09-30",
+            "value": 3.125
           },
           {
-            "date": "2022-09-01",
-            "value": 2.56
+            "date": "2022-10-31",
+            "value": 3.125
           },
           {
-            "date": "2022-10-01",
-            "value": 3.08
+            "date": "2022-11-30",
+            "value": 3.875
           },
           {
-            "date": "2022-11-01",
-            "value": 3.78
+            "date": "2022-12-31",
+            "value": 4.375
           },
           {
-            "date": "2022-12-01",
-            "value": 4.1
+            "date": "2023-01-31",
+            "value": 4.375
           },
           {
-            "date": "2023-01-01",
-            "value": 4.33
+            "date": "2023-02-28",
+            "value": 4.625
           },
           {
-            "date": "2023-02-01",
-            "value": 4.57
+            "date": "2023-03-31",
+            "value": 4.875
           },
           {
-            "date": "2023-03-01",
-            "value": 4.65
+            "date": "2023-04-30",
+            "value": 4.875
           },
           {
-            "date": "2023-04-01",
-            "value": 4.83
+            "date": "2023-05-31",
+            "value": 5.125
           },
           {
-            "date": "2023-05-01",
-            "value": 5.06
+            "date": "2023-06-30",
+            "value": 5.125
           },
           {
-            "date": "2023-06-01",
-            "value": 5.08
+            "date": "2023-07-31",
+            "value": 5.375
           },
           {
-            "date": "2023-07-01",
-            "value": 5.12
+            "date": "2023-08-31",
+            "value": 5.375
           },
           {
-            "date": "2023-08-01",
-            "value": 5.33
+            "date": "2023-09-30",
+            "value": 5.375
           },
           {
-            "date": "2023-09-01",
-            "value": 5.33
+            "date": "2023-10-31",
+            "value": 5.375
           },
           {
-            "date": "2023-10-01",
-            "value": 5.33
+            "date": "2023-11-30",
+            "value": 5.375
           },
           {
-            "date": "2023-11-01",
-            "value": 5.33
+            "date": "2023-12-31",
+            "value": 5.375
           },
           {
-            "date": "2023-12-01",
-            "value": 5.33
+            "date": "2024-01-31",
+            "value": 5.375
           },
           {
-            "date": "2024-01-01",
-            "value": 5.33
+            "date": "2024-02-29",
+            "value": 5.375
           },
           {
-            "date": "2024-02-01",
-            "value": 5.33
+            "date": "2024-03-31",
+            "value": 5.375
           },
           {
-            "date": "2024-03-01",
-            "value": 5.33
+            "date": "2024-04-30",
+            "value": 5.375
           },
           {
-            "date": "2024-04-01",
-            "value": 5.33
+            "date": "2024-05-31",
+            "value": 5.375
           },
           {
-            "date": "2024-05-01",
-            "value": 5.33
+            "date": "2024-06-30",
+            "value": 5.375
           },
           {
-            "date": "2024-06-01",
-            "value": 5.33
+            "date": "2024-07-31",
+            "value": 5.375
           },
           {
-            "date": "2024-07-01",
-            "value": 5.33
+            "date": "2024-08-31",
+            "value": 5.375
           },
           {
-            "date": "2024-08-01",
-            "value": 5.33
+            "date": "2024-09-30",
+            "value": 4.875
           },
           {
-            "date": "2024-09-01",
-            "value": 5.13
+            "date": "2024-10-31",
+            "value": 4.875
           },
           {
-            "date": "2024-10-01",
-            "value": 4.83
+            "date": "2024-11-30",
+            "value": 4.625
           },
           {
-            "date": "2024-11-01",
-            "value": 4.64
+            "date": "2024-12-31",
+            "value": 4.375
           },
           {
-            "date": "2024-12-01",
-            "value": 4.48
+            "date": "2025-01-31",
+            "value": 4.375
           },
           {
-            "date": "2025-01-01",
-            "value": 4.33
+            "date": "2025-02-28",
+            "value": 4.375
           },
           {
-            "date": "2025-02-01",
-            "value": 4.33
+            "date": "2025-03-31",
+            "value": 4.375
           },
           {
-            "date": "2025-03-01",
-            "value": 4.33
+            "date": "2025-04-30",
+            "value": 4.375
           },
           {
-            "date": "2025-04-01",
-            "value": 4.33
+            "date": "2025-05-31",
+            "value": 4.375
           },
           {
-            "date": "2025-05-01",
-            "value": 4.33
+            "date": "2025-06-30",
+            "value": 4.375
           },
           {
-            "date": "2025-06-01",
-            "value": 4.33
+            "date": "2025-07-31",
+            "value": 4.375
           },
           {
-            "date": "2025-07-01",
-            "value": 4.33
+            "date": "2025-08-31",
+            "value": 4.375
           },
           {
-            "date": "2025-08-01",
-            "value": 4.33
+            "date": "2025-09-30",
+            "value": 4.125
           },
           {
-            "date": "2025-09-01",
-            "value": 4.22
+            "date": "2025-10-31",
+            "value": 3.875
           },
           {
-            "date": "2025-10-01",
-            "value": 4.09
+            "date": "2025-11-30",
+            "value": 3.875
           },
           {
-            "date": "2025-11-01",
-            "value": 3.88
+            "date": "2025-12-31",
+            "value": 3.625
           },
           {
-            "date": "2025-12-01",
-            "value": 3.72
+            "date": "2026-01-31",
+            "value": 3.625
           },
           {
-            "date": "2026-01-01",
-            "value": 3.64
+            "date": "2026-02-28",
+            "value": 3.625
           },
           {
-            "date": "2026-02-01",
-            "value": 3.64
+            "date": "2026-03-31",
+            "value": 3.625
           },
           {
-            "date": "2026-03-01",
-            "value": 3.64
+            "date": "2026-04-30",
+            "value": 3.625
           },
           {
-            "date": "2026-04-01",
-            "value": 3.64
+            "date": "2026-05-31",
+            "value": 3.625
           },
           {
-            "date": "2026-05-01",
-            "value": 3.63
+            "date": "2026-06-30",
+            "value": 3.625
           },
           {
-            "date": "2026-06-01",
-            "value": 3.63
+            "date": "2026-07-31",
+            "value": 3.625
           },
           {
-            "date": "2026-07-01",
-            "value": 3.63
+            "date": "2026-08-31",
+            "value": 3.625
           },
           {
-            "date": "2026-08-01",
-            "value": 3.63
+            "date": "2026-09-30",
+            "value": 3.875
           },
           {
-            "date": "2026-09-01",
-            "value": 3.75
+            "date": "2026-10-31",
+            "value": 3.875
           },
           {
-            "date": "2026-10-01",
-            "value": 3.88
+            "date": "2026-11-22",
+            "value": 3.875
           }
         ],
-        "last_move": "Rate rose from 3.75% (2026-09) to 3.88% (2026-10)."
+        "last_move": "FOMC raised the target range to 3.75%-4.00% (effective 2026-09-17); unchanged since."
       },
       "fx": {
         "label": "Currency vs USD",
@@ -1797,7 +1797,7 @@
         "series": [],
         "note": "USD is Meridian's reference currency for this comparison; no vs-USD series applies."
       },
-      "narrative": "Inflation remains above the 2% target at 3.74% YoY, while real GDP growth is modestly positive at 2.07% in Q3 2026, indicating a still\u2011expanding economy. The labor market is tight, with unemployment at 4.1% in October 2026, suggesting limited slack. The Fed has raised its policy rate from 3.75% in September to 3.88% in October, signalling a tightening stance to curb inflation."
+      "narrative": "Inflation remains elevated at 3.74% in 2026, while real GDP growth is modest at 2.07% in Q3 2026, indicating a slowing but still positive economic trajectory. Labor\u2011market slack is low, with unemployment at 4.1% in October 2026, suggesting a tight labor market. The Federal Reserve has raised the policy rate to a target range of 3.75%\u20114.00% in September 2026 and has held it steady since, reflecting a cautious stance amid persistent inflation."
     },
     "UK": {
       "cpi": {
@@ -3101,7 +3101,7 @@
           }
         ]
       },
-      "narrative": "Inflation remains modest at 3.6% YoY, while real GDP grew 1.94% in Q3, indicating a healthy but not robust expansion. Unemployment sits at 4.6%, suggesting a tight labour market with limited slack. The Bank of England has raised the policy rate by 25 basis points to 4.00%, signalling a tightening stance as it moves toward the next announcement on 17\u202fDec\u202f2026."
+      "narrative": "Inflation is running at 3.6% year\u2011on\u2011year as of October 2026, indicating a modestly easing trend. Real GDP grew 1.94% in Q3 2026, showing moderate growth momentum, while unemployment sits at 4.6% as of August 2026, suggesting a tight but not overly slack labour market. The Bank of England has raised the policy rate by 25 basis points to 4.00% at the meeting ending 4 November 2026, signalling a tightening stance as it prepares for the next announcement on 17 December 2026. The GBP trades at 1.3125 USD per pound as of 20 November 2026."
     },
     "JP": {
       "cpi": {
@@ -3296,7 +3296,7 @@
             "value": 1.25
           }
         ],
-        "note": "Manual, as of 2026-10-30 \u2014 FRED fetch failed (FRED IRSTCB01JPM156N latest observation is 1087d old (2023-12-01) -- treating as stale). Policy rate raised to 1.25% on 2026-09-18; held 8-1 on 2026-10-30. Next meeting 17-18 Dec 2026.",
+        "note": "Manual, as of 2026-10-30 \u2014 FRED fetch failed (FRED IRSTCB01JPM156N latest observation is 1088d old (2023-12-01) -- treating as stale). Policy rate raised to 1.25% on 2026-09-18; held 8-1 on 2026-10-30. Next meeting 17-18 Dec 2026.",
         "last_move": "Policy rate raised to 1.25% on 2026-09-18; held 8-1 on 2026-10-30. Next meeting 17-18 Dec 2026."
       },
       "fx": {
@@ -4329,7 +4329,7 @@
           }
         ]
       },
-      "narrative": "Inflation remains above the target at 3.17% YoY, while real GDP growth is modest at 1.16% in Q3 2026, indicating a sluggish but positive momentum. The labor market is tight with unemployment at 2.4% as of September 2026, suggesting limited slack. The policy stance is hawkish: the central bank raised the policy rate to 1.25% on 2026\u201109\u201118 and held it at 1.25% on 2026\u201110\u201130, with the next meeting scheduled for mid\u2011December 2026."
+      "narrative": "Inflation is running at 3.17% in 2025, indicating a moderate upward trend. Real GDP grew 1.16% in 2026\u2011Q3, showing modest growth momentum, while the labor market remains tight with unemployment at 2.4% as of September 2026. The central bank has raised the policy rate to 1.25% on 2026\u201109\u201118 and held it at 1.25% on 2026\u201110\u201130, signalling a cautious stance as the yen trades around 158.64 per dollar."
     }
   }
 }
