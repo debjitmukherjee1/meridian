@@ -1,42 +1,42 @@
 {
-  "updated_at": "2026-11-23 17:14 UTC",
+  "updated_at": "2026-11-24 16:54 UTC",
   "market": "IN",
   "macro_theme": "Consumer demand signals dominate headlines",
   "signals": [
     {
       "sector": "Consumer Discretionary",
       "read": "Neutral",
-      "score": 57,
+      "score": 58,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "A sharp demand shock in the auto segment is propelling the Consumer Discretionary sector higher.",
+          "text": "Record auto sales in India, driven by a 53% jump in electric vehicle sales, are the primary catalyst for the bullish Consumer Discretionary sector.",
           "forecast": {
             "low": 2.9,
-            "high": 6.3,
+            "high": 6.4,
             "direction": "+",
-            "text": "+2.9% to +6.3%"
+            "text": "+2.9% to +6.4%"
           }
         },
         {
           "role": "supporting",
-          "text": "Record FPI inflow of Rs\u202f1.18\u202flakh crore in November is boosting investor confidence.",
+          "text": "The 55.25 lakh unit record in festive auto sales reflects strong consumer demand across the sector.",
           "forecast": {
             "low": 2.9,
-            "high": 6.3,
+            "high": 6.4,
             "direction": "+",
-            "text": "+2.9% to +6.3%"
+            "text": "+2.9% to +6.4%"
           }
         },
         {
           "role": "supporting",
-          "text": "India\u2019s 2026 festive auto sales are projected to soar, with EVs accounting for 10% of the market.",
+          "text": "Foreign investors have returned with \u20b91 lakh crore FPI inflows, boosting market sentiment and liquidity.",
           "forecast": {
             "low": 2.9,
-            "high": 6.3,
+            "high": 6.4,
             "direction": "+",
-            "text": "+2.9% to +6.3%"
+            "text": "+2.9% to +6.4%"
           }
         }
       ]
@@ -44,37 +44,47 @@
     {
       "sector": "Consumer Staples",
       "read": "Neutral",
-      "score": 42,
+      "score": 55,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "The Consumer Staples sector is bearish as the market crash erodes investor confidence and reduces discretionary spending.",
+          "text": "Demand shock from strong corporate earnings and significant FPI inflows is driving the Consumer Staples sector higher.",
           "forecast": {
-            "low": 1.2,
-            "high": 2.9,
-            "direction": "-",
-            "text": "-1.2% to -2.9%"
+            "low": 1.1,
+            "high": 2.8,
+            "direction": "+",
+            "text": "+1.1% to +2.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "Banks and metals bleeding drag the index, impacting consumer spending patterns",
+          "text": "Foreign investors returned \u20b91 lakh crore in FPI inflows, boosting market sentiment.",
           "forecast": {
-            "low": 1.2,
-            "high": 2.9,
-            "direction": "-",
-            "text": "-1.2% to -2.9%"
+            "low": 1.1,
+            "high": 2.8,
+            "direction": "+",
+            "text": "+1.1% to +2.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "Key stocks such as SBI, RIL, HDFC Bank, Axis Bank, Hindalco, and JSW are dragging the index into red, further weighing on the sector",
+          "text": "Strong corporate earnings across the index are fueling a broader rally, lifting consumer staples stocks.",
           "forecast": {
-            "low": 1.2,
-            "high": 2.9,
-            "direction": "-",
-            "text": "-1.2% to -2.9%"
+            "low": 1.1,
+            "high": 2.8,
+            "direction": "+",
+            "text": "+1.1% to +2.8%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "The Nifty FMCG input cost outlook indicates stable pricing, supporting demand for staples.",
+          "forecast": {
+            "low": 1.1,
+            "high": 2.8,
+            "direction": "+",
+            "text": "+1.1% to +2.8%"
           }
         }
       ]
@@ -82,47 +92,17 @@
     {
       "sector": "Energy",
       "read": "Neutral",
-      "score": 48,
+      "score": 53,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "The Energy sector is being dragged down by the broader market sell\u2011off triggered by the Sensex crash.",
+          "text": "No direct impact on the Energy sector is evident from the provided headlines.",
           "forecast": {
-            "low": 2.6,
-            "high": 6.2,
-            "direction": "-",
-            "text": "-2.6% to -6.2%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "The crash has led to a sharp decline in equity valuations across all sectors, including Energy.",
-          "forecast": {
-            "low": 2.6,
-            "high": 6.2,
-            "direction": "-",
-            "text": "-2.6% to -6.2%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Investor panic and rapid outflows have reduced liquidity and confidence in Energy stocks.",
-          "forecast": {
-            "low": 2.6,
-            "high": 6.2,
-            "direction": "-",
-            "text": "-2.6% to -6.2%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Despite record FPI inflows, the magnitude of the market decline outweighs any sector\u2011specific support.",
-          "forecast": {
-            "low": 2.6,
-            "high": 6.2,
-            "direction": "-",
-            "text": "-2.6% to -6.2%"
+            "low": 2.7,
+            "high": 6.4,
+            "direction": "+",
+            "text": "+2.7% to +6.4%"
           }
         }
       ]
@@ -130,133 +110,123 @@
     {
       "sector": "Financials",
       "read": "Bearish",
-      "score": 19,
+      "score": 40,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Banking stocks led the market decline, dragging the Financials sector into a bearish stance.",
+          "text": "Demand shock from banking sector weakness drives the Financials sector bearish.",
           "forecast": {
-            "low": 2.4,
-            "high": 5.7,
+            "low": 1.8,
+            "high": 4.2,
             "direction": "-",
-            "text": "-2.4% to -5.7%"
+            "text": "-1.8% to -4.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "Sensex fell 1,484 points as banking stocks were the primary contributors to the crash",
+          "text": "Banking stocks lead the market decline, dragging the sector down.",
           "forecast": {
-            "low": 2.4,
-            "high": 5.7,
+            "low": 1.8,
+            "high": 4.2,
             "direction": "-",
-            "text": "-2.4% to -5.7%"
+            "text": "-1.8% to -4.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "Nifty slipped below 25,350, reflecting broader weakness in financial shares",
+          "text": "US Fed interest rate moves are negatively impacting major Indian banks such as SBI and PNB.",
           "forecast": {
-            "low": 2.4,
-            "high": 5.7,
+            "low": 1.8,
+            "high": 4.2,
             "direction": "-",
-            "text": "-2.4% to -5.7%"
+            "text": "-1.8% to -4.2%"
           }
         }
       ]
     },
     {
       "sector": "Healthcare",
-      "read": "Neutral",
-      "score": 54,
+      "read": "Bullish",
+      "score": 61,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Healthcare sector sentiment remains mixed as the broader market crash and demand shock weigh on investor confidence.",
+          "text": "Demand shock from a surge in pharmaceutical demand is driving the Healthcare sector higher.",
           "forecast": {
-            "low": 1.1,
-            "high": 2.7,
+            "low": 1.2,
+            "high": 3.0,
             "direction": "+",
-            "text": "+1.1% to +2.7%"
+            "text": "+1.2% to +3.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "The 1,484-point Sensex plunge and \u20b95 lakh crore loss have dampened overall market sentiment, affecting healthcare stocks.",
+          "text": "Indian stocks added nearly Rs\u202f35\u202flakh crore in November as the Sensex gained 11\u202fpercent, with pharmaceutical stocks leading the gains",
           "forecast": {
-            "low": 1.1,
-            "high": 2.7,
+            "low": 1.2,
+            "high": 3.0,
             "direction": "+",
-            "text": "+1.1% to +2.7%"
+            "text": "+1.2% to +3.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "Record FPI inflow of Rs\u202f1.18\u202flakh crore in November may provide some support to specific healthcare subsectors.",
+          "text": "Foreign investors returned to India with \u20b91\u202flakh crore FPI inflows, adding buying pressure to the sector",
           "forecast": {
-            "low": 1.1,
-            "high": 2.7,
+            "low": 1.2,
+            "high": 3.0,
             "direction": "+",
-            "text": "+1.1% to +2.7%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Nifty Pharma predictions for 25\u202fNov\u202f2026 suggest potential upside for certain pharma stocks, adding complexity to the sector outlook.",
-          "forecast": {
-            "low": 1.1,
-            "high": 2.7,
-            "direction": "+",
-            "text": "+1.1% to +2.7%"
+            "text": "+1.2% to +3.0%"
           }
         }
       ]
     },
     {
       "sector": "Technology",
-      "read": "Neutral",
-      "score": 58,
+      "read": "Bullish",
+      "score": 61,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Technology sector bullish due to a demand shock event",
+          "text": "AI\u2011driven demand shock is boosting Indian IT stocks.",
           "forecast": {
-            "low": 2.3,
-            "high": 5.2,
+            "low": 2.4,
+            "high": 5.5,
             "direction": "+",
-            "text": "+2.3% to +5.2%"
+            "text": "+2.4% to +5.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "FPI record inflow of Rs\u202f1.18\u202flakh crore in November so far",
+          "text": "Nvidia CEO Jensen Huang\u2019s return has revived AI trade, spurring interest in Indian IT firms.",
           "forecast": {
-            "low": 2.3,
-            "high": 5.2,
+            "low": 2.4,
+            "high": 5.5,
             "direction": "+",
-            "text": "+2.3% to +5.2%"
+            "text": "+2.4% to +5.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "Indian IT stocks rising \u2013 TCS, Infosys, Wipro leading the rally",
+          "text": "Foreign investors are returning to India, with \u20b91 lakh crore FPI inflows supporting the sector.",
           "forecast": {
-            "low": 2.3,
-            "high": 5.2,
+            "low": 2.4,
+            "high": 5.5,
             "direction": "+",
-            "text": "+2.3% to +5.2%"
+            "text": "+2.4% to +5.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "Technology growth names led the Nifty IT segment in the session",
+          "text": "The broader technology market reassessment is reinforcing confidence in Indian IT companies.",
           "forecast": {
-            "low": 2.3,
-            "high": 5.2,
+            "low": 2.4,
+            "high": 5.5,
             "direction": "+",
-            "text": "+2.3% to +5.2%"
+            "text": "+2.4% to +5.5%"
           }
         }
       ]

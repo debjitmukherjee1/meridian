@@ -1,60 +1,96 @@
 {
-  "updated_at": "2026-11-23 17:14 UTC",
+  "updated_at": "2026-11-24 16:54 UTC",
   "market": "JP",
   "items": [
     {
-      "title": "Japan's Sumitomo creates fund to bring AI to smaller businesses",
+      "title": "Countries avoid open support for ICC as Trump ramps up attacks",
       "source": "Nikkei Asia",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUzJ1WXhhdG95ZWk4azAtMldvNjFNN0VULUs5ZFZYVmJlUUpBbG5jVThWSUhhS29uaXEyRzZxZVRNR3hKY3BmcjByREVMMDEtMUpBN2RaOVY5ejV6Y0FvTWpyMEs2c1N2UmJvUXpMZHBtTDBzUkswQl9rNXpWUVVmMURUS3owVnR3OHZBUTBLUTBReDE0cWpBWjhyWTFmNmw4S0twdkVyUQ?oc=5",
-      "published": "2026-11-23 16:20 UTC",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZC1WTWEtWVVRajZDcVVxVkRlQVU1WjQtRFFVOWxveU1rcFhZSnhDOUQtSnRTM09QQ0NSbnNpU0NuQTFyYkNBOUVKcUlydmJQWUliOTE3RnlYbXhqS253Y3RlN1pNYVhJNTluWXRKNzRkQkpzWklDajU2Ymk1N2JILWVEZ0R6OXlvdUVNN0tOMC1xblBvVHJVeldtVlJ0TmFzNGZsNk5hZEpRbVhOT0IybU9SZlZGbmNGallV?oc=5",
+      "published": "2026-11-24 16:23 UTC",
       "sector": "Market",
-      "tone": 3.0,
-      "note": "AI fund boosts tech adoption, supporting growth."
+      "tone": 0.0,
+      "note": "No direct impact on Japanese market."
     },
     {
-      "title": "Anthropic Claude use by Japanese companies up 10-fold in 1 year",
+      "title": "Anthropic falls below $83 IPO price in swift reversal after record listing",
       "source": "Nikkei Asia",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNbl9IUERYVW10YjMtX3JFc2tIc0s4amRhNWdsaWZWaTZOeTloN3dIdFM0YTg5b2pJNWVfdXR0Q1djeG5CMl9RRTVDMXM0TW4wOTZLckpYTGh1UGlTOTd3QlFlcUd6NE1IcmxQclBkUFF3emRSOXhoTUNvMDBSYVdYTmt5NDNRTDNnWnhXbjVpZ3Yxc2haY3JqWEVScHFFcjVzUFFiMURVd21zY19aS25BbU16TnVhRHZxN0gwUDB0WUZ2RFpZQXZsdmFGOA?oc=5",
-      "published": "2026-11-23 16:05 UTC",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQenhSSURlMHlIenBncWdsdDJsX3E4TW1FaWhzVlBGYzh0TVdQWDVKVWwwbHNKakl3dGdlWHBYZm4xZnRySVZ1OFRmUTJldHU1TXZ3N1BzTlpVeng5TDdUQW1vN0NiZ3hmb3p3N01DVTBqTW5OYkk4T3VEX3lTdHktMmpPQWxfTXhadjA5VERiOHAxeG9DbC02SEFNV25SQWV0bUtJUk5Hdm1WZElZZ2VfX1ltTTk?oc=5",
+      "published": "2026-11-24 15:35 UTC",
       "sector": "Market",
+      "tone": 0.0,
+      "note": "No direct impact on Japanese market."
+    },
+    {
+      "title": "Thailand vehicle production hits 6-year low after flooding",
+      "source": "Nikkei Asia",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeFp0d3d3MUU2RzBtYmpPclE1MVVYY0FRRXpMdlJoVmExQXpJMzdhX2dxVTN6ZUxQSUwtSE1TaVFoNjlrNHVUSlNfZWxCVlR4LUFXQzR4QUpKUXNVNjBoZkpHNXd3NzBQdUxPSEJKSVU1QmRFV2Q3QWNGTWs5TzJQVl9ZVlY1VG1Wd1ZCWnNsMU9mR2dJMUkxTEV2ZkVoRzk4YnNZc3ZR?oc=5",
+      "published": "2026-11-24 15:24 UTC",
+      "sector": "Market",
+      "tone": -2.0,
+      "note": "Flooding hurts regional manufacturing, weakens Japan\u2019s auto sector."
+    },
+    {
+      "title": "Japan fund Advantage Partners to invest in Finland e-methane project",
+      "source": "Nikkei Asia",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYS1JSHRVVktrZmxCQldHbzgzWkJseU9VUEZXZ2gzTHRMeno2Y0hDeWtjV0dVSVNxTkZoVThGWV9DN3JPM0xSS3h4bkd3Qi1ST0tmcnR6VlhROWtmN0hIRXltNElIYXV3clZnQWVmWEl5Q3hQWlNFaUtqMFU0V2p6UU9mMnF0aENqX0pCazRnOWJnWC1lVC11T2NxTlUzMjF4RjRZb3N6cVNSZmplaURsSVBvUHc5V1E?oc=5",
+      "published": "2026-11-24 14:53 UTC",
+      "sector": "Market",
+      "tone": 3.0,
+      "note": "Investment signals growth in renewable energy, supportive for Japan."
+    },
+    {
+      "title": "Wall Street's sugar high quickly disappears as Nvidia and other AI stocks tumble again",
+      "source": "Owensboro Messenger-Inquirer",
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQZmRKT1FpQlJ4bTBhdTAyeldoT3h6VWE1elZCMVZJRmJ1NWhtWXgyS3gzZWFUVG01ck43V2ItbWtOSGszY3ltSVcwZzBPT3F1eVdVdDZoUHlkN3JtVy1Hb1hXdk56ZEt1SGFMT0ZTUHVGd1hUYkRPMXFLNENLUWVCUFE1c1lGR3MzQlN6Q0RFM1NTUkZjUVB0VFR3M2lZeVA3UE04M0FjVEZvbWVhRWFWUlBsMmZTTDhDR0FqNGVScFdWekxKQ2ZxVG43OEdHSDV1UjBHNmJNcklFeHhKVlVFVnNyQ09rQTJXX1BBVTV5S0RvMlBuaVJScy1fRm1qX2c3a01kMTJrNXNKaFMyQ1loZQ?oc=5",
+      "published": "2026-11-24 14:42 UTC",
+      "sector": "Market",
+      "tone": -1.0,
+      "note": "Global AI slump may dampen tech sentiment, minor effect."
+    },
+    {
+      "title": "Japanese Stocks Are Projected to Rally Again in the Coming Year",
+      "source": "Goldman Sachs",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcjBac3ZmVDN6RUJ6STYwcVRCeTFoUTRneW9Qbi1FdVhkbWpnQVdNUFVlbUVTd1BzNnYxRVYtdXdPcXMxUkdZQ1BWcWNEdmxub3Rpc1VaTVpFVmdaUG9SME1IMkNnZnptcWY3N1dadVVRMC1Pb2h3UVdjX2FYNXJqemNHOHkwMHN2Y2hKYmpXY1dCSWhyR2ZUc29zVXdtMm1hTnpfN0FuRExJMHpNVTdv?oc=5",
+      "published": "2026-11-24 13:56 UTC",
+      "sector": "Market",
+      "tone": 5.0,
+      "note": "Positive outlook for Japanese stocks, strong rally forecast."
+    },
+    {
+      "title": "SoftBank's AI Spending Under the Microscope After Anthropic Listing Fails to Lift Sentiment",
+      "source": "ad-hoc-news.de",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPMlc0NVp5dEpELXJTc2dmbTdCYkZRRmF6eUgyVW1UaXo4Q2tDSVFCS0ZPdGlMTDdyU194cElCNEd6ZzdFVUV0X1czV2V2blBWYzY5cXlGc3lOdTQzWXo1WE82U3ctUmdRMEo4eF9zaHFOWGJ2RDdKZDF3YXlIYmZ6UThHM2lyQjNXWjFQU0lNUF8yRlQ3N0wyU0JlbXQzTHhQeVJsQnJjZVp1TjM0Q2ZlNXgxa2lac21XMlR3YTVZcTJGekZScWdGYjNhZ2lCNEo1T2ZqSDZkbkp5ekE4ZjNKaFZLSlhkWldBUnBLczEwWF85MDJiWnc?oc=5",
+      "published": "2026-11-24 14:01 UTC",
+      "sector": "Technology",
+      "tone": -3.0,
+      "note": "SoftBank AI spending scrutiny dampens tech optimism."
+    },
+    {
+      "title": "Jensen Huang Returns as Nvidia CEO Sends Asian Chip Stocks Higher - NVIDIA (NASDAQ:NVDA)",
+      "source": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxORlBaRXpJYnRZbmdnNVFSNjM4VkUyc2NFa1J3Nk9HN0FEeDJWRF83dDlNTDQwUlFHbTcxd3BSUlNvNFE3TU1nNEN2MEdWRUdkNGYtOGNXcnBPOUhJSzNmckc4TkVPT3VrNkFEbVZYQmFxNVBzeHRnMkpJNjBDa29weWhlX2NMRk1wWGNIdER6SGxaczlGa1JpTWV3MjJfVFp3bXpxeDFCN05JenFJa0pwejZrVG1jWVRzZ0FVVF90cVhlZkJFeFliX3pSVHZVYnV4cnc?oc=5",
+      "published": "2026-11-24 01:22 UTC",
+      "sector": "Technology",
       "tone": 4.0,
-      "note": "Rapid AI uptake signals strong innovation momentum."
+      "note": "Nvidia CEO return boosts chip sector confidence."
     },
     {
-      "title": "Japan ambassador meets with detained Japanese journalist in Russia",
-      "source": "Nikkei Asia",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQc25VYVFOOFgwQkJRN0JpU3hzQUtGTDRDR1hvNVlELW56Y29OSFBDbDBrMkcyeXFNV3RNcnFBc2ZzVVB6SmpyeGUwM3Q1UGhmaW96NUxuTFd5NXZady1NQmNVc3RhZ01IMVJ0SlBnMlFJcXBPdWRxTnREN1lQMjNRN0ZWLU1LWjFyOWlzLXJmNEV4RlFZNHJUeXFDa1VFZGR3UnlfRUpXc002T1ZuZEVBREp6aXZ1eVVucVJYUjZGQmQ?oc=5",
-      "published": "2026-11-23 15:51 UTC",
-      "sector": "Market",
+      "title": "Weekly Recap: GTA VI sales boost shares and UK tribunal dismisses claim",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPRGdqSE9RLWk2T2toQjFWV1BRUi15SjhTdVVwS3hkbWw4R3ViRzBwYV9tSjh5QWYxVlltR19tRlVyX29XZWl4MFVsaTZwYW1GRFU3dEJBRXZJcGJNYUVsYXBJMnhkYmZna1U1bVYwMlRHLTcyT01fMXF6SDlOYkg5Nm9LWnNEZ1VPMmdVMDByTzJfUWVlbG1VWExSdERvV29MQkVlV3pFc1ZHbTh6Y0dBWnhfV1lLQ1hhbW1kOW1KS2p4X0w3d2tqZnJYYzA?oc=5",
+      "published": "2026-11-23 22:00 UTC",
+      "sector": "Technology",
       "tone": 0.0,
-      "note": "Diplomatic incident unrelated to market fundamentals."
+      "note": "GTA VI sales unrelated to Japanese tech stocks."
     },
     {
-      "title": "Nvidia reinstates Jensen Huang as CEO",
-      "source": "Nikkei Asia",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORjkwbmlWbEowdjNKSlRDa1c2MkloZlVJajNlaEVkM0tlOUhnSnVrYTVpVHJxdl9RRUZsVzhSOTUyQUNZc0pRMzJXQnVfbTdHRGlyNEF3YU5KYk10dDdWNzFlSXNXekM5Q0ZkTmx3QkpsX1VUNWUxQmlVRFJieThUb2dMcG9lbGhTT0Zydk9tbEJzMDlv?oc=5",
+      "title": "Sony Group Corporation (SONY) stock price, news, quote and history",
+      "source": "Yahoo Finance Australia",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5KcmRsSjJySFlmdC1pNmtQQTFYUFgzSnF1ZVBlTl8yUUx6cHZnMjd0R2J3YmhSMUk5M1huLVFyYlZLT3g5VGwyOG1zMER1UjdMaGc?oc=5",
       "published": "2026-11-23 14:25 UTC",
-      "sector": "Market",
+      "sector": "Technology",
       "tone": 3.0,
-      "note": "CEO reinstatement signals leadership stability, boosting confidence."
-    },
-    {
-      "title": "Asian Stocks down - 23/11/26",
-      "source": "Armenpress",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9pSDB5SURsYTFhNmFvMzVhckJWNGs1Wno1TERLT0FnVmM1VFp6MUZTa3ZHd2xaaDFSSnh6Sy1vR3ZMUGhrM2pmWGdkS1JHMVp2cGfSAVdBVV95cUxNT2ZFLWRXUDFYMzdNa0pZQUlqZG1GRFNuQ2RaWlE2N2l5bXhPeXdoZC11RmlqRFF1LV9hZUxzakR3Q2JnTmI4Zkw4b0M0TV90eDJBc0JmNDQ?oc=5",
-      "published": "2026-11-23 12:33 UTC",
-      "sector": "Market",
-      "tone": -4.0,
-      "note": "Regional downturn pressures Japanese equities."
-    },
-    {
-      "title": "Indonesia's ex-foreign minister, agriculture minister named VP candidates",
-      "source": "Nikkei Asia",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdFpLQU1kNnRiRnhSX1dWZzBWU1UtRXlMOGQyTTdBR01TV0MyaU8wVzVCbWRlOGJoUHlrbFZtQ21wNGdubHZCLVEwa1RGTExtSXNfTUFWMmVYcENvWGdzRXJwZm56WEN3ZU5icGVIYlBjbWIwNXJiZ2gycW9McEtfbVhiYUdHY1NTVnhGV3pwV2x3elQwd3dTYzlRdUtZMHRGS2FQdHU2bWM?oc=5",
-      "published": "2026-11-23 12:13 UTC",
-      "sector": "Market",
-      "tone": 0.0,
-      "note": "Political appointments have no direct market impact."
+      "note": "Sony\u2019s stable performance supports tech sentiment."
     },
     {
       "title": "Masayoshi Son Says Anthropic Was \"One of My Failures\" \u2014 The Cost of Betting Everything on OpenAI, as SoftBank Shares Lose Two-Thirds From Their Peak",
@@ -63,7 +99,7 @@
       "published": "2026-11-23 10:25 UTC",
       "sector": "Technology",
       "tone": -4.0,
-      "note": "SoftBank's AI bet failure dampens tech optimism."
+      "note": "SoftBank\u2019s failure to lift sentiment signals weakness."
     },
     {
       "title": "Wendys Bids 46 Million Dollars for 163 Franchise Restaurants",
@@ -72,43 +108,52 @@
       "published": "2026-11-23 02:49 UTC",
       "sector": "Technology",
       "tone": 0.0,
-      "note": "Wendy's acquisition unrelated to Japanese tech."
+      "note": "Wendy\u2019s franchise deal irrelevant to tech sector."
     },
     {
-      "title": "SoftBank Shares Slip Toward 52-Week Low as Anthropic Debut Exposes AI Payback Fears",
-      "source": "ad-hoc-news.de",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPWUxtaVl6OW05cndYUy1ZSEVEMk01S1hHZ0VfT0M0ZW51SzJFa20tVXNLeFZta2M1RWx0dDR6ZWRCX3A4c2RobTQzVDZ1YlhUamEzQ2dHVVgycXBKLVRnNG54dWZFMS1wZ2FLZmpQM2FMeVBEcEZ2TzJhZk1hQ0xqQzMzeHYyOGZQRGdtTU1pSzA4MEJ6VE45R2Fib0doRUhhZjVaWkdCMUhvakZfS0hybTBHY05zZWNZRWpXbTNpYWp6TVBkZXZBT2IzR2dNT1RsZjgwSDlSVDFESjhQbkx0ZFdRLXUtWnl3N0VN?oc=5",
-      "published": "2026-11-22 14:23 UTC",
-      "sector": "Technology",
-      "tone": -4.0,
-      "note": "AI debut exposes payback fears, hurting investor confidence."
-    },
-    {
-      "title": "Masayoshi Son Faces $109 Billion SoftBank Sell-Off as Anthropic IPO Overshadows OpenAI Bet",
-      "source": "Hokanews",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1vOF8wWFkzU010c2t5RFBRNm1QOXBRSVBCUlVBZGNrVzRNS094dWdBcjFsNVZjUlRQRG1ac0N4UW11WmtiSk5ZbEhTWW5QUlpEaUxRb2ZneEV5bG9HRGNNVE4xUWI1dHJyaUxoUklkUFdvd1pzc3lYSg?oc=5",
-      "published": "2026-11-22 03:49 UTC",
-      "sector": "Technology",
-      "tone": -5.0,
-      "note": "Massive sell\u2011off signals deep tech sector anxiety."
-    },
-    {
-      "title": "SoftBank's AI Ambitions Hit a Valuation Reckoning as Shares Slide 16%",
-      "source": "ad-hoc-news.de",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQM1NwTkN5MkQtd0dDeU8xREl5TVZlSlpNU1ZTX2NKQlFYOFpsLWRuZ3J0U2pvbVVIbDRnNHM2ajcwT0dJeTE5VmNnREZDY1FvaWs1VEJUZHpQS1M2SVZDUnpyWHhpdjYtdTdObVlycF9CVlA1QXhreE1BN3ZTN2ZmR3RieUp1aDVKUHBxSVhrUURtMUNKbFhQV3lMX3VlXzVhU09JRU5leTBMZ0NwNktxOVdvOWZ1bk9ROThkT0NZSGk5MUlMeWRqUTB4cUJ3WWhubk5sQkhJRQ?oc=5",
-      "published": "2026-11-22 01:51 UTC",
-      "sector": "Technology",
-      "tone": -3.0,
-      "note": "Valuation reckoning signals cautious outlook for tech stocks."
-    },
-    {
-      "title": "Chinese automakers surpass Japanese rivals in market share across 39 countries",
-      "source": "\ud5e4\ub7f4\ub4dc\uacbd\uc81c",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1MQWNlZ21wbEZDXzBrNzEzYlVNQ3duNEtTb040c05SbkdPajF3OVR2UTdIbVVJcFRZZmhGTmMzX2QtRlVua05kRy1OSmNXa2w3X3kyM3B1RQ?oc=5",
-      "published": "2026-11-23 05:52 UTC",
+      "title": "EU to Impose Quota on Hybrid, Plug-in Hybrid Imports Starting December; Japanese Vehicles Also Covered",
+      "source": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAwYldQSTFnY1c1M0x5dkJwSWpFa3U4S3pRNVF1dmVsLVJjUG8zcEswNGlONzdMUGI5endpT3J5Ry15SkJoX3pPYTlSY25BWG1PTmJHU0ExM1hyTW9WTnZ4SXF3dlg4X29naElvM25xZE5CYTFxNlE?oc=5",
+      "published": "2026-11-24 12:55 UTC",
       "sector": "Consumer Discretionary",
       "tone": -3.0,
-      "note": "Chinese automakers surpassing Japanese rivals signals competitive pressure."
+      "note": "EU quota targets Japanese hybrids, hurting export prospects."
+    },
+    {
+      "title": "EU confirms quota plan for hybrid imports from China, UK, U.S., Japan, Turkey, other exporters",
+      "source": "Automotive News",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZWlXeWNWSGZfVExxMnZhaURnajNXRnZZZjBCeGFDQWg2WURwcFFfT2FEYmk5a0hZU3NNdUJ6eEw2SmcwbVRkMHBuZ1k1M0pnTTVJN0QxRkxBNGsxZEJsbmU0TTlpcy0yYk5pV1lTS1JJUUhqVjRDVUMxUEVIdUlYQ3F0blNhUlVTOGxN?oc=5",
+      "published": "2026-11-24 11:45 UTC",
+      "sector": "Consumer Discretionary",
+      "tone": -3.0,
+      "note": "Quota confirms EU will restrict Japanese hybrid imports."
+    },
+    {
+      "title": "Car firms pledge to stay put",
+      "source": "Bangkok Post",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQYm5wbklYdVR5eFZGbWk4bGN0UDFabnNMTjBoYWtiTlU5VHVwLW9MVkZpWWRBOEhtaC1hcWYzcVVWNmtXZ2tTNU9yWlotV0RjeXRoeVRVTnhTVmthaUs5d3BxS2JXSV9fR3FfdG1GeDRNMm1DelFoZDNrc0dtS29hTS02QkszM1E?oc=5",
+      "published": "2026-11-23 22:06 UTC",
+      "sector": "Consumer Discretionary",
+      "tone": 0.0,
+      "note": "Car firms pledge to stay put, no clear impact."
+    },
+    {
+      "title": "BOI Closes Japan Roadshow Deals: 6 Automakers Confirm THB 134 Billion Investment in Thailand",
+      "source": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9rWkFSTmQ2SDFRbWpBb0lGeWd1UGdaVXBjQ3ZHR0NFN3dRMHVvcWN0T3dhU2VFTE1IRHJOdjJvNWwzbnVrRHFyV1lnVTF1REpmeFNyVzdqcm0wZnNBdnhuU2JiRzZNMVYzbHZpNVVwU1dZUnEtM0E?oc=5",
+      "published": "2026-11-23 14:55 UTC",
+      "sector": "Consumer Discretionary",
+      "tone": 4.0,
+      "note": "Japanese automakers secure large Thai investment, boosting growth."
+    },
+    {
+      "title": "Driven by EVs: Chinese Automakers Overtake Japanese Rivals in 39 Markets",
+      "source": "Mezha",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPRzRhdXd5UTJELUQya3JURFI3WTZhZnVVeUQ0dUFydFZJOE0yakxXaHA4Nnpia3RldVd0NGZZVl9zVlloM09VdVpBWWl1bVpCOWllZGxHTkcybExiRllpeml0ZXNEbHNJU2s0em1MM1NpbW00WFZ6YnoyRHJOLTdHQUZhcV9zcnPSAYcBQVVfeXFMT0c0YXV3eVEyRC1EMmtyVERSN1k2YWZ1VXlENHVBcnRWSThNMmpMV2hwODZ6Ymt0ZXVXdDRmWVZfc1ZZaDNPVXVaQVlpdW1aQjlpZWRsR05HMmxMYkZZaXppdGVzRGxzSVNrNHptTDNTaW1tNFhWemJ6MkRyTi03R0FGYXFfc3Jz?oc=5",
+      "published": "2026-11-23 13:37 UTC",
+      "sector": "Consumer Discretionary",
+      "tone": -4.0,
+      "note": "Chinese firms surpass Japanese in 39 markets, eroding market share."
     },
     {
       "title": "Chinese Car Market Share Surpasses Japanese Brands in 39 Countries",
@@ -116,80 +161,44 @@
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBFN1ZUSl9hUDRmNVVhLU45RkI2XzM5MFh5b2lEVThsT2x4Mkljd0RFbkxfQ1k3Y0RJekhZZC12VlM2bm1sbjg0NGR6YjVIZ0Zqb2dVeUR3NHlyVlRMUUptNHpKVXVRN2VzWTFWRkZ3?oc=5",
       "published": "2026-11-23 05:35 UTC",
       "sector": "Consumer Discretionary",
-      "tone": -3.0,
-      "note": "Duplicate headline reinforces same competitive threat."
-    },
-    {
-      "title": "Anthropic researchers warn that AI will cause widespread permanent unemployment, and the labor market is beginning to slow down recruitment of young people.",
-      "source": "Vietnam.vn",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNTy0zcGpWVVRKb3FKUmlYaDdpbkV4blhtYUNHRndONy1Pai1JdlVYdjBqb2N2ZklodXYtQ0wzYi1yYVpVLWlrLXlRdUNNOEZyTlFZNUNVaXRGZGZkYVdjN0p4R2RlbHMxTGp1YXZRYUJFQ3F5VUlBdTZPM2RBTWpBcTNyTDBDS08zVS1FZi05YVR2TnhRaWhjeUM4TFdVRW5JWXI2cS1jaU05MFdJSFBub203VG9NZ0haMWhScjZ6eDFuRERFVl9nUHhzYlRUWHU4d2FXVi1XQ0FUblpmaEhFZ3lMeHpsbjNM?oc=5",
-      "published": "2026-11-22 10:21 UTC",
-      "sector": "Consumer Discretionary",
-      "tone": -2.0,
-      "note": "AI unemployment warning hints at broader economic slowdown."
-    },
-    {
-      "title": "A major turning point for Japanese automakers in responding to Chinese cars.",
-      "source": "Vietnam.vn",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSW1CcjRaVk1rQUFrNkI0cUg4ZmVpWlNSdDdKWWZRWG9FRl9TRVhtdjZJczdvVF9YY2hIck5PZndFSXJZZmdBZjlfZTBodkJWUmd2ZUlLZkhPcGM2bzZ1ZDFSZFVHcTI3UGNjQXJfWktyeVNvb0lIYnN0M1JjanJsSTA5QmgyREJRSEV1TTl2V0ZBS0c4clJPbHZsbVQ?oc=5",
-      "published": "2026-11-22 06:24 UTC",
-      "sector": "Consumer Discretionary",
-      "tone": 2.0,
-      "note": "Japanese automakers\u2019 turning point could spur innovation."
-    },
-    {
-      "title": "Honda and Toyota recall 1.6 million vehicles over a dangerous component | \u0423\u041d\u041d",
-      "source": "cedarnews.net",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZWpkbGpzUmFCR1NkeGg1RElEVWdsaDdsMEswRjhtTURiQVNCdU5meEo2OVhKaUdFMEt1bjNrZkVWZGR4cUNqd2UzTVhEdGtRZFZLbG0wSFlMaW5wSTJHNk9PcDNkMFZmWmlJMDBGdDc2cWFCbGlHdEQ2OWdPQXBtb0V1WjVhTkk?oc=5",
-      "published": "2026-11-22 03:12 UTC",
-      "sector": "Consumer Discretionary",
       "tone": -4.0,
-      "note": "Mass recall damages brand trust and sales."
-    },
-    {
-      "title": "Six Japanese Automakers Pledge Additional THB 134 Billion Investment in Thailand After Government Sets 35% Import Tax",
-      "source": "BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5lOGlqT2NNcks5Nlpvd0lRNVhobDhza2NIdjB4QUt6OUxPd0tVVjdRZDFaTDlXYUJaNkxJalMzYmNtQVZRaGR0SFN1WGFkblpwc1F3RkwzNXBKTy1QUlhlV1JlNmNLeEltMzlHaEYxWTJrMGtmcmc?oc=5",
-      "published": "2026-11-21 18:55 UTC",
-      "sector": "Consumer Discretionary",
-      "tone": 1.0,
-      "note": "Investment pledge shows confidence in future growth."
+      "note": "Chinese market share overtakes Japanese globally, weakening brand position."
     },
     {
       "title": "Japanese Drugmakers\u2019 Domestic Sales Forecast to Fall 1.7% in Fiscal 2026",
       "source": "Bing News",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b04753350044f589e06ae196f0e59f7&url=https%3a%2f%2fjp.ibtimes.com%2fjapanese-drugmakers-domestic-sales-forecast-fall-17-fiscal-2026-105280&c=1992442943545198389&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b05c208950a435b895717bd9498d43e&url=https%3a%2f%2fjp.ibtimes.com%2fjapanese-drugmakers-domestic-sales-forecast-fall-17-fiscal-2026-105280&c=1992442943545198389&mkt=en-us",
       "published": "2026-11-19 17:37 UTC",
       "sector": "Healthcare",
-      "tone": -3.0,
+      "tone": -2.0,
       "note": "Domestic sales forecast decline signals weaker demand."
     },
     {
       "title": "Takeda (TSE:4502) Stock May Look Reasonable Despite Its ORZEYFUL Launch",
       "source": "Bing News",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b04753222e24f618e4203d17545a4eb&url=https%3a%2f%2ffinance.yahoo.com%2fhealthcare%2farticles%2ftakeda-tse-4502-stock-may-181656317.html&c=10080016652064733742&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b05c207f8124327bc9921050e707bc1&url=https%3a%2f%2ffinance.yahoo.com%2fhealthcare%2farticles%2ftakeda-tse-4502-stock-may-181656317.html&c=10080016652064733742&mkt=en-us",
       "published": "2026-11-19 10:16 UTC",
       "sector": "Healthcare",
       "tone": 2.0,
-      "note": "Takeda\u2019s new launch may boost revenue, but market risk remains."
+      "note": "Takeda\u2019s new drug launch boosts confidence in its growth prospects."
     },
     {
-      "title": "Mitsubishi Corporation FY2027 Interim Net Profit Up 74%, Full-Year Forecast Hits Record High of 1.2 Trillion Yen. Reading the Earnings Report Featuring a 1 Trillion Yen Share ...",
+      "title": "[March/September Dividends] Is Mitsubishi Heavy Industries (7011) a Buy? Down 48% from its high, hitting a year-to-date low following reports of 'curbed' defense spending. Is ...",
       "source": "Bing News",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b04753bcc234c6dbc1c1770d69ea344&url=https%3a%2f%2fnote.com%2fsuper_dill5331%2fn%2fn2f72a9aa6711%3fhl%3den&c=7136435626080315935&mkt=en-us",
-      "published": "2026-11-21 22:41 UTC",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b05c20cb9fb45f4b25779426c513d65&url=https%3a%2f%2fnote.com%2fippan_invest%2fn%2fn0975d477d73d%3fhl%3den&c=13246971135473424715&mkt=en-us",
+      "published": "2026-11-23 00:15 UTC",
+      "sector": "Industrials",
+      "tone": -5.0,
+      "note": "Defense spending cuts signal weak demand for heavy industry equipment."
+    },
+    {
+      "title": "Japan trading houses grow aircraft-part ties as airlines rely on aging jets",
+      "source": "Nikkei Asia",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMDVJZG5zLVUzY20yN3JtOUVQVlFpRURwanVsRWZia3k5dTkybjRBSngzTWtGNXdyVklOYnQ3SkZ1OXRIOTl4U1lxLVVqRkk5ZWN4OGxwamxGMHl6TVpOSXBmd2hITTZucEl2NC12dTdyRTN2SmpKbER6MUdvR09SNVB1RHFvVl9mM2ctanNKVFVfNmI2ek9HVVU3c1c1RWlRRG5BVnFsS0J1blhpQ0lHOUxPeDRKbDdOZ0ZsLTdEMEk?oc=5",
+      "published": "2026-11-23 18:54 UTC",
       "sector": "Energy",
       "tone": 2.0,
-      "note": "Mitsubishi\u2019s strong profit and record forecast boost energy outlook."
-    },
-    {
-      "title": "INPEX (1605) 3Q Financial Results: Net profit forecast hits record high despite Middle East sales constraints, annual dividend of 112 yen maintained",
-      "source": "Bing News",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b04753d3f4140d7b9d4d62c5e46df3a&url=https%3a%2f%2fnote.com%2flively_duck864%2fn%2fnac661098807e%3fhl%3den&c=12150021416697623777&mkt=en-us",
-      "published": "2026-11-21 14:28 UTC",
-      "sector": "Energy",
-      "tone": 3.0,
-      "note": "INPEX\u2019s record profit and steady dividend signal resilience amid sales constraints."
+      "note": "Growing aircraft-part ties suggest demand for jet fuel, boosting energy outlook."
     }
   ]
 }

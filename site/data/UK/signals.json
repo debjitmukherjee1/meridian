@@ -1,128 +1,138 @@
 {
-  "updated_at": "2026-11-23 17:14 UTC",
+  "updated_at": "2026-11-24 16:54 UTC",
   "market": "UK",
-  "macro_theme": "Mixed macro signals; no single theme dominates",
+  "macro_theme": "Consumer demand signals dominate headlines",
   "signals": [
     {
       "sector": "Consumer Staples",
-      "read": "Bullish",
-      "score": 60,
-      "event_type": "default",
+      "read": "Neutral",
+      "score": 58,
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Consumer Staples gains driven by strong performance of major staples names such as Unilever and Diageo",
+          "text": "Strong consumer demand is driving a bullish outlook for the Consumer Staples sector.",
           "forecast": {
-            "low": 0.6,
-            "high": 2.4,
+            "low": 1.2,
+            "high": 2.9,
             "direction": "+",
-            "text": "+0.6% to +2.4%"
+            "text": "+1.2% to +2.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "Unilever\u2019s resistance test at GBX4,920 signals upward momentum for the sector",
+          "text": "Tesco shares have risen 24% this year, reflecting robust retail sales growth.",
           "forecast": {
-            "low": 0.6,
-            "high": 2.4,
+            "low": 1.2,
+            "high": 2.9,
             "direction": "+",
-            "text": "+0.6% to +2.4%"
+            "text": "+1.2% to +2.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "Diageo\u2019s early gains from a \u00a35,000 investment in March indicate sustained upside",
+          "text": "Compass\u2019s decision to exit the London market signals a shift in capital allocation that may benefit remaining staples peers.",
           "forecast": {
-            "low": 0.6,
-            "high": 2.4,
+            "low": 1.2,
+            "high": 2.9,
             "direction": "+",
-            "text": "+0.6% to +2.4%"
+            "text": "+1.2% to +2.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "The broader UK market rally, reflected in the FTSE 100\u2019s gains, supports sector momentum",
+          "text": "Diageo\u2019s stable technical support suggests continued resilience in the beverage segment of consumer staples.",
           "forecast": {
-            "low": 0.6,
-            "high": 2.4,
+            "low": 1.2,
+            "high": 2.9,
             "direction": "+",
-            "text": "+0.6% to +2.4%"
+            "text": "+1.2% to +2.9%"
           }
         }
       ]
     },
     {
       "sector": "Energy",
-      "read": "Bullish",
-      "score": 64,
-      "event_type": "default",
+      "read": "Neutral",
+      "score": 43,
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Oil prices near $90 are driving a bullish sentiment in the Energy sector.",
+          "text": "Oil prices fall as traders weigh hopes of Iran talks against shipping risks",
           "forecast": {
-            "low": 1.9,
-            "high": 4.5,
-            "direction": "+",
-            "text": "+1.9% to +4.5%"
+            "low": 2.9,
+            "high": 6.8,
+            "direction": "-",
+            "text": "-2.9% to -6.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "U.K. stocks higher at close of trade, reflecting broader market optimism.",
+          "text": "Traders are optimistic about potential Iran talks, which could ease geopolitical tensions",
           "forecast": {
-            "low": 1.9,
-            "high": 4.5,
-            "direction": "+",
-            "text": "+1.9% to +4.5%"
+            "low": 2.9,
+            "high": 6.8,
+            "direction": "-",
+            "text": "-2.9% to -6.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "UK's FTSE 100 starts the week in green with mining stocks gaining, indicating positive risk appetite for energy-related shares.",
+          "text": "Shipping risks remain a concern, adding uncertainty to oil supply dynamics",
           "forecast": {
-            "low": 1.9,
-            "high": 4.5,
-            "direction": "+",
-            "text": "+1.9% to +4.5%"
+            "low": 2.9,
+            "high": 6.8,
+            "direction": "-",
+            "text": "-2.9% to -6.8%"
           }
         }
       ]
     },
     {
       "sector": "Financials",
-      "read": "Bullish",
-      "score": 68,
-      "event_type": "default",
+      "read": "Neutral",
+      "score": 58,
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Lloyds shares trading at 94p present a buying opportunity that is boosting sentiment in the Financials sector.",
+          "text": "The Financials sector is benefiting from heightened investor attention driven by market volatility and strategic moves within the banking and retail space.",
           "forecast": {
-            "low": 1.4,
-            "high": 3.4,
+            "low": 1.7,
+            "high": 4.1,
             "direction": "+",
-            "text": "+1.4% to +3.4%"
+            "text": "+1.7% to +4.1%"
           }
         },
         {
           "role": "supporting",
-          "text": "U.K. stocks closed higher, lifting the FTSE 100 and supporting financials",
+          "text": "HSBC shares approaching GBX1,326 resistance after recent gains signals renewed confidence in banking liquidity",
           "forecast": {
-            "low": 1.4,
-            "high": 3.4,
+            "low": 1.7,
+            "high": 4.1,
             "direction": "+",
-            "text": "+1.4% to +3.4%"
+            "text": "+1.7% to +4.1%"
           }
         },
         {
           "role": "supporting",
-          "text": "FTSE 100 started the week in green as mining stocks gained, indicating broader market strength that benefits financials",
+          "text": "Lloyds Banking Group\u2019s active trading and price history reflect ongoing market interest in UK banking fundamentals",
           "forecast": {
-            "low": 1.4,
-            "high": 3.4,
+            "low": 1.7,
+            "high": 4.1,
             "direction": "+",
-            "text": "+1.4% to +3.4%"
+            "text": "+1.7% to +4.1%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Compass\u2019s decision to exit the London market for New York highlights a shift in capital allocation that supports broader financial sector demand",
+          "forecast": {
+            "low": 1.7,
+            "high": 4.1,
+            "direction": "+",
+            "text": "+1.7% to +4.1%"
           }
         }
       ]
@@ -130,75 +140,95 @@
     {
       "sector": "Healthcare",
       "read": "Bullish",
-      "score": 64,
-      "event_type": "default",
+      "score": 61,
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "GSK\u2019s fresh lung cancer approval is driving a bullish sentiment in the Healthcare sector.",
+          "text": "The approval of a new lung cancer drug is expected to drive a demand shock for GSK, boosting the Healthcare sector.",
           "forecast": {
-            "low": 1.3,
-            "high": 3.2,
+            "low": 1.2,
+            "high": 3.0,
             "direction": "+",
-            "text": "+1.3% to +3.2%"
+            "text": "+1.2% to +3.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "U.K. stocks rose 1.33% as the market reacted to broader positive news, including mining and tech gains.",
+          "text": "GSK shares are trading at levels seen 25 years ago, indicating potential upside momentum",
           "forecast": {
-            "low": 1.3,
-            "high": 3.2,
+            "low": 1.2,
+            "high": 3.0,
             "direction": "+",
-            "text": "+1.3% to +3.2%"
+            "text": "+1.2% to +3.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "The overall market rally, with the FTSE 100 closing up 0.6%, supports a favorable environment for healthcare stocks.",
+          "text": "The drug approval is likely to increase GSK\u2019s sales and market share in oncology",
           "forecast": {
-            "low": 1.3,
-            "high": 3.2,
+            "low": 1.2,
+            "high": 3.0,
             "direction": "+",
-            "text": "+1.3% to +3.2%"
+            "text": "+1.2% to +3.0%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Positive investor sentiment around GSK\u2019s growth prospects may spill over to the broader Healthcare sector",
+          "forecast": {
+            "low": 1.2,
+            "high": 3.0,
+            "direction": "+",
+            "text": "+1.2% to +3.0%"
           }
         }
       ]
     },
     {
       "sector": "Materials",
-      "read": "Bullish",
-      "score": 69,
-      "event_type": "default",
+      "read": "Neutral",
+      "score": 50,
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "The Materials sector is buoyed by a surge in UK mining stocks, reflecting broader risk\u2011appetite and a rebound in gold prices.",
+          "text": "Demand shock from weaker industrial activity is weighing on the Materials sector.",
           "forecast": {
-            "low": 2.1,
+            "low": 2.5,
             "high": 5.5,
             "direction": "+",
-            "text": "+2.1% to +5.5%"
+            "text": "+2.5% to +5.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "UK miners are gaining as the FTSE 100 opens higher and European markets rally together.",
+          "text": "Industrial stocks trending today suggest a slowdown in demand for raw materials.",
           "forecast": {
-            "low": 2.1,
+            "low": 2.5,
             "high": 5.5,
             "direction": "+",
-            "text": "+2.1% to +5.5%"
+            "text": "+2.5% to +5.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "Gold miners climb as bullion rebounds 4%, supporting the materials theme.",
+          "text": "Losses in crypto mining stocks reduce demand for metals and minerals.",
           "forecast": {
-            "low": 2.1,
+            "low": 2.5,
             "high": 5.5,
             "direction": "+",
-            "text": "+2.1% to +5.5%"
+            "text": "+2.5% to +5.5%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Bernstein\u2019s support for metals and mining stocks amid market volatility indicates uncertainty in the sector.",
+          "forecast": {
+            "low": 2.5,
+            "high": 5.5,
+            "direction": "+",
+            "text": "+2.5% to +5.5%"
           }
         }
       ]
@@ -206,47 +236,47 @@
     {
       "sector": "Technology",
       "read": "Bullish",
-      "score": 69,
-      "event_type": "default",
+      "score": 60,
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "The Technology sector\u2019s bullish sentiment is primarily driven by Nvidia\u2019s 33% share price surge during the tech rally.",
+          "text": "Sustained demand shock continues to lift the Technology sector, keeping bullish sentiment high.",
           "forecast": {
-            "low": 2.1,
-            "high": 4.8,
+            "low": 2.4,
+            "high": 5.4,
             "direction": "+",
-            "text": "+2.1% to +4.8%"
+            "text": "+2.4% to +5.4%"
           }
         },
         {
           "role": "supporting",
-          "text": "U.K. stocks rose, with the FTSE 100 gaining 0.6% as European markets rallied, reflecting broader market optimism.",
+          "text": "The recent dip in Nvidia shares has not eroded overall sector momentum, indicating resilience to short\u2011term price swings.",
           "forecast": {
-            "low": 2.1,
-            "high": 4.8,
+            "low": 2.4,
+            "high": 5.4,
             "direction": "+",
-            "text": "+2.1% to +4.8%"
+            "text": "+2.4% to +5.4%"
           }
         },
         {
           "role": "supporting",
-          "text": "Mining stocks in the FTSE 100 started the week in the green, indicating a positive risk appetite that benefits technology-related shares.",
+          "text": "Competitive dynamics in telecom, highlighted by the Airtel Africa vs Vodafone comparison, suggest continued international expansion and revenue growth for tech\u2011enabled communications providers.",
           "forecast": {
-            "low": 2.1,
-            "high": 4.8,
+            "low": 2.4,
+            "high": 5.4,
             "direction": "+",
-            "text": "+2.1% to +4.8%"
+            "text": "+2.4% to +5.4%"
           }
         },
         {
           "role": "supporting",
-          "text": "Vodafone\u2019s upgrade of its 2027 outlook, boosting free cash flow expectations, adds further upside for the sector.",
+          "text": "BT Group\u2019s stable performance reinforces confidence in established technology infrastructure within the sector.",
           "forecast": {
-            "low": 2.1,
-            "high": 4.8,
+            "low": 2.4,
+            "high": 5.4,
             "direction": "+",
-            "text": "+2.1% to +4.8%"
+            "text": "+2.4% to +5.4%"
           }
         }
       ]

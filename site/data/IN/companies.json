@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23 17:14 UTC",
+  "updated_at": "2026-11-24 16:54 UTC",
   "market": "IN",
   "currency": "\u20b9",
   "companies": [
@@ -10,16 +10,16 @@
       "price": 1351.0,
       "eps": 60.68,
       "pe": 22.264338,
-      "fcf_per_share": 8.768630410813953,
-      "ebitda_per_share": 138.10410199777243,
-      "net_debt_per_share": 178.6332929299608,
-      "sentiment_index": 48.0,
+      "fcf_per_share": null,
+      "ebitda_per_share": null,
+      "net_debt_per_share": null,
+      "sentiment_index": 52.8,
       "sentiment_breakdown": {
-        "news": 60,
-        "macro": 30
+        "news": 50,
+        "macro": 57
       },
-      "base_fair_value": 138.27,
-      "sentiment_adjusted_fair_value": 137.44
+      "base_fair_value": 1351.0,
+      "sentiment_adjusted_fair_value": 1362.35
     },
     {
       "ticker": "TCS",
@@ -28,16 +28,16 @@
       "price": 2460.0,
       "eps": 142.66,
       "pe": 17.243795,
-      "fcf_per_share": 109.06245272312398,
-      "ebitda_per_share": 201.3522251343175,
-      "net_debt_per_share": -108.38875513569045,
-      "sentiment_index": 58.2,
+      "fcf_per_share": null,
+      "ebitda_per_share": null,
+      "net_debt_per_share": null,
+      "sentiment_index": 60.6,
       "sentiment_breakdown": {
-        "news": 77,
-        "macro": 30
+        "news": 63,
+        "macro": 57
       },
-      "base_fair_value": 32360.2,
-      "sentiment_adjusted_fair_value": 33156.26
+      "base_fair_value": 2278.01,
+      "sentiment_adjusted_fair_value": 2350.45
     },
     {
       "ticker": "INFY",
@@ -49,13 +49,13 @@
       "fcf_per_share": 0.8148933429500952,
       "ebitda_per_share": 1.209270248885385,
       "net_debt_per_share": -0.7621513430933564,
-      "sentiment_index": 58.2,
+      "sentiment_index": 60.6,
       "sentiment_breakdown": {
-        "news": 77,
-        "macro": 30
+        "news": 63,
+        "macro": 57
       },
-      "base_fair_value": 590.4,
-      "sentiment_adjusted_fair_value": 604.92
+      "base_fair_value": 606.03,
+      "sentiment_adjusted_fair_value": 625.3
     },
     {
       "ticker": "HDFCBANK",
@@ -67,13 +67,13 @@
       "fcf_per_share": null,
       "ebitda_per_share": null,
       "net_debt_per_share": 214.0402403804592,
-      "sentiment_index": 19.2,
+      "sentiment_index": 39.6,
       "sentiment_breakdown": {
-        "news": 12,
-        "macro": 30
+        "news": 28,
+        "macro": 57
       },
       "base_fair_value": 854.29,
-      "sentiment_adjusted_fair_value": 775.35
+      "sentiment_adjusted_fair_value": 827.64
     },
     {
       "ticker": "ICICIBANK",
@@ -84,14 +84,14 @@
       "pe": 19.47071,
       "fcf_per_share": null,
       "ebitda_per_share": null,
-      "net_debt_per_share": 28.254039735282696,
-      "sentiment_index": 19.2,
+      "net_debt_per_share": 28.253890973996484,
+      "sentiment_index": 39.6,
       "sentiment_breakdown": {
-        "news": 12,
-        "macro": 30
+        "news": 28,
+        "macro": 57
       },
       "base_fair_value": 1520.55,
-      "sentiment_adjusted_fair_value": 1380.05
+      "sentiment_adjusted_fair_value": 1473.11
     },
     {
       "ticker": "HINDUNILVR",
@@ -103,13 +103,13 @@
       "fcf_per_share": 39.41430055931149,
       "ebitda_per_share": 64.20691454546277,
       "net_debt_per_share": -34.61878778471555,
-      "sentiment_index": 42.0,
+      "sentiment_index": 54.6,
       "sentiment_breakdown": {
-        "news": 50,
-        "macro": 30
+        "news": 53,
+        "macro": 57
       },
       "base_fair_value": 621.53,
-      "sentiment_adjusted_fair_value": 606.61
+      "sentiment_adjusted_fair_value": 630.11
     },
     {
       "ticker": "TMPV",
@@ -121,13 +121,13 @@
       "fcf_per_share": -39.652991446239795,
       "ebitda_per_share": 47.05346013957417,
       "net_debt_per_share": 138.13841671723236,
-      "sentiment_index": 57.0,
+      "sentiment_index": 57.6,
       "sentiment_breakdown": {
-        "news": 75,
-        "macro": 30
+        "news": 58,
+        "macro": 57
       },
       "base_fair_value": 259.0,
-      "sentiment_adjusted_fair_value": 264.44
+      "sentiment_adjusted_fair_value": 264.91
     },
     {
       "ticker": "SUNPHARMA",
@@ -139,13 +139,13 @@
       "fcf_per_share": 31.43764350669219,
       "ebitda_per_share": 71.29225740080803,
       "net_debt_per_share": -126.40515711568193,
-      "sentiment_index": 54.0,
+      "sentiment_index": 60.6,
       "sentiment_breakdown": {
-        "news": 70,
-        "macro": 30
+        "news": 63,
+        "macro": 57
       },
       "base_fair_value": 495.75,
-      "sentiment_adjusted_fair_value": 501.7
+      "sentiment_adjusted_fair_value": 511.51
     }
   ]
 }

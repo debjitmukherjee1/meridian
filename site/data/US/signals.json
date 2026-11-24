@@ -1,90 +1,90 @@
 {
-  "updated_at": "2026-11-23 17:14 UTC",
+  "updated_at": "2026-11-24 16:54 UTC",
   "market": "US",
-  "macro_theme": "Rate-policy commentary dominates headlines",
+  "macro_theme": "Consumer demand signals dominate headlines",
   "signals": [
     {
       "sector": "Consumer Discretionary",
-      "read": "Bullish",
-      "score": 69,
-      "event_type": "rates",
+      "read": "Neutral",
+      "score": 58,
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Nvidia\u2019s unexpected return of CEO Jensen Huang has sparked a broad AI\u2011driven rally, lifting the Consumer Discretionary sector.",
+          "text": "Retail sales surge from Black Friday earnings beats fuels a demand shock in the Consumer Discretionary sector.",
           "forecast": {
-            "low": 2.8,
-            "high": 6.2,
+            "low": 2.9,
+            "high": 6.4,
             "direction": "+",
-            "text": "+2.8% to +6.2%"
+            "text": "+2.9% to +6.4%"
           }
         },
         {
           "role": "supporting",
-          "text": "Retail names such as SharkNinja, Target and eBay have held up amid the market sell\u2011off, providing a defensive lift to the sector.",
+          "text": "Gold and silver price falls boost retail sales, supporting consumer spending",
           "forecast": {
-            "low": 2.8,
-            "high": 6.2,
+            "low": 2.9,
+            "high": 6.4,
             "direction": "+",
-            "text": "+2.8% to +6.2%"
+            "text": "+2.9% to +6.4%"
           }
         },
         {
           "role": "supporting",
-          "text": "Amazon\u2019s stock surge has added further upside momentum for consumer\u2011facing retailers.",
+          "text": "Earnings beats across retail stocks reinforce the demand surge",
           "forecast": {
-            "low": 2.8,
-            "high": 6.2,
+            "low": 2.9,
+            "high": 6.4,
             "direction": "+",
-            "text": "+2.8% to +6.2%"
+            "text": "+2.9% to +6.4%"
           }
         }
       ]
     },
     {
       "sector": "Consumer Staples",
-      "read": "Bullish",
-      "score": 65,
-      "event_type": "rates",
+      "read": "Neutral",
+      "score": 57,
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "The Consumer Staples sector remains bullish primarily due to a favorable rates environment.",
+          "text": "Consumer staples are buoyed by a demand shock reflected in positive sentiment and analyst optimism.",
           "forecast": {
-            "low": 1.3,
-            "high": 2.6,
+            "low": 1.1,
+            "high": 2.9,
             "direction": "+",
-            "text": "+1.3% to +2.6%"
+            "text": "+1.1% to +2.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "Nvidia\u2019s strong performance and Jensen Huang\u2019s return have lifted the broader market, indirectly supporting consumer staples stocks.",
+          "text": "PepsiCo\u2019s weekly forecast signals a rebound risk that could lift the sector\u2019s outlook",
           "forecast": {
-            "low": 1.3,
-            "high": 2.6,
+            "low": 1.1,
+            "high": 2.9,
             "direction": "+",
-            "text": "+1.3% to +2.6%"
+            "text": "+1.1% to +2.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "The EU antitrust probe into a Coca\u2011Cola bottler introduces short\u2011term uncertainty for the sector, but the overall positive sentiment outweighs it.",
+          "text": "BofA identifies nine consumer staples stocks as attractive opportunities for 2027",
           "forecast": {
-            "low": 1.3,
-            "high": 2.6,
+            "low": 1.1,
+            "high": 2.9,
             "direction": "+",
-            "text": "+1.3% to +2.6%"
+            "text": "+1.1% to +2.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "Volatility surges in the US stock indexes have prompted investors to seek the stability of consumer staples, reinforcing the bullish stance.",
+          "text": "The sector\u2019s bullish sentiment (57/100) underscores investor confidence in demand resilience",
           "forecast": {
-            "low": 1.3,
-            "high": 2.6,
+            "low": 1.1,
+            "high": 2.9,
             "direction": "+",
-            "text": "+1.3% to +2.6%"
+            "text": "+1.1% to +2.9%"
           }
         }
       ]
@@ -92,161 +92,181 @@
     {
       "sector": "Energy",
       "read": "Neutral",
-      "score": 58,
-      "event_type": "rates",
+      "score": 46,
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Oil prices rise over an unexpected fall in US stocks, lifting the Energy sector.",
+          "text": "Volatile oil prices, driven by a demand shock, are creating a mixed outlook for the Energy sector.",
           "forecast": {
-            "low": 1.2,
-            "high": 2.9,
-            "direction": "+",
-            "text": "+1.2% to +2.9%"
+            "low": 2.7,
+            "high": 6.5,
+            "direction": "-",
+            "text": "-2.7% to -6.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "Oil prices rise over unexpected fall in US stocks",
+          "text": "Elevated oil prices could lift upstream profitability for companies like Equinor",
           "forecast": {
-            "low": 1.2,
-            "high": 2.9,
-            "direction": "+",
-            "text": "+1.2% to +2.9%"
+            "low": 2.7,
+            "high": 6.5,
+            "direction": "-",
+            "text": "-2.7% to -6.5%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Falling oil prices are masking a persistent global diesel shortage, adding supply uncertainty",
+          "forecast": {
+            "low": 2.7,
+            "high": 6.5,
+            "direction": "-",
+            "text": "-2.7% to -6.5%"
           }
         }
       ]
     },
     {
       "sector": "Financials",
-      "read": "Bullish",
-      "score": 65,
-      "event_type": "rates",
+      "read": "Neutral",
+      "score": 51,
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Nvidia\u2019s unexpected return has sparked an AI\u2011driven rally that lifts financials through increased demand for banking technology and a positive rates outlook.",
+          "text": "Financial stocks are under pressure amid broader market weakness, reflected in recent declines on the TSX and concerns over the S&P 500\u2019s potential to close below its 50\u2011week average.",
           "forecast": {
-            "low": 2.6,
-            "high": 6.5,
+            "low": 1.5,
+            "high": 3.6,
             "direction": "+",
-            "text": "+2.6% to +6.5%"
+            "text": "+1.5% to +3.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "AI bets are boosting demand for banking technology platforms, benefiting financials with higher revenue potential.",
+          "text": "TSX slips as mining, financial stocks outweigh energy gains",
           "forecast": {
-            "low": 2.6,
-            "high": 6.5,
+            "low": 1.5,
+            "high": 3.6,
             "direction": "+",
-            "text": "+2.6% to +6.5%"
+            "text": "+1.5% to +3.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "The recent rates event has improved bank profitability prospects, supporting a rebound in bank stocks.",
+          "text": "S&P 500 at risk of second weekly close below 50\u2011week average",
           "forecast": {
-            "low": 2.6,
-            "high": 6.5,
+            "low": 1.5,
+            "high": 3.6,
             "direction": "+",
-            "text": "+2.6% to +6.5%"
+            "text": "+1.5% to +3.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Brazilian bank stocks are gaining attention as rate and spending risks reshape returns, adding breadth to the sector\u2019s upside.",
+          "text": "UK FTSE 100 & FTSE 250 Large\u2011Cap Growth & Value Financial Stocks Trending Today",
           "forecast": {
-            "low": 2.6,
-            "high": 6.5,
+            "low": 1.5,
+            "high": 3.6,
             "direction": "+",
-            "text": "+2.6% to +6.5%"
+            "text": "+1.5% to +3.6%"
           }
         }
       ]
     },
     {
       "sector": "Healthcare",
-      "read": "Bullish",
-      "score": 61,
-      "event_type": "rates",
+      "read": "Neutral",
+      "score": 42,
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Pfizer\u2019s continued underperformance, with shares remaining 55% below their 2021 peak, is the primary drag on the Healthcare sector.",
+          "text": "Potential anti\u2011pharma political pressure threatens biotech valuations.",
           "forecast": {
             "low": 1.2,
-            "high": 3.0,
-            "direction": "+",
-            "text": "+1.2% to +3.0%"
+            "high": 2.9,
+            "direction": "-",
+            "text": "-1.2% to -2.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "Pfizer shares remain 55% below 2021 highs despite drug revenue growth.",
+          "text": "Democratic push could erode biotech gains",
           "forecast": {
             "low": 1.2,
-            "high": 3.0,
-            "direction": "+",
-            "text": "+1.2% to +3.0%"
+            "high": 2.9,
+            "direction": "-",
+            "text": "-1.2% to -2.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "The sector\u2019s bullish sentiment is largely driven by a rates event rather than company-specific gains.",
+          "text": "Biotech stocks may face regulatory scrutiny",
           "forecast": {
             "low": 1.2,
-            "high": 3.0,
-            "direction": "+",
-            "text": "+1.2% to +3.0%"
+            "high": 2.9,
+            "direction": "-",
+            "text": "-1.2% to -2.9%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "S&P 500 risk of a second weekly close below the 50\u2011week average",
+          "forecast": {
+            "low": 1.2,
+            "high": 2.9,
+            "direction": "-",
+            "text": "-1.2% to -2.9%"
           }
         }
       ]
     },
     {
       "sector": "Technology",
-      "read": "Bullish",
-      "score": 80,
-      "event_type": "rates",
+      "read": "Bearish",
+      "score": 33,
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Nvidia\u2019s unexpected return of CEO Jensen Huang has propelled a sharp rally in the Technology sector, lifting the Nasdaq and S&P 500 and reinforcing bullish sentiment.",
+          "text": "The Technology sector is under pressure from a sharp decline in Nvidia and related AI stocks, triggering a broader demand shock.",
           "forecast": {
-            "low": 4.0,
-            "high": 9.6,
-            "direction": "+",
-            "text": "+4.0% to +9.6%"
+            "low": 2.7,
+            "high": 6.0,
+            "direction": "-",
+            "text": "-2.7% to -6.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "The rally is driven by renewed investor confidence in Nvidia\u2019s AI leadership, reflected in a 5% jump in the Nasdaq and S&P 500.",
+          "text": "New tariffs on Nvidia fuel a sell\u2011off in the Nasdaq 100",
           "forecast": {
-            "low": 4.0,
-            "high": 9.6,
-            "direction": "+",
-            "text": "+4.0% to +9.6%"
+            "low": 2.7,
+            "high": 6.0,
+            "direction": "-",
+            "text": "-2.7% to -6.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "Nvidia\u2019s stock surge has alleviated concerns about an AI bubble, encouraging broader tech buying.",
+          "text": "AI stocks slide as Nvidia and Anthropic retreat",
           "forecast": {
-            "low": 4.0,
-            "high": 9.6,
-            "direction": "+",
-            "text": "+4.0% to +9.6%"
+            "low": 2.7,
+            "high": 6.0,
+            "direction": "-",
+            "text": "-2.7% to -6.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "The market\u2019s reaction to Huang\u2019s return underscores the sector\u2019s sensitivity to leadership signals and AI momentum.",
+          "text": "Nvidia shares drop amid concerns over Huang\u2019s return and regulatory scrutiny",
           "forecast": {
-            "low": 4.0,
-            "high": 9.6,
-            "direction": "+",
-            "text": "+4.0% to +9.6%"
+            "low": 2.7,
+            "high": 6.0,
+            "direction": "-",
+            "text": "-2.7% to -6.0%"
           }
         }
       ]
