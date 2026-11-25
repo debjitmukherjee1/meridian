@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24 16:54 UTC",
+  "updated_at": "2026-11-25 16:42 UTC",
   "markets": {
     "IN": {
       "cpi": {
@@ -254,13 +254,9 @@
         "frequency": "daily",
         "unit": "INR",
         "source": "Frankfurter (ECB reference rates)",
-        "as_of": "2026-11-24",
-        "latest": 92.92,
+        "as_of": "2026-11-25",
+        "latest": 92.24,
         "series": [
-          {
-            "date": "2025-11-24",
-            "value": 89.15
-          },
           {
             "date": "2025-11-25",
             "value": 89.2
@@ -1280,10 +1276,14 @@
           {
             "date": "2026-11-24",
             "value": 92.92
+          },
+          {
+            "date": "2026-11-25",
+            "value": 92.24
           }
         ]
       },
-      "narrative": "India\u2019s inflation is running at 5.57% year\u2011on\u2011year as of September\u202f2026, comfortably below the 6% target but still above the 4% medium\u2011term goal. Real GDP grew 8.1% in Q2\u202f2026, indicating robust growth momentum, while the unemployment rate sits at 4.9% as of October\u202f2026, suggesting a tight labour market. The RBI raised the repo rate by 25\u202fbasis points to 5.50% on 5\u20117\u202fOct\u202f2026, signalling a calibrated tightening stance, and the rupee trades at 92.92 per dollar as of 24\u202fNov\u202f2026."
+      "narrative": "Inflation is running at 5.57% year\u2011on\u2011year as of September 2026, while real GDP grew 8.1% in Q2 2026, indicating robust growth momentum. Labor\u2011market slack remains moderate with unemployment at 4.9% in October 2026, and the central bank has raised the repo rate by 25 basis points to 5.50% on 5\u20117 October 2026, signalling a calibrated tightening stance. The currency trades at 92.24 INR per USD as of 25 November 2026."
     },
     "US": {
       "cpi": {
@@ -1545,7 +1545,7 @@
         "frequency": "as announced",
         "unit": "%",
         "source": "FRED (DFEDTARL/DFEDTARU, FOMC target range midpoint)",
-        "as_of": "2026-11-24",
+        "as_of": "2026-11-25",
         "latest": 3.875,
         "series": [
           {
@@ -1785,7 +1785,7 @@
             "value": 3.875
           },
           {
-            "date": "2026-11-24",
+            "date": "2026-11-25",
             "value": 3.875
           }
         ],
@@ -1801,7 +1801,7 @@
         "series": [],
         "note": "USD is Meridian's reference currency for this comparison; no vs-USD series applies."
       },
-      "narrative": "Inflation is running at 3.74% in 2026, a modestly elevated but stable level. Economic growth is modest at 2.07% in 2026, while the labor market remains tight with unemployment at 4.1% in 2026. The Federal Reserve has raised the policy rate to 3.875% in 2026, holding it steady since the September 2026 increase to a 3.75%-4.00% target range."
+      "narrative": "Inflation is running at 3.74% in 2026, a modestly elevated rate that has been slightly above the Fed\u2019s 2% target. Real GDP grew 2.07% in 2026\u2011Q3, indicating a healthy but not booming economy, while the unemployment rate sits at 4.1% in 2026\u201110, suggesting a tight labor market with limited slack. The Fed\u2019s most recent policy action was a raise of the target range to 3.75%\u20114.00% in September 2026, and the current policy rate is 3.875% as of late November 2026, reflecting a relatively tight stance aimed at curbing inflation without stalling growth."
     },
     "UK": {
       "cpi": {
@@ -2080,13 +2080,9 @@
         "frequency": "daily",
         "unit": "USD",
         "source": "Frankfurter (ECB reference rates)",
-        "as_of": "2026-11-24",
-        "latest": 1.3098,
+        "as_of": "2026-11-25",
+        "latest": 1.306,
         "series": [
-          {
-            "date": "2025-11-24",
-            "value": 1.3112
-          },
           {
             "date": "2025-11-25",
             "value": 1.3144
@@ -3106,10 +3102,14 @@
           {
             "date": "2026-11-24",
             "value": 1.3098
+          },
+          {
+            "date": "2026-11-25",
+            "value": 1.306
           }
         ]
       },
-      "narrative": "Inflation remains modest at 3.6% in October 2026, while real GDP grew 1.94% in Q3 2026, indicating a moderate expansion. The labour market is tight with unemployment at 4.6% in August 2026, and the Bank of England has raised the policy rate to 4.0% in early November 2026, signalling a cautious stance as it moves toward the next meeting on 17 December 2026. The pound trades at 1.3098 USD per GBP as of 24 November 2026."
+      "narrative": "Inflation remains modest at 3.6% in October 2026, while real GDP grew 1.94% in Q3 2026, indicating a healthy but slowing expansion. The labour market is tight with unemployment at 4.6% in August 2026, and the Bank of England has raised the policy rate to 4.0% in early November 2026, signalling a cautious but firm stance as it moves toward the next meeting on 17 December 2026. The GBP trades at 1.306 USD, reflecting a relatively stable currency position."
     },
     "JP": {
       "cpi": {
@@ -3304,7 +3304,7 @@
             "value": 1.25
           }
         ],
-        "note": "Manual, as of 2026-10-30 \u2014 FRED fetch failed (FRED IRSTCB01JPM156N latest observation is 1089d old (2023-12-01) -- treating as stale). Policy rate raised to 1.25% on 2026-09-18; held 8-1 on 2026-10-30. Next meeting 17-18 Dec 2026.",
+        "note": "Manual, as of 2026-10-30 \u2014 FRED fetch failed (FRED IRSTCB01JPM156N latest observation is 1090d old (2023-12-01) -- treating as stale). Policy rate raised to 1.25% on 2026-09-18; held 8-1 on 2026-10-30. Next meeting 17-18 Dec 2026.",
         "last_move": "Policy rate raised to 1.25% on 2026-09-18; held 8-1 on 2026-10-30. Next meeting 17-18 Dec 2026."
       },
       "fx": {
@@ -3312,13 +3312,9 @@
         "frequency": "daily",
         "unit": "JPY",
         "source": "Frankfurter (ECB reference rates)",
-        "as_of": "2026-11-24",
-        "latest": 159.07,
+        "as_of": "2026-11-25",
+        "latest": 159.32,
         "series": [
-          {
-            "date": "2025-11-24",
-            "value": 156.98
-          },
           {
             "date": "2025-11-25",
             "value": 156.19
@@ -4338,10 +4334,14 @@
           {
             "date": "2026-11-24",
             "value": 159.07
+          },
+          {
+            "date": "2026-11-25",
+            "value": 159.32
           }
         ]
       },
-      "narrative": "Inflation is running at 3.17% in 2025, indicating a moderate upward trend. Growth is modest at 1.16% in 2026\u2011Q3, while the labor market remains tight with unemployment at 2.4% in September 2026. The central bank has raised the policy rate to 1.25% on 2026\u201109\u201118 and held it on 2026\u201110\u201130, signalling a cautious stance as the yen trades around 159.07 per dollar."
+      "narrative": "Inflation is running at 3.17% in 2025, indicating a moderate upward trend. Real GDP grew 1.16% in 2026\u2011Q3, showing modest expansion, while the labor market remains tight with unemployment at 2.4% as of September 2026. The central bank has raised the policy rate to 1.25% on 2026\u201109\u201118 and held it on 2026\u201110\u201130, signalling a cautious stance as the yen trades around 159.32 per dollar."
     }
   }
 }

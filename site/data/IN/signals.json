@@ -1,146 +1,196 @@
 {
-  "updated_at": "2026-11-24 16:54 UTC",
+  "updated_at": "2026-11-25 16:42 UTC",
   "market": "IN",
   "macro_theme": "Consumer demand signals dominate headlines",
   "signals": [
     {
       "sector": "Consumer Discretionary",
-      "read": "Neutral",
-      "score": 58,
+      "read": "Bullish",
+      "score": 69,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Record auto sales in India, driven by a 53% jump in electric vehicle sales, are the primary catalyst for the bullish Consumer Discretionary sector.",
+          "text": "Foreign investors\u2019 return to Indian markets is lifting consumer discretionary stocks.",
           "forecast": {
-            "low": 2.9,
-            "high": 6.4,
+            "low": 3.4,
+            "high": 7.6,
             "direction": "+",
-            "text": "+2.9% to +6.4%"
+            "text": "+3.4% to +7.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "The 55.25 lakh unit record in festive auto sales reflects strong consumer demand across the sector.",
+          "text": "FII buying continues, November haul nears Rs\u202f1.20\u202flakh\u202fcrore, boosting sector exposure.",
           "forecast": {
-            "low": 2.9,
-            "high": 6.4,
+            "low": 3.4,
+            "high": 7.6,
             "direction": "+",
-            "text": "+2.9% to +6.4%"
+            "text": "+3.4% to +7.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Foreign investors have returned with \u20b91 lakh crore FPI inflows, boosting market sentiment and liquidity.",
+          "text": "Banking and consumer stocks lift Sensex, indicating broader consumer\u2011discretionary strength.",
           "forecast": {
-            "low": 2.9,
-            "high": 6.4,
+            "low": 3.4,
+            "high": 7.6,
             "direction": "+",
-            "text": "+2.9% to +6.4%"
+            "text": "+3.4% to +7.6%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Auto PLI scheme disburses \u20b94,385\u202fcrore in FY27, supporting auto\u2011related discretionary demand.",
+          "forecast": {
+            "low": 3.4,
+            "high": 7.6,
+            "direction": "+",
+            "text": "+3.4% to +7.6%"
           }
         }
       ]
     },
     {
       "sector": "Consumer Staples",
-      "read": "Neutral",
-      "score": 55,
+      "read": "Bullish",
+      "score": 78,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Demand shock from strong corporate earnings and significant FPI inflows is driving the Consumer Staples sector higher.",
+          "text": "Consumer Staples sector is bullish due to a surge in foreign institutional investor buying.",
           "forecast": {
-            "low": 1.1,
-            "high": 2.8,
+            "low": 1.6,
+            "high": 3.9,
             "direction": "+",
-            "text": "+1.1% to +2.8%"
+            "text": "+1.6% to +3.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "Foreign investors returned \u20b91 lakh crore in FPI inflows, boosting market sentiment.",
+          "text": "Foreign investors are returning to Indian markets, driving a 1,502\u2011point Sensex rally and lifting Nifty to 25,800.",
           "forecast": {
-            "low": 1.1,
-            "high": 2.8,
+            "low": 1.6,
+            "high": 3.9,
             "direction": "+",
-            "text": "+1.1% to +2.8%"
+            "text": "+1.6% to +3.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "Strong corporate earnings across the index are fueling a broader rally, lifting consumer staples stocks.",
+          "text": "FII buying continues, with November haul nearing Rs\u202f1.20\u202flakh crore, boosting large\u2011cap staples exposure.",
           "forecast": {
-            "low": 1.1,
-            "high": 2.8,
+            "low": 1.6,
+            "high": 3.9,
             "direction": "+",
-            "text": "+1.1% to +2.8%"
+            "text": "+1.6% to +3.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "The Nifty FMCG input cost outlook indicates stable pricing, supporting demand for staples.",
+          "text": "Banking and FMCG stocks are leading the market rally, supporting staples demand.",
           "forecast": {
-            "low": 1.1,
-            "high": 2.8,
+            "low": 1.6,
+            "high": 3.9,
             "direction": "+",
-            "text": "+1.1% to +2.8%"
+            "text": "+1.6% to +3.9%"
           }
         }
       ]
     },
     {
       "sector": "Energy",
-      "read": "Neutral",
-      "score": 53,
+      "read": "Bullish",
+      "score": 65,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "No direct impact on the Energy sector is evident from the provided headlines.",
+          "text": "Foreign investor inflows are driving a bullish sentiment in the Energy sector.",
           "forecast": {
-            "low": 2.7,
-            "high": 6.4,
+            "low": 3.2,
+            "high": 7.8,
             "direction": "+",
-            "text": "+2.7% to +6.4%"
+            "text": "+3.2% to +7.8%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "FII buying continues, November haul nears Rs 1.20 lakh crore \u2013 What\u2019s changed",
+          "forecast": {
+            "low": 3.2,
+            "high": 7.8,
+            "direction": "+",
+            "text": "+3.2% to +7.8%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Sensex Surges 1,502 Points, Nifty Crosses 25,800 as Foreign Investors Return to Indian Markets",
+          "forecast": {
+            "low": 3.2,
+            "high": 7.8,
+            "direction": "+",
+            "text": "+3.2% to +7.8%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Crude Oil Prices Today: Brent Slips Near $91 on Glut Fears",
+          "forecast": {
+            "low": 3.2,
+            "high": 7.8,
+            "direction": "+",
+            "text": "+3.2% to +7.8%"
           }
         }
       ]
     },
     {
       "sector": "Financials",
-      "read": "Bearish",
-      "score": 40,
+      "read": "Bullish",
+      "score": 76,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Demand shock from banking sector weakness drives the Financials sector bearish.",
+          "text": "Foreign institutional investors\u2019 return to Indian markets is propelling the Financials sector higher.",
           "forecast": {
-            "low": 1.8,
-            "high": 4.2,
-            "direction": "-",
-            "text": "-1.8% to -4.2%"
+            "low": 2.3,
+            "high": 5.3,
+            "direction": "+",
+            "text": "+2.3% to +5.3%"
           }
         },
         {
           "role": "supporting",
-          "text": "Banking stocks lead the market decline, dragging the sector down.",
+          "text": "FII buying continues, November haul nears Rs\u202f1.20\u202flakh\u202fcrore \u2013 What\u2019s changed",
           "forecast": {
-            "low": 1.8,
-            "high": 4.2,
-            "direction": "-",
-            "text": "-1.8% to -4.2%"
+            "low": 2.3,
+            "high": 5.3,
+            "direction": "+",
+            "text": "+2.3% to +5.3%"
           }
         },
         {
           "role": "supporting",
-          "text": "US Fed interest rate moves are negatively impacting major Indian banks such as SBI and PNB.",
+          "text": "Nifty Reaches Nine-Month High as Bank Nifty Hits Record on Strong Buying",
           "forecast": {
-            "low": 1.8,
-            "high": 4.2,
-            "direction": "-",
-            "text": "-1.8% to -4.2%"
+            "low": 2.3,
+            "high": 5.3,
+            "direction": "+",
+            "text": "+2.3% to +5.3%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "HDFC Bank jumps 18% as Bank Nifty hits a record. Has it recovered its 2026 losses?",
+          "forecast": {
+            "low": 2.3,
+            "high": 5.3,
+            "direction": "+",
+            "text": "+2.3% to +5.3%"
           }
         }
       ]
@@ -148,37 +198,47 @@
     {
       "sector": "Healthcare",
       "read": "Bullish",
-      "score": 61,
+      "score": 73,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Demand shock from a surge in pharmaceutical demand is driving the Healthcare sector higher.",
+          "text": "Foreign institutional inflows have spurred a demand shock, lifting the healthcare sector",
           "forecast": {
-            "low": 1.2,
-            "high": 3.0,
+            "low": 1.5,
+            "high": 3.6,
             "direction": "+",
-            "text": "+1.2% to +3.0%"
+            "text": "+1.5% to +3.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Indian stocks added nearly Rs\u202f35\u202flakh crore in November as the Sensex gained 11\u202fpercent, with pharmaceutical stocks leading the gains",
+          "text": "FII buying continues, November haul nears Rs 1.20 lakh crore \u2013 What\u2019s changed",
           "forecast": {
-            "low": 1.2,
-            "high": 3.0,
+            "low": 1.5,
+            "high": 3.6,
             "direction": "+",
-            "text": "+1.2% to +3.0%"
+            "text": "+1.5% to +3.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Foreign investors returned to India with \u20b91\u202flakh crore FPI inflows, adding buying pressure to the sector",
+          "text": "Aurobindo Pharma vs Glenmark: Pharma Stocks 2027",
           "forecast": {
-            "low": 1.2,
-            "high": 3.0,
+            "low": 1.5,
+            "high": 3.6,
             "direction": "+",
-            "text": "+1.2% to +3.0%"
+            "text": "+1.5% to +3.6%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Sensex Surges 1,502 Points, Nifty Crosses 25,800 as Foreign Investors Return to Indian Markets",
+          "forecast": {
+            "low": 1.5,
+            "high": 3.6,
+            "direction": "+",
+            "text": "+1.5% to +3.6%"
           }
         }
       ]
@@ -186,47 +246,47 @@
     {
       "sector": "Technology",
       "read": "Bullish",
-      "score": 61,
+      "score": 77,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "AI\u2011driven demand shock is boosting Indian IT stocks.",
+          "text": "Foreign institutional inflows are propelling the Technology sector higher.",
           "forecast": {
-            "low": 2.4,
-            "high": 5.5,
+            "low": 3.1,
+            "high": 6.9,
             "direction": "+",
-            "text": "+2.4% to +5.5%"
+            "text": "+3.1% to +6.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "Nvidia CEO Jensen Huang\u2019s return has revived AI trade, spurring interest in Indian IT firms.",
+          "text": "FII buying continues, November haul nears Rs\u202f1.20\u202flakh crore \u2013 What\u2019s changed",
           "forecast": {
-            "low": 2.4,
-            "high": 5.5,
+            "low": 3.1,
+            "high": 6.9,
             "direction": "+",
-            "text": "+2.4% to +5.5%"
+            "text": "+3.1% to +6.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "Foreign investors are returning to India, with \u20b91 lakh crore FPI inflows supporting the sector.",
+          "text": "Sensex Surges 1,502 Points, Nifty Crosses 25,800 as Foreign Investors Return to Indian Markets",
           "forecast": {
-            "low": 2.4,
-            "high": 5.5,
+            "low": 3.1,
+            "high": 6.9,
             "direction": "+",
-            "text": "+2.4% to +5.5%"
+            "text": "+3.1% to +6.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "The broader technology market reassessment is reinforcing confidence in Indian IT companies.",
+          "text": "Wipro shares in focus on bagging BP finance operations deal; about 3,000 BP employees to move to IT firm",
           "forecast": {
-            "low": 2.4,
-            "high": 5.5,
+            "low": 3.1,
+            "high": 6.9,
             "direction": "+",
-            "text": "+2.4% to +5.5%"
+            "text": "+3.1% to +6.9%"
           }
         }
       ]

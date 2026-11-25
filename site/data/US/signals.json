@@ -1,42 +1,42 @@
 {
-  "updated_at": "2026-11-24 16:54 UTC",
+  "updated_at": "2026-11-25 16:42 UTC",
   "market": "US",
   "macro_theme": "Consumer demand signals dominate headlines",
   "signals": [
     {
       "sector": "Consumer Discretionary",
-      "read": "Neutral",
-      "score": 58,
+      "read": "Bearish",
+      "score": 34,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Retail sales surge from Black Friday earnings beats fuels a demand shock in the Consumer Discretionary sector.",
+          "text": "US consumers pausing after strong spending last quarter is the primary driver of the Consumer Discretionary sector\u2019s bearish sentiment.",
           "forecast": {
-            "low": 2.9,
-            "high": 6.4,
-            "direction": "+",
-            "text": "+2.9% to +6.4%"
+            "low": 3.3,
+            "high": 7.3,
+            "direction": "-",
+            "text": "-3.3% to -7.3%"
           }
         },
         {
           "role": "supporting",
-          "text": "Gold and silver price falls boost retail sales, supporting consumer spending",
+          "text": "AI rout and Nasdaq bear market sentiment are weighing on tech\u2011heavy discretionary stocks.",
           "forecast": {
-            "low": 2.9,
-            "high": 6.4,
-            "direction": "+",
-            "text": "+2.9% to +6.4%"
+            "low": 3.3,
+            "high": 7.3,
+            "direction": "-",
+            "text": "-3.3% to -7.3%"
           }
         },
         {
           "role": "supporting",
-          "text": "Earnings beats across retail stocks reinforce the demand surge",
+          "text": "Rising inflation and new Section 301 tariffs have pushed the broader market down, impacting discretionary shares.",
           "forecast": {
-            "low": 2.9,
-            "high": 6.4,
-            "direction": "+",
-            "text": "+2.9% to +6.4%"
+            "low": 3.3,
+            "high": 7.3,
+            "direction": "-",
+            "text": "-3.3% to -7.3%"
           }
         }
       ]
@@ -44,47 +44,47 @@
     {
       "sector": "Consumer Staples",
       "read": "Neutral",
-      "score": 57,
+      "score": 44,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Consumer staples are buoyed by a demand shock reflected in positive sentiment and analyst optimism.",
+          "text": "Demand shock from rising inflation and new tariffs is weighing on the Consumer Staples sector, driving bearish sentiment.",
           "forecast": {
             "low": 1.1,
-            "high": 2.9,
-            "direction": "+",
-            "text": "+1.1% to +2.9%"
+            "high": 2.8,
+            "direction": "-",
+            "text": "-1.1% to -2.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "PepsiCo\u2019s weekly forecast signals a rebound risk that could lift the sector\u2019s outlook",
+          "text": "Rising inflation and Section\u202f301 tariffs have pushed the Nasdaq down, signaling higher costs and reduced consumer spending.",
           "forecast": {
             "low": 1.1,
-            "high": 2.9,
-            "direction": "+",
-            "text": "+1.1% to +2.9%"
+            "high": 2.8,
+            "direction": "-",
+            "text": "-1.1% to -2.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "BofA identifies nine consumer staples stocks as attractive opportunities for 2027",
+          "text": "The AI\u2011related rout has dragged Wall Street lower, amplifying the sell\u2011off across sectors.",
           "forecast": {
             "low": 1.1,
-            "high": 2.9,
-            "direction": "+",
-            "text": "+1.1% to +2.9%"
+            "high": 2.8,
+            "direction": "-",
+            "text": "-1.1% to -2.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "The sector\u2019s bullish sentiment (57/100) underscores investor confidence in demand resilience",
+          "text": "Deutsche Bank\u2019s downgrade of Coca\u2011Cola Europacific Partners to \u2018hold\u2019 after strong share price gains reflects concerns about future demand for staples.\u201d",
           "forecast": {
             "low": 1.1,
-            "high": 2.9,
-            "direction": "+",
-            "text": "+1.1% to +2.9%"
+            "high": 2.8,
+            "direction": "-",
+            "text": "-1.1% to -2.8%"
           }
         }
       ]
@@ -92,85 +92,85 @@
     {
       "sector": "Energy",
       "read": "Neutral",
-      "score": 46,
+      "score": 41,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Volatile oil prices, driven by a demand shock, are creating a mixed outlook for the Energy sector.",
+          "text": "Oil prices fall as traders weigh supply surplus and Gulf attacks, weighing on the Energy sector.",
           "forecast": {
-            "low": 2.7,
-            "high": 6.5,
+            "low": 2.9,
+            "high": 7.1,
             "direction": "-",
-            "text": "-2.7% to -6.5%"
+            "text": "-2.9% to -7.1%"
           }
         },
         {
           "role": "supporting",
-          "text": "Elevated oil prices could lift upstream profitability for companies like Equinor",
+          "text": "Nasdaq enters bear market territory amid AI angst, contributing to broader market weakness.",
           "forecast": {
-            "low": 2.7,
-            "high": 6.5,
+            "low": 2.9,
+            "high": 7.1,
             "direction": "-",
-            "text": "-2.7% to -6.5%"
+            "text": "-2.9% to -7.1%"
           }
         },
         {
           "role": "supporting",
-          "text": "Falling oil prices are masking a persistent global diesel shortage, adding supply uncertainty",
+          "text": "Rising inflation and new Section 301 tariffs push Nasdaq down, adding to sector pressure.",
           "forecast": {
-            "low": 2.7,
-            "high": 6.5,
+            "low": 2.9,
+            "high": 7.1,
             "direction": "-",
-            "text": "-2.7% to -6.5%"
+            "text": "-2.9% to -7.1%"
           }
         }
       ]
     },
     {
       "sector": "Financials",
-      "read": "Neutral",
-      "score": 51,
+      "read": "Bearish",
+      "score": 32,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Financial stocks are under pressure amid broader market weakness, reflected in recent declines on the TSX and concerns over the S&P 500\u2019s potential to close below its 50\u2011week average.",
+          "text": "The Financials sector is being dragged down by a broad market rout driven by a sharp decline in technology stocks, particularly Nvidia and other AI-related firms.",
           "forecast": {
-            "low": 1.5,
-            "high": 3.6,
-            "direction": "+",
-            "text": "+1.5% to +3.6%"
+            "low": 2.0,
+            "high": 4.8,
+            "direction": "-",
+            "text": "-2.0% to -4.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "TSX slips as mining, financial stocks outweigh energy gains",
+          "text": "Nvidia\u2019s 8% plunge amid rising inflation and Section 301 tariffs contributed to a nearly 4% intraday drop in the Nasdaq, weakening investor sentiment across the market.",
           "forecast": {
-            "low": 1.5,
-            "high": 3.6,
-            "direction": "+",
-            "text": "+1.5% to +3.6%"
+            "low": 2.0,
+            "high": 4.8,
+            "direction": "-",
+            "text": "-2.0% to -4.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "S&P 500 at risk of second weekly close below 50\u2011week average",
+          "text": "The AI rout, highlighted by losses in AI-focused companies such as Anthropic and the broader AI angst, has intensified the sell\u2011off in tech, pulling down the S&P 500 and spilling over into financial stocks.",
           "forecast": {
-            "low": 1.5,
-            "high": 3.6,
-            "direction": "+",
-            "text": "+1.5% to +3.6%"
+            "low": 2.0,
+            "high": 4.8,
+            "direction": "-",
+            "text": "-2.0% to -4.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "UK FTSE 100 & FTSE 250 Large\u2011Cap Growth & Value Financial Stocks Trending Today",
+          "text": "Bank stocks have been pressured as the tech rout intensified, with financial names like Robinhood and JPMorgan experiencing significant declines in the same market environment.",
           "forecast": {
-            "low": 1.5,
-            "high": 3.6,
-            "direction": "+",
-            "text": "+1.5% to +3.6%"
+            "low": 2.0,
+            "high": 4.8,
+            "direction": "-",
+            "text": "-2.0% to -4.8%"
           }
         }
       ]
@@ -178,47 +178,47 @@
     {
       "sector": "Healthcare",
       "read": "Neutral",
-      "score": 42,
+      "score": 48,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Potential anti\u2011pharma political pressure threatens biotech valuations.",
+          "text": "The Healthcare sector is experiencing a mixed outlook largely due to a broader market sell\u2011off driven by AI\u2011related fears and macro\u2011economic pressures.",
           "forecast": {
-            "low": 1.2,
-            "high": 2.9,
+            "low": 1.0,
+            "high": 2.6,
             "direction": "-",
-            "text": "-1.2% to -2.9%"
+            "text": "-1.0% to -2.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Democratic push could erode biotech gains",
+          "text": "AI routs and growth fears are dragging down the Nasdaq, indirectly weighing on healthcare exposure to tech\u2011linked supply chains.",
           "forecast": {
-            "low": 1.2,
-            "high": 2.9,
+            "low": 1.0,
+            "high": 2.6,
             "direction": "-",
-            "text": "-1.2% to -2.9%"
+            "text": "-1.0% to -2.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Biotech stocks may face regulatory scrutiny",
+          "text": "Rising inflation and new Section 301 tariffs are contributing to a broader market decline, affecting investor sentiment across sectors including healthcare.",
           "forecast": {
-            "low": 1.2,
-            "high": 2.9,
+            "low": 1.0,
+            "high": 2.6,
             "direction": "-",
-            "text": "-1.2% to -2.9%"
+            "text": "-1.0% to -2.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "S&P 500 risk of a second weekly close below the 50\u2011week average",
+          "text": "Despite the downturn, healthcare stocks remain undervalued as the Q3 earnings season winds down, offering a potential counterbalance to the negative sentiment.",
           "forecast": {
-            "low": 1.2,
-            "high": 2.9,
+            "low": 1.0,
+            "high": 2.6,
             "direction": "-",
-            "text": "-1.2% to -2.9%"
+            "text": "-1.0% to -2.6%"
           }
         }
       ]
@@ -226,47 +226,47 @@
     {
       "sector": "Technology",
       "read": "Bearish",
-      "score": 33,
+      "score": 26,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "The Technology sector is under pressure from a sharp decline in Nvidia and related AI stocks, triggering a broader demand shock.",
+          "text": "The Technology sector is under pressure from a sharp decline in AI\u2011related stocks, particularly Nvidia, amid broader market fears of a bear environment.",
           "forecast": {
-            "low": 2.7,
-            "high": 6.0,
+            "low": 3.0,
+            "high": 6.7,
             "direction": "-",
-            "text": "-2.7% to -6.0%"
+            "text": "-3.0% to -6.7%"
           }
         },
         {
           "role": "supporting",
-          "text": "New tariffs on Nvidia fuel a sell\u2011off in the Nasdaq 100",
+          "text": "Nvidia shares fell over 8% after inflation and tariff news hit the Nasdaq, dragging the sector down.",
           "forecast": {
-            "low": 2.7,
-            "high": 6.0,
+            "low": 3.0,
+            "high": 6.7,
             "direction": "-",
-            "text": "-2.7% to -6.0%"
+            "text": "-3.0% to -6.7%"
           }
         },
         {
           "role": "supporting",
-          "text": "AI stocks slide as Nvidia and Anthropic retreat",
+          "text": "AI\u2011related losses, including a slide in Anthropic, have amplified concerns about future AI profitability.",
           "forecast": {
-            "low": 2.7,
-            "high": 6.0,
+            "low": 3.0,
+            "high": 6.7,
             "direction": "-",
-            "text": "-2.7% to -6.0%"
+            "text": "-3.0% to -6.7%"
           }
         },
         {
           "role": "supporting",
-          "text": "Nvidia shares drop amid concerns over Huang\u2019s return and regulatory scrutiny",
+          "text": "The sector\u2019s downturn is compounded by a broader bear market sentiment, with the Nasdaq entering bear territory and the S&P 500 slumping 2.7%.",
           "forecast": {
-            "low": 2.7,
-            "high": 6.0,
+            "low": 3.0,
+            "high": 6.7,
             "direction": "-",
-            "text": "-2.7% to -6.0%"
+            "text": "-3.0% to -6.7%"
           }
         }
       ]

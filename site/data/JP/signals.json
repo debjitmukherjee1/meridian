@@ -1,42 +1,52 @@
 {
-  "updated_at": "2026-11-24 16:54 UTC",
+  "updated_at": "2026-11-25 16:42 UTC",
   "market": "JP",
-  "macro_theme": "Consumer demand signals dominate headlines",
+  "macro_theme": "Geopolitical conflict raises energy-sector risk",
   "signals": [
     {
       "sector": "Consumer Discretionary",
       "read": "Neutral",
-      "score": 45,
-      "event_type": "demand_shock",
+      "score": 43,
+      "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Demand shock from reduced vehicle production and tightened import quotas is driving the Consumer Discretionary sector into a bearish stance.",
+          "text": "Japan\u2019s push for a supply\u2011chain mandate on chips and other critical goods is tightening semiconductor availability, weighing on the Consumer Discretionary sector.",
           "forecast": {
-            "low": 2.8,
-            "high": 6.1,
+            "low": 1.7,
+            "high": 4.0,
             "direction": "-",
-            "text": "-2.8% to -6.1%"
+            "text": "-1.7% to -4.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "Thailand\u2019s flooding has pushed vehicle production to a six\u2011year low, dampening demand for automotive components and related discretionary goods.",
+          "text": "Trump\u2019s proposed tariffs on 14 partners, including Japan, heighten trade uncertainty for discretionary goods.",
           "forecast": {
-            "low": 2.8,
-            "high": 6.1,
+            "low": 1.7,
+            "high": 4.0,
             "direction": "-",
-            "text": "-2.8% to -6.1%"
+            "text": "-1.7% to -4.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "EU\u2019s new quota on hybrid and plug\u2011in hybrid imports, covering Japan among other exporters, is expected to constrain supply and increase costs for consumer\u2011facing vehicle manufacturers.",
+          "text": "The Nikkei\u2019s decline, driven by AI\u2011linked stocks, signals broader market softness affecting discretionary spending.",
           "forecast": {
-            "low": 2.8,
-            "high": 6.1,
+            "low": 1.7,
+            "high": 4.0,
             "direction": "-",
-            "text": "-2.8% to -6.1%"
+            "text": "-1.7% to -4.0%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Japan\u2019s major automakers\u2019 collaboration to counter China adds complexity to supply\u2011chain dynamics for discretionary products.",
+          "forecast": {
+            "low": 1.7,
+            "high": 4.0,
+            "direction": "-",
+            "text": "-1.7% to -4.0%"
           }
         }
       ]
@@ -44,37 +54,37 @@
     {
       "sector": "Energy",
       "read": "Neutral",
-      "score": 57,
-      "event_type": "demand_shock",
+      "score": 54,
+      "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Japan\u2019s investment in a Finland e\u2011methane project signals a boost to renewable energy within the sector.",
+          "text": "US tariffs on Japan are pressuring the energy sector by tightening supply chains and increasing costs for Japanese energy companies.",
           "forecast": {
-            "low": 2.9,
-            "high": 6.8,
+            "low": 4.3,
+            "high": 9.7,
             "direction": "+",
-            "text": "+2.9% to +6.8%"
+            "text": "+4.3% to +9.7%"
           }
         },
         {
           "role": "supporting",
-          "text": "Japan\u2019s Advantage Partners fund is backing a Finland e\u2011methane project, indicating growing demand for green energy sources.",
+          "text": "Japan\u2019s Nikkei Index fell 3% as AI\u2011linked stocks were pressured, reflecting broader market uncertainty.",
           "forecast": {
-            "low": 2.9,
-            "high": 6.8,
+            "low": 4.3,
+            "high": 9.7,
             "direction": "+",
-            "text": "+2.9% to +6.8%"
+            "text": "+4.3% to +9.7%"
           }
         },
         {
           "role": "supporting",
-          "text": "Thailand\u2019s 6\u2011year low vehicle production due to flooding may reduce conventional fuel demand, indirectly supporting renewable alternatives.",
+          "text": "Japanese trading houses are expanding aircraft\u2011part ties, indicating a shift toward domestic sourcing amid tariff concerns.",
           "forecast": {
-            "low": 2.9,
-            "high": 6.8,
+            "low": 4.3,
+            "high": 9.7,
             "direction": "+",
-            "text": "+2.9% to +6.8%"
+            "text": "+4.3% to +9.7%"
           }
         }
       ]
@@ -82,37 +92,37 @@
     {
       "sector": "Financials",
       "read": "Neutral",
-      "score": 58,
-      "event_type": "demand_shock",
+      "score": 44,
+      "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Projected rally in Japanese stocks lifts the Financials sector.",
+          "text": "Japan\u2019s push for a supply\u2011chain mandate on chips and other critical goods is weighing on the Financials sector.",
           "forecast": {
-            "low": 1.7,
-            "high": 4.1,
-            "direction": "+",
-            "text": "+1.7% to +4.1%"
+            "low": 1.1,
+            "high": 3.4,
+            "direction": "-",
+            "text": "-1.1% to -3.4%"
           }
         },
         {
           "role": "supporting",
-          "text": "Higher investor confidence in Asian markets is expected to boost financial sector earnings.",
+          "text": "Trump\u2019s proposal of new tariffs on 14 partners, including Japan, adds further pressure on financial institutions involved in cross\u2011border trade.",
           "forecast": {
-            "low": 1.7,
-            "high": 4.1,
-            "direction": "+",
-            "text": "+1.7% to +4.1%"
+            "low": 1.1,
+            "high": 3.4,
+            "direction": "-",
+            "text": "-1.1% to -3.4%"
           }
         },
         {
           "role": "supporting",
-          "text": "Anticipated increase in loan demand in Japan could raise interest income for banks.",
+          "text": "The Bank of Japan\u2019s accelerated ETF selling pace is tightening liquidity and dampening market sentiment for financial stocks.",
           "forecast": {
-            "low": 1.7,
-            "high": 4.1,
-            "direction": "+",
-            "text": "+1.7% to +4.1%"
+            "low": 1.1,
+            "high": 3.4,
+            "direction": "-",
+            "text": "-1.1% to -3.4%"
           }
         }
       ]
@@ -120,37 +130,47 @@
     {
       "sector": "Healthcare",
       "read": "Neutral",
-      "score": 53,
-      "event_type": "demand_shock",
+      "score": 44,
+      "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Japanese drugmakers\u2019 domestic sales forecast is expected to decline 1.7% in fiscal 2026, weighing on the healthcare sector.",
+          "text": "Geopolitical supply\u2011chain concerns over critical chips dampen the Healthcare sector sentiment.",
           "forecast": {
-            "low": 1.1,
-            "high": 2.7,
-            "direction": "+",
-            "text": "+1.1% to +2.7%"
+            "low": 0.6,
+            "high": 2.2,
+            "direction": "-",
+            "text": "-0.6% to -2.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "Takeda\u2019s upcoming ORZEYFUL launch could partially offset the sales decline for the company.",
+          "text": "Japan\u2019s mandate on critical goods could restrict chip availability for medical device manufacturers.",
           "forecast": {
-            "low": 1.1,
-            "high": 2.7,
-            "direction": "+",
-            "text": "+1.1% to +2.7%"
+            "low": 0.6,
+            "high": 2.2,
+            "direction": "-",
+            "text": "-0.6% to -2.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "Overall market sentiment remains mixed, reflecting uncertainty around the sector\u2019s performance.",
+          "text": "Sell\u2011offs in AI\u2011linked stocks have pressured related biotech and diagnostics firms.",
           "forecast": {
-            "low": 1.1,
-            "high": 2.7,
-            "direction": "+",
-            "text": "+1.1% to +2.7%"
+            "low": 0.6,
+            "high": 2.2,
+            "direction": "-",
+            "text": "-0.6% to -2.2%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Trump\u2019s proposed tariffs on China, Japan, and India may further constrain component imports for healthcare companies.",
+          "forecast": {
+            "low": 0.6,
+            "high": 2.2,
+            "direction": "-",
+            "text": "-0.6% to -2.2%"
           }
         }
       ]
@@ -158,75 +178,75 @@
     {
       "sector": "Industrials",
       "read": "Neutral",
-      "score": 43,
-      "event_type": "demand_shock",
+      "score": 54,
+      "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "Thailand vehicle production hits a 6\u2011year low after flooding, sharply reducing demand for industrial components and equipment.",
+          "text": "Geopolitical supply\u2011chain pressures from Japan\u2019s new mandate and U.S. tariff proposals are weighing on the Industrials sector.",
           "forecast": {
-            "low": 2.3,
-            "high": 5.1,
-            "direction": "-",
-            "text": "-2.3% to -5.1%"
+            "low": 1.6,
+            "high": 4.3,
+            "direction": "+",
+            "text": "+1.6% to +4.3%"
           }
         },
         {
           "role": "supporting",
-          "text": "Mitsubishi Heavy Industries shares fell 48% after reports of curbed defense spending, reflecting weaker industrial orders.",
+          "text": "Japan\u2019s push for a supply\u2011chain mandate for chips and critical goods signals tighter component availability for manufacturers.",
           "forecast": {
-            "low": 2.3,
-            "high": 5.1,
-            "direction": "-",
-            "text": "-2.3% to -5.1%"
+            "low": 1.6,
+            "high": 4.3,
+            "direction": "+",
+            "text": "+1.6% to +4.3%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "U.S. tariff proposals targeting 14 partners, including Japan and China, raise import costs for industrial equipment and materials.",
+          "forecast": {
+            "low": 1.6,
+            "high": 4.3,
+            "direction": "+",
+            "text": "+1.6% to +4.3%"
           }
         }
       ]
     },
     {
       "sector": "Technology",
-      "read": "Neutral",
-      "score": 53,
-      "event_type": "demand_shock",
+      "read": "Bearish",
+      "score": 40,
+      "event_type": "geopolitical_supply",
       "drivers": [
         {
           "role": "main",
-          "text": "AI\u2011related technology stocks have weakened, dragging the sector down.",
+          "text": "Geopolitical supply chain mandates and new tariffs on key partners are weighing on the Technology sector, driving a bearish sentiment.",
           "forecast": {
-            "low": 2.1,
-            "high": 4.8,
-            "direction": "+",
-            "text": "+2.1% to +4.8%"
+            "low": 1.2,
+            "high": 3.6,
+            "direction": "-",
+            "text": "-1.2% to -3.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Anthropic\u2019s IPO price fell sharply after a record listing, dampening investor enthusiasm for AI firms.",
+          "text": "AI-linked stocks are under pressure, contributing to a broader sell\u2011off in the sector.",
           "forecast": {
-            "low": 2.1,
-            "high": 4.8,
-            "direction": "+",
-            "text": "+2.1% to +4.8%"
+            "low": 1.2,
+            "high": 3.6,
+            "direction": "-",
+            "text": "-1.2% to -3.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "SoftBank\u2019s AI spending is under scrutiny, adding pressure on the broader AI ecosystem.",
+          "text": "SoftBank shares fell 10% as Samsung and SK Hynix dropped over 7% in an AI\u2011related sell\u2011off.",
           "forecast": {
-            "low": 2.1,
-            "high": 4.8,
-            "direction": "+",
-            "text": "+2.1% to +4.8%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Nvidia\u2019s CEO return lifted Asian chip stocks, but the overall impact was insufficient to offset the broader sell\u2011off.",
-          "forecast": {
-            "low": 2.1,
-            "high": 4.8,
-            "direction": "+",
-            "text": "+2.1% to +4.8%"
+            "low": 1.2,
+            "high": 3.6,
+            "direction": "-",
+            "text": "-1.2% to -3.6%"
           }
         }
       ]
