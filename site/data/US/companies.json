@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25 16:42 UTC",
+  "updated_at": "2026-11-26 16:17 UTC",
   "market": "US",
   "currency": "$",
   "companies": [
@@ -7,163 +7,163 @@
       "ticker": "NVDA",
       "name": "Nvidia",
       "sector": "Technology",
-      "price": 141.7099,
+      "price": 149.3,
       "eps": 9.31,
-      "pe": 15.221256,
+      "pe": 16.03652,
       "fcf_per_share": 4.1098843662566775,
       "ebitda_per_share": 10.074957678883505,
       "net_debt_per_share": -2.4675115159647163,
-      "sentiment_index": 26.0,
+      "sentiment_index": 43.4,
       "sentiment_breakdown": {
-        "news": 30,
-        "macro": 20
+        "news": 45,
+        "macro": 41
       },
-      "base_fair_value": 159.23,
-      "sentiment_adjusted_fair_value": 147.77
+      "base_fair_value": 162.32,
+      "sentiment_adjusted_fair_value": 159.11
     },
     {
       "ticker": "AAPL",
       "name": "Apple",
       "sector": "Technology",
-      "price": 348.025,
+      "price": 355.58,
       "eps": 8.98,
-      "pe": 38.75557,
+      "pe": 39.59688,
       "fcf_per_share": 7.270647738378173,
       "ebitda_per_share": 11.8004304652942,
       "net_debt_per_share": 2.598164379719439,
-      "sentiment_index": 26.0,
+      "sentiment_index": 43.4,
       "sentiment_breakdown": {
-        "news": 30,
-        "macro": 20
+        "news": 45,
+        "macro": 41
       },
-      "base_fair_value": 181.55,
-      "sentiment_adjusted_fair_value": 168.48
+      "base_fair_value": 184.8,
+      "sentiment_adjusted_fair_value": 181.14
     },
     {
       "ticker": "MSFT",
       "name": "Microsoft",
       "sector": "Technology",
-      "price": 479.04,
+      "price": 489.93,
       "eps": 19.16,
-      "pe": 25.002089,
+      "pe": 25.57046,
       "fcf_per_share": 0.4031843005235611,
       "ebitda_per_share": 27.69803474009497,
       "net_debt_per_share": 9.348260080434262,
-      "sentiment_index": 26.0,
+      "sentiment_index": 43.4,
       "sentiment_breakdown": {
-        "news": 30,
-        "macro": 20
+        "news": 45,
+        "macro": 41
       },
-      "base_fair_value": 321.48,
-      "sentiment_adjusted_fair_value": 298.33
+      "base_fair_value": 328.74,
+      "sentiment_adjusted_fair_value": 322.23
     },
     {
       "ticker": "JPM",
       "name": "JPMorgan Chase",
       "sector": "Financials",
-      "price": 310.792,
+      "price": 316.74,
       "eps": 23.84,
-      "pe": 13.036577,
+      "pe": 13.286074,
       "fcf_per_share": null,
       "ebitda_per_share": null,
       "net_debt_per_share": -96.49724381673013,
-      "sentiment_index": 32.0,
+      "sentiment_index": 57.2,
       "sentiment_breakdown": {
-        "news": 40,
-        "macro": 20
+        "news": 68,
+        "macro": 41
       },
-      "base_fair_value": 559.78,
-      "sentiment_adjusted_fair_value": 529.55
+      "base_fair_value": 568.98,
+      "sentiment_adjusted_fair_value": 581.27
     },
     {
       "ticker": "V",
       "name": "Visa",
       "sector": "Financials",
-      "price": 417.9585,
+      "price": 424.39,
       "eps": 12.32,
-      "pe": 33.925205,
+      "pe": 34.447243,
       "fcf_per_share": 12.167991760892615,
       "ebitda_per_share": 18.463609479721608,
       "net_debt_per_share": 5.144759228979964,
-      "sentiment_index": 32.0,
+      "sentiment_index": 57.2,
       "sentiment_breakdown": {
-        "news": 40,
-        "macro": 20
+        "news": 68,
+        "macro": 41
       },
-      "base_fair_value": 240.58,
-      "sentiment_adjusted_fair_value": 227.59
+      "base_fair_value": 242.96,
+      "sentiment_adjusted_fair_value": 248.21
     },
     {
       "ticker": "XOM",
       "name": "Exxon Mobil",
       "sector": "Energy",
-      "price": 157.815,
+      "price": 158.08,
       "eps": 9.72,
-      "pe": 16.23611,
+      "pe": 16.263374,
       "fcf_per_share": 6.942193300013134,
       "ebitda_per_share": 19.112466248236792,
       "net_debt_per_share": 5.416963833512385,
-      "sentiment_index": 41.0,
+      "sentiment_index": 54.8,
       "sentiment_breakdown": {
-        "news": 55,
-        "macro": 20
+        "news": 64,
+        "macro": 41
       },
       "base_fair_value": 109.47,
-      "sentiment_adjusted_fair_value": 106.51
+      "sentiment_adjusted_fair_value": 111.05
     },
     {
       "ticker": "AMZN",
       "name": "Amazon",
       "sector": "Consumer Discretionary",
-      "price": 237.819,
+      "price": 244.43,
       "eps": 12.37,
-      "pe": 19.225466,
+      "pe": 19.759903,
       "fcf_per_share": -3.2119952961970375,
       "ebitda_per_share": 16.990349786801293,
       "net_debt_per_share": 17.628091822170763,
-      "sentiment_index": 33.8,
+      "sentiment_index": 50.6,
       "sentiment_breakdown": {
-        "news": 43,
-        "macro": 20
+        "news": 57,
+        "macro": 41
       },
-      "base_fair_value": 237.819,
-      "sentiment_adjusted_fair_value": 226.26
+      "base_fair_value": 244.43,
+      "sentiment_adjusted_fair_value": 244.87
     },
     {
       "ticker": "KO",
       "name": "Coca-Cola",
       "sector": "Consumer Staples",
-      "price": 98.165,
+      "price": 97.59,
       "eps": 3.39,
-      "pe": 28.957226,
+      "pe": 28.78761,
       "fcf_per_share": 1.0109481465017964,
       "ebitda_per_share": 4.054950202396912,
       "net_debt_per_share": 6.016640022117099,
-      "sentiment_index": 44.0,
+      "sentiment_index": 60.2,
       "sentiment_breakdown": {
-        "news": 60,
-        "macro": 20
+        "news": 73,
+        "macro": 41
       },
       "base_fair_value": 15.94,
-      "sentiment_adjusted_fair_value": 15.65
+      "sentiment_adjusted_fair_value": 16.43
     },
     {
       "ticker": "PFE",
       "name": "Pfizer",
       "sector": "Healthcare",
-      "price": 28.2211,
+      "price": 28.46,
       "eps": 0.7,
-      "pe": 40.315857,
+      "pe": 40.657143,
       "fcf_per_share": 2.2819883037865316,
       "ebitda_per_share": 4.375024716094763,
       "net_debt_per_share": 8.61934415537045,
-      "sentiment_index": 47.6,
+      "sentiment_index": 48.8,
       "sentiment_breakdown": {
-        "news": 66,
-        "macro": 20
+        "news": 54,
+        "macro": 41
       },
       "base_fair_value": 35.99,
-      "sentiment_adjusted_fair_value": 35.73
+      "sentiment_adjusted_fair_value": 35.86
     }
   ]
 }
