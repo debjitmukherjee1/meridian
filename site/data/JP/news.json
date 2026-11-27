@@ -1,141 +1,150 @@
 {
-  "updated_at": "2026-11-26 16:17 UTC",
+  "updated_at": "2026-11-27 16:01 UTC",
   "market": "JP",
   "items": [
     {
-      "title": "AI firms with poor safeguards face inspections under Japan draft law",
+      "title": "Breguet, other Swiss watch brands make time for young, wealthy Thais",
       "source": "Nikkei Asia",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQVFdjR3VNbXhPU1VXRW01VXpYYXBNTG85SmtzZmd4a2l1akw5UkJjQnRJa0lnN0hKa19PQzRuS2czWnl1NGhrc29XN0s5blNSZUxiUVBTZFRPMkw0bmNMcU8yTEtGSWJrQXlOVjBsblVlMEtkSXgxcDVkQ211bkd2Mm5KalBDazVCTXFCN1hCekR4ZnRYN3VVYmxRd1lKbUZZd0xuQWMxS1FjNms3TlpMdVFBZmgyRm12eFlWZ2ZmV1puR19zWnZyeTh1YVJuRXBRY2c?oc=5",
-      "published": "2026-11-26 16:12 UTC",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYTFha0lxcDdQNmlIQkZ5dDliQVA2Yy1CanZ2ZWpWck9ZdU5hSlRueVNlTlh0dWxqSDY1Zk5VRHBMYkRLdXVZQ2pod2FOS2lLUGZlZlg1RHZJMkYybDgwdE8xNk4zNHQtZHRHbUN6UktsR2MzSS1FMThOUVcxdDlJOVJvQWRXREZ5WVBHS3c3S1l4YzRSdW51WEhjLWpnbzhlY2hQa01fdjdXcm5VeWJPSUhWUmxsZw?oc=5",
+      "published": "2026-11-27 15:37 UTC",
       "sector": "Market",
       "tone": 2.0,
-      "note": "AI safeguards scrutiny may boost regulation."
+      "note": "AI shares rally boosts market optimism."
     },
     {
-      "title": "Nikkei 225 Rebounds as Japanese Investors Weigh AI Momentum and Yen Risks",
-      "source": "kalkine.ca",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMV9EZktoZzZfYlZBd3hqdjFJTk1odVpLWEtxemRCbEJvNUhCVTN1UHFER2RBNUxISkhRMnhfNnVvZVB0clJmaVpueGhTbE5GenRiV1dqdkcySXRFTUVoM0phY18zM1JaZTJXY3RtQTRMS3ppOTdGUUZybGFOc1R6d1V3YVplaHpPZUh4WHpZOEh1Qkp3enphVDh6Qkdja2RqWmVMUHNpTFpwamU5dnBN?oc=5",
-      "published": "2026-11-26 14:53 UTC",
+      "title": "Indonesia, Philippines and UAE to begin talks on joining CPTPP trade pact",
+      "source": "Nikkei Asia",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSW96VDFRcWpoazNsbG9zYjFkcTJYMTVPLUtlcjJHSHlPX0RuWTBGQkp6ZkY2SXdoNVl2ZkNwaTJ3V3hQcTk5TVp5RGlReHJWY3pNcExFdFh4YTdNQmFVT1pvNGhzYk5vbmZ4czdFQ2ZEN1FrZW9uNTZSUTZ2ZU1GQUlXUmFVMk1FSldTcVFBck5zXzJTSFBEM0dETzc1VklBSmlUQzJIbw?oc=5",
+      "published": "2026-11-27 15:11 UTC",
       "sector": "Market",
-      "tone": 3.0,
-      "note": "Nikkei rebounds on AI momentum."
-    },
-    {
-      "title": "How Japan's Governance Reform and Buybacks Reward Investors in the Global X Japan Topix 100 ETF (ASX:J100)?",
-      "source": "Kalkine",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOUFdXZ28tQVJCcWR4UE9pbVBEa3NtUGxEUXVVZzRTdjV6b1Q3S0ZISUd1MTFvYi1Fb3Y5QThaa3VXUVdNTmx1N2NYczlJR2JZMjlua3pQYTh4LTEza0I3TkVaLUplY2NRSktmWlVqN1hQMllnb1doYmJvdXJtN0h4VFdxcUlMUmJrWVR2aUp0a3NQd3dXZ3hhM01oZ0NobkZaeUxGcUlaMFd4U2R0YmhHM3VRQnI0RVF3cGRiVnRyT3R0akNyZlpuZDhFdjdQeUdYVV9hTGY1Q1VQbWdGY3kxdkxB?oc=5",
-      "published": "2026-11-26 12:30 UTC",
-      "sector": "Market",
-      "tone": 2.0,
-      "note": "Governance reform rewards investors."
-    },
-    {
-      "title": "Japan\u2019s Nikkei index rises, buoyed by investor appetite for AI-related stocks",
-      "source": "\u0635\u062d\u064a\u0641\u0629 \u0645\u0627\u0644",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBXb3FGaDZtOU96alhGakR6NGIwejdnZGpYUFlrQktZd085clBoSWNuUU5ZeTc1UWhhVFZxOV90VGRhVFVhTnd2TGJPTkRENzVsM3A4TW01QzJXQmo5RFdQNno4QVMydkJvZDdzUk13?oc=5",
-      "published": "2026-11-26 11:30 UTC",
-      "sector": "Market",
-      "tone": 3.0,
-      "note": "Investor appetite for AI stocks."
-    },
-    {
-      "title": "Japan shares higher at close of trade; Nikkei 225 up 0.84% By Investing.com",
-      "source": "Investing.com India",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOLUU1ZXpSOXVDMTdaX05NbTVwd21GT3E0N1V2NFQycFBscTN3UTNycjFvVnQxMDVHaWkweUgyTVNONnZBM25wdXZjMklfUjJlVm5rallGakstcVdITkF3NlVQVDVtYUdIMl9sM0k4RXBYSzZXSkJKeXFoSW5NTVQxeGxfY2pqOVFvZnBDQjBTY2xDNVlDOHp2ZVE3LW10X2ttWXF2OEpfTVdxeUxKUlFwSA?oc=5",
-      "published": "2026-11-26 11:20 UTC",
-      "sector": "Market",
-      "tone": 2.0,
-      "note": "Nikkei up 0.84%."
-    },
-    {
-      "title": "Tokyo stocks up on AI, chip dip-buying but gains trimmed before holiday",
-      "source": "\u6bce\u65e5\u65b0\u805e",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBTYW1IVjZ6a3BYNzZwTElCOTZBZlpGMHB2bzNYVXdEQVhEM1dPeno1eWxQRER2V2x4cEVuNTZEMkpaQWlRdHc2RzZYdHpCT3lfajM5NTdQRjRNNlBOVk52OFRScFBScG9lOWN0UmE4OVhDSFk?oc=5",
-      "published": "2026-11-26 10:40 UTC",
-      "sector": "Market",
-      "tone": 2.0,
-      "note": "AI, chip dip-buying lifts Tokyo stocks."
-    },
-    {
-      "title": "Sony Group Corporation (SONY) stock price, news, quote and history",
-      "source": "Yahoo Finance UK",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBjSUFMTEVLNEdKeWlsZGNvQ05VRUwwTm5YZ2RYNldtNDZzOS14Z0p0V1M0U2pTcXI0MkJFMTRBWTZfZl9obXB2WUVqbWRwLVgzNFE?oc=5",
-      "published": "2026-11-26 11:03 UTC",
-      "sector": "Technology",
       "tone": 0.0,
-      "note": "Neutral stock update."
+      "note": "CPTPP talks unrelated to Japan's market."
     },
     {
-      "title": "SoftBank Stock Plunges 15% Amid AI Selloff, Market Value Falls Below OpenAI Stake",
-      "source": "Hokanews",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE96X0hZMDB2ZmZxU3lKbFpJeDlMaEQ4b1JLMHFHeXIzbUhJQ1Q2UDhaYnBIc3lJNHZXdUpMeDEyWVMzWUlqcGE0X2hNZEp3U3JzTWU0US1LcFpXUUk5QW5zMTNKVVpaUEM5VEJUWHdleUtJd1A1TVhwLXVJZw?oc=5",
-      "published": "2026-11-25 12:19 UTC",
+      "title": "Nikkei 225 climbs as investors buy back AI shares | NHK WORLD-JAPAN News",
+      "source": "NHK\u30cb\u30e5\u30fc\u30b9",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1EOEl6THF4UmxfTEZsak5sdTNja3VPb1M0dk4zbUV0aHlISGJKY2dhUkdfQUNwejlESE9iSUlzYW5kaGYyVG5mTUVMbkRUbzNyZUhoM3Fyc2kwT1QtUUNuQWtzQQ?oc=5",
+      "published": "2026-11-27 13:11 UTC",
+      "sector": "Market",
+      "tone": 3.0,
+      "note": "Nikkei climbs, signals investor confidence."
+    },
+    {
+      "title": "Nikkei 225 Opens 0.66% Higher: What It Means for Global Markets",
+      "source": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZDdpTmxHb3psbmdLdDZoOWM2dTY0eGFGMEdKWFlGQmpIWjl1cGZ0bXVLTHJpVWxMUEFNWFBkSEhwd2JfY3BYOFRyNko0akFUM3ZCUXpKS3pCRWo3Y2dKSmtjaU5YSmgtSEhkeEtycWJKcU9laGt4N3g0d0V6YVRZVE5nVVdpTEFMMWd0YW5YZ3h4R1RBSkhtMDJ1WUlKRTFDd1RNVWhPOWxsU0szYVQ0Uk9QNWxTRUhqRi1vNU9xM2lIQW9jUnBHSTF3?oc=5",
+      "published": "2026-11-27 12:41 UTC",
+      "sector": "Market",
+      "tone": 2.0,
+      "note": "Opening higher suggests positive momentum."
+    },
+    {
+      "title": "Tokyo Stocks\u2019 Downside Expected to Be Firm Next Week",
+      "source": "jiji press",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE94MlRTNEFmRnFUSWxrYVh0Wkw5SnlHRzZoRFpOYnlST1RUWE1leXlvM0hHVmoxaHg0Q3QtMUxPYndkNlZOc1ZRcVd5SENVM0FhUWR1TnF3TWliRHBwcUVrdnBn?oc=5",
+      "published": "2026-11-27 11:30 UTC",
+      "sector": "Market",
+      "tone": -2.0,
+      "note": "Expected downside indicates caution."
+    },
+    {
+      "title": "Nikkei\u2019s AI correction may be nearing a bottom, Goldman says",
+      "source": "Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZXlBXzNJcmxRd3VMcWMxYmVKQlRLR2E5bUNiRjZRUXZyNHpMQlNqNUc1bVdsTmhvRnh4azJNNThucnAwRDM1WG9WY3djaFFBcFU1bEJTdjJEZlRkd2FVNHd0OFJHLXc4UWd6RTFQNlhOa1RNVEFOUnA0X0Y5T3djckRlMDd0VG1iYnE3X09DWl9OUllOeGc1MDZuUW15bE9XckFJNVJVNlFSY2FHdURmWDRTMzB1eFZ1QUVRaw?oc=5",
+      "published": "2026-11-27 10:22 UTC",
+      "sector": "Market",
+      "tone": 1.0,
+      "note": "AI correction near bottom may lift prices."
+    },
+    {
+      "title": "Sony (NYSE:SONY) Shares Gap Down - Here's Why",
+      "source": "MarketBeat",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPU09BcnI4WklYUWJPd2hPcFdwajNHc256d28yR1lwc240dTRBTXR1WUo0M3Y5eXc2cEpJbElmb2NhajZmNHNQOVFheEFkdUw4VWlEeElNVjU3aHVPQ0txcXQyaWJ0Q2ZRWFhVTUZ5R2ktWEwycGw2dmphdEFyYkRJbmdya1ppbGFHejdCUTZyU1hvWWNTZFpGY1dzaW1NQUdSX0E?oc=5",
+      "published": "2026-11-27 15:46 UTC",
       "sector": "Technology",
-      "tone": -5.0,
-      "note": "Sharp decline amid AI selloff."
+      "tone": 2.0,
+      "note": "Sony's gap down signals short-term weakness but overall tech resilience."
     },
     {
-      "title": "SoftBank Shares Drop 10% as Samsung and SK Hynix Fall Over 7% in AI Sell Off",
-      "source": "Mitrade",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQ2cwMnVsZjM4Y1lPNXljeE1FNWQxU0ttc3BwUlI4TERoODdsNVFIV1l2WTc2bGZHa2NkWHJrZFVGY3ljbk5Cek82VmNaTW5sbHNMd1pnWmxXSVVlVlRDUkJycnBpYnNPb1UweUtzZVB3UmJDSGhfcDVkUlk3RG0yd1p6TXRSYW02VjhsNGlYYW9NV2pC?oc=5",
-      "published": "2026-11-25 03:48 UTC",
+      "title": "SoftBank Shares Bounce 7.7% While Credit Markets Flash a Warning",
+      "source": "ad-hoc-news.de",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxObEhDQy1xVXdMRy1JMnk5VW9Kdm9ZOWlMTEVzZmVxMHFlWnhZLUUxbW9hdGpQLVRhNHA4UGxScF9WUUlHdWpiMGt1STJ3Y0dCS3J0TURkaFE0SEZ6VTlDbDItWGF3UnZYaEZ1UlE2QUktam5lb3VGdWlLNDdqc3A5ZHJVSG13dnFQQ1JKaWh0ZmdXc0txeGhoWEtQUTZZcEFTZWo5MEkweTZXZVVmM2FVbWdDTUlzcWQ3bDRGUnlUTU9BeDlhQkdxbHE2LTh3MnY0?oc=5",
+      "published": "2026-11-26 16:44 UTC",
+      "sector": "Technology",
+      "tone": 3.0,
+      "note": "SoftBank's bounce reflects optimism in tech investments."
+    },
+    {
+      "title": "SoftBank's AI Funding Tab Comes Under Scrutiny as Shares Slide and Default Insurance Costs Jump",
+      "source": "ad-hoc-news.de",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOd0VDbGVkWHdNdmNtYVpNQ01rcUNzekpmb3FvVE5XV0h1TXhYRHQ4dTdHUksxU3k4MmRNU1J6TjJSTHVYVUFycklIRXFTVzdwNDlWU190d2tURC1zQjNhbG8zblJLaHNWa1ZXeGpfMVNBZmVIOGhUUDItSzViaExkZTJtWW1sX3owelBUbld5QUw1YUFuOFl2NGplS3J1YTNUY1VWMDhUT3ZhOHhNZWpTTGRDNHB5bHFyX3RFa0wtWlE2VjhrN0FvTHNhV19VWWFaWEMxaGVHSHJteUk2Z0VMMTBFQUdnS0dtV1RRSWZCMGtzU3BHWEpad19mcw?oc=5",
+      "published": "2026-11-25 18:03 UTC",
       "sector": "Technology",
       "tone": -4.0,
-      "note": "Moderate fall with AI concerns."
+      "note": "AI funding scrutiny and rising insurance costs dampen tech confidence."
     },
     {
-      "title": "SoftBank shares crash 14% as Asian tech stocks fall on AI rally concerns",
-      "source": "CNBC TV18",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONHRwWFpPcVRwVHZvRnFvOWl2V3d1RkZBVmFiUUc3cmZjODVjbHdVX3pWendoNXNGVnZHdTZ6NDRpZGo3alhNMjJLTUJaR0FYOExadzFMMHZKcnJSdkc1MVNneGE3UF9fRmhPZWdoMEJ3b2pPQWdidHRTbmhqQ0JZcVg4MDRDZjk0WE1temVkZlJZb3pzU3NaRjBJWkVwcUNiRll1cDJoZ0oyMlc1NzdYU3dfSThEMXfSAbwBQVVfeXFMUFkzOTI4OW5JUXNJQ1hPVm1NRTFtQ3pCRkZuVERsQ2dRT21xTUZVT0lranZXRmNjc1VEdHZxNlpqOWlVNXQzSFhIeU45TGZCcUZCUk1ZbEpxc2hLQXhld0ZBZl9TVkhNYkFtZzMzbFp5d2c0OGNFdm1nSGxrRW14QVVYRUl1bGZpNzY0c0s2cE96aEc0UmZmNlR0T1RJeF9WR2k0djBrLVE3UDVLNzZkWENXQXE0bWg0QXR0X1U?oc=5",
-      "published": "2026-11-25 02:06 UTC",
+      "title": "Arm stock falls 8% as SoftBank selloff and AI concerns weigh on shares",
+      "source": "Invezz",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTGNlbGM1aVdnM19qTC0xSktacHhjdnJrWGt5cjIwNHJxeUFNcTFBRllYdVhQQzdNajNlR1VLQmNjTUdZbDFMMTdZZVdUOU9xMFY3Q05zWThjd3ZyR1Z6UXRLazRhN3RlaTBxaDRHZktjd0Z5WWFhRkF6OV90MG0xdlRibGlVNXU5SnJWdkMxeXJoZkFOemJTNkg5cUVoX0w4SERqWUJwcDdITkN2TTBDQWFGR1ltUQ?oc=5",
+      "published": "2026-11-25 16:52 UTC",
       "sector": "Technology",
-      "tone": -5.0,
-      "note": "Severe drop due to AI rally worries."
+      "tone": -3.0,
+      "note": "Arm's fall highlights broader tech selloff amid AI concerns."
     },
     {
-      "title": "SoftBank shares fall 10% amid Asian AI tech sell-off \u2014 CNBC",
-      "source": "UA.NEWS",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTG1mUlRNZWoya0VJaDVNVFlOZk16MFRYRlhMXzdrVnoxU3F3SEtXUFRGaUo3a1ZjZEMtdlpuQWxtTEtaVEhhUW90cFJhbFNsMXlMckIyRXl4RlN0YjVFTjVDS1lXNzlNbnhtd0M4NHlvR0Z4RVh1eWo4akRwRjNVVk5nWDI2S2cyWXF4SDJrMFZ5dUZC?oc=5",
-      "published": "2026-11-25 01:01 UTC",
-      "sector": "Technology",
-      "tone": -4.0,
-      "note": "Continued sell-off in Asian tech."
-    },
-    {
-      "title": "381.5 Billion Yen. Japan Post Bank's Record Interim Profit Reported on November 13 Stems from the 0.50% Interest Rate on Your Savings",
-      "source": "Bing News",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b085c6586b0493bae44fd712993201c&url=https%3a%2f%2fnote.com%2fdreamy_lotus5293%2fn%2fn315a5e29c8a4%3fhl%3den&c=12896251478745268520&mkt=en-us",
-      "published": "2026-11-25 15:46 UTC",
+      "title": "1,640,065 Mitsubishi UFJ Financial Group, Inc. $MUFG Shares Purchased by Toronto Dominion Bank",
+      "source": "MarketBeat",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOTjJEYVUzaFBCMVVnMWRTMzdMY2tGNVBvdjhQV3BtQTc3M3BHMXRCd2lxSmJtX3VIbzZKcXd4STlsZXp1YURYQUFxd3pmUklCbS1sdnc3TWlpNGljVnhCNmJsRlptd29KOEhxeGtTSVBaNDNsLXBEYzRqajhPUXh3MUF0QkdxRGNwMHBwUFdWUGNabkI1UnV3d3YxM1k0c2tzWU5WM3A0cGlBVy0wQ1BCeU9uMGp0aUNjWkhJXzVfZjdqRjdZUS1jWE1VeENjcWRCOEowZ25ZdXptbDRJNWtDd3dsVDQ?oc=5",
+      "published": "2026-11-27 12:06 UTC",
       "sector": "Financials",
       "tone": 3.0,
-      "note": "Japan Post Bank\u2019s record profit signals strong banking performance."
+      "note": "Toronto Dominion Bank's purchase signals confidence in MUFG."
     },
     {
-      "title": "[Japanese Stocks: Today's Review] Looking Back at Today's Market and News | November 25, 2026",
-      "source": "Bing News",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b085c6586b0493bae44fd712993201c&url=https%3a%2f%2fnote.com%2femotionalmovie%2fn%2fn8616def40767%3fhl%3den&c=7555317780111285831&mkt=en-us",
-      "published": "2026-11-25 02:59 UTC",
+      "title": "Japan Bank Shares Risk Further Unwind as Funding Cost Bites",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOb2FCeUZMWjFuU1J6bF9QUm5PX25MN1htSVJsRU1Bc0xlYmZJa0xJSm9MeDU1bVYtTFN1Zk94U2xfeUhnVC1HaEJseWw0OHJGR1RqREJXLU1ITGhjZFZPb1hOdEZGMXZGSm0ydWhqdlY5Sjc0VjZLSFRyUUgtc1BYS2xkTXVkVnJXSUlUQk9qRW8xZW0xelpjZmNyRFVaN0M0UlM4a2l5bUowN196cWVJ?oc=5",
+      "published": "2026-11-26 23:41 UTC",
       "sector": "Financials",
+      "tone": -3.0,
+      "note": "Rising funding costs threaten bank profitability."
+    },
+    {
+      "title": "Japanese Automakers' China Sales Fall Double Digits Again in October; Honda Down 33 Straight Months, Counteroffensive at Guangzhou Show",
+      "source": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE93QWFxMW0wMlJtcmx5dU15MTNvWmtwOFhabmNjaGt3SnVxUzZkSXloY1U5dTZzQ3NFQ0xIc29RNWxrT1F4WmRJb1RueEdpWllKOUkyOTVpRHF0M1cwcVJCcVFkZ3hLTk94WTlzZVEzZE1aME8tR3c?oc=5",
+      "published": "2026-11-27 08:56 UTC",
+      "sector": "Consumer Discretionary",
+      "tone": -3.0,
+      "note": "China sales slump hurts automaker earnings."
+    },
+    {
+      "title": "Suzuki to domestically produce rare metal-free EV batteries",
+      "source": "The Japan Times",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZUVDME1mUnRhRm1lbENpaWNHU0VQNzAzN3ZuWW1PWjNqdXRvSG1HRlllRjQ3SzRjZkFxTU9VWnNPSGpOQ1Q3Y0FBUEJGaHQ2UDJfMzloV3I0ZFdReEVNa2J1Mk5Mc1BpSFBydUE1dGVwSG9lSHZqcVotdE1KeHA2ZW41ZGhRbzBBS2xoZDgxZEhKcHhyQ0d3?oc=5",
+      "published": "2026-11-27 08:25 UTC",
+      "sector": "Consumer Discretionary",
+      "tone": 3.0,
+      "note": "Domestic EV battery production boosts tech edge."
+    },
+    {
+      "title": "Chinese electric vehicles are shaking the position of Japanese automobiles.",
+      "source": "Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaUxNRGtDZTFJRXNMZU9Zcmp4V2FHNUctT3dPU1JHbGlBeTlGbEUwY2VkVG1KRHFGc2JxVF90VDhmaTVBeEFVM1plQ09xRVNWLUZ1N3ZrTHdXaElabjhzUTQzNUhtcjIwRzVZLUs3c2NISktxRExnMlhzUFJhQkNrcnFOSmk?oc=5",
+      "published": "2026-11-26 15:02 UTC",
+      "sector": "Consumer Discretionary",
+      "tone": -2.0,
+      "note": "Chinese EVs erode Japanese market share."
+    },
+    {
+      "title": "EVWORLD.COM",
+      "source": "EVWORLD.COM",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5rZDU4eUxyckxrS0o3eHktaFFhRGUwT201OU5WMU91d2U2UEFJbm5ZMDRkUFFjVzQ2MUxZVkFjYmF2eloyNUpyaXZEREhiNWRaVnBwaWl2MA?oc=5",
+      "published": "2026-11-26 14:22 UTC",
+      "sector": "Consumer Discretionary",
       "tone": 0.0,
-      "note": "General market review, no direct financials focus."
-    },
-    {
-      "title": "Did Strong Earnings And Dividend Rise Just Shift Japan Post Holdings' (TSE:6178) Investment Narrative?",
-      "source": "Bing News",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b085c661087481bbe6b2e61affeb986&url=https%3a%2f%2ffinance.yahoo.com%2fmarkets%2fstocks%2farticles%2fdid-strong-earnings-dividend-rise-191156945.html&c=13700727852867086809&mkt=en-us",
-      "published": "2026-11-24 11:11 UTC",
-      "sector": "Financials",
-      "tone": 4.0,
-      "note": "Earnings and dividend rise boost investor confidence in Japan Post Holdings."
-    },
-    {
-      "title": "Crystal Crop Protection IPO allotment: How to check live status on BSE, NSE and MUFG Intime?",
-      "source": "Bing News",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b085c6425f94068990e4b60dfedd9dd&url=https%3a%2f%2fwww.msn.com%2fen-in%2fnews%2fother%2fcrystal-crop-protection-ipo-allotment-how-to-check-live-status-on-bse-nse-and-mufg-intime%2far-AA2i01Lz&c=1668167717262490654&mkt=en-us",
-      "published": "2026-11-22 18:24 UTC",
-      "sector": "Financials",
-      "tone": 0.0,
-      "note": "IPO allotment info unrelated to financials sector sentiment."
+      "note": "Website link, no sector impact."
     },
     {
       "title": "Six Japanese automakers plan over Bt134bn investment in Thailand by 2030",
@@ -143,134 +152,71 @@
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYUxscTBZV2pnYzRBcXNzNUc2RUJxUkwyZVhyM0hUUFo2MUNYWVJjTl92dWNwNjV2U2l4eHV0YndSX01VVndqSXYzeE5uVEI3a080UTlGVFhSaDh0d3YwT21LTDJvSWdhbFllQmU5VzAzU2tJdFdyYlQ2LWFZYlMtVWQtUWN2WnJfWjJROU5WaU5fWmRCYzJXNHd2M3JjRzA?oc=5",
       "published": "2026-11-26 10:34 UTC",
       "sector": "Consumer Discretionary",
-      "tone": 2.0,
-      "note": "Automaker investment signals growth"
+      "tone": 4.0,
+      "note": "Thailand investment signals growth ambition."
     },
     {
-      "title": "Inside India newsletter: Roaring economy, foreign investors\u2019 return and now record auto sales",
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQdXY0ZHFiM2JSb1BPdFljYk1vaWw4OGRMYzB6aWJOcVJhZklFV3JzMldVOHF5eWFVVDVmZl9OMVhsdTJyX2xDWlhWYzFrU1pfcFVlekRLLWhwR2thQXNTdEZpUE8weEZJc3dPa0lzbEY4WVVVMGJoRlI1a2RuX0FEcDhaRExMdm1JOE5JVkl5eFHSAZABQVVfeXFMUHV2NGRxYjNiUm9QT3RZY2JNb2lsODhkTGMwemliTnFSYWZJRVdyczJXVThxeXlhVVQ1ZmZfTjFYbHUycl9sQ1pYVmMxa1NaX3BVZXpESy1ocEdrYUFzU3RGaVBPMHhGSXN3T2tJc2xGOFlVVTBiaEZSNWtkbl9BRHA4WkRMTHZtSThOSVZJeXhR?oc=5",
-      "published": "2026-11-26 00:12 UTC",
+      "title": "Toyota, Honda and Nissan to standardise vehicle components to cut costs, counter Chinese competition",
+      "source": "Profit by Pakistan Today",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQZnhpaU8tQTRoT0V0RU1vZVQ1MVdFZ004TTNDYU9sSWY3Q3NIUi1RaERoRUZPYmZOOHpVWTZGc3dxWWZ0MFNVTkt5bjE2bXhWZnVNcTV4bWdZSVBnOUtMVTVwVXlWeG9YZ1JqTGZuRmlBWGtKc3dqZk1FYk4xMkt2VlgtNS0xcF96RjkzbVd2MmtmVDF1dmlocHlpaFg4a0NmM0x3alNmQzR4UVl1NWJFWmRQSURVTjVaTElCcGFvM1BSUjhERXhZY1g5d0lOY0pGR0M3RkRxWHJUOEVjcUE?oc=5",
+      "published": "2026-11-26 08:37 UTC",
       "sector": "Consumer Discretionary",
-      "tone": 2.0,
-      "note": "Strong auto sales boost sector"
+      "tone": 3.0,
+      "note": "Component standardisation cuts costs, strengthens competitiveness."
     },
     {
-      "title": "Fox unloads on new Trump move everybody hates: 'Are you serious?'",
-      "source": "AlterNet",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1mYXR4NkZSQXd5d2FVSGdhTU5EMkowNmZrbndBemRRN09lTG1mNGVnOWJ1TmpRQW84OFpEUUgzZFZLTTJ1U2ZyWjViaUhYeklGdmhQVU9lcDUxZmNSV2FXTF90MEVLN3pTNjY0ODB5blFvZEVua0lB?oc=5",
-      "published": "2026-11-25 17:09 UTC",
-      "sector": "Consumer Discretionary",
-      "tone": 0.0,
-      "note": "Political news irrelevant"
-    },
-    {
-      "title": "EU Assures Japan No Collateral Damage From Goods Bill",
-      "source": "Wisevoter",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRTBFQUp2Q1g5UE5SQ01qSDhFLTNhQXVSd0xJOW5zZTRDM25JV0VsSFFhaEdTWGE0NHpaTWo3enlKRXNrakl4ZWZVSnlXS2hCd3R4eDM0MzZfTTZKLUhINnpSMGFIMGR2YUgxWXJBWmo1eWc2Y1dmVXppS0JwOXpvdEFtbTJJYzliYkk0dVFHNmk?oc=5",
-      "published": "2026-11-25 14:03 UTC",
-      "sector": "Consumer Discretionary",
-      "tone": 0.0,
-      "note": "EU policy unrelated to consumer discretionary"
-    },
-    {
-      "title": "Japan's Biggest Automakers Reveal How They'll Team Up To Take On China",
-      "source": "CarBuzz",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1FYmk2RFA1TTNvcXhoSDhQYWk3WG4yaWlNTGFqM0R6blNlUVgtSjlVWjAtaEx5WjFZNEhSSlFYWWoxalFDcHdCQ0NCZ0xKcmVvV0s0WEFjaUJ3RVJ1TXBkelRRRWhzVWI4QzJv?oc=5",
-      "published": "2026-11-25 11:00 UTC",
-      "sector": "Consumer Discretionary",
-      "tone": 2.0,
-      "note": "Collaboration may improve competitiveness"
-    },
-    {
-      "title": "Toyota Share Sale Completed; Payments and Transfers Set for 2 December 2026",
-      "source": "TipRanks",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPaldQUDdHX3hRQ2ZDQWV0N3k4WnRsVGhSTFVVaGZzSjlCZHdsU3k4S2Y0eWo1cGtNZE5pdGJNay1XcmVsWG5OZW9JaFJQcWNPZDJjRFRNRFlfT0h5Q1RlWk1nU1ZKTHhlMjJSWEpqZS1QclI0Rk1rWFpKUndjeTJudHgxdmVGVzhBUUU1ODM5MlFZTWNOd3ozYVJHZ0JuZzZXUWRxdk1tLTJqTnZMRTIzY0FvR0U5aEt5c0puWmpvNE9NUmZN?oc=5",
-      "published": "2026-11-25 09:51 UTC",
-      "sector": "Consumer Discretionary",
-      "tone": 0.0,
-      "note": "Share sale not sector specific"
-    },
-    {
-      "title": "Siemens Energy shares rally 6% on strong Q4 earnings, dividend announcement",
+      "title": "Waaree Renewable Technologies shares surge up to 14% after winning 120 MWp EPC order",
       "source": "Bing News",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b085c6de29b4f7aa60b3e45321bb553&url=https%3a%2f%2fwww.msn.com%2fen-in%2fnews%2fother%2fsiemens-energy-shares-rally-6-on-strong-q4-earnings-dividend-announcement%2far-AA2ifXTS&c=350353046881071859&mkt=en-us",
-      "published": "2026-11-25 21:18 UTC",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b09aa2822a545f89b534db78dc896de&url=https%3a%2f%2fwww.msn.com%2fen-in%2fmoney%2fgeneral%2fwaaree-renewable-technologies-shares-surge-up-to-14-after-winning-120-mwp-epc-order%2far-AA2ikKb4&c=11962755518749387039&mkt=en-us",
+      "published": "2026-11-26 20:44 UTC",
       "sector": "Healthcare",
       "tone": 0.0,
-      "note": "Headline unrelated to Healthcare sector."
+      "note": "Renewable tech order unrelated to healthcare."
     },
     {
       "title": "Nikkei Sank 3% As AI Favorites Sold Off",
       "source": "Bing News",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b085c6de29b4f7aa60b3e45321bb553&url=https%3a%2f%2ffinimize.com%2fcontent%2fnikkei-sank-3-as-ai-favorites-sold-off&c=6834441944625991646&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b09aa2822a545f89b534db78dc896de&url=https%3a%2f%2ffinimize.com%2fcontent%2fnikkei-sank-3-as-ai-favorites-sold-off&c=6834441944625991646&mkt=en-us",
       "published": "2026-11-24 19:04 UTC",
       "sector": "Healthcare",
       "tone": 0.0,
-      "note": "Headline unrelated to Healthcare sector."
+      "note": "AI sell\u2011off unrelated to healthcare."
     },
     {
       "title": "[Explained by a 10-Year Investor] Why Is Mitsubishi Heavy Industries' (7011) Stock Price Rising? An In-Depth Analysis of Current Conditions and Future Growth Drivers",
       "source": "Bing News",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b085c71e23d415e98560797e70187da&url=https%3a%2f%2fnote.com%2fglad_yucca8586%2fn%2fn23e24ced28e0%3fhl%3den&c=11908832767670030758&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b09aa2c851e4f4398a71c3fe7b7ba5b&url=https%3a%2f%2fnote.com%2fglad_yucca8586%2fn%2fn23e24ced28e0%3fhl%3den&c=11908832767670030758&mkt=en-us",
       "published": "2026-11-24 17:29 UTC",
       "sector": "Industrials",
       "tone": 3.0,
-      "note": "Positive outlook on Mitsubishi Heavy Industries due to growth drivers and defense supply chain shift."
+      "note": "Positive outlook on future growth drivers."
     },
     {
       "title": "Mitsubishi Heavy Industries Stock And Japan Drone Shares On A Defense Supply Chain Shift",
       "source": "Bing News",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b085c71e23d415e98560797e70187da&url=https%3a%2f%2ffinance.yahoo.com%2fmarkets%2fstocks%2farticles%2fmitsubishi-heavy-industries-stock-japan-001901759.html&c=7506773434583083616&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b09aa2c851e4f4398a71c3fe7b7ba5b&url=https%3a%2f%2ffinance.yahoo.com%2fmarkets%2fstocks%2farticles%2fmitsubishi-heavy-industries-stock-japan-001901759.html&c=7506773434583083616&mkt=en-us",
       "published": "2026-11-24 15:59 UTC",
       "sector": "Industrials",
-      "tone": 2.0,
-      "note": "Defense supply chain shift boosts industry sentiment, but still moderate."
+      "tone": 4.0,
+      "note": "Defense supply chain shift boosts shares."
     },
     {
       "title": "[March/September Dividends] Is Mitsubishi Heavy Industries (7011) a Buy? Down 48% from its high, hitting a year-to-date low following reports of 'curbed' defense spending. Is ...",
       "source": "Bing News",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b085c71e23d415e98560797e70187da&url=https%3a%2f%2fnote.com%2fippan_invest%2fn%2fn0975d477d73d%3fhl%3den&c=13246971135473424715&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b09aa2c851e4f4398a71c3fe7b7ba5b&url=https%3a%2f%2fnote.com%2fippan_invest%2fn%2fn0975d477d73d%3fhl%3den&c=13246971135473424715&mkt=en-us",
       "published": "2026-11-23 00:15 UTC",
       "sector": "Industrials",
-      "tone": -4.0,
-      "note": "Curbed defense spending and steep drop in stock price signal bearish sentiment."
+      "tone": -3.0,
+      "note": "Defense spending cuts hit stock."
     },
     {
-      "title": "[INPEX] Record-High Profit Forecast Revised Upward, Yet Stock Drops 9% in a Week: Q3 Financial Results and My Buy Line",
-      "source": "Bing News",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b085c7735d3471e801019ab63d0c678&url=https%3a%2f%2fnote.com%2fdrhaitou%2fn%2fn3c5f99c85d2f%3fhl%3den&c=17112004454095261277&mkt=en-us",
-      "published": "2026-11-25 01:00 UTC",
-      "sector": "Energy",
-      "tone": 3.0,
-      "note": "INPEX\u2019s record\u2011high profit forecast signals strong LNG demand and high crude prices."
-    },
-    {
-      "title": "INPEX (1605) Q3 Financial Results Analysis \u2014 Heading for Record Profits Despite Lower Revenue: 9 Months Where LNG and High Crude Prices Offset Slumping Oil Sales",
-      "source": "Bing News",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b085c7735d3471e801019ab63d0c678&url=https%3a%2f%2fnote.com%2fzaimubunseki1234%2fn%2fn539a5c564d85%3fhl%3den&c=11518074727242656005&mkt=en-us",
-      "published": "2026-11-25 00:30 UTC",
-      "sector": "Energy",
-      "tone": 2.0,
-      "note": "INPEX\u2019s Q3 results show resilience despite lower revenue, indicating sector stability."
-    },
-    {
-      "title": "[Stock Analysis] Record profits yet the stock price reverts. Explaining Mitsubishi Corporation's first-half financial results and stock chart",
-      "source": "Bing News",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b085c76583c47b297502674567476f6&url=https%3a%2f%2fnote.com%2ftks_3%2fn%2fn460c08b67b04%3fhl%3den&c=17903547002564398802&mkt=en-us",
-      "published": "2026-11-22 22:48 UTC",
+      "title": "Japan Tobacco Stock And Other Japan Dividend Ideas for Inflation Wary Investors",
+      "source": "Simply Wall St",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOMGZ3dURTSjBNemhHVmdzejZZVm1hdFJVRUJZVEhQWVZqLW96S1V4bEJBaEljY2daNnhkMktBVjJEb1NMbWtvb3hXbWpCT1ZYSWp3NzllNFJBVnZucVgtYnNZY1dra1V3UFVUVkR5d3dDbVlCd1h6R2NKTVBZZ3ZGMFFqOFlQUjJGdmhDSHZtQVBsVmsyQ0J3MEIxcGJ6d1VBTkR5UGMwZXBDN2xHLXlxU1hEeVRGRWdZOXJNeEJ4Y0wtZlo1R2FNMGl30gHKAUFVX3lxTE4wZnd1RFNKME16aEdWZ3N6NllWbWF0UlVFQllUSFBZVmotb3pLVXhsQkFoSWNjZ1o2eGQyS0FWMkRvU0xta29veFdtakJPVlhJanc3OWU0UkFWdm5xWC1ic1ljV2trVXdQVVRWRHl3d0NtWUJ3WHpHY0pNUFlndkYwUWo4WVBSMkZ2aENIdm1BUGxWazJDQncwQjFwYnp3VUFORHlQYzBlcEM3bEcteXFTWER5VEZFZ1k5ck14QnhjTC1mWjVHYU0waXc?oc=5",
+      "published": "2026-11-27 12:12 UTC",
       "sector": "Energy",
       "tone": 0.0,
-      "note": "Mitsubishi\u2019s results are corporate, not directly energy\u2011sector focused."
-    },
-    {
-      "title": "Mitsubishi Corporation FY2027 Interim Net Profit Up 74%, Full-Year Forecast Hits Record High of 1.2 Trillion Yen. Reading the Earnings Report Featuring a 1 Trillion Yen Share ...",
-      "source": "Bing News",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b085c76583c47b297502674567476f6&url=https%3a%2f%2fnote.com%2fsuper_dill5331%2fn%2fn2f72a9aa6711%3fhl%3den&c=7136435626080315935&mkt=en-us",
-      "published": "2026-11-21 22:41 UTC",
-      "sector": "Energy",
-      "tone": 0.0,
-      "note": "Mitsubishi\u2019s FY2027 forecast is corporate, not energy\u2011specific."
+      "note": "Energy sector not mentioned in headline."
     }
   ]
 }

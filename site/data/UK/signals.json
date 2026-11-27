@@ -1,90 +1,80 @@
 {
-  "updated_at": "2026-11-26 16:17 UTC",
+  "updated_at": "2026-11-27 16:01 UTC",
   "market": "UK",
-  "macro_theme": "Regulatory scrutiny dominates today's headlines",
+  "macro_theme": "Rate-policy commentary dominates headlines",
   "signals": [
     {
       "sector": "Consumer Staples",
-      "read": "Bullish",
-      "score": 63,
-      "event_type": "regulatory",
+      "read": "Neutral",
+      "score": 56,
+      "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "Takeover speculation of Imperial Brands by Altria is driving a bullish sentiment in the Consumer Staples sector.",
+          "text": "McDonald\u2019s shares rose, supporting the Consumer Staples sector\u2019s bullish sentiment.",
           "forecast": {
-            "low": 1.3,
-            "high": 3.1,
+            "low": 1.1,
+            "high": 2.2,
             "direction": "+",
-            "text": "+1.3% to +3.1%"
+            "text": "+1.1% to +2.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "Imperial Brands shares surged following Altria\u2019s bid announcement",
+          "text": "McDonald\u2019s value\u2011menu test expansion drove its 1.00% gain.",
           "forecast": {
-            "low": 1.3,
-            "high": 3.1,
+            "low": 1.1,
+            "high": 2.2,
             "direction": "+",
-            "text": "+1.3% to +3.1%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "The potential regulatory approval of the takeover is expected to lift the entire consumer staples segment",
-          "forecast": {
-            "low": 1.3,
-            "high": 3.1,
-            "direction": "+",
-            "text": "+1.3% to +3.1%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "The sector\u2019s positive outlook is reinforced by the broader market rebound led by banks, defence and industrial stocks",
-          "forecast": {
-            "low": 1.3,
-            "high": 3.1,
-            "direction": "+",
-            "text": "+1.3% to +3.1%"
+            "text": "+1.1% to +2.2%"
           }
         }
       ]
     },
     {
       "sector": "Energy",
-      "read": "Bullish",
-      "score": 69,
-      "event_type": "regulatory",
+      "read": "Neutral",
+      "score": 58,
+      "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "Oil prices rally as Hormuz mine strikes and Saudi attack hit markets, boosting the Energy sector.",
+          "text": "The Energy sector benefits from a modest lift driven by the broader market rally, largely propelled by miners and a rebound in metals prices.",
           "forecast": {
-            "low": 2.1,
-            "high": 5.5,
+            "low": 1.2,
+            "high": 2.9,
             "direction": "+",
-            "text": "+2.1% to +5.5%"
+            "text": "+1.2% to +2.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "FTSE 100 gains led by banks, defence and industrial stocks, providing a supportive backdrop for energy equities",
+          "text": "Rising metals prices increase demand for energy inputs, supporting energy company earnings.",
           "forecast": {
-            "low": 2.1,
-            "high": 5.5,
+            "low": 1.2,
+            "high": 2.9,
             "direction": "+",
-            "text": "+2.1% to +5.5%"
+            "text": "+1.2% to +2.9%"
           }
         },
         {
           "role": "supporting",
-          "text": "Imperial Brands surges amid Altria bid speculation, adding momentum to the broader market rebound",
+          "text": "The overall market rally lifts energy shares alongside mining and technology stocks.",
           "forecast": {
-            "low": 2.1,
-            "high": 5.5,
+            "low": 1.2,
+            "high": 2.9,
             "direction": "+",
-            "text": "+2.1% to +5.5%"
+            "text": "+1.2% to +2.9%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "No direct rates event is cited, so the impact is primarily from commodity-driven momentum.",
+          "forecast": {
+            "low": 1.2,
+            "high": 2.9,
+            "direction": "+",
+            "text": "+1.2% to +2.9%"
           }
         }
       ]
@@ -92,47 +82,27 @@
     {
       "sector": "Financials",
       "read": "Neutral",
-      "score": 60,
-      "event_type": "regulatory",
+      "score": 58,
+      "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "Regulatory changes are boosting the banking sector, driving a broader FTSE\u202f100 rebound.",
+          "text": "Barclays\u2019 2.7% share price rise lifts the Financials sector.",
           "forecast": {
-            "low": 1.8,
-            "high": 5.4,
+            "low": 2.3,
+            "high": 5.8,
             "direction": "+",
-            "text": "+1.8% to +5.4%"
+            "text": "+2.3% to +5.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "FTSE\u202f100 gains are led by banks, defence and industrial stocks, indicating a sector\u2011wide lift.",
+          "text": "Barclays\u2019 performance signals investor confidence in banking stocks.",
           "forecast": {
-            "low": 1.8,
-            "high": 5.4,
+            "low": 2.3,
+            "high": 5.8,
             "direction": "+",
-            "text": "+1.8% to +5.4%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "The index remains stable above key moving averages, suggesting continued resilience.",
-          "forecast": {
-            "low": 1.8,
-            "high": 5.4,
-            "direction": "+",
-            "text": "+1.8% to +5.4%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Analysts predict two low\u2011priced FTSE\u202f100 banks could grow 43% and 36% over the next year, adding upside potential.",
-          "forecast": {
-            "low": 1.8,
-            "high": 5.4,
-            "direction": "+",
-            "text": "+1.8% to +5.4%"
+            "text": "+2.3% to +5.8%"
           }
         }
       ]
@@ -140,37 +110,27 @@
     {
       "sector": "Healthcare",
       "read": "Bullish",
-      "score": 70,
-      "event_type": "regulatory",
+      "score": 61,
+      "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "GSK\u2019s encouraging trial win for its ultra\u2011long\u2011acting biologic strengthens the Healthcare sector\u2019s bullish outlook.",
+          "text": "AstraZeneca share price decline dampens Healthcare sector sentiment.",
           "forecast": {
-            "low": 2.8,
-            "high": 7.0,
+            "low": 1.2,
+            "high": 3.0,
             "direction": "+",
-            "text": "+2.8% to +7.0%"
+            "text": "+1.2% to +3.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "FTSE 100 gains driven by strong performance in banks, defence and industrial stocks, lifting the broader market.",
+          "text": "AstraZeneca\u2019s mid\u2011day drop of over 1% weakens the sector\u2019s overall bullish stance.",
           "forecast": {
-            "low": 2.8,
-            "high": 7.0,
+            "low": 1.2,
+            "high": 3.0,
             "direction": "+",
-            "text": "+2.8% to +7.0%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Imperial Brands\u2019 surge, following Altria\u2019s bid consideration, adds momentum to the sector\u2019s positive sentiment.",
-          "forecast": {
-            "low": 2.8,
-            "high": 7.0,
-            "direction": "+",
-            "text": "+2.8% to +7.0%"
+            "text": "+1.2% to +3.0%"
           }
         }
       ]
@@ -178,47 +138,47 @@
     {
       "sector": "Materials",
       "read": "Bullish",
-      "score": 68,
-      "event_type": "regulatory",
+      "score": 67,
+      "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "Regulatory approval of the Altria\u2011Imperial Brands merger lifts the materials sector.",
+          "text": "Higher metals prices are driving a rally in mining stocks, boosting the Materials sector.",
           "forecast": {
             "low": 2.0,
-            "high": 4.8,
+            "high": 4.7,
             "direction": "+",
-            "text": "+2.0% to +4.8%"
+            "text": "+2.0% to +4.7%"
           }
         },
         {
           "role": "supporting",
-          "text": "FTSE\u202f100 gains driven by industrial stocks, boosting materials exposure",
+          "text": "Glencore shares jumped 4.6% amid the broader miner rally",
           "forecast": {
             "low": 2.0,
-            "high": 4.8,
+            "high": 4.7,
             "direction": "+",
-            "text": "+2.0% to +4.8%"
+            "text": "+2.0% to +4.7%"
           }
         },
         {
           "role": "supporting",
-          "text": "Gold\u2011mining stocks bottomed after GDX reversal, supporting the sector\u2019s rebound",
+          "text": "Miners led the FTSE 100 gains as metals rebound",
           "forecast": {
             "low": 2.0,
-            "high": 4.8,
+            "high": 4.7,
             "direction": "+",
-            "text": "+2.0% to +4.8%"
+            "text": "+2.0% to +4.7%"
           }
         },
         {
           "role": "supporting",
-          "text": "ASX miners surged, defying a broader Wall Street rout, adding momentum",
+          "text": "The sector\u2019s bullish sentiment is reinforced by the overall upward momentum in the index",
           "forecast": {
             "low": 2.0,
-            "high": 4.8,
+            "high": 4.7,
             "direction": "+",
-            "text": "+2.0% to +4.8%"
+            "text": "+2.0% to +4.7%"
           }
         }
       ]
@@ -226,47 +186,17 @@
     {
       "sector": "Technology",
       "read": "Neutral",
-      "score": 49,
-      "event_type": "regulatory",
+      "score": 53,
+      "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "The Technology sector is being weighed down by a recent sell\u2011off amid heightened regulatory scrutiny, which has dampened investor sentiment.",
+          "text": "Technology sector remains largely unaffected by the current headline activity, which focuses on mining, telecom, and consumer staples.",
           "forecast": {
-            "low": 2.0,
-            "high": 5.1,
-            "direction": "-",
-            "text": "-2.0% to -5.1%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Tech stocks have pulled back, dragging the FTSE 100 lower despite gains in banks, defence and industrials.",
-          "forecast": {
-            "low": 2.0,
-            "high": 5.1,
-            "direction": "-",
-            "text": "-2.0% to -5.1%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Regulatory concerns over data privacy and antitrust investigations have increased uncertainty for technology companies.",
-          "forecast": {
-            "low": 2.0,
-            "high": 5.1,
-            "direction": "-",
-            "text": "-2.0% to -5.1%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "The broader market rebound is being led by non\u2011tech sectors, highlighting the relative weakness of the technology segment.",
-          "forecast": {
-            "low": 2.0,
-            "high": 5.1,
-            "direction": "-",
-            "text": "-2.0% to -5.1%"
+            "low": 2.7,
+            "high": 6.4,
+            "direction": "+",
+            "text": "+2.7% to +6.4%"
           }
         }
       ]

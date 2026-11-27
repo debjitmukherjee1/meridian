@@ -1,148 +1,118 @@
 {
-  "updated_at": "2026-11-26 16:17 UTC",
+  "updated_at": "2026-11-27 16:01 UTC",
   "market": "JP",
   "macro_theme": "Consumer demand signals dominate headlines",
   "signals": [
     {
       "sector": "Consumer Discretionary",
-      "read": "Bullish",
-      "score": 64,
+      "read": "Neutral",
+      "score": 58,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "AI\u2011driven consumer tech demand surge is propelling the Consumer Discretionary sector higher.",
+          "text": "The Consumer Discretionary sector is being buoyed by a sudden surge in demand for high\u2011end luxury watches from young, affluent Thai consumers.",
           "forecast": {
-            "low": 3.2,
-            "high": 7.0,
+            "low": 2.9,
+            "high": 6.4,
             "direction": "+",
-            "text": "+3.2% to +7.0%"
+            "text": "+2.9% to +6.4%"
           }
         },
         {
           "role": "supporting",
-          "text": "Investor appetite for AI\u2011related stocks is lifting the Nikkei and supporting domestic discretionary names",
+          "text": "Indonesia, the Philippines and the UAE are initiating talks to join the CPTPP trade pact, potentially expanding market access for discretionary goods.",
           "forecast": {
-            "low": 3.2,
-            "high": 7.0,
+            "low": 2.9,
+            "high": 6.4,
             "direction": "+",
-            "text": "+3.2% to +7.0%"
+            "text": "+2.9% to +6.4%"
           }
         },
         {
           "role": "supporting",
-          "text": "Governance reform and share buybacks are rewarding investors in Japanese discretionary equities",
+          "text": "Japanese automakers are experiencing double\u2011digit declines in China sales, which could shift consumer spending toward alternative discretionary categories.",
           "forecast": {
-            "low": 3.2,
-            "high": 7.0,
+            "low": 2.9,
+            "high": 6.4,
             "direction": "+",
-            "text": "+3.2% to +7.0%"
+            "text": "+2.9% to +6.4%"
           }
         },
         {
           "role": "supporting",
-          "text": "Automakers\u2019 planned over \u00a5134\u202fbn investment in Thailand signals rising auto demand and supports related consumer discretionary stocks",
+          "text": "Suzuki\u2019s decision to produce rare metal\u2011free EV batteries domestically may attract environmentally conscious consumers, boosting demand for premium automotive products.",
           "forecast": {
-            "low": 3.2,
-            "high": 7.0,
+            "low": 2.9,
+            "high": 6.4,
             "direction": "+",
-            "text": "+3.2% to +7.0%"
+            "text": "+2.9% to +6.4%"
           }
         }
       ]
     },
     {
       "sector": "Energy",
-      "read": "Bullish",
-      "score": 64,
+      "read": "Neutral",
+      "score": 54,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "INPEX\u2019s upward\u2011revised profit forecast, driven by strong LNG and high crude prices, is propelling the Energy sector higher.",
+          "text": "No discernible impact on the Energy sector from the provided headlines.",
           "forecast": {
-            "low": 3.2,
-            "high": 7.7,
+            "low": 2.7,
+            "high": 6.5,
             "direction": "+",
-            "text": "+3.2% to +7.7%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "INPEX\u2019s record\u2011high profit forecast was revised upward in Q3, boosting investor sentiment.",
-          "forecast": {
-            "low": 3.2,
-            "high": 7.7,
-            "direction": "+",
-            "text": "+3.2% to +7.7%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "LNG and high crude prices offset lower oil sales, supporting overall profitability.",
-          "forecast": {
-            "low": 3.2,
-            "high": 7.7,
-            "direction": "+",
-            "text": "+3.2% to +7.7%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Q3 financial results show record profits despite a decline in oil revenue, underscoring resilience in the sector.",
-          "forecast": {
-            "low": 3.2,
-            "high": 7.7,
-            "direction": "+",
-            "text": "+3.2% to +7.7%"
+            "text": "+2.7% to +6.5%"
           }
         }
       ]
     },
     {
       "sector": "Financials",
-      "read": "Bullish",
-      "score": 68,
+      "read": "Neutral",
+      "score": 54,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "AI momentum is the primary driver of the Financials sector\u2019s bullish sentiment.",
+          "text": "Volatility in AI-related stocks is dampening sentiment for Japanese financials, contributing to the sector\u2019s mixed outlook.",
           "forecast": {
-            "low": 2.0,
-            "high": 4.8,
+            "low": 1.6,
+            "high": 3.8,
             "direction": "+",
-            "text": "+2.0% to +4.8%"
+            "text": "+1.6% to +3.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "Investor appetite for AI\u2011related stocks is boosting the Nikkei index.",
+          "text": "The Nikkei\u2019s AI correction may be nearing a bottom, suggesting potential upside for banks that hold AI exposure.",
           "forecast": {
-            "low": 2.0,
-            "high": 4.8,
+            "low": 1.6,
+            "high": 3.8,
             "direction": "+",
-            "text": "+2.0% to +4.8%"
+            "text": "+1.6% to +3.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "Chip dip\u2011buying is contributing to broader market gains.",
+          "text": "Japan bank shares risk further unwind as funding costs bite, adding pressure to the sector.",
           "forecast": {
-            "low": 2.0,
-            "high": 4.8,
+            "low": 1.6,
+            "high": 3.8,
             "direction": "+",
-            "text": "+2.0% to +4.8%"
+            "text": "+1.6% to +3.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "Governance reform and buybacks are rewarding investors in Japanese equities.",
+          "text": "The large purchase of Mitsubishi UFJ Financial Group shares by Toronto Dominion Bank indicates significant institutional interest that could influence market perception.",
           "forecast": {
-            "low": 2.0,
-            "high": 4.8,
+            "low": 1.6,
+            "high": 3.8,
             "direction": "+",
-            "text": "+2.0% to +4.8%"
+            "text": "+1.6% to +3.8%"
           }
         }
       ]
@@ -150,7 +120,7 @@
     {
       "sector": "Healthcare",
       "read": "Neutral",
-      "score": 57,
+      "score": 54,
       "event_type": "demand_shock",
       "drivers": [
         {
@@ -158,9 +128,9 @@
           "text": "No clear impact on the Healthcare sector from the provided headlines.",
           "forecast": {
             "low": 1.1,
-            "high": 2.9,
+            "high": 2.7,
             "direction": "+",
-            "text": "+1.1% to +2.9%"
+            "text": "+1.1% to +2.7%"
           }
         }
       ]
@@ -173,7 +143,7 @@
       "drivers": [
         {
           "role": "main",
-          "text": "AI momentum is driving a bullish sentiment in the Industrials sector, as investors increasingly favor AI-related industrial stocks.",
+          "text": "A shift in the defense supply chain is driving demand for industrial equipment and boosting the Industrials sector.",
           "forecast": {
             "low": 2.3,
             "high": 5.2,
@@ -183,7 +153,7 @@
         },
         {
           "role": "supporting",
-          "text": "Defense supply chain shift is boosting demand for industrial equipment, notably Mitsubishi Heavy Industries\u2019 exposure to drone manufacturing.",
+          "text": "Investors are buying back AI shares, indicating increased demand for advanced manufacturing and robotics within the sector.",
           "forecast": {
             "low": 2.3,
             "high": 5.2,
@@ -193,17 +163,7 @@
         },
         {
           "role": "supporting",
-          "text": "Investor appetite for AI-related stocks is lifting the Nikkei index, which includes a significant industrial component.",
-          "forecast": {
-            "low": 2.3,
-            "high": 5.2,
-            "direction": "+",
-            "text": "+2.3% to +5.2%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Chip dip-buying has provided a short-term boost to industrial shares, supporting the broader bullish trend.",
+          "text": "Indonesia, Philippines and UAE are beginning talks to join the CPTPP trade pact, potentially expanding market access for industrial goods.",
           "forecast": {
             "low": 2.3,
             "high": 5.2,
@@ -215,48 +175,48 @@
     },
     {
       "sector": "Technology",
-      "read": "Bearish",
-      "score": 39,
+      "read": "Neutral",
+      "score": 52,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "The Technology sector is bearish due to a demand shock triggered by a sharp AI selloff.",
+          "text": "AI\u2011driven demand shock is driving volatility in the Technology sector.",
           "forecast": {
-            "low": 2.4,
-            "high": 5.5,
-            "direction": "-",
-            "text": "-2.4% to -5.5%"
+            "low": 2.1,
+            "high": 4.7,
+            "direction": "+",
+            "text": "+2.1% to +4.7%"
           }
         },
         {
           "role": "supporting",
-          "text": "SoftBank stock plunged 15% amid the AI selloff, eroding market confidence in the sector",
+          "text": "Nikkei 225 climbs as investors buy back AI shares",
           "forecast": {
-            "low": 2.4,
-            "high": 5.5,
-            "direction": "-",
-            "text": "-2.4% to -5.5%"
+            "low": 2.1,
+            "high": 4.7,
+            "direction": "+",
+            "text": "+2.1% to +4.7%"
           }
         },
         {
           "role": "supporting",
-          "text": "Japanese regulators are inspecting AI firms for poor safeguards, adding uncertainty to future earnings",
+          "text": "SoftBank shares bounce 7.7% amid credit market warning",
           "forecast": {
-            "low": 2.4,
-            "high": 5.5,
-            "direction": "-",
-            "text": "-2.4% to -5.5%"
+            "low": 2.1,
+            "high": 4.7,
+            "direction": "+",
+            "text": "+2.1% to +4.7%"
           }
         },
         {
           "role": "supporting",
-          "text": "Investor appetite for AI-related stocks has been tempered by concerns over yen risks and regulatory scrutiny",
+          "text": "Sony shares gap down reflecting sector\u2011wide uncertainty",
           "forecast": {
-            "low": 2.4,
-            "high": 5.5,
-            "direction": "-",
-            "text": "-2.4% to -5.5%"
+            "low": 2.1,
+            "high": 4.7,
+            "direction": "+",
+            "text": "+2.1% to +4.7%"
           }
         }
       ]
