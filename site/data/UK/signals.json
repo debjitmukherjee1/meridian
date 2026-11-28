@@ -1,80 +1,60 @@
 {
-  "updated_at": "2026-11-27 16:01 UTC",
+  "updated_at": "2026-11-28 14:57 UTC",
   "market": "UK",
-  "macro_theme": "Rate-policy commentary dominates headlines",
+  "macro_theme": "Consumer demand signals dominate headlines",
   "signals": [
     {
       "sector": "Consumer Staples",
       "read": "Neutral",
-      "score": 56,
-      "event_type": "rates",
+      "score": 54,
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "McDonald\u2019s shares rose, supporting the Consumer Staples sector\u2019s bullish sentiment.",
+          "text": "Demand shock driven by a surge in Tesco retail sales is lifting the Consumer Staples sector.",
           "forecast": {
             "low": 1.1,
-            "high": 2.2,
+            "high": 2.7,
             "direction": "+",
-            "text": "+1.1% to +2.2%"
+            "text": "+1.1% to +2.7%"
           }
         },
         {
           "role": "supporting",
-          "text": "McDonald\u2019s value\u2011menu test expansion drove its 1.00% gain.",
+          "text": "Tesco shares are experiencing heightened buying activity, reflecting increased consumer spending on staples.",
           "forecast": {
             "low": 1.1,
-            "high": 2.2,
+            "high": 2.7,
             "direction": "+",
-            "text": "+1.1% to +2.2%"
+            "text": "+1.1% to +2.7%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "The sector\u2019s overall sentiment is buoyed by the positive momentum in the largest grocery retailer, offsetting broader market volatility.",
+          "forecast": {
+            "low": 1.1,
+            "high": 2.7,
+            "direction": "+",
+            "text": "+1.1% to +2.7%"
           }
         }
       ]
     },
     {
       "sector": "Energy",
-      "read": "Neutral",
-      "score": 58,
-      "event_type": "rates",
+      "read": "Bullish",
+      "score": 64,
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "The Energy sector benefits from a modest lift driven by the broader market rally, largely propelled by miners and a rebound in metals prices.",
+          "text": "No direct evidence of an energy sector impact is present in the provided headlines.",
           "forecast": {
-            "low": 1.2,
-            "high": 2.9,
+            "low": 3.2,
+            "high": 7.7,
             "direction": "+",
-            "text": "+1.2% to +2.9%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Rising metals prices increase demand for energy inputs, supporting energy company earnings.",
-          "forecast": {
-            "low": 1.2,
-            "high": 2.9,
-            "direction": "+",
-            "text": "+1.2% to +2.9%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "The overall market rally lifts energy shares alongside mining and technology stocks.",
-          "forecast": {
-            "low": 1.2,
-            "high": 2.9,
-            "direction": "+",
-            "text": "+1.2% to +2.9%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "No direct rates event is cited, so the impact is primarily from commodity-driven momentum.",
-          "forecast": {
-            "low": 1.2,
-            "high": 2.9,
-            "direction": "+",
-            "text": "+1.2% to +2.9%"
+            "text": "+3.2% to +7.7%"
           }
         }
       ]
@@ -82,103 +62,103 @@
     {
       "sector": "Financials",
       "read": "Neutral",
-      "score": 58,
-      "event_type": "rates",
+      "score": 57,
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Barclays\u2019 2.7% share price rise lifts the Financials sector.",
+          "text": "Investor demand for FTSE 100 financials shares has surged, driving the sector higher.",
           "forecast": {
-            "low": 2.3,
-            "high": 5.8,
+            "low": 1.7,
+            "high": 4.0,
             "direction": "+",
-            "text": "+2.3% to +5.8%"
+            "text": "+1.7% to +4.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "Barclays\u2019 performance signals investor confidence in banking stocks.",
+          "text": "High-yield passive income shares are attracting significant retail and institutional purchases.",
           "forecast": {
-            "low": 2.3,
-            "high": 5.8,
+            "low": 1.7,
+            "high": 4.0,
             "direction": "+",
-            "text": "+2.3% to +5.8%"
+            "text": "+1.7% to +4.0%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "A FTSE 100 growth stock is forecast to climb 40% in a year, adding momentum to the sector.",
+          "forecast": {
+            "low": 1.7,
+            "high": 4.0,
+            "direction": "+",
+            "text": "+1.7% to +4.0%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Mining shares led the weekly gain, lifting the overall index and supporting financials exposure.",
+          "forecast": {
+            "low": 1.7,
+            "high": 4.0,
+            "direction": "+",
+            "text": "+1.7% to +4.0%"
           }
         }
       ]
     },
     {
       "sector": "Healthcare",
-      "read": "Bullish",
-      "score": 61,
-      "event_type": "rates",
+      "read": "Neutral",
+      "score": 57,
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "AstraZeneca share price decline dampens Healthcare sector sentiment.",
+          "text": "AstraZeneca share price fell over 1% in midday London trading, dampening the Healthcare sector's bullish sentiment.",
           "forecast": {
-            "low": 1.2,
-            "high": 3.0,
+            "low": 1.1,
+            "high": 2.9,
             "direction": "+",
-            "text": "+1.2% to +3.0%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "AstraZeneca\u2019s mid\u2011day drop of over 1% weakens the sector\u2019s overall bullish stance.",
-          "forecast": {
-            "low": 1.2,
-            "high": 3.0,
-            "direction": "+",
-            "text": "+1.2% to +3.0%"
+            "text": "+1.1% to +2.9%"
           }
         }
       ]
     },
     {
       "sector": "Materials",
-      "read": "Bullish",
-      "score": 67,
-      "event_type": "rates",
+      "read": "Neutral",
+      "score": 59,
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Higher metals prices are driving a rally in mining stocks, boosting the Materials sector.",
+          "text": "The Materials sector is buoyed by a surge in mining shares, driven by a gold rebound and accelerated buybacks.",
           "forecast": {
-            "low": 2.0,
-            "high": 4.7,
+            "low": 2.9,
+            "high": 6.5,
             "direction": "+",
-            "text": "+2.0% to +4.7%"
+            "text": "+2.9% to +6.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "Glencore shares jumped 4.6% amid the broader miner rally",
+          "text": "Mining shares led the weekly gain in the FTSE 100.",
           "forecast": {
-            "low": 2.0,
-            "high": 4.7,
+            "low": 2.9,
+            "high": 6.5,
             "direction": "+",
-            "text": "+2.0% to +4.7%"
+            "text": "+2.9% to +6.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "Miners led the FTSE 100 gains as metals rebound",
+          "text": "Zijin Mining\u2019s buyback pace quickened as the gold rebound lifted mining stocks.",
           "forecast": {
-            "low": 2.0,
-            "high": 4.7,
+            "low": 2.9,
+            "high": 6.5,
             "direction": "+",
-            "text": "+2.0% to +4.7%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "The sector\u2019s bullish sentiment is reinforced by the overall upward momentum in the index",
-          "forecast": {
-            "low": 2.0,
-            "high": 4.7,
-            "direction": "+",
-            "text": "+2.0% to +4.7%"
+            "text": "+2.9% to +6.5%"
           }
         }
       ]
@@ -186,17 +166,17 @@
     {
       "sector": "Technology",
       "read": "Neutral",
-      "score": 53,
-      "event_type": "rates",
+      "score": 59,
+      "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Technology sector remains largely unaffected by the current headline activity, which focuses on mining, telecom, and consumer staples.",
+          "text": "Technology sector remains bullish driven by a demand shock event, with no direct impact from the current FTSE 100 movements.",
           "forecast": {
-            "low": 2.7,
-            "high": 6.4,
+            "low": 2.4,
+            "high": 5.3,
             "direction": "+",
-            "text": "+2.7% to +6.4%"
+            "text": "+2.4% to +5.3%"
           }
         }
       ]

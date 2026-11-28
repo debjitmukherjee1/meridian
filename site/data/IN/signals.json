@@ -1,100 +1,100 @@
 {
-  "updated_at": "2026-11-27 16:01 UTC",
+  "updated_at": "2026-11-28 14:57 UTC",
   "market": "IN",
   "macro_theme": "Consumer demand signals dominate headlines",
   "signals": [
     {
       "sector": "Consumer Discretionary",
       "read": "Neutral",
-      "score": 44,
+      "score": 52,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "A sharp rise in crude oil prices has triggered profit\u2011booking and higher input costs, driving a broad sell\u2011off in the Consumer Discretionary sector.",
+          "text": "Weak domestic demand amid economic slowdown is dampening the Consumer Discretionary sector.",
           "forecast": {
-            "low": 2.8,
-            "high": 6.2,
-            "direction": "-",
-            "text": "-2.8% to -6.2%"
+            "low": 2.6,
+            "high": 5.7,
+            "direction": "+",
+            "text": "+2.6% to +5.7%"
           }
         },
         {
           "role": "supporting",
-          "text": "Profit booking amid higher crude prices has weighed on market sentiment",
+          "text": "Rupee recovery has attracted foreign investors, but the rally has not translated into sustained consumer spending.",
           "forecast": {
-            "low": 2.8,
-            "high": 6.2,
-            "direction": "-",
-            "text": "-2.8% to -6.2%"
+            "low": 2.6,
+            "high": 5.7,
+            "direction": "+",
+            "text": "+2.6% to +5.7%"
           }
         },
         {
           "role": "supporting",
-          "text": "Rising crude oil prices have increased operating costs for discretionary firms",
+          "text": "Weekly consolidation and profit booking signal cautious sentiment among investors.",
           "forecast": {
-            "low": 2.8,
-            "high": 6.2,
-            "direction": "-",
-            "text": "-2.8% to -6.2%"
+            "low": 2.6,
+            "high": 5.7,
+            "direction": "+",
+            "text": "+2.6% to +5.7%"
           }
         },
         {
           "role": "supporting",
-          "text": "Market volatility following the oil price spike has amplified selling pressure",
+          "text": "The sector remains sensitive to broader market volatility, reflected in the recent Sensex crash and Nifty decline.",
           "forecast": {
-            "low": 2.8,
-            "high": 6.2,
-            "direction": "-",
-            "text": "-2.8% to -6.2%"
+            "low": 2.6,
+            "high": 5.7,
+            "direction": "+",
+            "text": "+2.6% to +5.7%"
           }
         }
       ]
     },
     {
       "sector": "Consumer Staples",
-      "read": "Bearish",
-      "score": 39,
+      "read": "Neutral",
+      "score": 49,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Sharp rise in crude oil prices has triggered profit booking and a demand shock for consumer staples, dragging the sector lower.",
+          "text": "The rupee\u2019s rebound from a record low has triggered a demand shock that is lifting consumer staples sentiment.",
           "forecast": {
-            "low": 1.2,
-            "high": 3.0,
+            "low": 1.0,
+            "high": 2.5,
             "direction": "-",
-            "text": "-1.2% to -3.0%"
+            "text": "-1.0% to -2.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "Crude oil near $96 has increased input costs for FMCG and packaged food companies.",
+          "text": "Foreign institutional investors\u2019 return has bolstered equity markets, supporting consumer\u2011sector stocks.",
           "forecast": {
-            "low": 1.2,
-            "high": 3.0,
+            "low": 1.0,
+            "high": 2.5,
             "direction": "-",
-            "text": "-1.2% to -3.0%"
+            "text": "-1.0% to -2.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "Profit booking after a four\u2011week rally has pressured the market.",
+          "text": "Banking and consumer stocks have recently lifted the Sensex, providing a tailwind for staples.",
           "forecast": {
-            "low": 1.2,
-            "high": 3.0,
+            "low": 1.0,
+            "high": 2.5,
             "direction": "-",
-            "text": "-1.2% to -3.0%"
+            "text": "-1.0% to -2.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "The demand shock event is reflected in the sector\u2019s bearish sentiment of 39/100.",
+          "text": "Profit booking and market consolidation are tempering gains, creating a mixed outlook for the sector.",
           "forecast": {
-            "low": 1.2,
-            "high": 3.0,
+            "low": 1.0,
+            "high": 2.5,
             "direction": "-",
-            "text": "-1.2% to -3.0%"
+            "text": "-1.0% to -2.5%"
           }
         }
       ]
@@ -102,85 +102,55 @@
     {
       "sector": "Energy",
       "read": "Neutral",
-      "score": 43,
+      "score": 55,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Rising crude oil prices, driven by a demand shock, are dragging down the Energy sector.",
+          "text": "Demand shock is boosting oil marketing stocks in the Energy sector.",
           "forecast": {
-            "low": 2.9,
-            "high": 6.8,
-            "direction": "-",
-            "text": "-2.9% to -6.8%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Profit booking by investors is amplifying the sell\u2011off",
-          "forecast": {
-            "low": 2.9,
-            "high": 6.8,
-            "direction": "-",
-            "text": "-2.9% to -6.8%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Crude oil prices nearing $96 are tightening margins for energy companies",
-          "forecast": {
-            "low": 2.9,
-            "high": 6.8,
-            "direction": "-",
-            "text": "-2.9% to -6.8%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "The demand shock is reflected in broader market weakness, as seen in the Sensex decline",
-          "forecast": {
-            "low": 2.9,
-            "high": 6.8,
-            "direction": "-",
-            "text": "-2.9% to -6.8%"
+            "low": 2.8,
+            "high": 6.6,
+            "direction": "+",
+            "text": "+2.8% to +6.6%"
           }
         }
       ]
     },
     {
       "sector": "Financials",
-      "read": "Bearish",
-      "score": 34,
+      "read": "Neutral",
+      "score": 51,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Profit booking and rising crude prices are dragging the Financials sector down.",
+          "text": "Profit booking and cautious sentiment amid a rupee rebound are weighing on the Financials sector, leading to a mixed outlook.",
           "forecast": {
-            "low": 2.0,
-            "high": 4.6,
-            "direction": "-",
-            "text": "-2.0% to -4.6%"
+            "low": 1.5,
+            "high": 3.6,
+            "direction": "+",
+            "text": "+1.5% to +3.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Despite strong FII inflows, the market fell as profit taking took place.",
+          "text": "Profit booking by firms following a period of consolidation",
           "forecast": {
-            "low": 2.0,
-            "high": 4.6,
-            "direction": "-",
-            "text": "-2.0% to -4.6%"
+            "low": 1.5,
+            "high": 3.6,
+            "direction": "+",
+            "text": "+1.5% to +3.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Crude oil prices nearing $96 are contributing to broader market weakness, affecting financials.",
+          "text": "Rupee recovery attracting foreign investors, but the effect on financials remains uncertain",
           "forecast": {
-            "low": 2.0,
-            "high": 4.6,
-            "direction": "-",
-            "text": "-2.0% to -4.6%"
+            "low": 1.5,
+            "high": 3.6,
+            "direction": "+",
+            "text": "+1.5% to +3.6%"
           }
         }
       ]
@@ -188,75 +158,55 @@
     {
       "sector": "Healthcare",
       "read": "Neutral",
-      "score": 49,
+      "score": 52,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Johnson & Johnson\u2019s performance relative to other pharma stocks is contributing to the mixed sentiment in the Healthcare sector.",
+          "text": "No direct impact on the Healthcare sector is evident from the provided headlines.",
           "forecast": {
             "low": 1.0,
-            "high": 2.5,
-            "direction": "-",
-            "text": "-1.0% to -2.5%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "The headline indicates a comparison of J&J\u2019s stock performance with other pharma stocks, suggesting that J&J\u2019s results are a key factor in the sector\u2019s outlook.",
-          "forecast": {
-            "low": 1.0,
-            "high": 2.5,
-            "direction": "-",
-            "text": "-1.0% to -2.5%"
+            "high": 2.6,
+            "direction": "+",
+            "text": "+1.0% to +2.6%"
           }
         }
       ]
     },
     {
       "sector": "Technology",
-      "read": "Bearish",
-      "score": 20,
+      "read": "Neutral",
+      "score": 40,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Profit booking and rising crude prices are dragging the Technology sector down",
+          "text": "The Technology sector is facing a demand shock as IT growth is expected to slow for 12\u201318 months.",
           "forecast": {
-            "low": 3.2,
-            "high": 7.2,
+            "low": 2.4,
+            "high": 5.4,
             "direction": "-",
-            "text": "-3.2% to -7.2%"
+            "text": "-2.4% to -5.4%"
           }
         },
         {
           "role": "supporting",
-          "text": "Rising crude prices are weighing on the market",
+          "text": "Weekly consolidation and profit booking are dampening investor sentiment",
           "forecast": {
-            "low": 3.2,
-            "high": 7.2,
+            "low": 2.4,
+            "high": 5.4,
             "direction": "-",
-            "text": "-3.2% to -7.2%"
+            "text": "-2.4% to -5.4%"
           }
         },
         {
           "role": "supporting",
-          "text": "Profit booking is contributing to the sell\u2011off",
+          "text": "Foreign investors are returning, but the rupee\u2019s rebound may not fully offset the slowdown",
           "forecast": {
-            "low": 3.2,
-            "high": 7.2,
+            "low": 2.4,
+            "high": 5.4,
             "direction": "-",
-            "text": "-3.2% to -7.2%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Energy sector weakness is impacting IT stocks",
-          "forecast": {
-            "low": 3.2,
-            "high": 7.2,
-            "direction": "-",
-            "text": "-3.2% to -7.2%"
+            "text": "-2.4% to -5.4%"
           }
         }
       ]

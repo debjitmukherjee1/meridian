@@ -1,52 +1,42 @@
 {
-  "updated_at": "2026-11-27 16:01 UTC",
+  "updated_at": "2026-11-28 14:57 UTC",
   "market": "JP",
-  "macro_theme": "Consumer demand signals dominate headlines",
+  "macro_theme": "Rate-policy commentary dominates headlines",
   "signals": [
     {
       "sector": "Consumer Discretionary",
       "read": "Neutral",
-      "score": 58,
-      "event_type": "demand_shock",
+      "score": 53,
+      "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "The Consumer Discretionary sector is being buoyed by a sudden surge in demand for high\u2011end luxury watches from young, affluent Thai consumers.",
+          "text": "Mixed sentiment in Consumer Discretionary is driven by Toyota\u2019s declining output and Japan\u2019s electronics resurgence.",
           "forecast": {
-            "low": 2.9,
-            "high": 6.4,
+            "low": 2.1,
+            "high": 4.8,
             "direction": "+",
-            "text": "+2.9% to +6.4%"
+            "text": "+2.1% to +4.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "Indonesia, the Philippines and the UAE are initiating talks to join the CPTPP trade pact, potentially expanding market access for discretionary goods.",
+          "text": "Toyota\u2019s global output and sales fell for the fourth straight month in October, weighing on auto\u2011related discretionary stocks.",
           "forecast": {
-            "low": 2.9,
-            "high": 6.4,
+            "low": 2.1,
+            "high": 4.8,
             "direction": "+",
-            "text": "+2.9% to +6.4%"
+            "text": "+2.1% to +4.8%"
           }
         },
         {
           "role": "supporting",
-          "text": "Japanese automakers are experiencing double\u2011digit declines in China sales, which could shift consumer spending toward alternative discretionary categories.",
+          "text": "Japan\u2019s electronics industry is experiencing a resurgence thanks to information technology and software, supporting tech\u2011related discretionary firms.",
           "forecast": {
-            "low": 2.9,
-            "high": 6.4,
+            "low": 2.1,
+            "high": 4.8,
             "direction": "+",
-            "text": "+2.9% to +6.4%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Suzuki\u2019s decision to produce rare metal\u2011free EV batteries domestically may attract environmentally conscious consumers, boosting demand for premium automotive products.",
-          "forecast": {
-            "low": 2.9,
-            "high": 6.4,
-            "direction": "+",
-            "text": "+2.9% to +6.4%"
+            "text": "+2.1% to +4.8%"
           }
         }
       ]
@@ -54,17 +44,17 @@
     {
       "sector": "Energy",
       "read": "Neutral",
-      "score": 54,
-      "event_type": "demand_shock",
+      "score": 55,
+      "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "No discernible impact on the Energy sector from the provided headlines.",
+          "text": "No direct impact on the Energy sector is evident from the provided headlines.",
           "forecast": {
-            "low": 2.7,
-            "high": 6.5,
+            "low": 1.1,
+            "high": 2.8,
             "direction": "+",
-            "text": "+2.7% to +6.5%"
+            "text": "+1.1% to +2.8%"
           }
         }
       ]
@@ -72,47 +62,37 @@
     {
       "sector": "Financials",
       "read": "Neutral",
-      "score": 54,
-      "event_type": "demand_shock",
+      "score": 55,
+      "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "Volatility in AI-related stocks is dampening sentiment for Japanese financials, contributing to the sector\u2019s mixed outlook.",
+          "text": "Rising interest rates are boosting financial sector earnings.",
           "forecast": {
-            "low": 1.6,
-            "high": 3.8,
+            "low": 2.2,
+            "high": 5.5,
             "direction": "+",
-            "text": "+1.6% to +3.8%"
+            "text": "+2.2% to +5.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "The Nikkei\u2019s AI correction may be nearing a bottom, suggesting potential upside for banks that hold AI exposure.",
+          "text": "Mitsubishi UFJ Financial Group shares were purchased by Toronto Dominion Bank, signaling cross\u2011border investment activity.",
           "forecast": {
-            "low": 1.6,
-            "high": 3.8,
+            "low": 2.2,
+            "high": 5.5,
             "direction": "+",
-            "text": "+1.6% to +3.8%"
+            "text": "+2.2% to +5.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "Japan bank shares risk further unwind as funding costs bite, adding pressure to the sector.",
+          "text": "Nikkei\u2019s push toward the 60,000 mark reflects a strengthening Japanese market that supports domestic banks\u2019 loan growth.",
           "forecast": {
-            "low": 1.6,
-            "high": 3.8,
+            "low": 2.2,
+            "high": 5.5,
             "direction": "+",
-            "text": "+1.6% to +3.8%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "The large purchase of Mitsubishi UFJ Financial Group shares by Toronto Dominion Bank indicates significant institutional interest that could influence market perception.",
-          "forecast": {
-            "low": 1.6,
-            "high": 3.8,
-            "direction": "+",
-            "text": "+1.6% to +3.8%"
+            "text": "+2.2% to +5.5%"
           }
         }
       ]
@@ -120,17 +100,17 @@
     {
       "sector": "Healthcare",
       "read": "Neutral",
-      "score": 54,
-      "event_type": "demand_shock",
+      "score": 55,
+      "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "No clear impact on the Healthcare sector from the provided headlines.",
+          "text": "Healthcare sector remains bullish due to a favorable rates environment.",
           "forecast": {
             "low": 1.1,
-            "high": 2.7,
+            "high": 2.8,
             "direction": "+",
-            "text": "+1.1% to +2.7%"
+            "text": "+1.1% to +2.8%"
           }
         }
       ]
@@ -138,37 +118,17 @@
     {
       "sector": "Industrials",
       "read": "Neutral",
-      "score": 58,
-      "event_type": "demand_shock",
+      "score": 59,
+      "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "A shift in the defense supply chain is driving demand for industrial equipment and boosting the Industrials sector.",
+          "text": "The Industrials sector is buoyed by expectations of a dovish stance from the Bank of Japan, which is likely to keep rates low and support manufacturing and capital expenditure in the region.",
           "forecast": {
-            "low": 2.3,
-            "high": 5.2,
+            "low": 1.8,
+            "high": 4.1,
             "direction": "+",
-            "text": "+2.3% to +5.2%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Investors are buying back AI shares, indicating increased demand for advanced manufacturing and robotics within the sector.",
-          "forecast": {
-            "low": 2.3,
-            "high": 5.2,
-            "direction": "+",
-            "text": "+2.3% to +5.2%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Indonesia, Philippines and UAE are beginning talks to join the CPTPP trade pact, potentially expanding market access for industrial goods.",
-          "forecast": {
-            "low": 2.3,
-            "high": 5.2,
-            "direction": "+",
-            "text": "+2.3% to +5.2%"
+            "text": "+1.8% to +4.1%"
           }
         }
       ]
@@ -177,46 +137,36 @@
       "sector": "Technology",
       "read": "Neutral",
       "score": 52,
-      "event_type": "demand_shock",
+      "event_type": "rates",
       "drivers": [
         {
           "role": "main",
-          "text": "AI\u2011driven demand shock is driving volatility in the Technology sector.",
+          "text": "Geopolitical and policy uncertainty from Taiwan\u2019s political shifts and global rate expectations is weighing on the Technology sector.",
           "forecast": {
-            "low": 2.1,
-            "high": 4.7,
+            "low": 2.6,
+            "high": 6.2,
             "direction": "+",
-            "text": "+2.1% to +4.7%"
+            "text": "+2.6% to +6.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "Nikkei 225 climbs as investors buy back AI shares",
+          "text": "Taiwan\u2019s political turbulence\u2014KMT\u2019s loss in central city and democratic spectacle\u2014adds supply\u2011chain and market\u2011confidence concerns for tech firms.",
           "forecast": {
-            "low": 2.1,
-            "high": 4.7,
+            "low": 2.6,
+            "high": 6.2,
             "direction": "+",
-            "text": "+2.1% to +4.7%"
+            "text": "+2.6% to +6.2%"
           }
         },
         {
           "role": "supporting",
-          "text": "SoftBank shares bounce 7.7% amid credit market warning",
+          "text": "The Nikkei\u2019s focus on BOJ policy, Nvidia CEO testimony, and U.S. jobs data signals heightened sensitivity to monetary policy shifts that can affect tech valuations.",
           "forecast": {
-            "low": 2.1,
-            "high": 4.7,
+            "low": 2.6,
+            "high": 6.2,
             "direction": "+",
-            "text": "+2.1% to +4.7%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Sony shares gap down reflecting sector\u2011wide uncertainty",
-          "forecast": {
-            "low": 2.1,
-            "high": 4.7,
-            "direction": "+",
-            "text": "+2.1% to +4.7%"
+            "text": "+2.6% to +6.2%"
           }
         }
       ]

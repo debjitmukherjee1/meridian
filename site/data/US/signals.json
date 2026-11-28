@@ -1,138 +1,138 @@
 {
-  "updated_at": "2026-11-27 16:01 UTC",
+  "updated_at": "2026-11-28 14:57 UTC",
   "market": "US",
   "macro_theme": "Consumer demand signals dominate headlines",
   "signals": [
     {
       "sector": "Consumer Discretionary",
       "read": "Neutral",
-      "score": 56,
+      "score": 50,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Black Friday sales surge is driving a bullish sentiment in the Consumer Discretionary sector.",
+          "text": "The Consumer Discretionary sector is benefiting from a demand shock as consumer spending rises, driven by post\u2011COVID reopenings.",
           "forecast": {
-            "low": 2.8,
-            "high": 6.2,
+            "low": 2.5,
+            "high": 5.5,
             "direction": "+",
-            "text": "+2.8% to +6.2%"
+            "text": "+2.5% to +5.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "Chip discounts are boosting consumer spending during the Black Friday period.",
+          "text": "Consumer spending rose 2.1% from June as real spending increased 0.88%",
           "forecast": {
-            "low": 2.8,
-            "high": 6.2,
+            "low": 2.5,
+            "high": 5.5,
             "direction": "+",
-            "text": "+2.8% to +6.2%"
+            "text": "+2.5% to +5.5%"
           }
         },
         {
           "role": "supporting",
-          "text": "Apple\u2019s increased share of the U.S. smartphone market is lifting demand for related discretionary products.",
+          "text": "Covid\u201119 business reopenings are boosting consumer spending",
           "forecast": {
-            "low": 2.8,
-            "high": 6.2,
+            "low": 2.5,
+            "high": 5.5,
             "direction": "+",
-            "text": "+2.8% to +6.2%"
-          }
-        },
-        {
-          "role": "supporting",
-          "text": "Unexpected items highlighted in Black Friday 2026 are contributing to higher consumer spending.",
-          "forecast": {
-            "low": 2.8,
-            "high": 6.2,
-            "direction": "+",
-            "text": "+2.8% to +6.2%"
+            "text": "+2.5% to +5.5%"
           }
         }
       ]
     },
     {
       "sector": "Consumer Staples",
-      "read": "Bullish",
-      "score": 75,
+      "read": "Neutral",
+      "score": 48,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Black Friday sales surge boosts the Consumer Staples sector.",
+          "text": "Consumer Staples is experiencing heightened volatility as valuation concerns and mixed growth signals from key peers weigh on sentiment.",
           "forecast": {
-            "low": 1.5,
-            "high": 3.8,
-            "direction": "+",
-            "text": "+1.5% to +3.8%"
+            "low": 1.0,
+            "high": 2.6,
+            "direction": "-",
+            "text": "-1.0% to -2.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Retail spending spikes as consumers take advantage of holiday discounts, driving higher sales for staples brands.",
+          "text": "Valuation stretch of high\u2011growth peers like Marriott and Super Micro Computer raises risk of overvaluation in the sector",
           "forecast": {
-            "low": 1.5,
-            "high": 3.8,
-            "direction": "+",
-            "text": "+1.5% to +3.8%"
+            "low": 1.0,
+            "high": 2.6,
+            "direction": "-",
+            "text": "-1.0% to -2.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "The surge in discount-driven demand during the holiday period lifts earnings expectations for key consumer staples companies.",
+          "text": "Revenue surges in niche segments (e.g., bioAffinity\u2019s lung cancer test volume) create uneven growth expectations",
           "forecast": {
-            "low": 1.5,
-            "high": 3.8,
-            "direction": "+",
-            "text": "+1.5% to +3.8%"
+            "low": 1.0,
+            "high": 2.6,
+            "direction": "-",
+            "text": "-1.0% to -2.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Strong holiday sales momentum contributes to a broader market rally, reinforcing bullish sentiment in the sector.",
+          "text": "Recent deal activity, such as Coca\u2011Cola\u2019s Africa bottling agreement, introduces uncertainty about future earnings streams",
           "forecast": {
-            "low": 1.5,
-            "high": 3.8,
-            "direction": "+",
-            "text": "+1.5% to +3.8%"
+            "low": 1.0,
+            "high": 2.6,
+            "direction": "-",
+            "text": "-1.0% to -2.6%"
           }
         }
       ]
     },
     {
       "sector": "Energy",
-      "read": "Bullish",
-      "score": 74,
+      "read": "Neutral",
+      "score": 50,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "US pressure on OPEC and Iraq\u2019s push for higher production ceilings are likely to increase global oil supply, supporting a bullish outlook for the Energy sector.",
+          "text": "OPEC production quota disputes and escalating U.S. pressure on Iraq and Venezuela are tightening supply, pushing energy prices higher.",
           "forecast": {
-            "low": 3.7,
-            "high": 8.9,
+            "low": 2.5,
+            "high": 6.0,
             "direction": "+",
-            "text": "+3.7% to +8.9%"
+            "text": "+2.5% to +6.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "US is pressuring Venezuela and Iraq to leave OPEC, potentially expanding the global oil tap.",
+          "text": "OPEC tensions over production quotas are creating uncertainty and potential output cuts.",
           "forecast": {
-            "low": 3.7,
-            "high": 8.9,
+            "low": 2.5,
+            "high": 6.0,
             "direction": "+",
-            "text": "+3.7% to +8.9%"
+            "text": "+2.5% to +6.0%"
           }
         },
         {
           "role": "supporting",
-          "text": "Iraq is in talks with OPEC for a higher oil production ceiling, indicating a possible supply boost.",
+          "text": "U.S. pressure on Iraq and Venezuela could further constrain supply from key producers.",
           "forecast": {
-            "low": 3.7,
-            "high": 8.9,
+            "low": 2.5,
+            "high": 6.0,
             "direction": "+",
-            "text": "+3.7% to +8.9%"
+            "text": "+2.5% to +6.0%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Inflation expectations linked to energy prices suggest a sustained upward pressure on costs.",
+          "forecast": {
+            "low": 2.5,
+            "high": 6.0,
+            "direction": "+",
+            "text": "+2.5% to +6.0%"
           }
         }
       ]
@@ -140,113 +140,143 @@
     {
       "sector": "Financials",
       "read": "Neutral",
-      "score": 53,
+      "score": 48,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Demand shock from Black Friday chip discounts and Apple\u2019s increased smartphone market share is driving mixed sentiment in the Financials sector.",
+          "text": "Uncertainty over potential bubble bursts in technology and consumer sectors is weighing on the Financials sector.",
           "forecast": {
             "low": 1.6,
-            "high": 3.7,
-            "direction": "+",
-            "text": "+1.6% to +3.7%"
+            "high": 3.6,
+            "direction": "-",
+            "text": "-1.6% to -3.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Black Friday chip discounts are boosting sales volumes, creating a temporary demand surge.",
+          "text": "Tech valuation concerns, highlighted by Micron and Super Micro, raise fears of a broader market correction that could impact bank earnings.",
           "forecast": {
             "low": 1.6,
-            "high": 3.7,
-            "direction": "+",
-            "text": "+1.6% to +3.7%"
+            "high": 3.6,
+            "direction": "-",
+            "text": "-1.6% to -3.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Apple\u2019s larger share of the U.S. smartphone market is shifting consumer spending patterns.",
+          "text": "Consumer spending slowdown, implied by the high-growth momentum in Indian stocks and the valuation stretch of Marriott, may reduce loan demand and credit quality.",
           "forecast": {
             "low": 1.6,
-            "high": 3.7,
-            "direction": "+",
-            "text": "+1.6% to +3.7%"
+            "high": 3.6,
+            "direction": "-",
+            "text": "-1.6% to -3.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "The broader market rally on Black Friday is adding volatility to financial stocks.",
+          "text": "Bank exposure to high-risk loans and the potential for a tightening credit environment could further dampen financial performance.",
           "forecast": {
             "low": 1.6,
-            "high": 3.7,
-            "direction": "+",
-            "text": "+1.6% to +3.7%"
+            "high": 3.6,
+            "direction": "-",
+            "text": "-1.6% to -3.6%"
           }
         }
       ]
     },
     {
       "sector": "Healthcare",
-      "read": "Bullish",
-      "score": 66,
+      "read": "Neutral",
+      "score": 54,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "Johnson & Johnson\u2019s recent stock performance provides a modest lift to the Healthcare sector.",
+          "text": "Record lung\u2011cancer test volumes are driving a demand shock that is lifting the healthcare sector.",
           "forecast": {
-            "low": 1.3,
-            "high": 3.3,
+            "low": 1.1,
+            "high": 2.7,
             "direction": "+",
-            "text": "+1.3% to +3.3%"
+            "text": "+1.1% to +2.7%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "bioAffinity Technologies reports record lung\u2011cancer test volume, indicating a surge in diagnostic demand",
+          "forecast": {
+            "low": 1.1,
+            "high": 2.7,
+            "direction": "+",
+            "text": "+1.1% to +2.7%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "Pharma stocks are leading a rally in the Sensex and Nifty, reflecting broader sector strength",
+          "forecast": {
+            "low": 1.1,
+            "high": 2.7,
+            "direction": "+",
+            "text": "+1.1% to +2.7%"
+          }
+        },
+        {
+          "role": "supporting",
+          "text": "ARK Invest\u2019s addition of biotech stocks signals renewed investor confidence in the healthcare space",
+          "forecast": {
+            "low": 1.1,
+            "high": 2.7,
+            "direction": "+",
+            "text": "+1.1% to +2.7%"
           }
         }
       ]
     },
     {
       "sector": "Technology",
-      "read": "Bullish",
-      "score": 74,
+      "read": "Neutral",
+      "score": 49,
       "event_type": "demand_shock",
       "drivers": [
         {
           "role": "main",
-          "text": "AI\u2011driven demand shock is propelling the technology sector, particularly chip stocks, to new highs.",
+          "text": "Valuation uncertainty and potential bubble burst are driving the Technology sector\u2019s mixed sentiment.",
           "forecast": {
-            "low": 3.0,
-            "high": 6.7,
-            "direction": "+",
-            "text": "+3.0% to +6.7%"
+            "low": 2.0,
+            "high": 4.6,
+            "direction": "-",
+            "text": "-2.0% to -4.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "Black Friday chip discounts are boosting sales and earnings for semiconductor firms.",
+          "text": "Micron\u2019s claim that the market has peaked too early signals a broader reassessment of chip valuations.",
           "forecast": {
-            "low": 3.0,
-            "high": 6.7,
-            "direction": "+",
-            "text": "+3.0% to +6.7%"
+            "low": 2.0,
+            "high": 4.6,
+            "direction": "-",
+            "text": "-2.0% to -4.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "AI stocks, including Anthropic, are rallying, lifting overall market sentiment.",
+          "text": "Super Micro Computer\u2019s 298% revenue surge yet trading at a fraction of rival valuations highlights a disconnect between earnings growth and market pricing.",
           "forecast": {
-            "low": 3.0,
-            "high": 6.7,
-            "direction": "+",
-            "text": "+3.0% to +6.7%"
+            "low": 2.0,
+            "high": 4.6,
+            "direction": "-",
+            "text": "-2.0% to -4.6%"
           }
         },
         {
           "role": "supporting",
-          "text": "SanDisk\u2019s 10%+ jump reflects strong demand for memory chips amid AI workloads.",
+          "text": "Nvidia\u2019s upcoming Senate testimony and analyst warnings of a sharp swing add to the sector\u2019s volatility risk.",
           "forecast": {
-            "low": 3.0,
-            "high": 6.7,
-            "direction": "+",
-            "text": "+3.0% to +6.7%"
+            "low": 2.0,
+            "high": 4.6,
+            "direction": "-",
+            "text": "-2.0% to -4.6%"
           }
         }
       ]
